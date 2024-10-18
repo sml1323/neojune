@@ -1,15 +1,7 @@
 FROM namugach/ubuntu-basic:24.04-kor
 WORKDIR /root
 
-RUN apt-get install -y software-properties-common \
-&& add-apt-repository ppa:ondrej/php \
-&& apt-get update \
-&& apt-get install -y apache2 mysql-server php8.3
-
-# apahe local 설정
-# /etc/apache2/apache2.conf 파일 마지막에 ServerName localhost 문자열 추가
-RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
-
+RUN apt-get install -y nginx mysql-server
 
 #### 여기부터 SSH 
 RUN mkdir /var/run/sshd
@@ -18,16 +10,10 @@ RUN mkdir /var/run/sshd
 RUN echo 'root:$PASSWORD' |  chpasswd
 
 # ssh 설정 변경
-# root 계정으로의 로그인을 허용한다. 아래 명령을 추가하지 않으면 root 계정으로 로그인이 불가능하다. 
+# root 계정으로의 로그인을 허용한다.
 RUN sed -ri 's/^#?PermitRootLogin\s+.*/PermitRootLogin yes/' /etc/ssh/sshd_config
-# 응용 프로그램이 password 파일을 읽어 오는 대신 PAM이 직접 인증을 수행 하도록 하는 PAM 인증을 활성화
-# RUN sed -ri 's/UsePAM yes/#UsePAM yes/g' /etc/ssh/sshd_config
-
 RUN sed -ri 's/^#Port 22/Port 22/' /etc/ssh/sshd_config
-
 RUN sed -ri 's/^#ListenAddress 0.0.0.0/ListenAddress 0.0.0.0/' /etc/ssh/sshd_config
-
-
 
 # SSH 키 생성
 RUN ssh-keygen -t rsa -f /root/.ssh/id_rsa -q -N ""
@@ -42,7 +28,6 @@ RUN mkdir -p /root/.ssh && \
 RUN echo "Host server*\n \
  StrictHostKeyChecking no\n \
  UserKnownHostsFile=/dev/null" >> /root/.ssh/config
-
 
 # MySQL 초기화 설정
 RUN chown -R mysql:mysql /var/run/mysqld
@@ -68,9 +53,8 @@ RUN echo "[mysqld]\n \
     default-character-set=utf8" >> /etc/mysql/mysql.conf.d/mysqld.cnf
     
 
-
-# apahe, SSH, MySQL 동시에 실행하기 위한 커맨드
+# nginx, SSH, MySQL 동시에 실행하기 위한 커맨드
 CMD [ \
   "/bin/bash", "-c", \
-  "service apache2 start && service mysql start && /usr/sbin/sshd -D" \
+  "service nginx start && service mysql start && /usr/sbin/sshd -D" \
 ]
