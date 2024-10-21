@@ -1,3 +1,7 @@
+
+create database NEW_SCHEMA;
+use NEW_SCHEMA;
+
 -- TB_24_200_출원인
 CREATE TABLE `NEW_SCHEMA`.`tb_24_200_applicant` (
     `applicant_no`    VARCHAR(20)  NOT NULL COMMENT '특허 고객번호', -- 특허 고객번호
