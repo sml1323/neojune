@@ -60,6 +60,7 @@ class MatchData(KiprisObject):
         self.pub_date = ['publicationDate'] # 공고 일자
         self.legal_status_desc = ['applicationStatus', 'registerStatus'] # 법적 상태 설명
         self.drawing = ['imagePath', 'drawing'] # 도면 또는 이미지 경로
+        self.ipcNumber = ["ipcNumber"]
 
     def get_all_keys(arg):
         """
@@ -220,28 +221,39 @@ class TrademarkParams(KiprisParams):
         self.applicantName = applicantName
         self.freeSearch = applicantName
 
+
+class PatentParams(KiprisParams):
+    def __init__(self, service_key):
+        super().__init__(service_key)
+        self.applicant = None
+    
+    def set_applicantName(self, applicantName):
+        self.applicantName = applicantName
+        self.applicant = applicantName
+
 def get_kipris_api_url(service_name):
     return f"http://plus.kipris.or.kr/kipo-api/kipi/{service_name}/getAdvancedSearch"
 
 # 사용 예시
 if __name__ == "__main__":
-    # start = time.time()
-
-    # # 환경 변수에서 서비스 키 불러오기
+    # 환경 변수에서 서비스 키 불러오기
     service_key = os.getenv('SERVICE_KEY')
 
-    trademarkParams = TrademarkParams(service_key)
-    trademarkParams.set_applicantName("120140558200")
-    kipris = Kipris(get_kipris_api_url("trademarkInfoSearchService"), trademarkParams)
-    print(kipris.get_data())
+    if True:
+      patentParams = PatentParams(service_key)
+      patentParams.set_applicantName("120140558200")
+      kipris = Kipris(get_kipris_api_url("patUtiModInfoSearchSevice"), patentParams)
+      print(kipris.get_data())
 
-    desing_prams = DesingPrams(service_key)
-    desing_prams.set_applicantName("420100417169")
-    kipris = Kipris(get_kipris_api_url("designInfoSearchService"), desing_prams)
-    print(kipris.get_data())
-    # print("=========")
-    # desing_prams.numOfRows = 1
-    # print(kipris.get_data())
-    # print(kipris.get_data())
-    # desing_prams.add_page()
-    # print(kipris.get_data())
+
+    if True:
+      trademarkParams = TrademarkParams(service_key)
+      trademarkParams.set_applicantName("120140558200")
+      kipris = Kipris(get_kipris_api_url("trademarkInfoSearchService"), trademarkParams)
+      print(kipris.get_data())
+
+    if True:
+      desing_prams = DesingPrams(service_key)
+      desing_prams.set_applicantName("420100417169")
+      kipris = Kipris(get_kipris_api_url("designInfoSearchService"), desing_prams)
+      print(kipris.get_data())
