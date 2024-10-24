@@ -23,6 +23,9 @@ class Params(KiprisObject):
 
     def next_page(self):
         self.pageNo += 1
+    
+    def goto_page(self, page_number: int):
+        self.pageNo = page_number
 
     def set_applicantName(self, applicantName: str):
         self.applicantName = applicantName
