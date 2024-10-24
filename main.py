@@ -1,4 +1,4 @@
-from api_modules import design_api, patent_api, trademark_api
+from src.api_modules import design_api, patent_api, trademark_api
 import os
 from dotenv import load_dotenv
 import time
