@@ -35,30 +35,37 @@ class KiprisParams(KiprisObject):
 
 
 
+
 class MatchData(KiprisObject):
     def __init__(self):
+        """
+        KIPRIS API에서 반환된 다양한 지식재산권 데이터를 표준화된 형식으로 변환하는 역할을 합니다.
+        이 클래스는 특허, 상표, 디자인 등 여러 종류의 지식재산권 정보에 대한 필드를 매핑하고,
+        API 응답 데이터를 일관된 구조로 변환하여 쉽게 처리할 수 있게 해줍니다.
+        주요 기능으로는 데이터 필드 매핑, 단일 항목 변환, 여러 항목 일괄 변환 등이 있습니다.
+        """
         super().__init__()
-        self.index = ['number', 'indexNo']
-        self.title = ['articleName', 'inventionTitle', 'title']
-        self.applicant = ['applicationName']
-        self.inventor = ['inventorname']
-        self.agent = ['agentName']
-        self.appl_no = ['applicationNumber']
-        self.appl_date = ['applicationDate']
-        self.open_no = ['openNumber']
-        self.open_date = ['openDate']
-        self.reg_no = ['registerNumber']
-        self.reg_date = ['registerDate']
-        self.pub_no = ['publicationNumber']
-        self.pub_date = ['publicationDate']
-        self.legal_status_desc = ['applicationStatus', 'registerStatus']
-        self.drawing = ['imagePath', 'drawing']
+        self.index = ['number', 'indexNo'] # 인덱스 또는 번호
+        self.title = ['articleName', 'inventionTitle', 'title'] # 발명의 제목 또는 상품의 명칭
+        self.applicant = ['applicationName'] # 출원인
+        self.inventor = ['inventorname'] # 발명자
+        self.agent = ['agentName'] # 대리인
+        self.appl_no = ['applicationNumber'] # 출원 번호
+        self.appl_date = ['applicationDate'] # 출원 일자
+        self.open_no = ['openNumber'] # 공개 번호
+        self.open_date = ['openDate'] # 공개 일자
+        self.reg_no = ['registerNumber'] # 등록 번호
+        self.reg_date = ['registerDate'] # 등록 일자
+        self.pub_no = ['publicationNumber'] # 공고 번호
+        self.pub_date = ['publicationDate'] # 공고 일자
+        self.legal_status_desc = ['applicationStatus', 'registerStatus'] # 법적 상태 설명
+        self.drawing = ['imagePath', 'drawing'] # 도면 또는 이미지 경로
 
     def get_all_keys(arg):
         """
         객체의 모든 속성 이름을 리스트로 반환하는 함수
         
-        이 함수는 주어진 객체의 모든 속성 중에서 메서드가 아니고 
+        이 함수는 주어진 객체의 모든 속성 중에서 메서드가 아니고
         언더스코어로 시작하지 않는 속성 이름만을 추출하여 리스트로 반환합니다.
         
         :param arg: 속성을 추출할 객체
@@ -96,11 +103,10 @@ class MatchData(KiprisObject):
                 res.append(self.get_convert_data(item))
         return res
 
-
 class Kipris:
-    def __init__(self, params: KiprisParams):
+    def __init__(self, url:str, params: KiprisParams):
+        self.url = url
         self.params = params
-        pass
 
     def get_response(self) -> requests.Response:
         """
@@ -109,7 +115,7 @@ class Kipris:
         :return: API 응답 객체
         """
         return requests.get(
-            "http://plus.kipris.or.kr/kipo-api/kipi/designInfoSearchService/getAdvancedSearch", 
+            url=self.url,
             params=self.params.get_dict(), 
             timeout=10
         )
@@ -177,7 +183,45 @@ class DesingPrams(KiprisParams):
         self.sortSpec = 'applicationDate'
     
 
+class TrademarkParams(KiprisParams):
+    def __init__(self, service_key):
+        super().__init__(service_key)
+        self.freeSearch = None # applicantName가 들어가야함
+        self.application ='true'
+        self.registration ='true'
+        self.refused ='true'
+        self.expiration ='true'
+        self.withdrawal ='true'
+        self.publication ='true'
+        self.cancel ='true'
+        self.abandonment ='true'
+        self.serviceMark = 'true'
+        self.trademark ='true'
+        self.trademarkServiceMark = 'true'
+        self.businessEmblem = 'true'
+        self.collectiveMark = 'true'
+        self.internationalMark = 'true'
+        self.character ='true'
+        self.figure ='true'
+        self.compositionCharacter ='true'
+        self.figureComposition ='true'
+        self.sound ='true'
+        self.fragrance ='true'
+        self.color ='true'
+        self.dimension ='true'
+        self.colorMixed ='true'
+        self.hologram ='true'
+        self.motion ='true'
+        self.visual ='true'
+        self.invisible ='true'
+        self.sortSpec ='applicationDate'
 
+    def set_applicantName(self, applicantName: str):
+        self.applicantName = applicantName
+        self.freeSearch = applicantName
+
+def get_kipris_api_url(service_name):
+    return f"http://plus.kipris.or.kr/kipo-api/kipi/{service_name}/getAdvancedSearch"
 
 # 사용 예시
 if __name__ == "__main__":
@@ -186,13 +230,18 @@ if __name__ == "__main__":
     # # 환경 변수에서 서비스 키 불러오기
     service_key = os.getenv('SERVICE_KEY')
 
+    trademarkParams = TrademarkParams(service_key)
+    trademarkParams.set_applicantName("120140558200")
+    kipris = Kipris(get_kipris_api_url("trademarkInfoSearchService"), trademarkParams)
+    print(kipris.get_data())
+
     desing_prams = DesingPrams(service_key)
     desing_prams.set_applicantName("420100417169")
-    kipris = Kipris(desing_prams)
+    kipris = Kipris(get_kipris_api_url("designInfoSearchService"), desing_prams)
     print(kipris.get_data())
-    print("=========")
-    desing_prams.numOfRows = 1
-    print(kipris.get_data())
+    # print("=========")
+    # desing_prams.numOfRows = 1
+    # print(kipris.get_data())
     # print(kipris.get_data())
     # desing_prams.add_page()
     # print(kipris.get_data())
