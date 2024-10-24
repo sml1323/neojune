@@ -10,7 +10,7 @@ class KiprisObject:
     def get_dict(self) -> dict:
         return vars(self)
 
-class Params(KiprisObject):
+class KiprisParams(KiprisObject):
     def __init__(self, service_key: str):
         super().__init__()
         self.ServiceKey = service_key # api key
@@ -98,7 +98,7 @@ class MatchData(KiprisObject):
 
 
 class Kipris:
-    def __init__(self, params: Params):
+    def __init__(self, params: KiprisParams):
         self.params = params
         pass
 
@@ -160,7 +160,7 @@ class Kipris:
 
 
 
-class DesingPrams(Params):
+class DesingPrams(KiprisParams):
     def __init__(self, service_key):
         super().__init__(service_key)
         self.open = 'true'
