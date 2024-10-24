@@ -10,6 +10,27 @@ class KiprisObject:
     def get_dict(self) -> dict:
         return vars(self)
 
+class Params(KiprisObject):
+    def __init__(self, service_key: str):
+        super().__init__()
+        self.ServiceKey = service_key # api key
+        self.applicantName = None # 특허 번호
+        self.pageNo = 1  # 기본 페이지 번호
+        self.numOfRows = 1  # 최대 페이지당 건수
+    
+    def prev_page(self):
+        self.pageNo -= 1
+
+    def next_page(self):
+        self.pageNo += 1
+
+    def set_applicantName(self, applicantName: str):
+        self.applicantName = applicantName
+    
+    def set_num_of_rows(self, value: int):
+        self.numOfRows = value
+
+
 
 class MatchData(KiprisObject):
     def __init__(self):
@@ -72,8 +93,9 @@ class MatchData(KiprisObject):
                 res.append(self.get_convert_data(item))
         return res
 
+
 class Kipris:
-    def __init__(self, params: str):
+    def __init__(self, params: Params):
         self.params = params
         pass
 
@@ -83,7 +105,11 @@ class Kipris:
         
         :return: API 응답 객체
         """
-        return requests.get("http://plus.kipris.or.kr/kipo-api/kipi/designInfoSearchService/getAdvancedSearch", params=self.params, timeout=10)
+        return requests.get(
+            "http://plus.kipris.or.kr/kipo-api/kipi/designInfoSearchService/getAdvancedSearch", 
+            params=self.params.get_dict(), 
+            timeout=10
+        )
     
     def get_response_dict(self) -> dict:
         """
@@ -129,22 +155,11 @@ class Kipris:
         return match_data.get_convert_datas(self.get_item())
 
 
-class Params(KiprisObject):
-    def __init__(self, service_key: str):
-        super().__init__()
-        self.ServiceKey = service_key
-        self.applicantName = 420100417169
-        self.pageNo = 1  # 기본 페이지 번호
-        self.numOfRows = 1  # 최대 페이지당 건수
-    
-    def add_pageNo(self):
-        self.pageNo += 1
 
 
 class DesingPrams(Params):
     def __init__(self, service_key):
         super().__init__(service_key)
-
         self.open = 'true'
         self.rejection = 'true'
         self.destroy = 'true'
@@ -159,7 +174,6 @@ class DesingPrams(Params):
         self.sortSpec = 'applicationDate'
     
 
-    
 
 
 # 사용 예시
@@ -170,10 +184,11 @@ if __name__ == "__main__":
     service_key = os.getenv('SERVICE_KEY')
 
     desing_prams = DesingPrams(service_key)
-    kipris = Kipris(desing_prams.get_dict())
+    desing_prams.set_applicantName("420100417169")
+    kipris = Kipris(desing_prams)
     print(kipris.get_data())
     print("=========")
-    desing_prams.numOfRows = 2
+    desing_prams.numOfRows = 1
     print(kipris.get_data())
     # print(kipris.get_data())
     # desing_prams.add_page()
