@@ -6,9 +6,14 @@ import time
 
 load_dotenv()
 
+class KiprisObject:
+    def get_dict(self) -> dict:
+        return vars(self)
 
-class MatchData:
+
+class MatchData(KiprisObject):
     def __init__(self):
+        super().__init__()
         self.index = ['number', 'indexNo']
         self.title = ['articleName', 'inventionTitle', 'title']
         self.applicant = ['applicationName']
@@ -36,9 +41,6 @@ class MatchData:
         :return: 객체의 유효한 속성 이름들의 리스트
         """
         return [attr for attr in dir(arg) if not callable(getattr(arg, attr)) and not attr.startswith("__")]
-    
-    def get_dict(self) -> dict:
-        return vars(self)
     
     def get_convert_data(self, items: dict) -> dict:
         """
@@ -127,12 +129,22 @@ class Kipris:
         return match_data.get_convert_datas(self.get_item())
 
 
-class DesingPrams:
-    def __init__(self, service_key):
+class Params(KiprisObject):
+    def __init__(self, service_key: str):
+        super().__init__()
         self.ServiceKey = service_key
         self.applicantName = 420100417169
         self.pageNo = 1  # 기본 페이지 번호
         self.numOfRows = 1  # 최대 페이지당 건수
+    
+    def add_pageNo(self):
+        self.pageNo += 1
+
+
+class DesingPrams(Params):
+    def __init__(self, service_key):
+        super().__init__(service_key)
+
         self.open = 'true'
         self.rejection = 'true'
         self.destroy = 'true'
@@ -145,12 +157,6 @@ class DesingPrams:
         self.part = 'true'
         self.etc = 'true'
         self.sortSpec = 'applicationDate'
-
-    def get_dict(self):
-        return vars(self)
-    
-    def add_page(self):
-        self.pageNo += 1
     
 
     
