@@ -82,6 +82,7 @@ if __name__ == "__main__":
       patentParams = PatentParams(service_key)
       patentParams.set_applicantName("120140558200")
       kipris = Kipris(util.get_kipris_api_url("patUtiModInfoSearchSevice"), patentParams)
+      kipris.params
       print(kipris.get_data())
 
 

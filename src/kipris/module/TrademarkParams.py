@@ -36,5 +36,11 @@ class TrademarkParams(KiprisParams):
         self.sortSpec ='applicationDate'
 
     def set_applicantName(self, applicantName: str):
+        """
+        출원인 명칭으로 검색하기 위해 사용합니다.
+
+        Args:
+            applicantName (str): 출원인 명칭
+        """
         self.applicantName = applicantName
         self.freeSearch = applicantName

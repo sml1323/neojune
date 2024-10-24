@@ -7,5 +7,10 @@ class PatentParams(KiprisParams):
         self.applicant = None
     
     def set_applicantName(self, applicantName):
+        """특허 출원인 명칭을 설정합니다.
+
+        Args:
+            applicantName (str): 특허 출원인 명칭
+        """
         self.applicantName = applicantName
         self.applicant = applicantName
