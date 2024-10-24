@@ -24,7 +24,7 @@ class MatchData(KiprisObject):
         self.pub_date = ['publicationDate'] # 공고 일자
         self.legal_status_desc = ['applicationStatus', 'registerStatus'] # 법적 상태 설명
         self.drawing = ['imagePath', 'drawing'] # 도면 또는 이미지 경로
-        self.ipcNumber = ["ipcNumber"]
+        self.ipcNumber = ["ipcNumber"] # 국제 특허 분류
 
     def get_all_keys(arg):
         """
