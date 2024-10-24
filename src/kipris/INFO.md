@@ -106,7 +106,26 @@ print(patent_data)
 ```
 
 ## 출력 결과
-```sh
-[{'agent': {}, 'appl_date': '20161229', 'appl_no': '1020160182094', 'applicant': {}, 'drawing': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfcafa1947147e7af93520e6fdba6ed2dbe05227459c2502cde8994a6e47b340397a1360d1c15a24b20ca79a36e9bc19d4f4b5cfdca93330ba', 'index': '1', 'inventor': {}, 'ipcNumber': 'G06Q 50/10|G06Q 30/04|G06Q 30/02', 'legal_status_desc': '거절', 'open_date': '20180709', 'open_no': '1020180077594', 'pub_date': None, 'pub_no': None, 'reg_date': None, 'reg_no': None, 'title': '특허공보 번역 서비스 제공 시스템 및 그 방법'}]
+```json
+[
+  {
+    'agent': {},
+    'appl_date': '20161229',
+    'appl_no': '1020160182094',
+    'applicant': {},
+    'drawing': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfcafa1947147e7af93520e6fdba6ed2dbe05227459c2502cde8994a6e47b340397a1360d1c15a24b20ca79a36e9bc19d4f4b5cfdca93330ba',
+    'index': '1',
+    'inventor': {},
+    'ipcNumber': 'G06Q 50/10|G06Q 30/04|G06Q 30/02',
+    'legal_status_desc': '거절',
+    'open_date': '20180709',
+    'open_no': '1020180077594',
+    'pub_date': None,
+    'pub_no': None,
+    'reg_date': None,
+    'reg_no': None,
+    'title': '특허공보 번역 서비스 제공 시스템 및 그 방법'
+  }
+]
 ```
 
