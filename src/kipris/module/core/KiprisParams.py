@@ -20,9 +20,6 @@ class KiprisParams(KiprisObject):
         numOfRows (int): 페이지당 표시할 최대 결과 수.
 
     Methods:
-        prev_page(): 현재 페이지 번호를 1 감소시킵니다.
-        next_page(): 현재 페이지 번호를 1 증가시킵니다.
-        goto_page(page_number: int): 현재 페이지 번호를 지정된 페이지 번호로 설정합니다.
         set_applicantName(applicantName: str): 출원인 이름을 설정합니다.
         set_num_of_rows(value: int): 페이지당 표시할 최대 결과 수를 설정합니다.
     """
@@ -33,17 +30,6 @@ class KiprisParams(KiprisObject):
         self.pageNo = 1  # 기본 페이지 번호
         self.numOfRows = 1  # 최대 페이지당 건수
     
-    def prev_page(self):
-        """현재 페이지 번호를 1 감소시킵니다."""
-        self.pageNo -= 1
-
-    def next_page(self):
-        """현재 페이지 번호를 1 증가시킵니다."""
-        self.pageNo += 1
-    
-    def goto_page(self, page_number: int):
-        """현재 페이지 번호를 지정된 페이지 번호로 설정합니다."""
-        self.pageNo = page_number
 
     def set_applicantName(self, applicantName: str):
         """출원인 이름을 설정합니다."""

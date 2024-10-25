@@ -71,6 +71,19 @@ class Kipris:
         """
         match_data = MatchData()
         return match_data.get_convert_datas(self.get_item())
+    
+
+    def prev_page(self):
+        """현재 페이지 번호를 1 감소시킵니다."""
+        self.params.pageNo -= 1
+
+    def next_page(self):
+        """현재 페이지 번호를 1 증가시킵니다."""
+        self.params.pageNo += 1
+
+    def goto_page(self, page_number: int):
+        """현재 페이지 번호를 지정된 페이지 번호로 설정합니다."""
+        self.params.pageNo = page_number
 
 
 
@@ -82,17 +95,19 @@ if __name__ == "__main__":
       patentParams = PatentParams(service_key)
       patentParams.set_applicantName("120140558200")
       kipris = Kipris(util.get_kipris_api_url("patUtiModInfoSearchSevice"), patentParams)
-      kipris.params
+      print(kipris.get_data())
+      kipris.next_page()
       print(kipris.get_data())
 
 
-    if True:
+
+    if False:
       trademarkParams = TrademarkParams(service_key)
       trademarkParams.set_applicantName("120140558200")
       kipris = Kipris(util.get_kipris_api_url("trademarkInfoSearchService"), trademarkParams)
       print(kipris.get_data())
 
-    if True:
+    if False:
       desing_prams = DesingPrams(service_key)
       desing_prams.set_applicantName("420100417169")
       kipris = Kipris(util.get_kipris_api_url("designInfoSearchService"), desing_prams)

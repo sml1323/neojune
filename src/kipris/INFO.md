@@ -39,6 +39,9 @@
     * `get_body()`: 파싱된 응답에서 'body' 부분을 추출합니다.
     * `get_item()`: 'body'에서 'items'의 'item' 리스트를 추출합니다.
     * `get_data()`: API에서 받은 데이터를 `MatchData` 객체 리스트로 변환합니다.
+    * `prev_page()`: 현재 페이지 번호를 1 감소시킵니다.
+    * `next_page()`: 현재 페이지 번호를 1 증가시킵니다.
+    * `goto_page()`: 현재 페이지 번호를 지정된 페이지 번호로 설정합니다.
 
 ### 2. `MatchData` (MatchData.py)
 
@@ -72,9 +75,6 @@
     * `pageNo`: 현재 페이지 번호
     * `numOfRows`: 페이지당 표시할 최대 결과 수
 * 메소드:
-    * `prev_page()`: 현재 페이지 번호를 1 감소시킵니다.
-    * `next_page()`: 현재 페이지 번호를 1 증가시킵니다.
-    * `goto_page()`: 현재 페이지 번호를 지정된 페이지 번호로 설정합니다.
     * `set_applicantName()`: 출원인 이름을 설정합니다.
     * `set_num_of_rows()`: 페이지당 표시할 최대 결과 수를 설정합니다.
 
