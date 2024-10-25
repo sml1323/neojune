@@ -20,7 +20,7 @@ service_key = os.getenv('SERVICE_KEY')
 
 page = 1
 total_data = []
-page_size=50
+page_size=48
 
 while True:
     rows = fetch_data_by_page(cursor, 'TB24_100', page=page, page_size=page_size)
