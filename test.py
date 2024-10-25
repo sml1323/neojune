@@ -1,1 +1,1 @@
-minji test
+minji
