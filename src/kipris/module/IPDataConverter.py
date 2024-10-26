@@ -1,6 +1,6 @@
 from .core.KiprisObject import KiprisObject
 
-class MatchData(KiprisObject):
+class IPDataConverter(KiprisObject):
     def __init__(self):
         """
         KIPRIS API에서 반환된 다양한 지식재산권 데이터를 표준화된 형식으로 변환하는 역할을 합니다.

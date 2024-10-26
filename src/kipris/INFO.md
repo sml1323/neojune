@@ -16,7 +16,7 @@
     │   ├── KiprisObject.py
     │   └── KiprisParams.py
     ├── DesingPrams.py
-    ├── MatchData.py
+    ├── IPDataConverter.py
     ├── PatentParams.py
     ├── TrademarkParams.py
     └── util.py
@@ -38,20 +38,20 @@
     * `get_response_dict()`: API 응답을 XML에서 Python 딕셔너리로 파싱합니다.
     * `get_body()`: 파싱된 응답에서 'body' 부분을 추출합니다.
     * `get_item()`: 'body'에서 'items'의 'item' 리스트를 추출합니다.
-    * `get_data()`: API에서 받은 데이터를 `MatchData` 객체 리스트로 변환합니다.
+    * `get_data()`: API에서 받은 데이터를 `IPDataConverter` 객체 리스트로 변환합니다.
     * `prev_page()`: 현재 페이지 번호를 1 감소시킵니다.
     * `next_page()`: 현재 페이지 번호를 1 증가시킵니다.
     * `goto_page()`: 현재 페이지 번호를 지정된 페이지 번호로 설정합니다.
 
-### 2. `MatchData` (MatchData.py)
+### 2. `IPDataConverter` (IPDataConverter.py)
 
 * 역할: KIPRIS API에서 반환된 데이터를 표준화된 형식으로 변환합니다.
 * 속성:
     * `index`, `title`, `applicant`, `inventor`, `agent`, `appl_no`, `appl_date`, `open_no`, `open_date`, `reg_no`, `reg_date`, `pub_no`, `pub_date`, `legal_status_desc`, `drawing`, `ipcNumber`: KIPRIS API 응답 데이터 필드에 대응하는 속성들 (자세한 내용은 코드 주석 참조)
 * 메소드:
     * `get_all_keys()`: 객체의 모든 속성 이름을 리스트로 반환합니다.
-    * `get_convert_data()`: 단일 아이템 딕셔너리를 `MatchData` 클래스의 구조에 맞게 변환합니다.
-    * `get_convert_datas()`: 단일 아이템 또는 아이템 리스트를 `MatchData` 구조로 변환합니다.
+    * `get_convert_data()`: 단일 아이템 딕셔너리를 `IPDataConverter` 클래스의 구조에 맞게 변환합니다.
+    * `get_convert_datas()`: 단일 아이템 또는 아이템 리스트를 `IPDataConverter` 구조로 변환합니다.
 
 ### 3. `PatentParams`, `TrademarkParams`, `DesignParams`
 

@@ -6,7 +6,7 @@ load_dotenv()
 
 import module.util as util
 from module.core.KiprisParams import KiprisParams
-from module.MatchData import MatchData
+from module.IPDataConverter import IPDataConverter
 from module.DesingPrams import DesingPrams
 from module.TrademarkParams import TrademarkParams
 from module.PatentParams import PatentParams
@@ -63,13 +63,13 @@ class Kipris:
         else: 
             return body['items']['item']
 
-    def get_data(self) -> list[MatchData]:
+    def get_data(self) -> list[IPDataConverter]:
         """
         API에서 받은 데이터를 MatchData 객체 리스트로 변환하는 함수
         
         :return: MatchData 객체의 리스트
         """
-        match_data = MatchData()
+        match_data = IPDataConverter()
         return match_data.get_convert_datas(self.get_item())
     
 
