@@ -29,8 +29,7 @@ class Kipris:
         
         :return: API 응답 객체
         """
-        self.params.applicantName = applicant
-        self.params.applicant = applicant
+        self.params.set_applicantName(applicant)
 
         params = self.params.get_dict()
         params['pageNo'] = self.params.pageNo

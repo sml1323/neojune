@@ -35,6 +35,8 @@ class KiprisParams(KiprisObject):
     def set_applicantName(self, applicantName: str):
         """특허번호를 설정합니다."""
         self.applicantName = applicantName
+        self.applicant = applicantName
+        self.freeSearch = applicantName
     
     def set_num_of_rows(self, value: int):
         """페이지당 표시할 최대 결과 수를 설정합니다."""
