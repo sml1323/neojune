@@ -21,7 +21,7 @@ def get_design_info(service_key, applicant) -> list[dict] :
             'ServiceKey': service_key,
             'applicantName': applicant,
             'pageNo': page,  # 기본 페이지 번호
-            'numOfRows': 500,  # 최대 페이지당 건수
+            'numOfRows': 1,  # 최대 페이지당 건수
             'open': 'true',
             'rejection': 'true',
             'destroy': 'true',
@@ -46,6 +46,7 @@ def get_design_info(service_key, applicant) -> list[dict] :
                 
                 # XML 파싱 -> dict
                 api_result = xmltodict.parse(response.content)
+                print(api_result)
 
                 header = api_result['response']['header']
                 body = api_result['response']['body']['items']

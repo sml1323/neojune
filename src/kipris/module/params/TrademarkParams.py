@@ -1,11 +1,10 @@
-from .core.KiprisParams import KiprisParams
-
+from ..core.KiprisParams import KiprisParams
+from ..core.ServiceNames import ServiceNames
 
 
 class TrademarkParams(KiprisParams):
-    def __init__(self, service_key):
-        super().__init__(service_key)
-        self.freeSearch = None # applicantName가 들어가야함
+    def __init__(self):
+        super().__init__(serviceName=ServiceNames.TRADEMARK)
         self.application ='true'
         self.registration ='true'
         self.refused ='true'
@@ -34,13 +33,3 @@ class TrademarkParams(KiprisParams):
         self.visual ='true'
         self.invisible ='true'
         self.sortSpec ='applicationDate'
-
-    def set_applicantName(self, applicantName: str):
-        """
-        출원인 명칭으로 검색하기 위해 사용합니다.
-
-        Args:
-            applicantName (str): 출원인 명칭
-        """
-        self.applicantName = applicantName
-        self.freeSearch = applicantName

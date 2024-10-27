@@ -1,8 +1,9 @@
-from .core.KiprisParams import KiprisParams
+from ..core.KiprisParams import KiprisParams
+from ..core.ServiceNames import ServiceNames
 
 class DesingPrams(KiprisParams):
-    def __init__(self, service_key):
-        super().__init__(service_key)
+    def __init__(self):
+        super().__init__(serviceName=ServiceNames.DESIGN)
         self.open = 'true'
         self.rejection = 'true'
         self.destroy = 'true'
