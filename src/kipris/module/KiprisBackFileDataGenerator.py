@@ -44,4 +44,7 @@ class KiprisBackFileDataGenerator(KiprisObject):
                 # applicant의 경우 params에서 가져오도록 설정
                 elif(key == "applicant"):
                     res[-1][key] = self.params.applicantName
+                elif(key == "ipr_code"):
+                    res[-1]["ipr_code"] = i["applicationNumber"][:2]
+                    
         return res
