@@ -97,9 +97,6 @@ class Kipris:
 
 # 사용 예시
 if __name__ == "__main__":
-    # kipris = Kipris()
-    # 환경 변수에서 서비스 키 불러오기
-    service_key = os.getenv('SERVICE_KEY')
     if True:
         patent_prams = PatentParams()
         kipris = Kipris(patent_prams)
