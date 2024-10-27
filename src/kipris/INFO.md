@@ -2,17 +2,12 @@
 
 - 주소: https://github.com/namugach/neojune/commits/reactory-api-models/
 - 브랜치 이름: reactory-api-models
-- 커밋 해시: 5e347150043cb1d1ccb8eb451585f4b89eaf7808a
+- 커밋 해시: 174c20e6e1684f75c569809de5870701c8f8bf84
 
 ---
 
-## 한국 특허 정보 검색 Python 모듈: Kipris API 연동
 
-### 개요
-
-이 Python 모듈은 한국 특허정보검색시스템 (KIPRIS) Open API를 사용하여 특허, 상표, 디자인 정보를 검색하고 백파일 데이터를 생성하는 기능을 제공합니다.
-
-### 모듈 구조
+## 모듈 구조
 
 ```
 .
@@ -35,9 +30,9 @@
     └── util.py
 ```
 
-### 주요 클래스 및 기능
+## 주요 클래스 및 기능
 
-#### 1. `Kipris` (Kipris.py)
+### 1. `Kipris` (Kipris.py)
 
 * **역할:** KIPRIS API를 호출하고 데이터를 가져오는 핵심 클래스.
 * **속성:**
@@ -51,7 +46,7 @@
     * `next_page()`: 현재 페이지 번호를 1 증가.
     * `goto_page(page_number)`: 현재 페이지 번호를 지정된 페이지 번호로 설정.
 
-#### 2. `KiprisBackFileDataGenerator` (KiprisBackFileDataGenerator.py)
+### 2. `KiprisBackFileDataGenerator` (KiprisBackFileDataGenerator.py)
 
 * **역할:** KIPRIS 백파일 데이터 생성.
 * **속성:**
@@ -60,7 +55,7 @@
 * **메소드:**
     * `create(item)`: 주어진 아이템 목록을 기반으로 백파일 데이터를 생성.
 
-#### 3. `DesignParams`, `PatentParams`, `TrademarkParams` (params 디렉토리)
+### 3. `DesignParams`, `PatentParams`, `TrademarkParams` (params 디렉토리)
 
 * **역할:** 디자인, 특허, 상표 검색 API에 필요한 파라미터 설정.
 * **상속:** `KiprisParams` 클래스를 상속.
@@ -69,19 +64,19 @@
     * `PatentParams`:  특허 검색 파라미터 설정 (applicant).
     * `TrademarkParams`: 상표 검색 파라미터 설정 (freeSearch, application, registration, refused, expiration, withdrawal, publication, cancel, abandonment, serviceMark, trademark, trademarkServiceMark, businessEmblem, collectiveMark, internationalMark, character, figure, compositionCharacter, figureComposition, sound, fragrance, color, dimension, colorMixed, hologram, motion, visual, invisible, sortSpec).
 
-#### 4.  `DesignBackFileDataKeyProp`, `PatentBackFileDataKeyProp`, `TrademarkBackFileDataKeyProp` (backfile_prop 디렉토리)
+### 4.  `DesignBackFileDataKeyProp`, `PatentBackFileDataKeyProp`, `TrademarkBackFileDataKeyProp` (backfile_prop 디렉토리)
 
 * **역할:** 디자인, 특허, 상표 백파일 데이터 키 속성 정의.
 * **상속:** `KiprisBackFileDataKeyProp` 클래스를 상속.
 * **속성:**  각 백파일 데이터에 필요한 키 속성 (예: `index`, `title`, `legal_status_desc`, `drawing`)
 
-#### 5. `KiprisObject` (core/KiprisObject.py)
+### 5. `KiprisObject` (core/KiprisObject.py)
 
 * **역할:** 기본적인 객체 기능 제공.
 * **메소드:**
     * `get_dict()`: 객체를 딕셔너리 형태로 변환.
 
-#### 6. `KiprisParams` (core/KiprisParams.py)
+### 6. `KiprisParams` (core/KiprisParams.py)
 
 * **역할:** KIPRIS API 파라미터 관리.
 * **속성:**
@@ -96,23 +91,23 @@
     * `set_applicantName()`: 출원인 이름 설정.
     * `set_num_of_rows()`: 페이지당 표시할 최대 결과 수 설정.
 
-#### 7. `KiprisBackFileDataKeyProp` (core/KiprisBackFileDataKeyProp.py)
+### 7. `KiprisBackFileDataKeyProp` (core/KiprisBackFileDataKeyProp.py)
 
 * **역할:** KIPRIS 백파일 데이터 키 속성 기본 정의.
 * **속성:**  백파일 데이터에 필요한 키 속성 (예: `index`, `title`, `drawing`, `legal_status_desc`, `ipr_code`, `applicant`, `inventor`, `agent`, `appl_no`, `appl_date`, `open_no`, `open_date`, `reg_no`, `reg_date`, `pub_no`, `pub_date`, `ipc_number`).
 
-#### 8. `ServiceNames` (core/ServiceNames.py)
+### 8. `ServiceNames` (core/ServiceNames.py)
 
 * **역할:**  KIPRIS API 서비스 이름을 Enum으로 정의.
 * **값:** `DESIGN`, `PATENT`, `TRADEMARK`
 
-#### 9. `util` (util.py)
+### 9. `util` (util.py)
 
 * **역할:** KIPRIS API 관련 유틸리티 함수 제공.
 * **함수:**
     * `get_kipris_api_url()`: API 엔드포인트 URL 생성.
 
-### 사용 예시
+## 사용 예시
 
 ```python
 from Kipris import Kipris
@@ -155,7 +150,7 @@ backfile_data_generator = KiprisBackFileDataGenerator(desing_prams, desing_backf
 print(backfile_data_generator.create(item))
 
 ```
-### 출력 결과
+## 출력 결과
 
 ```python
 # 특허
