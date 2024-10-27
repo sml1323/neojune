@@ -1,6 +1,6 @@
 ## git 정보
 
-- 주소: https://github.com/namugach/neojune/commits/reactory-api-models/
+- 주소: https://github.com/namugach/neojune/tree/reactory-api-models
 - 브랜치 이름: reactory-api-models
 - 커밋 해시: 174c20e6e1684f75c569809de5870701c8f8bf84
 
