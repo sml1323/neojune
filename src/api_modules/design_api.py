@@ -45,6 +45,7 @@ def get_design_info(service_key, applicant) -> list[dict] :
             if response.status_code == 200:
                 
                 # XML 파싱 -> dict
+                print(response.content)
                 api_result = xmltodict.parse(response.content)
 
                 header = api_result['response']['header']
