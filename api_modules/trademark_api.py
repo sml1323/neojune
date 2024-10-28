@@ -136,7 +136,9 @@ async def main():
 
     async with aiohttp.ClientSession() as session:
         result = await get_trademark_info(service_key, applicant, session)
+    print(result)
 
 # asyncio 이벤트 루프 실행
 if __name__ == "__main__":
     asyncio.run(main())
+
