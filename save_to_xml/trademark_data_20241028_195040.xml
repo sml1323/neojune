@@ -1,12 +1,142 @@
 <?xml version='1.0' encoding='utf-8'?>
-<responseData><response><applicant>4728</applicant><header /><header /><body><response>
-	<header>
-		<resultCode />
-		<resultMsg />
-	</header>
-	<body>
-		<items>
-			<TotalSearchCount>19</TotalSearchCount>
+<responseData><response><applicant>5576</applicant><header><resultCode /><resultMsg /></header><body><items><TotalSearchCount>3</TotalSearchCount>
+			<TradeMarkInfo>
+				<SerialNumber>1</SerialNumber>
+				<ApplicationNumber>4020020042375</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20020913</ApplicationDate>
+				<PublicNumber>4020030051394</PublicNumber>
+				<PublicDate>20031001</PublicDate>
+				<RegistrationPublicNumber />
+				<RegistrationPublicDate />
+				<RegistrationNumber>4005718040000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20040114</RegistrationDate>
+				<PriorityClaimNumber />
+				<PriorityClaimDate />
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>09</GoodClassificationCode>
+				<ViennaCode>260404|260409</ViennaCode>
+				<ApplicantName>주식회사 메카트로</ApplicantName>
+				<AgentName>신성특허법인(유한)</AgentName>
+				<RegistrationRightholderName>주식회사 메카트로 MECHATRO INC</RegistrationRightholderName>
+				<Title>(주)메카트로 www.mechatro.co.kr</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344e186b2379fa8a7c95f47252bbb76449542d79dfbe3daeaa2999758a8b0c6ec3b</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3e6785e02ee9396dc96211fb2294abcaac31d9e0c06334f7d7f9f8c59e88e57b7</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>2</SerialNumber>
+				<ApplicationNumber>4120020018641</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20020913</ApplicationDate>
+				<PublicNumber>4120040027068</PublicNumber>
+				<PublicDate>20040604</PublicDate>
+				<RegistrationPublicNumber />
+				<RegistrationPublicDate />
+				<RegistrationNumber>4101049290000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20040826</RegistrationDate>
+				<PriorityClaimNumber />
+				<PriorityClaimDate />
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>소멸</ApplicationStatus>
+				<GoodClassificationCode>42</GoodClassificationCode>
+				<ViennaCode>260404|260409</ViennaCode>
+				<ApplicantName>주식회사 메카트로</ApplicantName>
+				<AgentName>신성특허법인(유한)</AgentName>
+				<RegistrationRightholderName>주식회사 메카트로 MECHATRO INC</RegistrationRightholderName>
+				<Title>(주)메카트로 www.mechatro.co.kr</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344fc31205657359d75a08b81569a465015a857f46dcff9963c8aa65e7590d37088</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29c5dc26c0bda670e0fcc7ee051afebaeb4895030a2c86c3fc5f7b15683adcc8ed</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>3</SerialNumber>
+				<ApplicationNumber>4119910001957</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>19910514</ApplicationDate>
+				<PublicNumber>4119920025039</PublicNumber>
+				<PublicDate>19920808</PublicDate>
+				<RegistrationPublicNumber />
+				<RegistrationPublicDate />
+				<RegistrationNumber>4100176800000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>19921002</RegistrationDate>
+				<PriorityClaimNumber />
+				<PriorityClaimDate />
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>소멸</ApplicationStatus>
+				<GoodClassificationCode>112</GoodClassificationCode>
+				<ViennaCode>260304</ViennaCode>
+				<ApplicantName>주식회사 메카트로</ApplicantName>
+				<AgentName>김영철</AgentName>
+				<RegistrationRightholderName>주식회사메카트로</RegistrationRightholderName>
+				<Title>MECHATRO</Title>
+				<FulltextExistFlag>N</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913442fba7eccd63e5959d599199b9bf086eb464e0cdef543eae66332688a33909b6f</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c36331410bb26bba3dee32c3958b3e6fed1c35bb44155a51fbeb24d97b7375cab7</ThumbnailPath>
+			</TradeMarkInfo>
+		</items></body></response><response><applicant>11319</applicant><header><resultCode /><resultMsg /></header><body><items><TotalSearchCount>2</TotalSearchCount>
+			<TradeMarkInfo>
+				<SerialNumber>1</SerialNumber>
+				<ApplicationNumber>4520120000085</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20120106</ApplicationDate>
+				<PublicNumber>4520130066246</PublicNumber>
+				<PublicDate>20130705</PublicDate>
+				<RegistrationPublicNumber />
+				<RegistrationPublicDate />
+				<RegistrationNumber>4500466340000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20131018</RegistrationDate>
+				<PriorityClaimNumber />
+				<PriorityClaimDate />
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>35|42</GoodClassificationCode>
+				<ViennaCode>270519|270901|270904</ViennaCode>
+				<ApplicantName>동아베스텍 주식회사</ApplicantName>
+				<AgentName>김동우</AgentName>
+				<RegistrationRightholderName>동아베스텍 주식회사 DONGA BESTECH CO, LTD</RegistrationRightholderName>
+				<Title>동아베스텍주식회사 DONG-A BESTECH CO., LTD.</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913440ef5b27544fce4c3fd66116728e7c935b973c352ca8546260f8fa1f21b3a43e8</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c36ebe33eaff5c7e5d205a9b781925796f35d2bd080e3732a29eb358911b805313</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>2</SerialNumber>
+				<ApplicationNumber>4119890000230</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>19890130</ApplicationDate>
+				<PublicNumber />
+				<PublicDate>19900728</PublicDate>
+				<RegistrationPublicNumber />
+				<RegistrationPublicDate />
+				<RegistrationNumber>4100123240000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>19900926</RegistrationDate>
+				<PriorityClaimNumber />
+				<PriorityClaimDate />
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>소멸</ApplicationStatus>
+				<GoodClassificationCode>112</GoodClassificationCode>
+				<ViennaCode>270519</ViennaCode>
+				<ApplicantName>동아베스텍 주식회사</ApplicantName>
+				<AgentName>김태원</AgentName>
+				<RegistrationRightholderName>동아전자부품주식회사</RegistrationRightholderName>
+				<Title>동아전자부품주식회사 동아전자부품주식회사 DONG-A ELECTRONIC COMPONENTS CO.,LTD.</Title>
+				<FulltextExistFlag>N</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913440438cbf6ff9b3ca9af8e847857f0f2937e9a98d38f0d9478397b902b1d34ff51</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c37b2eecebd987877215267cec43136785c3d53ff80d23213da326bfe8e141411c</ThumbnailPath>
+			</TradeMarkInfo>
+		</items></body></response><response><applicant>4728</applicant><header><resultCode /><resultMsg /></header><body><items><TotalSearchCount>19</TotalSearchCount>
 			<TradeMarkInfo>
 				<SerialNumber>1</SerialNumber>
 				<ApplicationNumber>5020030010961</ApplicationNumber>
@@ -520,161 +650,4 @@
 				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344e942f178b80b2e74a29a4672ea4ef2779fd41858071ce6f3c0300283792db98b</ImagePath>
 				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3abc351d85857a5401bdcd4de33d31e3d3a436866cbe09714b67fb8df82567e28</ThumbnailPath>
 			</TradeMarkInfo>
-		</items>
-	</body>
-</response></body></response><response><applicant>5576</applicant><header /><header /><body><response>
-	<header>
-		<resultCode />
-		<resultMsg />
-	</header>
-	<body>
-		<items>
-			<TotalSearchCount>3</TotalSearchCount>
-			<TradeMarkInfo>
-				<SerialNumber>1</SerialNumber>
-				<ApplicationNumber>4020020042375</ApplicationNumber>
-				<AppReferenceNumber> </AppReferenceNumber>
-				<ApplicationDate>20020913</ApplicationDate>
-				<PublicNumber>4020030051394</PublicNumber>
-				<PublicDate>20031001</PublicDate>
-				<RegistrationPublicNumber />
-				<RegistrationPublicDate />
-				<RegistrationNumber>4005718040000</RegistrationNumber>
-				<RegReferenceNumber> </RegReferenceNumber>
-				<RegistrationDate>20040114</RegistrationDate>
-				<PriorityClaimNumber />
-				<PriorityClaimDate />
-				<InternationalRegisterNumber> </InternationalRegisterNumber>
-				<InternationalRegisterDate> </InternationalRegisterDate>
-				<ApplicationStatus>등록</ApplicationStatus>
-				<GoodClassificationCode>09</GoodClassificationCode>
-				<ViennaCode>260404|260409</ViennaCode>
-				<ApplicantName>주식회사 메카트로</ApplicantName>
-				<AgentName>신성특허법인(유한)</AgentName>
-				<RegistrationRightholderName>주식회사 메카트로 MECHATRO INC</RegistrationRightholderName>
-				<Title>(주)메카트로 www.mechatro.co.kr</Title>
-				<FulltextExistFlag>Y</FulltextExistFlag>
-				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344e186b2379fa8a7c95f47252bbb76449542d79dfbe3daeaa2999758a8b0c6ec3b</ImagePath>
-				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3e6785e02ee9396dc96211fb2294abcaac31d9e0c06334f7d7f9f8c59e88e57b7</ThumbnailPath>
-			</TradeMarkInfo>
-			<TradeMarkInfo>
-				<SerialNumber>2</SerialNumber>
-				<ApplicationNumber>4120020018641</ApplicationNumber>
-				<AppReferenceNumber> </AppReferenceNumber>
-				<ApplicationDate>20020913</ApplicationDate>
-				<PublicNumber>4120040027068</PublicNumber>
-				<PublicDate>20040604</PublicDate>
-				<RegistrationPublicNumber />
-				<RegistrationPublicDate />
-				<RegistrationNumber>4101049290000</RegistrationNumber>
-				<RegReferenceNumber> </RegReferenceNumber>
-				<RegistrationDate>20040826</RegistrationDate>
-				<PriorityClaimNumber />
-				<PriorityClaimDate />
-				<InternationalRegisterNumber> </InternationalRegisterNumber>
-				<InternationalRegisterDate> </InternationalRegisterDate>
-				<ApplicationStatus>소멸</ApplicationStatus>
-				<GoodClassificationCode>42</GoodClassificationCode>
-				<ViennaCode>260404|260409</ViennaCode>
-				<ApplicantName>주식회사 메카트로</ApplicantName>
-				<AgentName>신성특허법인(유한)</AgentName>
-				<RegistrationRightholderName>주식회사 메카트로 MECHATRO INC</RegistrationRightholderName>
-				<Title>(주)메카트로 www.mechatro.co.kr</Title>
-				<FulltextExistFlag>Y</FulltextExistFlag>
-				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344fc31205657359d75a08b81569a465015a857f46dcff9963c8aa65e7590d37088</ImagePath>
-				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29c5dc26c0bda670e0fcc7ee051afebaeb4895030a2c86c3fc5f7b15683adcc8ed</ThumbnailPath>
-			</TradeMarkInfo>
-			<TradeMarkInfo>
-				<SerialNumber>3</SerialNumber>
-				<ApplicationNumber>4119910001957</ApplicationNumber>
-				<AppReferenceNumber> </AppReferenceNumber>
-				<ApplicationDate>19910514</ApplicationDate>
-				<PublicNumber>4119920025039</PublicNumber>
-				<PublicDate>19920808</PublicDate>
-				<RegistrationPublicNumber />
-				<RegistrationPublicDate />
-				<RegistrationNumber>4100176800000</RegistrationNumber>
-				<RegReferenceNumber> </RegReferenceNumber>
-				<RegistrationDate>19921002</RegistrationDate>
-				<PriorityClaimNumber />
-				<PriorityClaimDate />
-				<InternationalRegisterNumber> </InternationalRegisterNumber>
-				<InternationalRegisterDate> </InternationalRegisterDate>
-				<ApplicationStatus>소멸</ApplicationStatus>
-				<GoodClassificationCode>112</GoodClassificationCode>
-				<ViennaCode>260304</ViennaCode>
-				<ApplicantName>주식회사 메카트로</ApplicantName>
-				<AgentName>김영철</AgentName>
-				<RegistrationRightholderName>주식회사메카트로</RegistrationRightholderName>
-				<Title>MECHATRO</Title>
-				<FulltextExistFlag>N</FulltextExistFlag>
-				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913442fba7eccd63e5959d599199b9bf086eb464e0cdef543eae66332688a33909b6f</ImagePath>
-				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c36331410bb26bba3dee32c3958b3e6fed1c35bb44155a51fbeb24d97b7375cab7</ThumbnailPath>
-			</TradeMarkInfo>
-		</items>
-	</body>
-</response></body></response><response><applicant>11319</applicant><header /><header /><body><response>
-	<header>
-		<resultCode />
-		<resultMsg />
-	</header>
-	<body>
-		<items>
-			<TotalSearchCount>2</TotalSearchCount>
-			<TradeMarkInfo>
-				<SerialNumber>1</SerialNumber>
-				<ApplicationNumber>4520120000085</ApplicationNumber>
-				<AppReferenceNumber> </AppReferenceNumber>
-				<ApplicationDate>20120106</ApplicationDate>
-				<PublicNumber>4520130066246</PublicNumber>
-				<PublicDate>20130705</PublicDate>
-				<RegistrationPublicNumber />
-				<RegistrationPublicDate />
-				<RegistrationNumber>4500466340000</RegistrationNumber>
-				<RegReferenceNumber> </RegReferenceNumber>
-				<RegistrationDate>20131018</RegistrationDate>
-				<PriorityClaimNumber />
-				<PriorityClaimDate />
-				<InternationalRegisterNumber> </InternationalRegisterNumber>
-				<InternationalRegisterDate> </InternationalRegisterDate>
-				<ApplicationStatus>등록</ApplicationStatus>
-				<GoodClassificationCode>35|42</GoodClassificationCode>
-				<ViennaCode>270519|270901|270904</ViennaCode>
-				<ApplicantName>동아베스텍 주식회사</ApplicantName>
-				<AgentName>김동우</AgentName>
-				<RegistrationRightholderName>동아베스텍 주식회사 DONGA BESTECH CO, LTD</RegistrationRightholderName>
-				<Title>동아베스텍주식회사 DONG-A BESTECH CO., LTD.</Title>
-				<FulltextExistFlag>Y</FulltextExistFlag>
-				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913440ef5b27544fce4c3fd66116728e7c935b973c352ca8546260f8fa1f21b3a43e8</ImagePath>
-				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c36ebe33eaff5c7e5d205a9b781925796f35d2bd080e3732a29eb358911b805313</ThumbnailPath>
-			</TradeMarkInfo>
-			<TradeMarkInfo>
-				<SerialNumber>2</SerialNumber>
-				<ApplicationNumber>4119890000230</ApplicationNumber>
-				<AppReferenceNumber> </AppReferenceNumber>
-				<ApplicationDate>19890130</ApplicationDate>
-				<PublicNumber />
-				<PublicDate>19900728</PublicDate>
-				<RegistrationPublicNumber />
-				<RegistrationPublicDate />
-				<RegistrationNumber>4100123240000</RegistrationNumber>
-				<RegReferenceNumber> </RegReferenceNumber>
-				<RegistrationDate>19900926</RegistrationDate>
-				<PriorityClaimNumber />
-				<PriorityClaimDate />
-				<InternationalRegisterNumber> </InternationalRegisterNumber>
-				<InternationalRegisterDate> </InternationalRegisterDate>
-				<ApplicationStatus>소멸</ApplicationStatus>
-				<GoodClassificationCode>112</GoodClassificationCode>
-				<ViennaCode>270519</ViennaCode>
-				<ApplicantName>동아베스텍 주식회사</ApplicantName>
-				<AgentName>김태원</AgentName>
-				<RegistrationRightholderName>동아전자부품주식회사</RegistrationRightholderName>
-				<Title>동아전자부품주식회사 동아전자부품주식회사 DONG-A ELECTRONIC COMPONENTS CO.,LTD.</Title>
-				<FulltextExistFlag>N</FulltextExistFlag>
-				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913440438cbf6ff9b3ca9af8e847857f0f2937e9a98d38f0d9478397b902b1d34ff51</ImagePath>
-				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c37b2eecebd987877215267cec43136785c3d53ff80d23213da326bfe8e141411c</ThumbnailPath>
-			</TradeMarkInfo>
-		</items>
-	</body>
-</response></body></response></responseData>
+		</items></body></response></responseData>

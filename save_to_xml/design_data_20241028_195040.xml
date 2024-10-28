@@ -1,0 +1,2161 @@
+<?xml version='1.0' encoding='utf-8'?>
+<responseData><response><applicant>5576</applicant><header><resultCode /><resultMsg /></header><body><items><totalCount>1</totalCount>
+			<DesignInfo>
+				<number>1</number>
+				<applicationNumber>3020210019316</applicationNumber>
+				<applicationDate>20210421</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20210825</publicationDate>
+				<registrationDate>20210818</registrationDate>
+				<registrationNumber>3011244660000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>주식회사 메카트로</applicantName>
+				<agentName>특허법인주원</agentName>
+				<fullText>Y</fullText>
+				<inventorName>고정석|남창우|전재완|정종성</inventorName>
+				<articleName>지폐계수기</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>J441</designMainClassification>
+				<dsShpClssCd>J441</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0c87c7ad0d9e286bed75c617e338c490d0b52bbe1949c4f0a7624149d88d6aa0f7de01e5da00cad8310f967ce261403d9</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa5453609be60cc74c289674a5f181e903ce2e7c699f53e596a688ab3843005c23bb50304f06cff8e9bf25bf8ef92bec678</imagePathLarge>
+			</DesignInfo>
+		</items></body></response><response><applicant>11319</applicant><header><resultCode /><resultMsg /></header><body><items><totalCount>62</totalCount>
+			<DesignInfo>
+				<number>1</number>
+				<applicationNumber>3019950021058</applicationNumber>
+				<applicationDate>19951103</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>19970214</publicationDate>
+				<registrationDate>19970108</registrationDate>
+				<registrationNumber>3001916340000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate>19950411</priorityDate>
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>문한성</agentName>
+				<fullText>Y</fullText>
+				<inventorName>동아베스텍 주식회사</inventorName>
+				<articleName>도어록용 문의 개폐구</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>M329</designMainClassification>
+				<dsShpClssCd>M329|M329T</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c81397497f192ef840bd57d78fa20739dc91ae138f68d0ff14098f58c6fe6f835d8c9412d4dae388963b574</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642cc156afc18c8b413d624834adf470df8e0a5c93e16f3753afa03f5900fd04fb5018b6e2204ebd7459</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>2</number>
+				<applicationNumber>3020080037840</applicationNumber>
+				<applicationDate>20080901</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20090615</publicationDate>
+				<registrationDate>20090604</registrationDate>
+				<registrationNumber>3005307610000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>케이블 고정구</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H24260</designMainClassification>
+				<dsShpClssCd>H24260</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c81397476d664ab5b4538a9275cbc229121bd0ce6eaf944602af04e3bda1225cb916f1f22e1855a3c2e8ddc</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c27da91f7a1a36d588430b831324961f60130fd34b844d46b176c412a3c6493eccf0918524982b90a</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>3</number>
+				<applicationNumber>3020050036510</applicationNumber>
+				<applicationDate>20051029</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20060523</publicationDate>
+				<registrationDate>20060517</registrationDate>
+				<registrationNumber>3004151400000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>케이블 고정구</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H24260</designMainClassification>
+				<dsShpClssCd>H24260</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974ba18a606ff14cb0eba8d3cc1d7748d85ccb732b58b6b9a2b437a6b06b0846448c9a94fd9463a490e</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c8b064a319f70a22cd6de7c3fd8e039bfb2df1a7227a2b83077c725101041b0f31d074df821e4f803</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>4</number>
+				<applicationNumber>3020050036509</applicationNumber>
+				<applicationDate>20051029</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20060523</publicationDate>
+				<registrationDate>20060517</registrationDate>
+				<registrationNumber>3004151390000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>케이블 고정구</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H24260</designMainClassification>
+				<dsShpClssCd>H24260</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974ba18a606ff14cb0eba8d3cc1d7748d8514e928cfc8249089d3e1687327a04d0214db1de07c4fcefb</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c8b064a319f70a22cd6de7c3fd8e039bf46376c0c0872617720ddcc47021532529aa11283883b303a</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>5</number>
+				<applicationNumber>3020050015705</applicationNumber>
+				<applicationDate>20050511</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20060524</publicationDate>
+				<registrationDate>20060516</registrationDate>
+				<registrationNumber>3004150120000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>터미널블록용 전선고정 스프링</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H24260</designMainClassification>
+				<dsShpClssCd>H24260</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974ba18a606ff14cb0e76e0d487ac476bdaa5fdf029d3b357382770e320c751dfaf8768a9797e188e72</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c8b064a319f70a22cc2402984232a56dfa77513739806cab102aebaed74c96a1e1158ac259b88be90</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>6</number>
+				<applicationNumber>3020020024192</applicationNumber>
+				<applicationDate>20020826</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20030527</publicationDate>
+				<registrationDate>20030514</registrationDate>
+				<registrationNumber>3003246440000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>터미널 블럭</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H1331</designMainClassification>
+				<dsShpClssCd>H1331</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c8139744ad04cec08f04e83fbf4fdcbd79a3f719ef399f0bf945400c2288ef9c33ef96125722b171762b29c</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642ca0e702e898cbdfa2ce9a1bfc83ed044ac9e8c50f635b2f1631f1a9b66c3d6e6526335a82bc8d1721</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>7</number>
+				<applicationNumber>3020110038598</applicationNumber>
+				<applicationDate>20110916</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20121224</publicationDate>
+				<registrationDate>20121217</registrationDate>
+				<registrationNumber>3006735410000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>에어컨용 과열감지 온도센서</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>D4390</designMainClassification>
+				<dsShpClssCd>D4390</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0e0099d957425cf90a309b307c9c640126827df1e8b01de09ecd7d925e307b7b7c7bb733741d33000e282043189180517</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a4389985e80c60c4d1f1776734ccb87c5655860d80835089ba740cf83f5717a3ed6a534e30e99fa3e3a46ebad81a178009efccb9e2b08f5a3452679</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>8</number>
+				<applicationNumber>3020070010003</applicationNumber>
+				<applicationDate>20070308</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20071122</publicationDate>
+				<registrationDate>20071115</registrationDate>
+				<registrationNumber>3004700930000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>전선결속밴드용 고정편</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H246</designMainClassification>
+				<dsShpClssCd>H246</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c8139745b8c637ff512490547c53aac20f9e8c8cb48a79fec38b6c92f0ca04ab1af94cf918f91dbac49167d</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c2b4e6d7bf9256d5ef441e05800987df94f39c29fb7c2920084cda1d4537beb08215702420be9fc30</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>9</number>
+				<applicationNumber>3020070010001</applicationNumber>
+				<applicationDate>20070308</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20071122</publicationDate>
+				<registrationDate>20071115</registrationDate>
+				<registrationNumber>3004700900000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>전선결속 밴드</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H246</designMainClassification>
+				<dsShpClssCd>H246</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c8139745b8c637ff512490547c53aac20f9e8c8cb48a79fec38b6c941477b673b967cd996b6854a1da02be6</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c2b4e6d7bf9256d5ef441e05800987df94f39c29fb7c292004f2e4ca0dbf8c88d996892bb48ee6673</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>10</number>
+				<applicationNumber>3020070010002</applicationNumber>
+				<applicationDate>20070308</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20071122</publicationDate>
+				<registrationDate>20071115</registrationDate>
+				<registrationNumber>3004700920000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>전선결속 밴드</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H246</designMainClassification>
+				<dsShpClssCd>H246</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c8139745b8c637ff512490547c53aac20f9e8c8cb48a79fec38b6c903bbeb26227c4c865357626ea9bb144e</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c2b4e6d7bf9256d5ef441e05800987df94f39c29fb7c29200402a03b5544c8c718678b7364e63d26b</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>11</number>
+				<applicationNumber>3020070007099</applicationNumber>
+				<applicationDate>20070215</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20070911</publicationDate>
+				<registrationDate>20070905</registrationDate>
+				<registrationNumber>3004622080000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>터미널블록용 보호덮개</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H139</designMainClassification>
+				<dsShpClssCd>H139</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c8139745b8c637ff512490509bfba1f92bdfa4d98c9d487a5f5e939dc4fc811c4f0d3dc511dc1a3d098c048</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c2b4e6d7bf9256d5eec775ea0b5db5afea7e86fc4ceb821d1f1e60d177b9c044f1f67da9830e3bb12</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>12</number>
+				<applicationNumber>3019990026625</applicationNumber>
+				<applicationDate>19991105</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20010315</publicationDate>
+				<registrationDate>20010117</registrationDate>
+				<registrationNumber>3002723090000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>문한성</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>전선결속구</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H246|F4922</designMainClassification>
+				<dsShpClssCd>H246|F4922</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c8139747b4e0c4fa9e99992b5d53748cf2b847e37ccb83ff812954e5a7df9a6043a365c9ce6767fee6cfc20</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642ce21675102a26dae9dbdb07ef76419c23065be26a538ef3683fc48b23dcc6750e224a8a0ccffe67f4</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>13</number>
+				<applicationNumber>3020020013491</applicationNumber>
+				<applicationDate>20020509</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20030407</publicationDate>
+				<registrationDate>20030325</registrationDate>
+				<registrationNumber>3003214060000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>전선체결대</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H246</designMainClassification>
+				<dsShpClssCd>H246</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c8139744ad04cec08f04e83b30b5420dcbbbe232f8d33e8a6761239cbe38598606c66e4d1084b65661927f4</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642ca0e702e898cbdfa24974ead83939867f61f6d03ab66cd7ca54614d0fde3edc0735750d0c02833daa</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>14</number>
+				<applicationNumber>3019980013569</applicationNumber>
+				<applicationDate>19980814</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>19990816</publicationDate>
+				<registrationDate>19990617</registrationDate>
+				<registrationNumber>3002433930000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>문한성</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>케이블타이용 절단기</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>K1220</designMainClassification>
+				<dsShpClssCd>K1220</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974d2f6898265f9eb3f56e826818227072a229218fa56fb19d2d3549b506f70099c50e908249170919c</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c9bda5e7b940036a128076a8eb24c9ac4399265264ea1597df6e88d40cc18400d09c97dbf6dbc70ba</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>15</number>
+				<applicationNumber>3020050007740</applicationNumber>
+				<applicationDate>20050309</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20051108</publicationDate>
+				<registrationDate>20051031</registrationDate>
+				<registrationNumber>3003976180000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>커넥터</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H1333</designMainClassification>
+				<dsShpClssCd>H1333</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974ba18a606ff14cb0e50355d014e08e144c632aad2249ff33ae1529e6f059a15258fadeb076aacfa8e</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c8b064a319f70a22c43dc6462c436dafca653dff1abc9150e6ce8553370af81125b8dd4855364f2c1</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>16</number>
+				<applicationNumber>3020090049542</applicationNumber>
+				<applicationDate>20091111</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20110317</publicationDate>
+				<registrationDate>20110307</registrationDate>
+				<registrationNumber>3005919940000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>케이블 타이</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H246</designMainClassification>
+				<dsShpClssCd>H246</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0101fc9c6f70783b61ab5232b7b0496ee8035a66cfb7db9dd422be04e84d006af6fdae5e2388de1886d3d1d60e2109653</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a4389985e80c60c4d1f17762f6be2775106794fe0464e6790a8c382b7356fefd97f24b17a0eeb90a2f643fd37040bb00cc101f7e6a09332bc26c8b7</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>17</number>
+				<applicationNumber>3020070019113</applicationNumber>
+				<applicationDate>20070502</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20071212</publicationDate>
+				<registrationDate>20071204</registrationDate>
+				<registrationNumber>3004720220000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>터미널블록용 고정편</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H139</designMainClassification>
+				<dsShpClssCd>H139</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c8139745b8c637ff51249056195dd4c253cbb1b0d833ab46b55fc4a3ff952965235babd881375630817afe0</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c2b4e6d7bf9256d5e2ae3899e7a94132b6737efecc5b33bb93a19cf5957387ef14b75e186d5e79bd3</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>18</number>
+				<applicationNumber>3020050007736</applicationNumber>
+				<applicationDate>20050309</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20060111</publicationDate>
+				<registrationDate>20060103</registrationDate>
+				<registrationNumber>3003976020001</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>단자대</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H1332</designMainClassification>
+				<dsShpClssCd>H1332</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974ba18a606ff14cb0e50355d014e08e144c35f2dc96aa34da1522c6284c78c101f7884ba5dbaa6ff0e</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c8b064a319f70a22c43dc6462c436dafcfec4c4d1d14d9cf64d6bffb4b554cca667bf4d8c8fbe8ebc</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>19</number>
+				<applicationNumber>3020040031622</applicationNumber>
+				<applicationDate>20041015</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20050811</publicationDate>
+				<registrationDate>20050804</registrationDate>
+				<registrationNumber>3003890970000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>케이블타이</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H24260</designMainClassification>
+				<dsShpClssCd>H24260</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974d8ba9c5446f8193c4c0c035c1a0bbb8360951883c82620ddc85f797b92d6f174f4a3cf344494c546</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642cab65cb0d91d2dfb4655818a40183d1c744769a114c46dd233af9e40063cce889f3c266ac86587d7e</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>20</number>
+				<applicationNumber>3020000021064</applicationNumber>
+				<applicationDate>20000812</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20011220</publicationDate>
+				<registrationDate>20011119</registrationDate>
+				<registrationNumber>3002871940000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>터미널블록</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H1331</designMainClassification>
+				<dsShpClssCd>H1331</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c8139744e9b7b9ad9e6725b535446b49c0cd876f1832dc3823130867b2851560926180234a2d10a952ff4cb</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642cd56dcb0e0f0995b006449c7f1c85a4a76b1391de425bd9edc3c1b21b8c2e5ecf3b0a2e626b9c8211</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>21</number>
+				<applicationNumber>3019980005795</applicationNumber>
+				<applicationDate>19980411</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>19990320</publicationDate>
+				<registrationDate>19981222</registrationDate>
+				<registrationNumber>3002346850000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>문한성</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>케이블 타이용 절단기</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>K1220</designMainClassification>
+				<dsShpClssCd>K1220</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974d2f6898265f9eb3ff32959b2057a5ea2c35e7b69a1b8d37f2cee7c0908da65c8bb00ef7b1acda5d5</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c9bda5e7b940036a12b86d080b42ef78413f4f357d15a1a606257c9119fa35ea29f90260518d2fd6d</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>22</number>
+				<applicationNumber>3019970027123</applicationNumber>
+				<applicationDate>19971224</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>19990218</publicationDate>
+				<registrationDate>19981114</registrationDate>
+				<registrationNumber>3002317990000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>문한성</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>코일 고정구</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H1439</designMainClassification>
+				<dsShpClssCd>H1439</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c8139742283b436ff3680cae7d5dc35938ee6d0b967d54c4a2303b6311cc6315b3542760f01f04f24370510</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c9034b169d4744793a14f689bf9ff92c4e5dee2b3609ea8f09410ca55fe34f8f1277c4a4e0e4a21f7</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>23</number>
+				<applicationNumber>3020050022216</applicationNumber>
+				<applicationDate>20050704</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20060426</publicationDate>
+				<registrationDate>20060419</registrationDate>
+				<registrationNumber>3004125230000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>케이블 고정구</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H24260</designMainClassification>
+				<dsShpClssCd>H24260</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974ba18a606ff14cb0e090ba66a263c20186ffae2706c1dc951efc62bff0bdf35caf54b6c6b85c138f5</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c8b064a319f70a22c537e6594c0ff5e5a844273cb1e5ad724c83a8649e19b7884c95ff044ed3edab1</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>24</number>
+				<applicationNumber>3020050008935</applicationNumber>
+				<applicationDate>20050318</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20051214</publicationDate>
+				<registrationDate>20051207</registrationDate>
+				<registrationNumber>3004014860000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>케이블타이용 체결구</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>K1260</designMainClassification>
+				<dsShpClssCd>K1260</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974ba18a606ff14cb0ea372c8af9f8c1392f202a3cd07c024bea52527808860dd96504ff5d3732a3037</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c8b064a319f70a22c0d517f3b47b237b0b4639107eb4ef886629d8a98311551bb046d3852289c0d3a</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>25</number>
+				<applicationNumber>3019970026378</applicationNumber>
+				<applicationDate>19971215</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>19990320</publicationDate>
+				<registrationDate>19981222</registrationDate>
+				<registrationNumber>3002317970001</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>문한성</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>터미널 블록</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H1331</designMainClassification>
+				<dsShpClssCd>H1331</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c8139742283b436ff3680ca1632b6884ed28521acbe5358a1b4220d50e6125f2d1fc4d7d7fae2b8c38e8b10</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c9034b169d47447936e689fba49c8b65093c4fe07bb0fca5c519af1efe4531618a0462ced24fe6d05</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>26</number>
+				<applicationNumber>3020050007735</applicationNumber>
+				<applicationDate>20050309</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20060111</publicationDate>
+				<registrationDate>20060103</registrationDate>
+				<registrationNumber>3003976020002</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>단자대</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H1332</designMainClassification>
+				<dsShpClssCd>H1332</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974ba18a606ff14cb0e50355d014e08e144c35f2dc96aa34da167888dc296880ac0832d9e8391efb125</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c8b064a319f70a22c43dc6462c436dafcfec4c4d1d14d9cf6648fe844797c19b58632b4f7a0dbb3d4</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>27</number>
+				<applicationNumber>3020050007734</applicationNumber>
+				<applicationDate>20050309</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20051108</publicationDate>
+				<registrationDate>20051031</registrationDate>
+				<registrationNumber>3003976020000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>단자대</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H1332</designMainClassification>
+				<dsShpClssCd>H1332</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974ba18a606ff14cb0e50355d014e08e144c35f2dc96aa34da11eaaacb186ee62cae0fed59b49f865d7</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c8b064a319f70a22c43dc6462c436dafcfec4c4d1d14d9cf6f268c8a9037a38eca6a741f79cb7af52</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>28</number>
+				<applicationNumber>3019980013570</applicationNumber>
+				<applicationDate>19980814</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>19991001</publicationDate>
+				<registrationDate>19990811</registrationDate>
+				<registrationNumber>3002462250000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>문한성</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>케이블타이 절단기용 래치핸들</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>K1220</designMainClassification>
+				<dsShpClssCd>K1220</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974d2f6898265f9eb3f56e826818227072aaa21b76bd3595445263acbed7a936d7792c3d58fa667bfb2</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c9bda5e7b940036a128076a8eb24c9ac491f169b22f7202ca4d11132a89ab32a420af6f8d45cc2af1</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>29</number>
+				<applicationNumber>3020130019297</applicationNumber>
+				<applicationDate>20130412</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20140311</publicationDate>
+				<registrationDate>20140228</registrationDate>
+				<registrationNumber>3007325460000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>터미널 블럭</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H1331</designMainClassification>
+				<dsShpClssCd>H1331</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0add6326f9cdd09cfeda13ee7b21cf7573e38ad7e19163916976fdeca7d569056dba32b5188da49a914e6b82ed76db972</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa53884e9846f95843f299fa12b599517d1e88189354d5a44a9411c63090f903e0988ea85cc0d2c58b1b73ea101cf9216e4</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>30</number>
+				<applicationNumber>3020050003959</applicationNumber>
+				<applicationDate>20050204</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20051214</publicationDate>
+				<registrationDate>20051207</registrationDate>
+				<registrationNumber>3004014840000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>전선결속밴드용 체결헤드</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H24260</designMainClassification>
+				<dsShpClssCd>H24260</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974ba18a606ff14cb0eeba5afa48c5681c079e5019a7128369a1e56e7889433377452da82d190830e87</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c8b064a319f70a22c1ef1a4df7ff7ad49a0a34f46f1a38958a641be4064773292fd3b05761716eb68</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>31</number>
+				<applicationNumber>3019990005824</applicationNumber>
+				<applicationDate>19990324</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20000115</publicationDate>
+				<registrationDate>19991103</registrationDate>
+				<registrationNumber>3002507390000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>문한성</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>전선연결콘넥터용스프링</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H139|M301</designMainClassification>
+				<dsShpClssCd>H139|M301</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c8139747b4e0c4fa9e9999269f1a1ebab96e3c60f66874168c506caf128365863186f51cbd542994c3af880</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642ce21675102a26dae99c63a85e71a1ee50742650b10b337e0d2117dcb539a399606fc4e13311d003c5</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>32</number>
+				<applicationNumber>3019970027124</applicationNumber>
+				<applicationDate>19971224</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>19990218</publicationDate>
+				<registrationDate>19981114</registrationDate>
+				<registrationNumber>3002318000000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>문한성</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>코일 고정구</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H1439</designMainClassification>
+				<dsShpClssCd>H1439</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c8139742283b436ff3680cae7d5dc35938ee6d0b967d54c4a2303b6d870855966575664919f9fc73304ee5f</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c9034b169d4744793a14f689bf9ff92c4e5dee2b3609ea8f018a29f1e80da4f54f9ee829fde6c90d8</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>33</number>
+				<applicationNumber>3020000029398</applicationNumber>
+				<applicationDate>20001117</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20020116</publicationDate>
+				<registrationDate>20011218</registrationDate>
+				<registrationNumber>3002888480000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>체결헤드</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H246</designMainClassification>
+				<dsShpClssCd>H246</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c8139744e9b7b9ad9e6725bfe07fb4781eb7d0775e7a7a9e34e08cfbe7a71e4ceb874e0b0adc20362b660b5</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642cd56dcb0e0f0995b011f68ef22f394dd21e4ad7043d3a755682fdb7eee8f9f6f6e0a23f21c82c5b04</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>34</number>
+				<applicationNumber>3020000021063</applicationNumber>
+				<applicationDate>20000812</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20011220</publicationDate>
+				<registrationDate>20011119</registrationDate>
+				<registrationNumber>3002871930000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우|김기양</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>터미널블록</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H1331</designMainClassification>
+				<dsShpClssCd>H1331</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c8139744e9b7b9ad9e6725b535446b49c0cd876f1832dc382313086af5b5317b49b916e0d3d56091306adef</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642cd56dcb0e0f0995b006449c7f1c85a4a76b1391de425bd9edabac8c38d7319d987cdd9d887347672d</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>35</number>
+				<applicationNumber>3020090049541</applicationNumber>
+				<applicationDate>20091111</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20110317</publicationDate>
+				<registrationDate>20110307</registrationDate>
+				<registrationNumber>3005919910000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>케이블 그랜드용 접지판</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H1314</designMainClassification>
+				<dsShpClssCd>H1314</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0101fc9c6f70783b61ab5232b7b0496ee8035a66cfb7db9dd422be04e84d006af1055a7933be4b6a56a85a0b1fad323c9</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a4389985e80c60c4d1f17762f6be2775106794fe0464e6790a8c382b7356fefd97f24b17a0eeb90a2f643fde4dafd53e531186c0508438e19288300</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>36</number>
+				<applicationNumber>3020100000955</applicationNumber>
+				<applicationDate>20100111</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20110414</publicationDate>
+				<registrationDate>20110407</registrationDate>
+				<registrationNumber>3005957380000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>터미널블록소자</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H1331</designMainClassification>
+				<dsShpClssCd>H1331</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0aaecc266f210276b2c0e82754aea5c31c62d60dbda9b5698fdfcfa470df32f283ead94fa6537967c241a1d56f6cb4547</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a4389985e80c60c4d1f177612a04df7e45657ac3f2d721bb11da10b27122bfbf6167bf57aa149b01d752fcf42503d9eee1c829b51d0aa0be8642f8c</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>37</number>
+				<applicationNumber>3020070010000</applicationNumber>
+				<applicationDate>20070308</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20071122</publicationDate>
+				<registrationDate>20071115</registrationDate>
+				<registrationNumber>3004700880000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>전선결속밴드용 헤드</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H246</designMainClassification>
+				<dsShpClssCd>H246</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c8139745b8c637ff512490547c53aac20f9e8c8cb48a79fec38b6c9d9a5662292504ce185e06bccc7cb4453</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c2b4e6d7bf9256d5ef441e05800987df94f39c29fb7c2920097201601306e505c1cbff709f202fae1</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>38</number>
+				<applicationNumber>3020050003958</applicationNumber>
+				<applicationDate>20050204</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20051214</publicationDate>
+				<registrationDate>20051207</registrationDate>
+				<registrationNumber>3004014840001</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>전선결속밴드용 체결헤드</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H24260</designMainClassification>
+				<dsShpClssCd>H24260</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974ba18a606ff14cb0eeba5afa48c5681c079e5019a7128369a22729c7fcbceb61a54df5ac095dc4054</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c8b064a319f70a22c1ef1a4df7ff7ad49a0a34f46f1a389581607633f2b70bf4e36a14d161d58e777</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>39</number>
+				<applicationNumber>3020050040582</applicationNumber>
+				<applicationDate>20051202</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20060726</publicationDate>
+				<registrationDate>20060719</registrationDate>
+				<registrationNumber>3004151390001</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>케이블 고정구</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H24260</designMainClassification>
+				<dsShpClssCd>H24260</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974ba18a606ff14cb0e99e31145e72a0920b1c7f60a07ac69395f8a4f25c677a025048afb5ce01285a3</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c8b064a319f70a22c4722ba8bdf7a57b2a6871f3dab594fda1470f8f760a7052bf3da049b60c18227</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>40</number>
+				<applicationNumber>3020130019290</applicationNumber>
+				<applicationDate>20130412</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20140311</publicationDate>
+				<registrationDate>20140228</registrationDate>
+				<registrationNumber>3007325420000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>케이블 고정구</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H24260</designMainClassification>
+				<dsShpClssCd>H24260</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0add6326f9cdd09cfeda13ee7b21cf7573e38ad7e19163916976fdeca7d5690563d0286cba09680f809cf4e76fc61ed66</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa53884e9846f95843f299fa12b599517d1e88189354d5a44a9411c63090f903e09a62172beb7b0c9de53612b23b1e7836d</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>41</number>
+				<applicationNumber>3020050022217</applicationNumber>
+				<applicationDate>20050704</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20060410</publicationDate>
+				<registrationDate>20060404</registrationDate>
+				<registrationNumber>3004110410000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>케이블 고정구</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H24260</designMainClassification>
+				<dsShpClssCd>H24260</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974ba18a606ff14cb0e090ba66a263c20186ffae2706c1dc95194dde0e86f10dea96abf2b1cdc47bbd8</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c8b064a319f70a22c537e6594c0ff5e5a844273cb1e5ad72494a4e213e50b8d42c1de568cc50d9247</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>42</number>
+				<applicationNumber>3019990026627</applicationNumber>
+				<applicationDate>19991105</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20010315</publicationDate>
+				<registrationDate>20010117</registrationDate>
+				<registrationNumber>3002723100000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>문한성</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>전선결속구용 고정편</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H246|F4922</designMainClassification>
+				<dsShpClssCd>H246|F4922</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c8139747b4e0c4fa9e99992b5d53748cf2b847e37ccb83ff812954e5fb989b0d701acafbc51bd46158513cc</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642ce21675102a26dae9dbdb07ef76419c23065be26a538ef3688176b9cda0a71dd4ce1f79bcfac39e14</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>43</number>
+				<applicationNumber>3019980005794</applicationNumber>
+				<applicationDate>19980411</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>19990320</publicationDate>
+				<registrationDate>19981222</registrationDate>
+				<registrationNumber>3002346840000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>문한성</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>케이블 타이용 절단기</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>K1220</designMainClassification>
+				<dsShpClssCd>K1220</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974d2f6898265f9eb3ff32959b2057a5ea2c35e7b69a1b8d37f848f5fcc1495c239cce7f43753e5ec9d</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c9bda5e7b940036a12b86d080b42ef78413f4f357d15a1a60bb10b033d3bbd7f7919ac850796b0cb7</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>44</number>
+				<applicationNumber>3019970026377</applicationNumber>
+				<applicationDate>19971215</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>19990218</publicationDate>
+				<registrationDate>19981114</registrationDate>
+				<registrationNumber>3002317970000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>문한성</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>터미널 블록</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H1331</designMainClassification>
+				<dsShpClssCd>H1331</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c8139742283b436ff3680ca1632b6884ed28521acbe5358a1b4220df3b562a53ff7f2e20b761edbaeede3be</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c9034b169d47447936e689fba49c8b65093c4fe07bb0fca5c8adafdc7bb86f4a119e5ac070f81cf66</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>45</number>
+				<applicationNumber>3020070009999</applicationNumber>
+				<applicationDate>20070308</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20071122</publicationDate>
+				<registrationDate>20071115</registrationDate>
+				<registrationNumber>3004700870000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>전선결속밴드용 헤드</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H246</designMainClassification>
+				<dsShpClssCd>H246</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c8139745b8c637ff5124905d410b7cd3084dde1bd6e5e5322530bb6245181d39564e779e919d3015bcba2e9</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c2b4e6d7bf9256d5e8db39229e9dc1366833d8393ab017f98eab20f5afb98948782d8002e4ec3ee2e</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>46</number>
+				<applicationNumber>3019990002112</applicationNumber>
+				<applicationDate>19990206</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20000201</publicationDate>
+				<registrationDate>19991206</registrationDate>
+				<registrationNumber>3002524220000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>문한성</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>모니터접지용클램프</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H1314</designMainClassification>
+				<dsShpClssCd>H1314</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c8139747b4e0c4fa9e99992b8421221856a2b60ab805c76266fe3bad353a8c56198a50a9ed4fc6a2f3556a0</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642ce21675102a26dae9fbef58ba9cacbda4eb830f3bb0a15aa423987148155a0d1cdd2f1be490418bf4</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>47</number>
+				<applicationNumber>3020020005731</applicationNumber>
+				<applicationDate>20020227</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20030114</publicationDate>
+				<registrationDate>20021211</registrationDate>
+				<registrationNumber>3003146210000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>래치</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>M320</designMainClassification>
+				<dsShpClssCd>M320</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c8139744ad04cec08f04e832f43c709d34725a92c5373137660b2ea9b7d8674784023857b35e440b5220f14</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642ca0e702e898cbdfa273ecddd9fc7d4998b39d3b67be4a3c4113c7275d5e741d12739c27b546836b3f</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>48</number>
+				<applicationNumber>3020030034055</applicationNumber>
+				<applicationDate>20031129</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20050121</publicationDate>
+				<registrationDate>20050110</registrationDate>
+				<registrationNumber>3003724580000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>케이블타이용 체결구</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H246</designMainClassification>
+				<dsShpClssCd>H246</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974ed9ce53e6c4ea7e7e1988fe98040501a34558733402dd7dcbd243bb374419da031a8949d446a8e4a</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c98a48b5de7d0282354d5ccc4ae144f964fb8043d564d62cb24fe0255e7ccab761b50995a19a4d37b</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>49</number>
+				<applicationNumber>3019990002111</applicationNumber>
+				<applicationDate>19990206</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20000115</publicationDate>
+				<registrationDate>19991103</registrationDate>
+				<registrationNumber>3002507380000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>문한성</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>전선결속밴드용헤드</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H246</designMainClassification>
+				<dsShpClssCd>H246</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c8139747b4e0c4fa9e99992b8421221856a2b60ab805c76266fe3ba0fe320c5c0fc3d65285497a3fc3a3d94</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642ce21675102a26dae9fbef58ba9cacbda4eb830f3bb0a15aa441f047351df674040667778302699c7c</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>50</number>
+				<applicationNumber>3020050003961</applicationNumber>
+				<applicationDate>20050204</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20051214</publicationDate>
+				<registrationDate>20051207</registrationDate>
+				<registrationNumber>3002888480001</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>전선결속밴드용 체결헤드</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H24260</designMainClassification>
+				<dsShpClssCd>H24260</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974ba18a606ff14cb0eeba5afa48c5681c063516d987d30e5007c9e52258931c3c74079be4c7826bc2f</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c8b064a319f70a22c1ef1a4df7ff7ad49320fdcbdb30a76f6c07cfde1767f7d0bb52de7d67cf3cb8e</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>51</number>
+				<applicationNumber>3020180005602</applicationNumber>
+				<applicationDate>20180201</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20180919</publicationDate>
+				<registrationDate>20180911</registrationDate>
+				<registrationNumber>3009732950000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>케이블결속 밴드용 체결헤드</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H246|H24260</designMainClassification>
+				<dsShpClssCd>H24260|H246</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb00210f0403cc90f8854d874bdde8686210724ea52154e5fa8650c434c79b4feb1ec9744115e40b50580de2768ac6707ee</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa5293cd8e1bcc963161b48e0a63cb26f6959df0d71a0cd51b6ed98ed9b5b6f4db073e0e188a2cc6aa204c332d09b3f9664</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>52</number>
+				<applicationNumber>3020150046029</applicationNumber>
+				<applicationDate>20150910</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20160620</publicationDate>
+				<registrationDate>20160614</registrationDate>
+				<registrationNumber>3008597590000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>배용철</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>케이블접지반</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H1314</designMainClassification>
+				<dsShpClssCd>H1314</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb05e617d419618a25321f6b85f96a4f9eb13ffadd7aca6b791c8cb64b3269ccc90c3a4bfe751b6b57af42969269fd41c90</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa5a0a89849eebdf038b55f3047d7d95c5093dc115a2e6a78677aaad0393b56f2ec07c9197b0e0c407f3381eddfb2979ef9</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>53</number>
+				<applicationNumber>3019890010175</applicationNumber>
+				<applicationDate>19890724</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>19900702</publicationDate>
+				<registrationDate>19900526</registrationDate>
+				<registrationNumber>3000912650001</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>이준구|조의제</agentName>
+				<fullText>Y</fullText>
+				<inventorName>이우용</inventorName>
+				<articleName>저항기</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H1421</designMainClassification>
+				<dsShpClssCd>H1421|H1420T</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974f63f78176fcc148751ac308946f4ee0db2f8501b8b726b941de90be48f553f56e215599d982600a6</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c91343d8c5fc1799fe57ea16754c444a6965668acba1f4f60fb2d0daf1d7d752d22634964978fe708</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>54</number>
+				<applicationNumber>3019920004798</applicationNumber>
+				<applicationDate>19920331</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>19930728</publicationDate>
+				<registrationDate>19930625</registrationDate>
+				<registrationNumber>3001406660000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김태원</agentName>
+				<fullText>Y</fullText>
+				<inventorName>오원일</inventorName>
+				<articleName>전선결속밴드</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H246</designMainClassification>
+				<dsShpClssCd>H246A|H246</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c81397412fc444d233866c59fca4642b765e9b927518ae589d2b119317d01de9b9d0ff5570901e04e42ab3c</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642ca60823242f895af0747d347fded0bba74260cf73eeab68b22cf7ca196defd0c16510e3c03e90d2a3</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>55</number>
+				<applicationNumber>3020150022094</applicationNumber>
+				<applicationDate>20150429</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20151221</publicationDate>
+				<registrationDate>20151214</registrationDate>
+				<registrationNumber>3008306720000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>배용철</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>케이블연결밴드</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H246</designMainClassification>
+				<dsShpClssCd>H246</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb068eb592edddc69f3423ad396128ee1fdb06e05c64d86eb07025c7676ebed0f939694134740e531b2daaec098be1ee496</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa580eb75a2044750616e3bf2986e7ffca5fbd0e80855a890cb725ed3f61fd949516048afb518e7d252bbc684c82fe876ff</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>56</number>
+				<applicationNumber>3020190022774</applicationNumber>
+				<applicationDate>20190515</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20191029</publicationDate>
+				<registrationDate>20191023</registrationDate>
+				<registrationNumber>3010294770000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>케이블타이용 절단기</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>K1220</designMainClassification>
+				<dsShpClssCd>K1220</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb089089cfdce0ac1fbe756c035329cd8223d412d5606085203d6ffe049b70f42a9adcef5a3aaf102155be0faa3b55862d4</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa5c11a44bca65da02844b91c41223d9c4a238f44d1aca995855eb59dc1ec01eec74ea926e1dc919e7b8164da84b0e9f0cf</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>57</number>
+				<applicationNumber>3020190037726</applicationNumber>
+				<applicationDate>20190807</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20191024</publicationDate>
+				<registrationDate>20191018</registrationDate>
+				<registrationNumber>3010288970000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>터미널 블럭</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H1331</designMainClassification>
+				<dsShpClssCd>H1331</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb089089cfdce0ac1fbe756c035329cd822b4699184b29287c5bf3daa7649919669b0225420689dc28756ab770ab797bc0c</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa5c11a44bca65da02844b91c41223d9c4a2b1bb82cd5d7192f60b6214421f7217c9ba273e1eb1c5d973d9b53b597c14806</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>58</number>
+				<applicationNumber>3019960004049</applicationNumber>
+				<applicationDate>19960309</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>19971103</publicationDate>
+				<registrationDate>19970905</registrationDate>
+				<registrationNumber>3002048970000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate>19960710</priorityDate>
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>문한성</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>전선접속용 단자</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H1321</designMainClassification>
+				<dsShpClssCd>H1321|H1321T</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c81397468af1139c21cd58011cd4945c94036bbecab0ca757d9288a6fbd916f6086c8ebe498a5d5229e5e5a</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642caaec2917ae61f2d33e7a1e3886573fd4d26be5b9bc6bc6da949a8ea5fbe58fb3f81c43a0f92fc4df</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>59</number>
+				<applicationNumber>3020220046002</applicationNumber>
+				<applicationDate>20221109</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20230621</publicationDate>
+				<registrationDate>20230615</registrationDate>
+				<registrationNumber>3012209480000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>케이블타이 헤드</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification />
+				<dsShpClssCd />
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0fc109fb345bf15e3f9015ea935cef71aacbe84ed838ff200d504214e23dc2e322bb04c894b0075de1dd43df6f355cf5f</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa5079dcbf5a2655d40b37d0838c6086dafe95b167737014bd248de4615b9482b2d8bd8f050025cc8bd51840a0aa51041b1</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>60</number>
+				<applicationNumber>3020220021218</applicationNumber>
+				<applicationDate>20220527</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20221228</publicationDate>
+				<registrationDate>20221222</registrationDate>
+				<registrationNumber>3011969650000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>케이블 클리트</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification />
+				<dsShpClssCd />
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb08fe95a0fb0a009abc2cd009cd243d2c92a1897753e61a02984a7e908e7485de64a05fe83c1e6c00b033b6f6845ec5dd0</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa530c2bbd1ba71eff8d16f6a1f26de7d8bbb73f4c618d34dfa6a1a95fede67e9dc199e0818ed831728f83e2b5bea533da3</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>61</number>
+				<applicationNumber>3019920015326</applicationNumber>
+				<applicationDate>19920909</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>19931203</publicationDate>
+				<registrationDate>19931028</registrationDate>
+				<registrationNumber>3001406660001</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName />
+				<fullText>Y</fullText>
+				<inventorName>오원일</inventorName>
+				<articleName>록킹코드밴드</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H246</designMainClassification>
+				<dsShpClssCd>H246A|H246</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c81397412fc444d233866c58d2b65ff53b80e52c6fff9b4d07fd0e3ad5306aabea07ac4be66ea7c52017e55</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642ca60823242f895af0c2cd186c0c987b8fbdc8bb6bca01e0a1b0293b83fa402bc431c84c476f74bf5b</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>62</number>
+				<applicationNumber>3020170028560</applicationNumber>
+				<applicationDate>20170621</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20180129</publicationDate>
+				<registrationDate>20180119</registrationDate>
+				<registrationNumber>3009416830000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>동아베스텍 주식회사</applicantName>
+				<agentName>김동우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>배준집</inventorName>
+				<articleName>케이블 타이</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H246</designMainClassification>
+				<dsShpClssCd>H246</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb010c0d6c6bdc7e18d29fdff8bd2a52853bd1d9c8de8321a09d0fb7649c5000a32d3e63a64c4db9a77c3e12e9b1824a130</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa557e8d21f6de27321f44f7da5119e3a081c2add85e9e397302a8e0b520faef5928fdc205e46c6758821ed377ce82324c2</imagePathLarge>
+			</DesignInfo>
+		</items></body></response><response><applicant>4728</applicant><header><resultCode /><resultMsg /></header><body><items><totalCount>14</totalCount>
+			<DesignInfo>
+				<number>1</number>
+				<applicationNumber>3020120040332</applicationNumber>
+				<applicationDate>20120823</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20140605</publicationDate>
+				<registrationDate>20140529</registrationDate>
+				<registrationNumber>3007462030000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>대화기기주식회사</applicantName>
+				<agentName />
+				<fullText>Y</fullText>
+				<inventorName>박재형</inventorName>
+				<articleName>의료용 약물 주입기</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>J744</designMainClassification>
+				<dsShpClssCd>J744</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0dae0b29600727eb6591a673b1d6a81aee91bf3147333b85761ed54c5691d0e516227a1c5f9523a277e0ea00c2d8897bf</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa5cbef24f5217def4b390922c57ba298db09e42b35705e66330df9711505a3fdf06a0f033b2b837ba81b2428285eff2077</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>2</number>
+				<applicationNumber>3020120040331</applicationNumber>
+				<applicationDate>20120823</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20140610</publicationDate>
+				<registrationDate>20140529</registrationDate>
+				<registrationNumber>3007462020000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>대화기기주식회사</applicantName>
+				<agentName />
+				<fullText>Y</fullText>
+				<inventorName>박재형</inventorName>
+				<articleName>의료용 약물 주입기</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>J744</designMainClassification>
+				<dsShpClssCd>J744</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb080989b1a756d39114429a39d526d47aa0c862ecdd6607e7a2e3d480e0452873dcdbb9aef520ce9c45832eb7c4e11974f</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa5312bc508330520c99e6dfde606307615e6d776377e51a70b31ac54fc015cd45a6617e65c745c28684693d7862076ee17</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>3</number>
+				<applicationNumber>3020090036523</applicationNumber>
+				<applicationDate>20090819</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20110318</publicationDate>
+				<registrationDate>20110310</registrationDate>
+				<registrationNumber>3005926640000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>대화기기주식회사</applicantName>
+				<agentName />
+				<fullText>Y</fullText>
+				<inventorName>박경렬</inventorName>
+				<articleName>환자용 약물주입기</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>J744</designMainClassification>
+				<dsShpClssCd>J744</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb06744c4ac7c1193b9e616b0ce2e6181873d9ceecddd2b2fea4bd8b91bdc98746aacc09a2e7bcbba09b198a0b525b818fc</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a4389985e80c60c4d1f17767f6a3e841f0e31a7652f14275365a9ed152154c3b7383c8036fafe7de2c51250067f31d80ca32fe5e6ce1fb6fabb179d</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>4</number>
+				<applicationNumber>3020090036522</applicationNumber>
+				<applicationDate>20090819</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20110318</publicationDate>
+				<registrationDate>20110310</registrationDate>
+				<registrationNumber>3005926300000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>대화기기주식회사</applicantName>
+				<agentName />
+				<fullText>Y</fullText>
+				<inventorName>박경렬</inventorName>
+				<articleName>환자용 약물주입기</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>J744</designMainClassification>
+				<dsShpClssCd>J744</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb06744c4ac7c1193b9e616b0ce2e6181873d9ceecddd2b2fea4bd8b91bdc98746a2353efaada42fdb64e4484b7f0e37d53</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a4389985e80c60c4d1f17767f6a3e841f0e31a7652f14275365a9ed152154c3b7383c8036fafe7de2c5125078278e47515fa2ab8a606a6541f74a76</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>5</number>
+				<applicationNumber>3020120040333</applicationNumber>
+				<applicationDate>20120823</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20131211</publicationDate>
+				<registrationDate>20131205</registrationDate>
+				<registrationNumber>3007202730000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>대화기기주식회사</applicantName>
+				<agentName />
+				<fullText>Y</fullText>
+				<inventorName>박재형</inventorName>
+				<articleName>의료용 약물주입기 거치대</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>J744</designMainClassification>
+				<dsShpClssCd>J744</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb04f64237e170bbaa9b7b33c2cf746fffb3b1b37bb49f026bfec363c7c48f3733bf314c0a74436402fd8f64f9139017cd6</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa5ed1f311b48fe3f2bdaa941ce96758810c2024891e8041eb63deb5ce4eb37093cf1a9cf1ff0ab97f15e72bc488733d4d7</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>6</number>
+				<applicationNumber>3020100053709</applicationNumber>
+				<applicationDate>20101210</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20120327</publicationDate>
+				<registrationDate>20120315</registrationDate>
+				<registrationNumber>3006375140000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>대화기기주식회사</applicantName>
+				<agentName>김종대</agentName>
+				<fullText>Y</fullText>
+				<inventorName>박준학</inventorName>
+				<articleName>비만치료기용 핸드피스</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>J750</designMainClassification>
+				<dsShpClssCd>J750</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0dc90a0cfa7fc58215dfbfca21ac91720bdfa1057707ecb982cdb1af64a565f242d8aa7f23a42563a46981634b876066f</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a4389985e80c60c4d1f17760476cd35d099adc1577101010fbc49e8bec84b77c3d0a796bbd0bf04bc283f06c491b2e8039793ad14af73fc0e2f8d1d</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>7</number>
+				<applicationNumber>3020100053707</applicationNumber>
+				<applicationDate>20101210</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20120309</publicationDate>
+				<registrationDate>20120208</registrationDate>
+				<registrationNumber>3006326590000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>대화기기주식회사</applicantName>
+				<agentName>김종대</agentName>
+				<fullText>Y</fullText>
+				<inventorName>박준학</inventorName>
+				<articleName>비만치료기</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>J750</designMainClassification>
+				<dsShpClssCd>J750</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0f08a23b313a9d8cc07359adb93ead6b9f39b7c90182673e7f0c8458f97467531527a7e02df118a627deb963a7b2ee75d</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a4389985e80c60c4d1f1776327eb9bdfaac5d4b72c46378d087737f6818a7892430031e255ca00deacba68911b3f2ac06c5423a3cb99c936494bbf5</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>8</number>
+				<applicationNumber>3020150011977</applicationNumber>
+				<applicationDate>20150310</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20150727</publicationDate>
+				<registrationDate>20150717</registrationDate>
+				<registrationNumber>3008072060000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>대화기기주식회사</applicantName>
+				<agentName>(유)한양특허법인</agentName>
+				<fullText>Y</fullText>
+				<inventorName>김도원|김종국|박준학|박창훈|이석주</inventorName>
+				<articleName>피부치료용 레이저치료기 펌핑챔버</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>J755</designMainClassification>
+				<dsShpClssCd>J755</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb090615555591534df39a356cad8fad85dc2ef00ca8350d805fd41c4c152092b073af0dc0b51899134b79524bccaf5ec87</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa5357d71ed2104475712037bd70e8bf4faf4d31de1232cbb9ad18697aab2a71f5759fa0dd3e3c28590f7dc39d178e52224</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>9</number>
+				<applicationNumber>3020190036770</applicationNumber>
+				<applicationDate>20190731</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20200428</publicationDate>
+				<registrationDate>20200420</registrationDate>
+				<registrationNumber>3010561300000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>대화기기주식회사</applicantName>
+				<agentName>특허법인 아이퍼스</agentName>
+				<fullText>Y</fullText>
+				<inventorName>윤희승|이윤영</inventorName>
+				<articleName>전력선 연결용 커넥터</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H1313</designMainClassification>
+				<dsShpClssCd>H1313</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb08b24c7f4b1f099b51c8ff816191e263656299fa8db5369a8e19d333cc9e52b83c548ec98af2a4b6f2fe4abcdf72f21c1</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa5378a3ea8b17275bd701d1b77193c7d9ba4badb014dfe1d3a9b8f0d7a52ef04df4a8c2bc9086c398df66afa9949bc6a05</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>10</number>
+				<applicationNumber>3020190036769</applicationNumber>
+				<applicationDate>20190731</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20200428</publicationDate>
+				<registrationDate>20200420</registrationDate>
+				<registrationNumber>3010561290000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>대화기기주식회사</applicantName>
+				<agentName>특허법인 아이퍼스</agentName>
+				<fullText>Y</fullText>
+				<inventorName>윤희승|이윤영</inventorName>
+				<articleName>전력선 연결용 커넥터</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H1313</designMainClassification>
+				<dsShpClssCd>H1313</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb08b24c7f4b1f099b51c8ff816191e263656299fa8db5369a8e19d333cc9e52b832999ba7165b747746197ee9fd9690d07</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa5378a3ea8b17275bd701d1b77193c7d9ba4badb014dfe1d3a9b8f0d7a52ef04df80b70cd92831356b2aa2fbe3bfde22e7</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>11</number>
+				<applicationNumber>3020190036766</applicationNumber>
+				<applicationDate>20190731</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20200311</publicationDate>
+				<registrationDate>20200304</registrationDate>
+				<registrationNumber>3010496460000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>대화기기주식회사</applicantName>
+				<agentName>특허법인 아이퍼스</agentName>
+				<fullText>Y</fullText>
+				<inventorName>윤희승|이윤영</inventorName>
+				<articleName>복강경 기구</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>J741</designMainClassification>
+				<dsShpClssCd>J741</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0ee111dc4cbf694b29cb5e3d725649fc55a2148cff6691554d5742405a23b144841b23b639d934aefaf9f514ca59cc4b5</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa5f97f5248d3fb5977b4318390f57371c6c9970385827a4284ef1b5a26c5a756b43eeab7c1701978596ed3a7ca707ec5c8</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>12</number>
+				<applicationNumber>3020190036768</applicationNumber>
+				<applicationDate>20190731</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20200115</publicationDate>
+				<registrationDate>20200108</registrationDate>
+				<registrationNumber>3010413380000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>대화기기주식회사</applicantName>
+				<agentName>특허법인 아이퍼스</agentName>
+				<fullText>Y</fullText>
+				<inventorName>윤희승|이윤영</inventorName>
+				<articleName>복강경 기구용 트랜스듀서</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>J741|J740</designMainClassification>
+				<dsShpClssCd>J740|J741</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb04b41345d946ad7c6c88ab8b3e87258b8ae0ea6403e752ec2b80ddc1bfd93d5906edf655b366363352fe6d0cc9e38338e</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa5365afeb2e7f4cbe3a18b8d92888703b831ec9f6fcb59f395b8d31cce96b60ed99fdc2f8de02126b8d932d962ba5a5e6f</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>13</number>
+				<applicationNumber>3020190036767</applicationNumber>
+				<applicationDate>20190731</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20200115</publicationDate>
+				<registrationDate>20200108</registrationDate>
+				<registrationNumber>3010413370000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>대화기기주식회사</applicantName>
+				<agentName>특허법인 아이퍼스</agentName>
+				<fullText>Y</fullText>
+				<inventorName>윤희승|이윤영</inventorName>
+				<articleName>복강경 기구용 압력조절장치</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>J741|J740</designMainClassification>
+				<dsShpClssCd>J740|J741</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb04b41345d946ad7c6c88ab8b3e87258b8ae0ea6403e752ec2b80ddc1bfd93d590c908c880de1f884d84c169a57c6e199c</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa5365afeb2e7f4cbe3a18b8d92888703b831ec9f6fcb59f395b8d31cce96b60ed96d0fe9902c6ab7a1a09f1020419e52a9</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>14</number>
+				<applicationNumber>3020190036765</applicationNumber>
+				<applicationDate>20190731</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20200115</publicationDate>
+				<registrationDate>20200108</registrationDate>
+				<registrationNumber>3010413360000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>대화기기주식회사</applicantName>
+				<agentName>특허법인 아이퍼스</agentName>
+				<fullText>Y</fullText>
+				<inventorName>윤희승|이윤영</inventorName>
+				<articleName>복강경 기구용 조(Jaw)</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>J741</designMainClassification>
+				<dsShpClssCd>J741</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb04b41345d946ad7c6c88ab8b3e87258b8ae0ea6403e752ec2b80ddc1bfd93d59076e1404a5edaa392d85189eae2a79455</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa5365afeb2e7f4cbe3a18b8d92888703b831ec9f6fcb59f395b8d31cce96b60ed9a9f2804a6423e9f0b658e9a95bc377b2</imagePathLarge>
+			</DesignInfo>
+		</items></body></response></responseData>

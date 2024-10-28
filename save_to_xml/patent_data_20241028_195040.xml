@@ -1,311 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<responseData><response><applicant>4728</applicant><header /><header /><body><response>
-	<header>
-		<resultCode />
-		<resultMsg />
-	</header>
-	<body>
-		<items>
-			<PatentUtilityInfo>
-				<Applicant>대화기기주식회사</Applicant>
-				<ApplicationDate>20190820</ApplicationDate>
-				<ApplicationNumber>1020207001199</ApplicationNumber>
-				<Abstract>본 발명은 초음파 에너지 디바이스에 관한 것이다. 본 발명의 일 양상인 초음파 에너지 디바이스는, 원통형으로 형성된 외부 파이프(Outer Pipe)와 상기 외부 파이프 내에서 길이 방향으로 이동 가능한 내부 파이프(Inner Pipe)를 포함하는 파이프부; 상기 파이프부의 일단에 형성된 집게부; 및 상기 파이프부의 타단에 연결되고, 상기 집게부의 동작을 제어하는 손잡이부;를 포함하고, 상기 집게부는, 상기 내부 파이프 내에 삽입되고, 상기 손잡이부에서 발생된 초음파가 전달되는 샤프트; 및 상기 샤프트와 함께, 신체의 적어도 일부를 압착하고, 상기 초음파에 의해 발생되는 진동 에너지및 열 에너지를 기초로 상기 신체의 적어도 일부의 조직 또는 혈관을 절단하는 조(jaw)를 포함하고, 상기 손잡이부는, 사용자가 조작을 통해 상기 샤프트 및 조가 상기 신체의 적어도 일부를 압착하고, 상기 초음파를 상기 조직 또는 혈관으로 전달하도록 하는 레버 유닛; 상기 레버 유닛에 연결되어 상기 내부 파이프의 이동을 제어하는 스프링 유닛; 상기 초음파를 발생시키는 트랜스듀서; 및 전원공급부의 케이블과 연결되어 전원을 공급하는 파워 커넥터;를 포함할 수 있다.</Abstract>
-				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c936acefa86138d0e36857dd003a8541b9ac8a06e4df154b7aad326327bb3b11cb3e07102ebc5b8fe714f0a9bd15e65eb829d66b4346f2edf70</DrawingPath>
-				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf666d2e5b669c5d0392b3336dfe34fc40e58899d1f5b762e44140da36fef102df80ed3fde8cbda0b8ea340ef6349088f7e96547ea612e92e6</ThumbnailPath>
-				<SerialNumber>1</SerialNumber>
-				<InventionName>초음파 에너지 디바이스</InventionName>
-				<InternationalpatentclassificationNumber>A61B 17/32|A61B 17/29|A61B 17/00|A61B 18/04</InternationalpatentclassificationNumber>
-				<OpeningDate>20210304</OpeningDate>
-				<OpeningNumber>1020210023786</OpeningNumber>
-				<PublicNumber />
-				<PublicDate>20210802</PublicDate>
-				<RegistrationDate>20210727</RegistrationDate>
-				<RegistrationNumber>1022845360000</RegistrationNumber>
-				<RegistrationStatus>등록</RegistrationStatus>
-			</PatentUtilityInfo>
-			<PatentUtilityInfo>
-				<Applicant>대화기기주식회사</Applicant>
-				<ApplicationDate>20041109</ApplicationDate>
-				<ApplicationNumber>2020040031672</ApplicationNumber>
-				<Abstract>전자기기 특히, 인체에 직접적인 전기쇼크 등의 영향을 미칠 수 있는 의료용으로 사용되는 절연특성이 우수한 전자기기가 제공된다.  상기 절연특성이 우수한 전자기기는, 내부에 기판과 이에 회로부품들이 실장된 기판회로부가 내장되는 케이스와, 상기 케이스의 적어도 일측면에 제공된 절연수단 및, 상기 절연수단에 장착되면서 기판회로부와 전기적으로 연결되는 부품들을 포함하여 부품의 내전압이 절연수단을 통하여 증대토록 구성된 것을 특징으로 한다.  이와 같은 본 고안에 의하면, 전자기기의 외부 조작부품이 연결되는 콘넥터부품들이 기기의 케이스에 제공된 절연수단을 통하여 기기에 제공됨으로서, 부품의 내전압은 물론, 기기의 절연특성을 향상시키고, 이로 인하여 절연특성이 우수한 고가의 부품을 사용하지 않아도 되어 비용절감을 가능하며, 특히 의료용 전자기기인 경우 환자에게 발생될 수 있는 전기쇼크 등의 안전사고를 예방시키는 보다 개선된 효과를 얻는다.  전자기기, 의료용 전자기기, 절연수단(판), 부품, 기기케이스, 절연특성</Abstract>
-				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0000ca1661db2164ae8fc311becd6f36d7d80d0296162c4be5875d6f4f7cde822e</DrawingPath>
-				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf069b3e16e200cce1fab0aa0ad0c41ca6e6a2a7ab50b93c40a1bc467899d7ab25</ThumbnailPath>
-				<SerialNumber>2</SerialNumber>
-				<InventionName>절연특성이 우수한 전자기기</InventionName>
-				<InternationalpatentclassificationNumber>H05K 7/06|H05K 1/18|H05K 1/11</InternationalpatentclassificationNumber>
-				<OpeningDate />
-				<OpeningNumber />
-				<PublicNumber />
-				<PublicDate>20050205</PublicDate>
-				<RegistrationDate>20050127</RegistrationDate>
-				<RegistrationNumber>2003750910000</RegistrationNumber>
-				<RegistrationStatus>소멸</RegistrationStatus>
-			</PatentUtilityInfo>
-			<PatentUtilityInfo>
-				<Applicant>대화기기주식회사</Applicant>
-				<ApplicationDate>20190820</ApplicationDate>
-				<ApplicationNumber>1020197024494</ApplicationNumber>
-				<Abstract>본 발명은 복강경 기구에 관한 것이다. 본 발명의 일 양상인 복강경 기구는, 원통형으로 형성된 외부 파이프(Outer Pipe)와 상기 외부 파이프 내에서 길이 방향으로 이동 가능한 내부 파이프(Inner Pipe)를 포함하는 파이프부; 상기 파이프부의 일단에 형성된 집게부; 및 상기 파이프부의 타단에 연결되고, 상기 집게부의 동작을 제어하는 손잡이부;를 포함하고, 상기 집게부는, 상기 내부 파이프 내에 삽입되고, 상기 손잡이부에서 발생된 초음파가 전달되는 샤프트; 및 상기 샤프트와 함께, 신체의 적어도 일부를 압착하고, 상기 초음파에 의해 발생되는 진동 에너지및 열 에너지를 기초로 상기 신체의 적어도 일부의 조직 또는 혈관을 절단하는 조(jaw)를 포함하고, 상기 손잡이부는, 사용자가 조작을 통해 상기 샤프트 및 조가 상기 신체의 적어도 일부를 압착하고, 상기 초음파를 상기 조직 또는 혈관으로 전달하도록 하는 레버 유닛; 상기 레버 유닛에 연결되어 상기 내부 파이프의 이동을 제어하는 스프링 유닛; 상기 초음파를 발생시키는 트랜스듀서; 및 전원공급부의 케이블과 연결되어 전원을 공급하는 파워 커넥터;를 포함할 수 있다.</Abstract>
-				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00e1dd2ab327e92b914041d7d39e62a3041a055632f410d0c933e6dfc1ce7ba60ef822546e9722bdda139dc6a6d9bedc2a467488431f310e27</DrawingPath>
-				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf0858af6bb15195c4eed892c4dd68fee68caa633d2df0198089cbb3d9b413d997287c884962a95a84b59fe60d12466ebd6f0a2d1b468c3eb2</ThumbnailPath>
-				<SerialNumber>3</SerialNumber>
-				<InventionName>복강경 기구</InventionName>
-				<InternationalpatentclassificationNumber>A61B 17/32|A61B 17/29|A61B 17/00|A61B 18/04</InternationalpatentclassificationNumber>
-				<OpeningDate />
-				<OpeningNumber />
-				<PublicNumber />
-				<PublicDate>20200526</PublicDate>
-				<RegistrationDate>20200424</RegistrationDate>
-				<RegistrationNumber>1021067460000</RegistrationNumber>
-				<RegistrationStatus>등록</RegistrationStatus>
-			</PatentUtilityInfo>
-			<PatentUtilityInfo>
-				<Applicant>대화기기주식회사</Applicant>
-				<ApplicationDate>20190820</ApplicationDate>
-				<ApplicationNumber>1020207026896</ApplicationNumber>
-				<Abstract>본 발명의 일 양상인 시저 타입 초음파 에너지 디바이스는, 파이프부; 상기 파이프부의 일단에 형성된 집게부; 및 상기 파이프부의 타단에 연결되고, 상기 집게부의 동작을 제어하는 손잡이부;를 포함하고, 상기 집게부는, 상기 파이프부 내부에 삽입되고, 상기 손잡이부에서 발생된 초음파가 전달되는 샤프트; 및 상기 샤프트와 함께, 신체의 적어도 일부를 압착하고, 상기 초음파에 의해 발생되는 진동 에너지및 열 에너지를 기초로 상기 신체의 적어도 일부의 조직 또는 혈관을 절단하는 조(jaw)를 포함하고, 상기 손잡이부는, 사용자가 조작을 통해 상기 샤프트 및 조가 상기 신체의 적어도 일부를 압착하고, 상기 초음파를 상기 조직 또는 혈관으로 전달하며, 상기 파이프부의 이동을 제어하는 레버 유닛; 상기 초음파를 발생시키는 트랜스듀서; 및 전원공급부의 케이블과 연결되어 전원을 공급하는 파워 커넥터;를 포함하고, 상기 트랜스듀서는, 압전 현상을 이용하여 상기 초음파를 발생시키는 압전소자; 상기 발생된 초음파를 증폭시키는 혼(horn); 상기 혼으로부터 증폭된 초음파를 전달받아 앞뒤로 움직이면서 상기 증폭된 초음파를 샤프트로 전달하는 피에조 바디; 및 상기 압전소자를 둘러싸는 피에조 케이스; 를 포함할 수 있다.</Abstract>
-				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c932b3fb71c30eb5abf52d1fa06494e6928bba2fdef8f4865ffab76c9c5a65d29565b6be44d1da8fe20eca52c223d09a3a08540a9940dacd409</DrawingPath>
-				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf9a14b8ef45e65e5e02305b7b587928880f0ce609ebec7bff3e3dc84211a70ae3e13bcc58a1c73ab85ca2e9d1b51c2f1c365f5c3fbbc78cc4</ThumbnailPath>
-				<SerialNumber>4</SerialNumber>
-				<InventionName>시저 타입 초음파 에너지 디바이스</InventionName>
-				<InternationalpatentclassificationNumber>A61B 17/32|A61B 17/29|A61B 17/00|A61B 18/04</InternationalpatentclassificationNumber>
-				<OpeningDate>20210304</OpeningDate>
-				<OpeningNumber>1020210023800</OpeningNumber>
-				<PublicNumber />
-				<PublicDate>20210412</PublicDate>
-				<RegistrationDate>20210405</RegistrationDate>
-				<RegistrationNumber>1022387510000</RegistrationNumber>
-				<RegistrationStatus>등록</RegistrationStatus>
-			</PatentUtilityInfo>
-			<PatentUtilityInfo>
-				<Applicant>대화기기주식회사</Applicant>
-				<ApplicationDate>20140113</ApplicationDate>
-				<ApplicationNumber>1020140003883</ApplicationNumber>
-				<Abstract>본 발명은 시린지에 충전된 액체의 용량을 입력하는 입력부, 상기 입력된 용량에 따른 시린지 데이터 및 플런저 이동 거리가 기설정된 데이터부, 제어신호에 의해 상기 시린지의 플런저를 가압하여 이동시키는 구동부, 상기 시린지 데이터에 따라 상기 구동부의 작동을 제어하는 제어부, 상기 구동부에 의해 이동된 플런저의 이동 거리를 측정하는 거리 측정부 및 상기 기설정된 플런저 이동 거리를 기준값으로 하여 상기 거리 측정부에서 측정한 플런저 이동 거리와의 오차율을 기초로 상기 시린지 데이터를 오토 캘리브레이션하는 오토 캘리브레이션부를 포함하는 시린지 펌프와 오토 캘리브레이션 방법을 제공함으로써 사용자가 미등록 시린지를 용이하게 등록할 수 있는 효과를 가지게 된다.</Abstract>
-				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00f31e872d493ca733e600d41f7b5f44b93cbcf5620122d719d2f2fa3581314dbb067c2db4d0abe707e586630a4a0099bf0e3bfd716ce5af79</DrawingPath>
-				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfab8b063510516a1619290b9e710ff85f41c1d71966db14422cd86ac398cb2d4e251927e68565c867ea5f13da2bd7ed3d9bf24739e7336455</ThumbnailPath>
-				<SerialNumber>5</SerialNumber>
-				<InventionName>오토 캘리브레이션 기능을 갖는 시린지 펌프 및 시린지 펌프에서의 오토 캘리브레이션 방법</InventionName>
-				<InternationalpatentclassificationNumber>A61M 5/145|A61M 5/20|A61M 5/142</InternationalpatentclassificationNumber>
-				<OpeningDate />
-				<OpeningNumber />
-				<PublicNumber />
-				<PublicDate>20150313</PublicDate>
-				<RegistrationDate>20150309</RegistrationDate>
-				<RegistrationNumber>1015025090000</RegistrationNumber>
-				<RegistrationStatus>등록</RegistrationStatus>
-			</PatentUtilityInfo>
-			<PatentUtilityInfo>
-				<Applicant>대화기기주식회사</Applicant>
-				<ApplicationDate>20041028</ApplicationDate>
-				<ApplicationNumber>2020040030529</ApplicationNumber>
-				<Abstract>수액과 같은 약물의 인체 주입시 사용되는 약물병이나 주입기의 스탠드 거치를 간편하게 하는 약물 주입물품의 스탠드 클램핑장치가 제공된다.  상기 약물 주입물품의 스탠드 클램핑장치는, 내측에 약물 주입물품이 거치되는 스탠드가 통과하면서 수조작시 서로 협력하여 스탠드에 고정되는 고정 및 이동 클램핑부재로 구성된 스탠드 클램핑수단; 및, 상기 고정 클팸핑부재에 수평하게 신장되면서 고정된 거치몸체와, 상기 몸체에 제공되면서 주입기가 거치되는 주입기 거치부재 및, 상기 몸체에 제공되면서 약물병 연결튜브가 거치되는 튜브거치부재로 구성된 약물 주입물품 거치수단으로 구성되어 있다.  이와 같은 본 고안에 의하면, 수액과 같은 약물을 인체에 정량 주입시키는 주입기, 약물병이나 주입기 등의 약물 주입물품의 스탠드 거치를 매우 간편하게 하면서, 특히 여러개의 주입물품을 동시에 거치시키는 것을 가능하게 함은 물론, 기존의 스탠드에 간단하게 거치 사용할 수 있어 실용적이고, 필요시 환자의 시트등도 거치하는 다기능을 제공하여 전체적으로 매우 컴팩트한 보다 개선된 효과를 제공한다.  약물 주입기, 약물병(링거병), 수액병, 약물 주입물품, 클램핑장치, 스탠드</Abstract>
-				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0000ca1661db2164ae9b5e89d64e68755cefa458e891dd09547387c4a7212c2ec0</DrawingPath>
-				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf069b3e16e200cce1f516c11e5019a6332a01f555ba3f4510f0bcecfc051e24c9</ThumbnailPath>
-				<SerialNumber>6</SerialNumber>
-				<InventionName>약물 주입물품의 스탠드 클램핑장치</InventionName>
-				<InternationalpatentclassificationNumber>A61M 5/14</InternationalpatentclassificationNumber>
-				<OpeningDate />
-				<OpeningNumber />
-				<PublicNumber />
-				<PublicDate>20050114</PublicDate>
-				<RegistrationDate>20050104</RegistrationDate>
-				<RegistrationNumber>2003729420000</RegistrationNumber>
-				<RegistrationStatus>소멸</RegistrationStatus>
-			</PatentUtilityInfo>
-			<PatentUtilityInfo>
-				<Applicant>대화기기주식회사</Applicant>
-				<ApplicationDate>20041117</ApplicationDate>
-				<ApplicationNumber>1020040094249</ApplicationNumber>
-				<Abstract>신체조직(부위)의 절개 또는 응고시 사용되는 전기시술용 전극이 제공된다.  본 발명의 전기시술용 전극은, 전기수술기와 전기적으로 접속되어 신체조직의 절개, 응고와 같은 시술을 수행하는 전기시술용 전극으로서, 양극성으로 구성되면서 신체조직의 시술을 수행하는 전극몸체 및, 상기 전극몸체사이에 개재되어 양극성 전극을 구성시키는 절연체를 포함하여 구성되어 있다.  이와 같은 본 발명에 의하면, 시술시 전극에 고주파 전류를 인가시키는 전기수술기의 단극 또는 양극 접속이 모두 가능하며, 환자와 접촉하는 대극판(환자전극 또는 접지패드)의 사용이 필요없어 전극 사용과 시술을 편리하게 하는 한편, 특히 기존 단극성 시술에 비하여 낮은 전압하에서 시술할 수 있어 신체조직과 전극간의 스파크 발생을 억제시키어 조직의 탄화를 최소화시키면서, 전극을 통한 고주파 전류의 전달경로가 최소화되어 고주파 전류에 의한 화상이나 전기쇼크등을 예방하는 보다 개선된 효과를 얻을 수 있다.  시술, 전기수술기, 시술용 전극, 포셉, 단극성 시술전극, 양극성 시술전극</Abstract>
-				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9ccf2ab65a398793483023fadeaacb33d72291d52f2e775d0ebdb90f24c77ebf90</DrawingPath>
-				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe4598c4c077876d4f9d361b9098ea89f974546384da83baceb9432fca9be38ccac</ThumbnailPath>
-				<SerialNumber>7</SerialNumber>
-				<InventionName>전기시술용 전극</InventionName>
-				<InternationalpatentclassificationNumber>A61B 18/14|A61B 18/00</InternationalpatentclassificationNumber>
-				<OpeningDate>20060522</OpeningDate>
-				<OpeningNumber>1020060053803</OpeningNumber>
-				<PublicNumber />
-				<PublicDate>20060928</PublicDate>
-				<RegistrationDate>20060921</RegistrationDate>
-				<RegistrationNumber>1006294540000</RegistrationNumber>
-				<RegistrationStatus>등록</RegistrationStatus>
-			</PatentUtilityInfo>
-			<PatentUtilityInfo>
-				<Applicant>대화기기주식회사</Applicant>
-				<ApplicationDate>20210713</ApplicationDate>
-				<ApplicationNumber>1020210091737</ApplicationNumber>
-				<Abstract>본 발명은 원통형으로 형성된 외부 파이프(Outer Pipe)와, 상기 외부 파이프를 길이방향으로 관통하면서 이동가능하게 설치되는 내부 파이프(Inner Pipe)를 포함하는 파이프부; 내측에 길이방향으로 개구가 형성되면서 각각 서로 다른 전극이 구비된 상측 조(jaw)와 하측 조로 이루어지고, 상기 개구의 개폐(open or close)가 가능하도록 상기 파이프부의 일단에 힌지 결합되는 핀셋부; 상기 내부 파이프 내에서 길이방향으로 이동가능하게 설치되어 상기 파이프부의 일단을 관통하면서 상기 상하측 조의 개구까지 노출되도록 연장된 블레이드부; 및 상기 파이프부의 타단 측 방향으로 노출되는 내부 파이프를 수용시키면서 사용자가 파지가능한 하우징을 형성하고, 상기 핀셋부 및 블레이드부의 동작과, 상기 상하측 조의 전극에 대한 전원공급을 제어하는 핸들부를 포함하고,  상기 핀셋부의 상하측 조 중 적어도 하나의 상호 대면하는 일면에는, 상기 핀셋부의 폐쇄 동작시에, 상기 상하측 조에 간극이 형성되도록 돌기가 구비된 것을 특징으로 하여,  쇼트현상을 방지할 수 있고, 이에 따라, 기기의 구조 안정성을 확보할 수 있는 동시에, 인체에 대한 안전성을 확보할 수 있는 효과가 있다.</Abstract>
-				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c933ad40313ac4d95b582c1f515786fc1f6e49bf697c5201e60be7e2a136ab149e48124b59e5882183138612561d8ecfb5cdb0c0bd3eb709b92</DrawingPath>
-				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf0395fd19261a75d06327eac149170b01625b6903fc75d90a63ff78b9f640c570b18346adb22cac7d0a779a3ff411412d858a4a7d565b7703</ThumbnailPath>
-				<SerialNumber>8</SerialNumber>
-				<InventionName>바이폴라 에너지 디바이스</InventionName>
-				<InternationalpatentclassificationNumber>A61B 18/14|A61B 18/12|A61B 18/00</InternationalpatentclassificationNumber>
-				<OpeningDate>20230125</OpeningDate>
-				<OpeningNumber>1020230011542</OpeningNumber>
-				<PublicNumber />
-				<PublicDate>20230922</PublicDate>
-				<RegistrationDate>20230915</RegistrationDate>
-				<RegistrationNumber>1025808510000</RegistrationNumber>
-				<RegistrationStatus>등록</RegistrationStatus>
-			</PatentUtilityInfo>
-			<PatentUtilityInfo>
-				<Applicant>대화기기주식회사</Applicant>
-				<ApplicationDate>20150119</ApplicationDate>
-				<ApplicationNumber>1020150008784</ApplicationNumber>
-				<Abstract>본 발명의 루비레이저 헤드 시스템은, 헤드패널(10)의 상면 우측 중앙에 상기 제1 벤딩미러(70a)로부터 반사된 한쪽 레이저 빔(L1)을 받아 상기 빔아웃미러(90)로 직각되게 반사시키거나 상기 제3 벤딩미러(70c)에 의해 반사되는 다른쪽 레이저 빔(L2)이 간섭없이 빔아웃미러(90)로 통과하도록 0.25초 마다 694나노미터의 두 갈래 파장의 레이저 빔(L1)(L2)가 서로 번갈아 가면서 독립적으로 방출되는 속도에 맞추어 90°각도로 회전되는 회전식 반사수단(80)을 설치한 구조이기 때문에 두 갈래 레이저 빔(L1)(L2)의 출력을 높일 수 있을 뿐만 아니라 동작(반복률) 대기시간을 짧게할 수 있고, 이로 인하여 피부에 그 만큼 많은 량의 두 갈래 레이저 빔(L1)(L2)을 조사하여 빠른 시간내에 효율적으로 색소치료할 수 있는 것이다.</Abstract>
-				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00fe9d102ca70f1547b15f63e72744e5271c7c11280a7481cf56e3d83d7fa8c2735ec144db11084d1f32983e29fdb83b45359d815b78d04810</DrawingPath>
-				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfa1133a012d1bf2c454ae181f3a7d6205349fb3071a5b28e7e7d0bb67b642e66da7031fd65a5bd6f38e2d96911e16da0c5fd82d1c019db973</ThumbnailPath>
-				<SerialNumber>9</SerialNumber>
-				<InventionName>루비레이저 헤드 시스템</InventionName>
-				<InternationalpatentclassificationNumber>H01S 3/00|H01S 3/02|G02B 7/182|A61N 5/067</InternationalpatentclassificationNumber>
-				<OpeningDate>20160727</OpeningDate>
-				<OpeningNumber>1020160089172</OpeningNumber>
-				<PublicNumber />
-				<PublicDate>20170103</PublicDate>
-				<RegistrationDate>20161228</RegistrationDate>
-				<RegistrationNumber>1016923270000</RegistrationNumber>
-				<RegistrationStatus>소멸</RegistrationStatus>
-			</PatentUtilityInfo>
-			<PatentUtilityInfo>
-				<Applicant>대화기기주식회사</Applicant>
-				<ApplicationDate>20140314</ApplicationDate>
-				<ApplicationNumber>1020140030197</ApplicationNumber>
-				<Abstract>본 발명의 루비레이저 헤드 시스템은, 루비레이저 장비(1)의 외부 일측에는 아암(5)을 매개로 핸드피스(3)가 연결되고, 루비레이저 장비(1)의 내부 소정 높이에는 헤드패널(10)이 장착된 루비레이저 헤드 시스템에 있어서, 상기 헤드패널(10)에는 서로 번갈아 가면서 0.25초 마다 694나노미터의 파장의 레이저 빔(L1)(L2)을 방출하는 제1 및 제2 루비펌핑챔버(20a)(20b)가 설치되고, 상기 제1 및 제2 루비펌핑챔버(20a)(20b)로부터 방출된 레이저 빔(L1)(L2)이 동일한 경로를 따라 상기 핸드피스(3)를 향해 교대로 출력되도록 반사 및 통과시키는 이색성미러(80b)가 설치되며, 상기 이색성미러(80b)를 거친 레이저 빔(L1)(L2)이 핸드피스(3)로 출력되기전에 에너지를 1.5-2배로 증폭시키는 증폭기(100)가 설치된 것을 특징으로 되어 있으므로, 레이저 빔(L1)(L2)의 출력을 높일 수 있을 뿐만 아니라 동작(반복률) 대기시간을 짧게할 수 있고, 이로 인하여 피부에 그 만큼 많은 량의 레이저 빔(L1)(L2)을 조사하여 빠른 시간내에 효율적으로 색소치료할 수 있는 것이다.</Abstract>
-				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00497cf2ad05f64cc7378f1846ca0c36883afe9eb26c1507d98feec2d1b12fd66ec8ea69cf3fb221d71e83a2d73dd9c13c8bff2145e920f2d5</DrawingPath>
-				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfb8f4139d4f9c6e6377cc8bbb1749a43591960470e5b3e48046f25821af28a9c7a73cd028d48272c99df46a076a45f5838a86f0253bd3b031</ThumbnailPath>
-				<SerialNumber>10</SerialNumber>
-				<InventionName>루비레이저 헤드 시스템</InventionName>
-				<InternationalpatentclassificationNumber>H01S 3/063|G02B 27/14|H01S 3/08</InternationalpatentclassificationNumber>
-				<OpeningDate>20150923</OpeningDate>
-				<OpeningNumber>1020150107373</OpeningNumber>
-				<PublicNumber />
-				<PublicDate>20151228</PublicDate>
-				<RegistrationDate>20151210</RegistrationDate>
-				<RegistrationNumber>1015779850000</RegistrationNumber>
-				<RegistrationStatus>소멸</RegistrationStatus>
-			</PatentUtilityInfo>
-			<PatentUtilityInfo>
-				<Applicant>대화기기주식회사</Applicant>
-				<ApplicationDate>20140314</ApplicationDate>
-				<ApplicationNumber>1020140030195</ApplicationNumber>
-				<Abstract>본 발명의 루비레이저 헤드 시스템은, 루비레이저 장비(1)의 외부 일측에는 아암(5)을 매개로 핸드피스(3)가 연결되고, 루비레이저 장비(1)의 내부 소정 높이에는 헤드패널(10)이 장착된 루비레이저 헤드 시스템에 있어서, 상기 헤드패널(10)에는 0.25초 마다 694나노미터의 파장의 레이저 빔(L1)(L2)을 서로 번갈아 가면서 독립적으로 방출하여 상기 핸드피스(3)에 공급하는 제1 및 제2 루비펌핑챔버(20a)(20b)가 각각 설치된 것을 특징으로 되어 있으므로, 레이저 빔(L1)(L2)의 출력을 높일 수 있을 뿐만 아니라 동작(반복률) 대기시간을 짧게할 수 있고, 이로 인하여 피부에 그 만큼 많은 량의 레이저 빔(L1)(L2)을 조사하여 빠른 시간내에 효율적으로 색소치료할 수 있는 것이다.</Abstract>
-				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00497cf2ad05f64cc7378f1846ca0c36883afe9eb26c1507d98feec2d1b12fd66ee73fb08c73dc549e18b3c62360cc7db37b09ba4d4acff0eb</DrawingPath>
-				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfb8f4139d4f9c6e6377cc8bbb1749a43591960470e5b3e48046f25821af28a9c7d6bf5a4f4957160d2b9503035e012b801f4a34eff1f7b96f</ThumbnailPath>
-				<SerialNumber>11</SerialNumber>
-				<InventionName>루비레이저 헤드 시스템</InventionName>
-				<InternationalpatentclassificationNumber>H01S 3/08</InternationalpatentclassificationNumber>
-				<OpeningDate>20150923</OpeningDate>
-				<OpeningNumber>1020150107372</OpeningNumber>
-				<PublicNumber />
-				<PublicDate>20151228</PublicDate>
-				<RegistrationDate>20151210</RegistrationDate>
-				<RegistrationNumber>1015779840000</RegistrationNumber>
-				<RegistrationStatus>소멸</RegistrationStatus>
-			</PatentUtilityInfo>
-			<PatentUtilityInfo>
-				<Applicant>대화기기주식회사</Applicant>
-				<ApplicationDate>20141103</ApplicationDate>
-				<ApplicationNumber>1020140151325</ApplicationNumber>
-				<Abstract>본 발명은 약물의 주입속도를 입력하는 입력부, 장착된 시린지의 배럴 내경을 측정하는 내경 측정부, 상기 시린지의 플런저를 가압하여 소정 속도로 이동시키는 구동부 및 상기 내경 측정부에 의해 측정된 배럴의 내경을 기초로 상기 플런저의 이동속도를 산출하여 상기 구동부를 제어하는 제어부를 포함하는 시린지 펌프와 그 제어방법을 제공함으로써 다양한 사이즈의 시린지를 사용자가 용이하게 세팅하여 사용할 수 있는 효과를 가진다.</Abstract>
-				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00b869a8d13729b9096f181f26828b135bc22a15b6e3cdc852a265e0d97c9cac57ba80b5d58b2caf9b5c45306fedf79aad59c536c3fcde8807</DrawingPath>
-				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf428ea7d023fea5fa6d1c6660ddb36fad8e2edd28e6a29d3275c1403828df2718005475904d2d02388ac8e04d4f52023f3598083bb0007854</ThumbnailPath>
-				<SerialNumber>12</SerialNumber>
-				<InventionName>입력된 약물의 유량에 따라 약물의 자동 주입이 가능한 시린지 펌프 및 그 제어방법</InventionName>
-				<InternationalpatentclassificationNumber>A61M 5/20|A61M 5/315|A61J 1/06|A61M 5/31</InternationalpatentclassificationNumber>
-				<OpeningDate>20160513</OpeningDate>
-				<OpeningNumber>1020160053322</OpeningNumber>
-				<PublicNumber />
-				<PublicDate />
-				<RegistrationDate />
-				<RegistrationNumber />
-				<RegistrationStatus>거절</RegistrationStatus>
-			</PatentUtilityInfo>
-			<PatentUtilityInfo>
-				<Applicant>대화기기주식회사</Applicant>
-				<ApplicationDate>20041021</ApplicationDate>
-				<ApplicationNumber>1020040084484</ApplicationNumber>
-				<Abstract>약물 등의 의약품을 인체의 정맥내에 점적(點滴)하여 주입하는 수액시 사용되는 의약품 주입기에 제공되는 튜브 감지장치 및 이를 구비한 의약품 주입기가 제공된다.  상기 의약품 주입용 튜브 감지장치는, 의약품 주입기의 튜브핑거수단측 케이스의 내부에 피봇되고, 케이스 내측에 배치되어 튜브와 접촉하는 튜브접촉단과 케이스 외측으로 돌출된 센서작동단을 구비하여 튜브의 유무를 감지토록 구성된 튜브유무 감지수단; 및, 상기 케이스의 외측에 제공된 기판상에 설치되어 튜브접촉에 따른 상기 센서작동단의 이동시 작동되는 센서수단으로 구성되고, 본 발명의 의약품 주입기는 상기 튜브 감지장치를 구비한다.  이와 같은 본 발명에 의하면, 수액과 같은 약물을 인체에 원하는 정량으로 주입시키기 위하여 사용되는 의약품 주입기에서 약물 투입용 튜브의 주입기 정착상태에 따른 튜브 상태를 정밀하게 감지하도록 하여 의약품의 오주입이나 의약품 주입시 안전사고를 미연에 방지시키는 한편, 이를 구비한 의약품 주입기의 작동 정밀성을 보다 향상시키는 개선된 효과를 얻을 수 있다.  의약품(약물) 주입기, 수액튜브, 핑거수단, 튜브지지수단, 튜브막힘 감지수단</Abstract>
-				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9ccf2ab65a398793485ef4427c5aeeabfeb9339706aec0eb0b28cd9566c223f709</DrawingPath>
-				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe4598c4c077876d4f927653273b68e5da4af566d1b279090bbed1aff5b71a61d54</ThumbnailPath>
-				<SerialNumber>13</SerialNumber>
-				<InventionName>의약품 주입용 튜브 감지장치 및 이를 구비한 의약품 주입기</InventionName>
-				<InternationalpatentclassificationNumber>A61M 5/168</InternationalpatentclassificationNumber>
-				<OpeningDate>20060426</OpeningDate>
-				<OpeningNumber>1020060035131</OpeningNumber>
-				<PublicNumber />
-				<PublicDate>20060809</PublicDate>
-				<RegistrationDate>20060727</RegistrationDate>
-				<RegistrationNumber>1006090830000</RegistrationNumber>
-				<RegistrationStatus>소멸</RegistrationStatus>
-			</PatentUtilityInfo>
-			<PatentUtilityInfo>
-				<Applicant>대화기기주식회사</Applicant>
-				<ApplicationDate>20141103</ApplicationDate>
-				<ApplicationNumber>1020140151398</ApplicationNumber>
-				<Abstract>본 발명은 수액이 저장된 수액팩의 무게변화를 실시간으로 감지하는 무게감지유닛 및 상기 무게감지유닛에 의해 감지된 수액팩의 무게변화를 기초로 구동부를 제어하여 상기 수액을 인체에 공급하는 인퓨전 펌프를 포함하는 수액 주입시스템 및 그 방법을 제공함으로써 다양한 제조사 및 사이즈의 수액세트를 고정밀의 주입속도로 용이하게 사용할 수 있는 효과를 가진다.</Abstract>
-				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00b869a8d13729b9096f181f26828b135bc22a15b6e3cdc852a265e0d97c9cac571f687e515b1bb8126bea6d083ce30cdbe73fba2f2217e6e3</DrawingPath>
-				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf428ea7d023fea5fa6d1c6660ddb36fad8e2edd28e6a29d3275c1403828df271866ed2ab14d19bc40967141ae83fbbc84bb8dc1ac0f37c33e</ThumbnailPath>
-				<SerialNumber>14</SerialNumber>
-				<InventionName>수액팩의 무게변화 감지를 이용한 고정밀 수액 주입시스템 및 그 방법</InventionName>
-				<InternationalpatentclassificationNumber>A61M 1/02|A61M 5/168|A61M 39/26|A61M 5/142</InternationalpatentclassificationNumber>
-				<OpeningDate>20160513</OpeningDate>
-				<OpeningNumber>1020160053332</OpeningNumber>
-				<PublicNumber />
-				<PublicDate />
-				<RegistrationDate />
-				<RegistrationNumber />
-				<RegistrationStatus>거절</RegistrationStatus>
-			</PatentUtilityInfo>
-			<PatentUtilityInfo>
-				<Applicant>대화기기주식회사</Applicant>
-				<ApplicationDate>20031113</ApplicationDate>
-				<ApplicationNumber>1020030080172</ApplicationNumber>
-				<Abstract>인공용액등의 의약품(약물)을 인체의 정맥내에 점적(點滴)하여 주입하는 수액시 사용되는 의약품 주입기가 제공된다.  상기 의약품 주입기는, 수액튜브가 종방향으로 통과하는 케이스부재;와, 그 일측에 수액튜브 통과부분을 개폐토록 설치된 도어부재;과, 상기 케이스부재의 일측 내부에 통과수액튜브를 도어부재의 개폐방향과 연관되지 않는 상태에서 압착 지지토록 설치된 튜브지지수단; 및, 상기 케이스부재의 일측 내부에 상기 도어부재의 개폐방향과 연관되지 않는 상태에서 상기 튜브지지수단과 상호 협력하여 수액튜브내의 약물을 펌핑하도록 제공된 튜브핑거수단으로서 도어 독립형으로 구성된다.  이와 같은 본 발명에 의하면, 수액과 같은 약물의 인체 주입시 정량주입을 위한 주입기에서 약물 펌핑구성부인 핑거수단 및 튜브지지수단의 상호 압착방향이 도어의 개폐방향과 연관되지 않은 상태로 이루어 져 기기의 도어에 외부충격이 가해지거나 도어파손시에도 약물의 정상적인 주입이 가능하여, 기기를 통한 약물주입이 가일층 안정적으로 수행되도록 하면서, 기기의 사용수명도 연장시키는 보다 개선된 효과를 얻는다.  의약품(약물) 주입기, 수액튜브, 핑거수단, 튜브지지수단, 튜브막힘 감지수단</Abstract>
-				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c1531c25f20055517316a4cd6df16e8065422336ee51b6ae2c3e912df5ab38ea7</DrawingPath>
-				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe48a5ee3d6a139d53eca382eb81ac80f3603ed0aa8d040cf555705c74007b344a5</ThumbnailPath>
-				<SerialNumber>15</SerialNumber>
-				<InventionName>의약품 주입기</InventionName>
-				<InternationalpatentclassificationNumber>A61M 5/142|A61M 5/168</InternationalpatentclassificationNumber>
-				<OpeningDate>20050518</OpeningDate>
-				<OpeningNumber>1020050046159</OpeningNumber>
-				<PublicNumber />
-				<PublicDate>20060306</PublicDate>
-				<RegistrationDate>20060222</RegistrationDate>
-				<RegistrationNumber>1005561860000</RegistrationNumber>
-				<RegistrationStatus>소멸</RegistrationStatus>
-			</PatentUtilityInfo>
-			<PatentUtilityInfo>
-				<Applicant>대화기기주식회사</Applicant>
-				<ApplicationDate>20031113</ApplicationDate>
-				<ApplicationNumber>1020030080173</ApplicationNumber>
-				<Abstract>인공용액등의 약물을 인체에 주입시키는 경우 사용하는 수액셋의 튜브막힘을 독립적으로 감지하는 독립형 튜브막힘 감지장치가 제공된다.  상기 독립형 튜브막힘 감지장치는, 소정위치에 배치되고 튜브가 안착 통과하는 케이스부재;와, 상기 케이스부재의 내측에 탄성 지지되면서 회전 가능하게 제공되고, 튜브와 접촉되는 튜브접촉부와 튜브의 수축 및 팽창시 유동되면서 신호발생량 의 편차를 발생시키는 신호발생수단을 갖춘 핑거부재; 및, 상기 케이스부재상에 상기 신호발생수단으로 부터 발생되는 신호발생량 편차를 감지하여 튜브막힘을 감지도록 제공된 센서수단을 포함하여 구성되어 있다.  이와 같은 본 발명에 의하면, 수액튜브등의 튜브가 막히면 이를 기기의 다른부품과 연동하지 않고 독립적으로 감지할 수 있어 감지작동이 보다 안정적으로 수행되는 한편, 세트화된 부품으로 구조가 간소화되어 제작됨으로서, 약물 주입기는 물론, 수액셋의 튜브나 기타 화학실험용 튜브등에도 적용시키어 사용할 수 있어 사용폭을 보다 증대시키는 보다 개선된 효과를 얻는다.  수액셋, 수액튜브, 튜브막힘, 튜브막힘 감지장치, 약물 주입기</Abstract>
-				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c1531c25f20055517316a4cd6df16e8065422336ee51b6ae20f60d25c1c30d11b</DrawingPath>
-				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe48a5ee3d6a139d53eca382eb81ac80f3603ed0aa8d040cf5549ae801fb66b0e29</ThumbnailPath>
-				<SerialNumber>16</SerialNumber>
-				<InventionName>독립형 튜브막힘 감지장치</InventionName>
-				<InternationalpatentclassificationNumber>A61M 5/168|A61M 5/14</InternationalpatentclassificationNumber>
-				<OpeningDate>20050518</OpeningDate>
-				<OpeningNumber>1020050046160</OpeningNumber>
-				<PublicNumber />
-				<PublicDate />
-				<RegistrationDate />
-				<RegistrationNumber />
-				<RegistrationStatus>거절</RegistrationStatus>
-			</PatentUtilityInfo>
-			<TotalSearchCount>16</TotalSearchCount>
-			<SearchStartNumber>1</SearchStartNumber>
-		</items>
-	</body>
-</response></body></response><response><applicant>5576</applicant><header /><header /><body><response>
-	<header>
-		<resultCode />
-		<resultMsg />
-	</header>
-	<body>
-		<items>
-			<PatentUtilityInfo>
+<responseData><response><applicant>5576</applicant><header><resultCode /><resultMsg /></header><body><items><PatentUtilityInfo>
 				<Applicant>주식회사 메카트로</Applicant>
 				<ApplicationDate>20020919</ApplicationDate>
 				<ApplicationNumber>2020020028364</ApplicationNumber>
@@ -685,16 +379,7 @@
 			</PatentUtilityInfo>
 			<TotalSearchCount>21</TotalSearchCount>
 			<SearchStartNumber>1</SearchStartNumber>
-		</items>
-	</body>
-</response></body></response><response><applicant>11319</applicant><header /><header /><body><response>
-	<header>
-		<resultCode />
-		<resultMsg />
-	</header>
-	<body>
-		<items>
-			<PatentUtilityInfo>
+		</items></body></response><response><applicant>11319</applicant><header><resultCode /><resultMsg /></header><body><items><PatentUtilityInfo>
 				<Applicant>동아베스텍 주식회사</Applicant>
 				<ApplicationDate>20111005</ApplicationDate>
 				<ApplicationNumber>1020110101426</ApplicationNumber>
@@ -2370,6 +2055,294 @@
 			</PatentUtilityInfo>
 			<TotalSearchCount>93</TotalSearchCount>
 			<SearchStartNumber>1</SearchStartNumber>
-		</items>
-	</body>
-</response></body></response></responseData>
+		</items></body></response><response><applicant>4728</applicant><header><resultCode /><resultMsg /></header><body><items><PatentUtilityInfo>
+				<Applicant>대화기기주식회사</Applicant>
+				<ApplicationDate>20190820</ApplicationDate>
+				<ApplicationNumber>1020207001199</ApplicationNumber>
+				<Abstract>본 발명은 초음파 에너지 디바이스에 관한 것이다. 본 발명의 일 양상인 초음파 에너지 디바이스는, 원통형으로 형성된 외부 파이프(Outer Pipe)와 상기 외부 파이프 내에서 길이 방향으로 이동 가능한 내부 파이프(Inner Pipe)를 포함하는 파이프부; 상기 파이프부의 일단에 형성된 집게부; 및 상기 파이프부의 타단에 연결되고, 상기 집게부의 동작을 제어하는 손잡이부;를 포함하고, 상기 집게부는, 상기 내부 파이프 내에 삽입되고, 상기 손잡이부에서 발생된 초음파가 전달되는 샤프트; 및 상기 샤프트와 함께, 신체의 적어도 일부를 압착하고, 상기 초음파에 의해 발생되는 진동 에너지및 열 에너지를 기초로 상기 신체의 적어도 일부의 조직 또는 혈관을 절단하는 조(jaw)를 포함하고, 상기 손잡이부는, 사용자가 조작을 통해 상기 샤프트 및 조가 상기 신체의 적어도 일부를 압착하고, 상기 초음파를 상기 조직 또는 혈관으로 전달하도록 하는 레버 유닛; 상기 레버 유닛에 연결되어 상기 내부 파이프의 이동을 제어하는 스프링 유닛; 상기 초음파를 발생시키는 트랜스듀서; 및 전원공급부의 케이블과 연결되어 전원을 공급하는 파워 커넥터;를 포함할 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c936acefa86138d0e36857dd003a8541b9ac8a06e4df154b7aad326327bb3b11cb3e07102ebc5b8fe714f0a9bd15e65eb829d66b4346f2edf70</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf666d2e5b669c5d0392b3336dfe34fc40e58899d1f5b762e44140da36fef102df80ed3fde8cbda0b8ea340ef6349088f7e96547ea612e92e6</ThumbnailPath>
+				<SerialNumber>1</SerialNumber>
+				<InventionName>초음파 에너지 디바이스</InventionName>
+				<InternationalpatentclassificationNumber>A61B 17/32|A61B 17/29|A61B 17/00|A61B 18/04</InternationalpatentclassificationNumber>
+				<OpeningDate>20210304</OpeningDate>
+				<OpeningNumber>1020210023786</OpeningNumber>
+				<PublicNumber />
+				<PublicDate>20210802</PublicDate>
+				<RegistrationDate>20210727</RegistrationDate>
+				<RegistrationNumber>1022845360000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>대화기기주식회사</Applicant>
+				<ApplicationDate>20041109</ApplicationDate>
+				<ApplicationNumber>2020040031672</ApplicationNumber>
+				<Abstract>전자기기 특히, 인체에 직접적인 전기쇼크 등의 영향을 미칠 수 있는 의료용으로 사용되는 절연특성이 우수한 전자기기가 제공된다.  상기 절연특성이 우수한 전자기기는, 내부에 기판과 이에 회로부품들이 실장된 기판회로부가 내장되는 케이스와, 상기 케이스의 적어도 일측면에 제공된 절연수단 및, 상기 절연수단에 장착되면서 기판회로부와 전기적으로 연결되는 부품들을 포함하여 부품의 내전압이 절연수단을 통하여 증대토록 구성된 것을 특징으로 한다.  이와 같은 본 고안에 의하면, 전자기기의 외부 조작부품이 연결되는 콘넥터부품들이 기기의 케이스에 제공된 절연수단을 통하여 기기에 제공됨으로서, 부품의 내전압은 물론, 기기의 절연특성을 향상시키고, 이로 인하여 절연특성이 우수한 고가의 부품을 사용하지 않아도 되어 비용절감을 가능하며, 특히 의료용 전자기기인 경우 환자에게 발생될 수 있는 전기쇼크 등의 안전사고를 예방시키는 보다 개선된 효과를 얻는다.  전자기기, 의료용 전자기기, 절연수단(판), 부품, 기기케이스, 절연특성</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0000ca1661db2164ae8fc311becd6f36d7d80d0296162c4be5875d6f4f7cde822e</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf069b3e16e200cce1fab0aa0ad0c41ca6e6a2a7ab50b93c40a1bc467899d7ab25</ThumbnailPath>
+				<SerialNumber>2</SerialNumber>
+				<InventionName>절연특성이 우수한 전자기기</InventionName>
+				<InternationalpatentclassificationNumber>H05K 7/06|H05K 1/18|H05K 1/11</InternationalpatentclassificationNumber>
+				<OpeningDate />
+				<OpeningNumber />
+				<PublicNumber />
+				<PublicDate>20050205</PublicDate>
+				<RegistrationDate>20050127</RegistrationDate>
+				<RegistrationNumber>2003750910000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>대화기기주식회사</Applicant>
+				<ApplicationDate>20190820</ApplicationDate>
+				<ApplicationNumber>1020197024494</ApplicationNumber>
+				<Abstract>본 발명은 복강경 기구에 관한 것이다. 본 발명의 일 양상인 복강경 기구는, 원통형으로 형성된 외부 파이프(Outer Pipe)와 상기 외부 파이프 내에서 길이 방향으로 이동 가능한 내부 파이프(Inner Pipe)를 포함하는 파이프부; 상기 파이프부의 일단에 형성된 집게부; 및 상기 파이프부의 타단에 연결되고, 상기 집게부의 동작을 제어하는 손잡이부;를 포함하고, 상기 집게부는, 상기 내부 파이프 내에 삽입되고, 상기 손잡이부에서 발생된 초음파가 전달되는 샤프트; 및 상기 샤프트와 함께, 신체의 적어도 일부를 압착하고, 상기 초음파에 의해 발생되는 진동 에너지및 열 에너지를 기초로 상기 신체의 적어도 일부의 조직 또는 혈관을 절단하는 조(jaw)를 포함하고, 상기 손잡이부는, 사용자가 조작을 통해 상기 샤프트 및 조가 상기 신체의 적어도 일부를 압착하고, 상기 초음파를 상기 조직 또는 혈관으로 전달하도록 하는 레버 유닛; 상기 레버 유닛에 연결되어 상기 내부 파이프의 이동을 제어하는 스프링 유닛; 상기 초음파를 발생시키는 트랜스듀서; 및 전원공급부의 케이블과 연결되어 전원을 공급하는 파워 커넥터;를 포함할 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00e1dd2ab327e92b914041d7d39e62a3041a055632f410d0c933e6dfc1ce7ba60ef822546e9722bdda139dc6a6d9bedc2a467488431f310e27</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf0858af6bb15195c4eed892c4dd68fee68caa633d2df0198089cbb3d9b413d997287c884962a95a84b59fe60d12466ebd6f0a2d1b468c3eb2</ThumbnailPath>
+				<SerialNumber>3</SerialNumber>
+				<InventionName>복강경 기구</InventionName>
+				<InternationalpatentclassificationNumber>A61B 17/32|A61B 17/29|A61B 17/00|A61B 18/04</InternationalpatentclassificationNumber>
+				<OpeningDate />
+				<OpeningNumber />
+				<PublicNumber />
+				<PublicDate>20200526</PublicDate>
+				<RegistrationDate>20200424</RegistrationDate>
+				<RegistrationNumber>1021067460000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>대화기기주식회사</Applicant>
+				<ApplicationDate>20190820</ApplicationDate>
+				<ApplicationNumber>1020207026896</ApplicationNumber>
+				<Abstract>본 발명의 일 양상인 시저 타입 초음파 에너지 디바이스는, 파이프부; 상기 파이프부의 일단에 형성된 집게부; 및 상기 파이프부의 타단에 연결되고, 상기 집게부의 동작을 제어하는 손잡이부;를 포함하고, 상기 집게부는, 상기 파이프부 내부에 삽입되고, 상기 손잡이부에서 발생된 초음파가 전달되는 샤프트; 및 상기 샤프트와 함께, 신체의 적어도 일부를 압착하고, 상기 초음파에 의해 발생되는 진동 에너지및 열 에너지를 기초로 상기 신체의 적어도 일부의 조직 또는 혈관을 절단하는 조(jaw)를 포함하고, 상기 손잡이부는, 사용자가 조작을 통해 상기 샤프트 및 조가 상기 신체의 적어도 일부를 압착하고, 상기 초음파를 상기 조직 또는 혈관으로 전달하며, 상기 파이프부의 이동을 제어하는 레버 유닛; 상기 초음파를 발생시키는 트랜스듀서; 및 전원공급부의 케이블과 연결되어 전원을 공급하는 파워 커넥터;를 포함하고, 상기 트랜스듀서는, 압전 현상을 이용하여 상기 초음파를 발생시키는 압전소자; 상기 발생된 초음파를 증폭시키는 혼(horn); 상기 혼으로부터 증폭된 초음파를 전달받아 앞뒤로 움직이면서 상기 증폭된 초음파를 샤프트로 전달하는 피에조 바디; 및 상기 압전소자를 둘러싸는 피에조 케이스; 를 포함할 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c932b3fb71c30eb5abf52d1fa06494e6928bba2fdef8f4865ffab76c9c5a65d29565b6be44d1da8fe20eca52c223d09a3a08540a9940dacd409</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf9a14b8ef45e65e5e02305b7b587928880f0ce609ebec7bff3e3dc84211a70ae3e13bcc58a1c73ab85ca2e9d1b51c2f1c365f5c3fbbc78cc4</ThumbnailPath>
+				<SerialNumber>4</SerialNumber>
+				<InventionName>시저 타입 초음파 에너지 디바이스</InventionName>
+				<InternationalpatentclassificationNumber>A61B 17/32|A61B 17/29|A61B 17/00|A61B 18/04</InternationalpatentclassificationNumber>
+				<OpeningDate>20210304</OpeningDate>
+				<OpeningNumber>1020210023800</OpeningNumber>
+				<PublicNumber />
+				<PublicDate>20210412</PublicDate>
+				<RegistrationDate>20210405</RegistrationDate>
+				<RegistrationNumber>1022387510000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>대화기기주식회사</Applicant>
+				<ApplicationDate>20140113</ApplicationDate>
+				<ApplicationNumber>1020140003883</ApplicationNumber>
+				<Abstract>본 발명은 시린지에 충전된 액체의 용량을 입력하는 입력부, 상기 입력된 용량에 따른 시린지 데이터 및 플런저 이동 거리가 기설정된 데이터부, 제어신호에 의해 상기 시린지의 플런저를 가압하여 이동시키는 구동부, 상기 시린지 데이터에 따라 상기 구동부의 작동을 제어하는 제어부, 상기 구동부에 의해 이동된 플런저의 이동 거리를 측정하는 거리 측정부 및 상기 기설정된 플런저 이동 거리를 기준값으로 하여 상기 거리 측정부에서 측정한 플런저 이동 거리와의 오차율을 기초로 상기 시린지 데이터를 오토 캘리브레이션하는 오토 캘리브레이션부를 포함하는 시린지 펌프와 오토 캘리브레이션 방법을 제공함으로써 사용자가 미등록 시린지를 용이하게 등록할 수 있는 효과를 가지게 된다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00f31e872d493ca733e600d41f7b5f44b93cbcf5620122d719d2f2fa3581314dbb067c2db4d0abe707e586630a4a0099bf0e3bfd716ce5af79</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfab8b063510516a1619290b9e710ff85f41c1d71966db14422cd86ac398cb2d4e251927e68565c867ea5f13da2bd7ed3d9bf24739e7336455</ThumbnailPath>
+				<SerialNumber>5</SerialNumber>
+				<InventionName>오토 캘리브레이션 기능을 갖는 시린지 펌프 및 시린지 펌프에서의 오토 캘리브레이션 방법</InventionName>
+				<InternationalpatentclassificationNumber>A61M 5/145|A61M 5/20|A61M 5/142</InternationalpatentclassificationNumber>
+				<OpeningDate />
+				<OpeningNumber />
+				<PublicNumber />
+				<PublicDate>20150313</PublicDate>
+				<RegistrationDate>20150309</RegistrationDate>
+				<RegistrationNumber>1015025090000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>대화기기주식회사</Applicant>
+				<ApplicationDate>20041028</ApplicationDate>
+				<ApplicationNumber>2020040030529</ApplicationNumber>
+				<Abstract>수액과 같은 약물의 인체 주입시 사용되는 약물병이나 주입기의 스탠드 거치를 간편하게 하는 약물 주입물품의 스탠드 클램핑장치가 제공된다.  상기 약물 주입물품의 스탠드 클램핑장치는, 내측에 약물 주입물품이 거치되는 스탠드가 통과하면서 수조작시 서로 협력하여 스탠드에 고정되는 고정 및 이동 클램핑부재로 구성된 스탠드 클램핑수단; 및, 상기 고정 클팸핑부재에 수평하게 신장되면서 고정된 거치몸체와, 상기 몸체에 제공되면서 주입기가 거치되는 주입기 거치부재 및, 상기 몸체에 제공되면서 약물병 연결튜브가 거치되는 튜브거치부재로 구성된 약물 주입물품 거치수단으로 구성되어 있다.  이와 같은 본 고안에 의하면, 수액과 같은 약물을 인체에 정량 주입시키는 주입기, 약물병이나 주입기 등의 약물 주입물품의 스탠드 거치를 매우 간편하게 하면서, 특히 여러개의 주입물품을 동시에 거치시키는 것을 가능하게 함은 물론, 기존의 스탠드에 간단하게 거치 사용할 수 있어 실용적이고, 필요시 환자의 시트등도 거치하는 다기능을 제공하여 전체적으로 매우 컴팩트한 보다 개선된 효과를 제공한다.  약물 주입기, 약물병(링거병), 수액병, 약물 주입물품, 클램핑장치, 스탠드</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0000ca1661db2164ae9b5e89d64e68755cefa458e891dd09547387c4a7212c2ec0</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf069b3e16e200cce1f516c11e5019a6332a01f555ba3f4510f0bcecfc051e24c9</ThumbnailPath>
+				<SerialNumber>6</SerialNumber>
+				<InventionName>약물 주입물품의 스탠드 클램핑장치</InventionName>
+				<InternationalpatentclassificationNumber>A61M 5/14</InternationalpatentclassificationNumber>
+				<OpeningDate />
+				<OpeningNumber />
+				<PublicNumber />
+				<PublicDate>20050114</PublicDate>
+				<RegistrationDate>20050104</RegistrationDate>
+				<RegistrationNumber>2003729420000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>대화기기주식회사</Applicant>
+				<ApplicationDate>20041117</ApplicationDate>
+				<ApplicationNumber>1020040094249</ApplicationNumber>
+				<Abstract>신체조직(부위)의 절개 또는 응고시 사용되는 전기시술용 전극이 제공된다.  본 발명의 전기시술용 전극은, 전기수술기와 전기적으로 접속되어 신체조직의 절개, 응고와 같은 시술을 수행하는 전기시술용 전극으로서, 양극성으로 구성되면서 신체조직의 시술을 수행하는 전극몸체 및, 상기 전극몸체사이에 개재되어 양극성 전극을 구성시키는 절연체를 포함하여 구성되어 있다.  이와 같은 본 발명에 의하면, 시술시 전극에 고주파 전류를 인가시키는 전기수술기의 단극 또는 양극 접속이 모두 가능하며, 환자와 접촉하는 대극판(환자전극 또는 접지패드)의 사용이 필요없어 전극 사용과 시술을 편리하게 하는 한편, 특히 기존 단극성 시술에 비하여 낮은 전압하에서 시술할 수 있어 신체조직과 전극간의 스파크 발생을 억제시키어 조직의 탄화를 최소화시키면서, 전극을 통한 고주파 전류의 전달경로가 최소화되어 고주파 전류에 의한 화상이나 전기쇼크등을 예방하는 보다 개선된 효과를 얻을 수 있다.  시술, 전기수술기, 시술용 전극, 포셉, 단극성 시술전극, 양극성 시술전극</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9ccf2ab65a398793483023fadeaacb33d72291d52f2e775d0ebdb90f24c77ebf90</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe4598c4c077876d4f9d361b9098ea89f974546384da83baceb9432fca9be38ccac</ThumbnailPath>
+				<SerialNumber>7</SerialNumber>
+				<InventionName>전기시술용 전극</InventionName>
+				<InternationalpatentclassificationNumber>A61B 18/14|A61B 18/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20060522</OpeningDate>
+				<OpeningNumber>1020060053803</OpeningNumber>
+				<PublicNumber />
+				<PublicDate>20060928</PublicDate>
+				<RegistrationDate>20060921</RegistrationDate>
+				<RegistrationNumber>1006294540000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>대화기기주식회사</Applicant>
+				<ApplicationDate>20210713</ApplicationDate>
+				<ApplicationNumber>1020210091737</ApplicationNumber>
+				<Abstract>본 발명은 원통형으로 형성된 외부 파이프(Outer Pipe)와, 상기 외부 파이프를 길이방향으로 관통하면서 이동가능하게 설치되는 내부 파이프(Inner Pipe)를 포함하는 파이프부; 내측에 길이방향으로 개구가 형성되면서 각각 서로 다른 전극이 구비된 상측 조(jaw)와 하측 조로 이루어지고, 상기 개구의 개폐(open or close)가 가능하도록 상기 파이프부의 일단에 힌지 결합되는 핀셋부; 상기 내부 파이프 내에서 길이방향으로 이동가능하게 설치되어 상기 파이프부의 일단을 관통하면서 상기 상하측 조의 개구까지 노출되도록 연장된 블레이드부; 및 상기 파이프부의 타단 측 방향으로 노출되는 내부 파이프를 수용시키면서 사용자가 파지가능한 하우징을 형성하고, 상기 핀셋부 및 블레이드부의 동작과, 상기 상하측 조의 전극에 대한 전원공급을 제어하는 핸들부를 포함하고,  상기 핀셋부의 상하측 조 중 적어도 하나의 상호 대면하는 일면에는, 상기 핀셋부의 폐쇄 동작시에, 상기 상하측 조에 간극이 형성되도록 돌기가 구비된 것을 특징으로 하여,  쇼트현상을 방지할 수 있고, 이에 따라, 기기의 구조 안정성을 확보할 수 있는 동시에, 인체에 대한 안전성을 확보할 수 있는 효과가 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c933ad40313ac4d95b582c1f515786fc1f6e49bf697c5201e60be7e2a136ab149e48124b59e5882183138612561d8ecfb5cdb0c0bd3eb709b92</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf0395fd19261a75d06327eac149170b01625b6903fc75d90a63ff78b9f640c570b18346adb22cac7d0a779a3ff411412d858a4a7d565b7703</ThumbnailPath>
+				<SerialNumber>8</SerialNumber>
+				<InventionName>바이폴라 에너지 디바이스</InventionName>
+				<InternationalpatentclassificationNumber>A61B 18/14|A61B 18/12|A61B 18/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20230125</OpeningDate>
+				<OpeningNumber>1020230011542</OpeningNumber>
+				<PublicNumber />
+				<PublicDate>20230922</PublicDate>
+				<RegistrationDate>20230915</RegistrationDate>
+				<RegistrationNumber>1025808510000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>대화기기주식회사</Applicant>
+				<ApplicationDate>20150119</ApplicationDate>
+				<ApplicationNumber>1020150008784</ApplicationNumber>
+				<Abstract>본 발명의 루비레이저 헤드 시스템은, 헤드패널(10)의 상면 우측 중앙에 상기 제1 벤딩미러(70a)로부터 반사된 한쪽 레이저 빔(L1)을 받아 상기 빔아웃미러(90)로 직각되게 반사시키거나 상기 제3 벤딩미러(70c)에 의해 반사되는 다른쪽 레이저 빔(L2)이 간섭없이 빔아웃미러(90)로 통과하도록 0.25초 마다 694나노미터의 두 갈래 파장의 레이저 빔(L1)(L2)가 서로 번갈아 가면서 독립적으로 방출되는 속도에 맞추어 90°각도로 회전되는 회전식 반사수단(80)을 설치한 구조이기 때문에 두 갈래 레이저 빔(L1)(L2)의 출력을 높일 수 있을 뿐만 아니라 동작(반복률) 대기시간을 짧게할 수 있고, 이로 인하여 피부에 그 만큼 많은 량의 두 갈래 레이저 빔(L1)(L2)을 조사하여 빠른 시간내에 효율적으로 색소치료할 수 있는 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00fe9d102ca70f1547b15f63e72744e5271c7c11280a7481cf56e3d83d7fa8c2735ec144db11084d1f32983e29fdb83b45359d815b78d04810</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfa1133a012d1bf2c454ae181f3a7d6205349fb3071a5b28e7e7d0bb67b642e66da7031fd65a5bd6f38e2d96911e16da0c5fd82d1c019db973</ThumbnailPath>
+				<SerialNumber>9</SerialNumber>
+				<InventionName>루비레이저 헤드 시스템</InventionName>
+				<InternationalpatentclassificationNumber>H01S 3/00|H01S 3/02|G02B 7/182|A61N 5/067</InternationalpatentclassificationNumber>
+				<OpeningDate>20160727</OpeningDate>
+				<OpeningNumber>1020160089172</OpeningNumber>
+				<PublicNumber />
+				<PublicDate>20170103</PublicDate>
+				<RegistrationDate>20161228</RegistrationDate>
+				<RegistrationNumber>1016923270000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>대화기기주식회사</Applicant>
+				<ApplicationDate>20140314</ApplicationDate>
+				<ApplicationNumber>1020140030197</ApplicationNumber>
+				<Abstract>본 발명의 루비레이저 헤드 시스템은, 루비레이저 장비(1)의 외부 일측에는 아암(5)을 매개로 핸드피스(3)가 연결되고, 루비레이저 장비(1)의 내부 소정 높이에는 헤드패널(10)이 장착된 루비레이저 헤드 시스템에 있어서, 상기 헤드패널(10)에는 서로 번갈아 가면서 0.25초 마다 694나노미터의 파장의 레이저 빔(L1)(L2)을 방출하는 제1 및 제2 루비펌핑챔버(20a)(20b)가 설치되고, 상기 제1 및 제2 루비펌핑챔버(20a)(20b)로부터 방출된 레이저 빔(L1)(L2)이 동일한 경로를 따라 상기 핸드피스(3)를 향해 교대로 출력되도록 반사 및 통과시키는 이색성미러(80b)가 설치되며, 상기 이색성미러(80b)를 거친 레이저 빔(L1)(L2)이 핸드피스(3)로 출력되기전에 에너지를 1.5-2배로 증폭시키는 증폭기(100)가 설치된 것을 특징으로 되어 있으므로, 레이저 빔(L1)(L2)의 출력을 높일 수 있을 뿐만 아니라 동작(반복률) 대기시간을 짧게할 수 있고, 이로 인하여 피부에 그 만큼 많은 량의 레이저 빔(L1)(L2)을 조사하여 빠른 시간내에 효율적으로 색소치료할 수 있는 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00497cf2ad05f64cc7378f1846ca0c36883afe9eb26c1507d98feec2d1b12fd66ec8ea69cf3fb221d71e83a2d73dd9c13c8bff2145e920f2d5</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfb8f4139d4f9c6e6377cc8bbb1749a43591960470e5b3e48046f25821af28a9c7a73cd028d48272c99df46a076a45f5838a86f0253bd3b031</ThumbnailPath>
+				<SerialNumber>10</SerialNumber>
+				<InventionName>루비레이저 헤드 시스템</InventionName>
+				<InternationalpatentclassificationNumber>H01S 3/063|G02B 27/14|H01S 3/08</InternationalpatentclassificationNumber>
+				<OpeningDate>20150923</OpeningDate>
+				<OpeningNumber>1020150107373</OpeningNumber>
+				<PublicNumber />
+				<PublicDate>20151228</PublicDate>
+				<RegistrationDate>20151210</RegistrationDate>
+				<RegistrationNumber>1015779850000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>대화기기주식회사</Applicant>
+				<ApplicationDate>20140314</ApplicationDate>
+				<ApplicationNumber>1020140030195</ApplicationNumber>
+				<Abstract>본 발명의 루비레이저 헤드 시스템은, 루비레이저 장비(1)의 외부 일측에는 아암(5)을 매개로 핸드피스(3)가 연결되고, 루비레이저 장비(1)의 내부 소정 높이에는 헤드패널(10)이 장착된 루비레이저 헤드 시스템에 있어서, 상기 헤드패널(10)에는 0.25초 마다 694나노미터의 파장의 레이저 빔(L1)(L2)을 서로 번갈아 가면서 독립적으로 방출하여 상기 핸드피스(3)에 공급하는 제1 및 제2 루비펌핑챔버(20a)(20b)가 각각 설치된 것을 특징으로 되어 있으므로, 레이저 빔(L1)(L2)의 출력을 높일 수 있을 뿐만 아니라 동작(반복률) 대기시간을 짧게할 수 있고, 이로 인하여 피부에 그 만큼 많은 량의 레이저 빔(L1)(L2)을 조사하여 빠른 시간내에 효율적으로 색소치료할 수 있는 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00497cf2ad05f64cc7378f1846ca0c36883afe9eb26c1507d98feec2d1b12fd66ee73fb08c73dc549e18b3c62360cc7db37b09ba4d4acff0eb</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfb8f4139d4f9c6e6377cc8bbb1749a43591960470e5b3e48046f25821af28a9c7d6bf5a4f4957160d2b9503035e012b801f4a34eff1f7b96f</ThumbnailPath>
+				<SerialNumber>11</SerialNumber>
+				<InventionName>루비레이저 헤드 시스템</InventionName>
+				<InternationalpatentclassificationNumber>H01S 3/08</InternationalpatentclassificationNumber>
+				<OpeningDate>20150923</OpeningDate>
+				<OpeningNumber>1020150107372</OpeningNumber>
+				<PublicNumber />
+				<PublicDate>20151228</PublicDate>
+				<RegistrationDate>20151210</RegistrationDate>
+				<RegistrationNumber>1015779840000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>대화기기주식회사</Applicant>
+				<ApplicationDate>20141103</ApplicationDate>
+				<ApplicationNumber>1020140151325</ApplicationNumber>
+				<Abstract>본 발명은 약물의 주입속도를 입력하는 입력부, 장착된 시린지의 배럴 내경을 측정하는 내경 측정부, 상기 시린지의 플런저를 가압하여 소정 속도로 이동시키는 구동부 및 상기 내경 측정부에 의해 측정된 배럴의 내경을 기초로 상기 플런저의 이동속도를 산출하여 상기 구동부를 제어하는 제어부를 포함하는 시린지 펌프와 그 제어방법을 제공함으로써 다양한 사이즈의 시린지를 사용자가 용이하게 세팅하여 사용할 수 있는 효과를 가진다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00b869a8d13729b9096f181f26828b135bc22a15b6e3cdc852a265e0d97c9cac57ba80b5d58b2caf9b5c45306fedf79aad59c536c3fcde8807</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf428ea7d023fea5fa6d1c6660ddb36fad8e2edd28e6a29d3275c1403828df2718005475904d2d02388ac8e04d4f52023f3598083bb0007854</ThumbnailPath>
+				<SerialNumber>12</SerialNumber>
+				<InventionName>입력된 약물의 유량에 따라 약물의 자동 주입이 가능한 시린지 펌프 및 그 제어방법</InventionName>
+				<InternationalpatentclassificationNumber>A61M 5/20|A61M 5/315|A61J 1/06|A61M 5/31</InternationalpatentclassificationNumber>
+				<OpeningDate>20160513</OpeningDate>
+				<OpeningNumber>1020160053322</OpeningNumber>
+				<PublicNumber />
+				<PublicDate />
+				<RegistrationDate />
+				<RegistrationNumber />
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>대화기기주식회사</Applicant>
+				<ApplicationDate>20041021</ApplicationDate>
+				<ApplicationNumber>1020040084484</ApplicationNumber>
+				<Abstract>약물 등의 의약품을 인체의 정맥내에 점적(點滴)하여 주입하는 수액시 사용되는 의약품 주입기에 제공되는 튜브 감지장치 및 이를 구비한 의약품 주입기가 제공된다.  상기 의약품 주입용 튜브 감지장치는, 의약품 주입기의 튜브핑거수단측 케이스의 내부에 피봇되고, 케이스 내측에 배치되어 튜브와 접촉하는 튜브접촉단과 케이스 외측으로 돌출된 센서작동단을 구비하여 튜브의 유무를 감지토록 구성된 튜브유무 감지수단; 및, 상기 케이스의 외측에 제공된 기판상에 설치되어 튜브접촉에 따른 상기 센서작동단의 이동시 작동되는 센서수단으로 구성되고, 본 발명의 의약품 주입기는 상기 튜브 감지장치를 구비한다.  이와 같은 본 발명에 의하면, 수액과 같은 약물을 인체에 원하는 정량으로 주입시키기 위하여 사용되는 의약품 주입기에서 약물 투입용 튜브의 주입기 정착상태에 따른 튜브 상태를 정밀하게 감지하도록 하여 의약품의 오주입이나 의약품 주입시 안전사고를 미연에 방지시키는 한편, 이를 구비한 의약품 주입기의 작동 정밀성을 보다 향상시키는 개선된 효과를 얻을 수 있다.  의약품(약물) 주입기, 수액튜브, 핑거수단, 튜브지지수단, 튜브막힘 감지수단</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9ccf2ab65a398793485ef4427c5aeeabfeb9339706aec0eb0b28cd9566c223f709</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe4598c4c077876d4f927653273b68e5da4af566d1b279090bbed1aff5b71a61d54</ThumbnailPath>
+				<SerialNumber>13</SerialNumber>
+				<InventionName>의약품 주입용 튜브 감지장치 및 이를 구비한 의약품 주입기</InventionName>
+				<InternationalpatentclassificationNumber>A61M 5/168</InternationalpatentclassificationNumber>
+				<OpeningDate>20060426</OpeningDate>
+				<OpeningNumber>1020060035131</OpeningNumber>
+				<PublicNumber />
+				<PublicDate>20060809</PublicDate>
+				<RegistrationDate>20060727</RegistrationDate>
+				<RegistrationNumber>1006090830000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>대화기기주식회사</Applicant>
+				<ApplicationDate>20141103</ApplicationDate>
+				<ApplicationNumber>1020140151398</ApplicationNumber>
+				<Abstract>본 발명은 수액이 저장된 수액팩의 무게변화를 실시간으로 감지하는 무게감지유닛 및 상기 무게감지유닛에 의해 감지된 수액팩의 무게변화를 기초로 구동부를 제어하여 상기 수액을 인체에 공급하는 인퓨전 펌프를 포함하는 수액 주입시스템 및 그 방법을 제공함으로써 다양한 제조사 및 사이즈의 수액세트를 고정밀의 주입속도로 용이하게 사용할 수 있는 효과를 가진다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00b869a8d13729b9096f181f26828b135bc22a15b6e3cdc852a265e0d97c9cac571f687e515b1bb8126bea6d083ce30cdbe73fba2f2217e6e3</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf428ea7d023fea5fa6d1c6660ddb36fad8e2edd28e6a29d3275c1403828df271866ed2ab14d19bc40967141ae83fbbc84bb8dc1ac0f37c33e</ThumbnailPath>
+				<SerialNumber>14</SerialNumber>
+				<InventionName>수액팩의 무게변화 감지를 이용한 고정밀 수액 주입시스템 및 그 방법</InventionName>
+				<InternationalpatentclassificationNumber>A61M 1/02|A61M 5/168|A61M 39/26|A61M 5/142</InternationalpatentclassificationNumber>
+				<OpeningDate>20160513</OpeningDate>
+				<OpeningNumber>1020160053332</OpeningNumber>
+				<PublicNumber />
+				<PublicDate />
+				<RegistrationDate />
+				<RegistrationNumber />
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>대화기기주식회사</Applicant>
+				<ApplicationDate>20031113</ApplicationDate>
+				<ApplicationNumber>1020030080172</ApplicationNumber>
+				<Abstract>인공용액등의 의약품(약물)을 인체의 정맥내에 점적(點滴)하여 주입하는 수액시 사용되는 의약품 주입기가 제공된다.  상기 의약품 주입기는, 수액튜브가 종방향으로 통과하는 케이스부재;와, 그 일측에 수액튜브 통과부분을 개폐토록 설치된 도어부재;과, 상기 케이스부재의 일측 내부에 통과수액튜브를 도어부재의 개폐방향과 연관되지 않는 상태에서 압착 지지토록 설치된 튜브지지수단; 및, 상기 케이스부재의 일측 내부에 상기 도어부재의 개폐방향과 연관되지 않는 상태에서 상기 튜브지지수단과 상호 협력하여 수액튜브내의 약물을 펌핑하도록 제공된 튜브핑거수단으로서 도어 독립형으로 구성된다.  이와 같은 본 발명에 의하면, 수액과 같은 약물의 인체 주입시 정량주입을 위한 주입기에서 약물 펌핑구성부인 핑거수단 및 튜브지지수단의 상호 압착방향이 도어의 개폐방향과 연관되지 않은 상태로 이루어 져 기기의 도어에 외부충격이 가해지거나 도어파손시에도 약물의 정상적인 주입이 가능하여, 기기를 통한 약물주입이 가일층 안정적으로 수행되도록 하면서, 기기의 사용수명도 연장시키는 보다 개선된 효과를 얻는다.  의약품(약물) 주입기, 수액튜브, 핑거수단, 튜브지지수단, 튜브막힘 감지수단</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c1531c25f20055517316a4cd6df16e8065422336ee51b6ae2c3e912df5ab38ea7</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe48a5ee3d6a139d53eca382eb81ac80f3603ed0aa8d040cf555705c74007b344a5</ThumbnailPath>
+				<SerialNumber>15</SerialNumber>
+				<InventionName>의약품 주입기</InventionName>
+				<InternationalpatentclassificationNumber>A61M 5/142|A61M 5/168</InternationalpatentclassificationNumber>
+				<OpeningDate>20050518</OpeningDate>
+				<OpeningNumber>1020050046159</OpeningNumber>
+				<PublicNumber />
+				<PublicDate>20060306</PublicDate>
+				<RegistrationDate>20060222</RegistrationDate>
+				<RegistrationNumber>1005561860000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>대화기기주식회사</Applicant>
+				<ApplicationDate>20031113</ApplicationDate>
+				<ApplicationNumber>1020030080173</ApplicationNumber>
+				<Abstract>인공용액등의 약물을 인체에 주입시키는 경우 사용하는 수액셋의 튜브막힘을 독립적으로 감지하는 독립형 튜브막힘 감지장치가 제공된다.  상기 독립형 튜브막힘 감지장치는, 소정위치에 배치되고 튜브가 안착 통과하는 케이스부재;와, 상기 케이스부재의 내측에 탄성 지지되면서 회전 가능하게 제공되고, 튜브와 접촉되는 튜브접촉부와 튜브의 수축 및 팽창시 유동되면서 신호발생량 의 편차를 발생시키는 신호발생수단을 갖춘 핑거부재; 및, 상기 케이스부재상에 상기 신호발생수단으로 부터 발생되는 신호발생량 편차를 감지하여 튜브막힘을 감지도록 제공된 센서수단을 포함하여 구성되어 있다.  이와 같은 본 발명에 의하면, 수액튜브등의 튜브가 막히면 이를 기기의 다른부품과 연동하지 않고 독립적으로 감지할 수 있어 감지작동이 보다 안정적으로 수행되는 한편, 세트화된 부품으로 구조가 간소화되어 제작됨으로서, 약물 주입기는 물론, 수액셋의 튜브나 기타 화학실험용 튜브등에도 적용시키어 사용할 수 있어 사용폭을 보다 증대시키는 보다 개선된 효과를 얻는다.  수액셋, 수액튜브, 튜브막힘, 튜브막힘 감지장치, 약물 주입기</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c1531c25f20055517316a4cd6df16e8065422336ee51b6ae20f60d25c1c30d11b</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe48a5ee3d6a139d53eca382eb81ac80f3603ed0aa8d040cf5549ae801fb66b0e29</ThumbnailPath>
+				<SerialNumber>16</SerialNumber>
+				<InventionName>독립형 튜브막힘 감지장치</InventionName>
+				<InternationalpatentclassificationNumber>A61M 5/168|A61M 5/14</InternationalpatentclassificationNumber>
+				<OpeningDate>20050518</OpeningDate>
+				<OpeningNumber>1020050046160</OpeningNumber>
+				<PublicNumber />
+				<PublicDate />
+				<RegistrationDate />
+				<RegistrationNumber />
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<TotalSearchCount>16</TotalSearchCount>
+			<SearchStartNumber>1</SearchStartNumber>
+		</items></body></response></responseData>

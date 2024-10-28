@@ -7,8 +7,9 @@ import time
 import MySQLdb
 from datetime import datetime
 import xml.etree.ElementTree as ET
-
 import xml.etree.ElementTree as ET
+
+# --- app_no xml에 넣을지 말지 확인 필요 -- #
 
 # XML 저장 함수
 def save_data_as_xml(data_dict, file_name):
@@ -21,24 +22,30 @@ def save_data_as_xml(data_dict, file_name):
         applicant_tag = ET.SubElement(response_elem, "applicant")
         applicant_tag.text = str(applicant_id)
 
-        # 첫 번째 <header> 태그 추가
-        ET.SubElement(response_elem, "header")
+        # <header> 태그 추가 (결과 코드와 메시지를 포함)
+        header = ET.SubElement(response_elem, "header")
+        ET.SubElement(header, "resultCode")
+        ET.SubElement(header, "resultMsg")
 
-        # 두 번째 <header> 태그 및 <body>에 원래 데이터 추가
-        main_header = ET.SubElement(response_elem, "header")
-        main_body = ET.SubElement(response_elem, "body")
+        # <body> 태그 추가 및 그 안에 <items> 데이터 삽입
+        body = ET.SubElement(response_elem, "body")
+        items_elem = ET.SubElement(body, "items")
         
-        # 기존 XML 데이터가 <body>에 추가되도록
-        for content in data['data']:  
+        # data 내부에 있는 XML 콘텐츠를 <items>에 추가
+        for content in data['data']:
             original_data = ET.fromstring(content)
-            main_body.append(original_data)
+
+            # 기존 XML에서 <items> 내부 태그들만 추가
+            items = original_data.find(".//items")
+            if items is not None:
+                for elem in items:
+                    items_elem.append(elem)
 
     # XML 파일로 저장
     tree = ET.ElementTree(root)
     file_path = f"./save_to_xml/{file_name}.xml"
     tree.write(file_path, encoding="utf-8", xml_declaration=True)
     print(f"{file_path} 저장 완료")
-
 # DB에서 app_no와 applicant_id 목록을 가져오는 함수
 def get_app_nos_from_db(limit=None):
     connection = db_connect()
