@@ -7,7 +7,6 @@ import time
 import MySQLdb
 import json
 from datetime import datetime  # 현재 시간 사용을 위한 모듈 추가
-import random  # 랜덤 지연 시간 사용을 위한 모듈
 
 async def fetch_all_info(service_key, app, session, semaphore, pa_dict, de_dict, tr_dict):
     async with semaphore:
@@ -17,17 +16,12 @@ async def fetch_all_info(service_key, app, session, semaphore, pa_dict, de_dict,
             trademark_api.get_trademark_info(service_key, app, session),
         ]
 
-        results = []
-        for task in tasks:
-            result = await task
-            results.append(result.get("data"))
-            # 짧은 랜덤 지연 시간 추가
-            await asyncio.sleep(random.uniform(0.01, 0.05))
+        results = await asyncio.gather(*tasks)
 
         # data 부분만 추출하여 딕셔너리에 저장
         pa_dict[app], de_dict[app], tr_dict[app] = results
 
-        # 총 데이터 수
+        # 총 데이터 수 기록
         total_count = sum(len(data) for data in results)
         print(f"{app} 총 데이터 수 : {total_count}")
 
@@ -61,7 +55,7 @@ async def main():
     load_dotenv()
     service_key = os.getenv('SERVICE_KEY')
     semaphore = asyncio.Semaphore(10)  # 동시 요청 수 조정
-    limit = 10  # 테스트용 요청 개수
+    limit = 50  # 테스트용 요청 개수
 
     test_apps = get_app_nos_from_db(limit)
     start_time = time.time()
