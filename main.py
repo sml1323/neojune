@@ -86,9 +86,9 @@ async def main():
     print(f"전체 호출 완료: {len(test_apps)}개 신청자 처리, 총 걸린 시간 : {elapsed_time:.2f}초")
 
     # 모든 데이터를 한 번에 JSON 파일로 저장 (필요한 데이터만 저장)
-    with open("patent_data.json", "w") as pa_file, \
-         open("design_data.json", "w") as de_file, \
-         open("trademark_data.json", "w") as tr_file:
+    with open("./save_to_json/patent_data.json", "w") as pa_file, \
+         open("./save_to_json/design_data.json", "w") as de_file, \
+         open("./save_to_json/trademark_data.json", "w") as tr_file:
         json.dump(pa_dict, pa_file, ensure_ascii=False, indent=4)
         json.dump(de_dict, de_file, ensure_ascii=False, indent=4)
         json.dump(tr_dict, tr_file, ensure_ascii=False, indent=4)
