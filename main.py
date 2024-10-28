@@ -54,7 +54,7 @@ def db_connect():
 async def main():
     load_dotenv()
     service_key = os.getenv('SERVICE_KEY')
-    semaphore = asyncio.Semaphore(10)  # 동시 요청 수 조정
+    semaphore = asyncio.Semaphore(16)  # 동시 요청 수 조정
     limit = 50  # 테스트용 요청 개수
 
     test_apps = get_app_nos_from_db(limit)
@@ -65,11 +65,10 @@ async def main():
 
     async with aiohttp.ClientSession() as session:
         # 모든 앱의 정보를 비동기로 가져와 딕셔너리에 저장
-        tasks = [
-            fetch_all_info(service_key, app, session, semaphore, pa_dict, de_dict, tr_dict)
-            for app in test_apps
-        ]
-
+        tasks = []
+        for app in test_apps:
+            task = fetch_all_info(service_key, app, session, semaphore, pa_dict, de_dict, tr_dict)
+            tasks.append(task)
         # 모든 fetch 작업 완료 대기
         await asyncio.gather(*tasks)
 
