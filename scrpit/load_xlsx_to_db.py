@@ -78,8 +78,8 @@ def insert_data_from_excel_to_db_uni(excel_file_path, table_name):
 
 if __name__ == "__main__":
     
-    excel_file_path_com = '../data/TB24_100_company_info.xlsx'
+    excel_file_path_com = './data/TB24_100_company_info.xlsx'
     insert_data_from_excel_to_db_com(excel_file_path_com, 'TB24_100')
 
-    excel_file_path_uni = '../data/TB24_210_university.xlsx'
+    excel_file_path_uni = './data/TB24_210_university.xlsx'
     insert_data_from_excel_to_db_uni(excel_file_path_uni , 'TB24_210')

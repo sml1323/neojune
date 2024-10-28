@@ -1,5 +1,7 @@
+-- Active: 1729489267608@@127.0.0.1@3306@mydatabase
 create database neojune;
 use neojune;
+drop database neojune;
 
 -- 기업정보
 CREATE TABLE TB24_100 (

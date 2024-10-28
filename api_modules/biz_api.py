@@ -1,110 +1,95 @@
-# api_modules/biz_api.py
-
-import pandas as pd
-import aiohttp
-import asyncio
+import requests
 import xmltodict
 import os
-import time
+import logging
 from dotenv import load_dotenv
+import time
+import aiohttp
+import asyncio
+import traceback
 
-# 환경 변수 로드
-load_dotenv()
-service_key = os.getenv('SERVICE_KEY')
+## 사업자 등록번호 -> 특허 고객번호
+async def get_applicant_no(service_key, applicant_info: tuple) -> dict:
+    url = "http://plus.kipris.or.kr/openapi/rest/CorpBsApplicantService/corpBsApplicantInfoV3"
+    company_seq, biz_no, corp_no, biz_type, company_name = applicant_info
 
-# 엑세스 키와 API URL을 설정
-access_key = service_key  # 실제 API 키로 변경
-base_url = 'http://plus.kipris.or.kr/openapi/rest/CorpBsApplicantService/corpBsApplicantInfoV3'
+    request_params = {
+        'accessKey': service_key,
+        'BusinessRegistrationNumber': biz_no
+    }
 
-# 사업자등록번호에 하이픈(-) 추가하는 함수
-def format_biz_no(biz_no):
-    biz_no_str = str(biz_no).zfill(10)
-    return f"{biz_no_str[:3]}-{biz_no_str[3:5]}-{biz_no_str[5:]}"
+    result = []
+    retries = 3  # 재시도 횟수
 
-# 비동기 API 호출 함수
-async def fetch_applicant_info(session, biz_no, semaphore):
-    async with semaphore:  # 동시 요청 제한
-        formatted_biz_no = format_biz_no(biz_no)
-        url = f"{base_url}?BusinessRegistrationNumber={formatted_biz_no}&accessKey={access_key}"
+    for attempt in range(retries):
+        try:
+            async with aiohttp.ClientSession() as session:
+                async with session.get(url, params=request_params, timeout=10) as response:
+                    if response.status == 200:
+                        api_result = xmltodict.parse(await response.text())
 
-        # 각 요청에 대한 시간 측정
-        start_time = time.time()  # 각 요청 시작 시간
-        async with session.get(url) as response:
-            end_time = time.time()  # 각 요청 종료 시간
-            elapsed_time = end_time - start_time
-            print(f"Request for biz_no {biz_no} took {elapsed_time:.2f} seconds")
+                        header = api_result['response']['header']
+                        body = api_result['response']['body']['items']
 
-            if response.status == 200:
-                try:
-                    response_text = await response.text()
-                    response_data = xmltodict.parse(response_text)
-                    items = response_data.get('response', {}).get('body', {}).get('items', None)
+                        if body is None:
+                            return None
 
-                    if items is None:
-                        print(f"No ApplicantNumber found for biz_no {biz_no}")
-                        return None
-                        
-                    applicant_info = items.get('corpBsApplicantInfo', {})
-                    
-                    # applicant_info가 문자열인 경우 처리
-                    if isinstance(applicant_info, str):
-                        print(f"Applicant info is a string for biz_no {biz_no}: {applicant_info}")
-                        return None
+                        bs_info = body.get('corpBsApplicantInfo')
 
-                    # applicant_info가 리스트인 경우 처리
-                    if isinstance(applicant_info, list):
-                        # 첫 번째 항목 선택 또는 다른 로직 적용
-                        applicant_info = applicant_info[0]
-                        print(f"Applicant info is a list for biz_no {biz_no}, using first item.")
+                        if type(bs_info) != list :
+                            bs_info = [bs_info]
 
-                    applicant_number = applicant_info.get('ApplicantNumber', 'N/A')
-                    if applicant_number == 'N/A':
-                        print(f"ApplicantNumber is 'N/A' for biz_no {biz_no}")
-                        return None
-                    return applicant_number
-                    
-                except Exception as e:
-                    print(f"Error parsing response for biz_no {biz_no}: {e}")
-                    return None
-            else:
-                print(f"Error fetching data for biz_no {biz_no}, status code: {response.status}")
-                return None
+                        for info in bs_info:
+                            if info.get('CorporationNumber'): # 법인번호가 있는 데이터만 저장 (법인만 저장)
+                                result.append({
+                                    'app_no': info['ApplicantNumber'],
+                                    'compay_name': info['ApplicantName'],
+                                    'corp_no': info['CorporationNumber'],
+                                    'biz_no': info['BusinessRegistrationNumber'],
+                                    'company_seq': company_seq
+                                })
 
-# ApplicantNumber 리스트를 반환하는 메인 함수
-async def get_applicant_numbers(limit=None):
-    # 엑셀 파일을 읽어 데이터프레임으로 변환
-    data = pd.read_excel('./data/TB24_100_company_info.xlsx')
+                        return result
+                    else:
+                        print(f"HTTP 오류: {response.status}")
+                        break  # HTTP 오류가 발생하면 재시도하지 않음
 
-    # 'biz_no' 리스트 생성
-    biz_no_list = data['biz_no'].tolist()
+        except asyncio.TimeoutError:
+            print("Timeout 오류 발생")
+            await asyncio.sleep(2)  # 재시도하기 전에 일정 시간 대기
 
-    semaphore = asyncio.Semaphore(40)  # 동시 요청 제한: 40개씩
+        except Exception as e:
+            print(f"오류 발생: {str(e)}")
+            print(traceback.format_exc()) 
+            print(body.get('corpBsApplicantInfo') if body else 'No body available')
+            print(applicant_info)
+
+        # 재시도 대기 시간
+        if attempt < retries - 1:
+            print(f"재시도 {attempt + 1}/{retries}...")
+            await asyncio.sleep(2)  # 재시도 간 대기
+
+    return result
+
+# 여러 회사 정보를 비동기로 처리하는 함수
+async def process_applicants(service_key, applicant_info_list: list):
     tasks = []
-    
-    # aiohttp 세션 생성
-    async with aiohttp.ClientSession() as session:
-        for index, biz_no in enumerate(biz_no_list):
-            # 필요한 경우 처리할 biz_no 개수를 제한할 수 있습니다.
-            if limit is not None and index >= limit:
-                break
-            task = fetch_applicant_info(session, biz_no, semaphore)
-            tasks.append(task)
+    for applicant_info in applicant_info_list:
+        tasks.append(get_applicant_no(service_key, applicant_info))
 
-        # 모든 태스크 실행 대기
-        applicant_numbers = await asyncio.gather(*tasks)
-        # None이 아닌 ApplicantNumber만 필터링
-        applicant_numbers = [num for num in applicant_numbers if num]
-        return applicant_numbers
+    results = await asyncio.gather(*tasks)
 
-# 테스트를 위한 코드 (직접 실행 시에만 동작)
+    total_result = []
+
+    for result in results:
+        if result :
+            total_result.extend(result)
+
+    return total_result
+
 if __name__ == "__main__":
-    start_time = time.time()  # 시작 시간 기록
-    applicant_numbers = asyncio.run(get_applicant_numbers(limit=100))  # 비동기 메인 함수 실행
-    end_time = time.time()  # 종료 시간 기록
+    load_dotenv()
 
-    # 실행 시간 출력
-    total_time = end_time - start_time
-    print(f"Total execution time: {total_time:.2f} seconds")
-
-    # ApplicantNumbers 출력
-    print("ApplicantNumbers:", applicant_numbers)
+    service_key = os.getenv('SERVICE_KEY')
+    result = asyncio.run(process_applicants(service_key, [(1, '220-88-87953', '110111-5518240', '법인', '(주)준소프트웨어')]))
+    print(result)
