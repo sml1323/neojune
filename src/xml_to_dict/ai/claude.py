@@ -6,6 +6,8 @@ def clean_whitespace(text: str) -> str:
     """텍스트의 여러 개 공백을 하나로 줄이고, 앞뒤 공백을 제거."""
     return re.sub(r'\s+', ' ', text).strip()
 
+def split(text: str, seperator: str = '|') -> str:
+    return text.split(seperator)
 
 class BaseDataParser:
     def __init__(self, mapping: Dict[str, str], xml_filename: str):
@@ -49,7 +51,10 @@ class BaseDataParser:
                         sub_element = element.find(xml_key)
                         if sub_element is not None:
                             element_dict[output_key] = clean_whitespace(str(sub_element.text))
-                            if(output_key == "ipr_code") : element_dict[output_key] = element_dict[output_key][:2]
+                            if(output_key == "ipr_code"): 
+                                element_dict[output_key] = element_dict[output_key][:2]
+                            if(output_key == "main_ipc"):
+                                element_dict[output_key] = split(element_dict[output_key])[0]
                         else:
                             element_dict[output_key] = ""
                 
@@ -143,27 +148,29 @@ def main():
     patent_xml_filename = '../xml/patent_data_20241028_195040.xml'  # XML 파일 경로
     trademark_xml_filename = '../xml/trademark_data_20241028_195040.xml'  # XML 파일 경로
 
-    print("#### design_parser")
-    design_parser = DesignDataParser(design_mapping, design_xml_filename)
-    design_results = design_parser.parse()
-    # print(design_results)
-    print("")
-    print("")
+    if True:
+        print("#### design_parser")
+        design_parser = DesignDataParser(design_mapping, design_xml_filename)
+        design_results = design_parser.parse()
+        # print(design_results)
+        print("")
+        print("")
 
-    # print("#### patent_parser")
-    # patent_parser = PatentDataParser(patent_mapping, patent_xml_filename)
-    # patent_results = patent_parser.parse()
-    # print(patent_results)
-    # print("")
-    # print("")
+    if True:
+        print("#### patent_parser")
+        patent_parser = PatentDataParser(patent_mapping, patent_xml_filename)
+        patent_results = patent_parser.parse()
+        print(patent_results)
+        print("")
+        print("")
 
-
-    # print("#### trademark_parser")
-    # trademark_parser = TrademarkDataParser(trademark_mapping, trademark_xml_filename)
-    # trademark_results = trademark_parser.parse()
-    # print(trademark_results)
-    # print("")
-    # print("")
+    if True:
+        print("#### trademark_parser")
+        trademark_parser = TrademarkDataParser(trademark_mapping, trademark_xml_filename)
+        trademark_results = trademark_parser.parse()
+        print(trademark_results)
+        print("")
+        print("")
 
 
 if __name__ == "__main__":
