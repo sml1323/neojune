@@ -64,7 +64,7 @@ CREATE TABLE TB24_210(
 -- 기업 정보와 연동된 특허 고객번호 
 CREATE TABLE TB24_200(
     applicant_id INT AUTO_INCREMENT PRIMARY KEY, 
-    app_no VARCHAR(20), 
+    app_no VARCHAR(20) NOT NULL, -- 문자열이 편할까?
     compay_name VARCHAR(50), 
     corp_no VARCHAR(15),
     biz_no VARCHAR(12),
@@ -76,7 +76,7 @@ ADD UNIQUE (app_no),
 ADD write_time DATETIME DEFAULT CURRENT_TIMESTAMP,
 ADD modify_time DATETIME ON UPDATE CURRENT_TIMESTAMP;
 
-CREATE INDEX idx_app_no ON TB24_200(app_no);
+CREATE INDEX idx_app_no ON TB24_200(app_no); -- 
 
 CREATE TABLE IF NOT EXISTS patent (
     ipr_seq INT AUTO_INCREMENT PRIMARY KEY,
@@ -124,7 +124,7 @@ CREATE TABLE IF NOT EXISTS design (
     legal_status_desc VARCHAR(20),
     image_path VARCHAR(255),
     write_time DATETIME DEFAULT CURRENT_TIMESTAMP, -- 리얼타임으로 필드가 생성된 시간
-		modify_time DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP, -- 수정 시간 자동 업데이트
+	modify_time DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP, -- 수정 시간 자동 업데이트
     survey_year VARCHAR(5), -- 최초 수집시 조사 연도
     survey_month VARCHAR(5), -- 최초 수집시 조사 월
     FOREIGN KEY (applicant_no) REFERENCES TB24_200(app_no)
@@ -146,7 +146,7 @@ CREATE TABLE IF NOT EXISTS trademark (
     legal_status_desc VARCHAR(20),
     image_path VARCHAR(255),
     write_time DATETIME DEFAULT CURRENT_TIMESTAMP, -- 리얼타임으로 필드가 생성된 시간
-		modify_time DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP, -- 수정 시간 자동 업데이트
+	modify_time DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP, -- 수정 시간 자동 업데이트
     survey_year VARCHAR(5), -- 최초 수집시 조사 연도
     survey_month VARCHAR(5), -- 최초 수집시 조사 월
     FOREIGN KEY (applicant_no) REFERENCES TB24_200(app_no)
@@ -163,7 +163,7 @@ CREATE TABLE tb24_320 (
     FOREIGN KEY (ipr_seq) REFERENCES patent(ipr_seq)
 );
 
-CREATE TABLE tb24_320 (
+CREATE TABLE tb24_310 (
     priority_seq VARCHAR(20) PRIMARY KEY,
     applicant_no VARCHAR(20) NOT NULL, -- TB24_200의 app_no 참조
     ipr_seq INT,
