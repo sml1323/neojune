@@ -36,7 +36,7 @@ async def get_patent_info(service_key, applicant, session) -> dict:
             result.append(content)
         except ValueError:
             print("totalCount를 찾을 수 없습니다.")
-            return result
+            return {'data':result}
 
     # 전체 페이지 순회
     page = 2
@@ -67,7 +67,7 @@ async def get_patent_info(service_key, applicant, session) -> dict:
             break
 
     print(f"총 호출 횟수: {success_count + fail_count}, 성공 횟수: {success_count}, 실패 횟수: {fail_count}")
-    return result
+    return {'data':result}
 
 async def main():
     load_dotenv()  

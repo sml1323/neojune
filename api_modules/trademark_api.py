@@ -62,7 +62,7 @@ async def get_trademark_info(service_key, applicant, session) -> dict:
             result.append(content)
         except (ValueError, AttributeError) as e:
             print(f"totalCount를 찾을 수 없습니다. 응답 내용: {content[:200]}... 오류: {e}")
-            return result
+            return {'data':result}
 
     # 전체 페이지 순회
     page = 2 
@@ -76,15 +76,6 @@ async def get_trademark_info(service_key, applicant, session) -> dict:
                 async with session.get(url, params=request_params, timeout=10) as response:
                     if response.status == 200:
                         content = await response.text()
-
-                        # 빈 페이지 확인
-                        if "<TradeMarkInfo>" not in content:
-                            print("더 이상 데이터가 없습니다.")
-                            return {
-                                "applicant": applicant,
-                                "data_type": "trademark",
-                                "data": result
-                            }
                         print(f"{applicant} 페이지 {page} 호출 성공")
                         result.append(content) 
                         success_count += 1
@@ -124,7 +115,7 @@ async def get_trademark_info(service_key, applicant, session) -> dict:
             page += 1
 
     print(f"총 호출 횟수: {success_count + fail_count}, 성공 횟수: {success_count}, 실패 횟수: {fail_count}")
-    return result
+    return {'data':result}
 
 async def main():
     load_dotenv()
