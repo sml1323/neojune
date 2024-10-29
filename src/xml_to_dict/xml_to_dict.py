@@ -42,7 +42,7 @@ class BaseDataParser:
             elements = root.xpath(xpath_query)  # 지정된 XPath 쿼리로 요소 찾기
             
             results = []  # 결과를 저장할 리스트
-           
+
             for element in elements:
                 element_dict = {}  # 기본값 설정
                 # 매핑된 필드 파싱
@@ -57,9 +57,13 @@ class BaseDataParser:
                                 element_dict[output_key] = split(element_dict[output_key])[0]
                         else:
                             element_dict[output_key] = ""
+                    elif(output_key == "applicant_no"):
+                        # 부모 response 요소를 찾아서 applicant_no 가져오기
+                        response = element.xpath("./ancestor::response")[0]
+                        if response is not None:
+                            element_dict['applicant_no'] = response.find('applicant_id').text if response.find('applicant_id') is not None else ''
                 
                 results.append(element_dict)  # 결과 리스트에 추가
-            print(results)
             return results  # 파싱된 결과 반환
         
         except etree.XMLSyntaxError as e:
@@ -144,19 +148,19 @@ def main():
     }
 
     # XML 파일 이름 설정
-    design_xml_filename = '../xml/design_data_20241028_195040.xml'  # XML 파일 경로
-    patent_xml_filename = '../xml/patent_data_20241028_195040.xml'  # XML 파일 경로
-    trademark_xml_filename = '../xml/trademark_data_20241028_195040.xml'  # XML 파일 경로
+    design_xml_filename = 'result/xml/design_data_20241028_195040.xml'  # XML 파일 경로
+    patent_xml_filename = 'result/xml/patent_data_20241028_195040.xml'  # XML 파일 경로
+    trademark_xml_filename = 'result/xml/trademark_data_20241028_195040.xml'  # XML 파일 경로
 
-    if True:
+    if False:
         print("#### design_parser")
         design_parser = DesignDataParser(design_mapping, design_xml_filename)
         design_results = design_parser.parse()
-        # print(design_results)
+        print(design_results)
         print("")
         print("")
 
-    if True:
+    if False:
         print("#### patent_parser")
         patent_parser = PatentDataParser(patent_mapping, patent_xml_filename)
         patent_results = patent_parser.parse()

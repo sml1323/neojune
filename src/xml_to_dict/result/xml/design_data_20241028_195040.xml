@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<responseData><response><applicant>5576</applicant><header><resultCode /><resultMsg /></header><body>
+<responseData><response><applicant_id>5576</applicant_id><header><resultCode /><resultMsg /></header><body>
 <items><totalCount>1</totalCount>
 			<DesignInfo>
 				<number>1</number>
@@ -29,7 +29,7 @@
 				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0c87c7ad0d9e286bed75c617e338c490d0b52bbe1949c4f0a7624149d88d6aa0f7de01e5da00cad8310f967ce261403d9</imagePath>
 				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa5453609be60cc74c289674a5f181e903ce2e7c699f53e596a688ab3843005c23bb50304f06cff8e9bf25bf8ef92bec678</imagePathLarge>
 			</DesignInfo>
-		</items></body></response><response><applicant>11319</applicant><header><resultCode /><resultMsg /></header><body><items><totalCount>62</totalCount>
+		</items></body></response><response><applicant_id>11319</applicant_id><header><resultCode /><resultMsg /></header><body><items><totalCount>62</totalCount>
 			<DesignInfo>
 				<number>1</number>
 				<applicationNumber>3019950021058</applicationNumber>
@@ -116,7 +116,7 @@
 			</DesignInfo>
 
 		</items>
-    </body></response><response><applicant>4728</applicant><header><resultCode /><resultMsg /></header><body><items><totalCount>14</totalCount>
+    </body></response><response><applicant_id>4728</applicant_id><header><resultCode /><resultMsg /></header><body><items><totalCount>14</totalCount>
 			<DesignInfo>
 				<number>1</number>
 				<applicationNumber>3020120040332</applicationNumber>

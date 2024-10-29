@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <responseData>
   <response>
-    <applicant>5576</applicant>
+    <applicant_id>5576</applicant_id>
     <header>
       <resultCode />
       <resultMsg />
@@ -100,7 +100,7 @@
     </body>
   </response>
   <response>
-    <applicant>11319</applicant>
+    <applicant_id>11319</applicant_id>
     <header>
       <resultCode />
       <resultMsg />
@@ -170,7 +170,7 @@
     </body>
   </response>
   <response>
-    <applicant>4728</applicant>
+    <applicant_id>4728</applicant_id>
     <header>
       <resultCode />
       <resultMsg />

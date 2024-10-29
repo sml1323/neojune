@@ -1,7 +1,8 @@
 # TB24_patent
 {
   "ipr_seq": "",  # 일련번호 # 
-  "applicant_no": "", # 특허고객번호
+  # applicant_id 이거 추출해서 넣어야함
+  "applicant_no": "applicant_id", # 특허고객번호
   "ipr_code": "ApplicationNumber", # 2글자
   "title": "InventionName",
   "serial_no": "SerialNumber",
@@ -23,7 +24,7 @@
 # TB24_design
 {
   "ipr_seq": "",
-  "applicant_no": "",
+  "applicant_no": "applicant_id",
   "ipr_code": "applicationNumber", # 2글자
   "title": "articleName",
   "serial_no": "number",
@@ -46,7 +47,7 @@
 # TB24_trademark
 {
   "ipr_seq": "",
-  "applicant_no": "",
+  "applicant_no": "applicant_id",
   "ipr_code": "ApplicationNumber", # 2 글자
   "title": "Title",
   "serial_no": "SerialNumber",
