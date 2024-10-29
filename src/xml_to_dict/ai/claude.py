@@ -47,10 +47,14 @@ class BaseDataParser:
                 for output_key, xml_key in self.mapping.items():
                     if xml_key:  # 빈 매핑은 건너뛰기
                         sub_element = element.find(xml_key)
-                        element_dict[output_key] = clean_whitespace(str(sub_element.text)) if sub_element is not None else ''
+                        if sub_element is not None:
+                            element_dict[output_key] = clean_whitespace(str(sub_element.text))
+                            if(output_key == "ipr_code") : element_dict[output_key] = element_dict[output_key][:2]
+                        else:
+                            element_dict[output_key] = ""
                 
                 results.append(element_dict)  # 결과 리스트에 추가
-            
+            print(results)
             return results  # 파싱된 결과 반환
         
         except etree.XMLSyntaxError as e:
@@ -142,24 +146,24 @@ def main():
     print("#### design_parser")
     design_parser = DesignDataParser(design_mapping, design_xml_filename)
     design_results = design_parser.parse()
-    print(design_results)
+    # print(design_results)
     print("")
     print("")
 
-    print("#### patent_parser")
-    patent_parser = PatentDataParser(patent_mapping, patent_xml_filename)
-    patent_results = patent_parser.parse()
-    print(patent_results)
-    print("")
-    print("")
+    # print("#### patent_parser")
+    # patent_parser = PatentDataParser(patent_mapping, patent_xml_filename)
+    # patent_results = patent_parser.parse()
+    # print(patent_results)
+    # print("")
+    # print("")
 
 
-    print("#### trademark_parser")
-    trademark_parser = TrademarkDataParser(trademark_mapping, trademark_xml_filename)
-    trademark_results = trademark_parser.parse()
-    print(trademark_results)
-    print("")
-    print("")
+    # print("#### trademark_parser")
+    # trademark_parser = TrademarkDataParser(trademark_mapping, trademark_xml_filename)
+    # trademark_results = trademark_parser.parse()
+    # print(trademark_results)
+    # print("")
+    # print("")
 
 
 if __name__ == "__main__":
