@@ -39,6 +39,7 @@
   "notification_num": "publicationNumber",
   "notification_date": "publicationDate",
   "legal_status_desc": "applicationStatus",
+  "image_path": "imagePath"
 }
 
 

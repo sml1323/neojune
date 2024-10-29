@@ -61,59 +61,7 @@
           <RegistrationNumber>1009901130000</RegistrationNumber>
           <RegistrationStatus>등록</RegistrationStatus>
         </PatentUtilityInfo>
-        <PatentUtilityInfo>
-          <Applicant>주식회사 메카트로</Applicant>
-          <ApplicationDate>20080107</ApplicationDate>
-          <ApplicationNumber>1020080001809</ApplicationNumber>
-          <Abstract>본 발명에 의한 지폐배출 가속장치는, 지폐의 이송 방향으로 배열되어 상기 지폐를 이송시키는 둘 이상의 이송롤러; 이송 중인 지폐를 감지하는
-            감지수단; 상기 각 이송롤러를 관통하여 장착되는 샤프트; 상기 각 샤프트의 일단 또는 양단에 결합되는 풀리; 및 상기 각 풀리들이 일체로 회전되도록, 상기
-            풀리들을 둘러싸는 풀리회전벨트;를 포함하여 구성되고, 상기 풀리 중 상기 감지수단을 지난 구간에 장착되는 풀리는, 상기 감지수단이 장착된 구간에 위치하는
-            풀리보다 외경이 작게 형성된다. 본 발명에 의한 지폐배출 가속장치를 이용하면, 선행지폐와 후행지폐가 분류되는 구간에서 지폐의 이송속도를 빠르게 함으로써 지폐의
-            계수속도는 그대로 유지하면서 지폐가 분류되는 구간에서 선행지폐와 후행지폐 간의 간섭이 발생되지 아니하고, 선행지폐가 정상시점보다 늦게 투입되는 경우 후행지폐의
-            투입을 일정 시간 늦춤으로써 선행지폐와 후행지폐 간의 간섭을 방지할 수 있다는 장점이 있다. 지폐계수기, 배출속도, 가속, 풀리, 간격</Abstract>
-          <DrawingPath>
-            http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726175ec608f429a7cd5ac33a53fac30848ff79480a64ad5b5e745a010910596558e6c242ff2359d78a23d72748f379e55b995c553c1886709c</DrawingPath>
-          <ThumbnailPath>
-            http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf4ff8455e9967ae9b3df2e91403a8ae54da65d225a3999919fb553839d6d8a3ba3940c12aaa7b14ab801903c892238b3db73dcaac7923a437</ThumbnailPath>
-          <SerialNumber>3</SerialNumber>
-          <InventionName>지폐계수기의 지폐배출 가속장치</InventionName>
-          <InternationalpatentclassificationNumber>G07D 11/00|G06M 7/06</InternationalpatentclassificationNumber>
-          <OpeningDate>20090713</OpeningDate>
-          <OpeningNumber>1020090076066</OpeningNumber>
-          <PublicNumber />
-          <PublicDate>20101104</PublicDate>
-          <RegistrationDate>20101029</RegistrationDate>
-          <RegistrationNumber>1009920780000</RegistrationNumber>
-          <RegistrationStatus>등록</RegistrationStatus>
-        </PatentUtilityInfo>
-        <PatentUtilityInfo>
-          <Applicant>주식회사에이멕스|주식회사 메카트로</Applicant>
-          <ApplicationDate>20011010</ApplicationDate>
-          <ApplicationNumber>2020010030834</ApplicationNumber>
-          <Abstract>본 고안은 명함자동판매기용 프린터의 용지 자동절단장치에 관한 것으로, 특히, 즉석 명함자판기의 작동으로 프린터에서 롤용지가 프린팅되어 배출시
-            자동으로 절단, 배출시킬 수 있으므로, 롤용지를 사용하여 용지보급의 불편함을 해소하고, 필요에 따라 원하는 매수의 명함을 간편하게 절단 공급할 수 있도록 함에
-            그 목적이 있는 것으로서, 명함자동판매기 본체의 내측으로 설치된 프린터의 배면 일측의 본체의 내측으로 설치된 프린터의 배면 일측의 봉체에 권취된 롤용지를
-            삽설하고, 상기 프린터의 전방 일측으로 절단기를 설치하되, 상기 절단기의 하단 일측으로 하부절단날을 설치하고, 상기 하부절단날의 설치된 일측 기판의 하단에
-            모터를 설치하며, 상기 모터에 연결된 캠과 상기 캠의 회동으로 작동되는 장공이 형성된 레버를 설치하고, 상기 레버의 상단 일측으로 설치된 연결축이 상기 기판
-            상단으로 설치된 장공에서 작동되도록 절단기 내측에 설치된 작동편과 연결하되, 상기 작동편의 양측단에 경사진 상부절단날을 삽설하여 상기 하부절단날 상측에서
-            상,하 작동하여 결합된 명함자동판매기용 프린터의 용지 자동절단장치로서, 즉석 명함자판기의 작동으로 프린터가 작동시 롤용지가 프린터로 삽입되어 프린팅 됨과
-            동시에 일측으로 배출되면 절단기 하단의 모터가 작동하여 상기 모터에 연결된 캠의 회동으로 이에 연결된 레버가 작동함과 동시에 상기 레버에 연결...(이하생략)</Abstract>
-          <DrawingPath>
-            http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0092002ae29fc622c0f7fac6e4fe9431bf1fcc8ee02118724e87986daa3546c185</DrawingPath>
-          <ThumbnailPath>
-            http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf1123882ebd8c943bf40f9e6efb3260fad00c5644ba160957daa1ce2790c67dde</ThumbnailPath>
-          <SerialNumber>4</SerialNumber>
-          <InventionName>명함자동판매기용 프린터의 용지자동 절단장치</InventionName>
-          <InternationalpatentclassificationNumber>G07F 17/26|G07F 11/68|B41J 13/10</InternationalpatentclassificationNumber>
-          <OpeningDate />
-          <OpeningNumber />
-          <PublicNumber />
-          <PublicDate>20011229</PublicDate>
-          <RegistrationDate>20011217</RegistrationDate>
-          <RegistrationNumber>2002591550000</RegistrationNumber>
-          <RegistrationStatus>소멸</RegistrationStatus>
-        </PatentUtilityInfo>
-        <TotalSearchCount>4</TotalSearchCount>
+        <TotalSearchCount>3</TotalSearchCount>
         <SearchStartNumber>1</SearchStartNumber>
       </items>
     </body>

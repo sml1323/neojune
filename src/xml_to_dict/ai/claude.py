@@ -1,6 +1,10 @@
-import os
+import os, re
 from lxml import etree
 from typing import List, Dict
+
+def clean_whitespace(text: str) -> str:
+    """텍스트의 여러 개 공백을 하나로 줄이고, 앞뒤 공백을 제거."""
+    return re.sub(r'\s+', ' ', text).strip()
 
 
 class BaseDataParser:
@@ -36,15 +40,14 @@ class BaseDataParser:
             elements = root.xpath(xpath_query)  # 지정된 XPath 쿼리로 요소 찾기
             
             results = []  # 결과를 저장할 리스트
-            
+           
             for element in elements:
                 element_dict = {}  # 기본값 설정
-                
                 # 매핑된 필드 파싱
                 for output_key, xml_key in self.mapping.items():
                     if xml_key:  # 빈 매핑은 건너뛰기
                         sub_element = element.find(xml_key)
-                        element_dict[output_key] = sub_element.text if sub_element is not None else ''
+                        element_dict[output_key] = clean_whitespace(str(sub_element.text)) if sub_element is not None else ''
                 
                 results.append(element_dict)  # 결과 리스트에 추가
             
@@ -73,7 +76,9 @@ class TrademarkDataParser(BaseDataParser):
 def main():
     # 매핑 사전 정의
     design_mapping = {
-        "ipr_code": "applicationNumber",
+        "ipr_seq": "",
+        "applicant_no": "",
+        "ipr_code": "applicationNumber", # 2글자
         "title": "articleName",
         "serial_no": "number",
         "applicant": "applicantName",
@@ -87,13 +92,15 @@ def main():
         "reg_date": "registrationDate",
         "notification_num": "publicationNumber",
         "notification_date": "publicationDate",
-        "legal_status_desc": "applicationStatus"
+        "legal_status_desc": "applicationStatus",
+        "image_path": "imagePath",
     }
 
+
     patent_mapping = {
-        "ipr_seq": "",  # 일련번호
-        "applicant_no": "",  # 특허고객번호
-        "ipr_code": "ApplicationNumber",  # 2글자
+        "ipr_seq": "",  # 일련번호 # 
+        "applicant_no": "", # 특허고객번호
+        "ipr_code": "ApplicationNumber", # 2글자
         "title": "InventionName",
         "serial_no": "SerialNumber",
         "applicant": "Applicant",
@@ -114,7 +121,7 @@ def main():
     trademark_mapping = {
         "ipr_seq": "",
         "applicant_no": "",
-        "ipr_code": "ApplicationNumber",  # 2 글자
+        "ipr_code": "ApplicationNumber", # 2 글자
         "title": "Title",
         "serial_no": "SerialNumber",
         "applicant": "ApplicantName",
@@ -128,9 +135,16 @@ def main():
     }
 
     # XML 파일 이름 설정
-    patent_xml_filename = '../xml/patent_data_20241028_195040.xml'  # XML 파일 경로
     design_xml_filename = '../xml/design_data_20241028_195040.xml'  # XML 파일 경로
+    patent_xml_filename = '../xml/patent_data_20241028_195040.xml'  # XML 파일 경로
     trademark_xml_filename = '../xml/trademark_data_20241028_195040.xml'  # XML 파일 경로
+
+    print("#### design_parser")
+    design_parser = DesignDataParser(design_mapping, design_xml_filename)
+    design_results = design_parser.parse()
+    print(design_results)
+    print("")
+    print("")
 
     print("#### patent_parser")
     patent_parser = PatentDataParser(patent_mapping, patent_xml_filename)
@@ -139,12 +153,6 @@ def main():
     print("")
     print("")
 
-    print("#### design_parser")
-    design_parser = DesignDataParser(design_mapping, design_xml_filename)
-    design_results = design_parser.parse()
-    print(design_results)
-    print("")
-    print("")
 
     print("#### trademark_parser")
     trademark_parser = TrademarkDataParser(trademark_mapping, trademark_xml_filename)
