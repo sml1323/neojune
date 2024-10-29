@@ -9,11 +9,10 @@ from datetime import datetime
 import xml.etree.ElementTree as ET
 import xml.etree.ElementTree as ET
 
-# --- app_no xml에 넣을지 말지 확인 필요 -- #
 
 # XML 저장 함수
 def save_data_as_xml(data_dict, file_name):
-    root = ET.Element("responseData")
+    root = ET.Element("")
 
     for applicant, (applicant_id, data) in data_dict.items():
         response_elem = ET.SubElement(root, "response")
@@ -95,7 +94,7 @@ async def main():
     load_dotenv()
     service_key = os.getenv('SERVICE_KEY')
     semaphore = asyncio.Semaphore(40)
-    limit = 3
+    limit = 5
     test_apps = get_app_nos_from_db(limit)
     start_time = time.time()
 

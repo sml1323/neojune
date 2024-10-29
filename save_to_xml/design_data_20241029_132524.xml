@@ -1,5 +1,371 @@
 <?xml version='1.0' encoding='utf-8'?>
-<responseData><response><applicant>4728</applicant><header><resultCode /><resultMsg /></header><body><items><totalCount>14</totalCount>
+<><response><applicant>5576</applicant><header><resultCode /><resultMsg /></header><body><items><totalCount>1</totalCount>
+			<DesignInfo>
+				<number>1</number>
+				<applicationNumber>3020210019316</applicationNumber>
+				<applicationDate>20210421</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20210825</publicationDate>
+				<registrationDate>20210818</registrationDate>
+				<registrationNumber>3011244660000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>주식회사 메카트로</applicantName>
+				<agentName>특허법인주원</agentName>
+				<fullText>Y</fullText>
+				<inventorName>고정석|남창우|전재완|정종성</inventorName>
+				<articleName>지폐계수기</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>J441</designMainClassification>
+				<dsShpClssCd>J441</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0c87c7ad0d9e286bed75c617e338c490d0b52bbe1949c4f0a7624149d88d6aa0f7de01e5da00cad8310f967ce261403d9</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa5453609be60cc74c289674a5f181e903ce2e7c699f53e596a688ab3843005c23bb50304f06cff8e9bf25bf8ef92bec678</imagePathLarge>
+			</DesignInfo>
+		</items></body></response><response><applicant>8213</applicant><header><resultCode /><resultMsg /></header><body><items><totalCount>12</totalCount>
+			<DesignInfo>
+				<number>1</number>
+				<applicationNumber>3020080035358</applicationNumber>
+				<applicationDate>20080814</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20090407</publicationDate>
+				<registrationDate>20090330</registrationDate>
+				<registrationNumber>3005250450000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 별표수세미</applicantName>
+				<agentName>박대규</agentName>
+				<fullText>Y</fullText>
+				<inventorName>구평길</inventorName>
+				<articleName>수세미 포장대</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>F440B</designMainClassification>
+				<dsShpClssCd>F440B</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c81397476d664ab5b4538a9775bd082b58ccdb922509fd55107f6395fd3f1c72bb649367b8cde1694ce1975</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c27da91f7a1a36d58db2391673abfd477c16350502c48eee6ec55b15c1365745a23ef05536fe0af52</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>2</number>
+				<applicationNumber>3020020019878</applicationNumber>
+				<applicationDate>20020708</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20030722</publicationDate>
+				<registrationDate>20030701</registrationDate>
+				<registrationNumber>3003284890000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 별표수세미</applicantName>
+				<agentName>이소남</agentName>
+				<fullText>Y</fullText>
+				<inventorName>구평길</inventorName>
+				<articleName>수세미</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>C3220</designMainClassification>
+				<dsShpClssCd>C3220</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c8139744ad04cec08f04e836e6bb5ed084a2b646b473c7f2055f7d927baf48422047fbc9611ad6a16e408fc</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642ca0e702e898cbdfa2941d53f49ac00a43472393939c13a9a52570d6b081fee3ecc479096c0d1843f9</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>3</number>
+				<applicationNumber>3019850012380</applicationNumber>
+				<applicationDate>19850903</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber>301987066189</publicationNumber>
+				<publicationDate>19870128</publicationDate>
+				<registrationDate>19861107</registrationDate>
+				<registrationNumber>3000661890000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 별표수세미</applicantName>
+				<agentName>서대석</agentName>
+				<fullText>Y</fullText>
+				<inventorName>구평길</inventorName>
+				<articleName>수세미</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>C3220</designMainClassification>
+				<dsShpClssCd>C3220</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974d48198da10b56c7677fd7633eeeea7861af2e8f46c118781ba5ea95b9bca123bc8ff4a6426a7f0af</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c75ea09f6c0ff97263c60c75d8e8821814f63b0ce98e094a2ec09493c86825a15689e0c4b841e4b70</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>4</number>
+				<applicationNumber>3019840005244</applicationNumber>
+				<applicationDate>19840509</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber>301985053357</publicationNumber>
+				<publicationDate>19850417</publicationDate>
+				<registrationDate>19850218</registrationDate>
+				<registrationNumber>3000533570000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 별표수세미</applicantName>
+				<agentName>서대석</agentName>
+				<fullText>Y</fullText>
+				<inventorName>구평길</inventorName>
+				<articleName>연마솔대판</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>K1415</designMainClassification>
+				<dsShpClssCd>K1415</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974e6f5c2cb1cef4187b58406be9ebff556292905816de7868821818fec6a3884e3b165536ba5bc11d8</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c2177546f88efd7856f1e580bd50bcece061a1d35b340e0806f8c52f6eb5884b526a36b04aba85f0b</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>5</number>
+				<applicationNumber>3019870001635</applicationNumber>
+				<applicationDate>19870211</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>19880502</publicationDate>
+				<registrationDate>19880325</registrationDate>
+				<registrationNumber>3000802200000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 별표수세미</applicantName>
+				<agentName>서대석</agentName>
+				<fullText>Y</fullText>
+				<inventorName>구평길</inventorName>
+				<articleName>수세미</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>C3220</designMainClassification>
+				<dsShpClssCd>C3220|C3220T</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974b17db2502117f8fc2b031cf0cb11f31fc0e4c2f2406a2c43a6377d94b7d4f8a8378ab45240573fda</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642ce39bb39bee96e11cf7800931bf53a28823bb6e1392297b2f2cf4692f31d126af6e07f7de15bbc99a</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>6</number>
+				<applicationNumber>3019860016005</applicationNumber>
+				<applicationDate>19861113</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>19880318</publicationDate>
+				<registrationDate>19871219</registrationDate>
+				<registrationNumber>3000782340000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 별표수세미</applicantName>
+				<agentName>서대석</agentName>
+				<fullText>Y</fullText>
+				<inventorName>구평길</inventorName>
+				<articleName>포장대</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>F432</designMainClassification>
+				<dsShpClssCd>F432C|F432</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c8139741b54f5ecd4e7611951f92236766e2eb0ecf4c6f2065335fe0c1e693cb81cfa29bebedf53501161e0</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c131ec9e95ee3958f6282e7ba68a1dc2e9da6d19118a10c84b0e05469cbb890e0ad30f3ec79d2992d</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>7</number>
+				<applicationNumber>3019870001634</applicationNumber>
+				<applicationDate>19870211</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>19880502</publicationDate>
+				<registrationDate>19880325</registrationDate>
+				<registrationNumber>3000802190000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 별표수세미</applicantName>
+				<agentName>서대석</agentName>
+				<fullText>Y</fullText>
+				<inventorName>구평길</inventorName>
+				<articleName>수세미</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>C3220</designMainClassification>
+				<dsShpClssCd>C3220|C3220A</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974b17db2502117f8fc2b031cf0cb11f31fc0e4c2f2406a2c4399147ce85a8a63e8f58f246f6444405b</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642ce39bb39bee96e11cf7800931bf53a28823bb6e1392297b2fd83d3b39841c7f0dbd66d0b7c8584653</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>8</number>
+				<applicationNumber>3019840012488</applicationNumber>
+				<applicationDate>19841023</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber>301985058507</publicationNumber>
+				<publicationDate>19851128</publicationDate>
+				<registrationDate>19851018</registrationDate>
+				<registrationNumber>3000585070000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 별표수세미</applicantName>
+				<agentName>서대석</agentName>
+				<fullText>Y</fullText>
+				<inventorName>구평길</inventorName>
+				<articleName>세척용연마구</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>C310</designMainClassification>
+				<dsShpClssCd>C310</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974e6f5c2cb1cef4187ab402b097b31d8b5f9c3975b7e236626e83a803a145b5815d2897eff229eec5b</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c2177546f88efd7857da77845a43c3d8257672b050deed5e72afd138462aca304141cde1d856381c1</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>9</number>
+				<applicationNumber>3019850012379</applicationNumber>
+				<applicationDate>19850903</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber>301987066188</publicationNumber>
+				<publicationDate>19870128</publicationDate>
+				<registrationDate>19861107</registrationDate>
+				<registrationNumber>3000661880000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 별표수세미</applicantName>
+				<agentName>서대석</agentName>
+				<fullText>Y</fullText>
+				<inventorName>구평길</inventorName>
+				<articleName>수세미</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>C3220</designMainClassification>
+				<dsShpClssCd>C3220</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974d48198da10b56c7677fd7633eeeea78646f8e7bb304f8016198f53e9d5d5fcc7f512fa3e76a40a0b</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c75ea09f6c0ff97263c60c75d8e8821812c7a657f6233be8fd9f8beb54111501fa1517a1803736663</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>10</number>
+				<applicationNumber>3019840005243</applicationNumber>
+				<applicationDate>19840509</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber>301985053358</publicationNumber>
+				<publicationDate>19850417</publicationDate>
+				<registrationDate>19850218</registrationDate>
+				<registrationNumber>3000533580000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 별표수세미</applicantName>
+				<agentName>서대석</agentName>
+				<fullText>Y</fullText>
+				<inventorName>구평길</inventorName>
+				<articleName>연마솔대판</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>K1415</designMainClassification>
+				<dsShpClssCd>K1415</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974e6f5c2cb1cef4187b58406be9ebff556292905816de786884424bf81e0b5865f6133f7700e718792</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c2177546f88efd7856f1e580bd50bcece061a1d35b340e080eba892423c9cb1e4333223b8f18a7337</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>11</number>
+				<applicationNumber>3019930006246</applicationNumber>
+				<applicationDate>19930407</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>19940314</publicationDate>
+				<registrationDate>19940207</registrationDate>
+				<registrationNumber>3001484700000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 별표수세미</applicantName>
+				<agentName>서대석</agentName>
+				<fullText>Y</fullText>
+				<inventorName>구평길</inventorName>
+				<articleName>수세미용포장대</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>F440B</designMainClassification>
+				<dsShpClssCd>F440B</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974a0f92d91644cb7c330d5c747fb85a846fdfc15f56ef915d10cb42a94fe827f8199605f66f3ecc6da</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c50ea07a59a55d307542897494a05a7a4d508e6d3cb6dbda5425b20392e63d0cb28ae6825add55a76</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>12</number>
+				<applicationNumber>3019840012487</applicationNumber>
+				<applicationDate>19841023</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber>301985058506</publicationNumber>
+				<publicationDate>19851128</publicationDate>
+				<registrationDate>19851018</registrationDate>
+				<registrationNumber>3000585060000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 별표수세미</applicantName>
+				<agentName>서대석</agentName>
+				<fullText>Y</fullText>
+				<inventorName>구평길</inventorName>
+				<articleName>세척용연마구</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>C3220</designMainClassification>
+				<dsShpClssCd>C3220</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974e6f5c2cb1cef4187ab402b097b31d8b5f9c3975b7e236626f294edc924afb7fed9c501a5fe8d5841</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c2177546f88efd7857da77845a43c3d8257672b050deed5e769e6957a40fb83c4828dee768bbe786d</imagePathLarge>
+			</DesignInfo>
+		</items></body></response><response><applicant>4728</applicant><header><resultCode /><resultMsg /></header><body><items><totalCount>14</totalCount>
 			<DesignInfo>
 				<number>1</number>
 				<applicationNumber>3020120040332</applicationNumber>
@@ -391,35 +757,6 @@
 				<dsShpClssCd>J741</dsShpClssCd>
 				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb04b41345d946ad7c6c88ab8b3e87258b8ae0ea6403e752ec2b80ddc1bfd93d59076e1404a5edaa392d85189eae2a79455</imagePath>
 				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa5365afeb2e7f4cbe3a18b8d92888703b831ec9f6fcb59f395b8d31cce96b60ed9a9f2804a6423e9f0b658e9a95bc377b2</imagePathLarge>
-			</DesignInfo>
-		</items></body></response><response><applicant>5576</applicant><header><resultCode /><resultMsg /></header><body><items><totalCount>1</totalCount>
-			<DesignInfo>
-				<number>1</number>
-				<applicationNumber>3020210019316</applicationNumber>
-				<applicationDate>20210421</applicationDate>
-				<appReferenceNumber />
-				<publicationNumber />
-				<publicationDate>20210825</publicationDate>
-				<registrationDate>20210818</registrationDate>
-				<registrationNumber>3011244660000</registrationNumber>
-				<designNumber>M001</designNumber>
-				<regReferenceNumber />
-				<priorityNumber />
-				<priorityDate />
-				<internationalRegisterNumber />
-				<internationalRegisterDate />
-				<applicationStatus>등록</applicationStatus>
-				<applicantName>주식회사 메카트로</applicantName>
-				<agentName>특허법인주원</agentName>
-				<fullText>Y</fullText>
-				<inventorName>고정석|남창우|전재완|정종성</inventorName>
-				<articleName>지폐계수기</articleName>
-				<openNumber />
-				<openDate />
-				<designMainClassification>J441</designMainClassification>
-				<dsShpClssCd>J441</dsShpClssCd>
-				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0c87c7ad0d9e286bed75c617e338c490d0b52bbe1949c4f0a7624149d88d6aa0f7de01e5da00cad8310f967ce261403d9</imagePath>
-				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa5453609be60cc74c289674a5f181e903ce2e7c699f53e596a688ab3843005c23bb50304f06cff8e9bf25bf8ef92bec678</imagePathLarge>
 			</DesignInfo>
 		</items></body></response><response><applicant>11319</applicant><header><resultCode /><resultMsg /></header><body><items><totalCount>62</totalCount>
 			<DesignInfo>
@@ -2158,4 +2495,957 @@
 				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb010c0d6c6bdc7e18d29fdff8bd2a52853bd1d9c8de8321a09d0fb7649c5000a32d3e63a64c4db9a77c3e12e9b1824a130</imagePath>
 				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa557e8d21f6de27321f44f7da5119e3a081c2add85e9e397302a8e0b520faef5928fdc205e46c6758821ed377ce82324c2</imagePathLarge>
 			</DesignInfo>
-		</items></body></response></responseData>
+		</items></body></response><response><applicant>8399</applicant><header><resultCode /><resultMsg /></header><body><items><totalCount>34</totalCount>
+			<DesignInfo>
+				<number>1</number>
+				<applicationNumber>3020050028929</applicationNumber>
+				<applicationDate>20050827</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20060726</publicationDate>
+				<registrationDate>20060719</registrationDate>
+				<registrationNumber>3004149340001</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 비에스이</applicantName>
+				<agentName>감동훈|윤병삼</agentName>
+				<fullText>Y</fullText>
+				<inventorName>송청담</inventorName>
+				<articleName>실리콘 콘덴서 마이크로폰</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H4110</designMainClassification>
+				<dsShpClssCd>H4110</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974ba18a606ff14cb0e0e00a7f2677e93f3506949c44bde5dafd12b12df0570fe774a8d85212f9f6bbb</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c8b064a319f70a22c47a08084a05e4fa861d2d8dec8309e6d94893a00b274889d69f586bd069a0126</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>2</number>
+				<applicationNumber>3020070048380</applicationNumber>
+				<applicationDate>20071121</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20080827</publicationDate>
+				<registrationDate>20080820</registrationDate>
+				<registrationNumber>3005032820000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 비에스이</applicantName>
+				<agentName>감동훈|윤병삼</agentName>
+				<fullText>Y</fullText>
+				<inventorName>서형민</inventorName>
+				<articleName>전지내장 휴대용 충전기</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H2212</designMainClassification>
+				<dsShpClssCd>H2212</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c8139745b8c637ff512490506843513747e48fca4958b8d67d71be58b10b8704fe41faba10ada142bf03da8</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c2b4e6d7bf9256d5ea4abb276ad9413726a93efa055ca7c1a95ffd140a0c6d4003ad90bde446add5f</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>3</number>
+				<applicationNumber>3020090051148</applicationNumber>
+				<applicationDate>20091120</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20110621</publicationDate>
+				<registrationDate>20110610</registrationDate>
+				<registrationNumber>3006011650001</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 비에스이</applicantName>
+				<agentName>윤병삼</agentName>
+				<fullText>Y</fullText>
+				<inventorName>송청담</inventorName>
+				<articleName>실리콘 콘덴서 마이크로폰</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H4110</designMainClassification>
+				<dsShpClssCd>H4110</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0e679372a1d64d9ca6a649e2ad22bafa372d511adf99f6c4a73a0a1226ccc64728f6134811d28b5359071dc05e467e27c</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a4389985e80c60c4d1f17763c0d7789b6fef3e43a9407ac472f68f8ba87168fa2561412f126d0ad74d33bd2c4621660e956f4028ebd72f71db7c02b</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>4</number>
+				<applicationNumber>3020010022142</applicationNumber>
+				<applicationDate>20010809</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20020129</publicationDate>
+				<registrationDate>20020108</registrationDate>
+				<registrationNumber>3002900070001</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 비에스이</applicantName>
+				<agentName>류창희</agentName>
+				<fullText>Y</fullText>
+				<inventorName>박진수</inventorName>
+				<articleName>마이크로폰</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H4110</designMainClassification>
+				<dsShpClssCd>H4110</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974c31531fb23a33958849ebcfd9b7629bf6d153920b819dddc5044a84cec5375d8de153fa80fdcfdde</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c8125d6567bcbba06baa5fc7e1e5a9cdc33e5f712a8553da4a6c294a3c8d236beed71d350579efd61</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>5</number>
+				<applicationNumber>3020090051147</applicationNumber>
+				<applicationDate>20091120</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20110610</publicationDate>
+				<registrationDate>20110531</registrationDate>
+				<registrationNumber>3006011650000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 비에스이</applicantName>
+				<agentName>윤병삼</agentName>
+				<fullText>Y</fullText>
+				<inventorName>송청담</inventorName>
+				<articleName>실리콘 콘덴서 마이크로폰</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H4110</designMainClassification>
+				<dsShpClssCd>H4110</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0f0a748570c650bd3857c5630062c5a61a7493718f493aaab25abb3d6442fb980410d2fa1c7471cf50eaab92d2f214f20</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a4389985e80c60c4d1f1776eabca4c7ef1c5954034223cc6772a9b167221e74f57406ea7fbbc81afa245b71a98f93d17eb15eef0520f2e3b179b7a7</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>6</number>
+				<applicationNumber>3020050028836</applicationNumber>
+				<applicationDate>20050826</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20060523</publicationDate>
+				<registrationDate>20060515</registrationDate>
+				<registrationNumber>3004149320000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 비에스이</applicantName>
+				<agentName>감동훈|윤병삼</agentName>
+				<fullText>Y</fullText>
+				<inventorName>송청담</inventorName>
+				<articleName>실리콘 콘덴서 마이크로폰</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H4110</designMainClassification>
+				<dsShpClssCd>H4110</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974ba18a606ff14cb0e0e00a7f2677e93f38f0287de7061ecb64f5fec663f55a35dcba11340f8df1586</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c8b064a319f70a22c47a08084a05e4fa8bdcfaa1ff364c24b0ee2309e1a7d56a03f1224c0a8bd686c</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>7</number>
+				<applicationNumber>3020050028930</applicationNumber>
+				<applicationDate>20050827</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20060726</publicationDate>
+				<registrationDate>20060719</registrationDate>
+				<registrationNumber>3004149320001</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 비에스이</applicantName>
+				<agentName>감동훈|윤병삼</agentName>
+				<fullText>Y</fullText>
+				<inventorName>송청담</inventorName>
+				<articleName>실리콘 콘덴서 마이크로폰</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H4110</designMainClassification>
+				<dsShpClssCd>H4110</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974ba18a606ff14cb0e0e00a7f2677e93f3658938774cb9717ec9b53afc4f414736c72aa6c573d13d1b</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c8b064a319f70a22c47a08084a05e4fa835dc77a210f6879411a1d4a2d255a869e48937223be07f6a</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>8</number>
+				<applicationNumber>3020090056714</applicationNumber>
+				<applicationDate>20091224</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20110621</publicationDate>
+				<registrationDate>20110610</registrationDate>
+				<registrationNumber>3006011640002</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 비에스이</applicantName>
+				<agentName>윤병삼</agentName>
+				<fullText>Y</fullText>
+				<inventorName>박진수</inventorName>
+				<articleName>스피커</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H4132</designMainClassification>
+				<dsShpClssCd>H4132</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0e679372a1d64d9ca6a649e2ad22bafa357ae68e268f8b6b750c6b6422088be1fdf66194793d29a06db11f101eaa8113b</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a4389985e80c60c4d1f17763c0d7789b6fef3e43a9407ac472f68f8e315d66a4675b4deba4fc939b651920f69f5b4c3c9880e443ba073b3bb3c99eb</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>9</number>
+				<applicationNumber>3020010022141</applicationNumber>
+				<applicationDate>20010809</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20020129</publicationDate>
+				<registrationDate>20020108</registrationDate>
+				<registrationNumber>3002900090002</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 비에스이</applicantName>
+				<agentName>류창희</agentName>
+				<fullText>Y</fullText>
+				<inventorName>박진수</inventorName>
+				<articleName>마이크로폰</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H4110</designMainClassification>
+				<dsShpClssCd>H4110</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974c31531fb23a33958849ebcfd9b7629bf6d153920b819dddc90f092bcabd5ae0ec003199b66d264d4</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c8125d6567bcbba06baa5fc7e1e5a9cdc33e5f712a8553da40d996bf4430e8d853c830b4c09cb6966</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>10</number>
+				<applicationNumber>3020010022140</applicationNumber>
+				<applicationDate>20010809</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20020129</publicationDate>
+				<registrationDate>20020108</registrationDate>
+				<registrationNumber>3002900090001</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 비에스이</applicantName>
+				<agentName>류창희</agentName>
+				<fullText>Y</fullText>
+				<inventorName>박진수</inventorName>
+				<articleName>마이크로폰</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H4110</designMainClassification>
+				<dsShpClssCd>H4110</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974c31531fb23a33958849ebcfd9b7629bf6d153920b819dddc3bb352afa211cdc1fd7dbf20a0d7fd3c</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c8125d6567bcbba06baa5fc7e1e5a9cdc33e5f712a8553da463f4ef1f996359f1e7256f127520ceae</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>11</number>
+				<applicationNumber>3020040028068</applicationNumber>
+				<applicationDate>20040910</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20050704</publicationDate>
+				<registrationDate>20050623</registrationDate>
+				<registrationNumber>3003852420001</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 비에스이</applicantName>
+				<agentName>감동훈|윤병삼</agentName>
+				<fullText>Y</fullText>
+				<inventorName>송청담</inventorName>
+				<articleName>콘덴서 마이크로폰</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H4110</designMainClassification>
+				<dsShpClssCd>H4110</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974d8ba9c5446f8193cd4dbe67fc23197b3f42a42eeb763b932b09344982d8c2e27cc533ed4d4edea50</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642cab65cb0d91d2dfb475ed10288e6da1bd5daa200ca2ca23ce1bb200ce45e20764031a3af0c4a06160</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>12</number>
+				<applicationNumber>3020000018280</applicationNumber>
+				<applicationDate>20000713</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20020129</publicationDate>
+				<registrationDate>20020108</registrationDate>
+				<registrationNumber>3002900070000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 비에스이</applicantName>
+				<agentName>류창희</agentName>
+				<fullText>Y</fullText>
+				<inventorName>박진수</inventorName>
+				<articleName>마이크로폰</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H4110</designMainClassification>
+				<dsShpClssCd>H4110</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c8139744e9b7b9ad9e6725b0cef7cfa510dfc8681b70fc5b3c6d79549d225e8ecc96fb09e35d8d3a29bd31b</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642cd56dcb0e0f0995b0deac54f8925f4c7dacb5deb0ccacab5925d4850d1886a64616bc5e3f05b67aec</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>13</number>
+				<applicationNumber>3020050028831</applicationNumber>
+				<applicationDate>20050826</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20060523</publicationDate>
+				<registrationDate>20060515</registrationDate>
+				<registrationNumber>3004149310000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 비에스이</applicantName>
+				<agentName>감동훈|윤병삼</agentName>
+				<fullText>Y</fullText>
+				<inventorName>송청담</inventorName>
+				<articleName>실리콘 콘덴서 마이크로폰</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H4110</designMainClassification>
+				<dsShpClssCd>H4110</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974ba18a606ff14cb0e0e00a7f2677e93f38f0287de7061ecb65a823b2c362be84542ea3b32a9d8f001</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c8b064a319f70a22c47a08084a05e4fa8bdcfaa1ff364c24b3b0d5e319a942a9d77b37fdb271f635a</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>14</number>
+				<applicationNumber>3020050028925</applicationNumber>
+				<applicationDate>20050827</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20060727</publicationDate>
+				<registrationDate>20060719</registrationDate>
+				<registrationNumber>3004149310001</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 비에스이</applicantName>
+				<agentName>감동훈|윤병삼</agentName>
+				<fullText>Y</fullText>
+				<inventorName>송청담</inventorName>
+				<articleName>실리콘 콘덴서 마이크로폰</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H4110</designMainClassification>
+				<dsShpClssCd>H4110</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974ba18a606ff14cb0e0e00a7f2677e93f3506949c44bde5daf9503d502e557acb2f485b53758a459c1</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c8b064a319f70a22c47a08084a05e4fa861d2d8dec8309e6d5867023a7d567b42a7784d94bb19029c</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>15</number>
+				<applicationNumber>3020030032021</applicationNumber>
+				<applicationDate>20031112</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20040612</publicationDate>
+				<registrationDate>20040601</registrationDate>
+				<registrationNumber>3003539790000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 비에스이</applicantName>
+				<agentName>감동훈|윤병삼</agentName>
+				<fullText>Y</fullText>
+				<inventorName>송청담</inventorName>
+				<articleName>콘덴서 마이크로폰용 홀더</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H4119|H3329</designMainClassification>
+				<dsShpClssCd>H3329|H4119</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974ed9ce53e6c4ea7e72b14ce45546c87871467bf7388d2b37fb33789c451a5fe2bd5a2d0af9f0375b9</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c98a48b5de7d02823b999ce00be03559eb4c4d1011fe47c87c940ab3c8af31c8de0d58f78374051d0</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>16</number>
+				<applicationNumber>3020010022157</applicationNumber>
+				<applicationDate>20010809</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20020129</publicationDate>
+				<registrationDate>20020108</registrationDate>
+				<registrationNumber>3002900080003</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 비에스이</applicantName>
+				<agentName>류창희</agentName>
+				<fullText>Y</fullText>
+				<inventorName>박진수</inventorName>
+				<articleName>마이크로폰</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H4110</designMainClassification>
+				<dsShpClssCd>H4110</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974c31531fb23a33958849ebcfd9b7629bf8b1ffa52684d09f00d15b39447a12af39a9d2adf4cb8c0df</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c8125d6567bcbba06baa5fc7e1e5a9cdcd44007ca10ea21a2354b4e5206785365ee3b87f62a03bc9a</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>17</number>
+				<applicationNumber>3020000018277</applicationNumber>
+				<applicationDate>20000713</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20020126</publicationDate>
+				<registrationDate>20020108</registrationDate>
+				<registrationNumber>3002900060000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 비에스이</applicantName>
+				<agentName>류창희</agentName>
+				<fullText>Y</fullText>
+				<inventorName>박진수</inventorName>
+				<articleName>마이크로폰</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H4110</designMainClassification>
+				<dsShpClssCd>H4110</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c8139744e9b7b9ad9e6725b0cef7cfa510dfc864bf8fb9b8caca22497882a68e8dbe80dd5616616e2cab192</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642cd56dcb0e0f0995b0deac54f8925f4c7d340b6957243ab6a4d7d148c60ff7b4f858bcd49a25f2829f</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>18</number>
+				<applicationNumber>3020050028928</applicationNumber>
+				<applicationDate>20050827</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20060727</publicationDate>
+				<registrationDate>20060719</registrationDate>
+				<registrationNumber>3004149330001</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 비에스이</applicantName>
+				<agentName>감동훈|윤병삼</agentName>
+				<fullText>Y</fullText>
+				<inventorName>송청담</inventorName>
+				<articleName>실리콘 콘덴서 마이크로폰</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H4110</designMainClassification>
+				<dsShpClssCd>H4110</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974ba18a606ff14cb0e0e00a7f2677e93f3506949c44bde5dafb236ebf10a37981016b9a30a9ccb0775</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c8b064a319f70a22c47a08084a05e4fa861d2d8dec8309e6d6267a2d95ce158568130545d00a4a823</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>19</number>
+				<applicationNumber>3020090056713</applicationNumber>
+				<applicationDate>20091224</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20110621</publicationDate>
+				<registrationDate>20110610</registrationDate>
+				<registrationNumber>3006011640001</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 비에스이</applicantName>
+				<agentName>윤병삼</agentName>
+				<fullText>Y</fullText>
+				<inventorName>박진수</inventorName>
+				<articleName>스피커</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H4132</designMainClassification>
+				<dsShpClssCd>H4132</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0e679372a1d64d9ca6a649e2ad22bafa357ae68e268f8b6b750c6b6422088be1f2c5a94e19fc9ff0384f1b16646d2cd93</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a4389985e80c60c4d1f17763c0d7789b6fef3e43a9407ac472f68f8e315d66a4675b4deba4fc939b651920f51976adfb0c5a43ebb0d783513015691</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>20</number>
+				<applicationNumber>3020090056712</applicationNumber>
+				<applicationDate>20091224</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20110610</publicationDate>
+				<registrationDate>20110531</registrationDate>
+				<registrationNumber>3006011640000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 비에스이</applicantName>
+				<agentName>윤병삼</agentName>
+				<fullText>Y</fullText>
+				<inventorName>박진수</inventorName>
+				<articleName>스피커</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H4132</designMainClassification>
+				<dsShpClssCd>H4132</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0f0a748570c650bd3857c5630062c5a61ca182db1c1478494612d9751262c2e25ed59d64ae9988a169d89e497747a8144</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a4389985e80c60c4d1f1776eabca4c7ef1c5954034223cc6772a9b15a9ef424b84a4ca386551b32c6adde8c1330e4d34f188910306621304717f8c1</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>21</number>
+				<applicationNumber>3020050028835</applicationNumber>
+				<applicationDate>20050826</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20060523</publicationDate>
+				<registrationDate>20060515</registrationDate>
+				<registrationNumber>3004149340000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 비에스이</applicantName>
+				<agentName>감동훈|윤병삼</agentName>
+				<fullText>Y</fullText>
+				<inventorName>송청담</inventorName>
+				<articleName>실리콘 콘덴서 마이크로폰</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H4110</designMainClassification>
+				<dsShpClssCd>H4110</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974ba18a606ff14cb0e0e00a7f2677e93f38f0287de7061ecb6699163d00dcb0bc799083ab77735b80f</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c8b064a319f70a22c47a08084a05e4fa8bdcfaa1ff364c24ba8b10aaa37ead01d796e05d3a24370ff</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>22</number>
+				<applicationNumber>3020010022158</applicationNumber>
+				<applicationDate>20010809</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20020129</publicationDate>
+				<registrationDate>20020108</registrationDate>
+				<registrationNumber>3002900060001</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 비에스이</applicantName>
+				<agentName>류창희</agentName>
+				<fullText>Y</fullText>
+				<inventorName>박진수</inventorName>
+				<articleName>마이크로폰</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H4110</designMainClassification>
+				<dsShpClssCd>H4110</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974c31531fb23a33958849ebcfd9b7629bf8b1ffa52684d09f089101698644e99b9f6995a18ae665f5d</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c8125d6567bcbba06baa5fc7e1e5a9cdcd44007ca10ea21a287daa151d247a51c122a06ddd49eaa13</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>23</number>
+				<applicationNumber>3020010022156</applicationNumber>
+				<applicationDate>20010809</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20020129</publicationDate>
+				<registrationDate>20020108</registrationDate>
+				<registrationNumber>3002900080002</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 비에스이</applicantName>
+				<agentName>류창희</agentName>
+				<fullText>Y</fullText>
+				<inventorName>박진수</inventorName>
+				<articleName>마이크로폰</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H4110</designMainClassification>
+				<dsShpClssCd>H4110</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974c31531fb23a33958849ebcfd9b7629bf8b1ffa52684d09f0f11c91166e699932ca3810e234f367d1</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c8125d6567bcbba06baa5fc7e1e5a9cdcd44007ca10ea21a2a97f69748e44be68c89fe13fa2db88a6</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>24</number>
+				<applicationNumber>3020050028832</applicationNumber>
+				<applicationDate>20050826</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20060523</publicationDate>
+				<registrationDate>20060515</registrationDate>
+				<registrationNumber>3004149360000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 비에스이</applicantName>
+				<agentName>감동훈|윤병삼</agentName>
+				<fullText>Y</fullText>
+				<inventorName>송청담</inventorName>
+				<articleName>실리콘 콘덴서 마이크로폰</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H4110</designMainClassification>
+				<dsShpClssCd>H4110</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974ba18a606ff14cb0e0e00a7f2677e93f38f0287de7061ecb6ee3a7dc34d4a23ad8c9bb21d567b61f9</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c8b064a319f70a22c47a08084a05e4fa8bdcfaa1ff364c24b0ecbea68a0710ddd247de841c054bd33</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>25</number>
+				<applicationNumber>3020040027456</applicationNumber>
+				<applicationDate>20040907</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20050704</publicationDate>
+				<registrationDate>20050623</registrationDate>
+				<registrationNumber>3003852420000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 비에스이</applicantName>
+				<agentName>감동훈|윤병삼</agentName>
+				<fullText>Y</fullText>
+				<inventorName>송청담</inventorName>
+				<articleName>콘덴서 마이크로폰</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H4110</designMainClassification>
+				<dsShpClssCd>H4110</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974d8ba9c5446f8193cd3cf70f8e462a32ab40932b9a07646749a526658447cafa3fbe3b2fb73a72529</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642cab65cb0d91d2dfb41530c2c2d6fad511092e4e0c890d692dc252b5fa19cfb63d47f7f03d0471bf8c</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>26</number>
+				<applicationNumber>3020050028927</applicationNumber>
+				<applicationDate>20050827</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20060727</publicationDate>
+				<registrationDate>20060719</registrationDate>
+				<registrationNumber>3004149350001</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 비에스이</applicantName>
+				<agentName>감동훈|윤병삼</agentName>
+				<fullText>Y</fullText>
+				<inventorName>송청담</inventorName>
+				<articleName>실리콘 콘덴서 마이크로폰</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H4110</designMainClassification>
+				<dsShpClssCd>H4110</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974ba18a606ff14cb0e0e00a7f2677e93f3506949c44bde5daf0b348d1b012a53672cf7e6630d51d650</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c8b064a319f70a22c47a08084a05e4fa861d2d8dec8309e6d7b290b65f14230ebf59dcbb9bc9c74fa</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>27</number>
+				<applicationNumber>3020050028834</applicationNumber>
+				<applicationDate>20050826</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20060523</publicationDate>
+				<registrationDate>20060515</registrationDate>
+				<registrationNumber>3004149330000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 비에스이</applicantName>
+				<agentName>감동훈|윤병삼</agentName>
+				<fullText>Y</fullText>
+				<inventorName>송청담</inventorName>
+				<articleName>실리콘 콘덴서 마이크로폰</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H4110</designMainClassification>
+				<dsShpClssCd>H4110</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974ba18a606ff14cb0e0e00a7f2677e93f38f0287de7061ecb60eacdce37adf5e292a813380dc3d0288</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c8b064a319f70a22c47a08084a05e4fa8bdcfaa1ff364c24bfe3e873518018c55bbfc5b946b82396c</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>28</number>
+				<applicationNumber>3020010022155</applicationNumber>
+				<applicationDate>20010809</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20020129</publicationDate>
+				<registrationDate>20020108</registrationDate>
+				<registrationNumber>3002900080001</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 비에스이</applicantName>
+				<agentName>류창희</agentName>
+				<fullText>Y</fullText>
+				<inventorName>박진수</inventorName>
+				<articleName>마이크로폰</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H4110</designMainClassification>
+				<dsShpClssCd>H4110</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974c31531fb23a33958849ebcfd9b7629bf8b1ffa52684d09f0e7f64b6c7ff32db1d2b2ffc531d4de54</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c8125d6567bcbba06baa5fc7e1e5a9cdcd44007ca10ea21a20b11ec63ba002d3fe5c7262337555a6d</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>29</number>
+				<applicationNumber>3020050028833</applicationNumber>
+				<applicationDate>20050826</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20060523</publicationDate>
+				<registrationDate>20060515</registrationDate>
+				<registrationNumber>3004149350000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 비에스이</applicantName>
+				<agentName>감동훈|윤병삼</agentName>
+				<fullText>Y</fullText>
+				<inventorName>송청담</inventorName>
+				<articleName>실리콘 콘덴서 마이크로폰</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H4110</designMainClassification>
+				<dsShpClssCd>H4110</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974ba18a606ff14cb0e0e00a7f2677e93f38f0287de7061ecb640eea4edf98c3a4666479bd330d9daf3</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c8b064a319f70a22c47a08084a05e4fa8bdcfaa1ff364c24b5bff1f679b536086a6e0dc6c8cb6c2d9</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>30</number>
+				<applicationNumber>3020000018264</applicationNumber>
+				<applicationDate>20000713</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20020126</publicationDate>
+				<registrationDate>20020108</registrationDate>
+				<registrationNumber>3002900090000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 비에스이</applicantName>
+				<agentName>류창희</agentName>
+				<fullText>Y</fullText>
+				<inventorName>박진수</inventorName>
+				<articleName>마이크로폰</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H4110</designMainClassification>
+				<dsShpClssCd>H4110</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c8139744e9b7b9ad9e6725b0cef7cfa510dfc86ad80b546f40694526a5abcb7de25dd4b7b51cc5809a40c2c</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642cd56dcb0e0f0995b0deac54f8925f4c7dab2df396aedd8dba477714ce3acd8df9e4ccd11b550216b9</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>31</number>
+				<applicationNumber>3020050028926</applicationNumber>
+				<applicationDate>20050827</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20060727</publicationDate>
+				<registrationDate>20060719</registrationDate>
+				<registrationNumber>3004149360001</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 비에스이</applicantName>
+				<agentName>감동훈|윤병삼</agentName>
+				<fullText>Y</fullText>
+				<inventorName>송청담</inventorName>
+				<articleName>실리콘 콘덴서 마이크로폰</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H4110</designMainClassification>
+				<dsShpClssCd>H4110</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974ba18a606ff14cb0e0e00a7f2677e93f3506949c44bde5dafdee5202eaca79a1bcd96fc9a548717c8</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c8b064a319f70a22c47a08084a05e4fa861d2d8dec8309e6dd31cf8a3a56bfa1ed69ba31b5bdb759c</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>32</number>
+				<applicationNumber>3020100044238</applicationNumber>
+				<applicationDate>20101012</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20111128</publicationDate>
+				<registrationDate>20111117</registrationDate>
+				<registrationNumber>3006222110000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 비에스이</applicantName>
+				<agentName>리앤목특허법인</agentName>
+				<fullText>Y</fullText>
+				<inventorName>이상호|박성호</inventorName>
+				<articleName>마이크로폰</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H4110</designMainClassification>
+				<dsShpClssCd>H4110</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0061f5159ae38f2b1309fc74fb8ba4dc07f24f3465dcb4d120981cfc895bfb4895e2cf3d69dc3497db5fb4ab6891800d8</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a4389985e80c60c4d1f177628653061eaea8992950fde48225eac6c9e8d5fe84f2f8a4cd9bfa43947ba3821da1ac363a770b042251f8847b6336558</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>33</number>
+				<applicationNumber>3020000018263</applicationNumber>
+				<applicationDate>20000713</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20020126</publicationDate>
+				<registrationDate>20020108</registrationDate>
+				<registrationNumber>3002900080000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 비에스이</applicantName>
+				<agentName>류창희</agentName>
+				<fullText>Y</fullText>
+				<inventorName>박진수</inventorName>
+				<articleName>마이크로폰</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H4110</designMainClassification>
+				<dsShpClssCd>H4110</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c8139744e9b7b9ad9e6725b0cef7cfa510dfc86ad80b546f406945247432cf524e173d0a884127de194901e</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642cd56dcb0e0f0995b0deac54f8925f4c7dab2df396aedd8dba0185017c1a4a8e6e637b8f1fd3c0e5c4</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>34</number>
+				<applicationNumber>3020160001766</applicationNumber>
+				<applicationDate>20160114</applicationDate>
+				<appReferenceNumber />
+				<publicationNumber />
+				<publicationDate>20161128</publicationDate>
+				<registrationDate>20161122</registrationDate>
+				<registrationNumber>3008830820000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber />
+				<priorityNumber />
+				<priorityDate />
+				<internationalRegisterNumber />
+				<internationalRegisterDate />
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 비에스이</applicantName>
+				<agentName>특허법인 신우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>박광덕</inventorName>
+				<articleName>이어폰케이블 권취기</articleName>
+				<openNumber />
+				<openDate />
+				<designMainClassification>H2411|H4149</designMainClassification>
+				<dsShpClssCd>H4149|H2411</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb00b4b82a3c957449dba3524e8c988bf5762d904e0c2c0e09df18a1c2f41a73c5b70de132dd6ddbb42393a0b059be2d12e</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa5abb1b67ee93318fb9babf5c1a416a2b95331bd9fa0b058090663aac3ed340fa803e7051cb77ef6d6eafb41912bf21f32</imagePathLarge>
+			</DesignInfo>
+		</items></body></response></>
