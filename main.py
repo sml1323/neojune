@@ -76,9 +76,9 @@ def db_connect():
 async def fetch_all_info(service_key, app_no, applicant_id, session, semaphore, pa_dict, de_dict, tr_dict):
     async with semaphore:
         tasks = [
-            patent_api.get_patent_info(service_key, app_no, session),
-            design_api.get_design_info(service_key, app_no, session),
-            trademark_api.get_trademark_info(service_key, app_no, session),
+            asyncio.create_task(patent_api.get_patent_info(service_key, app_no, session)),
+            asyncio.create_task(design_api.get_design_info(service_key, app_no, session)),
+            asyncio.create_task(trademark_api.get_trademark_info(service_key, app_no, session)),
         ]
 
         results = await asyncio.gather(*tasks)
@@ -94,9 +94,8 @@ async def fetch_all_info(service_key, app_no, applicant_id, session, semaphore, 
 async def main():
     load_dotenv()
     service_key = os.getenv('SERVICE_KEY')
-    semaphore = asyncio.Semaphore(50)
+    semaphore = asyncio.Semaphore(40)
     limit = 3
-
     test_apps = get_app_nos_from_db(limit)
     start_time = time.time()
 
@@ -105,7 +104,7 @@ async def main():
     async with aiohttp.ClientSession() as session:
         tasks = []
         for app_no, applicant_id in test_apps:
-            task = fetch_all_info(service_key, app_no, applicant_id, session, semaphore, pa_dict, de_dict, tr_dict)
+            task = asyncio.create_task(fetch_all_info(service_key, app_no, applicant_id, session, semaphore, pa_dict, de_dict, tr_dict))
             tasks.append(task)
         await asyncio.gather(*tasks)
 
