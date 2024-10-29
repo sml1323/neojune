@@ -33,23 +33,19 @@ async def get_patent_info(service_key, applicant, session) -> dict:
             total_count = int(content[start:end].strip())
             max_pages = (total_count // docs_count) + (1 if total_count % docs_count else 0)
             print(f"총 검색 건수: {total_count}, 총 페이지 수: {max_pages}")
+            result.append(content)
         except ValueError:
             print("totalCount를 찾을 수 없습니다.")
-            return {"data": result}
+            return result
 
     # 전체 페이지 순회
-    page = 1
+    page = 2
     while page <= max_pages:
         request_params['docsStart'] = page
         try:
             async with session.get(url, params=request_params, timeout=10) as response:
                 if response.status == 200:
                     content = await response.text()
-
-                    # 빈 페이지 확인
-                    if "<PatentUtilityInfo>" not in content:
-                        print("더 이상 데이터가 없습니다.")
-                        break
                     print(f"{applicant} 페이지 {page} 호출 성공")
                     result.append(content)
                     success_count += 1
@@ -71,11 +67,7 @@ async def get_patent_info(service_key, applicant, session) -> dict:
             break
 
     print(f"총 호출 횟수: {success_count + fail_count}, 성공 횟수: {success_count}, 실패 횟수: {fail_count}")
-    return {
-        "applicant": applicant,
-        "data_type": "patent",
-        "data": result
-    }
+    return result
 
 async def main():
     load_dotenv()  
