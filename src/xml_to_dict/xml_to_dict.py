@@ -61,7 +61,7 @@ class BaseDataParser:
                         # 부모 response 요소를 찾아서 applicant_id 가져오기
                         response = element.xpath("./ancestor::response")[0]
                         if response is not None:
-                            element_dict['applicant_id'] = response.find('applicant_id').text if response.find('applicant_id') is not None else ''
+                            element_dict['applicant_id'] = int(response.find('applicant_id').text) if response.find('applicant_id') is not None else ''
                 
                 results.append(element_dict)  # 결과 리스트에 추가
             return results  # 파싱된 결과 반환
