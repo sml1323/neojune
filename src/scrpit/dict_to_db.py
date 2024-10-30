@@ -67,8 +67,10 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from crud.db_crud import upsert_data
 
-def dcit_to_db(data : dict):
-    upsert_data('TB24_patent', data)
+def dcit_to_db(table, data : dict):
+    upsert_data(table, data)
 
 if __name__ == "__main__":
-    dcit_to_db(pa)
+    dcit_to_db('TB24_patent',pa)
+    dcit_to_db('TB24_design',de)
+    dcit_to_db('TB24_trademark', tr)
