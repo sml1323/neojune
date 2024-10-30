@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 import time
 from datetime import datetime
 import xml.etree.ElementTree as ET
-from crud import save_xml_db_crud
+from crud import db_crud
 
 # # XML 저장 함수
 def save_data_as_xml(data_dict, file_name):
@@ -64,7 +64,7 @@ async def main():
     service_key = os.getenv('SERVICE_KEY')
     semaphore = asyncio.Semaphore(50)
     limit = 1
-    test_apps = save_xml_db_crud.fetch_data_from_db('TB24_200',['app_no', 'applicant_id'],limit)
+    test_apps = db_crud.fetch_data_from_db('TB24_200',['app_no', 'applicant_id'],limit)
       
     
     start_time = time.time()
