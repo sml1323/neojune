@@ -9,9 +9,11 @@ import asyncio
 import traceback
 
 ## 사업자 등록번호 -> 특허 고객번호
-async def get_applicant_no(service_key, applicant_info: tuple) -> dict:
+async def get_applicant_no(service_key, applicant_info: list[tuple]) -> dict:
     url = "http://plus.kipris.or.kr/openapi/rest/CorpBsApplicantService/corpBsApplicantInfoV3"
+
     company_seq, biz_no, corp_no, biz_type, company_name = applicant_info
+
 
     request_params = {
         'accessKey': service_key,
@@ -36,18 +38,18 @@ async def get_applicant_no(service_key, applicant_info: tuple) -> dict:
 
                         bs_info = body.get('corpBsApplicantInfo')
 
-                        if type(bs_info) != list :
-                            bs_info = [bs_info]
+                        if type(bs_info) == list :
+                            bs_info = bs_info[0]
 
-                        for info in bs_info:
-                            if info.get('CorporationNumber'): # 법인번호가 있는 데이터만 저장 (법인만 저장)
-                                result.append({
-                                    'app_no': info['ApplicantNumber'],
-                                    'compay_name': info['ApplicantName'],
-                                    'corp_no': info['CorporationNumber'],
-                                    'biz_no': info['BusinessRegistrationNumber'],
-                                    'company_seq': company_seq
-                                })
+
+                        if bs_info.get('CorporationNumber'): # 법인번호가 있는 데이터만 저장 (법인만 저장)
+                            result.append({
+                                'app_no': bs_info['ApplicantNumber'],
+                                'compay_name': bs_info['ApplicantName'],
+                                'corp_no': bs_info['CorporationNumber'],
+                                'biz_no': bs_info['BusinessRegistrationNumber'],
+                                'company_seq': company_seq
+                            })
 
                         return result
                     else:
