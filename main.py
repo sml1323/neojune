@@ -1,14 +1,16 @@
 import asyncio
 import aiohttp
-from api_modules import design_api, patent_api, trademark_api
+from src.save_to_json import design_api, patent_api, trademark_api
 import os
 from dotenv import load_dotenv
 import time
 import MySQLdb
-from datetime import datetime
-from crud import connection, db_crud
 import json
-
+import sys
+from datetime import datetime
+sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
+from save_to_json import design_api, patent_api, trademark_api
+from crud import connection, db_crud
 
 async def fetch_all_info(service_key, app_no, applicant_id, session, semaphore, pa_dict, de_dict, tr_dict):
     async with semaphore:
@@ -53,9 +55,9 @@ async def main():
 
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     start = time.time()
-    with open(f"./save_to_json/patent_{timestamp}.json", "w") as pa_file, \
-         open(f"./save_to_json/design_{timestamp}.json", "w") as de_file, \
-         open(f"./save_to_json/trademark_{timestamp}.json", "w") as tr_file:
+    with open(f"./src/save_to_json/json/patent_{timestamp}.json", "w") as pa_file, \
+         open(f"./src/save_to_json/json/design_{timestamp}.json", "w") as de_file, \
+         open(f"./src/save_to_json/json/trademark_{timestamp}.json", "w") as tr_file:
         json.dump(pa_dict, pa_file, ensure_ascii=False, indent=4)
         json.dump(de_dict, de_file, ensure_ascii=False, indent=4)
         json.dump(tr_dict, tr_file, ensure_ascii=False, indent=4)
