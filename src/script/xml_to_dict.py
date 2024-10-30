@@ -1,6 +1,8 @@
 import os, re
 from lxml import etree
 from typing import List, Dict
+import glob
+
 
 def clean_whitespace(text: str) -> str:
     """텍스트의 여러 개 공백을 하나로 줄이고, 앞뒤 공백을 제거."""
@@ -17,8 +19,9 @@ class BaseDataParser:
 
     def get_file_path(self, xml_filename: str) -> str:
         """주어진 XML 파일 이름을 기반으로 파일 경로를 생성하는 메서드."""
-        script_dir = os.path.dirname(os.path.abspath(__file__))  # 스크립트 디렉토리 경로 얻기
-        return os.path.join(script_dir, xml_filename)  # XML 파일 경로 반환
+        # script_dir = os.path.dirname(os.path.abspath(__file__))  # 스크립트 디렉토리 경로 얻기
+        # return os.path.join(script_dir, xml_filename)  # XML 파일 경로 반환
+        return xml_filename
 
     def read_xml(self) -> str:
         """XML 파일을 읽고 문자열로 반환하는 메서드."""
@@ -51,6 +54,9 @@ class BaseDataParser:
                         sub_element = element.find(xml_key)
                         if sub_element is not None:
                             element_dict[output_key] = clean_whitespace(str(sub_element.text))
+                            # print(type(element_dict[output_key]))
+                            if element_dict[output_key] == 'None':
+                                element_dict[output_key] = None
                             if(output_key == "ipr_code"): 
                                 element_dict[output_key] = element_dict[output_key][:2]
                             if(output_key == "main_ipc"):
@@ -148,33 +154,47 @@ def main():
     }
 
     # XML 파일 이름 설정
-    design_xml_filename = 'result/xml/design_data_20241028_195040.xml'  # XML 파일 경로
-    patent_xml_filename = 'result/xml/patent_data_20241028_195040.xml'  # XML 파일 경로
-    trademark_xml_filename = 'result/xml/trademark_data_20241028_195040.xml'  # XML 파일 경로
+        
+    design_xml_filename = None
+    patent_xml_filename = None
+    trademark_xml_filename = None
+    # ./result 폴더의 모든 XML 파일 경로를 리스트로 가져옴
+    xml_files = glob.glob('./src/result/*.xml')
 
-    if False:
+    # 파일 경로를 순회하며 파일 이름에 따라 변수에 할당
+    for xml_file in xml_files:
+        if 'design_data' in xml_file:
+            design_xml_filename = xml_file
+        elif 'patent_data' in xml_file:
+            patent_xml_filename = xml_file
+        elif 'trademark_data' in xml_file:
+            trademark_xml_filename = xml_file
+
+    if True:
         print("#### design_parser")
         design_parser = DesignDataParser(design_mapping, design_xml_filename)
         design_results = design_parser.parse()
-        print(design_results)
+        # print(design_results)
         print("")
         print("")
 
-    if False:
+    if True:
         print("#### patent_parser")
         patent_parser = PatentDataParser(patent_mapping, patent_xml_filename)
         patent_results = patent_parser.parse()
-        print(patent_results)
-        print("")
-        print("")
+        # print(patent_results)
+        # print("")
+        # print("")
 
     if True:
         print("#### trademark_parser")
         trademark_parser = TrademarkDataParser(trademark_mapping, trademark_xml_filename)
         trademark_results = trademark_parser.parse()
-        print(trademark_results)
-        print("")
-        print("")
+        # print(trademark_results)
+        # print("")
+        # print("")
+
+    return design_results, patent_results, trademark_results
 
 
 if __name__ == "__main__":

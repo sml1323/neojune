@@ -1,3 +1,0 @@
-```sh
-pip install lxml
-```

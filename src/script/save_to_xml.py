@@ -39,7 +39,7 @@ def save_data_as_xml(data_dict, file_name):
 
     # XML 파일로 저장
     tree = ET.ElementTree(root)
-    file_path = f"src/save_to_xml/output/{file_name}.xml"
+    file_path = f"./src/result/{file_name}.xml"
     os.makedirs(os.path.dirname(file_path), exist_ok=True)
     tree.write(file_path, encoding="utf-8", xml_declaration=True)
     print(f"{file_path} 저장 완료")
@@ -63,7 +63,7 @@ async def main():
     load_dotenv()
     service_key = os.getenv('SERVICE_KEY')
     semaphore = asyncio.Semaphore(50)
-    limit = 1
+    limit = 3
     test_apps = db_crud.fetch_data_from_db('TB24_200',['app_no', 'applicant_id'],limit)
       
     

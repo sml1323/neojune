@@ -1,0 +1,854 @@
+<?xml version='1.0' encoding='utf-8'?>
+<responseData><response><applicant_id>1</applicant_id><header><resultCode /><resultMsg /></header><body><items><PatentUtilityInfo>
+				<Applicant>(주)준소프트웨어</Applicant>
+				<ApplicationDate>20161229</ApplicationDate>
+				<ApplicationNumber>1020160182094</ApplicationNumber>
+				<Abstract>본 발명은 특허공보 번역 서비스 제공 시스템 및 그 방법에 관한 것으로서, 보다 상세하게는 번역신청자 단말기로부터 특정 특허공보의 번역 신청을 접수받으면 상기 특정 특허공보의 번역분량 및 조회수 등을 토대로 번역 비용을 산출하여 다수의 관심을 받는 특허공보의 번역정보가 조기에 확보될 수 있도록 하고, 나아가 그 번역정보를 타인과 공유하도록 하여 일정한 수익금이 발생하는 경우 번역신청자에게도 일정비율 배분되도록 하는 특허공보 번역 서비스 제공 시스템 및 그 방법에 관한 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e000af4c4afa61c388c8851783308119b57dfe5666853bf7bb49857c2c9efd2211eb0a6bc24bb023620072711647e0efb1f85f07ce52a16959d</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfcafa1947147e7af93520e6fdba6ed2dbe05227459c2502cde8994a6e47b340397a1360d1c15a24b20ca79a36e9bc19d4f4b5cfdca93330ba</ThumbnailPath>
+				<SerialNumber>1</SerialNumber>
+				<InventionName>특허공보 번역 서비스 제공 시스템 및 그 방법</InventionName>
+				<InternationalpatentclassificationNumber>G06Q 50/10|G06Q 30/04|G06Q 30/02</InternationalpatentclassificationNumber>
+				<OpeningDate>20180709</OpeningDate>
+				<OpeningNumber>1020180077594</OpeningNumber>
+				<PublicNumber />
+				<PublicDate />
+				<RegistrationDate />
+				<RegistrationNumber />
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)준소프트웨어</Applicant>
+				<ApplicationDate>20161111</ApplicationDate>
+				<ApplicationNumber>1020160149962</ApplicationNumber>
+				<Abstract>선행특허자료 검색사이트 운영방법에 관한 것으로, 다수의 회원이 의뢰 특허기술의 특허성을 부정시킬 수 있는 선행특허자료를 검색하는데 참여하고 그에 대한 대가 금액을 받을 수 있도록 하는 선행특허자료 검색사이트 운영방법에 관한 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0049d84b3a85581756d01305d774a38dcabaaf52097ca0140c5468ce6192f0e4ae3171908670a60c0bf4b42ae2252c27877744de1c7117a0ad</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cffd9b1953296b94ea9ee9c6e91895f6e31bedcfa9f1194f3ec7a89c5c0403dbddde29787f20908ae4b0519e61f33d17a700064af096a024ae</ThumbnailPath>
+				<SerialNumber>2</SerialNumber>
+				<InventionName>선행특허자료 검색사이트 운영방법</InventionName>
+				<InternationalpatentclassificationNumber>G06Q 50/18|G06Q 50/10|G06F 16/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20180521</OpeningDate>
+				<OpeningNumber>1020180052870</OpeningNumber>
+				<PublicNumber />
+				<PublicDate />
+				<RegistrationDate />
+				<RegistrationNumber />
+				<RegistrationStatus>취하</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)준소프트웨어</Applicant>
+				<ApplicationDate>20150316</ApplicationDate>
+				<ApplicationNumber>1020150035762</ApplicationNumber>
+				<Abstract>주요 국가별 판례정보의 특성을 추출/분석한 메타정보를 바탕으로 Data Sheet를 구성하고 이 Data Sheet를 CUI(Command Line Interface)를 통해서 조작/입력할 수 있는 기술</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0092c2ff201b2078b63321a42b19e01c6e9c5b6b2a365d410d42fb6ea4ed9c624dbe84dc463f12aaecd7bc9657ad7e69e32a603e6e9ffb3a14</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf15316e551546c56dce37708432ed69b83897243956fc88b63ebff262267213bd98fe647dd40fb43ace1af2725c1807c09d22e7605c721170</ThumbnailPath>
+				<SerialNumber>3</SerialNumber>
+				<InventionName>국제 판례정보 분석 및 자동탑재 시스템</InventionName>
+				<InternationalpatentclassificationNumber>G06F 40/10|G06F 16/00|G06Q 50/18</InternationalpatentclassificationNumber>
+				<OpeningDate>20160926</OpeningDate>
+				<OpeningNumber>1020160111085</OpeningNumber>
+				<PublicNumber />
+				<PublicDate />
+				<RegistrationDate />
+				<RegistrationNumber />
+				<RegistrationStatus>취하</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)준소프트웨어</Applicant>
+				<ApplicationDate>20161110</ApplicationDate>
+				<ApplicationNumber>1020160149238</ApplicationNumber>
+				<Abstract>본 발명은 상표권 침해 침해상품이 온라인 상에 판매되는 것을 감시하기 위한 방법으로서, 본 발명에 따른 온라인 상표권 침해상품 감시방법은 시스템총괄부를 이용하여, 검색 상품에 대한 기본정보를 설정하는 단계; 다음으로 검색설정부를 이용하여, 상품 기본 정보를 기준으로 검색어 및 관련어 검색 계획을 수립하는 단계; 다음으로 검색부를 이용하여, 검색 계획에 따라 대상물 검색하는 단계; 다음으로 필터부를 이용하여, 상표권 침해상품지수를 산출하는 단계; 다음으로 데이터부를 이용하여, 상기 산출된 상표권 침해상품지수를 저장하는 단계; 다음으로 데이터부에 저장된 상표권 침해상품지수를 보고하는 단계를 포함하는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00bd81961a43b8bd1dfabc6931b51a5f5309e527d037b8f9c928bc51ab1615cb80be3aff3275736c8489a2d5acca0a77dae81e2a98342d9e3c</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cff4ed4c3299e4dafe9765ed584d9e06d478881a2514450554d40c5f7d1dd2df6ec4640258abc9fd88801949596d21ef4a8269733044925a92</ThumbnailPath>
+				<SerialNumber>4</SerialNumber>
+				<InventionName>온라인 상표권 침해상품 감시방법</InventionName>
+				<InternationalpatentclassificationNumber>G06Q 50/18|G06F 16/00|G06Q 50/10</InternationalpatentclassificationNumber>
+				<OpeningDate>20180518</OpeningDate>
+				<OpeningNumber>1020180052204</OpeningNumber>
+				<PublicNumber />
+				<PublicDate />
+				<RegistrationDate />
+				<RegistrationNumber />
+				<RegistrationStatus>취하</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)준소프트웨어</Applicant>
+				<ApplicationDate>20161110</ApplicationDate>
+				<ApplicationNumber>1020160149245</ApplicationNumber>
+				<Abstract>본 발명은 입력된 키워드에 대해 상표의 등록 가능성 또는 침해 가능성을 판단하여 검색 결과로 제공하는 상표 정보 조회 방법에 관한 것이다.  본 발명의 일실시예에 의한 상표 정보 조회 방법은 복수의 단어로 구성된 상표에 대하여, 상기 상표를 구성하는 단어별로 구분하여 입력받는 단계; 및 상기 입력된 단어별로 식별력을 판단하여, 식별력이 있는 단어를 추출하거나 또는 상기 입력된 단어에 대응하는 선행 상표를 추출하는 단계를 포함할 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00bd81961a43b8bd1dfabc6931b51a5f5309e527d037b8f9c928bc51ab1615cb80a39b73485f1416275f6c0047a77e8e5c77ec2d9af8e78fa5</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cff4ed4c3299e4dafe9765ed584d9e06d478881a2514450554d40c5f7d1dd2df6ee43904b190bd151afcea12049f2c101f80ac3780b72d2eeb</ThumbnailPath>
+				<SerialNumber>5</SerialNumber>
+				<InventionName>상표 정보 조회 방법</InventionName>
+				<InternationalpatentclassificationNumber>G06F 16/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20180518</OpeningDate>
+				<OpeningNumber>1020180052206</OpeningNumber>
+				<PublicNumber />
+				<PublicDate />
+				<RegistrationDate />
+				<RegistrationNumber />
+				<RegistrationStatus>취하</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)준소프트웨어</Applicant>
+				<ApplicationDate>20161114</ApplicationDate>
+				<ApplicationNumber>1020160150780</ApplicationNumber>
+				<Abstract>본 발명은 온라인 출원 서비스 방법에 관한 것으로서, 보다 상세하게는 특허출원 등의 절차에 익숙하지 않은 비전문가라도 온라인을 통해 기 설정된 특정인 명의로 출원을 조속히 완료함으로써 선출원 지위를 빠르게 확보할 수 있어 향후 자신의 아이디어가 공개되더라도 제3자의 무단 도용 실시 또는 무단 도용 출원 등에 따른 법적대응에 유리한 입장을 취할 수 있도록 하는 온라인 출원 서비스 방법에 관한 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00d348f43d8f4b0deb4537688fcb488ea058ead5b7d6db6cf2a29b51d57916ace9c98d4d71b0dc21bcd8218aab7c46ce0d25199d2afc9b1166</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf54caa8ef826b90ea7f2d81a5b1194de678c1aaba2816b02f432273c61e24228b83a78690b415fb86e5dcfdbe10cee26c9df32c102e94a85c</ThumbnailPath>
+				<SerialNumber>6</SerialNumber>
+				<InventionName>온라인 출원 서비스 방법</InventionName>
+				<InternationalpatentclassificationNumber>G06Q 50/18|G06Q 50/10|G06F 3/048</InternationalpatentclassificationNumber>
+				<OpeningDate>20180524</OpeningDate>
+				<OpeningNumber>1020180053792</OpeningNumber>
+				<PublicNumber />
+				<PublicDate />
+				<RegistrationDate />
+				<RegistrationNumber />
+				<RegistrationStatus>취하</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)준소프트웨어</Applicant>
+				<ApplicationDate>20161111</ApplicationDate>
+				<ApplicationNumber>1020160149956</ApplicationNumber>
+				<Abstract>본 발명은 입력된 등록상표 또는 상호에 대해 상표 침해와 관련된 정보를 제공하는 상표 침해 정보 제공 방법에 대한 것이다.  본 발명의 일실시예에 의한 상표 침해 정보 제공 방법은 정보를 사용자 단말기로부터 입력받아 대상 상표의 상표명과 지정상품 정보를 추출하는 단계; 인터넷쇼핑몰 상품분류, 전화번호부 업종분류 또는 한국표준산업분류 중 어느 하나 이상을 포함하는 제2데이터베이스에서, 상기 대상 상표의 지정상품과 매핑되는 상품 또는 사업의 종류 정보 및 상기 대상 상표의 상표명의 적어도 일부를 포함하는 상품명 또는 상호명 정보를 추출하여 사용자 단말기로 출력하는 단계;를 포함할 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0049d84b3a85581756d01305d774a38dcabaaf52097ca0140c5468ce6192f0e4ae3092271d312f1743854fa36b11f7e4515f7a86f1f1a341b5</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cffd9b1953296b94ea9ee9c6e91895f6e31bedcfa9f1194f3ec7a89c5c0403dbdd29b8673ea492dfabf1a6c844c1ea767a464caa099d322c42</ThumbnailPath>
+				<SerialNumber>7</SerialNumber>
+				<InventionName>상표 침해 정보 제공 방법</InventionName>
+				<InternationalpatentclassificationNumber>G06Q 50/18|G06F 16/00|G06Q 30/06</InternationalpatentclassificationNumber>
+				<OpeningDate>20180521</OpeningDate>
+				<OpeningNumber>1020180052866</OpeningNumber>
+				<PublicNumber />
+				<PublicDate />
+				<RegistrationDate />
+				<RegistrationNumber />
+				<RegistrationStatus>취하</RegistrationStatus>
+			</PatentUtilityInfo>
+			<TotalSearchCount>7</TotalSearchCount>
+			<SearchStartNumber>1</SearchStartNumber>
+		</items></body></response><response><applicant_id>2</applicant_id><header><resultCode /><resultMsg /></header><body><items><PatentUtilityInfo>
+				<Applicant>주식회사 파인메딕스</Applicant>
+				<ApplicationDate>20230214</ApplicationDate>
+				<ApplicationNumber>2020230000297</ApplicationNumber>
+				<Abstract>본 고안은 조작부가 간단하며, 클립의 결찰 및 분리 동작이 정확하여 내시경을 통해 이루어지는 생체 조직 지혈 및 봉합에 용이한 내시경용 클리핑 장치에 관한 것으로, 본 고안의 일 실시예에 따른 내시경용 클리핑 장치는, 지혈 또는 봉합이 요구되는 생체 조직의 병변 부위에 결찰 또는 분리되기 위해 한 쌍의 클립 암부 및 파지부와, 상기 한 쌍의 클립 암부와 연결되면서 가이드홈을 형성하는 윈위단 세그먼트가 구비된 클립; 코일링이 내부에 배치되는 핸들과, 상기 핸들상에서 전진 또는 후진이 가능한 슬라이더가 구비되며, 상기 슬라이더의 조작을 통해 상기 한 쌍의 클립 암부가 개폐되도록 하는 조작부; 상기 조작부의 구동을 상기 클립으로 전달하기 위한 모노 와이어 및 로프 와이어와, 상기 로프 와이어와 후크를 결속시키기 위한 로프 커플링과, 상기 코일링과 결속되는 것을 통해 상기 핸들에 조립되는 라운드 코일이 구비된 전달부; 상기 후크가 내부에 배치되며, 상기 원위단 세그먼트의 일부가 삽입되도록 일단 개방형으로 가공된 하우징과, 상기 원위단 세그먼트의 가이드홈 및 상기 하우징을 동시에 관통하여 상기 클립을 고정하면서 상기 클립의 개폐를 가이드하기 위한 하우징핀이 구비된 클립 결합부; 및 상기 라운드 코일을 감싸 일부가 상기 핸들의 내부에 배치되되, 나머지 부분이 시술 시 체내에 진입되는 제1 이너 시스가 구비된 ...(이하생략)</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9358076c44ef23c6f7cc8d7b4b0bcc760b5e66b8ffcd3eae2ade377b729539d2970639c2b6d5e922d031cf86dfe39523fe5c5f7a442ed32e01</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf1a452232145a60d0b8266da58814264234883381b11bd2a4da8b9dc81ac1acc0d77b2695912fd1f5441ddeb0abe1034b68835d5e7437a2a8</ThumbnailPath>
+				<SerialNumber>1</SerialNumber>
+				<InventionName>내시경용 클리핑 장치</InventionName>
+				<InternationalpatentclassificationNumber>A61B 17/128|A61B 17/04|A61B 17/12</InternationalpatentclassificationNumber>
+				<OpeningDate>20240821</OpeningDate>
+				<OpeningNumber>2020240001417</OpeningNumber>
+				<PublicNumber />
+				<PublicDate />
+				<RegistrationDate />
+				<RegistrationNumber />
+				<RegistrationStatus>공개</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 파인메딕스|울산대학교 산학협력단|재단법인 아산사회복지재단</Applicant>
+				<ApplicationDate>20170613</ApplicationDate>
+				<ApplicationNumber>1020170074427</ApplicationNumber>
+				<Abstract>본 발명은 서로 다른 종류의 나이프를 포함하여 교체 없이도 수직 및 수평 방향으로 점막하의 조직을 용이하게 절개 및 박리 가능한 내시경용 하이브리드 나이프에 관한 것으로, 본 발명은, 중공을 갖으며, 일측에는 상기 중공에 연결된 개구부가 형성된 핸들부와, 상기 핸들부의 외주면에 길이 방향을 따라 전, 후방 슬라이드가 가능하도록 결합된 제1 및 제2 핸들 슬라이더와, 상기 핸들부의 중공에 배치되며 상기 제1 핸들 슬라이더와 일체로 이동 가능하도록 연결된 파이프와, 상기 파이프를 관통하도록 배치되며 상기 제2 핸들 슬라이더와 일체로 이동 가능하도록 연결된 제2 나이프와, 상기 핸들부의 일단에 결합되며, 내부로 유체를 주입하기 위한 유체 주입부와, 상기 유체 주입부의 일단에 연결되며 내부에는 상기 파이프가 배치되는 이너 튜브와, 상기 파이프의 끝단에 결합되는 제1 나이프 및 상기 제1 나이프의 끝단에 결합되는 절연성 팁(tip)을 포함하며, 상기 제1 나이프와 제2 나이프는 서로 독립적으로 슬라이드 이동 가능한 것을 특징으로 하는 내시경용 하이브리드 나이프를 제공한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00afb962c0a401d404fad637a7a5489f2c6d0984f9bb202195849f6c708ac6382ef06fd89e1d0035a73a1480705fdad2b4a3b76dd38b1c91f2</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf8f228fe2f189efd810c362a82a2f8776640f7be4a2b838793d995848b3eff19a4616679d898d247608cd31536eb12d677fd0f85bbb063804</ThumbnailPath>
+				<SerialNumber>2</SerialNumber>
+				<InventionName>내시경용 하이브리드 나이프</InventionName>
+				<InternationalpatentclassificationNumber>A61B 18/14|A61L 31/04|A61B 18/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20181221</OpeningDate>
+				<OpeningNumber>1020180135754</OpeningNumber>
+				<PublicNumber />
+				<PublicDate>20190930</PublicDate>
+				<RegistrationDate>20190924</RegistrationDate>
+				<RegistrationNumber>1020269380000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 파인메딕스</Applicant>
+				<ApplicationDate>20200227</ApplicationDate>
+				<ApplicationNumber>1020200023990</ApplicationNumber>
+				<Abstract>생검용 브러쉬 키트가 개시된다. 개시된 생검용 브러쉬 키트는 소정 길이의 직선 형상으로 형성되어 생검용 브러쉬 키트의 몸체를 이루는 컬럼(10);  상기 컬럼(10)의 전방 단부에 결합되되 라운드 형상으로 형성되어 상기 컬럼(10)이 조직 내부로 원활하게 진입하도록 가이드하는 헤드(20);  유연한 재질로 형성된 복수의 브러쉬가 상기 컬럼(10)의 표면에 식재되어 조직의 세포를 채집하는 제1 브러쉬조립체(100);를 포함하는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93f24d0f5b7bc0076b627ed00a78358700d056d3a8882031da6049922402886cc10607c0ec8028dfce60a1ec154a8a8501a4e7e593991caffe</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf25f56e9fa50eb16690263f415152d463d4fc9fec099ae54c841e9eaf415b257950280a23db9530400834c5de0427abcfea2328fed4e05181</ThumbnailPath>
+				<SerialNumber>3</SerialNumber>
+				<InventionName>생검용 브러쉬 키트</InventionName>
+				<InternationalpatentclassificationNumber>A61B 10/02|A61B 10/04|A46B 9/02</InternationalpatentclassificationNumber>
+				<OpeningDate>20210906</OpeningDate>
+				<OpeningNumber>1020210109130</OpeningNumber>
+				<PublicNumber />
+				<PublicDate>20210916</PublicDate>
+				<RegistrationDate>20210909</RegistrationDate>
+				<RegistrationNumber>1023025730000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 파인메딕스</Applicant>
+				<ApplicationDate>20111205</ApplicationDate>
+				<ApplicationNumber>1020110128738</ApplicationNumber>
+				<Abstract>본 발명은 병변부위 마킹과 프리커팅 및 커팅을 실시할 수 있도록 함으로서 처치의 용이성을 제공할 수 있도록 한 가변 절개부를 구비한 고주파나이프에 관한 것으로서, 선단에 나이프를 가지는 처치튜브를 전방에 연결하여 구비하는 제어바디와, 상기 제어바디의 중간위치에 나이프를 제어하기 위한 제어수단을 구비하여 구성되는 고주파나이프에 있어서;  상기 나이프는, 절연성의 처치튜브의 내부에서 도전되게 작동부재로 연결되는 1나이프와, 상기 1나이프의 선측에 도전체로 이루어지고 내측 위치에 융기부를 형성하여 고정하는 2나이프와, 상기 1나이프의 선단과 2나이프에는 절연체를 결합하여 1,2나이프와 절연체가 서로 움직일 수 있는 가변상태를 유지하여 절연체의 선측과 내측 위치로 1나이프와 2나이프가 출입하도록 구성하는 것이 특징이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00c0b4f686319f15a671a7743563c265142dcce7616b4fb1b86a52aab27e44b967c2f5125e02103f1f418a490c223dcd217966514e3fbf9b60</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf2c43367d4805babc7b2234a5c007af2d80a9ce712771e136dab12787ebb56ca3cf6a61f525c7e3b3bb2656cf3bca9d2a4c76eb0ca72ae34a</ThumbnailPath>
+				<SerialNumber>4</SerialNumber>
+				<InventionName>가변 절개부를 구비한 고주파나이프</InventionName>
+				<InternationalpatentclassificationNumber>A61B 18/14|A61B 17/32|A61B 18/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20130613</OpeningDate>
+				<OpeningNumber>1020130062490</OpeningNumber>
+				<PublicNumber />
+				<PublicDate>20130923</PublicDate>
+				<RegistrationDate>20130912</RegistrationDate>
+				<RegistrationNumber>1013103710000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 파인메딕스</Applicant>
+				<ApplicationDate>20221128</ApplicationDate>
+				<ApplicationNumber>1020220161874</ApplicationNumber>
+				<Abstract>본 발명은 생검용 포셉에 관한 것으로, 보다 상세하게는 집게부, 연장코일, 핸들, 슬라이드 및 와이어를 포함하되, 집게부는 각각 복수의 치형이 형성되어 서로 맞물리는 한 쌍의 컵을 포함하고, 각각의 컵이 집게부가 닫친 상태에서 제1 컵 및 제2 컵 각각의 끝단은 서로 맞물리되, 각각의 컵에 형성된 치형 사이 거리가 컵의 끝단으로부터 연장코일 방향으로 점차 넓어지도록 형성되어, 채취하고자 하는 생체 조직을 효율적으로 절단하여 채취하는 생검용 포셉에 관한 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93eafb8eff8135fd6a09fa962b9fb91c773d26f2423e1841b0f7c8f7a0663981fad14eb95f536db6d55172f0f4221125ec2ec3762c306031e9</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf10a74ba89bb6f6121e4a13175035888584660e7d1f78c29494ec46eec1ed75926f8d35e4b593bced3c93cbeaabf20739ce3cec11cb9dea92</ThumbnailPath>
+				<SerialNumber>5</SerialNumber>
+				<InventionName>생검용 포셉</InventionName>
+				<InternationalpatentclassificationNumber>A61B 10/06|A61B 10/04|A61B 17/29|A61B 17/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20240604</OpeningDate>
+				<OpeningNumber>1020240079017</OpeningNumber>
+				<PublicNumber />
+				<PublicDate />
+				<RegistrationDate />
+				<RegistrationNumber />
+				<RegistrationStatus>공개</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 파인메딕스</Applicant>
+				<ApplicationDate>20231030</ApplicationDate>
+				<ApplicationNumber>1020230147074</ApplicationNumber>
+				<Abstract>본 발명의 일 실시 예는, 중공을 갖는 몸체부;와, 파지부와, 상기 파지부로부터 상기 몸체부의 내부로 연장되는 기둥부를 가지며, 상기 몸체부에 대해 이동 가능한 슬라이더;와, 상기 몸체부로부터 연장되며 내부에 플러그가 배치되는 고주파연결부;와, 상기 몸체부에 결합되는 코일튜브;와, 상기 코일튜브의 일단부에 결합되는 소작전극;과, 상기 슬라이더에 결합되며 상기 코일튜브의 내부에 배치되는 인젝션튜브; 및 상기 인젝션튜브의 일단부에 결합되며, 상기 코일튜브의 내부에 배치되거나 상기 소작전극의 관통홀을 통해 상기 코일튜브의 외부로 돌출되는 니들;을 포함하며, 상기 플러그에서 공급되는 고주파 전류는 상기 코일튜브를 통해 상기 소작전극으로 흐르는 것을 특징으로 하는, 내시경 시술용 하이브리드 인젝터 기구를 제공한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93d8beff9b615101aa60b5206131c5dce5a21a252d7390b7c4b1f6b9ec0043be76d336c4073645cd0b87697cb41346b76ab5ad0a53eff6b04d</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf0bc8de717c9f9eb3e4a01d399f7f0c9f30c849be8ca3a68af110d82cc9d78611d7c5275540a281254bbb222018f3ab27171af734a3656333</ThumbnailPath>
+				<SerialNumber>6</SerialNumber>
+				<InventionName>내시경 시술용 하이브리드 인젝터 기구</InventionName>
+				<InternationalpatentclassificationNumber>A61B 18/14|A61B 18/00</InternationalpatentclassificationNumber>
+				<OpeningDate />
+				<OpeningNumber />
+				<PublicNumber />
+				<PublicDate>20240726</PublicDate>
+				<RegistrationDate>20240723</RegistrationDate>
+				<RegistrationNumber>1026890020000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 파인메딕스|전성우</Applicant>
+				<ApplicationDate>20090915</ApplicationDate>
+				<ApplicationNumber>1020090087019</ApplicationNumber>
+				<Abstract>본 발명은 의심 병변 조직의 채취를 용이하게 함으로써 조직 검사와 진단성을 높일 수 있도록 한 내시경용 생검 겸자에 관한 것으로서, 내시경의 워킹채널에 삽입되는 튜브의 선단에 마감되는 커버와, 상기 커버에 집게 형상으로 벌어지고 오므라지게 연결하는 한 쌍의 겸자편과, 상기 겸자편은 조작을 위한 슬라이더와 손잡이를 가지는 조작부와 와이어로 연결하여 구성되는 내시경용 생검 겸자에 있어서;  상기 튜브의 선단에 마감되는 커버에 연결되어 겸자편이 전,후방으로의 출입과 회전을 자유롭게 할 수 있도록 회전자를 더 구비하고, 상기 회전자는 원통 형상으로 구비되어 선단에는 겸자편의 후방으로 돌출되는 겸자레버의 중앙부와 힌지 결합하는 회전자바디와, 상기 겸자레버의 끝단은 와이어와 후단부가 힌지 연결된 작동링크의 선단부와 힌지로 연결하고, 상기 회전자바디의 선단에서 후방까지의 측면부위에 형성하여 겸자레버와 작동링크 작동시 간섭형상이 없도록 하는 슬로트와, 상기 회전자바디의 후단부는 커버와 회전은 가능하면서 겸자편이 전방으로 분리되는 것을 방지하는 결합수단을 포함하는 것이 특징이다.  내시경, 생검, 겸자</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726b8bead653ed2eef4f2d46298c491c51a90c09daba07dd675ee98e5c7b981416cf0b8b522acb0a5be4efeeeacf1aab6080ea3399662b1430f</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf32ac4db0fc6a9802d98d5304c80260ae27c9be61d1ba4566fd8f603910edecdceadda1a72203b2b5c32f3813c9fc808ce33a10ddae8a9616</ThumbnailPath>
+				<SerialNumber>7</SerialNumber>
+				<InventionName>내시경용 생검 겸자</InventionName>
+				<InternationalpatentclassificationNumber>A61B 10/06|A61B 10/04</InternationalpatentclassificationNumber>
+				<OpeningDate />
+				<OpeningNumber />
+				<PublicNumber />
+				<PublicDate>20100616</PublicDate>
+				<RegistrationDate>20100608</RegistrationDate>
+				<RegistrationNumber>1009640820000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 파인메딕스</Applicant>
+				<ApplicationDate>20171120</ApplicationDate>
+				<ApplicationNumber>1020170154635</ApplicationNumber>
+				<Abstract>본 발명은 구동부가 간단하며, 클립의 결찰 및 분리가 정확하고 용이한 내시경용 클립장치에 관한 것으로, 이동홀이 형성된 핸들부와, 상기 이동홀을 통해 상기 핸들부 상에 슬라이드 이동 가능하도록 설치되는 핸들 슬라이더와, 상기 핸들부의 내부에 회전 가능하게 연결되어 상기 핸들부의 외부로 연장되는 이너 시스와, 상기 핸들 슬라이더에 연결되며 상기 이너 시스의 내부에 배치되는 와이어와, 상기 이너 시스를 감싸도록 배치되는 아우터 시스와, 상기 아우터 시스에 결합되어 상기 아우터 시스를 상기 이너 시스의 길이방향을 따라 이동시키는 아우터 핸들 및 상기 와이어의 일단에 연결되며 클립을 결합하기 위한 클립 결합부를 포함하는 내시경용 클립장치를 제공한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00e1dd2ab327e92b9162b34541f69ea343d99c496d8dc5cde809177eebe1065f7700e89376aa2d4c1d59ca041fb8f72464e9f2275824a913d0</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf0858af6bb15195c417c998aab5c9ec111467116b65a207a4ed5c4fe1ef8ee59d70710bf4cdfc9fbeba2d2983b634a2cdc823514c5aa2fa3a</ThumbnailPath>
+				<SerialNumber>8</SerialNumber>
+				<InventionName>내시경용 클립장치</InventionName>
+				<InternationalpatentclassificationNumber>A61B 1/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20190529</OpeningDate>
+				<OpeningNumber>1020190057557</OpeningNumber>
+				<PublicNumber />
+				<PublicDate>20200526</PublicDate>
+				<RegistrationDate>20200520</RegistrationDate>
+				<RegistrationNumber>1021154910000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 파인메딕스</Applicant>
+				<ApplicationDate>20211215</ApplicationDate>
+				<ApplicationNumber>1020210179791</ApplicationNumber>
+				<Abstract>본 발명은 인체 내 출혈부위를 지혈하기 위한 지혈제 분사기에 있어서, 내부에 중공의 수용공간이 형성되어 분말 형태의 지혈제를 미리 저장하고, 상기 수용공간과 연결되는 유입구와 배출구를 구비한 파우더 케이스; 및 내부에 가스를 압축하여 미리 저장하고, 일측에는 상기 파우더 케이스의 유입구에 분리가능하게 연결되는 공급구를 구비한 용기를 포함하되,  상기 용기의 공급구는, 상기 파우더 케이스의 가압에 의해 개방되어 상기 저장된 가스를 미리 설정된 압력으로 상기 유입구 측에 공급하면서 상기 유입구를 통해 상기 수용공간에 유입되도록 하고, 상기 유입된 가스가 상기 수용공간 내의 상기 지혈제를 비산시키면서 상기 배출구로 함께 배출되도록 하는 것을 특징으로 하여,  생체 적합성의 분말 형태의 지혈제로 지혈작용을 촉진하여 지혈효과를 향상시킴으로써, 종래의 클립 또는 고주파 기반의 지혈 시술보다 출혈부위의 재출혈 가능성을 감소시킬 수 있고, 보다 용이한 분사방식의 구조를 달성할 수 있으며, 미사용시에는 콤팩트형 파우더 케이스를 자유롭게 휴대하고 다닐 수 있는 동시에, 지혈제 또는 가스의 소진 시에는 보다 간편한 교체가 가능하므로, 보다 높은 생산성과 휴대성을 달성할 수 있는 장점이 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93edd78153d233f936557389cd0af2199c4ca5d9f88d19ab76d48dc0ff1328269e7eaeec9a55f60ba1ab2f74050b4097103745500b9ba44ccb</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfd678b55c9a7ea1b3e4e8abaaf6e07ede41a06c10344dc3c9ca6d7e8b4bcd915ac8989a0072277da5b247b17c0c23ed9cb3c908e21a200d47</ThumbnailPath>
+				<SerialNumber>9</SerialNumber>
+				<InventionName>지혈제 분사기</InventionName>
+				<InternationalpatentclassificationNumber>A61B 17/00|A61L 26/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20230622</OpeningDate>
+				<OpeningNumber>1020230090742</OpeningNumber>
+				<PublicNumber />
+				<PublicDate>20240129</PublicDate>
+				<RegistrationDate>20240124</RegistrationDate>
+				<RegistrationNumber>1026308270000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 파인메딕스</Applicant>
+				<ApplicationDate>20180830</ApplicationDate>
+				<ApplicationNumber>1020180102707</ApplicationNumber>
+				<Abstract>본 발명은 적어도 일부가 자성체로 이루어지는 병변 위치 마킹용 클립과 이를 이용하여 병변 위치를 추적하는 시스템 및 방법에 관한 것으로, 병변 부위에 결착되며 적어도 일부가 자성체로 이루어지는 클립 및 상기 자성체를 탐지하여 상기 클립의 위치를 추적하기 위한 추적부를 포함하며, 상기 추적부는 사용자가 파지하는 손잡이부와, 상기 손잡이부의 일측에 연결되는 연장부 및 상기 연장부의 끝단에 구비되는 센서부를 포함하는 병변 위치 추적 시스템을 제공한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00ef300fb4072d5233d127e5cadd193b0fc3a52d06d829973d246b6ace139c4128d68ac710a88a1a0f22e5564ad9a3d5a66c0790106a2492d8</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf46500dd8749add3fcceec3246ea378e6d7197d734291a1d5f5f81f027b896aad46ef8d88fdc39055f96ffeaeacacbd6296eb5afe5617e010</ThumbnailPath>
+				<SerialNumber>10</SerialNumber>
+				<InventionName>병변 위치 마킹용 클립을 포함하는 병변 위치 추적 시스템</InventionName>
+				<InternationalpatentclassificationNumber>A61B 90/00|A61B 17/08|A61B 34/20|A61B 90/98|A61B 17/00</InternationalpatentclassificationNumber>
+				<OpeningDate />
+				<OpeningNumber />
+				<PublicNumber />
+				<PublicDate>20190903</PublicDate>
+				<RegistrationDate>20190507</RegistrationDate>
+				<RegistrationNumber>1019775810000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 파인메딕스</Applicant>
+				<ApplicationDate>20181122</ApplicationDate>
+				<ApplicationNumber>1020180145042</ApplicationNumber>
+				<Abstract>본 발명은 의료기기에 관한 것으로서, 내시경을 이용하여 체내로 삽입되는 세침장치와 절개장치를 포함하고, 상기 세침장치는, 주사침; 상기 주사침을 감싸는 주사침 튜브; 상기 주사침의 침단부가 상기 주사침 튜브로부터 돌출되는 길이를 제한하는 제1 제한 유닛; 조직 채취와 약물 주입을 위해 상기 주사침에 연결되는 시린지; 및 상기 주사침과 상기 시린지 사이 연결을 제한하는 제2 제한 유닛;을 포함하고, 상기 절개장치는, 나이프; 상기 나이프를 감싸는 나이프 튜브; 및 상기 나이프의 칼끝이 상기 나이프 튜브로부터 돌출되는 길이를 제한하는 제3 제한 유닛;을 포함하고, 상기 제1 제한 유닛, 상기 제2 제한 유닛 및 상기 제3 제한 유닛 중 적어도 하나는 시술자에 의해 외력이 가해지면 제한 기능이 해제되고 상기 외력이 제거되면 제한 기능이 복원되게 형성됨으로써, 조작을 간편하게 할 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c938a1ae8dbb9670573dfd09df1d350e6ef836ab3d14d40960670ff8eff2d0c7f83e9e72a5c4822d78521951e4ab03749a7e6a30ff1df830f6c</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfa192ff0ba75943404df9fa048709f0531058c5e966d6d82da3216a08931e40b5f3e25b3540d13f23339819dc3a25a1a27691903900a1042e</ThumbnailPath>
+				<SerialNumber>11</SerialNumber>
+				<InventionName>의료기기</InventionName>
+				<InternationalpatentclassificationNumber>A61B 1/00|A61B 17/34|A61B 17/32|A61B 17/3209|A61M 25/00|A61B 17/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20200529</OpeningDate>
+				<OpeningNumber>1020200059828</OpeningNumber>
+				<PublicNumber />
+				<PublicDate>20210430</PublicDate>
+				<RegistrationDate>20210426</RegistrationDate>
+				<RegistrationNumber>1022467380000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 파인메딕스</Applicant>
+				<ApplicationDate>20101124</ApplicationDate>
+				<ApplicationNumber>1020100117308</ApplicationNumber>
+				<Abstract>본 발명은 신체 내부의 장기 및 조직에 약액을 주입할 수 있도록 하는 종래의 인젝터 처치기구의 개선에 관한 것으로, 신체 내부의 장기 및 조직에 약액을 주입할 수 있도록 필요한 동작을 제어하는 처치부와, 상기 처치부에 삽입되어 신체 내부의 장기 및 조직에 약액을 주입할 수 있도록 하는 니들부와, 상기 니들부의 끝단과 결합되며 신체 내부의 장기 및 조직에 주입되는 약액을 구비하고 있는 약액주입부로 구성된다.  즉, 본 발명의 내시경용 인젝터 처치기구는 일끝단에 니들구와 타끝단에 삽입돌기가 마련된 처치바디와, 처치바디의 끝단에 마련된 삽입돌기가 삽입되어 결합되는 처치튜브로 구성된 처치부;와 상기 처치부의 내부로 삽입이 되되, 일끝단에 결합홈과 타끝단에 니들이 일체형으로 형성된 니들부;와 상기 니들부의 일끝단에 형성된 결합홈과 결합되는 결합돌기가 마련된 약액주입부;로 구성됨으로써, 니들부의 결합홈과 약액주입부의 결합돌기로 의해 니들부와 약액주입부가 자유롭게 부착과 탈착할 수 있어, 시술 후 인젝터 처치기구의 처치부 전부를 교체하는 1회용인 종래의 인젝터 처치기구와 달리 시술 후 니들부만을 교체하여도 재사용할 수 있다.  또한, 처치부의 처치튜브는 외부에 다수개의 튜브돌기가 서로 인접하게 형성됨으로써, 완전히 접히거나 꺾이는 것 없이 원활하게 굽어지거나 휘어질 수 있어 처치튜브의 내부에 삽입되는 니들부가 ...(이하생략)</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf7262d305b5cdf08bb98d4589510a8edb97b592849465f71ce5898edf4f0ec9264327ddfc0af06b3c512b2401a78c4078c571509483cba8cc7f6</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf77048e2e0ea7aad5aac73be1d5405f19afbb9e320c11f7316b3703c10de552042177429d8c0f41771bc22bae54f5e54606e0a77c1a8c790c</ThumbnailPath>
+				<SerialNumber>12</SerialNumber>
+				<InventionName>내시경 인젝터 처치기구</InventionName>
+				<InternationalpatentclassificationNumber>A61M 25/06|A61M 25/00|A61B 1/005</InternationalpatentclassificationNumber>
+				<OpeningDate>20120601</OpeningDate>
+				<OpeningNumber>1020120055874</OpeningNumber>
+				<PublicNumber />
+				<PublicDate>20130503</PublicDate>
+				<RegistrationDate>20130426</RegistrationDate>
+				<RegistrationNumber>1012602280000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 파인메딕스</Applicant>
+				<ApplicationDate>20221007</ApplicationDate>
+				<ApplicationNumber>1020220128780</ApplicationNumber>
+				<Abstract>본 발명은 마킹 클립을 이용한 병변 위치 추적 시스템 및 방법에 관한 것으로, 보다 상세하게는 마킹 클립 일단에 와이어 형태의 루프로 자성부가 연결되고, 자성부는 자성체 외면에 기밀유지를 위한 씰링이 마련되어, 부식 발생을 개선한 마킹 클립을 이용한 병변 위치 추적 시스템 및 방법에 관한 것이다.  상기의 기술적 과제를 달성하기 위하여, 본 발명에 의한 마킹 클립을 이용한 병변 위치 추적 시스템은, 병변 부위에 결착되는 마킹 클립; 및 상기 마킹 클립의 위치가 추적되는 추적부;를 포함하고, 상기 마킹 클립은 소정의 각도로 개폐가 가능하도록 형성되어 끝단이 서로 대항하는 내측으로 맞물리도록 돌출된 한 쌍의 암; 상기 한 쌍의 암의 개폐를 조절하는 조임링; 및 상기 마킹 클립과 연결되어 상기 추적부에 의해 추적되기 위해 자성을 가지는 자성부;를 포함하는는 마킹 클립을 이용한 병변 위치 추적 시스템이 제공된다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9331a95b292e3220ea4201ab3d8ea4380ef67b56a46c2bf7c7ce4f537306303ad624f8c2337b9f85a9751da00b85ba4c1fdb4871b63192773f</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfef3d89fddf14f06b8efaf9a6f7824f60be946bf607e45acfb17dce2287d5db1b8eea046022fce943979e4626f6139789bfa8f559dc3a08e1</ThumbnailPath>
+				<SerialNumber>13</SerialNumber>
+				<InventionName>마킹 클립을 이용한 병변 위치 추적 시스템 및 방법</InventionName>
+				<InternationalpatentclassificationNumber>A61B 90/00|A61B 34/20|A61B 17/08|A61B 17/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20240416</OpeningDate>
+				<OpeningNumber>1020240048910</OpeningNumber>
+				<PublicNumber />
+				<PublicDate />
+				<RegistrationDate />
+				<RegistrationNumber />
+				<RegistrationStatus>공개</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 파인메딕스</Applicant>
+				<ApplicationDate>20210830</ApplicationDate>
+				<ApplicationNumber>1020210114970</ApplicationNumber>
+				<Abstract>본 발명의 일 실시 예는, 핸들부와, 상기 핸들부에 슬라이드 가능하게 설치되는 슬라이더와, 상기 핸들부에 연결되며, 유체 주입 포트가 구비된 유체 주입부와, 상기 유체 주입부로부터 연장되는 아우터 튜브와, 상기 아우터 튜브의 단부에 결합되는 하우징과, 상기 하우징에 서로 개폐 가능하게 설치되는 한 쌍의 집게편과, 각각 상기 한 쌍의 집게편과 상기 슬라이더에 양단이 연결되는 한 쌍의 와이어 및 상기 한 쌍의 와이어를 감싸도록 상기 아우터 튜브의 내부에 배치되는 이너 튜브를 포함하는, 내시경용 지혈 겸자를 제공한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c933485e35707f341f7db6b69bb992de359c710d4f770ff0620fee47ab41d265867b91f8dfd0e565e94073a848bfe5df5dd344f11c248512cb0</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf637788c5fdf5bac6226db1dae6bbea53d38edd1bbc24bb76371814ee4fe01e3bd865afe05d79a8226274356242c02df165293e1673d360ae</ThumbnailPath>
+				<SerialNumber>14</SerialNumber>
+				<InventionName>내시경용 지혈 겸자</InventionName>
+				<InternationalpatentclassificationNumber>A61B 18/14|A61B 1/015|A61B 18/00|A61B 17/00|A61B 17/29</InternationalpatentclassificationNumber>
+				<OpeningDate>20230307</OpeningDate>
+				<OpeningNumber>1020230032298</OpeningNumber>
+				<PublicNumber />
+				<PublicDate>20240329</PublicDate>
+				<RegistrationDate>20240325</RegistrationDate>
+				<RegistrationNumber>1026521790000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 파인메딕스</Applicant>
+				<ApplicationDate>20170125</ApplicationDate>
+				<ApplicationNumber>1020170012168</ApplicationNumber>
+				<Abstract>본 발명은 클립의 고정 시 클립의 위치 변동이 없어 정확한 위치에 고정이 가능하며, 구동부가 간단하고 조작이 용이한 내시경용 클립장치에 관한 것으로, 본 발명의 일 실시 예는, 내부에 공간부가 형성된 핸들 슬라이더와, 상기 공간부 내에서 슬라이드 이동 가능하도록 설치되는 핸들부와, 상기 핸들부 내에 상대적으로 이동 가능하도록 설치되며 상기 핸들 슬라이더 또는 상기 핸들부에 선택적으로 결합되는 와이어 홀더와, 상기 핸들 슬라이더의 일단에 결합되는 아우터 시스와, 상기 핸들부와 연결되며 상기 아우터 시스의 내부에 배치되는 이너 시스와, 상기 와이어 홀더와 연결되며 상기 이너 시스의 내부에 배치되는 와이어 및 상기 와이어의 일단에 클립을 연결하기 위한 연결부를 포함하는 내시경용 클립장치를 제공한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e004a637dadf2474cc123a24d518a1a24e689e97a31b7b81875db2642f6ea4e859ccaa47afa48561294b6874aa381b2449b3b7163fb8491e53d</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfe706c3765e344f91b8cf4d5865b7520eda9a84a704e6722f884f1f08a7e5dc0101e077b00b127720f91f6716c2b2f83e82a7735186f37cc0</ThumbnailPath>
+				<SerialNumber>15</SerialNumber>
+				<InventionName>내시경용 클립장치</InventionName>
+				<InternationalpatentclassificationNumber>A61B 1/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20180802</OpeningDate>
+				<OpeningNumber>1020180087740</OpeningNumber>
+				<PublicNumber />
+				<PublicDate>20190328</PublicDate>
+				<RegistrationDate>20190321</RegistrationDate>
+				<RegistrationNumber>1019628670000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 파인메딕스|전성우</Applicant>
+				<ApplicationDate>20140408</ApplicationDate>
+				<ApplicationNumber>1020140041929</ApplicationNumber>
+				<Abstract>본 발명은 내시경적 역행성 담도 췌장 조영술용 유두 절개도에 관한 것으로 조작을 위한 손잡이(101)와, 전기소작기 연결을 위한 전기커넥터(102)가 일측에 형성된 핸들부(1)와; 내부에는 중공부(202)를 형성하여, 중공부(202)와 연결되는 다수의 포트부(201)를 형성한 카테터(2)와; 상기 카테터(2)의 내부에 설치되어 손잡이(101)에 의해 제어되는 제어와이어(3)와; 상기 카테터(2)의 선단부에서 외부로 노출되어 제어와이어(3)에 의해 카테터(2)에서 장력 조절이 이루어지는 절개와이어(4)로 구성되는 내시경적 역행성 담도 췌장 조영술용 유두 절개도에 있어서, 상기 절개와이어(4)의 장력 조절에 의해 카테터 선단부의 구부러짐이 유두부 절개를 위한 정확한 방향으로 이루어지도록 함으로써 유두부의 정확한 절개가 가능케 하여 합병증 발병 가능성을 현저히 낮출 수 있을 뿐만 아니라, 유두부에서 발생한 다양한 질병의 치료 효과가 크게 향상되는 이점이 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e008da6cf2ba9115ff18bc89e8746512d49173cfd299a70c49c936f0cc06d149591d44f70d26be0c71aac65f73a3ac0d0071881ede6955ecdff</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf67405b5b3740b02888ab5a642b74ec62d3382f6ab6a768ae9dd97d8fb3711d9807de5d34f7588e38d392e75450629e3855d137d9c283078c</ThumbnailPath>
+				<SerialNumber>16</SerialNumber>
+				<InventionName>내시경적 역행성 담도 췌장 조영술용 유두 절개도</InventionName>
+				<InternationalpatentclassificationNumber>A61B 18/12|A61M 25/09|A61B 17/3209|A61B 17/94</InternationalpatentclassificationNumber>
+				<OpeningDate>20151016</OpeningDate>
+				<OpeningNumber>1020150116687</OpeningNumber>
+				<PublicNumber />
+				<PublicDate>20160310</PublicDate>
+				<RegistrationDate>20160304</RegistrationDate>
+				<RegistrationNumber>1016025580000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 파인메딕스</Applicant>
+				<ApplicationDate>20240123</ApplicationDate>
+				<ApplicationNumber>1020240010316</ApplicationNumber>
+				<Abstract>본 발명에 의하면, 지혈제가 저장된 파우더 케이스를 에어로졸 타입의 용기에 결합하여, 파우더 케이스의 가압에 따라 용기 내의 가스 토출이 이루어지도록 하면서 가스 토출에 의해 지혈제가 함께 외부로 배출되도록 한 구성을 통해 보다 용이한 분사방식의 구조를 달성할 수 있고, 사용자의 필요에 따라 파우더 케이스와 용기의 용이한 분리 및 결합이 이루어지도록 한 구성을 통해 미사용시에는 콤팩트형 파우더 케이스를 자유롭게 휴대하고 다닐 수 있는 동시에, 지혈제 또는 가스의 소진 시에는 보다 간편한 교체가 가능하므로, 보다 높은 생산성과 휴대성을 달성할 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c930ed22d8c8bba50f65cc200085b1618847245d36eeb245fac7b15f5c7d99cf86068f9941ff4d6f68ce4511537d286c14ea418c5ee9a840971</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfe31374294b14df7b4c75e92b14088fa4e4e32e72c129e006ab2ca638011c363d72ac4e87ff155c4f58ccf4beedeb6b3e5d31441a99df54c0</ThumbnailPath>
+				<SerialNumber>17</SerialNumber>
+				<InventionName>출혈부위에 지혈막을 형성시키기 위한 지혈제를 분사하는 기기</InventionName>
+				<InternationalpatentclassificationNumber>A61B 17/00|A61L 26/00|A61M 13/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20240206</OpeningDate>
+				<OpeningNumber>1020240017033</OpeningNumber>
+				<PublicNumber />
+				<PublicDate>20240305</PublicDate>
+				<RegistrationDate>20240226</RegistrationDate>
+				<RegistrationNumber>1026424170000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 파인메딕스</Applicant>
+				<ApplicationDate>20240123</ApplicationDate>
+				<ApplicationNumber>1020240010314</ApplicationNumber>
+				<Abstract>본 발명은 인체 내 출혈부위의 재출혈 가능성을 감소시킬 수 있는 분말(powder) 형태의 생체 적합성 지혈제를 파우더 케이스에 보관하고, 파우더 케이스를 에어로졸 타입의 용기에 결합하여, 파우더 케이스의 가압에 따라 용기 내의 가스 토출이 이루어지도록 하면서 가스 토출에 의해 지혈제가 함께 외부로 배출되도록 한 구성을 통해 보다 용이한 구조로 인체 내 출혈부위에 분사하여 지혈효과를 증대시킬 수 있는 지혈제 분사기를 제공할 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93432cad8630d3cd16ccdc03b1e6f20425821e830d9571e09cd16b9f3a2de795aa30f5334a782f10040b1e6ab708d2ea3457ea4f83c1c3d752</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf4a66c6f6b16f860604f52cf81eeee63bc2c652ab6fc6710a9e4ccac2498dffddf37d1724b325d1cd760e1fb2978f43f81d06f36d37482d96</ThumbnailPath>
+				<SerialNumber>18</SerialNumber>
+				<InventionName>이물질이 유입되는 것을 차단하는 보호 캡이 적용된 지혈제 분사기</InventionName>
+				<InternationalpatentclassificationNumber>A61B 17/00|A61L 26/00|A61M 13/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20240206</OpeningDate>
+				<OpeningNumber>1020240017032</OpeningNumber>
+				<PublicNumber />
+				<PublicDate>20240227</PublicDate>
+				<RegistrationDate>20240220</RegistrationDate>
+				<RegistrationNumber>1026403010000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 파인메딕스</Applicant>
+				<ApplicationDate>20240123</ApplicationDate>
+				<ApplicationNumber>1020240010315</ApplicationNumber>
+				<Abstract>본 발명에 따른 지혈제 분사기는, 생체 적합성의 분말 형태의 지혈제로 인체 내 출혈부위의 지혈작용을 촉진하여 지혈효과를 향상시킴으로써, 종래의 클립 또는 고주파 기반의 지혈 시술보다 출혈부위의 재출혈 가능성을 감소시킬 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93432cad8630d3cd16ccdc03b1e6f20425821e830d9571e09cd16b9f3a2de795aa3dc16a6a371f5339f03be387b9acfc2e3441652c97c5f73d</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf4a66c6f6b16f860604f52cf81eeee63bc2c652ab6fc6710a9e4ccac2498dffddf9601bfe2cccde9d7d7c2e9e920cb3af143fff6c631d4a69</ThumbnailPath>
+				<SerialNumber>19</SerialNumber>
+				<InventionName>역류방지 기능을 구비한 지혈제 분사기</InventionName>
+				<InternationalpatentclassificationNumber>A61B 17/00|A61L 26/00|A61M 13/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20240206</OpeningDate>
+				<OpeningNumber>1020240016376</OpeningNumber>
+				<PublicNumber />
+				<PublicDate>20240227</PublicDate>
+				<RegistrationDate>20240220</RegistrationDate>
+				<RegistrationNumber>1026403020000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 파인메딕스</Applicant>
+				<ApplicationDate>20210923</ApplicationDate>
+				<ApplicationNumber>1020210125730</ApplicationNumber>
+				<Abstract>본 발명은 내부에 임의의 수용공간을 형성하여, 상기 수용공간에 적어도 두 종의 혼합대상 유체를 함께 수용하고, 적어도 2개의 삽입구가 구비되는 실린더 하우징; 일측이 상기 실린더 하우징의 어느 하나의 삽입구에 밀폐 삽입되어, 상기 실린더 하우징 내에서 외력에 의해 상기 실린더 하우징의 수용공간에 수용된 상기 혼합대상 유체를 가압하는 제1 왕복운동을 수행하고, 상기 제1 왕복운동에 의해 상기 혼합대상 유체가 상기 수용공간 내에서 유동되도록 하는 제1 가압부재; 일측이 상기 실린더 하우징의 나머지 삽입구에 밀폐 삽입되어, 상기 실린더 하우징 내에서 상기 제1 가압부재의 제1 왕복운동에 의해 상기 혼합대상 유체와 동시 가압되면서 상기 제1 왕복운동과 반대방향으로 자동 유도되는 제2 왕복운동을 수행하는 제2 가압부재; 및 상기 실린더 하우징에 상기 수용공간을 함께 이루도록 일체로 형성되어, 상기 제1 왕복운동에 의해 유동되는 상기 혼합대상 유체와의 충돌로 상기 혼합대상 유체의 유동에 간섭하여 상기 혼합대상 유체의 상호 교반을 유도하면서 상기 혼합대상 유체를 혼합시키는 혼합부를 포함하되, 상기 제1,2 가압부재의 각각의 일측은, 상기 제1,2 왕복운동을 상호 번갈아가면서 반복적으로 교대 수행하여 상기 제1 왕복운동의 가압방향에 대한 상기 혼합대상 유체의 역류를 발생시키는 것을 특징으로 하여, 혼합대상 유체를...(이하생략)</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93432cad8630d3cd1670344d8a22290120cccd3e2fa83a420c60c7015e5e00a4a7c884dbc48f4320378bbed778994bd10f00decb3f36e51bf3</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf4a66c6f6b16f86069799d99fdd7994cf260d6eb65feeda14d93b95979f0bacc6e38234835c6c2e1aad6d32a761c11bbc57177717c6ba456d</ThumbnailPath>
+				<SerialNumber>20</SerialNumber>
+				<InventionName>혼합이 용이한 이액형 실린지 모듈</InventionName>
+				<InternationalpatentclassificationNumber>A61M 5/19|A61M 5/28|A61J 1/20|A61M 5/31</InternationalpatentclassificationNumber>
+				<OpeningDate>20230330</OpeningDate>
+				<OpeningNumber>1020230042905</OpeningNumber>
+				<PublicNumber />
+				<PublicDate>20240227</PublicDate>
+				<RegistrationDate>20240220</RegistrationDate>
+				<RegistrationNumber>1026403000000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 파인메딕스|전성우</Applicant>
+				<ApplicationDate>20090915</ApplicationDate>
+				<ApplicationNumber>1020090087006</ApplicationNumber>
+				<Abstract>본 발명은 하나의 처치구를 이용하여 다양한 기능을 수행할 수 있도록 한 내시경 점막하 절제용 처치구에 관한 것으로서, 시술자가 처치에 필요한 동작제어를 위한 처치바디와, 처치바디와 연결되어 내시경관의 워킹채널에 삽입되는 처치튜브와, 상기 처치튜브의 끝단에서 출입하여 처치작동을 수행하는 처치툴과, 상기 처치툴과 제어수단으로 연결되어 제어할 수 있도록 처치바디에 구비되는 툴제어구를 포함하는 내시경 점막하 절제용 처치구에 있어서; 상기 처치툴은 처치튜브의 끝단을 출입하면서 생체조직을 절개하는 나이프와, 상기 처치튜브의 끝단에 고정되고 나이프와 협조하여 응고 처치를 하는 코어귤레이터와, 상기 처치튜브의 끝단을 출입하면서 약물을 주입하는 니들과, 워셔액을 주입하는 워셔홀을 함께 구비하고, 상기 툴제어구는 처치튜브를 연결할 수 있는 연결구를 선단에 가지고 중앙에 제어수단이 연결될 수 있도록 제어홀을 가지고 구비되는 제어바디와, 상기 제어바디의 선측에 워셔액을 주입할 수 있도록 형성하는 워셔액주입구와, 상기 제어바디의 중간위치에 나이프를 제어하도록 결합하는 나이프슬라이더와, 상기 제어바디 후방에 니들을 제어하는 주입기를 연결할 수 있도록 형성하는 니들홀을 포함하는 것이 특징이다.  내시경, 점막하, 절제, 처치, 나이프, 코어귤레이터, 니들</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf7263719765895c4b2f43449fb769a29e82f4a818301fd1eb3ff22fa0908e0f103386856a7777154a127c50d2b983f9b972b5f2ac7f4c707e3a8</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cffe906464066e62b190e0e855e313709e1ddaf170258bdc209d6a636fb7fc36fd0c193bc5297c7c2d77e715f6d644554710cfeea25fe2ddb5</ThumbnailPath>
+				<SerialNumber>21</SerialNumber>
+				<InventionName>내시경 점막하 절제용 처치구</InventionName>
+				<InternationalpatentclassificationNumber>A61B 17/32</InternationalpatentclassificationNumber>
+				<OpeningDate />
+				<OpeningNumber />
+				<PublicNumber />
+				<PublicDate>20100218</PublicDate>
+				<RegistrationDate>20100210</RegistrationDate>
+				<RegistrationNumber>1009431300000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 파인메딕스</Applicant>
+				<ApplicationDate>20211018</ApplicationDate>
+				<ApplicationNumber>1020210138627</ApplicationNumber>
+				<Abstract>본 발명의 일 실시예에 따른 지혈제 분사기는 커버부, 바디부, 핸들부, 캡슐, 공이부, 지혈제 케이스, 연결 배관, 버튼, 캐뉼라 및 조절 밸브를 포함하여 소화기관의 출혈부위를 지혈하기 위한 지혈제 분사기에 있어서,  상기 바디부의 내측에 구비되어 상기 공이부와 상기 연결 배관 사이에 개재되면서, 피스톤 타입의 다이어프램 및 상기 다이어프램 양측의 스프링을 이용한 쌍방향의 장력 및 가압이 이루어지도록 하여, 상기 공이부로부터 배출되어 상기 연결 배관으로 향하는 가스에 대한 압력을 조절하는 레귤레이터 모듈을 더 포함하는 것을 특징으로 하여,  생체 적합성의 분말 또는 겔 형태의 지혈제로 소화기관 출혈부위의 지혈작용을 촉진하여 지혈효과를 향상시킴으로써, 종래의 클립 또는 고주파 기반의 지혈 시술보다 출혈부위의 재출혈 가능성을 감소시킬 수 있는 효과가 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93edd78153d233f936557389cd0af2199c7d51b21adfe6d1d2480d24a9a20ddead0e2f48bf42dcd033e0edb35665215cab5010aa15b20133d4</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfd678b55c9a7ea1b3e4e8abaaf6e07edef1d9c2f7ce88f98ed2a9883ce5cd26c41737266c132c44f9a02e950715bbac09cda7eda8d9a7e4eb</ThumbnailPath>
+				<SerialNumber>22</SerialNumber>
+				<InventionName>지혈제 분사기</InventionName>
+				<InternationalpatentclassificationNumber>A61B 17/00|A61M 11/02|A61B 17/12|A61L 26/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20230425</OpeningDate>
+				<OpeningNumber>1020230055198</OpeningNumber>
+				<PublicNumber />
+				<PublicDate>20240129</PublicDate>
+				<RegistrationDate>20240124</RegistrationDate>
+				<RegistrationNumber>1026308260000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 파인메딕스</Applicant>
+				<ApplicationDate>20160905</ApplicationDate>
+				<ApplicationNumber>1020160113952</ApplicationNumber>
+				<Abstract>본 발명은 튜브형의 아우터 시스를 포함하는 아우터 시스부와, 상기 아우터 시스부의 내부에 관통하여 배치되는 튜브형의 이너 시스를 포함하는 이너 시스부와, 상기 이너 시스부의 내부에 관통하여 배치되는 와이어와, 상기 와이어의 끝단에 연결되어 클립의 탈착이 가능하도록 하는 집게부와, 상기 이너 시스부의 일단이 접속되어 일체로 이동 가능한 핸들부와, 상기 와이어의 일단이 접속되어 일체로 이동함과 동시에 상기 핸들부에 대하여 슬라이드 가능하게 지지된 제1 핸들 슬라이더와, 상기 아우터 시스부의 일단이 접속되어 일체로 이동함과 동시에 상기 핸들부에 대하여 슬라이드 가능하게 지지된 제2 핸들 슬라이더를 포함하는 내시경용 클립장치를 제공한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00038d69b8eac7ed01285ac95baa8f541fd91d04da10fe29859932a992d5a7693e2be942713e627283e2f7437ab382b5cf9e85545e840c48d4</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfb0453bca0454c64e761561e6296979262775608e08992fd8f19eab5feaf92fee410bad89b6c2d9369afb277473981281a681d6c3b96c1f32</ThumbnailPath>
+				<SerialNumber>23</SerialNumber>
+				<InventionName>내시경용 클립장치</InventionName>
+				<InternationalpatentclassificationNumber>A61B 1/00|A61B 17/122</InternationalpatentclassificationNumber>
+				<OpeningDate>20170417</OpeningDate>
+				<OpeningNumber>1020170041620</OpeningNumber>
+				<PublicNumber />
+				<PublicDate>20180109</PublicDate>
+				<RegistrationDate>20180103</RegistrationDate>
+				<RegistrationNumber>1018166310000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 파인메딕스</Applicant>
+				<ApplicationDate>20211215</ApplicationDate>
+				<ApplicationNumber>1020210179873</ApplicationNumber>
+				<Abstract>본 발명은 내시경을 이용하여 카테터를 담관에 위치시켜 담즙을 코를 통해 배출시키는 기구 및 방법에 관한 것이다. 본 발명의 일 실시예에 따른 간과 십이지장이 연결되는 담관이 병변에 의해 막히는 것을 방지하도록, 상기 담관 내에 삽입시켜 담즙이 외부로 배출되도록 유도하는 기구에 있어서, 일단이 입 및 코 중 적어도 하나를 통해 삽입되는 튜브; 및 상기 튜브의 일단과 연결되고, 상기 담관 내에 직접 삽입되는 스텐트;를 포함하고, 상기 스텐트는, 복수의 걸림 돌기부로 구성된 날개를 구비하고, 상기 날개는 복수며, 상기 복수의 날개 중 제 1 날개의 복수의 걸림 돌기부 중 적어도 하나를 기초로, 바터팽대부에 고정되어 상기 튜브가 상기 담관으로 빨려 들어가는 것을 방지하고, 상기 복수의 날개 중 제 2 날개의 복수의 걸림 돌기부 중 적어도 하나를 기초로, 상기 담관 내에 고정되어 상기 스텐트가 상기 담관 밖으로 빠져나오는 것을 방지하며, 상기 담관 내의 담즙은 상기 스텐트 및 상기 튜브를 통해 이동하고, 상기 튜브의 일단을 통해 상기 외부로 배출될 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93dbe8e04d9fd12be1d58acb02c42097a94c45588a4620385e93787557e0df80519e2d48ac352a566c545bac37d353aafaa1ddd31cbdcfaeec</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf07687b09e03c1cf9a3900c9fca61fc1550d68b2b09aa0255fc4ef41835325d43526481ca862c5ca2562c595cb0c37e0eab34cc1b7db34be3</ThumbnailPath>
+				<SerialNumber>24</SerialNumber>
+				<InventionName>담즙 배출을 위한 스텐트 기구 및 그 제어방법</InventionName>
+				<InternationalpatentclassificationNumber>A61F 2/848|A61M 27/00|A61M 25/00|A61F 2/04</InternationalpatentclassificationNumber>
+				<OpeningDate>20230623</OpeningDate>
+				<OpeningNumber>1020230091232</OpeningNumber>
+				<PublicNumber />
+				<PublicDate />
+				<RegistrationDate />
+				<RegistrationNumber />
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 파인메딕스</Applicant>
+				<ApplicationDate>20190104</ApplicationDate>
+				<ApplicationNumber>1020190000999</ApplicationNumber>
+				<Abstract>본 발명은 내시경용 클립장치에 관한 것으로, 보다 상세하게는 조작부가 간단하며, 클립의 결찰 및 분리가 정확하고 용이한 내시경용 클립장치에 관한 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e006de415d2d20dde0b11c6a4830dfdb5963d24ba071707dc585bad8996114fb4f47f1058b4308ec75d2f921e8e8b8530fb2d021c9342f0bfde</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf9db692fe59b7f3dd8b87da4e3ce7c39ee0e0e54b213e854b226d6946ea27bcb0dfddb4242deb45fc4db11f1e516d620c8043e58c72d24d4a</ThumbnailPath>
+				<SerialNumber>25</SerialNumber>
+				<InventionName>내시경용 클립장치</InventionName>
+				<InternationalpatentclassificationNumber>A61B 1/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20200714</OpeningDate>
+				<OpeningNumber>1020200085011</OpeningNumber>
+				<PublicNumber />
+				<PublicDate>20201204</PublicDate>
+				<RegistrationDate>20201130</RegistrationDate>
+				<RegistrationNumber>1021871280000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 파인메딕스</Applicant>
+				<ApplicationDate>20210820</ApplicationDate>
+				<ApplicationNumber>1020210109810</ApplicationNumber>
+				<Abstract>위루관 키트에 대해 개시된다. 개시된 위루관 키트는 유연한 재질의 튜브로 형성되되 상단부에는 체내로 소정 물질을 주입 가능한 하나 이상 분기된 주입구(110)가 형성되며, 하단부는 사용자의 복부(12)를 관통하여 위 속으로 삽입되는 위루관튜브(100);  유연한 재질로 형성되되 상기 위루관튜브(100)가 사용자의 복부(12)에 밀착되도록 상기 위루관튜브(100) 일측에 결합되는 체외고정구(200);  내부에 공간부가 구비된 탄성재질로 형성되어 상기 위루관튜브(100)의 하단부에 결합되되, 상기 위루관튜브(100)의 주입구(110)를 통해 식염수가 투입되어 상기 위루관튜브(100)가 위벽(20)(stomach wall)에서 이탈되지 않도록 팽창되는 체내고정구(300);를 포함하는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93d3ee996f7b174814d35f372afd8ad12113c82c1db34b66cca80498a5ae9f0dbb5e16c742a0742993fb41da48acc94fe675c65eb8d1b05bc7</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfd624cfa2b5b988483f8228cee49c959df8a00f27de235021f1d360c8ed0a1a7351715434f15c5afe4be458518fc41b0ff6a4a56929748e8d</ThumbnailPath>
+				<SerialNumber>26</SerialNumber>
+				<InventionName>위루관 키트</InventionName>
+				<InternationalpatentclassificationNumber>A61J 15/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20230228</OpeningDate>
+				<OpeningNumber>1020230027712</OpeningNumber>
+				<PublicNumber />
+				<PublicDate>20231102</PublicDate>
+				<RegistrationDate>20231030</RegistrationDate>
+				<RegistrationNumber>1025971880000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 파인메딕스</Applicant>
+				<ApplicationDate>20210618</ApplicationDate>
+				<ApplicationNumber>1020210079227</ApplicationNumber>
+				<Abstract>조직 절제용 포셉에 대해 개시된다.  개시된 조직 절제용 포셉은 내부에 중공부가 형성된 원기둥 형상으로 형성된 본체(10);  상기 본체(10)의 상단부에 결합되되, 탄성 재질의 파이프 형상으로 형성되어 조직채취부(40)를 이동시키기 위한 힘을 전달하는 탄성튜브(20);  상기 본체(10)에 결합되어 조직채취부(40)의 채취동작을 조종하는 조작부(30);  상기 탄성튜브(20)의 단부에 결합되어 조직(A)을 채취하는 조직채취부(40);를 포함하는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c936a9b5a1d49b4e845cdd534cdd33a0434e3c3180680f57caf15d0943931718a597167a6e33fcf2ea9fdd2863311902a5813c5e90bbfb857d9</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfd827885b592c6731cfe3ac9675044eda74ec4d907fabc9710834c2f2bba564cb7f51852cf2b4f2a5eee2572b414f050a5e0c55d6f3188216</ThumbnailPath>
+				<SerialNumber>27</SerialNumber>
+				<InventionName>조직 절제용 포셉</InventionName>
+				<InternationalpatentclassificationNumber>A61B 10/06|A61B 10/04|A61B 10/02|A61B 17/295|A61B 17/3205</InternationalpatentclassificationNumber>
+				<OpeningDate>20221227</OpeningDate>
+				<OpeningNumber>1020220169159</OpeningNumber>
+				<PublicNumber />
+				<PublicDate>20230829</PublicDate>
+				<RegistrationDate>20230824</RegistrationDate>
+				<RegistrationNumber>1025719290000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 파인메딕스</Applicant>
+				<ApplicationDate>20200527</ApplicationDate>
+				<ApplicationNumber>1020200063570</ApplicationNumber>
+				<Abstract>세침 흡인생검용 니들이 개시된다. 개시된 세침 흡인생검용 니들은,  소정 직경의 파이프 형상으로 형성되어 삽입부(110,210)에 의해 채집된 조직이 내부 공간부(120,220)를 통해 이송되는 몸체부(100,200); 및  상기 몸체부(100,200)의 전방 단부에 연이어져 상기 내부 공간부(120,220)와 연통되도록 상기 몸체부(100,200)와 동일한 직경의 파이프 형상으로 형성되되, 몸체부(100,200) 외주면 상에 상기 몸체부(100,200)의 길이방향으로 복수 개의 뾰족한 팁(tip)이 형성된 삽입부(110,210);를 포함하며,  상기 몸체부(100,200)의 외측 표면상에는 내시경 초음파를 반사시키는 나선형 홈(101,201)이 형성된 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93979944264e7e47706e42a5e5235ac1aa99d815e89661a9d67bf4b121266ddd807f7fc63323756b2c9918967bdf56cd1c0c71e1a007f6fda1</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfd2e33d97e3ef66c8f2181d93510d4901c3ad92d9a2a510949bcd9b88f4e3739531062f57f4ec1084134c2a32aec11a69e58927843b061591</ThumbnailPath>
+				<SerialNumber>28</SerialNumber>
+				<InventionName>더블 2단 팁 구조를 가진 세침 흡인생검용 니들</InventionName>
+				<InternationalpatentclassificationNumber>A61B 10/02|A61B 8/08|A61B 17/34</InternationalpatentclassificationNumber>
+				<OpeningDate>20211206</OpeningDate>
+				<OpeningNumber>1020210146601</OpeningNumber>
+				<PublicNumber />
+				<PublicDate />
+				<RegistrationDate />
+				<RegistrationNumber />
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 파인메딕스</Applicant>
+				<ApplicationDate>20201026</ApplicationDate>
+				<ApplicationNumber>1020200139442</ApplicationNumber>
+				<Abstract>본 발명의 일 실시예에 따른 지혈제 분사기는 소화기관의 출혈부위를 지혈하기 위한 지혈제 분사기에 있어서, 커버부; 상기 커버부의 내측에 수납되는 바디부; 상기 바디부의 일측에 구비된 제1 체결부와 체결되는 핸들부; 상기 핸들부의 내측에 수납되며, CO  2  가스를 저장하는 CO  2  캡슐; 상기 제1 체결부에 배치되며, 상기 핸들부가 상기 제1 체결부에 체결될 때 상기 CO  2  캡슐의 일단을 관통하여 상기 CO  2  캡슐로부터 CO  2  가스를 배출시키는 공이부; 상기 바디부의 타측에 구비된 제2 체결부와 체결되어 상기 커버부의 내측에 수납되며, 분말 형태 또는 겔 형태의 지혈제를 저장하는 지혈제 케이스; 상기 CO  2  캡슐로부터 배출되는 CO  2  가스를 상기 지혈제 케이스에 주입시키기 위한 연결 배관을 개방 또는 폐쇄시키는 버튼; 상기 지혈제 케이스에 삽입되며, 상기 지혈제 케이스에 주입되는 CO  2  가스에 의해 비산되는 상기 지혈제의 흡입을 위한 지혈제 흡입구가 하나 이상 형성되고, 상기 지혈제 흡입구를 통해 흡입한 지혈제를 분사하는 캐뉼라; 및 상기 캐뉼라와 연결되며, 잠금 또는 잠금해제를 통해 상기 캐뉼라로부터 상기 출혈부위에 분사될 상기 지혈제의 분사량을 조절하는 조절 밸브;를 포함할 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93a104a9a3f60ce7c6f66a5778d3fe297539dd0b063acbe28767201d4c1f616f688f73d06e05636cb5b9dc1ae495b179285beb3273ae9f78d2</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf2cd7ccd284a3f7b9d159b831503579146f1f8d1ccc06043aec4519ed3b52c46a359bcef589fb6a00eea1064743adeaa6a00665121c8ce948</ThumbnailPath>
+				<SerialNumber>29</SerialNumber>
+				<InventionName>지혈제 분사기</InventionName>
+				<InternationalpatentclassificationNumber>A61B 17/00|A61M 11/02|A61L 24/08|A61L 24/10|B05B 7/24</InternationalpatentclassificationNumber>
+				<OpeningDate>20220503</OpeningDate>
+				<OpeningNumber>1020220055203</OpeningNumber>
+				<PublicNumber />
+				<PublicDate />
+				<RegistrationDate />
+				<RegistrationNumber />
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 파인메딕스</Applicant>
+				<ApplicationDate>20200120</ApplicationDate>
+				<ApplicationNumber>1020200007518</ApplicationNumber>
+				<Abstract>카테터가 개시된다. 본 발명의 일 실시 예에 따른 카테터는 시술자가 벌룬(110)으로 공급되는 주입 공기량을 한 손으로 조절할 수 있는 조절부(400)가 결합되는 실린지(300)를 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93231d02a892b7a0f7ee1d89ac3a8fc3c1ae3a5e1e78185b304da4b770391d82faa050c99fd3a746ee3490a13ba0ebf7e0272fd04ddd708915</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf0bf71475802203f2361d51f65cf1a717251f46b50792648c399cf6254e429c9f3a065697f24180704e53135af03dae72c42bd574a4021a73</ThumbnailPath>
+				<SerialNumber>30</SerialNumber>
+				<InventionName>카테터</InventionName>
+				<InternationalpatentclassificationNumber>A61M 25/10|A61M 25/00|A61M 11/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20210728</OpeningDate>
+				<OpeningNumber>1020210093654</OpeningNumber>
+				<PublicNumber />
+				<PublicDate>20220527</PublicDate>
+				<RegistrationDate>20220524</RegistrationDate>
+				<RegistrationNumber>1024028160000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 파인메딕스</Applicant>
+				<ApplicationDate>20200228</ApplicationDate>
+				<ApplicationNumber>1020200025112</ApplicationNumber>
+				<Abstract>본 발명은, 절개와이어(46)와 침형절개도(47)가 구비된 하이브리드 괄약근 절개기에 있어서,  상기 절개와이어(46)와 침형절개도(47)의 이동을 위한 통로가 각각 구비된 메인바디(10);  상기 메인바디(10)의 일측에 결합되어 절개와이어(46)의 이동을 조종하는 절개와이어 핸들(20);  일단은 상기 절개와이어 핸들(20)에 결합되고 타단은 절개와이어(46)에 결합되는 제1 제어와이어(44);  상기 제1 제어와이어(44)에 결합되되 전기소작을 통해 조직을 절개하는 절개와이어(46);  상기 메인바디(10)의 타측에 결합되어 침형절개도(47)의 이동을 조종하는 침형절개도 핸들(30);  일단은 상기 침형절개도 핸들(30)에 결합되고 타단은 침형절개도(47)에 결합되는 제2 제어와이어(45);  상기 제2 제어와이어(45)에 결합되되 조직을 칼날로 절개하는 침형절개도(47); 및  상기 메인바디(10)에 결합되되 제1 제어와이어(44) 및 절개용 와이어, 그리고 제2 제어와이어(45) 및 침형절개도(47)의 이동을 위한 통로를 이루는 쉬스(40);를 포함하며,  상기 절개와이어(46)와 침형절개도(47)가 함께 구비되어 침형절개도(47)를 이용한 칼날 절개 및 절개와이어(46)를 이용한 전기소작 절개가 연속적으로 수행가능함으로써 시술시간을 단축시키는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93e862f508696bb8901c670e9593296e87a5db878207aa2b778e3b43d5744f8cfd26f44b0e9d4e05e574c57f52a247071e40b31f45bbb935de</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf92735da4e9e3260aae1878d57ca8371c7920d278077946c19219a31565ee5b2f6cee02f0993009a80093c6a06869c282aad269f53a02e0e9</ThumbnailPath>
+				<SerialNumber>31</SerialNumber>
+				<InventionName>하이브리드 괄약근 절개기</InventionName>
+				<InternationalpatentclassificationNumber>A61B 18/14|A61B 17/32|A61B 17/3209|A61B 17/34|A61B 18/00|A61B 17/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20210907</OpeningDate>
+				<OpeningNumber>1020210109909</OpeningNumber>
+				<PublicNumber />
+				<PublicDate>20220121</PublicDate>
+				<RegistrationDate>20220117</RegistrationDate>
+				<RegistrationNumber>1023536040000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 파인메딕스</Applicant>
+				<ApplicationDate>20181015</ApplicationDate>
+				<ApplicationNumber>1020180122696</ApplicationNumber>
+				<Abstract>본 발명은 결찰부의 결찰과 분리가 용이하여 쉽게 조작 가능한 내시경용 결찰장치에 관한 것으로, 본 발명의 일 실시 예는 핸들부와, 상기 핸들부 상에 슬라이드 이동 가능하게 설치되는 슬라이더와, 상기 슬라이더에 탈착 가능하게 설치되는 리무버와, 상기 핸들부의 일단에 결합되는 이너 시스와, 상기 슬라이더에 연결되며 상기 이너 시스의 내부로 연장되는 제1 와이어와, 상기 리무버에 연결되며 상기 이너 시스의 내부로 연장되는 제2 와이어와, 일단은 상기 제1 와이어에 연결되며, 타단에는 개폐 가능한 개폐부가 구비된 연결부와, 상기 제2 와이어에 연결되며, 상기 개폐부의 개폐상태를 조절하기 위한 커플링과, 상기 개폐부에 선택적으로 결합되는 결찰부 및 상기 결찰부를 결찰하기 위한 결찰링을 포함하는, 내시경용 결찰장치를 제공한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00a6898876165e2d31fcc0de4f3a03de0febb4aa80283074c8a26d9b051724207821267b9edc85b928c22e7c799c80c7ad52e52593774910e9</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf49227396bac5c3133a2deb33f462e049c71d0fd008d1ecf3ce24dfe55c3d53ee8d15004a4d8234226fcfe582b1d2a17c4c30355a390825cb</ThumbnailPath>
+				<SerialNumber>32</SerialNumber>
+				<InventionName>내시경용 결찰장치</InventionName>
+				<InternationalpatentclassificationNumber>A61B 1/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20200423</OpeningDate>
+				<OpeningNumber>1020200042292</OpeningNumber>
+				<PublicNumber />
+				<PublicDate />
+				<RegistrationDate />
+				<RegistrationNumber />
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 파인메딕스</Applicant>
+				<ApplicationDate>20141226</ApplicationDate>
+				<ApplicationNumber>1020140190375</ApplicationNumber>
+				<Abstract>본 발명은 내시경 시술용 인젝터 기구에 관한 것으로서, 소작전극(101a)을 형성한 아우터튜브(101)를 구비하여 병변 부위를 소작하는 코애귤레이터(10)와; 병변 부위에 침습하는 니들(202b)을 형성한 이너튜브(202a)를 구비하여 약액을 공급하는 주사기를 이용해 병변 부위에 약액을 주입하는 인젝터(20)와; 선단부에는 상기 코애귤레이터(10)를 탈부착 가능케 결합하고, 말단부에는 상기 인젝터(20)를 탈부착 가능케 결합하여 상기 아우터튜브(101) 내부로 상기 이너튜브(202a)가 투입되면서 상기 코애귤레이터(10)와 인젝터(20)를 일체로 연결하는 링크커넥터(30)를 포함하여 구성함으로써 내시경을 통해 병변 부위를 관찰하면서 병변 부위에 약액을 주입하거나, 병변 부위를 소작하여 제거, 응고 처치하는 치료 과정을 기구 교체 없이 수행할 수 있도록 하여 내시경 시술에 소요되는 시간이 크게 단축함과 동시에 내시경 시술 성공률이 향상될 뿐만 아니라, 부작용의 발병 위험이 현저히 감소하는 효과가 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e003d4123adb57a15bb56d35da563c8ef2cb09dbdb64fc124499cf496b110347d6c10b1ab4bee7447cd63007fd5f9828fb8c8eeeed9d6d73ee0</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfd64e4254daed8b35b38821b7d71de2658e8e8e5ac654dcd5c1af65c1440e04c5e59329d154c9e27e4cc0ff9556015f5855a7439fc8d36742</ThumbnailPath>
+				<SerialNumber>33</SerialNumber>
+				<InventionName>내시경 시술용 인젝터 기구</InventionName>
+				<InternationalpatentclassificationNumber>A61B 18/14|A61B 1/00|A61M 5/158|A61B 18/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20160707</OpeningDate>
+				<OpeningNumber>1020160079960</OpeningNumber>
+				<PublicNumber />
+				<PublicDate />
+				<RegistrationDate />
+				<RegistrationNumber />
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 파인메딕스</Applicant>
+				<ApplicationDate>20141226</ApplicationDate>
+				<ApplicationNumber>1020140190933</ApplicationNumber>
+				<Abstract>본 발명은 조립과 생산의 용이성을 제공하면서 구동부의 이탈과 분리를 방지하고 구동부의 사이즈를 용이하게 식별하여 시술의 용이성을 제공할 수 있도록 한 것으로서, 파지 가능하게 구비하는 핸들부와 연결되어 병변조직을 채취할 수 있도록 플렉시블와이어의 내부에 구동와이어를 내장하고 끝단에 조직채취를 위한 절제클립을 가지는 구동부로 구성되고; 상기 핸들부는, 후방에 핸들을 형성하고, 중앙에 형성하는 작동홀에 의하여 한 쌍의 슬라이드바를 가지는 몸체와, 상기 작동홀의 전방에 구동부의 구동와이어가 작동홀로 진입할 수 있게 형성하는 와이어홈과, 상기 와이어홈의 전방에 플렉시블와이어가 안치될 수 있도록 형성하는 플렉시블와이어홈과; 상기 구동와이어를 결합하여 몸체 전,후방으로 움직여 절제클립을 작동시키는 슬라이더를 몸체에 결합하여 구성되는 내시경용 포셉에 있어서;  상기 구동부의 유동과 탈락을 방지하면서 교환을 용이하게 할 수 있도록 하는 구동부유지수단과; 몸체 전방부에 구비하여 구동와이어의 사이즈별로 색상을 달리하는 식별체와, 상기 식별체가 위치하는 마감캡에 식별체가 노출될 수 있는 식별체홀을 형성하여 시술자가 시각적으로 구동부 사이즈를 판별할 수 있게 하는 식별수단을 더 구비하여 구성하는 것이 특징이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e003d4123adb57a15bb56d35da563c8ef2cb09dbdb64fc124491925bbbc36e92f1ded6ee11c8952e021c3449420d0e02b8abf1be81dbf3ca323</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfd64e4254daed8b35b38821b7d71de2658e8e8e5ac654dcd5e3cf9307a5fb0c1e9e930f86c1652e5fbd7e76ca6703f2354d0629eda72d5535</ThumbnailPath>
+				<SerialNumber>34</SerialNumber>
+				<InventionName>내시경용 포셉</InventionName>
+				<InternationalpatentclassificationNumber>A61B 10/06|A61B 1/00|A61B 10/04|A61B 17/29|A61B 17/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20160707</OpeningDate>
+				<OpeningNumber>1020160079989</OpeningNumber>
+				<PublicNumber />
+				<PublicDate />
+				<RegistrationDate />
+				<RegistrationNumber />
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 파인메딕스</Applicant>
+				<ApplicationDate>20141226</ApplicationDate>
+				<ApplicationNumber>1020140190383</ApplicationNumber>
+				<Abstract>본 발명은 위내시경용 마우스피스에 관한 것으로서, 피검사자의 치아를 지지하고, 내시경 케이블의 투입 배출이 가능케 하는 치아지지관체(101)와; 상기 치아지지관체(101)가 일정 위치에 고정되도록 치아지지관체(101)의 외측 단부 둘레에 일체로 형성한 날개부(102)와; 피검사자의 혀를 고정하고, 내시경 케이블의 안내하는 혀가압부(103)를 포함하여 구성함으로써 위내시경 검사를 시행하는 과정에서 피검사자의 혀를 눌러서 고정하여 피검사자의 혀가 내시경 케이블 움직임을 방해하는 것을 억제함으로써 원활하고 신속한 위내시경 검사가 이루어지는 효과가 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e002e2f834df221d59b346987c5a5bb7e3a6dcdc3cc97ca445020ece12375bc9e40bf2e932962c150bd9b0f6836cae7a612191e6164d289982c</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfce37cf58cae602c574b0d8040e6c9d3c54bc3b86a6c883d5ef3dad5421e6b41d73fc3a02492e0db9396c885009b20480b8b3390bf83120dd</ThumbnailPath>
+				<SerialNumber>35</SerialNumber>
+				<InventionName>위내시경용 마우스피스</InventionName>
+				<InternationalpatentclassificationNumber>A61B 1/01|A61B 1/273|A61B 1/24|A61B 19/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20160708</OpeningDate>
+				<OpeningNumber>1020160082623</OpeningNumber>
+				<PublicNumber />
+				<PublicDate />
+				<RegistrationDate />
+				<RegistrationNumber />
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 파인메딕스</Applicant>
+				<ApplicationDate>20140408</ApplicationDate>
+				<ApplicationNumber>1020140041933</ApplicationNumber>
+				<Abstract>본 발명은 초음파 유도 세침 흡인생검용 바늘에 관한 것으로 더욱 구체적으로는 일단부에 경사면(101a)을 포함하는 삽입부(101)가 형성되는 관상 동체(1)와;상기 동체(1)의 주벽 일측에 동체(1)의 길이 방향과 직각 방향으로 조직채취홈(201)을 형성하여 조직채취홈(201)의 양측에 조직채취날부(202)를 형성한 조직채취부(2)와; 상기 동체(1)의 외주면에 나선형홈(301)을 형성하되, 동체 길이 방향 단면상에 형성되는 나선형홈(301)이 지그재그로 형성되게 한 에코부(3)로 구성함으로써 조직채취력과 강도가 향상되어 초음파 유도 세침 흡인생검에 소요되는 시간을 단축시킬 수 있으며, 시술 과정에서의 바늘의 구부러짐이나 절단 등의 손상을 방지할 수 있는 효과가 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0073b80c37d570ef007de059386da2486c354a86000a191c4f5a45d3c900ad88d52a59410f56736e792b3e597198162b4bf69ed07075335f08</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf77cb6d719de87be2860b5c1d92d8d691483f6d7bf6a0cff6259f46949c203207181c6e71fcb89a9c483d14af303ff4cc3e48044f9c8c0a01</ThumbnailPath>
+				<SerialNumber>36</SerialNumber>
+				<InventionName>초음파 유도 세침 흡인생검용 바늘</InventionName>
+				<InternationalpatentclassificationNumber>A61B 10/02</InternationalpatentclassificationNumber>
+				<OpeningDate>20151016</OpeningDate>
+				<OpeningNumber>1020150116689</OpeningNumber>
+				<PublicNumber />
+				<PublicDate />
+				<RegistrationDate />
+				<RegistrationNumber />
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<TotalSearchCount>36</TotalSearchCount>
+			<SearchStartNumber>1</SearchStartNumber>
+		</items></body></response><response><applicant_id>3</applicant_id><header><resultCode /><resultMsg /></header><body><items><PatentUtilityInfo>
+				<Applicant>(주) 코스모스웨이</Applicant>
+				<ApplicationDate>20110729</ApplicationDate>
+				<ApplicationNumber>1020110076079</ApplicationNumber>
+				<Abstract>본 발명은 정신집중용 가리개에 관한 것으로서, 사용자의 눈을 중심으로 상방 시야, 측방 시야, 하방 시야를 가리는 가리개 몸체와; 상기 가리개 몸체에 연결되며, 사용자의 머리에 걸쳐져 상기 가리개 몸체를 지지하는 지지 다리를 포함하는 것을 특징으로 한다.  이에 의하여, 가리개 몸체가 사용자의 상방 시야, 측방 시야, 하방 시야를 제한하는 구조로 이루어짐으로써, 사용자의 집중력이 최대한 향상될 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726a474ca5f462fd2dcfea3c101ab18c837deb9db8262ef826074908e01d3604cc9f0c249d8964e15c187bd10d0663d8327de1a32236f2a4a37</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf2137e208d26d872b585b12b8b1ba7b3c859ca2af2306f799e38da0b266069d99aeebdbcbf0eda3a23f9324962f4e6c289a1d7c0eecf3a9c5</ThumbnailPath>
+				<SerialNumber>1</SerialNumber>
+				<InventionName>정신집중용 가리개</InventionName>
+				<InternationalpatentclassificationNumber>A61F 9/04|A61F 9/02|A61F 11/08</InternationalpatentclassificationNumber>
+				<OpeningDate />
+				<OpeningNumber />
+				<PublicNumber />
+				<PublicDate>20121214</PublicDate>
+				<RegistrationDate>20121210</RegistrationDate>
+				<RegistrationNumber>1012126430000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주) 코스모스웨이</Applicant>
+				<ApplicationDate>20211201</ApplicationDate>
+				<ApplicationNumber>1020210169852</ApplicationNumber>
+				<Abstract>본 발명은 위생 마스크를 제공하며, 지지 프레임과, 상기 지지 프레임에 장착되는 제1 실드 시트, 및 상기 제1 실드 시트에 대해서 회동하거나 슬라이딩하도록 상기 제1 실드 시트와 연결되는 제2 실드 시트를 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9390aaa2d85c33244b02b0bd0c420994a85947596605fddda55540144284a5fce5cb581a5d3c4f7a45050a8c3b49b0b74c95d1c2647a2cf395</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cff75e38f7437aca6603554227a5702c457401d927315e3b010bcb7c3c4461fe84e3c97d3e94be40efe05e39aa0ada0b470f58624cb8f5562b</ThumbnailPath>
+				<SerialNumber>2</SerialNumber>
+				<InventionName>위생 마스크</InventionName>
+				<InternationalpatentclassificationNumber>A41D 13/11|A62B 18/08</InternationalpatentclassificationNumber>
+				<OpeningDate>20230608</OpeningDate>
+				<OpeningNumber>1020230082175</OpeningNumber>
+				<PublicNumber />
+				<PublicDate />
+				<RegistrationDate />
+				<RegistrationNumber />
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주) 코스모스웨이</Applicant>
+				<ApplicationDate>20211201</ApplicationDate>
+				<ApplicationNumber>1020210169851</ApplicationNumber>
+				<Abstract>본 발명은 위생 마스크를 제공하며, 전방에 배치되는 제1 서포터와, 상기 제1 서포터의 양단에서 후방으로 연장되는 한 쌍의 제2 서포터를 가지는 지지 프레임, 및 상기 지지 프레임에 장착되는 실드 시트를 포함하고, 상기 지지 프레임은 상기 제2 서포터의 일부 구간에 배치되되, 상기 제2 서포터의 일부가 제거되어 다른 구간보다 강성이 작은 절개부를 구비한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9390aaa2d85c33244b02b0bd0c420994a85947596605fddda55540144284a5fce5096d73428d8006a8e92f37a7e8b94e5ca0bea8238c65ddb7</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cff75e38f7437aca6603554227a5702c457401d927315e3b010bcb7c3c4461fe8413119d475d9c811368834a616a8b1eed11f50cadc353e8aa</ThumbnailPath>
+				<SerialNumber>3</SerialNumber>
+				<InventionName>위생 마스크</InventionName>
+				<InternationalpatentclassificationNumber>A41D 13/11|A62B 18/08</InternationalpatentclassificationNumber>
+				<OpeningDate>20230608</OpeningDate>
+				<OpeningNumber>1020230082174</OpeningNumber>
+				<PublicNumber />
+				<PublicDate />
+				<RegistrationDate />
+				<RegistrationNumber />
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주) 코스모스웨이</Applicant>
+				<ApplicationDate>20121022</ApplicationDate>
+				<ApplicationNumber>1020120117307</ApplicationNumber>
+				<Abstract>본 발명은 안경형 위생 마스크 및 안경 장착용 위생 마스크에 관한 것으로서, 특히 수평방향으로 길게 형성되는 메인프레임(100)과; 상기 메인프레임(100) 양단에 힌지 체결되어 회동 가능하게 장착되는 다리부(200)와; 양측면이 상기 다리부(200)에 상하방향으로 이동 가능하며, 전후방향으로 소정 각도 회동 가능하게 장착되고, 전면은 사용자의 하관을 커버하는 실드부(300)로 구성되거나, 내측면에 끼움부(401)가 형성되어 안경에 장착되게 하며, 외측면에는 고정돌기(210)와 가이드돌기(220)가 소정 간격을 두고 형성되는 한 쌍의 결합부(400)와; 양측면에 상기 고정돌기(210)와 가이드돌기(220)에 대응하는 고정홀(310)과 가이드홀(320)이 형성되어 상기 결합부(400) 양단 외측면에 착탈 가능하게 장착되며, 전면은 사용자의 얼굴 일부를 커버하는 실드부(300)로 구성되어, 안경 형상으로 이루어져 착용이 용이하며, 실드부(300)를 통해 입 주위를 감싸므로 타액이 외부로 비산되거나 외부의 오염물질이 입이나 코로 유입되는 것을 방지하여 위생성을 높이고, 실드부(300)의 길이조절 및 각도조절이 가능하게 하여 사용자의 두상 조건에 따라 변형시켜 사용할 수 있게 함으로써 상품성을 향상시키는데 효과가 있게 하는 동시에 실드부(300) 교체가 가능하게 하고, 또한 안경 사용자의 경우 안경 다리에...(이하생략)</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0054540ac8cd36d7259c99e2377bf6c51677df4fde01330060e0f08899f1d8904eaadda4092c6bd1b153d1b87c31494d08a5d97b90c83e38eb</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf0549dd13c8b69d15fd236c989fdfdf7beb70f98fe5a0a385138b7e636be8c05a1b460730148574cdca9cb38ea91e936e10a9326abbb5b2ef</ThumbnailPath>
+				<SerialNumber>4</SerialNumber>
+				<InventionName>안경형 위생 마스크 및 안경 장착용 위생 마스크</InventionName>
+				<InternationalpatentclassificationNumber>A62B 18/02|A62B 18/08|G02C 5/00|G02C 5/12|A41D 13/11|A62B 9/04|A62B 23/02</InternationalpatentclassificationNumber>
+				<OpeningDate>20140430</OpeningDate>
+				<OpeningNumber>1020140050899</OpeningNumber>
+				<PublicNumber />
+				<PublicDate>20140926</PublicDate>
+				<RegistrationDate>20140919</RegistrationDate>
+				<RegistrationNumber>1014448640000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<TotalSearchCount>4</TotalSearchCount>
+			<SearchStartNumber>1</SearchStartNumber>
+		</items></body></response></responseData>
