@@ -14,8 +14,8 @@
   'InventionName': '미래목 표시구', # title
   'OpeningNumber': None, # open_no
   'OpeningDate': None, # open_date
-  'PublicNumber': None, # notification_num
-  'PublicDate': '20041019', # notification_date
+  'PublicNumber': None, # pub_num
+  'PublicDate': '20041019', # pub_date
   'RegistrationNumber': '2003645120000', # reg_no
   'RegistrationDate': '20041001', # reg_date
   'InternationalpatentclassificationNumber': 'A01G 17/12|G09F 7/18|A01G 17/00',

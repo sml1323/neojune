@@ -63,7 +63,7 @@ def insert_data_from_excel_to_db_uni(excel_file_path, table_name):
     df['write_time'] = df['write_time'].dt.strftime('%Y-%m-%d %H:%M:%S')
 
     # 형식 변경
-    df['applicant_no'] = df['applicant_no'].astype(str)
+    df['applicant_id'] = df['applicant_id'].astype(str)
     df['biz_no'] = df['biz_no'].apply(format_biz_no)
     df['corp_no'] = df['corp_no'].apply(format_crop_no)
 

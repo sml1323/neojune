@@ -86,7 +86,7 @@ def main():
     # 매핑 사전 정의
     design_mapping = {
         "ipr_seq": "",
-        "applicant_no": "",
+        "applicant_id": "",
         "ipr_code": "applicationNumber", # 2글자
         "title": "articleName",
         "serial_no": "number",
@@ -99,8 +99,8 @@ def main():
         "open_date": "openDate",
         "reg_no": "registrationNumber",
         "reg_date": "registrationDate",
-        "notification_num": "publicationNumber",
-        "notification_date": "publicationDate",
+        "pub_num": "publicationNumber",
+        "pub_date": "publicationDate",
         "legal_status_desc": "applicationStatus",
         "image_path": "imagePath",
     }
@@ -108,7 +108,7 @@ def main():
 
     patent_mapping = {
         "ipr_seq": "",  # 일련번호 # 
-        "applicant_no": "", # 특허고객번호
+        "applicant_id": "", # 특허고객번호
         "ipr_code": "ApplicationNumber", # 2글자
         "title": "InventionName",
         "serial_no": "SerialNumber",
@@ -120,8 +120,8 @@ def main():
         "open_date": "OpeningDate",
         "reg_no": "RegistrationNumber",
         "reg_date": "RegistrationDate",
-        "notification_num": "PublicNumber",
-        "notification_date": "PublicDate",
+        "pub_num": "PublicNumber",
+        "pub_date": "PublicDate",
         "legal_status_desc": "RegistrationStatus",
         "abstract": "Abstract",
         "image_path": "ThumbnailPath",
@@ -129,7 +129,7 @@ def main():
 
     trademark_mapping = {
         "ipr_seq": "",
-        "applicant_no": "",
+        "applicant_id": "",
         "ipr_code": "ApplicationNumber", # 2 글자
         "title": "Title",
         "serial_no": "SerialNumber",
@@ -137,8 +137,8 @@ def main():
         "agent": "AgentName",
         "appl_no": "ApplicationNumber",
         "appl_date": "ApplicationDate",
-        "notification_num": "PublicNumber",
-        "notification_date": "PublicDate",
+        "pub_num": "PublicNumber",
+        "pub_date": "PublicDate",
         "legal_status_desc": "ApplicationStatus",
         "image_path": "ThumbnailPath",
     }

@@ -57,11 +57,11 @@ class BaseDataParser:
                                 element_dict[output_key] = split(element_dict[output_key])[0]
                         else:
                             element_dict[output_key] = ""
-                    elif(output_key == "applicant_no"):
-                        # 부모 response 요소를 찾아서 applicant_no 가져오기
+                    elif(output_key == "applicant_id"):
+                        # 부모 response 요소를 찾아서 applicant_id 가져오기
                         response = element.xpath("./ancestor::response")[0]
                         if response is not None:
-                            element_dict['applicant_no'] = response.find('applicant_id').text if response.find('applicant_id') is not None else ''
+                            element_dict['applicant_id'] = response.find('applicant_id').text if response.find('applicant_id') is not None else ''
                 
                 results.append(element_dict)  # 결과 리스트에 추가
             return results  # 파싱된 결과 반환
@@ -90,7 +90,7 @@ def main():
     # 매핑 사전 정의
     design_mapping = {
         "ipr_seq": "",
-        "applicant_no": "",
+        "applicant_id": "",
         "ipr_code": "applicationNumber", # 2글자
         "title": "articleName",
         "serial_no": "number",
@@ -103,8 +103,8 @@ def main():
         "open_date": "openDate",
         "reg_no": "registrationNumber",
         "reg_date": "registrationDate",
-        "notification_num": "publicationNumber",
-        "notification_date": "publicationDate",
+        "pub_num": "publicationNumber",
+        "pub_date": "publicationDate",
         "legal_status_desc": "applicationStatus",
         "image_path": "imagePath",
     }
@@ -112,7 +112,7 @@ def main():
 
     patent_mapping = {
         "ipr_seq": "",  # 일련번호 # 
-        "applicant_no": "", # 특허고객번호
+        "applicant_id": "", # 특허고객번호
         "ipr_code": "ApplicationNumber", # 2글자
         "title": "InventionName",
         "serial_no": "SerialNumber",
@@ -124,8 +124,8 @@ def main():
         "open_date": "OpeningDate",
         "reg_no": "RegistrationNumber",
         "reg_date": "RegistrationDate",
-        "notification_num": "PublicNumber",
-        "notification_date": "PublicDate",
+        "pub_num": "PublicNumber",
+        "pub_date": "PublicDate",
         "legal_status_desc": "RegistrationStatus",
         "abstract": "Abstract",
         "image_path": "ThumbnailPath",
@@ -133,7 +133,7 @@ def main():
 
     trademark_mapping = {
         "ipr_seq": "",
-        "applicant_no": "",
+        "applicant_id": "",
         "ipr_code": "ApplicationNumber", # 2 글자
         "title": "Title",
         "serial_no": "SerialNumber",
@@ -141,8 +141,8 @@ def main():
         "agent": "AgentName",
         "appl_no": "ApplicationNumber",
         "appl_date": "ApplicationDate",
-        "notification_num": "PublicNumber",
-        "notification_date": "PublicDate",
+        "pub_num": "PublicNumber",
+        "pub_date": "PublicDate",
         "legal_status_desc": "ApplicationStatus",
         "image_path": "ThumbnailPath",
     }

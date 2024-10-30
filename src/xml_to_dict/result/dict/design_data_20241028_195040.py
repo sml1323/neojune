@@ -1,6 +1,6 @@
 [
     {
-        'applicant_no': '5576',
+        'applicant_id': '5576',
         'ipr_code': '30',
         'title': '지폐계수기',
         'serial_no': '1',
@@ -13,13 +13,13 @@
         'open_date': 'None',
         'reg_no': '3011244660000',
         'reg_date': '20210818',
-        'notification_num': 'None',
-        'notification_date': '20210825',
+        'pub_num': 'None',
+        'pub_date': '20210825',
         'legal_status_desc': '등록',
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0c87c7ad0d9e286bed75c617e338c490d0b52bbe1949c4f0a7624149d88d6aa0f7de01e5da00cad8310f967ce261403d9'
     },
     {
-        'applicant_no': '11319',
+        'applicant_id': '11319',
         'ipr_code': '30',
         'title': '도어록용 문의 개폐구',
         'serial_no': '1',
@@ -32,13 +32,13 @@
         'open_date': 'None',
         'reg_no': '3001916340000',
         'reg_date': '19970108',
-        'notification_num': 'None',
-        'notification_date': '19970214',
+        'pub_num': 'None',
+        'pub_date': '19970214',
         'legal_status_desc': '소멸',
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c81397497f192ef840bd57d78fa20739dc91ae138f68d0ff14098f58c6fe6f835d8c9412d4dae388963b574'
     },
     {
-        'applicant_no': '11319',
+        'applicant_id': '11319',
         'ipr_code': '30',
         'title': '케이블 고정구',
         'serial_no': '2',
@@ -51,13 +51,13 @@
         'open_date': 'None',
         'reg_no': '3005307610000',
         'reg_date': '20090604',
-        'notification_num': 'None',
-        'notification_date': '20090615',
+        'pub_num': 'None',
+        'pub_date': '20090615',
         'legal_status_desc': '소멸',
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c81397476d664ab5b4538a9275cbc229121bd0ce6eaf944602af04e3bda1225cb916f1f22e1855a3c2e8ddc'
     },
     {
-        'applicant_no': '11319',
+        'applicant_id': '11319',
         'ipr_code': '30',
         'title': '케이블 고정구',
         'serial_no': '3',
@@ -70,13 +70,13 @@
         'open_date': 'None',
         'reg_no': '3004151400000',
         'reg_date': '20060517',
-        'notification_num': 'None',
-        'notification_date': '20060523',
+        'pub_num': 'None',
+        'pub_date': '20060523',
         'legal_status_desc': '소멸',
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974ba18a606ff14cb0eba8d3cc1d7748d85ccb732b58b6b9a2b437a6b06b0846448c9a94fd9463a490e'
     },
     {
-        'applicant_no': '4728',
+        'applicant_id': '4728',
         'ipr_code': '30',
         'title': '의료용 약물 주입기',
         'serial_no': '1',
@@ -89,13 +89,13 @@
         'open_date': 'None',
         'reg_no': '3007462030000',
         'reg_date': '20140529',
-        'notification_num': 'None',
-        'notification_date': '20140605',
+        'pub_num': 'None',
+        'pub_date': '20140605',
         'legal_status_desc': '등록',
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0dae0b29600727eb6591a673b1d6a81aee91bf3147333b85761ed54c5691d0e516227a1c5f9523a277e0ea00c2d8897bf'
     },
     {
-        'applicant_no': '4728',
+        'applicant_id': '4728',
         'ipr_code': '30',
         'title': '의료용 약물 주입기',
         'serial_no': '2',
@@ -108,13 +108,13 @@
         'open_date': 'None',
         'reg_no': '3007462020000',
         'reg_date': '20140529',
-        'notification_num': 'None',
-        'notification_date': '20140610',
+        'pub_num': 'None',
+        'pub_date': '20140610',
         'legal_status_desc': '등록',
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb080989b1a756d39114429a39d526d47aa0c862ecdd6607e7a2e3d480e0452873dcdbb9aef520ce9c45832eb7c4e11974f'
     },
     {
-        'applicant_no': '4728',
+        'applicant_id': '4728',
         'ipr_code': '30',
         'title': '환자용 약물주입기',
         'serial_no': '3',
@@ -127,8 +127,8 @@
         'open_date': 'None',
         'reg_no': '3005926640000',
         'reg_date': '20110310',
-        'notification_num': 'None',
-        'notification_date': '20110318',
+        'pub_num': 'None',
+        'pub_date': '20110318',
         'legal_status_desc': '등록',
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb06744c4ac7c1193b9e616b0ce2e6181873d9ceecddd2b2fea4bd8b91bdc98746aacc09a2e7bcbba09b198a0b525b818fc'
     }

@@ -9,7 +9,7 @@ import asyncio
 import traceback
 
 ## 사업자 등록번호 -> 특허 고객번호
-async def get_applicant_no(service_key, applicant_info: tuple) -> dict:
+async def get_applicant_id(service_key, applicant_info: tuple) -> dict:
     url = "http://plus.kipris.or.kr/openapi/rest/CorpBsApplicantService/corpBsApplicantInfoV3"
     company_seq, biz_no, corp_no, biz_type, company_name = applicant_info
 
@@ -75,7 +75,7 @@ async def get_applicant_no(service_key, applicant_info: tuple) -> dict:
 async def process_applicants(service_key, applicant_info_list: list):
     tasks = []
     for applicant_info in applicant_info_list:
-        tasks.append(get_applicant_no(service_key, applicant_info))
+        tasks.append(get_applicant_id(service_key, applicant_info))
 
     results = await asyncio.gather(*tasks)
 

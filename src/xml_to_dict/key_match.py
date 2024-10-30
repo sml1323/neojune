@@ -2,7 +2,7 @@
 {
   "ipr_seq": "",  # 일련번호 # 
   # applicant_id 이거 추출해서 넣어야함
-  "applicant_no": "applicant_id", # 특허고객번호
+  "applicant_id": "applicant_id", # 특허고객번호
   "ipr_code": "ApplicationNumber", # 2글자
   "title": "InventionName",
   "serial_no": "SerialNumber",
@@ -14,8 +14,8 @@
   "open_date": "OpeningDate",
   "reg_no": "RegistrationNumber",
   "reg_date": "RegistrationDate",
-  "notification_num": "PublicNumber",
-  "notification_date": "PublicDate",
+  "pub_num": "PublicNumber",
+  "pub_date": "PublicDate",
   "legal_status_desc": "RegistrationStatus",
   "abstract": "Abstract",
   "image_path": "ThumbnailPath",
@@ -24,7 +24,7 @@
 # TB24_design
 {
   "ipr_seq": "",
-  "applicant_no": "applicant_id",
+  "applicant_id": "applicant_id",
   "ipr_code": "applicationNumber", # 2글자
   "title": "articleName",
   "serial_no": "number",
@@ -37,8 +37,8 @@
   "open_date": "openDate",
   "reg_no": "registrationNumber",
   "reg_date": "registrationDate",
-  "notification_num": "publicationNumber",
-  "notification_date": "publicationDate",
+  "pub_num": "publicationNumber",
+  "pub_date": "publicationDate",
   "legal_status_desc": "applicationStatus",
   "image_path": "imagePath"
 }
@@ -47,7 +47,7 @@
 # TB24_trademark
 {
   "ipr_seq": "",
-  "applicant_no": "applicant_id",
+  "applicant_id": "applicant_id",
   "ipr_code": "ApplicationNumber", # 2 글자
   "title": "Title",
   "serial_no": "SerialNumber",
@@ -55,8 +55,8 @@
   "agent": "AgentName",
   "appl_no": "ApplicationNumber",
   "appl_date": "ApplicationDate",
-  "notification_num": "PublicNumber",
-  "notification_date": "PublicDate",
+  "pub_num": "PublicNumber",
+  "pub_date": "PublicDate",
   "legal_status_desc": "ApplicationStatus",
   "image_path": "ThumbnailPath",
 }
@@ -74,8 +74,8 @@
   'InventionName': "title",
   'OpeningNumber': "open_no",
   'OpeningDate': "open_date",
-  'PublicNumber': "notification_num",
-  'PublicDate':  "notification_date",
+  'PublicNumber': "pub_num",
+  'PublicDate':  "pub_date",
   'RegistrationNumber':  "reg_no",
   'RegistrationDate':  "reg_date",
   'InternationalpatentclassificationNumber': 'A01G 17/12|G09F 7/18|A01G 17/00',

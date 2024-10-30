@@ -78,7 +78,7 @@ DROP TABLE IF EXISTS `TB24_210`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `TB24_210` (
   `university_seq` int NOT NULL AUTO_INCREMENT,
-  `applicant_no` bigint DEFAULT NULL,
+  `applicant_id` bigint DEFAULT NULL,
   `applicant` varchar(500) NOT NULL,
   `biz_no` varchar(12) DEFAULT NULL,
   `corp_no` varchar(15) DEFAULT NULL,

@@ -12,7 +12,7 @@ CREATE TABLE TB24_100 (
 -- 대학 특허 고객번호
 CREATE TABLE TB24_210(
     university_seq INT AUTO_INCREMENT PRIMARY KEY, 
-    applicant_no BIGINT NULL,
+    applicant_id BIGINT NULL,
     applicant  VARCHAR(500) NOT NULL,
     biz_no VARCHAR(12) NULL, 
     corp_no VARCHAR(15) NULL, 

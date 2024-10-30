@@ -8,7 +8,7 @@ data_file_path = os.path.join(script_dir, 'xml/design_data_20241028_195040.xml')
 # 매핑 정보
 info = {
   "ipr_seq": "",
-  "applicant_no": "",
+  "applicant_id": "",
   "ipr_code": "applicationNumber",  # 2글자
   "title": "articleName",
   "serial_no": "number",
@@ -21,8 +21,8 @@ info = {
   "open_date": "openDate",
   "reg_no": "registrationNumber",
   "reg_date": "registrationDate",
-  "notification_num": "publicationNumber",
-  "notification_date": "publicationDate",
+  "pub_num": "publicationNumber",
+  "pub_date": "publicationDate",
   "legal_status_desc": "applicationStatus",
 }
 
