@@ -34,6 +34,7 @@ async def get_patent_info(service_key, applicant, session) -> dict:
             max_pages = (total_count // docs_count) + (1 if total_count % docs_count else 0)
             print(f"총 검색 건수: {total_count}, 총 페이지 수: {max_pages}")
             result.append(content)
+            success_count += 1
         except ValueError:
             print("totalCount를 찾을 수 없습니다.")
             return result

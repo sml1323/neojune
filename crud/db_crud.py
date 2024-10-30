@@ -72,7 +72,7 @@ def fetch_data_from_db(table_name: str,
         
     # 제한된 결과 개수가 설정된 경우 LIMIT 추가
     if limit:
-        sql += f" LIMIT {limit}"
+        sql += f" order by applicant_id asc LIMIT {limit}"
     
     # 쿼리 실행 및 데이터 가져오기
     cursor.execute(sql)

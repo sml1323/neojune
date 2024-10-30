@@ -7,7 +7,6 @@ import time
 import MySQLdb
 from datetime import datetime
 import xml.etree.ElementTree as ET
-import xml.etree.ElementTree as ET
 from lxml import etree
 from crud import connection, db_crud
 
@@ -51,26 +50,21 @@ def save_data_as_xml(data_dict, file_name):
 
 async def fetch_all_info(service_key, app_no, applicant_id, session, semaphore, pa_dict, de_dict, tr_dict):
     async with semaphore:
-        tasks = [
-            asyncio.create_task(patent_api.get_patent_info(service_key, app_no, session)),
-            asyncio.create_task(design_api.get_design_info(service_key, app_no, session)),
-            asyncio.create_task(trademark_api.get_trademark_info(service_key, app_no, session)),
-        ]
+        result_patent = await patent_api.get_patent_info(service_key, app_no, session)
+        result_design = await design_api.get_design_info(service_key, app_no, session)
+        result_trademark = await trademark_api.get_trademark_info(service_key, app_no, session)
 
-        results = await asyncio.gather(*tasks)
-
-        # data 부분만 추출하여 딕셔너리에 저장
-        pa_dict[applicant_id] = results[0]
-        de_dict[applicant_id] = results[1]
-        tr_dict[applicant_id] = results[2]
+        pa_dict[applicant_id] = result_patent
+        de_dict[applicant_id] = result_design
+        tr_dict[applicant_id] = result_trademark
 
         print(f"{app_no} 총 데이터 수 : {len(pa_dict) +len(de_dict) + len(tr_dict) }")
 
 async def main():
     load_dotenv()
     service_key = os.getenv('SERVICE_KEY')
-    semaphore = asyncio.Semaphore(30)
-    limit = 100
+    semaphore = asyncio.Semaphore(50)
+    limit = 1
     test_apps = db_crud.fetch_data_from_db('TB24_200',['app_no', 'applicant_id'],limit)
       
     

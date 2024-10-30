@@ -60,6 +60,7 @@ async def get_trademark_info(service_key, applicant, session) -> dict:
             max_pages = (total_count // docs_count) + (1 if total_count % docs_count else 0)
             print(f"총 검색 건수: {total_count}, 총 페이지 수: {max_pages}")
             result.append(content)
+            success_count += 1
         except (ValueError, AttributeError) as e:
             print(f"totalCount를 찾을 수 없습니다. 응답 내용: {content[:200]}... 오류: {e}")
             return result
