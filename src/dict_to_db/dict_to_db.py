@@ -65,7 +65,7 @@ import sys
 import os
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from crud.db_crud import upsert_data
+from crud.doct_to_db_crud import upsert_data
 
 def dcit_to_db(table, data : dict):
     upsert_data(table, data)
