@@ -93,7 +93,15 @@ def upsert_data(
                 table_name: str, 
                 data : list[dict]
                 )-> None:
-    
+    """
+    주어진 데이터를 특정 테이블에 삽입하거나 갱신하는 함수.
+
+    :param table_name: 데이터를 삽입하거나 업데이트할 테이블의 이름입니다.
+    :param data: 삽입 또는 갱신할 데이터의 목록으로, 각 항목은 컬럼과 값을 포함한 딕셔너리입니다.
+    :return: None
+        데이터가 없으면 함수는 아무 작업 없이 종료됩니다.
+    """
+
     # 데이터가 없으면 함수 종료
     if not data:
         print("No data to insert.")
