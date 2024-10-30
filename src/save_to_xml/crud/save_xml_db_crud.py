@@ -2,7 +2,7 @@ import os
 from typing import List, Dict, Optional
 
 import MySQLdb
-from crud.connection import db_connect
+from crud.save_xml_connection import db_connect
 
 def insert_data_to_db(cursor,
                      table_name: str,
