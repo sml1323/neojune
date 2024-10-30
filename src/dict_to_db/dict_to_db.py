@@ -63,14 +63,20 @@ tr = [{
 ############
 import sys
 import os
+from .crud.db_crud import upsert_data
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from crud.db_crud import upsert_data
 
 def dcit_to_db(table, data : dict):
     upsert_data(table, data)
 
-if __name__ == "__main__":
+
+def main():
+
+    sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
     dcit_to_db('TB24_patent',pa)
     dcit_to_db('TB24_design',de)
     dcit_to_db('TB24_trademark', tr)
+
+
+if __name__ == "__main__":
+    main()

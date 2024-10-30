@@ -1,12 +1,12 @@
 import asyncio
 import aiohttp
-from api_modules import design_api, patent_api, trademark_api
+from .api_modules import design_api, patent_api, trademark_api
+from .crud import db_crud
 import os
 from dotenv import load_dotenv
 import time
 from datetime import datetime
 import xml.etree.ElementTree as ET
-from crud import db_crud
 
 # # XML 저장 함수
 def save_data_as_xml(data_dict, file_name):
