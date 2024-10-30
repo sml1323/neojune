@@ -87,3 +87,42 @@ def fetch_data_by_page(cursor,
     rows = cursor.fetchall()
 
     return rows
+
+
+def upsert_data( 
+                table_name: str, 
+                data : list[dict]
+                )-> None:
+    
+    # 데이터가 없으면 함수 종료
+    if not data:
+        print("No data to insert.")
+        return
+    
+    connection = db_connect()
+    cursor = connection.cursor()
+
+    columns = data[0].keys()
+
+    # SQL 쿼리 준비
+    sql = f"""
+        INSERT INTO {table_name} ({', '.join(columns)}) 
+        VALUES ({', '.join(['%s'] * len(columns))})
+        ON DUPLICATE KEY UPDATE
+        legal_status_desc = VALUES(legal_status_desc),
+        open_no = VALUES(open_no),
+        open_date = VALUES(open_date),
+        reg_no = VALUES(reg_no),
+        reg_date = VALUES(reg_date),
+        pub_num = VALUES(pub_num),
+        pub_date = VALUES(pub_date),
+        modify_time = CURRENT_TIMESTAMP;
+    """
+
+    data_values = [tuple(d.values()) for d in data]
+    cursor.executemany(sql, data_values)
+
+    connection.commit()
+
+    cursor.close()
+    connection.close()
