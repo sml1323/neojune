@@ -103,20 +103,33 @@ def upsert_data(
     cursor = connection.cursor()
 
     columns = data[0].keys()
+    placeholders = ', '.join(['%s'] * len(columns))
+
+    # 공통적인 업데이트 구문
+    common_update_clause = """
+        legal_status_desc = VALUES(legal_status_desc),
+        pub_num = VALUES(pub_num),
+        pub_date = VALUES(pub_date)
+    """
+
+    # 테이블 이름에 따른 추가 업데이트 구문
+    if table_name in ["TB24_design", "TB2_patent"]:
+        additional_update_clause = """
+            reg_no = VALUES(reg_no),
+            reg_date = VALUES(reg_date),
+            open_no = VALUES(open_no),
+            open_date = VALUES(open_date),
+        """
+    else:
+        additional_update_clause = ""
 
     # SQL 쿼리 준비
     sql = f"""
         INSERT INTO {table_name} ({', '.join(columns)}) 
-        VALUES ({', '.join(['%s'] * len(columns))})
+        VALUES ({placeholders})
         ON DUPLICATE KEY UPDATE
-        legal_status_desc = VALUES(legal_status_desc),
-        open_no = VALUES(open_no),
-        open_date = VALUES(open_date),
-        reg_no = VALUES(reg_no),
-        reg_date = VALUES(reg_date),
-        pub_num = VALUES(pub_num),
-        pub_date = VALUES(pub_date),
-        modify_time = CURRENT_TIMESTAMP;
+        {additional_update_clause}
+        {common_update_clause};
     """
 
     data_values = [tuple(d.values()) for d in data]

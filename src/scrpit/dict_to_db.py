@@ -16,7 +16,7 @@ de = [{
     'reg_date': '20210818',
     'pub_num': None,
     'pub_date': '20210825',
-    'legal_status_desc': '등록',
+    'legal_status_desc': '거절',
     'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0c87c7ad0d9e286bed75c617e338c490d0b52bbe1949c4f0a7624149d88d6aa0f7de01e5da00cad8310f967ce261403d9'
 }]
 
@@ -35,7 +35,7 @@ pa = [{
     'reg_date': '20210818',
     'pub_num': None,
     'pub_date': None,
-    'legal_status_desc': '등록',
+    'legal_status_desc': '거절',
     'abstract': '본 고안은 디지털 날염기에 관한 것으로, ... 디지털 날염기를 제공한다. 디지털 날염기, 이송구동수단, 링크결합체, 인쇄감지센서, 자동승강조절수단',
     'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfdfd0c8a3560dfe3f5c0c0fb908b6de237d7cc48779f92f863537681dac20830b'
 }]
