@@ -1,6 +1,6 @@
 [
     {
-        'applicant_id': '5576', 
+        'applicant_id': 5576, 
         'ipr_code': '40', 
         'title': '(주)메카트로 www.mechatro.co.kr', 
         'serial_no': '1', 
@@ -14,7 +14,7 @@
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3e6785e02ee9396dc96211fb2294abcaac31d9e0c06334f7d7f9f8c59e88e57b7'
     }, 
     {
-        'applicant_id': '5576', 
+        'applicant_id': 5576, 
         'ipr_code': '41', 
         'title': '(주)메카트로 www.mechatro.co.kr', 
         'serial_no': '2', 
@@ -28,7 +28,7 @@
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29c5dc26c0bda670e0fcc7ee051afebaeb4895030a2c86c3fc5f7b15683adcc8ed'
     }, 
     {
-        'applicant_id': '5576', 
+        'applicant_id': 5576, 
         'ipr_code': '41', 
         'title': 'MECHATRO', 
         'serial_no': '3', 
@@ -42,7 +42,7 @@
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c36331410bb26bba3dee32c3958b3e6fed1c35bb44155a51fbeb24d97b7375cab7'
     }, 
     {
-        'applicant_id': '11319', 
+        'applicant_id': 11319, 
         'ipr_code': '45', 
         'title': '동아베스텍주식회사 DONG-A BESTECH CO., LTD.', 
         'serial_no': '1', 
@@ -56,7 +56,7 @@
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c36ebe33eaff5c7e5d205a9b781925796f35d2bd080e3732a29eb358911b805313'
     }, 
     {
-        'applicant_id': '11319', 
+        'applicant_id': 11319, 
         'ipr_code': '41', 
         'title': '동아전자부품주식회사 동아전자부품주식회사 DONG-A ELECTRONIC COMPONENTS CO.,LTD.', 
         'serial_no': '2', 
@@ -70,7 +70,7 @@
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c37b2eecebd987877215267cec43136785c3d53ff80d23213da326bfe8e141411c'
     }, 
     {
-        'applicant_id': '4728', 
+        'applicant_id': 4728, 
         'ipr_code': '50', 
         'title': 'DW MEDITOM DAI WHA CORP.,LTD.', 
         'serial_no': '1', 
@@ -84,7 +84,7 @@
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eae3bd0d2e1a0a7d6b93c5a8175c684c3fa21823d9b69baa5d0032ed42736b6806a951e047129672a0'
     }, 
     {
-        'applicant_id': '4728', 
+        'applicant_id': 4728, 
         'ipr_code': '56', 
         'title': 'DW MEDITOM DAI WHA CORP.,LTD.', 
         'serial_no': '2', 
@@ -98,7 +98,7 @@
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eae3bd0d2e1a0a7d6b4c2ae7084ab0fca203cc26b5f2f544a40bb467093c10faea83a538f519c8f05a'
     }, 
     {
-        'applicant_id': '4728', 
+        'applicant_id': 4728, 
         'ipr_code': '40', 
         'title': 'DW MEDITOM DAI WHA CORP.,LTD.', 
         'serial_no': '3', 
@@ -112,7 +112,7 @@
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3eccb6f44f0ef3f1da711ea7a91aa17f954eb92b92260b49d1405b5b2db8ece33'
     }, 
     {
-        'applicant_id': '4728', 
+        'applicant_id': 4728, 
         'ipr_code': '40', 
         'title': 'MEDISONIC', 
         'serial_no': '4', 
@@ -126,7 +126,7 @@
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29df616987ef7331e9b8737cf9d484525e79b8af4d2d3a0b951e06ee8b5af47c7d375c2cb425e288bd'
     }, 
     {
-        'applicant_id': '4728', 
+        'applicant_id': 4728, 
         'ipr_code': '40', 
         'title': 'CAPFLOW', 
         'serial_no': '5', 
@@ -140,7 +140,7 @@
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3b58a6ead064ba7c95cb61bce7d80a055cd2221dee698cad43a8a65976ef57c8a'
     }, 
     {
-        'applicant_id': '4728', 
+        'applicant_id': 4728, 
         'ipr_code': '40', 
         'title': 'SURGITOM II DAI WHA CORP.,LTD.', 
         'serial_no': '6', 
@@ -154,7 +154,7 @@
         'image_path': 'None'
         }, 
     {
-        'applicant_id': '4728', 
+        'applicant_id': 4728, 
         'ipr_code': '40', 
         'title': 'SURGITOM II', 
         'serial_no': '7', 
@@ -168,7 +168,7 @@
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c38b97e51c850c522140b0005126cf66b321dd656f915da15da958e9a80374d4b1'
     }, 
     {
-        'applicant_id': '4728', 
+        'applicant_id': 4728, 
         'ipr_code': '40', 
         'title': 'MEDITPUMP DAI WHA CORP.,LTD.', 
         'serial_no': '8', 
@@ -182,7 +182,7 @@
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3eccb6f44f0ef3f1da711ea7a91aa17f954eb92b92260b49df19cc85aa8fffa23'
     }, 
     {
-        'applicant_id': '4728', 
+        'applicant_id': 4728, 
         'ipr_code': '40', 
         'title': 'MEDICARE DAI WHA CORP.,LTD.', 
         'serial_no': '9', 
@@ -196,7 +196,7 @@
         'image_path': 'None'
         }, 
     {
-        'applicant_id': '4728', 
+        'applicant_id': 4728, 
         'ipr_code': '40', 
         'title': 'CAPFLO SYSTEM', 
         'serial_no': '10', 
@@ -210,7 +210,7 @@
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3b58a6ead064ba7c95cb61bce7d80a055cd2221dee698cad47af1ea38c6f1655a'
     }, 
     {
-        'applicant_id': '4728', 
+        'applicant_id': 4728, 
         'ipr_code': '40', 
         'title': 'MEDIMON DAI WHA CORP.,LTD.', 
         'serial_no': '11', 
@@ -224,7 +224,7 @@
         'image_path': 'None'
         }, 
     {
-        'applicant_id': '4728', 
+        'applicant_id': 4728, 
         'ipr_code': '40', 
         'title': '대화기기주식회사 DAIWHA CORPORATION,LTD.', 
         'serial_no': '12', 
@@ -238,7 +238,7 @@
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29df616987ef7331e99b52cf32dbcecb5f4f0e449013ca209f7cb3b7fbad6c47230207b059d88e5c77'
     }, 
     {
-        'applicant_id': '4728', 
+        'applicant_id': 4728, 
         'ipr_code': '40', 
         'title': 'MEDIPOLAR', 
         'serial_no': '13', 
@@ -252,7 +252,7 @@
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29df616987ef7331e9b8737cf9d484525ebcee15d587986b4f818dd3a45ad744e3fa101436235a5798'
     }, 
     {
-        'applicant_id': '4728', 
+        'applicant_id': 4728, 
         'ipr_code': '40', 
         'title': 'DW VOLFUSION DAI WHA CORP.,LTD.', 
         'serial_no': '14', 
@@ -266,7 +266,7 @@
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3abc351d85857a5401cc07395a4c0b337ab72264dcfa31dedbea374592cae3161'
     }, 
     {
-        'applicant_id': '4728', 
+        'applicant_id': 4728, 
         'ipr_code': '40', 
         'title': 'DW TAE.A.MON DAI WHA CORP.,LTD.', 
         'serial_no': '15', 
@@ -280,7 +280,7 @@
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3abc351d85857a5401bdcd4de33d31e3d3a436866cbe0971474c9f6cfa9760432'
     }, 
     {
-        'applicant_id': '4728', 
+        'applicant_id': 4728, 
         'ipr_code': '56', 
         'title': 'DW MEDIFUSION DAI WHA CORP.,LTD.', 
         'serial_no': '16', 
@@ -294,7 +294,7 @@
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eae3bd0d2e1a0a7d6b2c5600ca9d5b4a4b79a37cace0a8fb7840e14b0736be398716c6e57e572090159be01d529a850fb90433b70811b0bd46'
     }, 
     {
-        'applicant_id': '4728', 
+        'applicant_id': 4728, 
         'ipr_code': '50', 
         'title': 'DW MEDIFUSION DAI WHA CORP.,LTD.', 
         'serial_no': '17', 
@@ -308,7 +308,7 @@
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eae3bd0d2e1a0a7d6b92315bfd29d1c7ff93dfcc4dfeeca9c0e0cbfdeac05aa145aa446d5961aca0b82aedef4ad2de3b769f5277c413f87a4c'
     }, 
     {
-        'applicant_id': '4728', 
+        'applicant_id': 4728, 
         'ipr_code': '40', 
         'title': 'DW MEDIFUSION DAI WHA CORP.,LTD.', 
         'serial_no': '18', 
@@ -322,7 +322,7 @@
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29311cd8c1f01d7defae4386f5a24f18022a2b1fa1706ac924c828a69d925eb623'
     }, 
     {
-        'applicant_id': '4728', 
+        'applicant_id': 4728, 
         'ipr_code': '40', 
         'title': 'DW FETAL.CARE DAI WHA CORP.,LTD.', 
         'serial_no': '19', 

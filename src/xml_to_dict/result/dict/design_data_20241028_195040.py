@@ -1,6 +1,6 @@
 [
     {
-        'applicant_id': '5576',
+        'applicant_id': 5576,
         'ipr_code': '30',
         'title': '지폐계수기',
         'serial_no': '1',
@@ -19,7 +19,7 @@
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0c87c7ad0d9e286bed75c617e338c490d0b52bbe1949c4f0a7624149d88d6aa0f7de01e5da00cad8310f967ce261403d9'
     },
     {
-        'applicant_id': '11319',
+        'applicant_id': 11319,
         'ipr_code': '30',
         'title': '도어록용 문의 개폐구',
         'serial_no': '1',
@@ -38,7 +38,7 @@
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c81397497f192ef840bd57d78fa20739dc91ae138f68d0ff14098f58c6fe6f835d8c9412d4dae388963b574'
     },
     {
-        'applicant_id': '11319',
+        'applicant_id': 11319,
         'ipr_code': '30',
         'title': '케이블 고정구',
         'serial_no': '2',
@@ -57,7 +57,7 @@
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c81397476d664ab5b4538a9275cbc229121bd0ce6eaf944602af04e3bda1225cb916f1f22e1855a3c2e8ddc'
     },
     {
-        'applicant_id': '11319',
+        'applicant_id': 11319,
         'ipr_code': '30',
         'title': '케이블 고정구',
         'serial_no': '3',
@@ -76,7 +76,7 @@
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974ba18a606ff14cb0eba8d3cc1d7748d85ccb732b58b6b9a2b437a6b06b0846448c9a94fd9463a490e'
     },
     {
-        'applicant_id': '4728',
+        'applicant_id': 4728,
         'ipr_code': '30',
         'title': '의료용 약물 주입기',
         'serial_no': '1',
@@ -95,7 +95,7 @@
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0dae0b29600727eb6591a673b1d6a81aee91bf3147333b85761ed54c5691d0e516227a1c5f9523a277e0ea00c2d8897bf'
     },
     {
-        'applicant_id': '4728',
+        'applicant_id': 4728,
         'ipr_code': '30',
         'title': '의료용 약물 주입기',
         'serial_no': '2',
@@ -114,7 +114,7 @@
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb080989b1a756d39114429a39d526d47aa0c862ecdd6607e7a2e3d480e0452873dcdbb9aef520ce9c45832eb7c4e11974f'
     },
     {
-        'applicant_id': '4728',
+        'applicant_id': 4728,
         'ipr_code': '30',
         'title': '환자용 약물주입기',
         'serial_no': '3',

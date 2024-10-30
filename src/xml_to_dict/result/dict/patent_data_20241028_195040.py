@@ -1,6 +1,6 @@
 [
     {
-        'applicant_id': '5576',
+        'applicant_id': 5576,
         'ipr_code': '20',
         'title': '디지탈 날염기',
         'serial_no': '1',
@@ -19,7 +19,7 @@
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfdfd0c8a3560dfe3f5c0c0fb908b6de237d7cc48779f92f863537681dac20830b'
     }, 
     {
-        'applicant_id': '5576',
+        'applicant_id': 5576,
         'ipr_code': '10',
         'title': '지폐계수기의 지폐투입부',
         'serial_no': '2',
@@ -38,7 +38,7 @@
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf47aff4ed89ac6d0c70f846740ea6e51639771f8df0d6a576e81419b3600e717a41d7332078df37fbc88a2a362be975668e743ac4f100f00b'
     }, 
     {
-        'applicant_id': '11319',
+        'applicant_id': 11319,
         'ipr_code': '10',
         'title': '나일론코팅층이 형성된 케이블타이의 제조방법 및 그 방법에 의하여 제조된 케이블타이',
         'serial_no': '1',
@@ -57,7 +57,7 @@
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf43e9413462bf6af607152217936c6cd7b53338f79a7923bd0a336b457842cd0b2deaae086a9c782d02a4cfdc43a1efc2ca20c6049cb2efce'
         }, 
         {
-        'applicant_id': '11319',
+        'applicant_id': 11319,
         'ipr_code': '10',
         'title': '케이블타이 절단방법 및 상기 절단방법을 수행하는케이블타이 절단기',
         'serial_no': '2',
@@ -76,7 +76,7 @@
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe46c22163f668395d480f02601a3792d130841bc7a3fbbb842bf6d88856218ee92'
     }, 
     {
-        'applicant_id': '11319',
+        'applicant_id': 11319,
         'ipr_code': '10',
         'title': '볼타입 케이블타이조립체',
         'serial_no': '3',
@@ -95,7 +95,7 @@
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf6dcfb159f5575464883b51bb3271b641583d50d2aed80a4f139ed7911934881b032733f9381f84dd28ff413890d1500462d8deb91e3bc783'
     }, 
     {
-        'applicant_id': '4728',
+        'applicant_id': 4728,
         'ipr_code': '10',
         'title': '초음파 에너지 디바이스',
         'serial_no': '1',
@@ -114,7 +114,7 @@
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf666d2e5b669c5d0392b3336dfe34fc40e58899d1f5b762e44140da36fef102df80ed3fde8cbda0b8ea340ef6349088f7e96547ea612e92e6'
     }, 
     {
-        'applicant_id': '4728',
+        'applicant_id': 4728,
         'ipr_code': '20',
         'title': '절연특성이 우수한 전자기기',
         'serial_no': '2',
@@ -133,7 +133,7 @@
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf069b3e16e200cce1fab0aa0ad0c41ca6e6a2a7ab50b93c40a1bc467899d7ab25'
     }, 
     {
-        'applicant_id': '4728',
+        'applicant_id': 4728,
         'ipr_code': '10',
         'title': '복강경 기구',
         'serial_no': '3',
@@ -152,7 +152,7 @@
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf0858af6bb15195c4eed892c4dd68fee68caa633d2df0198089cbb3d9b413d997287c884962a95a84b59fe60d12466ebd6f0a2d1b468c3eb2'
     }, 
     {
-        'applicant_id': '4728',
+        'applicant_id': 4728,
         'ipr_code': '10',
         'title': '시저 타입 초음파 에너지 디바이스',
         'serial_no': '4',
@@ -171,7 +171,7 @@
         'image_path': 'http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf9a14b8ef45e65e5e02305b7b587928880f0ce609ebec7bff3e3dc84211a70ae3e13bcc58a1c73ab85ca2e9d1b51c2f1c365f5c3fbbc78cc4'
     }, 
     {
-        'applicant_id': '4728',
+        'applicant_id': 4728,
         'ipr_code': '10',
         'title': '오토 캘리브레이션 기능을 갖는 시린지 펌프 및 시린지 펌프에서의 오토 캘리브레이션 방법',
         'serial_no': '5',
