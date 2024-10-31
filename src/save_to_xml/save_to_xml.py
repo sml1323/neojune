@@ -1,12 +1,9 @@
-import asyncio
-import aiohttp
-from .api_modules import design_api, patent_api, trademark_api
-from .crud import db_crud
-import os
-from dotenv import load_dotenv
-import time
-from datetime import datetime
+import time, asyncio, aiohttp, os
 import xml.etree.ElementTree as ET
+from dotenv import load_dotenv
+from datetime import datetime
+from .api_modules import design_api, patent_api, trademark_api
+from ..db.mysql import fetch_data_from_db
 
 # # XML 저장 함수
 def save_data_as_xml(data_dict, file_name):
@@ -64,7 +61,7 @@ async def main():
     service_key = os.getenv('SERVICE_KEY')
     semaphore = asyncio.Semaphore(50)
     limit = 1
-    test_apps = db_crud.fetch_data_from_db('TB24_200',['app_no', 'applicant_id'],limit)
+    test_apps = fetch_data_from_db('TB24_200',['app_no', 'applicant_id'],limit)
       
     
     start_time = time.time()

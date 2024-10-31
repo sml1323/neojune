@@ -63,7 +63,8 @@ tr = [{
 ############
 import sys
 import os
-from .crud.db_crud import upsert_data
+from ..db.mysql import upsert_data
+
 
 
 def dcit_to_db(table, data : dict):
