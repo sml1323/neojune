@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 from datetime import datetime
 from .api_modules import design_api, patent_api, trademark_api
 from ..db.mysql import Mysql
-
+load_dotenv()
 
 mysql = Mysql()
 
@@ -50,7 +50,8 @@ def save_data_as_xml(data_dict, file_name):
 
 
 
-async def fetch_all_info(service_key, app_no, applicant_id, session, semaphore, pa_dict, de_dict, tr_dict):
+async def fetch_all_info(app_no, applicant_id, session, semaphore, pa_dict, de_dict, tr_dict):
+    service_key = os.getenv('SERVICE_KEY')
     async with semaphore:
         result_patent = await patent_api.get_patent_info(service_key, app_no, session)
         result_design = await design_api.get_design_info(service_key, app_no, session)
@@ -62,34 +63,40 @@ async def fetch_all_info(service_key, app_no, applicant_id, session, semaphore, 
 
         print(f"{app_no} 총 데이터 수 : {len(pa_dict) +len(de_dict) + len(tr_dict) }")
 
-async def main():
-    load_dotenv()
-    service_key = os.getenv('SERVICE_KEY')
+async def get_fetch_app_info(data):
+    res = {
+        'pa_dict': {},
+        'de_dict': {},
+        'tr_dict': {}
+    }
     semaphore = asyncio.Semaphore(50)
-    limit = 1
-    test_apps = mysql.fetch_data_from_db('TB24_200',['app_no', 'applicant_id'],limit)
-      
-    
-    start_time = time.time()
-
-    pa_dict, de_dict, tr_dict = {}, {}, {}
-
     async with aiohttp.ClientSession() as session:
         tasks = []
-        for app_no, applicant_id in test_apps:
-            task = asyncio.create_task(fetch_all_info(service_key, app_no, applicant_id, session, semaphore, pa_dict, de_dict, tr_dict))
+        for app_no, applicant_id in data:
+            task = asyncio.create_task(fetch_all_info(app_no, applicant_id, session, semaphore, res["pa_dict"], res["de_dict"], res["tr_dict"]))
             tasks.append(task)
         await asyncio.gather(*tasks)
 
+    return res
+
+def get_fatch_data(limit=1):
+    return mysql.fetch_data_from_db('TB24_200',['app_no', 'applicant_id'], limit)
+
+async def main():
+    start_time = time.time()
+
+    data = get_fatch_data()
+    get_res = await get_fetch_app_info(data)
+
     end_time = time.time()
     elapsed_time = end_time - start_time
-    print(f"전체 호출 완료: {len(test_apps)}개 신청자 처리, 총 걸린 시간 : {elapsed_time:.2f}초")
+    print(f"전체 호출 완료: {len(data)}개 신청자 처리, 총 걸린 시간 : {elapsed_time:.2f}초")
 
     start = time.time()
     # data 부분만 XML 파일로 저장
-    save_data_as_xml(pa_dict, f"patent_data")
-    save_data_as_xml(de_dict, f"design_data")
-    save_data_as_xml(tr_dict, f"trademark_data")
+    save_data_as_xml(get_res["pa_dict"], f"patent_data")
+    save_data_as_xml(get_res["de_dict"], f"design_data")
+    save_data_as_xml(get_res["tr_dict"], f"trademark_data")
     print("모든 데이터를 XML 파일로 저장 완료")
     end = time.time()
     elapsed_time = end - start
