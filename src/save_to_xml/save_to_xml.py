@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 from datetime import datetime
 from .api_modules import design_api, patent_api, trademark_api
 from ..db.mysql import Mysql
-load_dotenv()
+
 
 mysql = Mysql()
 
@@ -51,11 +51,10 @@ def save_data_as_xml(data_dict, file_name):
 
 
 async def fetch_all_info(app_no, applicant_id, session, semaphore, pa_dict, de_dict, tr_dict):
-    service_key = os.getenv('SERVICE_KEY')
     async with semaphore:
-        result_patent = await patent_api.get_patent_info(service_key, app_no, session)
-        result_design = await design_api.get_design_info(service_key, app_no, session)
-        result_trademark = await trademark_api.get_trademark_info(service_key, app_no, session)
+        result_patent = await patent_api.get_patent_info(app_no, session)
+        result_design = await design_api.get_design_info(app_no, session)
+        result_trademark = await trademark_api.get_trademark_info(app_no, session)
 
         pa_dict[applicant_id] = result_patent
         de_dict[applicant_id] = result_design

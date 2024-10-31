@@ -3,10 +3,10 @@ import aiohttp
 import os
 from dotenv import load_dotenv
 
-
+load_dotenv()
 # 로그 설정
-
-async def get_design_info(service_key, applicant, session) -> dict:
+service_key = os.getenv('SERVICE_KEY')
+async def get_design_info(applicant, session) -> dict:
     url = "http://plus.kipris.or.kr/openapi/rest/designInfoSearchService/applicantNameSearchInfo"
     result = []
     success_count = 0
@@ -79,12 +79,10 @@ async def get_design_info(service_key, applicant, session) -> dict:
     return result
 
 async def main():
-    load_dotenv()
-    service_key = os.getenv('SERVICE_KEY')
     applicant = "120090148165"  # 테스트할 출원인명
 
     async with aiohttp.ClientSession() as session:
-        result = await get_design_info(service_key, applicant, session)
+        result = await get_design_info(applicant, session)
         print(result)
 
 # asyncio 이벤트 루프 실행

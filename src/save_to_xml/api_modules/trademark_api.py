@@ -2,8 +2,9 @@ import asyncio
 import aiohttp
 import os
 from dotenv import load_dotenv
-
-async def get_trademark_info(service_key, applicant, session) -> dict:
+load_dotenv()
+service_key = os.getenv('SERVICE_KEY')
+async def get_trademark_info(applicant, session) -> dict:
     url = "http://plus.kipris.or.kr/openapi/rest/trademarkInfoSearchService/applicantNamesearchInfo"
     result = []
     success_count = 0
@@ -128,12 +129,9 @@ async def get_trademark_info(service_key, applicant, session) -> dict:
     return result
 
 async def main():
-    load_dotenv()
-    service_key = os.getenv('SERVICE_KEY')
     applicant = "120140558200"  # 테스트할 출원인명
-
     async with aiohttp.ClientSession() as session:
-        result = await get_trademark_info(service_key, applicant, session)
+        result = await get_trademark_info(applicant, session)
     print(result)
 
 # asyncio 이벤트 루프 실행

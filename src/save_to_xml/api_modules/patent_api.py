@@ -2,11 +2,10 @@ import asyncio
 import aiohttp
 import os
 from dotenv import load_dotenv
-import re
-
+load_dotenv()
 # 로그 설정
-
-async def get_patent_info(service_key, applicant, session) -> dict:
+service_key = os.getenv('SERVICE_KEY')
+async def get_patent_info(applicant, session) -> dict:
     url = "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/applicantNameSearchInfo"
     result = []
     success_count = 0
@@ -71,12 +70,10 @@ async def get_patent_info(service_key, applicant, session) -> dict:
     return result
 
 async def main():
-    load_dotenv()  
-    service_key = os.getenv('SERVICE_KEY') 
     applicant = "120140558200"
 
     async with aiohttp.ClientSession() as session:
-        result = await get_patent_info(service_key, applicant, session)
+        result = await get_patent_info(applicant, session)
 
 if __name__ == "__main__":
     asyncio.run(main())
