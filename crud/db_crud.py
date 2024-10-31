@@ -1,6 +1,5 @@
 import os
 from typing import List, Dict, Optional
-
 import MySQLdb
 from crud.connection import db_connect
 
@@ -33,7 +32,10 @@ def insert_data_to_db(cursor,
     """
 
     # 데이터 삽입을 위한 값 준비
-    data_values = [tuple(data.values()) for data in data_to_insert]
+    data_values = []
+    for data in data_to_insert:
+        if data:
+            data_values.append(tuple(data.values()))
 
     # executemany 사용 여부에 따라 실행 방식 변경
     if use_executemany:
@@ -41,7 +43,6 @@ def insert_data_to_db(cursor,
     else:
         for data in data_values:
             cursor.execute(sql, data)
-
 
 def fetch_data_by_page(cursor, 
                        table_name: str, 

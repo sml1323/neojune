@@ -1,8 +1,6 @@
 import os
-
 from dotenv import load_dotenv
 import MySQLdb
-
 # .env 파일에서 DB 연결 정보를 로드
 load_dotenv()
 
