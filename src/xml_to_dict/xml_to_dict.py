@@ -51,6 +51,8 @@ class BaseDataParser:
                         sub_element = element.find(xml_key)
                         if sub_element is not None:
                             element_dict[output_key] = clean_whitespace(str(sub_element.text))
+                            if(output_key == "None"): 
+                                element_dict[output_key] = None
                             if(output_key == "ipr_code"): 
                                 element_dict[output_key] = element_dict[output_key][:2]
                             if(output_key == "main_ipc"):
