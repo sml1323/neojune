@@ -2,7 +2,7 @@ import time, asyncio, aiohttp
 import xml.etree.ElementTree as ET
 from .api_modules import design_api, patent_api, trademark_api
 from ..db.mysql import Mysql
-from .XMLEditor import XMLEditor
+from .XmlApplicanIdRegistor import XmlApplicanIdRegistor
 
 
 mysql = Mysql()
@@ -43,10 +43,10 @@ async def main():
     await get_run_time(get_info , f"전체 호출 완료: 3개 신청자 처리")
 
     async def save_xml():
-        xml_editor = XMLEditor()
-        xml_editor.save_data_as_xml(applicant_id, patent, f"patent_data")
-        xml_editor.save_data_as_xml(applicant_id, design, f"design_data")
-        xml_editor.save_data_as_xml(applicant_id, trademark, f"trademark_data")
+        xml_applican_id_registor = XmlApplicanIdRegistor()
+        xml_applican_id_registor.save("patent_data", applicant_id, patent)
+        xml_applican_id_registor.save("design_data", applicant_id, design)
+        xml_applican_id_registor.save("trademark_data", applicant_id, trademark)
     await get_run_time(save_xml , "patent_data 저장 완료")
 
 if __name__ == '__main__':
