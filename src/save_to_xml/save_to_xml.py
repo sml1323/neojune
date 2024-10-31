@@ -48,35 +48,35 @@ def save_data_as_xml(data_dict, file_name):
     print(f"{file_path} 저장 완료")
 
 
+class FetchInfo:
+    def __init__(self):
+        self.pa_dict = {}
+        self.de_dict = {}
+        self.tr_dict = {}
 
 
-async def fetch_all_info(app_no, applicant_id, session, semaphore, pa_dict, de_dict, tr_dict):
+async def fetch_all_info(app_no, applicant_id, session, semaphore, fetch_into:FetchInfo):
     async with semaphore:
-        result_patent = await patent_api.get_patent_info(app_no, session)
-        result_design = await design_api.get_design_info(app_no, session)
-        result_trademark = await trademark_api.get_trademark_info(app_no, session)
+        fetch_into.pa_dict[applicant_id] = await patent_api.get_patent_info(app_no, session)
+        fetch_into.de_dict[applicant_id] = await design_api.get_design_info(app_no, session)
+        fetch_into.tr_dict[applicant_id] = await trademark_api.get_trademark_info(app_no, session)
 
-        pa_dict[applicant_id] = result_patent
-        de_dict[applicant_id] = result_design
-        tr_dict[applicant_id] = result_trademark
+def print_total_data(app_no, fetch_info:FetchInfo):
+    print(f"{app_no} 총 데이터 수 : {len(fetch_info.pa_dict) +len(fetch_info.de_dict) + len(fetch_info.tr_dict) }")
 
-        print(f"{app_no} 총 데이터 수 : {len(pa_dict) +len(de_dict) + len(tr_dict) }")
 
-async def get_fetch_app_info(data):
-    res = {
-        'pa_dict': {},
-        'de_dict': {},
-        'tr_dict': {}
-    }
+
+async def get_fetch_app_info(data) -> FetchInfo:
+    fetch_info = FetchInfo()
     semaphore = asyncio.Semaphore(50)
     async with aiohttp.ClientSession() as session:
         tasks = []
         for app_no, applicant_id in data:
-            task = asyncio.create_task(fetch_all_info(app_no, applicant_id, session, semaphore, res["pa_dict"], res["de_dict"], res["tr_dict"]))
+            task = asyncio.create_task(fetch_all_info(app_no, applicant_id, session, semaphore, fetch_info))
             tasks.append(task)
         await asyncio.gather(*tasks)
-
-    return res
+        print_total_data(app_no, fetch_info)
+    return fetch_info
 
 def get_fatch_data(limit=1):
     return mysql.fetch_data_from_db('TB24_200',['app_no', 'applicant_id'], limit)
@@ -93,9 +93,9 @@ async def main():
 
     start = time.time()
     # data 부분만 XML 파일로 저장
-    save_data_as_xml(get_res["pa_dict"], f"patent_data")
-    save_data_as_xml(get_res["de_dict"], f"design_data")
-    save_data_as_xml(get_res["tr_dict"], f"trademark_data")
+    save_data_as_xml(get_res.pa_dict, f"patent_data")
+    save_data_as_xml(get_res.de_dict, f"design_data")
+    save_data_as_xml(get_res.tr_dict, f"trademark_data")
     print("모든 데이터를 XML 파일로 저장 완료")
     end = time.time()
     elapsed_time = end - start
