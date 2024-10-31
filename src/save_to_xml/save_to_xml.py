@@ -11,34 +11,34 @@ mysql = Mysql()
 def get_timestamp():
     return datetime.now().strftime("%Y%m%d_%H%M%S")
 
-# # XML 저장 함수
-def save_data_as_xml(data_dict, file_name):
+
+def save_data_as_xml(applicant_id, data, file_name):
     root = ET.Element("responseData")
 
-    for applicant_id, data in data_dict.items():
-        response_elem = ET.SubElement(root, "response")
 
-        # <applicant> 태그 추가
-        applicant_tag = ET.SubElement(response_elem, "applicant_id")
-        applicant_tag.text = str(applicant_id)
+    response_elem = ET.SubElement(root, "response")
 
-        # <header> 태그 추가 (결과 코드와 메시지를 포함)
-        header = ET.SubElement(response_elem, "header")
-        ET.SubElement(header, "resultCode")
-        ET.SubElement(header, "resultMsg")
+    # <applicant> 태그 추가
+    applicant_tag = ET.SubElement(response_elem, "applicant_id")
+    applicant_tag.text = str(applicant_id)
 
-        # <body> 태그 추가 및 그 안에 <items> 데이터 삽입
-        body = ET.SubElement(response_elem, "body")
-        items_elem = ET.SubElement(body, "items")
-        # data 내부에 있는 XML 콘텐츠를 <items>에 추가
-        for content in data:
-            original_data = ET.fromstring(content)
+    # <header> 태그 추가 (결과 코드와 메시지를 포함)
+    header = ET.SubElement(response_elem, "header")
+    ET.SubElement(header, "resultCode")
+    ET.SubElement(header, "resultMsg")
 
-            # 기존 XML에서 <items> 내부 태그들만 추가
-            items = original_data.find(".//items")
-            if items is not None:
-                for elem in items:
-                    items_elem.append(elem)
+    # <body> 태그 추가 및 그 안에 <items> 데이터 삽입
+    body = ET.SubElement(response_elem, "body")
+    items_elem = ET.SubElement(body, "items")
+    # data 내부에 있는 XML 콘텐츠를 <items>에 추가
+    for content in data:
+        original_data = ET.fromstring(content)
+
+        # 기존 XML에서 <items> 내부 태그들만 추가
+        items = original_data.find(".//items")
+        if items is not None:
+            for elem in items:
+                items_elem.append(elem)
 
     # XML 파일로 저장
     tree = ET.ElementTree(root)
@@ -48,57 +48,47 @@ def save_data_as_xml(data_dict, file_name):
     print(f"{file_path} 저장 완료")
 
 
-class FetchInfo:
-    def __init__(self):
-        self.pa_dict = {}
-        self.de_dict = {}
-        self.tr_dict = {}
 
 
-async def fetch_all_info(app_no, applicant_id, session, semaphore, fetch_into:FetchInfo):
-    async with semaphore:
-        fetch_into.pa_dict[applicant_id] = await patent_api.get_patent_info(app_no, session)
-        fetch_into.de_dict[applicant_id] = await design_api.get_design_info(app_no, session)
-        fetch_into.tr_dict[applicant_id] = await trademark_api.get_trademark_info(app_no, session)
+def get_app_no():
+    return mysql.fetch_data_from_db('TB24_200',['app_no'], 1)[0][0]
 
-def print_total_data(app_no, fetch_info:FetchInfo):
-    print(f"{app_no} 총 데이터 수 : {len(fetch_info.pa_dict) +len(fetch_info.de_dict) + len(fetch_info.tr_dict) }")
+def get_applicant_id():
+    return mysql.fetch_data_from_db('TB24_200',['applicant_id'], 1)[0][0]
 
-
-
-async def get_fetch_app_info(data) -> FetchInfo:
-    fetch_info = FetchInfo()
+async def get_fetch_app_info(app_no, callback) -> list[str]:
     semaphore = asyncio.Semaphore(50)
     async with aiohttp.ClientSession() as session:
-        tasks = []
-        for app_no, applicant_id in data:
-            task = asyncio.create_task(fetch_all_info(app_no, applicant_id, session, semaphore, fetch_info))
-            tasks.append(task)
-        await asyncio.gather(*tasks)
-        print_total_data(app_no, fetch_info)
-    return fetch_info
+        async with semaphore:
+            return await callback(app_no, session)
+    
 
-def get_fatch_data(limit=1):
-    return mysql.fetch_data_from_db('TB24_200',['app_no', 'applicant_id'], limit)
+async def get_run_time(callback:callable, msg:str):
+    start_time = time.time()
+    await callback()
+    end_time = time.time()
+    
+    elapsed_time = end_time - start_time
+    print(f"총 걸린 시간 : {elapsed_time:.2f}초")
+    print(msg)
 
 async def main():
-    start_time = time.time()
+    patent, design, trademark = None, None, None
+    app_no = get_app_no()
+    applicant_id = get_applicant_id()
 
-    data = get_fatch_data()
-    get_res = await get_fetch_app_info(data)
+    async def get_info():
+        nonlocal patent, design, trademark  # 바깥 스코프 변수에 접근
+        patent = await get_fetch_app_info(app_no, patent_api.get_patent_info)
+        design = await get_fetch_app_info(app_no, design_api.get_design_info)
+        trademark = await get_fetch_app_info(app_no, trademark_api.get_trademark_info)
+    await get_run_time(get_info , f"전체 호출 완료: 3개 신청자 처리")
 
-    end_time = time.time()
-    elapsed_time = end_time - start_time
-    print(f"전체 호출 완료: {len(data)}개 신청자 처리, 총 걸린 시간 : {elapsed_time:.2f}초")
+    async def save_xml():
+        save_data_as_xml(applicant_id, patent, f"patent_data")
+        save_data_as_xml(applicant_id, design, f"design_data")
+        save_data_as_xml(applicant_id, trademark, f"trademark_data")
+    await get_run_time(save_xml , "patent_data 저장 완료")
 
-    start = time.time()
-    # data 부분만 XML 파일로 저장
-    save_data_as_xml(get_res.pa_dict, f"patent_data")
-    save_data_as_xml(get_res.de_dict, f"design_data")
-    save_data_as_xml(get_res.tr_dict, f"trademark_data")
-    print("모든 데이터를 XML 파일로 저장 완료")
-    end = time.time()
-    elapsed_time = end - start
-    print(f"걸린 시간: {elapsed_time}")
 if __name__ == '__main__':
     asyncio.run(main())
