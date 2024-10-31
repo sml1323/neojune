@@ -63,12 +63,12 @@ tr = [{
 ############
 import sys
 import os
-from ..db.mysql import upsert_data
+from ..db.mysql import Mysql
 
-
+mysql = Mysql()
 
 def dcit_to_db(table, data : dict):
-    upsert_data(table, data)
+    mysql.upsert_data(table, data)
 
 
 def main():
