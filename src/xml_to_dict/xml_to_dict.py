@@ -150,9 +150,10 @@ def main():
     }
 
     # XML 파일 이름 설정
-    design_xml_filename = 'result/xml/design_data_20241028_195040.xml'  # XML 파일 경로
-    patent_xml_filename = 'result/xml/patent_data_20241028_195040.xml'  # XML 파일 경로
-    trademark_xml_filename = 'result/xml/trademark_data_20241028_195040.xml'  # XML 파일 경로
+    base_path = "/root/work/res/result/xml"
+    design_xml_filename = f'{base_path}/design_data_20241028_195040.xml'  # XML 파일 경로
+    patent_xml_filename = f'{base_path}/patent_data_20241028_195040.xml'  # XML 파일 경로
+    trademark_xml_filename = f'{base_path}/trademark_data_20241028_195040.xml'  # XML 파일 경로
 
     if False:
         print("#### design_parser")
