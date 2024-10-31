@@ -15,10 +15,10 @@ def format_biz_no(biz_no):
         return None
     return f"{biz_no[:3]}-{biz_no[3:5]}-{biz_no[5:]}"  # 220-88-87953
 
-def format_crop_no(crop_no):
-    if crop_no is None:
+def format_corp_no(corp_no):
+    if corp_no is None:
         return None
-    return f"{crop_no[:6]}-{crop_no[6:]}" 
+    return f"{corp_no[:6]}-{corp_no[6:]}" 
 
 
 def insert_data_from_excel_to_db_com(excel_file_path, table_name):
@@ -29,14 +29,14 @@ def insert_data_from_excel_to_db_com(excel_file_path, table_name):
     df = pd.read_excel(excel_file_path)
     df = df.where(pd.notnull(df), None)  # Nan -> None
 
-    # biz_no와 crop_no 포맷 변경
+    # biz_no와 corp_no 포맷 변경
     df['biz_no'] = df['biz_no'].astype(str).apply(format_biz_no)
-    df['corp_no'] = df['corp_no'].apply(format_crop_no)
+    df['corp_no'] = df['corp_no'].apply(format_corp_no)
 
     # 데이터프레임을 딕셔너리 리스트로 변환
     data_to_insert = df.drop(columns=['company_seq']).to_dict(orient='records')
 
-    insert_data_to_db(cursor, table_name,data_to_insert, True )
+    insert_data_to_db(cursor, table_name, data_to_insert, True )
     connection.commit()
     
     print(f"{len(df)} records inserted successfully.")
@@ -61,13 +61,13 @@ def insert_data_from_excel_to_db_uni(excel_file_path, table_name):
     # 형식 변경
     df['applicant_no'] = df['applicant_no'].astype(str)
     df['biz_no'] = df['biz_no'].apply(format_biz_no)
-    df['corp_no'] = df['corp_no'].apply(format_crop_no)
+    df['corp_no'] = df['corp_no'].apply(format_corp_no)
 
     df = df.replace({np.nan: None}) # Nan -> None
 
     data_to_insert = df.to_dict(orient='records')
 
-    insert_data_to_db(cursor, table_name,data_to_insert, True )
+    insert_data_to_db(cursor, table_name, data_to_insert, True )
 
     connection.commit()
     print(f"{len(df)} records inserted successfully.")
