@@ -63,7 +63,7 @@ async def main():
     load_dotenv()
     service_key = os.getenv('SERVICE_KEY')
     semaphore = asyncio.Semaphore(50)
-    limit = 3
+    limit = 1000
     test_apps = db_crud.fetch_data_from_db('TB24_200',['app_no', 'applicant_id'],limit)
       
     
@@ -85,9 +85,9 @@ async def main():
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     start = time.time()
     # data 부분만 XML 파일로 저장
-    save_data_as_xml(pa_dict, f"patent_data_{timestamp}")
-    save_data_as_xml(de_dict, f"design_data_{timestamp}")
-    save_data_as_xml(tr_dict, f"trademark_data_{timestamp}")
+    # save_data_as_xml(pa_dict, f"patent_data_{timestamp}")
+    # save_data_as_xml(de_dict, f"design_data_{timestamp}")
+    # save_data_as_xml(tr_dict, f"trademark_data_{timestamp}")
     print("모든 데이터를 XML 파일로 저장 완료")
     end = time.time()
     elapsed_time = end - start

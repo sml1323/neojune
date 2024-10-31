@@ -1,7 +1,12 @@
 import asyncio
 import aiohttp
 import os
+import time
 from dotenv import load_dotenv
+from monitoring.logging import setup_logger
+from monitoring.prometheus import API_CALL_COUNT, API_RESPONSE_TIME
+
+logger = setup_logger('trademark')
 
 async def get_trademark_info(service_key, applicant, session) -> dict:
     url = "http://plus.kipris.or.kr/openapi/rest/trademarkInfoSearchService/applicantNamesearchInfo"
@@ -50,8 +55,12 @@ async def get_trademark_info(service_key, applicant, session) -> dict:
     }
 
     # 총 항목 수 확인을 위한 첫 요청
+    logger.info(f"{applicant} 페이지 1 호출 성공")
+    API_CALL_COUNT.inc()
+    start_time = time.time()
     async with session.get(url, params=request_params, timeout=10) as response:
         content = await response.text()
+        API_RESPONSE_TIME.observe(time.time() - start_time) 
         try:
             # totalCount 문자열 검색
             start = content.find("<TotalSearchCount>") + len("<TotalSearchCount>")
@@ -74,6 +83,7 @@ async def get_trademark_info(service_key, applicant, session) -> dict:
 
         while retry_count < max_retries:
             try:
+                logger.info(f"{applicant} 페이지 {page} 호출 성공")
                 async with session.get(url, params=request_params, timeout=10) as response:
                     if response.status == 200:
                         content = await response.text()
@@ -86,7 +96,7 @@ async def get_trademark_info(service_key, applicant, session) -> dict:
                                 "data_type": "trademark",
                                 "data": result
                             }
-                        print(f"{applicant} 페이지 {page} 호출 성공")
+                        
                         result.append(content) 
                         success_count += 1
                         page += 1

@@ -1,8 +1,12 @@
 import asyncio
 import aiohttp
 import os
+import time
 from dotenv import load_dotenv
-import re
+from monitoring.logging import setup_logger
+from monitoring.prometheus import API_CALL_COUNT, API_RESPONSE_TIME
+
+logger = setup_logger('patent')
 
 # 로그 설정
 
@@ -24,8 +28,12 @@ async def get_patent_info(service_key, applicant, session) -> dict:
         'lastvalue': '',
     }
 
+    logger.info(f"{applicant} 페이지 1 호출 성공")
+    API_CALL_COUNT.inc()
+    start_time = time.time()
     async with session.get(url, params=request_params, timeout=10) as response:
         content = await response.text()
+        API_RESPONSE_TIME.observe(time.time() - start_time) 
         try:
             # 문자열 검색으로 totalCount 추출
             start = content.find("<TotalSearchCount>") + len("<TotalSearchCount>")
@@ -44,10 +52,11 @@ async def get_patent_info(service_key, applicant, session) -> dict:
     while page <= max_pages:
         request_params['docsStart'] = page
         try:
+            logger.info(f"{applicant} 페이지 {page} 호출 성공")
             async with session.get(url, params=request_params, timeout=10) as response:
                 if response.status == 200:
                     content = await response.text()
-                    print(f"{applicant} 페이지 {page} 호출 성공")
+                    
                     result.append(content)
                     success_count += 1
                     page += 1

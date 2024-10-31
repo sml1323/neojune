@@ -1,8 +1,12 @@
 import asyncio
 import aiohttp
 import os
+import time
 from dotenv import load_dotenv
+from monitoring.logging import setup_logger
+from monitoring.prometheus import API_CALL_COUNT, API_RESPONSE_TIME
 
+logger = setup_logger('design')
 
 # 로그 설정
 
@@ -33,8 +37,12 @@ async def get_design_info(service_key, applicant, session) -> dict:
         'descSort': 'true'  
     }
 
+    logger.info(f"{applicant} 페이지 1 호출 성공")
+    API_CALL_COUNT.inc()
+    start_time = time.time()
     async with session.get(url, params=request_params, timeout=10) as response:
         content = await response.text()
+        API_RESPONSE_TIME.observe(time.time() - start_time) 
         try:
             # totalCount 문자열 검색
             start = content.find("<totalCount>") + len("<totalCount>")
@@ -53,10 +61,12 @@ async def get_design_info(service_key, applicant, session) -> dict:
     while page <= max_pages:
         request_params['startNumber'] = page
         try:
+            logger.info(f"{applicant} 페이지 {page} 호출 성공")
+            API_CALL_COUNT.inc()
             async with session.get(url, params=request_params, timeout=10) as response:
                 if response.status == 200:
                     content = await response.text()
-                    print(f"{applicant} 페이지 {page} 호출 성공")
+                    
                     result.append(content)  # 파싱하지 않고 content 자체를 추가
                     success_count += 1
                     page += 1
