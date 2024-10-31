@@ -37,7 +37,7 @@ CREATE TABLE IF NOT EXISTS TB24_patent (
     applicant_id INT NOT NULL, -- TB24_200의 applicant_id 참조
     ipr_code VARCHAR(2),
     title VARCHAR(255),
-    serial_no VARCHAR(50) UNIQUE,
+    serial_no VARCHAR(50),
     applicant VARCHAR(100),
     main_ipc VARCHAR(15),
     appl_no VARCHAR(50) UNIQUE,
@@ -64,7 +64,7 @@ CREATE TABLE IF NOT EXISTS TB24_design (
     applicant_id INT NOT NULL, -- TB24_200의 applicant_id 참조
     ipr_code VARCHAR(2),
     title VARCHAR(255),
-    serial_no VARCHAR(50) UNIQUE,
+    serial_no VARCHAR(50),
     applicant VARCHAR(100),
     inventor VARCHAR(100),
     agent VARCHAR(100),
