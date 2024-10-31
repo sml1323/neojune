@@ -7,6 +7,10 @@ from ..db.mysql import Mysql
 
 
 mysql = Mysql()
+
+def get_timestamp():
+    return datetime.now().strftime("%Y%m%d_%H%M%S")
+
 # # XML 저장 함수
 def save_data_as_xml(data_dict, file_name):
     root = ET.Element("responseData")
@@ -38,7 +42,7 @@ def save_data_as_xml(data_dict, file_name):
 
     # XML 파일로 저장
     tree = ET.ElementTree(root)
-    file_path = f"src/save_to_xml/output/{file_name}.xml"
+    file_path = f"output/{get_timestamp()}/{file_name}.xml"
     os.makedirs(os.path.dirname(file_path), exist_ok=True)
     tree.write(file_path, encoding="utf-8", xml_declaration=True)
     print(f"{file_path} 저장 완료")
@@ -81,12 +85,11 @@ async def main():
     elapsed_time = end_time - start_time
     print(f"전체 호출 완료: {len(test_apps)}개 신청자 처리, 총 걸린 시간 : {elapsed_time:.2f}초")
 
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     start = time.time()
     # data 부분만 XML 파일로 저장
-    save_data_as_xml(pa_dict, f"patent_data_{timestamp}")
-    save_data_as_xml(de_dict, f"design_data_{timestamp}")
-    save_data_as_xml(tr_dict, f"trademark_data_{timestamp}")
+    save_data_as_xml(pa_dict, f"patent_data")
+    save_data_as_xml(de_dict, f"design_data")
+    save_data_as_xml(tr_dict, f"trademark_data")
     print("모든 데이터를 XML 파일로 저장 완료")
     end = time.time()
     elapsed_time = end - start

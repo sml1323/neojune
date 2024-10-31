@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='utf-8'?>
+<responseData><response><applicant_id>1</applicant_id><header><resultCode /><resultMsg /></header><body><items><PatentUtilityInfo>
+				<Applicant>(주)준소프트웨어</Applicant>
+				<ApplicationDate>20161229</ApplicationDate>
+				<ApplicationNumber>1020160182094</ApplicationNumber>
+				<Abstract>본 발명은 특허공보 번역 서비스 제공 시스템 및 그 방법에 관한 것으로서, 보다 상세하게는 번역신청자 단말기로부터 특정 특허공보의 번역 신청을 접수받으면 상기 특정 특허공보의 번역분량 및 조회수 등을 토대로 번역 비용을 산출하여 다수의 관심을 받는 특허공보의 번역정보가 조기에 확보될 수 있도록 하고, 나아가 그 번역정보를 타인과 공유하도록 하여 일정한 수익금이 발생하는 경우 번역신청자에게도 일정비율 배분되도록 하는 특허공보 번역 서비스 제공 시스템 및 그 방법에 관한 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e000af4c4afa61c388c8851783308119b57dfe5666853bf7bb49857c2c9efd2211eb0a6bc24bb023620072711647e0efb1f85f07ce52a16959d</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfcafa1947147e7af93520e6fdba6ed2dbe05227459c2502cde8994a6e47b340397a1360d1c15a24b20ca79a36e9bc19d4f4b5cfdca93330ba</ThumbnailPath>
+				<SerialNumber>1</SerialNumber>
+				<InventionName>특허공보 번역 서비스 제공 시스템 및 그 방법</InventionName>
+				<InternationalpatentclassificationNumber>G06Q 50/10|G06Q 30/04|G06Q 30/02</InternationalpatentclassificationNumber>
+				<OpeningDate>20180709</OpeningDate>
+				<OpeningNumber>1020180077594</OpeningNumber>
+				<PublicNumber />
+				<PublicDate />
+				<RegistrationDate />
+				<RegistrationNumber />
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)준소프트웨어</Applicant>
+				<ApplicationDate>20161111</ApplicationDate>
+				<ApplicationNumber>1020160149962</ApplicationNumber>
+				<Abstract>선행특허자료 검색사이트 운영방법에 관한 것으로, 다수의 회원이 의뢰 특허기술의 특허성을 부정시킬 수 있는 선행특허자료를 검색하는데 참여하고 그에 대한 대가 금액을 받을 수 있도록 하는 선행특허자료 검색사이트 운영방법에 관한 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0049d84b3a85581756d01305d774a38dcabaaf52097ca0140c5468ce6192f0e4ae3171908670a60c0bf4b42ae2252c27877744de1c7117a0ad</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cffd9b1953296b94ea9ee9c6e91895f6e31bedcfa9f1194f3ec7a89c5c0403dbddde29787f20908ae4b0519e61f33d17a700064af096a024ae</ThumbnailPath>
+				<SerialNumber>2</SerialNumber>
+				<InventionName>선행특허자료 검색사이트 운영방법</InventionName>
+				<InternationalpatentclassificationNumber>G06Q 50/18|G06Q 50/10|G06F 16/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20180521</OpeningDate>
+				<OpeningNumber>1020180052870</OpeningNumber>
+				<PublicNumber />
+				<PublicDate />
+				<RegistrationDate />
+				<RegistrationNumber />
+				<RegistrationStatus>취하</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)준소프트웨어</Applicant>
+				<ApplicationDate>20150316</ApplicationDate>
+				<ApplicationNumber>1020150035762</ApplicationNumber>
+				<Abstract>주요 국가별 판례정보의 특성을 추출/분석한 메타정보를 바탕으로 Data Sheet를 구성하고 이 Data Sheet를 CUI(Command Line Interface)를 통해서 조작/입력할 수 있는 기술</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0092c2ff201b2078b63321a42b19e01c6e9c5b6b2a365d410d42fb6ea4ed9c624dbe84dc463f12aaecd7bc9657ad7e69e32a603e6e9ffb3a14</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf15316e551546c56dce37708432ed69b83897243956fc88b63ebff262267213bd98fe647dd40fb43ace1af2725c1807c09d22e7605c721170</ThumbnailPath>
+				<SerialNumber>3</SerialNumber>
+				<InventionName>국제 판례정보 분석 및 자동탑재 시스템</InventionName>
+				<InternationalpatentclassificationNumber>G06F 40/10|G06F 16/00|G06Q 50/18</InternationalpatentclassificationNumber>
+				<OpeningDate>20160926</OpeningDate>
+				<OpeningNumber>1020160111085</OpeningNumber>
+				<PublicNumber />
+				<PublicDate />
+				<RegistrationDate />
+				<RegistrationNumber />
+				<RegistrationStatus>취하</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)준소프트웨어</Applicant>
+				<ApplicationDate>20161110</ApplicationDate>
+				<ApplicationNumber>1020160149238</ApplicationNumber>
+				<Abstract>본 발명은 상표권 침해 침해상품이 온라인 상에 판매되는 것을 감시하기 위한 방법으로서, 본 발명에 따른 온라인 상표권 침해상품 감시방법은 시스템총괄부를 이용하여, 검색 상품에 대한 기본정보를 설정하는 단계; 다음으로 검색설정부를 이용하여, 상품 기본 정보를 기준으로 검색어 및 관련어 검색 계획을 수립하는 단계; 다음으로 검색부를 이용하여, 검색 계획에 따라 대상물 검색하는 단계; 다음으로 필터부를 이용하여, 상표권 침해상품지수를 산출하는 단계; 다음으로 데이터부를 이용하여, 상기 산출된 상표권 침해상품지수를 저장하는 단계; 다음으로 데이터부에 저장된 상표권 침해상품지수를 보고하는 단계를 포함하는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00bd81961a43b8bd1dfabc6931b51a5f5309e527d037b8f9c928bc51ab1615cb80be3aff3275736c8489a2d5acca0a77dae81e2a98342d9e3c</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cff4ed4c3299e4dafe9765ed584d9e06d478881a2514450554d40c5f7d1dd2df6ec4640258abc9fd88801949596d21ef4a8269733044925a92</ThumbnailPath>
+				<SerialNumber>4</SerialNumber>
+				<InventionName>온라인 상표권 침해상품 감시방법</InventionName>
+				<InternationalpatentclassificationNumber>G06Q 50/18|G06F 16/00|G06Q 50/10</InternationalpatentclassificationNumber>
+				<OpeningDate>20180518</OpeningDate>
+				<OpeningNumber>1020180052204</OpeningNumber>
+				<PublicNumber />
+				<PublicDate />
+				<RegistrationDate />
+				<RegistrationNumber />
+				<RegistrationStatus>취하</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)준소프트웨어</Applicant>
+				<ApplicationDate>20161110</ApplicationDate>
+				<ApplicationNumber>1020160149245</ApplicationNumber>
+				<Abstract>본 발명은 입력된 키워드에 대해 상표의 등록 가능성 또는 침해 가능성을 판단하여 검색 결과로 제공하는 상표 정보 조회 방법에 관한 것이다.  본 발명의 일실시예에 의한 상표 정보 조회 방법은 복수의 단어로 구성된 상표에 대하여, 상기 상표를 구성하는 단어별로 구분하여 입력받는 단계; 및 상기 입력된 단어별로 식별력을 판단하여, 식별력이 있는 단어를 추출하거나 또는 상기 입력된 단어에 대응하는 선행 상표를 추출하는 단계를 포함할 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00bd81961a43b8bd1dfabc6931b51a5f5309e527d037b8f9c928bc51ab1615cb80a39b73485f1416275f6c0047a77e8e5c77ec2d9af8e78fa5</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cff4ed4c3299e4dafe9765ed584d9e06d478881a2514450554d40c5f7d1dd2df6ee43904b190bd151afcea12049f2c101f80ac3780b72d2eeb</ThumbnailPath>
+				<SerialNumber>5</SerialNumber>
+				<InventionName>상표 정보 조회 방법</InventionName>
+				<InternationalpatentclassificationNumber>G06F 16/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20180518</OpeningDate>
+				<OpeningNumber>1020180052206</OpeningNumber>
+				<PublicNumber />
+				<PublicDate />
+				<RegistrationDate />
+				<RegistrationNumber />
+				<RegistrationStatus>취하</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)준소프트웨어</Applicant>
+				<ApplicationDate>20161114</ApplicationDate>
+				<ApplicationNumber>1020160150780</ApplicationNumber>
+				<Abstract>본 발명은 온라인 출원 서비스 방법에 관한 것으로서, 보다 상세하게는 특허출원 등의 절차에 익숙하지 않은 비전문가라도 온라인을 통해 기 설정된 특정인 명의로 출원을 조속히 완료함으로써 선출원 지위를 빠르게 확보할 수 있어 향후 자신의 아이디어가 공개되더라도 제3자의 무단 도용 실시 또는 무단 도용 출원 등에 따른 법적대응에 유리한 입장을 취할 수 있도록 하는 온라인 출원 서비스 방법에 관한 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00d348f43d8f4b0deb4537688fcb488ea058ead5b7d6db6cf2a29b51d57916ace9c98d4d71b0dc21bcd8218aab7c46ce0d25199d2afc9b1166</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf54caa8ef826b90ea7f2d81a5b1194de678c1aaba2816b02f432273c61e24228b83a78690b415fb86e5dcfdbe10cee26c9df32c102e94a85c</ThumbnailPath>
+				<SerialNumber>6</SerialNumber>
+				<InventionName>온라인 출원 서비스 방법</InventionName>
+				<InternationalpatentclassificationNumber>G06Q 50/18|G06Q 50/10|G06F 3/048</InternationalpatentclassificationNumber>
+				<OpeningDate>20180524</OpeningDate>
+				<OpeningNumber>1020180053792</OpeningNumber>
+				<PublicNumber />
+				<PublicDate />
+				<RegistrationDate />
+				<RegistrationNumber />
+				<RegistrationStatus>취하</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)준소프트웨어</Applicant>
+				<ApplicationDate>20161111</ApplicationDate>
+				<ApplicationNumber>1020160149956</ApplicationNumber>
+				<Abstract>본 발명은 입력된 등록상표 또는 상호에 대해 상표 침해와 관련된 정보를 제공하는 상표 침해 정보 제공 방법에 대한 것이다.  본 발명의 일실시예에 의한 상표 침해 정보 제공 방법은 정보를 사용자 단말기로부터 입력받아 대상 상표의 상표명과 지정상품 정보를 추출하는 단계; 인터넷쇼핑몰 상품분류, 전화번호부 업종분류 또는 한국표준산업분류 중 어느 하나 이상을 포함하는 제2데이터베이스에서, 상기 대상 상표의 지정상품과 매핑되는 상품 또는 사업의 종류 정보 및 상기 대상 상표의 상표명의 적어도 일부를 포함하는 상품명 또는 상호명 정보를 추출하여 사용자 단말기로 출력하는 단계;를 포함할 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0049d84b3a85581756d01305d774a38dcabaaf52097ca0140c5468ce6192f0e4ae3092271d312f1743854fa36b11f7e4515f7a86f1f1a341b5</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cffd9b1953296b94ea9ee9c6e91895f6e31bedcfa9f1194f3ec7a89c5c0403dbdd29b8673ea492dfabf1a6c844c1ea767a464caa099d322c42</ThumbnailPath>
+				<SerialNumber>7</SerialNumber>
+				<InventionName>상표 침해 정보 제공 방법</InventionName>
+				<InternationalpatentclassificationNumber>G06Q 50/18|G06F 16/00|G06Q 30/06</InternationalpatentclassificationNumber>
+				<OpeningDate>20180521</OpeningDate>
+				<OpeningNumber>1020180052866</OpeningNumber>
+				<PublicNumber />
+				<PublicDate />
+				<RegistrationDate />
+				<RegistrationNumber />
+				<RegistrationStatus>취하</RegistrationStatus>
+			</PatentUtilityInfo>
+			<TotalSearchCount>7</TotalSearchCount>
+			<SearchStartNumber>1</SearchStartNumber>
+		</items></body></response></responseData>
