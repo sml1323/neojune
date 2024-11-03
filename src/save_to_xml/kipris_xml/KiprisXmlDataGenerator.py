@@ -3,8 +3,12 @@ from .KiprisXml import KiprisXml
 from .KiprisFetchData import KiprisFetchData
 
 class KiprisXmlDataGenerator(KiprisXml):
-    def __init__(self, data_list:list[KiprisFetchData] = None):
+    def __init__(self, data_list:KiprisFetchData|list[KiprisFetchData] = None):
         super().__init__()
+        # data_list가 list가 아니면 list로 감싸기
+        if not isinstance(data_list, list):
+            data_list = [data_list]
+            
         self.data_list: list[KiprisXmlData] = []
 
         # datas가 None이 아니고 첫 번째 요소가 문자열이면 set_kipris_datas 실행
