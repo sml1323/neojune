@@ -7,7 +7,7 @@ from .Kipris.xml.KiprisFetchData import KiprisFetchData
 from .Kipris.xml.KiprisXmlDataGenerator import KiprisXmlDataGenerator
 from .Kipris.KiprisApplicantInfoFetcher import KiprisApplicantInfoFetcher
 from .Kipris.core.KiprisParams import KiprisParams
-from .Kipris.params.PatentParams import PatentParams
+from .Kipris.params.KiprisPatentParams import KiprisPatentParams
 from .Kipris.KiprisFetcher import KiprisFetcher
 mysql = Mysql()
 
@@ -96,8 +96,8 @@ async def main():
         url = "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/applicantNameSearchInfo"
         patent_params = [
             # PatentParams(120010134557),
-            PatentParams(120010134557),
-            PatentParams(120080091393), # p3
+            KiprisPatentParams(120010134557),
+            KiprisPatentParams(120080091393), # p3
             # PatentParams(120070509242), # p23
             # PatentParams(120080034715),
             # PatentParams(120080176296),

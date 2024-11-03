@@ -1,7 +1,7 @@
 from ..core.KiprisParams import KiprisParams
 
 
-class TrademarkParams(KiprisParams):
+class KiprisTrademarkParams(KiprisParams):
     def __init__(self, applicant):
         super().__init__()
         self.applicantName = applicant

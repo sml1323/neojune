@@ -1,6 +1,6 @@
 from ..core.KiprisParams import KiprisParams
 
-class PatentParams(KiprisParams):
+class KiprisPatentParams(KiprisParams):
     def __init__(self, applicant):
         super().__init__()
         self.applicant = applicant
