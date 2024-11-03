@@ -38,8 +38,8 @@ class KiprisApplicantInfoFetcher:
 
     def _parse_total_count(self, content: str) -> int:
         """XML 응답에서 totalCount 추출"""
-        start = content.find("<TotalSearchCount>") + len("<TotalSearchCount>")
-        end = content.find("</TotalSearchCount>")
+        start = content.find("<totalCount>") + len("<totalCount>")
+        end = content.find("</totalCount>")
         try:
             return int(content[start:end].strip())
         except ValueError:
