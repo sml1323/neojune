@@ -1,5 +1,5 @@
 import os
-import xml.etree.ElementTree as ET
+import lxml.etree as ET
 from .KiprisFetchData import KiprisFetchData
 from .KiprisXml import KiprisXml
 
@@ -14,7 +14,8 @@ class KiprisXmlData(KiprisXml):
         base_path = os.path.dirname(__file__)
         return ET.parse(f"{base_path}/kipris_base.xml").getroot()
 
-
+    def fromstring(self, xml_str):
+        return ET.fromstring(xml_str.encode('utf-8'))
     
     def get_item_group_elem(self) ->ET.Element:
         return self.root.find("itemGrop")
@@ -29,7 +30,7 @@ class KiprisXmlData(KiprisXml):
     def append_items(self):
         item_group = self.get_item_group_elem()
         for xml_str in self.data.xml_str_list:
-            item_group.append(ET.fromstring(xml_str).find('body/items'))
+            item_group.append(self.fromstring(xml_str).find('body/items'))
 
 
     def get_merge_item_elem(self, xml_string:list[str]) -> list[ET.Element]:
