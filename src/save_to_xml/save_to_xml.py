@@ -3,7 +3,6 @@ import xml.etree.ElementTree as ET
 from ..db.mysql import Mysql
 from .api_modules import design_api, patent_api, trademark_api
 from .kipris_xml.KiprisXmlData import KiprisXmlData
-from .Kipris.core.KiprisXMLParserCore import KiprisXMLParser
 from .kipris_xml.KiprisFetchData import KiprisFetchData
 from .kipris_xml.KiprisXmlDataGenerator import KiprisXmlDataGenerator
 from .Kipris.KiprisApplicantInfoFetcher import KiprisApplicantInfoFetcher
