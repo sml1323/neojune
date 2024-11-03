@@ -36,16 +36,18 @@ class KiprisApplicantInfoFetcher:
             return await response.text()
 
 
-    def _parse_total_count(self, content: str) -> int:
-        """XML 응답에서 totalCount 추출"""
-        start = content.find("<totalCount>") + len("<totalCount>")
-        end = content.find("</totalCount>")
-        try:
-            return int(content[start:end].strip())
-        except ValueError:
-            print("totalCount를 찾을 수 없습니다.")
-            return 0
+    
+    def __get_total_count(self, content: str) -> int:
+        """lxml을 사용하여 XML 응답에서 totalCount 또는 TotalSearchCount 값을 추출"""
+        root = etree.fromstring(content.encode("utf-8"))
 
+        for tag in ["totalCount", "TotalSearchCount"]:
+            element = root.find(f".//{tag}")
+            if element is not None and element.text.isdigit():
+                return int(element.text)
+
+        print("totalCount와 TotalSearchCount를 찾을 수 없습니다.")
+        return 0
 
     def _calculate_max_pages(self, total_count: int):
         """총 페이지 수 계산"""
@@ -56,7 +58,7 @@ class KiprisApplicantInfoFetcher:
         try:
             content = await self._fetch_content(page)
             if page == 1:  # 첫 페이지는 totalCount 추출
-                total_count = self._parse_total_count(content)
+                total_count = self.__get_total_count(content)
                 if total_count == -1:
                     return False # totalCount 추출 실패시 함수 종료
                 self._calculate_max_pages(total_count)
