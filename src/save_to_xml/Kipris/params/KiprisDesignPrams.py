@@ -1,6 +1,6 @@
 from ..core.KiprisParams import KiprisParams
 
-class KiprisDesingPrams(KiprisParams):
+class KiprisDesignPrams(KiprisParams):
     def __init__(self, applicant):
         super().__init__()
         self.applicantName = applicant,
