@@ -32,7 +32,7 @@ class KiprisApplicantInfoFetcher:
     async def _fetch_content(self, page: int) -> str:
         """API 호출 후 페이지 내용 반환"""
         self.params.docsStart = page
-        async with self.session.get(self.url, params=self.params.get_dict(), timeout=10) as response:
+        async with self.session.get(self.url, params=self.params.get_dict(), timeout=20) as response:
             return await response.text()
 
 

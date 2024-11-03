@@ -1,12 +1,6 @@
 import time, asyncio
-import xml.etree.ElementTree as ET
 from ..db.mysql import Mysql
-from .api_modules import design_api, patent_api, trademark_api
 from .Kipris.xml.KiprisXmlDataGenerator import KiprisXmlDataGenerator
-
-
-from .Kipris.params.KiprisPatentParams import KiprisPatentParams
-from .Kipris.params.KiprisDesignPrams import KiprisDesignPrams
 
 from .Kipris.fetcher.KiprisPatentFetcher import KiprisPatentFetcher
 from .Kipris.fetcher.KiprisDesignFetcher import KiprisDesignFetcher
@@ -43,89 +37,45 @@ async def main():
     async def get_info():
         nonlocal patent, design, trademark  # 바깥 스코프 변수에 접근
         applicant_numbers = [
-            120080091393, # p3
+            # 120080091393, # p3
             # 120070509242 # p23
 
-            # 120090600987,
-            # 120090148165,
-            # 120090359981, 
-            # 120090359981, 
-            # 120100466769, 
-            # 120090148165
-            # 120010134557, 
-            # 120010134557, 120010471074, 120040124445, 120060278426, 120070304548,
-            # 120070304600, 120070332696, 120070355061, 120070461599, 120070485151,
-            # 120070509242, 120070522700, 120070527120, 120080024434, 120080025101,
-            # 120080034715, 120080063216, 120080091393, 120080103646, 120080126011,
-            # 120080176296, 120080213024, 120080257391, 120080258905, 120080391823,
-            # 120080414560, 120080416822, 120080548918, 120080580893, 120090001048,
-            # 120090006334, 120090056151, 120090071148, 120090089460, 120090118306,
-            # 120090124740, 120090144282, 120090283563, 120090380201, 120090380737,
-            # 120090383748, 120090445711, 120090535974, 120090538661, 120090560865,
-            # 120090600987, 120090605446, 120100010958, 120100136087, 120100136201,
-            # 120100225203, 120100264556, 120100352749, 120100374784,
-        ]
-        # patent = await get_fetch_app_infos(app_nos, kipris_xml_parser.get_info)
-        # patent = await get_fetch_app_infos(app_nos, patent_api.get_patent_info)
-
-        # kipris_applicant_info_fetcher = KiprisApplicantInfoFetcher(url, params)
-        # patent = await kipris_applicant_info_fetcher.get_info()
-        
-        url = "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/applicantNameSearchInfo"
-        _patent_params = [
-            KiprisPatentParams(120010134557),
-            KiprisPatentParams(120080091393), # p3
-            KiprisPatentParams(120070509242), # p23
-            KiprisPatentParams(120080034715),
-            KiprisPatentParams(120080176296),
+            120090600987,
+            120090148165,
+            120090359981, 
+            120090359981, 
+            120100466769, 
+            120090148165,
+            120010134557, 
+            120010134557, 120010471074, 120040124445, 120060278426, 120070304548,
+            120070304600, 120070332696, 120070355061, 120070461599, 120070485151,
+            120070509242, 120070522700, 120070527120, 120080024434, 120080025101,
+            120080034715, 120080063216, 120080091393, 120080103646, 120080126011,
+            120080176296, 120080213024, 120080257391, 120080258905, 120080391823,
+            120080414560, 120080416822, 120080548918, 120080580893, 120090001048,
+            120090006334, 120090056151, 120090071148, 120090089460, 120090118306,
+            120090124740, 120090144282, 120090283563, 120090380201, 120090380737,
+            120090383748, 120090445711, 120090535974, 120090538661, 120090560865,
+            120090600987, 120090605446, 120100010958, 120100136087, 120100136201,
+            120100225203, 120100264556, 120100352749, 120100374784,
         ]
 
-        _design_params = [
-            KiprisDesignPrams(120010134557),
-            KiprisDesignPrams(120080091393), # p3
-            KiprisDesignPrams(120070509242), # p23
-            KiprisDesignPrams(120080034715),
-            KiprisDesignPrams(120080176296),
-        ]
-        
+       
 
-        params = [
-            120010134557,
-            # 120080091393, # p3
-            # 120070509242, # p23
-            # 120080034715,
-            # 120080176296,
-        ]
-        
+        patent_fetcher = KiprisPatentFetcher(applicant_numbers)
+        patent = await patent_fetcher.get_fetch_app_infos()
 
-        # kipris_fetcher = KiprisFetcher(url, patent_params)
-        # params = await kipris_fetcher.get_fetch_app_infos()
-
-        # patent_fetcher = KiprisPatentFetcher(params)
-        # patent = await patent_fetcher.get_fetch_app_infos()
-
-        design_fetcher = KiprisDesignFetcher(_design_params)
+        design_fetcher = KiprisDesignFetcher(applicant_numbers)
         design = await design_fetcher.get_fetch_app_infos()
 
-        # trademark_fetcher = KiprisTrademarkFetcher(params)
-        # trademark = await trademark_fetcher.get_fetch_app_infos()
+        trademark_fetcher = KiprisTrademarkFetcher(applicant_numbers)
+        trademark = await trademark_fetcher.get_fetch_app_infos()
 
-        # patent = await get_fetch_app_infos(app_nos, patent_api.get_patent_info)
-        # design = await get_fetch_app_infos(app_nos, design_api.get_design_info)
-        # trademark = await get_fetch_app_infos(app_nos, trademark_api.get_trademark_info)
-        # print(patent[0].data)
-    
     await get_run_time(get_info , f"전체 호출 완료: 3개 신청자 처리")
-    # print(patent)
     
     
 
     async def save_xml():
-        # kipris_xml = KiprisXmlData(KiprisFetchData("123", "data"))
-        # kipris_xml = KiprisXmlData(patent[0])
-        # kipris_xml.apply()
-        # kipris_xml.save("patent_data")
-
         kipris_xml_dataGenerator = KiprisXmlDataGenerator(patent)
         kipris_xml_dataGenerator.apply()
         kipris_xml_dataGenerator.save("patent")
@@ -138,9 +88,7 @@ async def main():
         kipris_xml_dataGenerator.apply()
         kipris_xml_dataGenerator.save("trademark")
 
-        # xml_applican_id_registor.save("design_data", design)
-        # xml_applican_id_registor.save("trademark_data", trademark)
-    # await get_run_time(save_xml , "patent_data 저장 완료")
+    await get_run_time(save_xml , "patent_data 저장 완료")
 
 
 
