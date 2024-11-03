@@ -1,5 +1,5 @@
 import asyncio, aiohttp
-from ..kipris_xml.KiprisFetchData import KiprisFetchData
+from .xml.KiprisFetchData import KiprisFetchData
 from .KiprisApplicantInfoFetcher import KiprisApplicantInfoFetcher
 from .core.KiprisParams import KiprisParams
 

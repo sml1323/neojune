@@ -2,9 +2,9 @@ import time, asyncio, aiohttp
 import xml.etree.ElementTree as ET
 from ..db.mysql import Mysql
 from .api_modules import design_api, patent_api, trademark_api
-from .kipris_xml.KiprisXmlData import KiprisXmlData
-from .kipris_xml.KiprisFetchData import KiprisFetchData
-from .kipris_xml.KiprisXmlDataGenerator import KiprisXmlDataGenerator
+from .Kipris.xml.KiprisXmlData import KiprisXmlData
+from .Kipris.xml.KiprisFetchData import KiprisFetchData
+from .Kipris.xml.KiprisXmlDataGenerator import KiprisXmlDataGenerator
 from .Kipris.KiprisApplicantInfoFetcher import KiprisApplicantInfoFetcher
 from .Kipris.core.KiprisParams import KiprisParams
 from .Kipris.params.PatentParams import PatentParams
@@ -110,7 +110,7 @@ async def main():
         # trademark = await get_fetch_app_infos(app_nos, trademark_api.get_trademark_info)
         # print(patent[0].data)
     
-    # await get_run_time(get_info , f"전체 호출 완료: 3개 신청자 처리")
+    await get_run_time(get_info , f"전체 호출 완료: 3개 신청자 처리")
     # print(patent)
     
     
@@ -134,7 +134,7 @@ async def main():
 
         # xml_applican_id_registor.save("design_data", design)
         # xml_applican_id_registor.save("trademark_data", trademark)
-    # await get_run_time(save_xml , "patent_data 저장 완료")
+    await get_run_time(save_xml , "patent_data 저장 완료")
 
 
 
