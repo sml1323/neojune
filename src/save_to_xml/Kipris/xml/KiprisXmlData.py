@@ -1,6 +1,6 @@
 import os
 import lxml.etree as ET
-from .KiprisFetchData import KiprisFetchData
+from ..core.KiprisFetchData import KiprisFetchData
 from .KiprisXml import KiprisXml
 
 

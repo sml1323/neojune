@@ -1,6 +1,6 @@
 from .KiprisXmlData import KiprisXmlData
 from .KiprisXml import KiprisXml
-from .KiprisFetchData import KiprisFetchData
+from ..core.KiprisFetchData import KiprisFetchData
 
 class KiprisXmlDataGenerator(KiprisXml):
     def __init__(self, data_list:KiprisFetchData|list[KiprisFetchData] = None):

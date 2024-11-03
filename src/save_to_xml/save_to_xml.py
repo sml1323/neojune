@@ -1,14 +1,13 @@
-import time, asyncio, aiohttp
+import time, asyncio
 import xml.etree.ElementTree as ET
 from ..db.mysql import Mysql
 from .api_modules import design_api, patent_api, trademark_api
 from .Kipris.xml.KiprisXmlData import KiprisXmlData
-from .Kipris.xml.KiprisFetchData import KiprisFetchData
+from .Kipris.core.KiprisFetchData import KiprisFetchData
 from .Kipris.xml.KiprisXmlDataGenerator import KiprisXmlDataGenerator
-from .Kipris.KiprisApplicantInfoFetcher import KiprisApplicantInfoFetcher
 from .Kipris.core.KiprisParams import KiprisParams
 from .Kipris.params.KiprisPatentParams import KiprisPatentParams
-from .Kipris.KiprisFetcher import KiprisFetcher
+from .Kipris.core.KiprisFetcher import KiprisFetcher
 mysql = Mysql()
 
 
@@ -18,31 +17,6 @@ def get_app_no():
 def get_applicant_id():
     return mysql.fetch_data_from_db('TB24_200',['applicant_id'], 1)[0][0]
 
-
-
-async def get_fetch_app_info(app_no, callback) -> KiprisFetchData:
-    async with aiohttp.ClientSession() as session:
-        data = await callback(app_no, session)
-        return KiprisFetchData(app_no, data)
-
-
-
-
-
-async def get_fetch_app_infos(url, params: list[KiprisParams]) -> list[KiprisFetchData]:
-    semaphore = asyncio.Semaphore(50)
-
-    async def task(url, param:KiprisParams):
-        async with semaphore:
-            info = KiprisApplicantInfoFetcher(url, param)
-            return await info.get_info()
-
-    tasks = []
-    # params[0].get_dict()
-    for param in params:
-        tasks.append(asyncio.create_task(task(url, param)))
-    print(tasks)
-    return await asyncio.gather(*tasks)
 
 
 async def get_run_time(callback:callable, msg:str):

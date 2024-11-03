@@ -1,8 +1,8 @@
 import os, asyncio, aiohttp
 from lxml import etree
 from dotenv import load_dotenv
-from .xml.KiprisFetchData import KiprisFetchData
-from .core.KiprisParams import KiprisParams
+from .KiprisFetchData import KiprisFetchData
+from .KiprisParams import KiprisParams
 load_dotenv()
 service_key = os.getenv('SERVICE_KEY')
 
