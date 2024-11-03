@@ -37,3 +37,7 @@ class KiprisTrademarkParams(KiprisParams):
         self.motion = 'true'
         self.visual = 'true'
         self.descSort = 'true'
+        
+    @property
+    def applicant(self):
+        return self.applicantName
