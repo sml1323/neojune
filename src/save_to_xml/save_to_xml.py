@@ -10,13 +10,6 @@ from .Kipris.params.KiprisDesignPrams import KiprisDesignPrams
 mysql = Mysql()
 
 
-def get_app_no():
-    return mysql.fetch_data_from_db('TB24_200',['app_no'], 1)[0][0]
-
-def get_applicant_id():
-    return mysql.fetch_data_from_db('TB24_200',['applicant_id'], 1)[0][0]
-
-
 async def get_run_time(callback:callable, msg:str):
     start_time = time.time()
     await callback()
@@ -29,12 +22,6 @@ async def get_run_time(callback:callable, msg:str):
 
 async def main():
     patent, design, trademark = None, None, None
-    app_no = get_app_no()
-    applicant_id = get_applicant_id()
-    # kipris_xml_parser = KiprisXMLParser()
-    # print(app_no, applicant_id)
-
-    # get_app_no 이걸로 pplicant_id등록 해야함
     
     async def get_info():
         nonlocal patent, design, trademark  # 바깥 스코프 변수에 접근
@@ -62,9 +49,8 @@ async def main():
             # 120100225203, 120100264556, 120100352749, 120100374784,
         ]
 
-        # _applicant_numbers = mysql.get_limit_app_no_and_applicant_id(50)
-        _applicant_numbers = [[120070509242, 1]]
-
+        _applicant_numbers = mysql.get_limit_app_no_and_applicant_id(100)
+        
         patent_fetcher = KiprisPatentFetcher(_applicant_numbers)
         patent = await patent_fetcher.get_infos()
 
@@ -83,15 +69,15 @@ async def main():
         kipris_xml_dataGenerator.apply()
         kipris_xml_dataGenerator.save("patent")
 
-        # kipris_xml_dataGenerator.append_data_lists(design)
-        # kipris_xml_dataGenerator.apply()
-        # kipris_xml_dataGenerator.save("design")
+        kipris_xml_dataGenerator.append_data_lists(design)
+        kipris_xml_dataGenerator.apply()
+        kipris_xml_dataGenerator.save("design")
 
-        # kipris_xml_dataGenerator.append_data_lists(trademark)
-        # kipris_xml_dataGenerator.apply()
-        # kipris_xml_dataGenerator.save("trademark")
+        kipris_xml_dataGenerator.append_data_lists(trademark)
+        kipris_xml_dataGenerator.apply()
+        kipris_xml_dataGenerator.save("trademark")
 
-    # await get_run_time(save_xml , "patent_data 저장 완료")
+    await get_run_time(save_xml , "patent_data 저장 완료")
 
 
 
