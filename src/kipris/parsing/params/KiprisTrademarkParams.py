@@ -1,4 +1,4 @@
-from ..core.parsing.KiprisParams import KiprisParams
+from ...core.parsing.KiprisParams import KiprisParams
 
 
 class KiprisTrademarkParams(KiprisParams):

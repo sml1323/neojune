@@ -1,4 +1,4 @@
-from ..core.parsing.KiprisFetcher import KiprisFetcher
+from ...core.parsing.KiprisFetcher import KiprisFetcher
 from ..params.KiprisTrademarkParams import KiprisTrademarkParams
 
 class KiprisTrademarkFetcher(KiprisFetcher):
