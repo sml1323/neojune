@@ -34,7 +34,8 @@ async def get_applicant_no(service_key, applicant_info: tuple) -> dict:
                         body = api_result['response']['body']['items']
 
                         if body is None:
-                            return None
+                            # print(applicant_info)
+                            continue
 
                         bs_info = body.get('corpBsApplicantInfo')
 
@@ -76,6 +77,13 @@ async def process_applicants(service_key, applicant_info_list: list):
         await asyncio.sleep(0.02)  # 각 요청 후 20ms 대기
 
     results = await asyncio.gather(*tasks)
+
+    # all_results = []
+
+    # for result in results:
+    #     if result :
+    #         all_results.appen
+
 
     return results
     
