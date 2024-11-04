@@ -78,7 +78,7 @@ class KiprisApplicantInfoFetcher:
 
     async def _increment_page(self, page: int) -> int:
         """페이지 증가 및 지연 적용"""
-        # await asyncio.sleep(0.02)
+        await asyncio.sleep(0.02)
         return page + 1
 
     async def fetch_initial(self):
@@ -94,19 +94,20 @@ class KiprisApplicantInfoFetcher:
         
         tasks = []
         # 페이지 번호 2부터 self.max_pages까지 반복
-        for page in range(2, self.max_pages + 1):
-            # _handle_response 메서드를 호출하고, 각 요청을 tasks 리스트에 추가
-            task = self._handle_response(page)
-            tasks.append(task)
-        
-        # 세마포어를 사용하여 동시에 최대 10개의 요청만 보내도록 asyncio.gather로 모은 모든 task를 실행
-        async with semaphore:
-            await asyncio.gather(*tasks)
+        page = 2
+        while page <= self.max_pages:
+            async with semaphore:
+                # _increment_page를 사용하여 페이지를 증가시키면서 지연을 적용
+                task = self._handle_response(page)
+                tasks.append(task)
+                page = await self._increment_page(page)
+
+        # 모든 task를 asyncio.gather로 실행
+        await asyncio.gather(*tasks)
 
         # 최종 결과 출력
         total_requests = self.success_count + self.fail_count
         print(f"총 호출 횟수: {total_requests}, 성공: {self.success_count}, 실패: {self.fail_count}")
-
 
     async def get_info(self) -> KiprisFetchData:
         await self.open_session()  # 세션 열기
