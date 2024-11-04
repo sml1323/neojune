@@ -30,7 +30,7 @@ class Mysql:
         self._connect_to_db()  # 필요 시 연결을 재설정
         return self.connection.cursor()
 
-    def get_cursor_fetchall(self, sql, *args):
+    def get_cursor_fetchall(self, sql, *args) -> List[list]:
             with self._get_cursor() as cursor:
                 cursor.execute(sql, *args)
                 return json.loads(json.dumps(cursor.fetchall()))
