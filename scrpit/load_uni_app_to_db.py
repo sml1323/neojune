@@ -19,9 +19,9 @@ def get_university_data():
     cursor = connection.cursor()
     
     # TB24_110 테이블에서 데이터 가져오기
-    query = "SELECT uni_seq, uni_name, biz_no, corp_no FROM TB24_110"
+    query = "SELECT uni_seq, applicant, biz_no, corp_no FROM TB24_110"
     cursor.execute(query)
-    university_data = cursor.fetchall()  # (uni_seq, uni_name, biz_no, corp_no) 튜플 리스트
+    university_data = cursor.fetchall()  # (uni_seq, applicant, biz_no, corp_no) 튜플 리스트
 
     cursor.close()
     connection.close()
@@ -33,7 +33,7 @@ def insert_data_to_tb24_200(applicant_no_list, university_data):
 
     # applicant_no와 university 데이터 조합하여 데이터 준비
     data_to_insert = []
-    for applicant_no, (uni_seq, uni_name, biz_no, corp_no) in zip(applicant_no_list, university_data):
+    for applicant_no, (uni_seq, applicant, biz_no, corp_no) in zip(applicant_no_list, university_data):
         data_to_insert.append({
             'applicant_no': applicant_no,
             'app_seq': uni_seq,
@@ -42,7 +42,7 @@ def insert_data_to_tb24_200(applicant_no_list, university_data):
 
     # 데이터 삽입
     insert_query = """
-    INSERT INTO TB24_200 (applicant_no, app_seq, app_type)
+    INSERT INTO TB24_210 (applicant_no, app_seq, app_type)
     VALUES (%s, %s, %s)
     """
     cursor.executemany(insert_query, [(d['applicant_no'], d['app_seq'], d['app_type']) for d in data_to_insert])

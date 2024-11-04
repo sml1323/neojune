@@ -66,7 +66,7 @@ def insert_data_from_excel_to_db_uni(excel_file_path, table_name):
     df['corp_no'] = df['corp_no'].apply(format_corp_no)
 
     # (추가)필요한 컬럼만 선택
-    required_columns = ['biz_no', 'corp_no', 'uni_name']
+    required_columns = ['biz_no', 'corp_no', 'applicant']
     df = df[required_columns]
 
     df = df.replace({np.nan: None}) # Nan -> None
