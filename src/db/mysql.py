@@ -1,7 +1,7 @@
 import os
 from typing import List, Dict, Optional, Tuple
 from dotenv import load_dotenv
-import MySQLdb
+import MySQLdb, json
 
 load_dotenv()
 
@@ -30,6 +30,11 @@ class Mysql:
         self._connect_to_db()  # 필요 시 연결을 재설정
         return self.connection.cursor()
 
+    def get_cursor_fetchall(self, sql, *args):
+            with self._get_cursor() as cursor:
+                cursor.execute(sql, *args)
+                return json.loads(json.dumps(cursor.fetchall()))
+            
     def insert_data_to_db(self,
                          table_name: str,
                          data_to_insert: List[Dict[str, Optional[str]]], 
@@ -168,6 +173,14 @@ class Mysql:
             rows = cursor.fetchall()
 
         return rows
+
+    def get_limit_app_no_and_applicant_id(self, limit) -> list[list]:
+        sql = f'SELECT app_no, applicant_id FROM TB24_200 ORDER BY app_no, applicant_id LIMIT {limit}'
+        return self.get_cursor_fetchall(sql)
+
+    def get_all_app_no_and_applicant_id(self, table="TB24_200") -> list[list]:
+        sql = f'SELECT app_no, applicant_id FROM {table} ORDER BY app_no, applicant_id;'
+        return self.get_cursor_fetchall(sql)
 
     def close_connection(self):
         """연결 닫기"""
