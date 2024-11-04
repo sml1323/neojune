@@ -1,4 +1,4 @@
-from ..core.KiprisFetcher import KiprisFetcher
+from ..core.parsing.KiprisFetcher import KiprisFetcher
 from ..params.KiprisDesignPrams import KiprisDesignPrams
 
 class KiprisDesignFetcher(KiprisFetcher):

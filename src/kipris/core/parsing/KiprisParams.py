@@ -1,6 +1,6 @@
 import os
 
-from .KiprisObject import KiprisObject
+from ..KiprisObject import KiprisObject
 
 
 service_key = os.getenv('SERVICE_KEY')

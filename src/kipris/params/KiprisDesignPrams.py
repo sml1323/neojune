@@ -1,4 +1,4 @@
-from ..core.KiprisParams import KiprisParams
+from ..core.parsing.KiprisParams import KiprisParams
 
 class KiprisDesignPrams(KiprisParams):
     def __init__(self, app_no, applicant_id):
