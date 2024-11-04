@@ -50,7 +50,8 @@ async def main():
         ]
 
         _applicant_numbers = mysql.get_limit_app_no_and_applicant_id(100)
-        
+        _applicant_numbers = [[120070509242, 10],[120080091393, 20]]
+
         patent_fetcher = KiprisPatentFetcher(_applicant_numbers)
         patent = await patent_fetcher.get_infos()
 

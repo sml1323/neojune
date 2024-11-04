@@ -175,11 +175,11 @@ class Mysql:
         return rows
 
     def get_limit_app_no_and_applicant_id(self, limit) -> list[list]:
-        sql = f'SELECT app_no, applicant_id FROM TB24_200 ORDER BY app_no, applicant_id LIMIT {limit}'
+        sql = f'SELECT app_no, applicant_id FROM TB24_200 ORDER BY applicant_id, applicant_id LIMIT {limit}'
         return self.get_cursor_fetchall(sql)
 
     def get_all_app_no_and_applicant_id(self, table="TB24_200") -> list[list]:
-        sql = f'SELECT app_no, applicant_id FROM {table} ORDER BY app_no, applicant_id;'
+        sql = f'SELECT app_no, applicant_id FROM {table} ORDER BY applicant_id, applicant_id;'
         return self.get_cursor_fetchall(sql)
 
     def close_connection(self):
