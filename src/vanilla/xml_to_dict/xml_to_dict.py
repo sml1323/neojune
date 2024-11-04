@@ -1,6 +1,11 @@
 import os, re
 from lxml import etree
 from typing import List, Dict
+from ...kipris.mapping.DesignKiprisMapping import DesignKiprisMapping
+from ...kipris.mapping.PatentKiprisMapping import PatentKiprisMapping
+from ...kipris.mapping.TrademarkKiprisMapping import TrademarkKiprisMapping
+
+
 
 def clean_whitespace(text: str) -> str:
     """텍스트의 여러 개 공백을 하나로 줄이고, 앞뒤 공백을 제거."""
@@ -90,72 +95,20 @@ class TrademarkDataParser(BaseDataParser):
 
 def main():
     # 매핑 사전 정의
-    design_mapping = {
-        "ipr_seq": "",
-        "applicant_id": "",
-        "ipr_code": "applicationNumber", # 2글자
-        "title": "articleName",
-        "serial_no": "number",
-        "applicant": "applicantName",
-        "inventor": "inventorName",
-        "agent": "agentName",
-        "appl_no": "applicationNumber",
-        "appl_date": "applicationDate",
-        "open_no": "openNumber",
-        "open_date": "openDate",
-        "reg_no": "registrationNumber",
-        "reg_date": "registrationDate",
-        "pub_num": "publicationNumber",
-        "pub_date": "publicationDate",
-        "legal_status_desc": "applicationStatus",
-        "image_path": "imagePath",
-    }
 
+    design_mapping = DesignKiprisMapping().get_dict()
 
-    patent_mapping = {
-        "ipr_seq": "",  # 일련번호 # 
-        "applicant_id": "", # 특허고객번호
-        "ipr_code": "ApplicationNumber", # 2글자
-        "title": "InventionName",
-        "serial_no": "SerialNumber",
-        "applicant": "Applicant",
-        "main_ipc": "InternationalpatentclassificationNumber",
-        "appl_no": "ApplicationNumber",
-        "appl_date": "ApplicationDate",
-        "open_no": "OpeningNumber",
-        "open_date": "OpeningDate",
-        "reg_no": "RegistrationNumber",
-        "reg_date": "RegistrationDate",
-        "pub_num": "PublicNumber",
-        "pub_date": "PublicDate",
-        "legal_status_desc": "RegistrationStatus",
-        "abstract": "Abstract",
-        "image_path": "ThumbnailPath",
-    }
+    patent_mapping = PatentKiprisMapping().get_dict()
 
-    trademark_mapping = {
-        "ipr_seq": "",
-        "applicant_id": "",
-        "ipr_code": "ApplicationNumber", # 2 글자
-        "title": "Title",
-        "serial_no": "SerialNumber",
-        "applicant": "ApplicantName",
-        "agent": "AgentName",
-        "appl_no": "ApplicationNumber",
-        "appl_date": "ApplicationDate",
-        "pub_num": "PublicNumber",
-        "pub_date": "PublicDate",
-        "legal_status_desc": "ApplicationStatus",
-        "image_path": "ThumbnailPath",
-    }
+    trademark_mapping = TrademarkKiprisMapping().get_dict()
 
     # XML 파일 이름 설정
-    base_path = "/root/work/res/output/xml"
+    base_path = "/root/work/res/xml"
     design_xml_filename = f'{base_path}/design_data_20241028_195040.xml'  # XML 파일 경로
     patent_xml_filename = f'{base_path}/patent_data_20241028_195040.xml'  # XML 파일 경로
     trademark_xml_filename = f'{base_path}/trademark_data_20241028_195040.xml'  # XML 파일 경로
 
-    if False:
+    if True:
         print("#### design_parser")
         design_parser = DesignDataParser(design_mapping, design_xml_filename)
         design_results = design_parser.parse()
@@ -171,7 +124,7 @@ def main():
         print("")
         print("")
 
-    if True:
+    if False:
         print("#### trademark_parser")
         trademark_parser = TrademarkDataParser(trademark_mapping, trademark_xml_filename)
         trademark_results = trademark_parser.parse()
