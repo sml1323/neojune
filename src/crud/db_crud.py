@@ -3,6 +3,9 @@ from typing import List, Dict, Optional
 
 import MySQLdb
 from crud.connection import db_connect
+from monitoring.logging import setup_logger_db
+
+logging = setup_logger_db("db")
 
 def insert_data_to_db(cursor,
                      table_name: str,
@@ -147,6 +150,7 @@ def upsert_data(
     if not data:
         print("No data to insert.")
         return
+
     
     connection = db_connect()
     cursor = connection.cursor()

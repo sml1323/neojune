@@ -67,11 +67,11 @@ async def get_trademark_info(service_key, applicant, session) -> dict:
             end = content.find("</TotalSearchCount>")
             total_count = int(content[start:end].strip())
             max_pages = (total_count // docs_count) + (1 if total_count % docs_count else 0)
-            print(f"총 검색 건수: {total_count}, 총 페이지 수: {max_pages}")
+            # print(f"총 검색 건수: {total_count}, 총 페이지 수: {max_pages}")
             result.append(content)
             success_count += 1
         except (ValueError, AttributeError) as e:
-            print(f"totalCount를 찾을 수 없습니다. 응답 내용: {content[:200]}... 오류: {e}")
+            # print(f"totalCount를 찾을 수 없습니다. 응답 내용: {content[:200]}... 오류: {e}")
             return result
 
     # 전체 페이지 순회
@@ -90,7 +90,7 @@ async def get_trademark_info(service_key, applicant, session) -> dict:
 
                         # 빈 페이지 확인
                         if "<TradeMarkInfo>" not in content:
-                            print("더 이상 데이터가 없습니다.")
+                            # print("더 이상 데이터가 없습니다.")
                             return {
                                 "applicant": applicant,
                                 "data_type": "trademark",
@@ -134,7 +134,7 @@ async def get_trademark_info(service_key, applicant, session) -> dict:
             fail_count += 1
             page += 1
 
-    print(f"총 호출 횟수: {success_count + fail_count}, 성공 횟수: {success_count}, 실패 횟수: {fail_count}")
+    # print(f"총 호출 횟수: {success_count + fail_count}, 성공 횟수: {success_count}, 실패 횟수: {fail_count}")
     return result
 
 async def main():

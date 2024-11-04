@@ -49,7 +49,7 @@ async def get_design_info(service_key, applicant, session) -> dict:
             end = content.find("</totalCount>")
             total_count = int(content[start:end].strip())
             max_pages = (total_count // docs_count) + (1 if total_count % docs_count else 0)
-            print(f"총 검색 건수: {total_count}, 총 페이지 수: {max_pages}")
+            # print(f"총 검색 건수: {total_count}, 총 페이지 수: {max_pages}")
             result.append(content)
             success_count += 1
         except ValueError:
@@ -72,7 +72,7 @@ async def get_design_info(service_key, applicant, session) -> dict:
                     page += 1
                     await asyncio.sleep(0.02)  # 다음 요청 전 지연 시간 추가
                 else:
-                    print(f"{applicant} 페이지 {page} HTTP 오류: {response.status}")
+                    # print(f"{applicant} 페이지 {page} HTTP 오류: {response.status}")
                     fail_count += 1
                     break
         except asyncio.TimeoutError:
@@ -85,7 +85,7 @@ async def get_design_info(service_key, applicant, session) -> dict:
             fail_count += 1
             break
 
-    print(f"총 호출 횟수: {success_count + fail_count}, 성공 횟수: {success_count}, 실패 횟수: {fail_count}")
+    # print(f"총 호출 횟수: {success_count + fail_count}, 성공 횟수: {success_count}, 실패 횟수: {fail_count}")
     return result
 
 async def main():
@@ -95,7 +95,7 @@ async def main():
 
     async with aiohttp.ClientSession() as session:
         result = await get_design_info(service_key, applicant, session)
-        print(result)
+        # print(result)
 
 # asyncio 이벤트 루프 실행
 if __name__ == "__main__":
