@@ -1,3 +1,8 @@
+from ...kipris.upload.KiprisTB24DesignDataUploader import KiprisTB24DesignDataUploader
+from ...kipris.upload.KiprisTB24PatentDataUploader import KiprisTB24PatentDataUploader
+from ...kipris.upload.KiprisTB24TrademarkDataUploader import KiprisTB24TrademarkDataUploader
+
+
 ## 예시 데이터 
 
 de = [{
@@ -58,26 +63,11 @@ tr = [{
 
 
 
-
-
-############
-import sys
-import os
-from ..db.mysql import Mysql
-
-mysql = Mysql()
-
-def dcit_to_db(table, data : dict):
-    mysql.upsert_data(table, data)
-
-
 def main():
-
-    sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-    dcit_to_db('TB24_patent',pa)
-    dcit_to_db('TB24_design',de)
-    dcit_to_db('TB24_trademark', tr)
-
+    KiprisTB24PatentDataUploader().upload(pa)
+    KiprisTB24DesignDataUploader().upload(de)
+    KiprisTB24TrademarkDataUploader().upload(tr)
+    
 
 if __name__ == "__main__":
     main()
