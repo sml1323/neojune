@@ -1,23 +1,13 @@
 import time, asyncio
 from ..db.mysql import Mysql
 from .Kipris.xml.KiprisXmlDataGenerator import KiprisXmlDataGenerator
-
 from .Kipris.fetcher.KiprisPatentFetcher import KiprisPatentFetcher
 from .Kipris.fetcher.KiprisDesignFetcher import KiprisDesignFetcher
 from .Kipris.fetcher.KiprisTrademarkFetcher import KiprisTrademarkFetcher
-from .Kipris.params.KiprisDesignPrams import KiprisDesignPrams
+from ..util import util
 
 mysql = Mysql()
 
-
-async def get_run_time(callback:callable, msg:str):
-    start_time = time.time()
-    await callback()
-    end_time = time.time()
-    
-    elapsed_time = end_time - start_time
-    print(f"총 걸린 시간 : {elapsed_time:.2f}초")
-    print(msg)
 
 
 async def main():
@@ -61,7 +51,7 @@ async def main():
         trademark_fetcher = KiprisTrademarkFetcher(_applicant_numbers)
         trademark = await trademark_fetcher.get_infos()
 
-    await get_run_time(get_info , f"전체 호출 완료: 3개 신청자 처리")
+    await util.get_run_time(get_info , f"전체 호출 완료: 3개 신청자 처리")
     
     
 
@@ -78,7 +68,7 @@ async def main():
         kipris_xml_dataGenerator.apply()
         kipris_xml_dataGenerator.save("trademark")
 
-    await get_run_time(save_xml , "patent_data 저장 완료")
+    await util.get_run_time(save_xml , "patent_data 저장 완료")
 
 
 
