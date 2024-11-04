@@ -16,7 +16,6 @@ def get_applicant_id():
     return mysql.fetch_data_from_db('TB24_200',['applicant_id'], 1)[0][0]
 
 
-
 async def get_run_time(callback:callable, msg:str):
     start_time = time.time()
     await callback()
@@ -33,6 +32,8 @@ async def main():
     applicant_id = get_applicant_id()
     # kipris_xml_parser = KiprisXMLParser()
     # print(app_no, applicant_id)
+
+    # get_app_no 이걸로 pplicant_id등록 해야함
     
     async def get_info():
         nonlocal patent, design, trademark  # 바깥 스코프 변수에 접근
@@ -63,15 +64,15 @@ async def main():
        
 
         patent_fetcher = KiprisPatentFetcher(applicant_numbers)
-        patent = await patent_fetcher.get_fetch_app_infos()
+        patent = await patent_fetcher.get_infos()
 
         design_fetcher = KiprisDesignFetcher(applicant_numbers)
-        design = await design_fetcher.get_fetch_app_infos()
+        design = await design_fetcher.get_infos()
 
         trademark_fetcher = KiprisTrademarkFetcher(applicant_numbers)
-        trademark = await trademark_fetcher.get_fetch_app_infos()
+        trademark = await trademark_fetcher.get_infos()
 
-    await get_run_time(get_info , f"전체 호출 완료: 3개 신청자 처리")
+    # await get_run_time(get_info , f"전체 호출 완료: 3개 신청자 처리")
     
     
 
@@ -88,7 +89,7 @@ async def main():
         kipris_xml_dataGenerator.apply()
         kipris_xml_dataGenerator.save("trademark")
 
-    await get_run_time(save_xml , "patent_data 저장 완료")
+    # await get_run_time(save_xml , "patent_data 저장 완료")
 
 
 

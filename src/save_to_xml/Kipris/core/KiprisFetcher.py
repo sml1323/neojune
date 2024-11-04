@@ -18,7 +18,7 @@ class KiprisFetcher:
             return await info.get_info()
         
 
-    async def get_fetch_app_infos(self) -> list[KiprisFetchData]:
+    async def get_infos(self) -> list[KiprisFetchData]:
         semaphore = asyncio.Semaphore(50)
         tasks = []
         for param in self.params:
