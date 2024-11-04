@@ -1,6 +1,6 @@
 import os
 import lxml.etree as ET
-from ....util import util
+from ...util import util
 
 class KiprisXml:
     def __init__(self):

@@ -1,10 +1,10 @@
-import time, asyncio
-from ..db.mysql import Mysql
-from .Kipris.xml.KiprisXmlDataGenerator import KiprisXmlDataGenerator
-from .Kipris.fetcher.KiprisPatentFetcher import KiprisPatentFetcher
-from .Kipris.fetcher.KiprisDesignFetcher import KiprisDesignFetcher
-from .Kipris.fetcher.KiprisTrademarkFetcher import KiprisTrademarkFetcher
-from ..util import util
+import asyncio
+from ...db.mysql import Mysql
+from ...Kipris.xml.KiprisXmlDataGenerator import KiprisXmlDataGenerator
+from ...Kipris.fetcher.KiprisPatentFetcher import KiprisPatentFetcher
+from ...Kipris.fetcher.KiprisDesignFetcher import KiprisDesignFetcher
+from ...Kipris.fetcher.KiprisTrademarkFetcher import KiprisTrademarkFetcher
+from ...util import util
 
 mysql = Mysql()
 
