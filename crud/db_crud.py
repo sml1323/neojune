@@ -23,7 +23,10 @@ def insert_data_to_db(cursor,
         return
 
     # 첫 번째 데이터의 키를 통해 컬럼 이름 추출
-    columns = data_to_insert[0].keys()
+    for data in data_to_insert:
+        if data :
+            columns = data.keys()
+            break
 
     # SQL 쿼리 준비
     sql = f"""
