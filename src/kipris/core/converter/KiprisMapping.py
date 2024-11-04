@@ -1,4 +1,4 @@
-from .KiprisObject import KiprisObject
+from ..KiprisObject import KiprisObject
 
 class KiprisMapping(KiprisObject):
     def __init__(self):

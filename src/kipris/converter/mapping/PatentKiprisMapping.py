@@ -1,4 +1,4 @@
-from ..core.KiprisMapping import KiprisMapping
+from ...core.converter.KiprisMapping import KiprisMapping
 
 class PatentKiprisMapping(KiprisMapping):
     def __init__(self):

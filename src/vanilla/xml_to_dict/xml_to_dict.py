@@ -1,9 +1,9 @@
 import os, re
 from lxml import etree
 from typing import List, Dict
-from ...kipris.mapping.DesignKiprisMapping import DesignKiprisMapping
-from ...kipris.mapping.PatentKiprisMapping import PatentKiprisMapping
-from ...kipris.mapping.TrademarkKiprisMapping import TrademarkKiprisMapping
+from ...kipris.converter.mapping.DesignKiprisMapping import DesignKiprisMapping
+from ...kipris.converter.mapping.PatentKiprisMapping import PatentKiprisMapping
+from ...kipris.converter.mapping.TrademarkKiprisMapping import TrademarkKiprisMapping
 
 
 
