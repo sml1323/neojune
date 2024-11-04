@@ -1,9 +1,9 @@
 import asyncio
 from ...db.mysql import Mysql
-from ...Kipris.xml.KiprisXmlDataGenerator import KiprisXmlDataGenerator
-from ...Kipris.fetcher.KiprisPatentFetcher import KiprisPatentFetcher
-from ...Kipris.fetcher.KiprisDesignFetcher import KiprisDesignFetcher
-from ...Kipris.fetcher.KiprisTrademarkFetcher import KiprisTrademarkFetcher
+from ...kipris.xml.KiprisXmlDataGenerator import KiprisXmlDataGenerator
+from ...kipris.fetcher.KiprisPatentFetcher import KiprisPatentFetcher
+from ...kipris.fetcher.KiprisDesignFetcher import KiprisDesignFetcher
+from ...kipris.fetcher.KiprisTrademarkFetcher import KiprisTrademarkFetcher
 from ...util import util
 
 mysql = Mysql()
