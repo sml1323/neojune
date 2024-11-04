@@ -1,9 +1,9 @@
 from ..core.KiprisParams import KiprisParams
 
 class KiprisDesignPrams(KiprisParams):
-    def __init__(self, applicant):
-        super().__init__()
-        self.applicantName = applicant
+    def __init__(self, app_no, applicant_id):
+        super().__init__(app_no, applicant_id)
+        self.applicantName = app_no
         self.startNumber = 1
         self.etc = 'true'
         self.part = 'true'
@@ -17,8 +17,4 @@ class KiprisDesignPrams(KiprisParams):
         self.registration = 'true'
         self.rejection = 'true'
         self.descSort = 'true'
-    
-    @property
-    def applicant(self):
-        return self.applicantName
     

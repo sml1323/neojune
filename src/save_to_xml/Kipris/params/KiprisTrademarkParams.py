@@ -2,9 +2,9 @@ from ..core.KiprisParams import KiprisParams
 
 
 class KiprisTrademarkParams(KiprisParams):
-    def __init__(self, applicant):
-        super().__init__()
-        self.applicantName = applicant
+    def __init__(self, app_no, applicant_id):
+        super().__init__(app_no, applicant_id)
+        self.applicantName = app_no
         self.docsStart = 1
         self.abandonment = 'true'
         self.application = 'true'
@@ -37,7 +37,3 @@ class KiprisTrademarkParams(KiprisParams):
         self.motion = 'true'
         self.visual = 'true'
         self.descSort = 'true'
-        
-    @property
-    def applicant(self):
-        return self.applicantName

@@ -65,14 +65,14 @@ class KiprisApplicantInfoFetcher:
                 print(f"총 검색 건수: {total_count}, 총 페이지 수: {self.max_pages}")
             self.result.append(content)
             self.success_count += 1
-            print(f"{self.params.applicant} 페이지 {page} 호출 성공")
+            print(f"{self.params.app_no} 페이지 {page} 호출 성공")
             return True
         except asyncio.TimeoutError:
-            print(f"{self.params.applicant} 페이지 {page}에서 시간 초과 오류")
+            print(f"{self.params.app_no} 페이지 {page}에서 시간 초과 오류")
             self.fail_count += 1
             return False
         except Exception as e:
-            print(f"{self.params.applicant} 페이지 {page}에서 오류: {e}")
+            print(f"{self.params.app_no} 페이지 {page}에서 오류: {e}")
             self.fail_count += 1
             return False
 
@@ -87,31 +87,34 @@ class KiprisApplicantInfoFetcher:
         if not success:
             print("첫 페이지 요청 실패")
 
-    async def _fetch_pages(self):
-        """총 페이지 순회하며 데이터 수집"""
-        page = 2
-        while page <= self.max_pages:
-            success = await self._handle_response(page)
-            if success:
-                page = await self._increment_page(page)
-            else:
-                break
-        print(f"총 호출 횟수: {self.success_count + self.fail_count}, 성공: {self.success_count}, 실패: {self.fail_count}")
 
     async def fetch_pages(self):
-        async with asyncio.Semaphore(10):  # 동시에 최대 10개의 페이지 요청 제한
-            tasks = [self._handle_response(page) for page in range(2, self.max_pages + 1)]
+        # 동시에 최대 10개의 페이지 요청을 보내도록 제한하기 위해 세마포어 사용
+        semaphore = asyncio.Semaphore(10)
+        
+        tasks = []
+        # 페이지 번호 2부터 self.max_pages까지 반복
+        for page in range(2, self.max_pages + 1):
+            # _handle_response 메서드를 호출하고, 각 요청을 tasks 리스트에 추가
+            task = self._handle_response(page)
+            tasks.append(task)
+        
+        # 세마포어를 사용하여 동시에 최대 10개의 요청만 보내도록 asyncio.gather로 모은 모든 task를 실행
+        async with semaphore:
             await asyncio.gather(*tasks)
 
-        print(f"총 호출 횟수: {self.success_count + self.fail_count}, 성공: {self.success_count}, 실패: {self.fail_count}")
-    
+        # 최종 결과 출력
+        total_requests = self.success_count + self.fail_count
+        print(f"총 호출 횟수: {total_requests}, 성공: {self.success_count}, 실패: {self.fail_count}")
+
+
     async def get_info(self) -> KiprisFetchData:
         await self.open_session()  # 세션 열기
         await self.fetch_initial()
         await self.fetch_pages()
         await self.close_session()  # 세션 닫기
         
-        return KiprisFetchData(self.params.applicant, self.result)
+        return KiprisFetchData(self.params.app_no, self.params.applicant_id, self.result)
 
 
 

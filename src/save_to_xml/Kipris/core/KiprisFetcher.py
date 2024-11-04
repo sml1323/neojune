@@ -8,7 +8,7 @@ from .KiprisParams import KiprisParams
 
 
 class KiprisFetcher:
-    def __init__(self, url:str='', params:list[KiprisParams]=KiprisParams()):
+    def __init__(self, url:str='', params:list[KiprisParams]=[KiprisParams()]):
         self.url = url
         self.params = params
 
@@ -32,7 +32,7 @@ class KiprisFetcher:
         if(self.__is_not_first_kipris_prams(params_list)):
             res = []
             for params in params_list:
-                res.append(ParamType(params))
+                res.append(ParamType(*params))
             self.params = res
 
 async def main():
