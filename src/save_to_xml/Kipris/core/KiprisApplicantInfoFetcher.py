@@ -113,22 +113,6 @@ class KiprisApplicantInfoFetcher:
         
         return KiprisFetchData(self.params.applicant, self.result)
 
-    async def __get_infos_task(self, semaphore):
-            async with semaphore:
-                return await self.get_info(is_auto_close=False)
-
-    async def get_infos(self, applicant_numbers: list) -> list[KiprisFetchData]:
-        res = None
-
-        semaphore = asyncio.Semaphore(50)
-
-        tasks = []
-        for applicant_number in applicant_numbers:
-            tasks.append(asyncio.create_task(self.__get_infos_task(semaphore, applicant_number)))
-        res = await asyncio.gather(*tasks)
-        
-        await self.close_session()
-        return res
 
 
 async def main():
