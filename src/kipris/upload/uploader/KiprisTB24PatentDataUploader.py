@@ -1,4 +1,4 @@
-from ..core.upload.KiprisDataBatchUploader import KiprisDataUploader
+from ...core.upload.KiprisDataBatchUploader import KiprisDataUploader
 
 class KiprisTB24PatentDataUploader(KiprisDataUploader):
     def __init__(self):
