@@ -1,9 +1,6 @@
-import os, re
-from lxml import etree
-from typing import List, Dict
-from ...kipris.convert.mapping.DesignKiprisMapper import DesignKiprisMapper
-from ...kipris.convert.mapping.PatentKiprisMapper import PatentKiprisMapper
-from ...kipris.convert.mapping.TrademarkKiprisMapper import TrademarkKiprisMapper
+from ...kipris.convert.mapper.DesignKiprisMapper import DesignKiprisMapper
+from ...kipris.convert.mapper.PatentKiprisMapper import PatentKiprisMapper
+from ...kipris.convert.mapper.TrademarkKiprisMapper import TrademarkKiprisMapper
 
 from ...kipris.convert.converter.KiprisDesignXmlToDictConverter import KiprisDesignXmlToDictConverter
 from ...kipris.convert.converter.KiprisPatentXmlToDictConverter import KiprisPatentXmlToDictConverter
@@ -12,11 +9,8 @@ from ...kipris.convert.converter.KiprisTrademarkXmlToDictConverter import Kipris
 
 def main():
     # 매핑 사전 정의
-
     design_mapping = DesignKiprisMapper().get_dict()
-
     patent_mapping = PatentKiprisMapper().get_dict()
-
     trademark_mapping = TrademarkKiprisMapper().get_dict()
 
     # XML 파일 이름 설정
