@@ -1,0 +1,8 @@
+# prometheus.yml
+global:
+  scrape_interval: 1s  # 메트릭 수집 주기
+
+scrape_configs:
+  - job_name: 'api_metrics'
+    static_configs:
+      - targets: ['15.165.201.27:80']  # API 메트릭을 제공하는 서버의 IP와 포트

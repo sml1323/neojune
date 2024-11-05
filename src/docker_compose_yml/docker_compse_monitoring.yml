@@ -1,0 +1,18 @@
+
+services:
+
+  prometheus:
+    image: prom/prometheus  # Prometheus Docker 이미지
+    ports:
+      - "9090:9090"  # Prometheus 대시보드 포트 매핑
+    volumes:
+      - ../config/prometheus.yml:/etc/prometheus/prometheus.yml  # 설정 파일을 컨테이너에 마운트
+    restart: always  # 컨테이너가 중지되면 항상 재시작
+
+  grafana:
+    image: grafana/grafana
+    container_name: grafana
+    ports:
+      - "3000:3000"  # Grafana UI 포트
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=neojune  # 관리자 비밀번호 설정
