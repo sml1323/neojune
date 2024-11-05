@@ -1,6 +1,6 @@
 from ..KiprisObject import KiprisObject
 
-class KiprisMapping(KiprisObject):
+class KiprisMapper(KiprisObject):
     def __init__(self):
         super().__init__()
         self.ipr_seq = None

@@ -1,7 +1,7 @@
-from ...core.convert.KiprisMapping import KiprisMapping
+from ...core.convert.KiprisMapper import KiprisMapper
 
 
-class DesignKiprisMapping(KiprisMapping):
+class DesignKiprisMapper(KiprisMapper):
     def __init__(self):
         super().__init__()
         self.ipr_code = "applicationNumber" # 2글자
