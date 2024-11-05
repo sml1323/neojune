@@ -12,6 +12,7 @@ class Mysql:
         self.user = os.getenv('DB_USER')
         self.password = os.getenv('DB_PASSWORD')
         self.db_name = os.getenv('DB_NAME')
+        self.db_port = int(os.getenv('DB_PORT'))
         self.connection = None  # DB 연결을 저장할 속성
         self._connect_to_db()  # 초기 연결 설정
 
@@ -22,7 +23,8 @@ class Mysql:
                 host=self.host,
                 user=self.user,
                 passwd=self.password,
-                db=self.db_name
+                db=self.db_name,
+                port=self.db_port
             )
 
     def _get_cursor(self):
@@ -175,11 +177,11 @@ class Mysql:
         return rows
 
     def get_limit_app_no_and_applicant_id(self, limit) -> list[list]:
-        sql = f'SELECT app_no, applicant_id FROM TB24_200 ORDER BY applicant_id, applicant_id LIMIT {limit}'
+        sql = f'SELECT applicant_no, applicant_id FROM TB24_200 LIMIT {limit}'
         return self.get_cursor_fetchall(sql)
 
     def get_all_app_no_and_applicant_id(self, table="TB24_200") -> list[list]:
-        sql = f'SELECT app_no, applicant_id FROM {table} ORDER BY applicant_id, applicant_id;'
+        sql = f'SELECT applicant_no, applicant_id FROM {table} LIMIT 10;'
         return self.get_cursor_fetchall(sql)
 
     def close_connection(self):

@@ -15,8 +15,8 @@ class KiprisXmlDataGenerator(KiprisXml):
         if data_list and isinstance(data_list[0], KiprisFetchData):
             self.append_data_lists(data_list)
 
-    def append_data_list(self, fetch_data_list: KiprisFetchData):
-        xml_data = KiprisXmlData(fetch_data_list)
+    def append_data_list(self, fetch_data: KiprisFetchData):
+        xml_data = KiprisXmlData(fetch_data)
         xml_data.apply()
         self.data_list.append(xml_data)
 
