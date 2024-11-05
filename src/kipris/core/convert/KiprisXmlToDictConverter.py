@@ -11,8 +11,10 @@ class KiprisXmlToDictConverter:
 
     def get_file_path(self, xml_filename: str) -> str:
         """주어진 XML 파일 이름을 기반으로 파일 경로를 생성하는 메서드."""
-        script_dir = os.path.dirname(os.path.abspath(__file__))  # 스크립트 디렉토리 경로 얻기
-        return os.path.join(script_dir, xml_filename)  # XML 파일 경로 반환
+        # script_dir = os.path.dirname(os.path.abspath(__file__))  # 스크립트 디렉토리 경로 얻기
+        root = util.add_sys_path()
+        print(root)
+        return os.path.join(root, xml_filename)  # XML 파일 경로 반환
 
     def read_xml(self) -> str:
         """XML 파일을 읽고 문자열로 반환하는 메서드."""
@@ -55,7 +57,7 @@ class KiprisXmlToDictConverter:
                             element_dict[output_key] = ""
                     elif(output_key == "applicant_id"):
                         # 부모 response 요소를 찾아서 applicant_id 가져오기
-                        response = element.xpath("./ancestor::response")[0]
+                        response = element.xpath("./ancestor::itemGrop")[0]
                         if response is not None:
                             element_dict['applicant_id'] = int(response.find('applicant_id').text) if response.find('applicant_id') is not None else ''
                 
