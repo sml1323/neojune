@@ -6,6 +6,11 @@ from ...kipris.convert.converter.KiprisDesignXmlToDictConverter import KiprisDes
 from ...kipris.convert.converter.KiprisPatentXmlToDictConverter import KiprisPatentXmlToDictConverter
 from ...kipris.convert.converter.KiprisTrademarkXmlToDictConverter import KiprisTrademarkXmlToDictConverter
 
+from ...kipris.upload.uploader.KiprisTB24DesignDataUploader import KiprisTB24DesignDataUploader
+from ...kipris.upload.uploader.KiprisTB24PatentDataUploader import KiprisTB24PatentDataUploader
+from ...kipris.upload.uploader.KiprisTB24TrademarkDataUploader import KiprisTB24TrademarkDataUploader
+
+
 from ...util import util
 
 def main():
@@ -21,29 +26,24 @@ def main():
     trademark_xml_filename = f'{base_path}/trademark.xml'  # XML 파일 경로
 
     if False:
-        print("#### design_parser")
+        print("#### design")
         design_parser = KiprisDesignXmlToDictConverter(design_mapping, design_xml_filename)
         design_results = design_parser.parse()
-        print(design_results)
-        print("")
-        print("")
+        KiprisTB24DesignDataUploader().upload(design_results)
+
 
     if True:
-        print("#### patent_parser")
+        print("#### patent")
         patent_parser = KiprisPatentXmlToDictConverter(patent_mapping, patent_xml_filename)
         patent_results = patent_parser.parse()
-        print(patent_results)
-        print("")
-        print("")
+        KiprisTB24PatentDataUploader().upload(patent_results)
+
 
     if False:
-        print("#### trademark_parser")
+        print("#### trademark")
         trademark_parser = KiprisTrademarkXmlToDictConverter(trademark_mapping, trademark_xml_filename)
         trademark_results = trademark_parser.parse()
-        print(trademark_results)
-        print("")
-        print("")
-
+        KiprisTB24TrademarkDataUploader().upload(trademark_results)
         
 
 

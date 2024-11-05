@@ -2,12 +2,14 @@ import os, sys, time, re
 from datetime import datetime
 
 def get_timestamp():
-        return datetime.now().strftime("%Y%m%d_%H%M%S")
+    return datetime.now().strftime("%Y%m%d")
 
 
 # 현제 파일 디랙토리 sys path에 추가 함수
 def add_sys_path():
-    sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
+    # sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
+    root_dir = os.path.dirname(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
+    return root_dir
 
 async def get_run_time(callback:callable, msg:str):
     start_time = time.time()
