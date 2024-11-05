@@ -1,17 +1,9 @@
-import asyncio
+import asyncio,sys
 
-from src.script import dict_to_db, save_to_xml , xml_to_dict
+# from src.test.save_to_xml import save_to_xml
+from src.test.xml_to_dict import xml_to_dict
+# from src.test.dict_to_db import dict_to_db
 
-# 
-asyncio.run(save_to_xml.main())
-
-design_results,  patent_results, trademark_results = xml_to_dict.main()
-# print(patent_results)
-if design_results:
-   dict_to_db.dcit_to_db('TB24_patent',patent_results)
-
-if patent_results:
-    dict_to_db.dcit_to_db('TB24_design',design_results)
-
-if trademark_results:
-    dict_to_db.dcit_to_db('TB24_trademark', trademark_results)
+# asyncio.run(save_to_xml.main())
+xml_to_dict.main()
+# dict_to_db.main()

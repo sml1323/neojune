@@ -1,0 +1,729 @@
+<?xml version='1.0' encoding='utf-8'?>
+<responseData>
+    <response>
+        <applicant_id>5576</applicant_id>
+        <header>
+            <resultCode />
+            <resultMsg />
+        </header>
+        <body>
+            <items>
+                <TotalSearchCount>3</TotalSearchCount>
+                <TradeMarkInfo>
+                    <SerialNumber>1</SerialNumber>
+                    <ApplicationNumber>4020020042375</ApplicationNumber>
+                    <AppReferenceNumber> </AppReferenceNumber>
+                    <ApplicationDate>20020913</ApplicationDate>
+                    <PublicNumber>4020030051394</PublicNumber>
+                    <PublicDate>20031001</PublicDate>
+                    <RegistrationPublicNumber />
+                    <RegistrationPublicDate />
+                    <RegistrationNumber>4005718040000</RegistrationNumber>
+                    <RegReferenceNumber> </RegReferenceNumber>
+                    <RegistrationDate>20040114</RegistrationDate>
+                    <PriorityClaimNumber />
+                    <PriorityClaimDate />
+                    <InternationalRegisterNumber> </InternationalRegisterNumber>
+                    <InternationalRegisterDate> </InternationalRegisterDate>
+                    <ApplicationStatus>등록</ApplicationStatus>
+                    <GoodClassificationCode>09</GoodClassificationCode>
+                    <ViennaCode>260404|260409</ViennaCode>
+                    <ApplicantName>주식회사 메카트로</ApplicantName>
+                    <AgentName>신성특허법인(유한)</AgentName>
+                    <RegistrationRightholderName>주식회사 메카트로 MECHATRO INC</RegistrationRightholderName>
+                    <Title>(주)메카트로 www.mechatro.co.kr</Title>
+                    <FulltextExistFlag>Y</FulltextExistFlag>
+                    <ImagePath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344e186b2379fa8a7c95f47252bbb76449542d79dfbe3daeaa2999758a8b0c6ec3b</ImagePath>
+                    <ThumbnailPath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3e6785e02ee9396dc96211fb2294abcaac31d9e0c06334f7d7f9f8c59e88e57b7</ThumbnailPath>
+                </TradeMarkInfo>
+                <TradeMarkInfo>
+                    <SerialNumber>2</SerialNumber>
+                    <ApplicationNumber>4120020018641</ApplicationNumber>
+                    <AppReferenceNumber> </AppReferenceNumber>
+                    <ApplicationDate>20020913</ApplicationDate>
+                    <PublicNumber>4120040027068</PublicNumber>
+                    <PublicDate>20040604</PublicDate>
+                    <RegistrationPublicNumber />
+                    <RegistrationPublicDate />
+                    <RegistrationNumber>4101049290000</RegistrationNumber>
+                    <RegReferenceNumber> </RegReferenceNumber>
+                    <RegistrationDate>20040826</RegistrationDate>
+                    <PriorityClaimNumber />
+                    <PriorityClaimDate />
+                    <InternationalRegisterNumber> </InternationalRegisterNumber>
+                    <InternationalRegisterDate> </InternationalRegisterDate>
+                    <ApplicationStatus>소멸</ApplicationStatus>
+                    <GoodClassificationCode>42</GoodClassificationCode>
+                    <ViennaCode>260404|260409</ViennaCode>
+                    <ApplicantName>주식회사 메카트로</ApplicantName>
+                    <AgentName>신성특허법인(유한)</AgentName>
+                    <RegistrationRightholderName>주식회사 메카트로 MECHATRO INC</RegistrationRightholderName>
+                    <Title>(주)메카트로 www.mechatro.co.kr</Title>
+                    <FulltextExistFlag>Y</FulltextExistFlag>
+                    <ImagePath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344fc31205657359d75a08b81569a465015a857f46dcff9963c8aa65e7590d37088</ImagePath>
+                    <ThumbnailPath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29c5dc26c0bda670e0fcc7ee051afebaeb4895030a2c86c3fc5f7b15683adcc8ed</ThumbnailPath>
+                </TradeMarkInfo>
+                <TradeMarkInfo>
+                    <SerialNumber>3</SerialNumber>
+                    <ApplicationNumber>4119910001957</ApplicationNumber>
+                    <AppReferenceNumber> </AppReferenceNumber>
+                    <ApplicationDate>19910514</ApplicationDate>
+                    <PublicNumber>4119920025039</PublicNumber>
+                    <PublicDate>19920808</PublicDate>
+                    <RegistrationPublicNumber />
+                    <RegistrationPublicDate />
+                    <RegistrationNumber>4100176800000</RegistrationNumber>
+                    <RegReferenceNumber> </RegReferenceNumber>
+                    <RegistrationDate>19921002</RegistrationDate>
+                    <PriorityClaimNumber />
+                    <PriorityClaimDate />
+                    <InternationalRegisterNumber> </InternationalRegisterNumber>
+                    <InternationalRegisterDate> </InternationalRegisterDate>
+                    <ApplicationStatus>소멸</ApplicationStatus>
+                    <GoodClassificationCode>112</GoodClassificationCode>
+                    <ViennaCode>260304</ViennaCode>
+                    <ApplicantName>주식회사 메카트로</ApplicantName>
+                    <AgentName>김영철</AgentName>
+                    <RegistrationRightholderName>주식회사메카트로</RegistrationRightholderName>
+                    <Title>MECHATRO</Title>
+                    <FulltextExistFlag>N</FulltextExistFlag>
+                    <ImagePath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913442fba7eccd63e5959d599199b9bf086eb464e0cdef543eae66332688a33909b6f</ImagePath>
+                    <ThumbnailPath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c36331410bb26bba3dee32c3958b3e6fed1c35bb44155a51fbeb24d97b7375cab7</ThumbnailPath>
+                </TradeMarkInfo>
+            </items>
+        </body>
+    </response>
+    <response>
+        <applicant_id>11319</applicant_id>
+        <header>
+            <resultCode />
+            <resultMsg />
+        </header>
+        <body>
+            <items>
+                <TotalSearchCount>2</TotalSearchCount>
+                <TradeMarkInfo>
+                    <SerialNumber>1</SerialNumber>
+                    <ApplicationNumber>4520120000085</ApplicationNumber>
+                    <AppReferenceNumber> </AppReferenceNumber>
+                    <ApplicationDate>20120106</ApplicationDate>
+                    <PublicNumber>4520130066246</PublicNumber>
+                    <PublicDate>20130705</PublicDate>
+                    <RegistrationPublicNumber />
+                    <RegistrationPublicDate />
+                    <RegistrationNumber>4500466340000</RegistrationNumber>
+                    <RegReferenceNumber> </RegReferenceNumber>
+                    <RegistrationDate>20131018</RegistrationDate>
+                    <PriorityClaimNumber />
+                    <PriorityClaimDate />
+                    <InternationalRegisterNumber> </InternationalRegisterNumber>
+                    <InternationalRegisterDate> </InternationalRegisterDate>
+                    <ApplicationStatus>등록</ApplicationStatus>
+                    <GoodClassificationCode>35|42</GoodClassificationCode>
+                    <ViennaCode>270519|270901|270904</ViennaCode>
+                    <ApplicantName>동아베스텍 주식회사</ApplicantName>
+                    <AgentName>김동우</AgentName>
+                    <RegistrationRightholderName>동아베스텍 주식회사 DONGA BESTECH CO, LTD</RegistrationRightholderName>
+                    <Title>동아베스텍주식회사 DONG-A BESTECH CO., LTD.</Title>
+                    <FulltextExistFlag>Y</FulltextExistFlag>
+                    <ImagePath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913440ef5b27544fce4c3fd66116728e7c935b973c352ca8546260f8fa1f21b3a43e8</ImagePath>
+                    <ThumbnailPath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c36ebe33eaff5c7e5d205a9b781925796f35d2bd080e3732a29eb358911b805313</ThumbnailPath>
+                </TradeMarkInfo>
+                <TradeMarkInfo>
+                    <SerialNumber>2</SerialNumber>
+                    <ApplicationNumber>4119890000230</ApplicationNumber>
+                    <AppReferenceNumber> </AppReferenceNumber>
+                    <ApplicationDate>19890130</ApplicationDate>
+                    <PublicNumber />
+                    <PublicDate>19900728</PublicDate>
+                    <RegistrationPublicNumber />
+                    <RegistrationPublicDate />
+                    <RegistrationNumber>4100123240000</RegistrationNumber>
+                    <RegReferenceNumber> </RegReferenceNumber>
+                    <RegistrationDate>19900926</RegistrationDate>
+                    <PriorityClaimNumber />
+                    <PriorityClaimDate />
+                    <InternationalRegisterNumber> </InternationalRegisterNumber>
+                    <InternationalRegisterDate> </InternationalRegisterDate>
+                    <ApplicationStatus>소멸</ApplicationStatus>
+                    <GoodClassificationCode>112</GoodClassificationCode>
+                    <ViennaCode>270519</ViennaCode>
+                    <ApplicantName>동아베스텍 주식회사</ApplicantName>
+                    <AgentName>김태원</AgentName>
+                    <RegistrationRightholderName>동아전자부품주식회사</RegistrationRightholderName>
+                    <Title>동아전자부품주식회사 동아전자부품주식회사 DONG-A ELECTRONIC COMPONENTS CO.,LTD.</Title>
+                    <FulltextExistFlag>N</FulltextExistFlag>
+                    <ImagePath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913440438cbf6ff9b3ca9af8e847857f0f2937e9a98d38f0d9478397b902b1d34ff51</ImagePath>
+                    <ThumbnailPath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c37b2eecebd987877215267cec43136785c3d53ff80d23213da326bfe8e141411c</ThumbnailPath>
+                </TradeMarkInfo>
+            </items>
+        </body>
+    </response>
+    <response>
+        <applicant_id>4728</applicant_id>
+        <header>
+            <resultCode />
+            <resultMsg />
+        </header>
+        <body>
+            <items>
+                <TotalSearchCount>19</TotalSearchCount>
+                <TradeMarkInfo>
+                    <SerialNumber>1</SerialNumber>
+                    <ApplicationNumber>5020030010961</ApplicationNumber>
+                    <AppReferenceNumber> </AppReferenceNumber>
+                    <ApplicationDate>20030923</ApplicationDate>
+                    <PublicNumber />
+                    <PublicDate />
+                    <RegistrationPublicNumber />
+                    <RegistrationPublicDate />
+                    <RegistrationNumber>4002784720000</RegistrationNumber>
+                    <RegReferenceNumber> </RegReferenceNumber>
+                    <RegistrationDate>20031203</RegistrationDate>
+                    <PriorityClaimNumber />
+                    <PriorityClaimDate />
+                    <InternationalRegisterNumber> </InternationalRegisterNumber>
+                    <InternationalRegisterDate> </InternationalRegisterDate>
+                    <ApplicationStatus>등록</ApplicationStatus>
+                    <GoodClassificationCode>10</GoodClassificationCode>
+                    <ViennaCode>270522|270904|270923</ViennaCode>
+                    <ApplicantName>대화기기주식회사</ApplicantName>
+                    <AgentName />
+                    <RegistrationRightholderName>대화기기주식회사</RegistrationRightholderName>
+                    <Title>DW MEDITOM DAI WHA CORP.,LTD.</Title>
+                    <FulltextExistFlag>N</FulltextExistFlag>
+                    <ImagePath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e234e1fcd03919711589c94beca0ae4a1f8c0da452f9b823ffc31a038196de2179d92126172ed9ccd7</ImagePath>
+                    <ThumbnailPath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eae3bd0d2e1a0a7d6b93c5a8175c684c3fa21823d9b69baa5d0032ed42736b6806a951e047129672a0</ThumbnailPath>
+                </TradeMarkInfo>
+                <TradeMarkInfo>
+                    <SerialNumber>2</SerialNumber>
+                    <ApplicationNumber>5620030012280</ApplicationNumber>
+                    <AppReferenceNumber> </AppReferenceNumber>
+                    <ApplicationDate>20030923</ApplicationDate>
+                    <PublicNumber />
+                    <PublicDate />
+                    <RegistrationPublicNumber />
+                    <RegistrationPublicDate />
+                    <RegistrationNumber>4002784720000</RegistrationNumber>
+                    <RegReferenceNumber> </RegReferenceNumber>
+                    <RegistrationDate>20040412</RegistrationDate>
+                    <PriorityClaimNumber />
+                    <PriorityClaimDate />
+                    <InternationalRegisterNumber> </InternationalRegisterNumber>
+                    <InternationalRegisterDate> </InternationalRegisterDate>
+                    <ApplicationStatus>등록</ApplicationStatus>
+                    <GoodClassificationCode>10</GoodClassificationCode>
+                    <ViennaCode>270522|270904|270923</ViennaCode>
+                    <ApplicantName>대화기기주식회사</ApplicantName>
+                    <AgentName>특허법인씨엔에스</AgentName>
+                    <RegistrationRightholderName>대화기기주식회사</RegistrationRightholderName>
+                    <Title>DW MEDITOM DAI WHA CORP.,LTD.</Title>
+                    <FulltextExistFlag>N</FulltextExistFlag>
+                    <ImagePath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e234e1fcd03919711553908312ac1e976806de1e425c6d7d165dc5379ad7c282e14dbe36ca5c238c71</ImagePath>
+                    <ThumbnailPath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eae3bd0d2e1a0a7d6b4c2ae7084ab0fca203cc26b5f2f544a40bb467093c10faea83a538f519c8f05a</ThumbnailPath>
+                </TradeMarkInfo>
+                <TradeMarkInfo>
+                    <SerialNumber>3</SerialNumber>
+                    <ApplicationNumber>4019920028326</ApplicationNumber>
+                    <AppReferenceNumber> </AppReferenceNumber>
+                    <ApplicationDate>19921009</ApplicationDate>
+                    <PublicNumber>4019930027027</PublicNumber>
+                    <PublicDate>19930825</PublicDate>
+                    <RegistrationPublicNumber />
+                    <RegistrationPublicDate />
+                    <RegistrationNumber>4002784720000</RegistrationNumber>
+                    <RegReferenceNumber> </RegReferenceNumber>
+                    <RegistrationDate>19931103</RegistrationDate>
+                    <PriorityClaimNumber />
+                    <PriorityClaimDate />
+                    <InternationalRegisterNumber> </InternationalRegisterNumber>
+                    <InternationalRegisterDate> </InternationalRegisterDate>
+                    <ApplicationStatus>등록</ApplicationStatus>
+                    <GoodClassificationCode>10</GoodClassificationCode>
+                    <ViennaCode>270522|270904|270923</ViennaCode>
+                    <ApplicantName>대화기기주식회사</ApplicantName>
+                    <AgentName />
+                    <RegistrationRightholderName>대화기기주식회사</RegistrationRightholderName>
+                    <Title>DW MEDITOM DAI WHA CORP.,LTD.</Title>
+                    <FulltextExistFlag>N</FulltextExistFlag>
+                    <ImagePath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344c2f4ab5077f82256d4258dcfa72f69fefeb89137d068e5dac6578c368ad72cc1</ImagePath>
+                    <ThumbnailPath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3eccb6f44f0ef3f1da711ea7a91aa17f954eb92b92260b49d1405b5b2db8ece33</ThumbnailPath>
+                </TradeMarkInfo>
+                <TradeMarkInfo>
+                    <SerialNumber>4</SerialNumber>
+                    <ApplicationNumber>4020200075150</ApplicationNumber>
+                    <AppReferenceNumber> </AppReferenceNumber>
+                    <ApplicationDate>20200507</ApplicationDate>
+                    <PublicNumber />
+                    <PublicDate />
+                    <RegistrationPublicNumber />
+                    <RegistrationPublicDate />
+                    <RegistrationNumber />
+                    <RegReferenceNumber> </RegReferenceNumber>
+                    <RegistrationDate />
+                    <PriorityClaimNumber />
+                    <PriorityClaimDate />
+                    <InternationalRegisterNumber> </InternationalRegisterNumber>
+                    <InternationalRegisterDate> </InternationalRegisterDate>
+                    <ApplicationStatus>거절</ApplicationStatus>
+                    <GoodClassificationCode>10</GoodClassificationCode>
+                    <ViennaCode />
+                    <ApplicantName>대화기기주식회사</ApplicantName>
+                    <AgentName />
+                    <RegistrationRightholderName />
+                    <Title>MEDISONIC</Title>
+                    <FulltextExistFlag>N</FulltextExistFlag>
+                    <ImagePath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344f20ce8245b099a8a1437b47173caab01b30b42ced04f9b91b13e4a7654373992f6f8bec43d910539</ImagePath>
+                    <ThumbnailPath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29df616987ef7331e9b8737cf9d484525e79b8af4d2d3a0b951e06ee8b5af47c7d375c2cb425e288bd</ThumbnailPath>
+                </TradeMarkInfo>
+                <TradeMarkInfo>
+                    <SerialNumber>5</SerialNumber>
+                    <ApplicationNumber>4020040018413</ApplicationNumber>
+                    <AppReferenceNumber> </AppReferenceNumber>
+                    <ApplicationDate>20040423</ApplicationDate>
+                    <PublicNumber />
+                    <PublicDate />
+                    <RegistrationPublicNumber />
+                    <RegistrationPublicDate />
+                    <RegistrationNumber />
+                    <RegReferenceNumber> </RegReferenceNumber>
+                    <RegistrationDate />
+                    <PriorityClaimNumber />
+                    <PriorityClaimDate />
+                    <InternationalRegisterNumber> </InternationalRegisterNumber>
+                    <InternationalRegisterDate> </InternationalRegisterDate>
+                    <ApplicationStatus>거절</ApplicationStatus>
+                    <GoodClassificationCode>10</GoodClassificationCode>
+                    <ViennaCode />
+                    <ApplicantName>대화기기주식회사</ApplicantName>
+                    <AgentName>특허법인씨엔에스</AgentName>
+                    <RegistrationRightholderName />
+                    <Title>CAPFLOW</Title>
+                    <FulltextExistFlag>N</FulltextExistFlag>
+                    <ImagePath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913441df9729b12cf491302e4b92cd0e7cb97c8ce777d8451c89602dc0305eb21dc92</ImagePath>
+                    <ThumbnailPath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3b58a6ead064ba7c95cb61bce7d80a055cd2221dee698cad43a8a65976ef57c8a</ThumbnailPath>
+                </TradeMarkInfo>
+                <TradeMarkInfo>
+                    <SerialNumber>6</SerialNumber>
+                    <ApplicationNumber>4019910035097</ApplicationNumber>
+                    <AppReferenceNumber> </AppReferenceNumber>
+                    <ApplicationDate>19911212</ApplicationDate>
+                    <PublicNumber />
+                    <PublicDate />
+                    <RegistrationPublicNumber />
+                    <RegistrationPublicDate />
+                    <RegistrationNumber />
+                    <RegReferenceNumber> </RegReferenceNumber>
+                    <RegistrationDate />
+                    <PriorityClaimNumber />
+                    <PriorityClaimDate />
+                    <InternationalRegisterNumber> </InternationalRegisterNumber>
+                    <InternationalRegisterDate> </InternationalRegisterDate>
+                    <ApplicationStatus>거절</ApplicationStatus>
+                    <GoodClassificationCode>011</GoodClassificationCode>
+                    <ViennaCode />
+                    <ApplicantName>대화기기주식회사</ApplicantName>
+                    <AgentName>손은진</AgentName>
+                    <RegistrationRightholderName />
+                    <Title>SURGITOM II DAI WHA CORP.,LTD.</Title>
+                    <FulltextExistFlag>N</FulltextExistFlag>
+                    <ImagePath />
+                    <ThumbnailPath />
+                </TradeMarkInfo>
+                <TradeMarkInfo>
+                    <SerialNumber>7</SerialNumber>
+                    <ApplicationNumber>4019900032844</ApplicationNumber>
+                    <AppReferenceNumber> </AppReferenceNumber>
+                    <ApplicationDate>19901109</ApplicationDate>
+                    <PublicNumber />
+                    <PublicDate />
+                    <RegistrationPublicNumber />
+                    <RegistrationPublicDate />
+                    <RegistrationNumber />
+                    <RegReferenceNumber> </RegReferenceNumber>
+                    <RegistrationDate />
+                    <PriorityClaimNumber />
+                    <PriorityClaimDate />
+                    <InternationalRegisterNumber> </InternationalRegisterNumber>
+                    <InternationalRegisterDate> </InternationalRegisterDate>
+                    <ApplicationStatus>거절</ApplicationStatus>
+                    <GoodClassificationCode>011</GoodClassificationCode>
+                    <ViennaCode />
+                    <ApplicantName>대화기기주식회사</ApplicantName>
+                    <AgentName />
+                    <RegistrationRightholderName />
+                    <Title>SURGITOM II</Title>
+                    <FulltextExistFlag>N</FulltextExistFlag>
+                    <ImagePath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913441d8e868ed6f0a9f6967d648d0f4608d68839f07c3aba9f97fd1a842a98295f81</ImagePath>
+                    <ThumbnailPath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c38b97e51c850c522140b0005126cf66b321dd656f915da15da958e9a80374d4b1</ThumbnailPath>
+                </TradeMarkInfo>
+                <TradeMarkInfo>
+                    <SerialNumber>8</SerialNumber>
+                    <ApplicationNumber>4019920028327</ApplicationNumber>
+                    <AppReferenceNumber> </AppReferenceNumber>
+                    <ApplicationDate>19921009</ApplicationDate>
+                    <PublicNumber>4019930027028</PublicNumber>
+                    <PublicDate>19930825</PublicDate>
+                    <RegistrationPublicNumber />
+                    <RegistrationPublicDate />
+                    <RegistrationNumber />
+                    <RegReferenceNumber> </RegReferenceNumber>
+                    <RegistrationDate />
+                    <PriorityClaimNumber />
+                    <PriorityClaimDate />
+                    <InternationalRegisterNumber> </InternationalRegisterNumber>
+                    <InternationalRegisterDate> </InternationalRegisterDate>
+                    <ApplicationStatus>거절</ApplicationStatus>
+                    <GoodClassificationCode>011</GoodClassificationCode>
+                    <ViennaCode />
+                    <ApplicantName>대화기기주식회사</ApplicantName>
+                    <AgentName />
+                    <RegistrationRightholderName />
+                    <Title>MEDITPUMP DAI WHA CORP.,LTD.</Title>
+                    <FulltextExistFlag>N</FulltextExistFlag>
+                    <ImagePath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344c2f4ab5077f82256d4258dcfa72f69fefeb89137d068e5dac47bbad98f1f63a2</ImagePath>
+                    <ThumbnailPath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3eccb6f44f0ef3f1da711ea7a91aa17f954eb92b92260b49df19cc85aa8fffa23</ThumbnailPath>
+                </TradeMarkInfo>
+                <TradeMarkInfo>
+                    <SerialNumber>9</SerialNumber>
+                    <ApplicationNumber>4019930046142</ApplicationNumber>
+                    <AppReferenceNumber> </AppReferenceNumber>
+                    <ApplicationDate>19931223</ApplicationDate>
+                    <PublicNumber />
+                    <PublicDate />
+                    <RegistrationPublicNumber />
+                    <RegistrationPublicDate />
+                    <RegistrationNumber />
+                    <RegReferenceNumber> </RegReferenceNumber>
+                    <RegistrationDate />
+                    <PriorityClaimNumber />
+                    <PriorityClaimDate />
+                    <InternationalRegisterNumber> </InternationalRegisterNumber>
+                    <InternationalRegisterDate> </InternationalRegisterDate>
+                    <ApplicationStatus>거절</ApplicationStatus>
+                    <GoodClassificationCode>011</GoodClassificationCode>
+                    <ViennaCode />
+                    <ApplicantName>대화기기주식회사</ApplicantName>
+                    <AgentName />
+                    <RegistrationRightholderName />
+                    <Title>MEDICARE DAI WHA CORP.,LTD.</Title>
+                    <FulltextExistFlag>N</FulltextExistFlag>
+                    <ImagePath />
+                    <ThumbnailPath />
+                </TradeMarkInfo>
+                <TradeMarkInfo>
+                    <SerialNumber>10</SerialNumber>
+                    <ApplicationNumber>4020040018414</ApplicationNumber>
+                    <AppReferenceNumber> </AppReferenceNumber>
+                    <ApplicationDate>20040423</ApplicationDate>
+                    <PublicNumber />
+                    <PublicDate />
+                    <RegistrationPublicNumber />
+                    <RegistrationPublicDate />
+                    <RegistrationNumber />
+                    <RegReferenceNumber> </RegReferenceNumber>
+                    <RegistrationDate />
+                    <PriorityClaimNumber />
+                    <PriorityClaimDate />
+                    <InternationalRegisterNumber> </InternationalRegisterNumber>
+                    <InternationalRegisterDate> </InternationalRegisterDate>
+                    <ApplicationStatus>거절</ApplicationStatus>
+                    <GoodClassificationCode>10</GoodClassificationCode>
+                    <ViennaCode />
+                    <ApplicantName>대화기기주식회사</ApplicantName>
+                    <AgentName>특허법인씨엔에스</AgentName>
+                    <RegistrationRightholderName />
+                    <Title>CAPFLO SYSTEM</Title>
+                    <FulltextExistFlag>N</FulltextExistFlag>
+                    <ImagePath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913441df9729b12cf491302e4b92cd0e7cb97c8ce777d8451c896572cde95d1b3f34b</ImagePath>
+                    <ThumbnailPath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3b58a6ead064ba7c95cb61bce7d80a055cd2221dee698cad47af1ea38c6f1655a</ThumbnailPath>
+                </TradeMarkInfo>
+                <TradeMarkInfo>
+                    <SerialNumber>11</SerialNumber>
+                    <ApplicationNumber>4019930046144</ApplicationNumber>
+                    <AppReferenceNumber> </AppReferenceNumber>
+                    <ApplicationDate>19931223</ApplicationDate>
+                    <PublicNumber />
+                    <PublicDate />
+                    <RegistrationPublicNumber />
+                    <RegistrationPublicDate />
+                    <RegistrationNumber />
+                    <RegReferenceNumber> </RegReferenceNumber>
+                    <RegistrationDate />
+                    <PriorityClaimNumber />
+                    <PriorityClaimDate />
+                    <InternationalRegisterNumber> </InternationalRegisterNumber>
+                    <InternationalRegisterDate> </InternationalRegisterDate>
+                    <ApplicationStatus>거절</ApplicationStatus>
+                    <GoodClassificationCode>011</GoodClassificationCode>
+                    <ViennaCode />
+                    <ApplicantName>대화기기주식회사</ApplicantName>
+                    <AgentName />
+                    <RegistrationRightholderName />
+                    <Title>MEDIMON DAI WHA CORP.,LTD.</Title>
+                    <FulltextExistFlag>N</FulltextExistFlag>
+                    <ImagePath />
+                    <ThumbnailPath />
+                </TradeMarkInfo>
+                <TradeMarkInfo>
+                    <SerialNumber>12</SerialNumber>
+                    <ApplicationNumber>4020200086165</ApplicationNumber>
+                    <AppReferenceNumber> </AppReferenceNumber>
+                    <ApplicationDate>20200525</ApplicationDate>
+                    <PublicNumber>4020210027367</PublicNumber>
+                    <PublicDate>20210226</PublicDate>
+                    <RegistrationPublicNumber>4020210066549</RegistrationPublicNumber>
+                    <RegistrationPublicDate>20210625</RegistrationPublicDate>
+                    <RegistrationNumber>4017430560000</RegistrationNumber>
+                    <RegReferenceNumber> </RegReferenceNumber>
+                    <RegistrationDate>20210622</RegistrationDate>
+                    <PriorityClaimNumber />
+                    <PriorityClaimDate />
+                    <InternationalRegisterNumber> </InternationalRegisterNumber>
+                    <InternationalRegisterDate> </InternationalRegisterDate>
+                    <ApplicationStatus>등록</ApplicationStatus>
+                    <GoodClassificationCode>37</GoodClassificationCode>
+                    <ViennaCode>270522|270904|270923</ViennaCode>
+                    <ApplicantName>대화기기주식회사</ApplicantName>
+                    <AgentName />
+                    <RegistrationRightholderName>대화기기주식회사</RegistrationRightholderName>
+                    <Title>대화기기주식회사 DAIWHA CORPORATION,LTD.</Title>
+                    <FulltextExistFlag>Y</FulltextExistFlag>
+                    <ImagePath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344f20ce8245b099a8a5c4c97d078bbadecb487588b8683383175f492b69c5460cc1d4062b69a7b54f2</ImagePath>
+                    <ThumbnailPath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29df616987ef7331e99b52cf32dbcecb5f4f0e449013ca209f7cb3b7fbad6c47230207b059d88e5c77</ThumbnailPath>
+                </TradeMarkInfo>
+                <TradeMarkInfo>
+                    <SerialNumber>13</SerialNumber>
+                    <ApplicationNumber>4020200075074</ApplicationNumber>
+                    <AppReferenceNumber> </AppReferenceNumber>
+                    <ApplicationDate>20200507</ApplicationDate>
+                    <PublicNumber>4020210025485</PublicNumber>
+                    <PublicDate>20210224</PublicDate>
+                    <RegistrationPublicNumber>4020210066495</RegistrationPublicNumber>
+                    <RegistrationPublicDate>20210625</RegistrationPublicDate>
+                    <RegistrationNumber>4017430570000</RegistrationNumber>
+                    <RegReferenceNumber> </RegReferenceNumber>
+                    <RegistrationDate>20210622</RegistrationDate>
+                    <PriorityClaimNumber />
+                    <PriorityClaimDate />
+                    <InternationalRegisterNumber> </InternationalRegisterNumber>
+                    <InternationalRegisterDate> </InternationalRegisterDate>
+                    <ApplicationStatus>등록</ApplicationStatus>
+                    <GoodClassificationCode>10</GoodClassificationCode>
+                    <ViennaCode />
+                    <ApplicantName>대화기기주식회사</ApplicantName>
+                    <AgentName />
+                    <RegistrationRightholderName>대화기기주식회사</RegistrationRightholderName>
+                    <Title>MEDIPOLAR</Title>
+                    <FulltextExistFlag>Y</FulltextExistFlag>
+                    <ImagePath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344f20ce8245b099a8a1437b47173caab0150aaba96ba2fa2688e835584ba922fc406c56ed99777161b</ImagePath>
+                    <ThumbnailPath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29df616987ef7331e9b8737cf9d484525ebcee15d587986b4f818dd3a45ad744e3fa101436235a5798</ThumbnailPath>
+                </TradeMarkInfo>
+                <TradeMarkInfo>
+                    <SerialNumber>14</SerialNumber>
+                    <ApplicationNumber>4019930046141</ApplicationNumber>
+                    <AppReferenceNumber> </AppReferenceNumber>
+                    <ApplicationDate>19931223</ApplicationDate>
+                    <PublicNumber>4019950001511</PublicNumber>
+                    <PublicDate>19950126</PublicDate>
+                    <RegistrationPublicNumber />
+                    <RegistrationPublicDate />
+                    <RegistrationNumber>4003097980000</RegistrationNumber>
+                    <RegReferenceNumber> </RegReferenceNumber>
+                    <RegistrationDate>19950316</RegistrationDate>
+                    <PriorityClaimNumber />
+                    <PriorityClaimDate />
+                    <InternationalRegisterNumber> </InternationalRegisterNumber>
+                    <InternationalRegisterDate> </InternationalRegisterDate>
+                    <ApplicationStatus>소멸</ApplicationStatus>
+                    <GoodClassificationCode>011</GoodClassificationCode>
+                    <ViennaCode>270522|270904|270923</ViennaCode>
+                    <ApplicantName>대화기기주식회사</ApplicantName>
+                    <AgentName />
+                    <RegistrationRightholderName>대화기기주식회사</RegistrationRightholderName>
+                    <Title>DW VOLFUSION DAI WHA CORP.,LTD.</Title>
+                    <FulltextExistFlag>N</FulltextExistFlag>
+                    <ImagePath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344e942f178b80b2e74337252de224dab3b13772cf6feb724f4a5c41c5cab2d7aab</ImagePath>
+                    <ThumbnailPath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3abc351d85857a5401cc07395a4c0b337ab72264dcfa31dedbea374592cae3161</ThumbnailPath>
+                </TradeMarkInfo>
+                <TradeMarkInfo>
+                    <SerialNumber>15</SerialNumber>
+                    <ApplicationNumber>4019930042721</ApplicationNumber>
+                    <AppReferenceNumber> </AppReferenceNumber>
+                    <ApplicationDate>19931130</ApplicationDate>
+                    <PublicNumber>4019950001486</PublicNumber>
+                    <PublicDate>19950126</PublicDate>
+                    <RegistrationPublicNumber />
+                    <RegistrationPublicDate />
+                    <RegistrationNumber>4003097970000</RegistrationNumber>
+                    <RegReferenceNumber> </RegReferenceNumber>
+                    <RegistrationDate>19950316</RegistrationDate>
+                    <PriorityClaimNumber />
+                    <PriorityClaimDate />
+                    <InternationalRegisterNumber> </InternationalRegisterNumber>
+                    <InternationalRegisterDate> </InternationalRegisterDate>
+                    <ApplicationStatus>소멸</ApplicationStatus>
+                    <GoodClassificationCode>011</GoodClassificationCode>
+                    <ViennaCode>270522|270904|270923</ViennaCode>
+                    <ApplicantName>대화기기주식회사</ApplicantName>
+                    <AgentName />
+                    <RegistrationRightholderName>대화기기주식회사</RegistrationRightholderName>
+                    <Title>DW TAE.A.MON DAI WHA CORP.,LTD.</Title>
+                    <FulltextExistFlag>N</FulltextExistFlag>
+                    <ImagePath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344e942f178b80b2e74a29a4672ea4ef2779fd41858071ce6f3c74d1a6aa7c74c2d</ImagePath>
+                    <ThumbnailPath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3abc351d85857a5401bdcd4de33d31e3d3a436866cbe0971474c9f6cfa9760432</ThumbnailPath>
+                </TradeMarkInfo>
+                <TradeMarkInfo>
+                    <SerialNumber>16</SerialNumber>
+                    <ApplicationNumber>5620050004415</ApplicationNumber>
+                    <AppReferenceNumber> </AppReferenceNumber>
+                    <ApplicationDate>20050308</ApplicationDate>
+                    <PublicNumber />
+                    <PublicDate />
+                    <RegistrationPublicNumber />
+                    <RegistrationPublicDate />
+                    <RegistrationNumber>4003097990000</RegistrationNumber>
+                    <RegReferenceNumber> </RegReferenceNumber>
+                    <RegistrationDate>20050923</RegistrationDate>
+                    <PriorityClaimNumber />
+                    <PriorityClaimDate />
+                    <InternationalRegisterNumber> </InternationalRegisterNumber>
+                    <InternationalRegisterDate> </InternationalRegisterDate>
+                    <ApplicationStatus>등록</ApplicationStatus>
+                    <GoodClassificationCode>10</GoodClassificationCode>
+                    <ViennaCode>270522|270904|270923</ViennaCode>
+                    <ApplicantName>대화기기주식회사</ApplicantName>
+                    <AgentName>특허법인씨엔에스</AgentName>
+                    <RegistrationRightholderName>대화기기주식회사</RegistrationRightholderName>
+                    <Title>DW MEDIFUSION DAI WHA CORP.,LTD.</Title>
+                    <FulltextExistFlag>N</FulltextExistFlag>
+                    <ImagePath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e234e1fcd03919711523d613339e7cad78ac7c3b29876ec36692dc911522ba3ff1f9c2e9c6503ebb124513a37e0661df7948d6624714084853</ImagePath>
+                    <ThumbnailPath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eae3bd0d2e1a0a7d6b2c5600ca9d5b4a4b79a37cace0a8fb7840e14b0736be398716c6e57e572090159be01d529a850fb90433b70811b0bd46</ThumbnailPath>
+                </TradeMarkInfo>
+                <TradeMarkInfo>
+                    <SerialNumber>17</SerialNumber>
+                    <ApplicationNumber>5020050003895</ApplicationNumber>
+                    <AppReferenceNumber> </AppReferenceNumber>
+                    <ApplicationDate>20050308</ApplicationDate>
+                    <PublicNumber />
+                    <PublicDate />
+                    <RegistrationPublicNumber />
+                    <RegistrationPublicDate />
+                    <RegistrationNumber>4003097990000</RegistrationNumber>
+                    <RegReferenceNumber> </RegReferenceNumber>
+                    <RegistrationDate>20050830</RegistrationDate>
+                    <PriorityClaimNumber />
+                    <PriorityClaimDate />
+                    <InternationalRegisterNumber> </InternationalRegisterNumber>
+                    <InternationalRegisterDate> </InternationalRegisterDate>
+                    <ApplicationStatus>등록</ApplicationStatus>
+                    <GoodClassificationCode>10</GoodClassificationCode>
+                    <ViennaCode>270522|270904|270923</ViennaCode>
+                    <ApplicantName>대화기기주식회사</ApplicantName>
+                    <AgentName>특허법인씨엔에스</AgentName>
+                    <RegistrationRightholderName>대화기기주식회사</RegistrationRightholderName>
+                    <Title>DW MEDIFUSION DAI WHA CORP.,LTD.</Title>
+                    <FulltextExistFlag>N</FulltextExistFlag>
+                    <ImagePath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e234e1fcd03919711538ca85ed5a501d4bda1e1e40c88fdfc164d4db8d245d902464a9a8c3b6a3627098e9affb3a2b36f7040444a7776c0308</ImagePath>
+                    <ThumbnailPath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eae3bd0d2e1a0a7d6b92315bfd29d1c7ff93dfcc4dfeeca9c0e0cbfdeac05aa145aa446d5961aca0b82aedef4ad2de3b769f5277c413f87a4c</ThumbnailPath>
+                </TradeMarkInfo>
+                <TradeMarkInfo>
+                    <SerialNumber>18</SerialNumber>
+                    <ApplicationNumber>4019930046143</ApplicationNumber>
+                    <AppReferenceNumber> </AppReferenceNumber>
+                    <ApplicationDate>19931223</ApplicationDate>
+                    <PublicNumber>4019950001512</PublicNumber>
+                    <PublicDate>19950126</PublicDate>
+                    <RegistrationPublicNumber />
+                    <RegistrationPublicDate />
+                    <RegistrationNumber>4003097990000</RegistrationNumber>
+                    <RegReferenceNumber> </RegReferenceNumber>
+                    <RegistrationDate>19950316</RegistrationDate>
+                    <PriorityClaimNumber />
+                    <PriorityClaimDate />
+                    <InternationalRegisterNumber> </InternationalRegisterNumber>
+                    <InternationalRegisterDate> </InternationalRegisterDate>
+                    <ApplicationStatus>등록</ApplicationStatus>
+                    <GoodClassificationCode>10</GoodClassificationCode>
+                    <ViennaCode>270522|270904|270923</ViennaCode>
+                    <ApplicantName>대화기기주식회사</ApplicantName>
+                    <AgentName />
+                    <RegistrationRightholderName>대화기기주식회사</RegistrationRightholderName>
+                    <Title>DW MEDIFUSION DAI WHA CORP.,LTD.</Title>
+                    <FulltextExistFlag>N</FulltextExistFlag>
+                    <ImagePath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344e942f178b80b2e74337252de224dab3b13772cf6feb724f4d00cc5a680ed3c7a</ImagePath>
+                    <ThumbnailPath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29311cd8c1f01d7defae4386f5a24f18022a2b1fa1706ac924c828a69d925eb623</ThumbnailPath>
+                </TradeMarkInfo>
+                <TradeMarkInfo>
+                    <SerialNumber>19</SerialNumber>
+                    <ApplicationNumber>4019930042722</ApplicationNumber>
+                    <AppReferenceNumber> </AppReferenceNumber>
+                    <ApplicationDate>19931130</ApplicationDate>
+                    <PublicNumber>4019950001487</PublicNumber>
+                    <PublicDate>19950126</PublicDate>
+                    <RegistrationPublicNumber />
+                    <RegistrationPublicDate />
+                    <RegistrationNumber>4003097960000</RegistrationNumber>
+                    <RegReferenceNumber> </RegReferenceNumber>
+                    <RegistrationDate>19950316</RegistrationDate>
+                    <PriorityClaimNumber />
+                    <PriorityClaimDate />
+                    <InternationalRegisterNumber> </InternationalRegisterNumber>
+                    <InternationalRegisterDate> </InternationalRegisterDate>
+                    <ApplicationStatus>소멸</ApplicationStatus>
+                    <GoodClassificationCode>011</GoodClassificationCode>
+                    <ViennaCode>270522|270904|270923</ViennaCode>
+                    <ApplicantName>대화기기주식회사</ApplicantName>
+                    <AgentName />
+                    <RegistrationRightholderName>대화기기주식회사</RegistrationRightholderName>
+                    <Title>DW FETAL.CARE DAI WHA CORP.,LTD.</Title>
+                    <FulltextExistFlag>N</FulltextExistFlag>
+                    <ImagePath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344e942f178b80b2e74a29a4672ea4ef2779fd41858071ce6f3c0300283792db98b</ImagePath>
+                    <ThumbnailPath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3abc351d85857a5401bdcd4de33d31e3d3a436866cbe09714b67fb8df82567e28</ThumbnailPath>
+                </TradeMarkInfo>
+            </items>
+        </body>
+    </response>
+</responseData>

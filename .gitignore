@@ -1,4 +1,6 @@
 .env
 __pycache__
 *.xlsx
-src/save_to_xml/output
+/output
+.vscode
+combined_file.md
