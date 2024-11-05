@@ -2,14 +2,14 @@ import os, asyncio, aiohttp
 from lxml import etree
 from dotenv import load_dotenv
 from .KiprisFetchData import KiprisFetchData
-from .KiprisParams import KiprisParams
+from .KiprisParam import KiprisParam
 load_dotenv()
 service_key = os.getenv('SERVICE_KEY')
 
 
 
 class KiprisApplicantInfoFetcher:
-    def __init__(self, url:str, param:KiprisParams):
+    def __init__(self, url:str, param:KiprisParam):
         self.result = []
         self.url = url
         self.max_pages = 0

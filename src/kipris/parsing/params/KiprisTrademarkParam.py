@@ -1,7 +1,7 @@
-from ...core.parsing.KiprisParams import KiprisParams
+from ...core.parsing.KiprisParam import KiprisParam
 
 
-class KiprisTrademarkParams(KiprisParams):
+class KiprisTrademarkParam(KiprisParam):
     def __init__(self, app_no, applicant_id):
         super().__init__(app_no, applicant_id)
         self.applicantName = app_no

@@ -6,7 +6,7 @@ from ..KiprisObject import KiprisObject
 service_key = os.getenv('SERVICE_KEY')
 
 
-class KiprisParams(KiprisObject):
+class KiprisParam(KiprisObject):
     def __init__(self, app_no=0, applicant_id=0):
         super().__init__()
         self.__app_no = app_no

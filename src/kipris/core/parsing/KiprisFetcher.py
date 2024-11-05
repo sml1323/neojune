@@ -1,18 +1,18 @@
 import asyncio, aiohttp
 from .KiprisFetchData import KiprisFetchData
 from .KiprisApplicantInfoFetcher import KiprisApplicantInfoFetcher
-from .KiprisParams import KiprisParams
+from .KiprisParam import KiprisParam
 
 
 
 
 
 class KiprisFetcher:
-    def __init__(self, url:str='', params:list[KiprisParams]=[KiprisParams()]):
+    def __init__(self, url:str='', params:list[KiprisParam]=[KiprisParam()]):
         self.url = url
         self.params = params
 
-    async def __task(self, semaphore, param:KiprisParams):
+    async def __task(self, semaphore, param:KiprisParam):
         async with semaphore:
             info = KiprisApplicantInfoFetcher(self.url, param)
             return await info.get_info()
@@ -26,9 +26,9 @@ class KiprisFetcher:
         return await asyncio.gather(*tasks)
     
     def __is_not_first_kipris_prams(self, params_list):
-        return not isinstance(params_list[0], KiprisParams)
+        return not isinstance(params_list[0], KiprisParam)
     
-    def set_params(self, params_list:list[str|int], ParamType:KiprisParams=KiprisParams):
+    def set_params(self, params_list:list[str|int], ParamType:KiprisParam=KiprisParam):
         if(self.__is_not_first_kipris_prams(params_list)):
             res = []
             for params in params_list:
