@@ -35,8 +35,6 @@ class KiprisApplicantInfoFetcher:
         async with self.session.get(self.url, params=self.params.get_dict(), timeout=20) as response:
             return await response.text()
 
-
-    
     def __get_total_count(self, content: str) -> int:
         """lxml을 사용하여 XML 응답에서 totalCount 또는 TotalSearchCount 값을 추출"""
         root = etree.fromstring(content.encode("utf-8"))
@@ -89,18 +87,15 @@ class KiprisApplicantInfoFetcher:
 
 
     async def fetch_pages(self):
-        # 동시에 최대 10개의 페이지 요청을 보내도록 제한하기 위해 세마포어 사용
-        semaphore = asyncio.Semaphore(10)
         
         tasks = []
         # 페이지 번호 2부터 self.max_pages까지 반복
         page = 2
         while page <= self.max_pages:
-            async with semaphore:
-                # _increment_page를 사용하여 페이지를 증가시키면서 지연을 적용
-                task = self._handle_response(page)
-                tasks.append(task)
-                page = await self._increment_page(page)
+            # _increment_page를 사용하여 페이지를 증가시키면서 지연을 적용
+            task = self._handle_response(page)
+            tasks.append(task)
+            page = await self._increment_page(page)
 
         # 모든 task를 asyncio.gather로 실행
         await asyncio.gather(*tasks)
