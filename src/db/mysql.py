@@ -12,7 +12,7 @@ class Mysql:
         self.user = os.getenv('DB_USER')
         self.password = os.getenv('DB_PASSWORD')
         self.db_name = os.getenv('DB_NAME')
-        self.db_port = int(os.getenv('DB_PORT'))
+        # self.db_port = int(os.getenv('DB_PORT'))
         self.connection = None  # DB 연결을 저장할 속성
         self._connect_to_db()  # 초기 연결 설정
 
@@ -24,7 +24,7 @@ class Mysql:
                 user=self.user,
                 passwd=self.password,
                 db=self.db_name,
-                port=self.db_port
+                # port=self.db_port
             )
 
     def _get_cursor(self):
