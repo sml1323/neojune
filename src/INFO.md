@@ -14,7 +14,8 @@
     ├── core
     │   ├── KiprisObject.py
     │   ├── convert
-    │   │   └── KiprisMapping.py
+    │   │   ├── KiprisMapping.py
+    │   │   └── KiprisXmlToDictConverter.py
     │   ├── parsing
     │   │   ├── KiprisApplicantInfoFetcher.py
     │   │   ├── KiprisFetchData.py
