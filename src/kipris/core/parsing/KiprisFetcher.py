@@ -25,15 +25,11 @@ class KiprisFetcher:
             tasks.append(asyncio.create_task(self.__task(semaphore, param)))
         return await asyncio.gather(*tasks)
     
-    def __is_not_first_kipris_prams(self, params_list):
-        return not isinstance(params_list[0], KiprisParam)
-    
     def set_params(self, params_list:list[str|int], ParamType:KiprisParam=KiprisParam):
-        if(self.__is_not_first_kipris_prams(params_list)):
-            res = []
-            for params in params_list:
-                res.append(ParamType(*params))
-            self.params = res
+        res = []
+        for params in params_list:
+            res.append(ParamType(*params))
+        self.params = res
 
 async def main():
     applicant = "120140558200"
