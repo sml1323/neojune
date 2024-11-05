@@ -2,7 +2,9 @@ import os, re
 from lxml import etree
 from typing import List, Dict
 import glob
+from monitoring.logging import setup_logger
 
+logger = setup_logger('design')
 
 def clean_whitespace(text: str) -> str:
     """텍스트의 여러 개 공백을 하나로 줄이고, 앞뒤 공백을 제거."""
@@ -52,13 +54,22 @@ class BaseDataParser:
                 for output_key, xml_key in self.mapping.items():
                     if xml_key:  # 빈 매핑은 건너뛰기
                         sub_element = element.find(xml_key)
+                        # print(xml_key, sub_element.text)
                         if sub_element is not None:
                             element_dict[output_key] = clean_whitespace(str(sub_element.text))
+                            # print(output_key, element_dict)
                             # print(type(element_dict[output_key]))
                             if element_dict[output_key] == 'None':
                                 element_dict[output_key] = None
+                            if element_dict[output_key] == '':
+                                element_dict[output_key] = None
                             if(output_key == "ipr_code"): 
-                                element_dict[output_key] = element_dict[output_key][:2]
+                                try :
+                                    element_dict[output_key] = element_dict[output_key][:2]
+                                except:
+                                    logger.error(clean_whitespace(etree.tostring(element, pretty_print=True, encoding='unicode')))
+                                
+                                # element_dict[output_key] = element_dict['applicationNumber'][:2]
                             if(output_key == "main_ipc"):
                                 element_dict[output_key] = split(element_dict[output_key])[0]
                         else:
@@ -73,6 +84,7 @@ class BaseDataParser:
             return results  # 파싱된 결과 반환
         
         except etree.XMLSyntaxError as e:
+        # except:
             print(f"Error: XML 구문 오류: {e}")
             return []
 

@@ -66,9 +66,23 @@ import os
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from crud.db_crud import upsert_data
+from monitoring.prometheus import DB_SAVE_TIME
+import time 
 
-def dcit_to_db(table, data : dict):
+# @DB_SAVE_TIME.time()
+# def dcit_to_db(table, data : dict):
+#     upsert_data(table, data)
+
+def dcit_to_db(table, data: dict):
+    # 시작 시간 기록
+    start_time = time.time()
+    
+    # 데이터 저장 작업 수행
     upsert_data(table, data)
+    
+    # 작업 완료 후 경과 시간 계산 및 관측
+    elapsed_time = time.time() - start_time
+    DB_SAVE_TIME.labels(table_name=table.split("_")[-1]).observe(elapsed_time)
 
 if __name__ == "__main__":
     dcit_to_db('TB24_patent',pa)
