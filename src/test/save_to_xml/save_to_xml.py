@@ -39,17 +39,18 @@ async def main():
             # 120100225203, 120100264556, 120100352749, 120100374784,
         ]
 
-        _applicant_numbers = mysql.get_limit_app_no_and_applicant_id(100)
-        _applicant_numbers = [[120070509242, 10],[120080091393, 20]]
+        # _applicant_numbers = mysql.get_limit_app_no_and_applicant_id(1000)
+        # _applicant_numbers = [[120070509242, 10],[120080091393, 20]]
+        _applicant_numbers = [[120080091393, 10]]
 
         patent_fetcher = KiprisPatentFetcher(_applicant_numbers)
         patent = await patent_fetcher.get_infos()
 
-        design_fetcher = KiprisDesignFetcher(_applicant_numbers)
-        design = await design_fetcher.get_infos()
+        # design_fetcher = KiprisDesignFetcher(_applicant_numbers)
+        # design = await design_fetcher.get_infos()
 
-        trademark_fetcher = KiprisTrademarkFetcher(_applicant_numbers)
-        trademark = await trademark_fetcher.get_infos()
+        # trademark_fetcher = KiprisTrademarkFetcher(_applicant_numbers)
+        # trademark = await trademark_fetcher.get_infos()
 
     await util.get_run_time(get_info , f"전체 호출 완료: 3개 신청자 처리")
     
@@ -60,13 +61,13 @@ async def main():
         kipris_xml_dataGenerator.apply()
         kipris_xml_dataGenerator.save("patent")
 
-        kipris_xml_dataGenerator.append_data_lists(design)
-        kipris_xml_dataGenerator.apply()
-        kipris_xml_dataGenerator.save("design")
+        # kipris_xml_dataGenerator.append_data_lists(design)
+        # kipris_xml_dataGenerator.apply()
+        # kipris_xml_dataGenerator.save("design")
 
-        kipris_xml_dataGenerator.append_data_lists(trademark)
-        kipris_xml_dataGenerator.apply()
-        kipris_xml_dataGenerator.save("trademark")
+        # kipris_xml_dataGenerator.append_data_lists(trademark)
+        # kipris_xml_dataGenerator.apply()
+        # kipris_xml_dataGenerator.save("trademark")
 
     await util.get_run_time(save_xml , "patent_data 저장 완료")
 
