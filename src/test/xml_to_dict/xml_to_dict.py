@@ -15,7 +15,8 @@ def main():
     trademark_mapping = TrademarkKiprisMapper().get_dict()
     util.add_sys_path()
     # XML 파일 이름 설정
-    base_path = f"res/output/{util.get_timestamp()}"
+    # base_path = f"res/output/{util.get_timestamp()}"
+    base_path = f"src/test/xml_to_dict/xml"
     design_xml_filename = f'{base_path}/design.xml'  # XML 파일 경로
     patent_xml_filename = f'{base_path}/patent.xml'  # XML 파일 경로
     trademark_xml_filename = f'{base_path}/trademark.xml'  # XML 파일 경로
