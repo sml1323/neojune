@@ -3,7 +3,7 @@ from ....kipris.core.parsing.KiprisFetchData import KiprisFetchData
 
     
 def main():
-    page_path = f"{os.path.dirname(os.path.abspath(__file__))}/page"
+    page_path = f"{os.path.dirname(os.path.abspath(__file__))}/xml"
     def open_file(file_path):
         with open(file_path, "r") as f:
             content = f.read()

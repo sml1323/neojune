@@ -4,6 +4,7 @@ from .kipris.parsing import fetcher
 from .kipris.parsing import applicant_info_fetcher
 from .kipris.convert import xml_to_dict_converter
 from .kipris.upload import uploader
+from .all_conn import all_conn
 
 def run():
     # param.main()
@@ -11,4 +12,5 @@ def run():
     # fetcher.main()
     # applicant_info_fetcher.main()
     # xml_to_dict_converter.main()
-    uploader.main()
+    # uploader.main()
+    all_conn.main()
