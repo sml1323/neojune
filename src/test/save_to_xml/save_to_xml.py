@@ -5,6 +5,7 @@ from ...kipris.parsing.fetcher.KiprisPatentFetcher import KiprisPatentFetcher
 from ...kipris.parsing.fetcher.KiprisDesignFetcher import KiprisDesignFetcher
 from ...kipris.parsing.fetcher.KiprisTrademarkFetcher import KiprisTrademarkFetcher
 from ...util import util
+import time
 
 mysql = Mysql()
 
@@ -21,34 +22,71 @@ async def main(table_name):
         # p3: 120080091393,  p23: 120070509242
         # _applicant_numbers = [[120070509242, 10],[120080091393, 20]]
 
+        kipris_xml_dataGenerator = KiprisXmlDataGenerator()
+        
+        async def patent_action_api():
+            nonlocal patent
+            patent_fetcher = KiprisPatentFetcher(_applicant_numbers)
+            patent = await patent_fetcher.get_infos("patent 처리 시간")
+        await util.get_run_time(patent_action_api, "patent_action_api")
 
-        patent_fetcher = KiprisPatentFetcher(_applicant_numbers)
-        patent = await patent_fetcher.get_infos()
+        async def patent_action_save():
+            kipris_xml_dataGenerator.append_data_xlists(patent)
+            kipris_xml_dataGenerator.apply()
+            kipris_xml_dataGenerator.save("patent")
+        await util.get_run_time(patent_action_save, "patent_action_save")
+        119980018525
+        
+        
+        async def design_action_api():
+            nonlocal design
+            design_fetcher = KiprisDesignFetcher(_applicant_numbers)
+            design = await design_fetcher.get_infos("design")
+        await util.get_run_time(design_action_api, "design_action_api")
 
-        # design_fetcher = KiprisDesignFetcher(_applicant_numbers)
-        # design = await design_fetcher.get_infos()
+        async def design_action_save():
+            
+            kipris_xml_dataGenerator.append_data_lists(design)
+            kipris_xml_dataGenerator.apply()
+            kipris_xml_dataGenerator.save("design")
+        await util.get_run_time(design_action_save, "design_action_save")
+        
 
-        # trademark_fetcher = KiprisTrademarkFetcher(_applicant_numbers)
-        # trademark = await trademark_fetcher.get_infos()
+        async def trademark_action_api():
+            nonlocal trademark
+
+            trademark_fetcher = KiprisTrademarkFetcher(_applicant_numbers)
+            trademark = await trademark_fetcher.get_infos("trademark")
+        await util.get_run_time(trademark_action_api, "trademark_action_api")
+
+        async def trademark_action_save():
+
+            kipris_xml_dataGenerator.append_data_lists(trademark)
+            kipris_xml_dataGenerator.apply()
+            kipris_xml_dataGenerator.save("trademark")
+        await util.get_run_time(trademark_action_save, "trademark_action_save")
+
+        
 
     await util.get_run_time(get_info , f"전체 호출 완료: 3개 신청자 처리")
     
     
 
-    async def save_xml():
-        kipris_xml_dataGenerator = KiprisXmlDataGenerator(patent)
-        kipris_xml_dataGenerator.apply()
-        kipris_xml_dataGenerator.save("patent")
+    # async def save_xml():
+    #     kipris_xml_dataGenerator = KiprisXmlDataGenerator(patent)
+    #     # kipris_xml_dataGenerator = KiprisXmlDataGenerator(design)
+    #     kipris_xml_dataGenerator.apply()
+    #     kipris_xml_dataGenerator.save("patent")
 
-        # kipris_xml_dataGenerator.append_data_lists(design)
-        # kipris_xml_dataGenerator.apply()
-        # kipris_xml_dataGenerator.save("design")
+    #     kipris_xml_dataGenerator.append_data_lists(design)
+    #     kipris_xml_dataGenerator.apply()
+    #     kipris_xml_dataGenerator.save("design")
 
-        # kipris_xml_dataGenerator.append_data_lists(trademark)
-        # kipris_xml_dataGenerator.apply()
-        # kipris_xml_dataGenerator.save("trademark")
+    #     kipris_xml_dataGenerator.append_data_lists(trademark)
+    #     kipris_xml_dataGenerator.apply()
+    #     kipris_xml_dataGenerator.save("trademark")
 
-    await util.get_run_time(save_xml , "patent_data 저장 완료")
+    # await util.get_run_time(save_xml , "patent_data 저장 완료")
 
 
 
