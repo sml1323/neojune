@@ -1,8 +1,7 @@
 import os
-
+from dotenv import load_dotenv
 from ..KiprisObject import KiprisObject
-
-
+load_dotenv()
 service_key = os.getenv('SERVICE_KEY')
 
 
