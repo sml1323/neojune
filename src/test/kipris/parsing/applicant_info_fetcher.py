@@ -1,5 +1,5 @@
 import os, asyncio
-from ....kipris.core.parsing.KiprisFetcher import KiprisFetcher
+from ....kipris.core.parsing.KiprisApplicantInfoFetcher import KiprisApplicantInfoFetcher
 from ....kipris.core.parsing.KiprisParam import KiprisParam
 
 class KiprisDesignPram(KiprisParam):
@@ -24,14 +24,14 @@ def main():
     param = KiprisDesignPram(120080091393, 10)
     print(param.get_dict())
     # 출력 결과
-    # {'accessKey': 'gT7qoU0dsdfsdfsvaBsdsdf9/vbar0=', 'docsCount': 500, 'applicantName': 120080091393, 'startNumber': 1, 'etc': 'true', 'part': 'true', 'simi': 'true', 'abandonment': 'true', 'cancle': 'true', 'destroy': 'true', 'invalid': 'true', 'notice': 'true', 'open': 'true', 'registration': 'true', 'rejection': 'true', 'descSort': 'true'}
+    # {'accessKey': 'gT7qoU0dWQGEjkljsdfjFsa=s9/vbar0=', 'docsCount': 500, 'applicantName': 120080091393, 'startNumber': 1, 'etc': 'true', 'part': 'true', 'simi': 'true', 'abandonment': 'true', 'cancle': 'true', 'destroy': 'true', 'invalid': 'true', 'notice': 'true', 'open': 'true', 'registration': 'true', 'rejection': 'true', 'descSort': 'true'}
     
     url = "http://plus.kipris.or.kr/openapi/rest/designInfoSearchService/applicantNameSearchInfo"
-    fetcher = KiprisFetcher(url, [ param ])
+    fetcher = KiprisApplicantInfoFetcher(url, param)
 
-    res = asyncio.run(fetcher.get_infos())
+    res = asyncio.run(fetcher.get_info())
 
-    print(vars(res[0]))
+    print(vars(res))
     # 출력 결과
     """
     {
