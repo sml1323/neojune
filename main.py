@@ -1,7 +1,7 @@
 import asyncio,sys
 from src.test import test
 
-from src.test.save_to_xml import save_to_xml
+# from src.test.save_to_xml import save_to_xml
 # from src.test.xml_to_dict import xml_to_dict
 # from src.test.dict_to_db import dict_to_db
 
@@ -10,3 +10,4 @@ from src.test.save_to_xml import save_to_xml
 # dict_to_db.main()
 
 test.run()
+

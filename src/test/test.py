@@ -1,5 +1,6 @@
-from .kipris.parsing.param import main
-
+from .kipris.parsing import param
+from .kipris.parsing import fetcher_data
 
 def run():
-    main()
+    # param.main()
+    fetcher_data.main()

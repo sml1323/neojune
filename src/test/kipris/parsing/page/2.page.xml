@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+    <header>
+        <resultCode></resultCode>
+        <resultMsg></resultMsg>
+    </header>
+    <body>
+        <items>
+            <PatentUtilityInfo>
+                <Applicant>동의대학교 산학협력단</Applicant>
+                <ApplicationDate>20191231</ApplicationDate>
+                <ApplicationNumber>1020190179174</ApplicationNumber>
+                <Abstract>본 발명의 일 실시 예에 따른 건물 붕괴방지 시스템은 건물의 제 1 장소에 부착되어 가속도 데이터를 수집하기 위한 3축 가속도센서,
+                    수집된 가속도 데이터를 분석하여 건물의 붕괴 여부를 판단하기 위한 제어부 및 판단 결과를 사용자 단말로 제공하는 알람생성부를 포함하고, 제어부는
+                    가속도 데이터에 대한 주파수 변환 결과에 기초하여 생성된 주파수 이미지에 대하여 딥러닝 알고리즘에 기초하여 미리 학습된 결과에 따라 생성된
+                    분석모델을 이용하여 건물의 붕괴 여부를 판단할 수 있다.</Abstract>
+                <DrawingPath>
+                    http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93816c57cd6f41cea7d1306b3f594797039ef8a04e6b68fffd1a8385106cb40d792f638cd66f70e59d8e72756ccb5d018802e46cc297e7a7d9</DrawingPath>
+                <ThumbnailPath>
+                    http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cff02b16313c36fac36964961e2549f5b045b75d9e06a94168248e6389288fccd7a97a2ad46648b3e2b7a25a1d1ba0df4e686741808088840d</ThumbnailPath>
+                <SerialNumber>1</SerialNumber>
+                <InventionName>건물 붕괴방지 시스템</InventionName>
+                <InternationalpatentclassificationNumber>G08B 21/18|G01P 15/00|G01S 17/88|G06N
+                    3/044|G06N 3/0464|G06N 3/08</InternationalpatentclassificationNumber>
+                <OpeningDate>20210708</OpeningDate>
+                <OpeningNumber>1020210085761</OpeningNumber>
+                <PublicNumber></PublicNumber>
+                <PublicDate>20211111</PublicDate>
+                <RegistrationDate>20211108</RegistrationDate>
+                <RegistrationNumber>1023256560000</RegistrationNumber>
+                <RegistrationStatus>등록</RegistrationStatus>
+            </PatentUtilityInfo>
+            <PatentUtilityInfo>
+                <Applicant>동의대학교 산학협력단</Applicant>
+                <ApplicationDate>20120611</ApplicationDate>
+                <ApplicationNumber>1020120062108</ApplicationNumber>
+                <Abstract>본 발명은 동영상 부호화를 위한 움직임 추정을 위하여 깊이 카메라와 색상 카메라를 동시에 이용하여 배경영역과 객체영역을 효과적으로
+                    분리하고, 객체영역에 대해서만 움직임을 추정하는 것에 의해 움직임 추정의 복잡도를 줄일 수 있도록 한 깊이 카메라를 이용한 움직임 추정 시스템
+                    및 방법에 관한 것으로, 측정 대상체의 깊이 정보를 출력하는 깊이 카메라 및 측정 대상체의 색상 정보를 출력하는 색상 카메라;상기 깊이
+                    카메라로부터 얻어진 거리 정보로 동영상내 객체 정보를 얻고, 화소들을 그룹화하여 동일한 객체로 라벨링을 수행하는 객체 라벨링부;상기 객체
+                    라벨링부에 의해 라벨링된 현재 및 참조 화면 내에서 움직임 추정 블록을 나누어 탐색 영역을 판단하는 탐색 영역 판단부;상기 탐색 영역 판단부의
+                    탐색 영역 판정 및 색상 카메라의 색상 정보를 이용하여 각각의 라벨링 화면내 블록의 탐색영역 판단에 근거하여 움직임 추정이 이루어지도록 움직임
+                    평가척도 비교를 수행하는 평가척도 비교부;상기 평가척도 비교부의 움직임 평가척도 비교 결과에 따라 배경영역과 객체영역을 분리하고, 객체영역에
+                    대해서만 움직임을 추정하는 움직임 벡터 추정부;를 포함하는 것이다.</Abstract>
+                <DrawingPath>
+                    http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00af8098d01ef617c42c8835e560a9c4e37a1641b80c489f9b8ca29e3cd58413e0c91755e8f44ea411bc2f90ebd3ef5398dd913970482ef420</DrawingPath>
+                <ThumbnailPath>
+                    http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfbe86d76417411e73f2a5b77e32e50c575af19c60b7265084c289ccec551d568ea9d1714de90a77a56ac4f072f4dfdc9d4c0dcf7f1545d8b1</ThumbnailPath>
+                <SerialNumber>2</SerialNumber>
+                <InventionName>깊이 카메라를 이용한 움직임 추정 시스템 및 방법</InventionName>
+                <InternationalpatentclassificationNumber>H04N 19/513|H04N 19/20|H04N 19/176</InternationalpatentclassificationNumber>
+                <OpeningDate></OpeningDate>
+                <OpeningNumber></OpeningNumber>
+                <PublicNumber></PublicNumber>
+                <PublicDate>20131205</PublicDate>
+                <RegistrationDate>20131127</RegistrationDate>
+                <RegistrationNumber>1013361390000</RegistrationNumber>
+                <RegistrationStatus>등록</RegistrationStatus>
+            </PatentUtilityInfo>
+            <TotalSearchCount>1784</TotalSearchCount>
+            <SearchStartNumber>3</SearchStartNumber>
+        </items>
+    </body>
+</response>
