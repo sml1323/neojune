@@ -5,6 +5,7 @@ from .kipris.parsing import applicant_info_fetcher
 from .kipris.convert import xml_to_dict_converter
 from .kipris.upload import uploader
 from .all_conn import all_conn
+from .blocked_users import blocked_users
 
 def run():
     # param.main()
@@ -13,4 +14,5 @@ def run():
     # applicant_info_fetcher.main()
     # xml_to_dict_converter.main()
     # uploader.main()
-    all_conn.main()
+    # all_conn.main()
+    blocked_users.main()
