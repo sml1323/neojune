@@ -7,12 +7,13 @@ import random
 from .KiprisFetchData import KiprisFetchData
 from .KiprisParam import KiprisParam
 from ...core.parsing import KiprisFetcher
-from ....util.monitoring import setup_logger
+from ....util.monitoring import setup_logger,setup_logger_origin
 
 load_dotenv()
 service_key = os.getenv('SERVICE_KEY')
 
 logger = setup_logger("API 호출")
+logger_ori = setup_logger_origin("origin text")
 
 class KiprisApplicantInfoFetcher:
     def __init__(self, url:str, param:KiprisParam):
@@ -44,9 +45,8 @@ class KiprisApplicantInfoFetcher:
         """API 호출 후 페이지 내용 반환"""
         self.params.docsStart = page
         async with KiprisFetcher.semaphore:
-
             logger.info("호출 성공") 
-            await asyncio.sleep(random.uniform(0.02, 0.06))
+            await asyncio.sleep(random.uniform(0.01, 0.06))
             async with self.session.get(self.url, params=self.params.get_dict(), timeout=10) as response:
                 return await response.text()
 
@@ -56,7 +56,7 @@ class KiprisApplicantInfoFetcher:
 
         for tag in ["totalCount", "TotalSearchCount"]:
             element = root.find(f".//{tag}")
-            if element and element.text.isdigit():
+            if element is not None and element.text.isdigit():
                 return int(element.text)
 
         print("totalCount와 TotalSearchCount를 찾을 수 없습니다.")
@@ -70,6 +70,7 @@ class KiprisApplicantInfoFetcher:
         """응답 처리 및 성공 여부 반환"""
         try:
             content = await self._fetch_content(page)
+            logger_ori.info(content)
             if page == 1:  # 첫 페이지는 totalCount 추출
                 total_count = self.__get_total_count(content)
                 if total_count == -1:

@@ -33,35 +33,7 @@ def split(text: str, seperator: str = '|') -> str:
     return text.split(seperator)
 
 
-# def yappi_profiler(func):
-#     @wraps(func)
-#     async def async_wrapper(*args, **kwargs):
-#         yappi.set_clock_type("WALL")
-#         yappi.start()
-#         try:
-#             return await func(*args, **kwargs)
-#         finally:
-#             yappi.stop()
-#             # yappi.get_func_stats().print_all()
-#             yappi.get_func_stats().save("callgrind.prof", "pstat")
-#             # print("saved")
-    
-#     @wraps(func)
-#     def sync_wrapper(*args, **kwargs):
-#         yappi.set_clock_type("WALL")
-#         yappi.start()
-#         try:
-#             return func(*args, **kwargs)
-#         finally:
-#             yappi.stop()
-#             # yappi.get_func_stats().print_all()
-#             yappi.get_func_stats().save("callgrind_sync.prof", "pstat")
-#             # print("saved")
-    
-#     # 비동기 함수인지 확인하여 적절한 래퍼 사용
-#     if asyncio.iscoroutinefunction(func):
-#         return async_wrapper
-#     else:
+
 #         return sync_wrapper
 def yappi_profiler(file_name="callgrind"):  # 기본 파일 이름 설정
     def decorator(func):

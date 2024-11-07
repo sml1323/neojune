@@ -31,11 +31,10 @@ async def main(table_name):
         await util.get_run_time(patent_action_api, "patent_action_api")
 
         async def patent_action_save():
-            kipris_xml_dataGenerator.append_data_xlists(patent)
+            kipris_xml_dataGenerator.append_data_lists(patent)
             kipris_xml_dataGenerator.apply()
             kipris_xml_dataGenerator.save("patent")
         await util.get_run_time(patent_action_save, "patent_action_save")
-        119980018525
         
         
         async def design_action_api():

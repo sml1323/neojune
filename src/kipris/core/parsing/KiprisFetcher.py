@@ -5,7 +5,7 @@ from .KiprisParam import KiprisParam
 from tqdm import tqdm
 from ....util.util import yappi_profiler
 
-semaphore = asyncio.Semaphore(5)
+semaphore = asyncio.Semaphore(20)
 
 class KiprisFetcher:
     def __init__(self, url:str='', params:list[KiprisParam]=[KiprisParam()]):
@@ -23,10 +23,17 @@ class KiprisFetcher:
         profiled_get_infos = yappi_profiler(file_name)(self._get_infos)
         return await profiled_get_infos()
 
+    # async def _get_infos(self) -> list:
+    #     tasks = []
+    #     for param in tqdm(self.params):
+    #         task = self.__task(param)
+    #         tasks.append(task)
+    #     return await asyncio.gather(*tasks)
+
     async def _get_infos(self) -> list:
         tasks = []
-        for param in tqdm(self.params):
-            task = self.__task(param)
+        for param in self.params:
+            task = asyncio.create_task(self.__task(param))
             tasks.append(task)
         return await asyncio.gather(*tasks)
     

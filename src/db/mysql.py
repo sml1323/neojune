@@ -181,7 +181,7 @@ class Mysql:
         return self.get_cursor_fetchall(sql)
 
     def get_all_app_no_and_applicant_id(self, table="TB24_200") -> list[list]:
-        sql = f'SELECT applicant_no, applicant_id FROM {table} ;'
+        sql = f'SELECT applicant_no, applicant_id FROM {table} ORDER BY applicant_id'
         return self.get_cursor_fetchall(sql)
 
     def close_connection(self):

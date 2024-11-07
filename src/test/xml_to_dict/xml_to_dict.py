@@ -1,3 +1,5 @@
+import time 
+
 from ...kipris.convert.mapper.DesignKiprisMapper import DesignKiprisMapper
 from ...kipris.convert.mapper.PatentKiprisMapper import PatentKiprisMapper
 from ...kipris.convert.mapper.TrademarkKiprisMapper import TrademarkKiprisMapper
@@ -21,29 +23,33 @@ def main():
     patent_xml_filename = f'{base_path}/patent.xml'  # XML 파일 경로
     trademark_xml_filename = f'{base_path}/trademark.xml'  # XML 파일 경로
 
-    if False:
+    if True:
+        start = time.time()
         print("#### design_parser")
         design_parser = KiprisDesignXmlToDictConverter(design_mapping, design_xml_filename)
         design_results = design_parser.parse()
+        print(len(design_results))
         print(design_results)
         print("")
-        print("")
+        print(time.time() - start)
 
     if True:
         print("#### patent_parser")
+        start = time.time()
         patent_parser = KiprisPatentXmlToDictConverter(patent_mapping, patent_xml_filename)
         patent_results = patent_parser.parse()
-        print(patent_results)
+        print(len(patent_results))
         print("")
-        print("")
+        print(time.time() - start)
 
-    if False:
+    if True:
         print("#### trademark_parser")
+        start = time.time()
         trademark_parser = KiprisTrademarkXmlToDictConverter(trademark_mapping, trademark_xml_filename)
         trademark_results = trademark_parser.parse()
-        print(trademark_results)
+        print(len(trademark_results))
         print("")
-        print("")
+        print(time.time() - start)
 
         
 
