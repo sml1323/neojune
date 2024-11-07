@@ -12,10 +12,9 @@ class KiprisFetcher:
         self.url = url
         self.params = params
 
-    async def __task(self, param:KiprisParam):
-
-        info = KiprisApplicantInfoFetcher(self.url, param )
-        result = await info.get_info()
+    async def __task(self, param: KiprisParam, session: aiohttp.ClientSession):
+        info = KiprisApplicantInfoFetcher(self.url, param)
+        result = await info.get_info(session)  # session 전달
         return result
     
     async def get_infos(self, file_name: str = "default.prof") -> list:
@@ -32,10 +31,11 @@ class KiprisFetcher:
 
     async def _get_infos(self) -> list:
         tasks = []
-        for param in self.params:
-            task = asyncio.create_task(self.__task(param))
-            tasks.append(task)
-        return await asyncio.gather(*tasks)
+        async with aiohttp.ClientSession() as session: 
+            for param in self.params:
+                task = asyncio.create_task(self.__task(param, session)) 
+                tasks.append(task)
+            return await asyncio.gather(*tasks)
     
     def set_params(self, params_list:list[str|int], ParamType:KiprisParam=KiprisParam):
         res = []
