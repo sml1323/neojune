@@ -1,0 +1,2122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<response>
+	<header>
+		<resultCode></resultCode>
+		<resultMsg></resultMsg>
+	</header>
+	<body>
+		<items>
+			<TotalSearchCount>78</TotalSearchCount>
+			<TradeMarkInfo>
+				<SerialNumber>1</SerialNumber>
+				<ApplicationNumber>4020230030591</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20230220</ApplicationDate>
+				<PublicNumber>4020240103496</PublicNumber>
+				<PublicDate>20240703</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>공고</ApplicationStatus>
+				<GoodClassificationCode>09</GoodClassificationCode>
+				<ViennaCode>050501|050520|050522|050524|071508</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>원대규</AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title></Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913440be47db3b03c4b734f8bd06a1d75c04e364b7a10b4a9566bd591dca4c14bbed5ef42d63c3fb84e59</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2991ba5d9d09407d4b122df9924b37c10d1c0aec69d6cc03b715f1242346bd69d8bb8929b5a9ca2ecc</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>2</SerialNumber>
+				<ApplicationNumber>4020230030578</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20230220</ApplicationDate>
+				<PublicNumber>4020240097210</PublicNumber>
+				<PublicDate>20240621</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>공고</ApplicationStatus>
+				<GoodClassificationCode>09</GoodClassificationCode>
+				<ViennaCode>011511|030501|030625|071508|260115</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>원대규</AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title></Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913440be47db3b03c4b734f8bd06a1d75c04e509dccd83526c3dfdb67835f45eb4a54e1faa05c5c24ea47</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2991ba5d9d09407d4b122df9924b37c10dcee4ffa43fddc66539a5a8d3d6b7ec172826a99c94932c78</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>3</SerialNumber>
+				<ApplicationNumber>4020230030573</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20230220</ApplicationDate>
+				<PublicNumber>4020240096260</PublicNumber>
+				<PublicDate>20240620</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>공고</ApplicationStatus>
+				<GoodClassificationCode>09</GoodClassificationCode>
+				<ViennaCode>030501|030520|030524|050901</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>원대규</AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title></Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913440be47db3b03c4b734f8bd06a1d75c04e509dccd83526c3df4a0c0574b5db5649778426ec424d3fb9</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2991ba5d9d09407d4b122df9924b37c10dcee4ffa43fddc6654368523e0f1f18de7daf9e00cb746ddd</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>4</SerialNumber>
+				<ApplicationNumber>4020230030583</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20230220</ApplicationDate>
+				<PublicNumber>4020240097212</PublicNumber>
+				<PublicDate>20240621</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>공고</ApplicationStatus>
+				<GoodClassificationCode>09</GoodClassificationCode>
+				<ViennaCode>030501|030525|030526</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>원대규</AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title></Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913440be47db3b03c4b734f8bd06a1d75c04e98301b34863bc8645b50f7f4c8ef1927d44cbe31b9773654</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2991ba5d9d09407d4b122df9924b37c10d12b71e8529fbb995707b6e0cbab2e1d313a58ed5374df105</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>5</SerialNumber>
+				<ApplicationNumber>4020230030589</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20230220</ApplicationDate>
+				<PublicNumber>4020240097215</PublicNumber>
+				<PublicDate>20240621</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>공고</ApplicationStatus>
+				<GoodClassificationCode>09</GoodClassificationCode>
+				<ViennaCode>050501|050520|050522|050524|071508</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>원대규</AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title></Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913440be47db3b03c4b734f8bd06a1d75c04e98301b34863bc8643e16cafd2bcd89aac0273bcb6f2bfc8a</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2991ba5d9d09407d4b122df9924b37c10d12b71e8529fbb995ff4651cc0a5bd3e7b40fc2b3b2a321b4</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>6</SerialNumber>
+				<ApplicationNumber>4020230030580</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20230220</ApplicationDate>
+				<PublicNumber>4020240097211</PublicNumber>
+				<PublicDate>20240621</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>공고</ApplicationStatus>
+				<GoodClassificationCode>09</GoodClassificationCode>
+				<ViennaCode>030501|030525|030526|160313</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>원대규</AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title></Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913440be47db3b03c4b734f8bd06a1d75c04e98301b34863bc864633c4776025206d506360d35ad8de78a</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2991ba5d9d09407d4b122df9924b37c10d12b71e8529fbb99523765abdcd75b9110aaa33b232ec6743</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>7</SerialNumber>
+				<ApplicationNumber>4020230030586</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20230220</ApplicationDate>
+				<PublicNumber>4020240097214</PublicNumber>
+				<PublicDate>20240621</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>공고</ApplicationStatus>
+				<GoodClassificationCode>09</GoodClassificationCode>
+				<ViennaCode>030104|030125|030126</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>원대규</AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title></Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913440be47db3b03c4b734f8bd06a1d75c04e98301b34863bc8647810e8e748df47950cead7115b2bf45e</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2991ba5d9d09407d4b122df9924b37c10d12b71e8529fbb995ede665d64447c737ed12310c1841fecb</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>8</SerialNumber>
+				<ApplicationNumber>4020230030569</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20230220</ApplicationDate>
+				<PublicNumber>4020240096259</PublicNumber>
+				<PublicDate>20240620</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>공고</ApplicationStatus>
+				<GoodClassificationCode>09</GoodClassificationCode>
+				<ViennaCode>020123|020133|020134|090724</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>원대규</AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title></Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913440be47db3b03c4b734f8bd06a1d75c04e043dc985af0ffbebc3a9600a91c1ffd07aa7ab1901c5ceed</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2991ba5d9d09407d4b122df9924b37c10d7c4279f9501263420c4348464a2eb685736b5a211ea44197</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>9</SerialNumber>
+				<ApplicationNumber>4020230030585</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20230220</ApplicationDate>
+				<PublicNumber>4020240097213</PublicNumber>
+				<PublicDate>20240621</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>공고</ApplicationStatus>
+				<GoodClassificationCode>09</GoodClassificationCode>
+				<ViennaCode>030501|030525|030526</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>원대규</AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title></Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913440be47db3b03c4b734f8bd06a1d75c04e98301b34863bc864e1f734b23844451566ae5cc5ebb76516</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2991ba5d9d09407d4b122df9924b37c10d12b71e8529fbb9951e2973618fc73629af4bfe837a4a5949</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>10</SerialNumber>
+				<ApplicationNumber>4020230030576</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20230220</ApplicationDate>
+				<PublicNumber>4020240096261</PublicNumber>
+				<PublicDate>20240620</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>공고</ApplicationStatus>
+				<GoodClassificationCode>09</GoodClassificationCode>
+				<ViennaCode>050901|071508|260115</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>원대규</AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title></Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913440be47db3b03c4b734f8bd06a1d75c04e509dccd83526c3dfb1c4cc4d969726584759698c5f8dedf1</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2991ba5d9d09407d4b122df9924b37c10dcee4ffa43fddc665f08adb8d1755bbb4884e6cb056e872f7</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>11</SerialNumber>
+				<ApplicationNumber>4020180058633</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20180430</ApplicationDate>
+				<PublicNumber>4020190000550</PublicNumber>
+				<PublicDate>20190104</PublicDate>
+				<RegistrationPublicNumber>4020190099297</RegistrationPublicNumber>
+				<RegistrationPublicDate>20191016</RegistrationPublicDate>
+				<RegistrationNumber>4015302210000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20191010</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>09|35</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>원대규</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title>Stylepicker</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913445013eac76f09a846c83270d892ff574bbe6d6b10c3ebcbbdcaf601dfd52441881cae33c4a4cc9083</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e293228145e2e03ea14bebf1537515e159b47349036303f08cbc80020ba96b96434d527bdfe9999cd9c</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>12</SerialNumber>
+				<ApplicationNumber>4020120070543</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20121113</ApplicationDate>
+				<PublicNumber>4020130090626</PublicNumber>
+				<PublicDate>20130925</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4010160480000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20140106</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>소멸</ApplicationStatus>
+				<GoodClassificationCode>10</GoodClassificationCode>
+				<ViennaCode>050313|210321|261125</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>오위환|정기택</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title>MiLi CHECK Middle Life, to Complete Health, by Efficient smart Care Keeper</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344bb3a21d1402d2ea40731ee99fa2f73a274bc6bf140eb6d6cba837d7ac4fb8089</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3cbcae00bd7eb6ab63863997652ac5e8d470c7eaaa50bd929bb00f657e37ea437</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>13</SerialNumber>
+				<ApplicationNumber>4020220212891</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20221121</ApplicationDate>
+				<PublicNumber>4020240036915</PublicNumber>
+				<PublicDate>20240307</PublicDate>
+				<RegistrationPublicNumber>4020240077384</RegistrationPublicNumber>
+				<RegistrationPublicDate>20240621</RegistrationPublicDate>
+				<RegistrationNumber>4022106670000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20240619</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>21</GoodClassificationCode>
+				<ViennaCode>040503|260406|261125|270302|270508|270522</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>원대규</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title>도우마 Douma</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913442817c88e040e84f7a851b111de4b04865b6fe706804f29e40925dde0cf77de97dd9ba5ac0e505c71</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2942dee2feafab2a097ff92071f1509f53c75b806914a1717105923b8ba9eda141a83855bd62ef762f</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>14</SerialNumber>
+				<ApplicationNumber>4020120070542</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20121113</ApplicationDate>
+				<PublicNumber>4020130059074</PublicNumber>
+				<PublicDate>20130617</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4010049290000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20131104</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>소멸</ApplicationStatus>
+				<GoodClassificationCode>05</GoodClassificationCode>
+				<ViennaCode>050313|210321|261125</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>오위환|정기택</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title>MiLi CHECK Middle Life, to Complete Health, by Efficient smart Care Keeper</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344bb3a21d1402d2ea40731ee99fa2f73a274bc6bf140eb6d6c3102cf4b30710431</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3cbcae00bd7eb6ab63863997652ac5e8d470c7eaaa50bd929d53dfdf4f597b470</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>15</SerialNumber>
+				<ApplicationNumber>4120120038059</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20121113</ApplicationDate>
+				<PublicNumber>4120130063469</PublicNumber>
+				<PublicDate>20130628</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4102723840000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20131104</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>소멸</ApplicationStatus>
+				<GoodClassificationCode>39</GoodClassificationCode>
+				<ViennaCode>050313|210321|261125</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>오위환|정기택</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title>MiLi CHECK Middle Life, to Complete Health, by Efficient smart Care Keeper</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344dd944ef41384d6f571e5c384e7fe339fe0ed83215a0a853d857dd8eeba186c33</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3f1d028264d8264ca371df08dc29275d040525b0595c1dd456c12b7d090d4b710</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>16</SerialNumber>
+				<ApplicationNumber>4120120038060</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20121113</ApplicationDate>
+				<PublicNumber>4120130063470</PublicNumber>
+				<PublicDate>20130628</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4102723850000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20131104</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>소멸</ApplicationStatus>
+				<GoodClassificationCode>44</GoodClassificationCode>
+				<ViennaCode>050313|210321|261125</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>오위환|정기택</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title>MiLi CHECK Middle Life, to Complete Health, by Efficient smart Care Keeper</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344dd944ef41384d6f571e5c384e7fe339f16db49e1d0bd70fc76c1e3d1f6a7f099</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3f1d028264d8264ca371df08dc29275d06ba93b21d0042c234a7bdad1ad8b5104</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>17</SerialNumber>
+				<ApplicationNumber>4020110062801</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20111110</ApplicationDate>
+				<PublicNumber>4020120048144</PublicNumber>
+				<PublicDate>20120725</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4009406620000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20121112</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>소멸</ApplicationStatus>
+				<GoodClassificationCode>25</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>동의대학교 산학협력단|주식회사 한패션</ApplicantName>
+				<AgentName>오위환|정기택</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation|주식회사 한패션 Han Fashion Corporation</RegistrationRightholderName>
+				<Title>한뜨레</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344c277180fa3e708daae49b9d6eda771aa12f8a7d4e60a50e26e3d8661af4b0ba6</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3d181b4c11d96fd3e6d4b0f4c3194fdf0896e45b8eee6c1c3829999c08c39e6b0</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>18</SerialNumber>
+				<ApplicationNumber>4020110062806</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20111110</ApplicationDate>
+				<PublicNumber>4020120048145</PublicNumber>
+				<PublicDate>20120725</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4009406610000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20121112</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>소멸</ApplicationStatus>
+				<GoodClassificationCode>25</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>동의대학교 산학협력단|주식회사 한패션</ApplicantName>
+				<AgentName>오위환|정기택</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation|주식회사 한패션 Han Fashion Corporation</RegistrationRightholderName>
+				<Title>Hanttre</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344c277180fa3e708daae49b9d6eda771aa12f8a7d4e60a50e27434ef672ff05045</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3d181b4c11d96fd3e6d4b0f4c3194fdf0896e45b8eee6c1c30a00a6ec57e7c336</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>19</SerialNumber>
+				<ApplicationNumber>4020170003767</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20170110</ApplicationDate>
+				<PublicNumber>4020170053949</PublicNumber>
+				<PublicDate>20170529</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>포기</ApplicationStatus>
+				<GoodClassificationCode>25</GoodClassificationCode>
+				<ViennaCode>200525|261112|261113</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단|사단법인 서면시장번영회</ApplicantName>
+				<AgentName>특허법인부경</AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title></Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ea1426f51e57de25d14d162f1a96c21a25f71b9ef26f15e54d52fafe0db4996a50a61d866b88ded9</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29a5e93bcaa0e35e071cf733cf5687943599d22182561bbb18e99348064780de2ec0812f5b5ec596d3</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>20</SerialNumber>
+				<ApplicationNumber>4020170078874</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20170626</ApplicationDate>
+				<PublicNumber>4020170125868</PublicNumber>
+				<PublicDate>20171208</PublicDate>
+				<RegistrationPublicNumber>4020180017512</RegistrationPublicNumber>
+				<RegistrationPublicDate>20180227</RegistrationPublicDate>
+				<RegistrationNumber>4013331880000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20180221</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>44</GoodClassificationCode>
+				<ViennaCode>020910|040502</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>특허법인태인</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단</RegistrationRightholderName>
+				<Title></Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ea1426f51e57de251694510c83a0b3bce4b54efd8b31faf9cf5773b76c8c50a406a53e501a1031c8</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29a5e93bcaa0e35e0703016627f7de353ed3f776ca9804845f6d6f40ffb4154e4a8bbbcaf66ff56ec0</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>21</SerialNumber>
+				<ApplicationNumber>4020170135315</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20171026</ApplicationDate>
+				<PublicNumber>4020180055060</PublicNumber>
+				<PublicDate>20180607</PublicDate>
+				<RegistrationPublicNumber>4020180093637</RegistrationPublicNumber>
+				<RegistrationPublicDate>20181025</RegistrationPublicDate>
+				<RegistrationNumber>4014080080000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20181018</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>44</GoodClassificationCode>
+				<ViennaCode>020910|040502|191315</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>원대규</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title></Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ea1426f51e57de25e7f19222e18ddbb2b2d207e40136e11a89724c52bb5bef6cec845c59aa58581a</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29a5e93bcaa0e35e07fe45a8f80894c66478951beccd11bd3c99a3721350d19bffc7dba742686d869e</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>22</SerialNumber>
+				<ApplicationNumber>4020170135312</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20171026</ApplicationDate>
+				<PublicNumber>4020180055059</PublicNumber>
+				<PublicDate>20180607</PublicDate>
+				<RegistrationPublicNumber>4020180093636</RegistrationPublicNumber>
+				<RegistrationPublicDate>20181025</RegistrationPublicDate>
+				<RegistrationNumber>4014080070000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20181018</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>44</GoodClassificationCode>
+				<ViennaCode>020910|040502|191315</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>원대규</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title></Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ea1426f51e57de25e7f19222e18ddbb2b2d207e40136e11a73439895e291abfc21dda6259006f2ae</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29a5e93bcaa0e35e07fe45a8f80894c66478951beccd11bd3ca94738f1949441bfaac2a44761d14862</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>23</SerialNumber>
+				<ApplicationNumber>4020170079291</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20170627</ApplicationDate>
+				<PublicNumber>4020170123643</PublicNumber>
+				<PublicDate>20171206</PublicDate>
+				<RegistrationPublicNumber>4020180018468</RegistrationPublicNumber>
+				<RegistrationPublicDate>20180302</RegistrationPublicDate>
+				<RegistrationNumber>4013340940000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20180223</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>44</GoodClassificationCode>
+				<ViennaCode>010109|020910|040502</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>특허법인태인</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단</RegistrationRightholderName>
+				<Title></Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ea1426f51e57de25871c24365d9625c4aae6dc45c2b718f034239ea1de8c8a275c59f34cc7791b54</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29a5e93bcaa0e35e072394d6283b4dbbddfe2ecb2aa5acf533f826e968adc25ef5cf30b43769e158e6</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>24</SerialNumber>
+				<ApplicationNumber>4020170078882</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20170626</ApplicationDate>
+				<PublicNumber>4020170125870</PublicNumber>
+				<PublicDate>20171208</PublicDate>
+				<RegistrationPublicNumber>4020180017514</RegistrationPublicNumber>
+				<RegistrationPublicDate>20180227</RegistrationPublicDate>
+				<RegistrationNumber>4013331900000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20180221</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>44</GoodClassificationCode>
+				<ViennaCode>010109|020910|040502</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>특허법인태인</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단</RegistrationRightholderName>
+				<Title></Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ea1426f51e57de251694510c83a0b3bc6ed3142358b3fd3445f44ec2fc71b6b366f64ac372361623</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29a5e93bcaa0e35e0703016627f7de353eebbba72aeb8154e3f3f5a0c65ae2fdfecaa0d5f56939d056</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>25</SerialNumber>
+				<ApplicationNumber>4020170135317</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20171026</ApplicationDate>
+				<PublicNumber>4020180055061</PublicNumber>
+				<PublicDate>20180607</PublicDate>
+				<RegistrationPublicNumber>4020180093638</RegistrationPublicNumber>
+				<RegistrationPublicDate>20181025</RegistrationPublicDate>
+				<RegistrationNumber>4014080090000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20181018</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>44</GoodClassificationCode>
+				<ViennaCode>020910|040502|191315</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>원대규</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title></Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ea1426f51e57de25e7f19222e18ddbb2b2d207e40136e11a0710095805db1b7cef68679d51bf992f</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29a5e93bcaa0e35e07fe45a8f80894c66478951beccd11bd3c29f51c1225ad443d6ca760aba0ab6778</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>26</SerialNumber>
+				<ApplicationNumber>4020170135319</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20171026</ApplicationDate>
+				<PublicNumber>4020180055062</PublicNumber>
+				<PublicDate>20180607</PublicDate>
+				<RegistrationPublicNumber>4020180093639</RegistrationPublicNumber>
+				<RegistrationPublicDate>20181025</RegistrationPublicDate>
+				<RegistrationNumber>4014080120000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20181018</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>44</GoodClassificationCode>
+				<ViennaCode>020910|040502|191315</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>원대규</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title></Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ea1426f51e57de25e7f19222e18ddbb2b2d207e40136e11aec15fe51d340acabe353bd410f2811ee</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29a5e93bcaa0e35e07fe45a8f80894c66478951beccd11bd3c3d0ee36b4b93c0a3b64e2abee7643898</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>27</SerialNumber>
+				<ApplicationNumber>4020170078879</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20170626</ApplicationDate>
+				<PublicNumber>4020170125869</PublicNumber>
+				<PublicDate>20171208</PublicDate>
+				<RegistrationPublicNumber>4020180017513</RegistrationPublicNumber>
+				<RegistrationPublicDate>20180227</RegistrationPublicDate>
+				<RegistrationNumber>4013331890000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20180221</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>44</GoodClassificationCode>
+				<ViennaCode>010109|020910|040502</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>특허법인태인</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단</RegistrationRightholderName>
+				<Title></Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ea1426f51e57de251694510c83a0b3bce4b54efd8b31faf96dd2a94ff234431ddbc0f07f45a7afa5</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29a5e93bcaa0e35e0703016627f7de353ed3f776ca9804845faed4bc138a43f1f908c954c9e4763377</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>28</SerialNumber>
+				<ApplicationNumber>4020190104509</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20190705</ApplicationDate>
+				<PublicNumber>4020190130464</PublicNumber>
+				<PublicDate>20191121</PublicDate>
+				<RegistrationPublicNumber>4020200022195</RegistrationPublicNumber>
+				<RegistrationPublicDate>20200304</RegistrationPublicDate>
+				<RegistrationNumber>4015796380000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20200227</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>09</GoodClassificationCode>
+				<ViennaCode>180123|261111|270526</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>원대규</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title>Do load</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a9134435594e3384b42e76339129a82ad33c68aa4b9faca7eb7952aa3901ed8722aa1b8c94395ae17f5823</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e293e70a322c3ead7b6971670b64ce40f7f06f3deac955338d7876a8b511eadb8fd0e8aaeba739c52dd</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>29</SerialNumber>
+				<ApplicationNumber>4020190117260</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20190729</ApplicationDate>
+				<PublicNumber>4020200013000</PublicNumber>
+				<PublicDate>20200210</PublicDate>
+				<RegistrationPublicNumber>4020200045288</RegistrationPublicNumber>
+				<RegistrationPublicDate>20200513</RegistrationPublicDate>
+				<RegistrationNumber>4016030720000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20200507</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>09|39</GoodClassificationCode>
+				<ViennaCode>241724|270526</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>원대규</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title>ㅅㅌ</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a9134435594e3384b42e76e9714c0a0909220dea188c0119747cb72bcf45d8d5dbb6012016cb0e2fd52538</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e293e70a322c3ead7b6a60b73fb23fe0645ad51b80f248afe68267d450ce5f3b1fd297150b814f1af20</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>30</SerialNumber>
+				<ApplicationNumber>4020180096769</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20180713</ApplicationDate>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>거절</ApplicationStatus>
+				<GoodClassificationCode>03|05</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>김성현</AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title>올가덴</Title>
+				<FulltextExistFlag>N</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913445013eac76f09a84608f5a96f3d6bdc8a48a14035ecc0f2f93e9d14cd268923a40625494a20539287</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e293228145e2e03ea1448b72a0618d8853efa9c6b9fa005fd5036c5253db7ccf47b1208fe6a18b47856</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>31</SerialNumber>
+				<ApplicationNumber>4020190036877</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20190311</ApplicationDate>
+				<PublicNumber>4020190114417</PublicNumber>
+				<PublicDate>20191015</PublicDate>
+				<RegistrationPublicNumber>4020200018038</RegistrationPublicNumber>
+				<RegistrationPublicDate>20200221</RegistrationPublicDate>
+				<RegistrationNumber>4015758810000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20200217</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>03|05</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>김성현</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단</RegistrationRightholderName>
+				<Title>보타덴트 botadent</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a9134435594e3384b42e76871102c2b9956fdba5fe3fb36bda31d0747418c02d2b7ae92600c9d0c0e0f206</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e293e70a322c3ead7b6cf3692e8d812f97435765365be63c3a0d57927cf31720c4402a66b2096d8bb6d</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>32</SerialNumber>
+				<ApplicationNumber>4020180131643</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20180919</ApplicationDate>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>거절</ApplicationStatus>
+				<GoodClassificationCode>03|05</GoodClassificationCode>
+				<ViennaCode>011509|011521|020910|050320|070515|260414|261525</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>김성현</AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title>올가덴 OrgaDen</Title>
+				<FulltextExistFlag>N</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913445013eac76f09a846bf66293ada100339f2b94a95ea16ed5221e55bafd8d62286567eefc410de3093</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e293228145e2e03ea14493017031cd38517ec99f832c92058dabe72036f416925746b479fec42c34256</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>33</SerialNumber>
+				<ApplicationNumber>4020150066655</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20150907</ApplicationDate>
+				<PublicNumber>4020150139733</PublicNumber>
+				<PublicDate>20151230</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4011679930000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20160318</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>03</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>손민</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단</RegistrationRightholderName>
+				<Title>꽃잎 한 장</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a9134459b0ed09a289f73791ff0e97dcb333a17bb25e600dd2971a777b05063eb0a718</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e298cd4f29188d848164d58f429f326a432fab8f4c0a6fdff1cfb855b0f815510d0</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>34</SerialNumber>
+				<ApplicationNumber>4020150066656</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20150907</ApplicationDate>
+				<PublicNumber>4020150139734</PublicNumber>
+				<PublicDate>20151230</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4011679940000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20160318</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>03</GoodClassificationCode>
+				<ViennaCode>050520|050521|270508</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>손민</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단</RegistrationRightholderName>
+				<Title>꽃잎 한 장</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a9134459b0ed09a289f73791ff0e97dcb333a17bb25e600dd2971a2a8060fabc4427f2</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e298cd4f29188d848164d58f429f326a432fab8f4c0a6fdff1c6f9a2f4947d342f4</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>35</SerialNumber>
+				<ApplicationNumber>4020170133468</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20171023</ApplicationDate>
+				<PublicNumber>4020180058611</PublicNumber>
+				<PublicDate>20180615</PublicDate>
+				<RegistrationPublicNumber>4020180088629</RegistrationPublicNumber>
+				<RegistrationPublicDate>20181012</RegistrationPublicDate>
+				<RegistrationNumber>4014035890000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20181005</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>03</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>손민</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단</RegistrationRightholderName>
+				<Title>동의 치주보감</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ea1426f51e57de258fec179b4efb954c9bbc953b28dfaa3fea3ece2408d1a8e44d73ea02617a6e13</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29a5e93bcaa0e35e07b1bf1d7619b8ab90de11cda6f65668facc03ec5149cedd13519820e832dc6b5e</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>36</SerialNumber>
+				<ApplicationNumber>4020170133469</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20171023</ApplicationDate>
+				<PublicNumber>4020180058612</PublicNumber>
+				<PublicDate>20180615</PublicDate>
+				<RegistrationPublicNumber>4020180088630</RegistrationPublicNumber>
+				<RegistrationPublicDate>20181012</RegistrationPublicDate>
+				<RegistrationNumber>4014035900000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20181005</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>03</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>손민</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단</RegistrationRightholderName>
+				<Title>치주보감 치주보감</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ea1426f51e57de258fec179b4efb954c9bbc953b28dfaa3fe1f1d95ef0203b95582e7944c80db8ed</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29a5e93bcaa0e35e07b1bf1d7619b8ab90de11cda6f65668facb6b39d8d3f9d90441552d2bdc858493</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>37</SerialNumber>
+				<ApplicationNumber>4020170012366</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20170131</ApplicationDate>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>거절</ApplicationStatus>
+				<GoodClassificationCode>03</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>손민</AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title>치주보감 덴탈매니저 치주보감 Dental Manager</Title>
+				<FulltextExistFlag>N</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ea1426f51e57de25014f2a988f0724c6705180e484f7d6dec99ef0b5a29253575a7e1dc381d94276</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29a5e93bcaa0e35e07b4c05f0b3f9d2c0807a46733dd878ea44659617e0f7edba3b3981af83ee8938c</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>38</SerialNumber>
+				<ApplicationNumber>4120110035697</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20111110</ApplicationDate>
+				<PublicNumber>4120120088450</PublicNumber>
+				<PublicDate>20121211</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4102536400000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20130307</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>35</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>동의대학교 산학협력단|주식회사 한패션</ApplicantName>
+				<AgentName>정기택|오위환</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation|주식회사 한패션 Han Fashion Corporation</RegistrationRightholderName>
+				<Title>Hanttre</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344904792a90cbf29ae8c56e9afb93a8455850a30913cee392bb500ae1817ea994b</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3858866635f931991c943a7a16ee085a0c0399b1200cdda944811ff62ec189339</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>39</SerialNumber>
+				<ApplicationNumber>4120110035696</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20111110</ApplicationDate>
+				<PublicNumber>4120120088449</PublicNumber>
+				<PublicDate>20121211</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4102536380000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20130307</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>35</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>주식회사 한패션|동의대학교 산학협력단</ApplicantName>
+				<AgentName>오위환|정기택</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation|주식회사 한패션 Han Fashion Corporation</RegistrationRightholderName>
+				<Title>한뜨레</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344904792a90cbf29ae8c56e9afb93a8455850a30913cee392be78598a97ca46730</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3858866635f931991c943a7a16ee085a0c0399b1200cdda94eb2db436e32b4210</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>40</SerialNumber>
+				<ApplicationNumber>4020110062800</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20111110</ApplicationDate>
+				<PublicNumber>4020120080407</PublicNumber>
+				<PublicDate>20121115</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4009539830000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20130218</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>소멸</ApplicationStatus>
+				<GoodClassificationCode>18</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>동의대학교 산학협력단|주식회사 한패션</ApplicantName>
+				<AgentName>정기택|오위환</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation|주식회사 한패션 Han Fashion Corporation</RegistrationRightholderName>
+				<Title>Hanttre</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344c277180fa3e708daae49b9d6eda771aa12f8a7d4e60a50e2b6b19f8fe63b675e</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3d181b4c11d96fd3e6d4b0f4c3194fdf0896e45b8eee6c1c332afdbfd00ccc518</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>41</SerialNumber>
+				<ApplicationNumber>4020110062799</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20111110</ApplicationDate>
+				<PublicNumber>4020120080406</PublicNumber>
+				<PublicDate>20121115</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4009539840000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20130218</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>소멸</ApplicationStatus>
+				<GoodClassificationCode>18</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>주식회사 한패션|동의대학교 산학협력단</ApplicantName>
+				<AgentName>오위환|정기택</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation|주식회사 한패션 Han Fashion Corporation</RegistrationRightholderName>
+				<Title>한뜨레</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344c277180fa3e708daae49b9d6eda771aa4c7103fbc87d4246018eb8317eecdea0</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3d181b4c11d96fd3e6d4b0f4c3194fdf059cfbf5be7f63ed46ae1ce6f1907640e</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>42</SerialNumber>
+				<ApplicationNumber>4020090059590</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20091203</ApplicationDate>
+				<PublicNumber>4020100058890</PublicNumber>
+				<PublicDate>20101109</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4008604010000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20110411</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>소멸</ApplicationStatus>
+				<GoodClassificationCode>10|30</GoodClassificationCode>
+				<ViennaCode>031301|261112|270508</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>오위환</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation|주식회사 메가딜 MEGA DEAL CO, LTD|주식회사 엔케이 NK CO,LTD</RegistrationRightholderName>
+				<Title>명품 웰 Masterpiece Well</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344caa2520f8fd62e900490c7d7d1183cfb02993c271407f52885b1193c0b9a0d49</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c37cef60776c026cf2cf6b8f300fe86c5243424b737c6bc668a6bba0123fac7511</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>43</SerialNumber>
+				<ApplicationNumber>4720210000002</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20210126</ApplicationDate>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>거절</ApplicationStatus>
+				<GoodClassificationCode>09</GoodClassificationCode>
+				<ViennaCode>260118|261102|261112</ViennaCode>
+				<ApplicantName>재단법인 한국화학융합시험연구원|동의대학교 산학협력단|재단법인 한국기계전기전자시험연구원|한국산업기술시험원|한국정보통신기술협회</ApplicantName>
+				<AgentName>특허법인세원</AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title>2등급 GOOD Software</Title>
+				<FulltextExistFlag>N</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344a94030ce0146138047355e061dc3c8e8ffbcdf09702281e0146a539ddc682dc2dca42d060df66c51</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29f385eb8c0f6d0e20d42f603195f884d93665a19ffec7d7b0146e372e720bd19efdc1acc3a8522f25</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>44</SerialNumber>
+				<ApplicationNumber>4720210000001</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20210126</ApplicationDate>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>거절</ApplicationStatus>
+				<GoodClassificationCode>09</GoodClassificationCode>
+				<ViennaCode>260118|261102|261112</ViennaCode>
+				<ApplicantName>재단법인 한국기계전기전자시험연구원|재단법인 한국화학융합시험연구원|동의대학교 산학협력단|한국산업기술시험원|한국정보통신기술협회</ApplicantName>
+				<AgentName>특허법인세원</AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title>1등급 GOOD Software</Title>
+				<FulltextExistFlag>N</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344a94030ce0146138047355e061dc3c8e8ffbcdf09702281e0f49314cf9bed25a957a2c268c67d8c69</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29f385eb8c0f6d0e20d42f603195f884d93665a19ffec7d7b0f4dd5d1628d69b831a2c8317e54f26a8</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>45</SerialNumber>
+				<ApplicationNumber>4720210000003</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20210126</ApplicationDate>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>거절</ApplicationStatus>
+				<GoodClassificationCode>09</GoodClassificationCode>
+				<ViennaCode>260118|261102|261112</ViennaCode>
+				<ApplicantName>한국정보통신기술협회|한국산업기술시험원|재단법인 한국기계전기전자시험연구원|동의대학교 산학협력단|재단법인 한국화학융합시험연구원</ApplicantName>
+				<AgentName>특허법인세원</AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title>GOOD Software</Title>
+				<FulltextExistFlag>N</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344a94030ce0146138047355e061dc3c8e8ffbcdf09702281e07b1b5e8399b0bf5d125f33870363407a</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29f385eb8c0f6d0e20d42f603195f884d93665a19ffec7d7b06b2da6dba0d0bb1c1ffeee8057d00b23</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>46</SerialNumber>
+				<ApplicationNumber>4020150095903</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20151224</ApplicationDate>
+				<PublicNumber>4020160058673</PublicNumber>
+				<PublicDate>20160603</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>거절</ApplicationStatus>
+				<GoodClassificationCode>25</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>오위환|정기택</AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title>SHOE PLACE</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a9134459b0ed09a289f73746f87fc10d52991704f66b6703e2c73978943c22d95d169f</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e298cd4f29188d84816e8ad0b604e9e04c079d7c67024ca4b2a791c1ab1f381c610</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>47</SerialNumber>
+				<ApplicationNumber>4020210059914</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20210324</ApplicationDate>
+				<PublicNumber>4020220066252</PublicNumber>
+				<PublicDate>20220610</PublicDate>
+				<RegistrationPublicNumber>4020220085503</RegistrationPublicNumber>
+				<RegistrationPublicDate>20220829</RegistrationPublicDate>
+				<RegistrationNumber>4019027740000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20220825</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>35</GoodClassificationCode>
+				<ViennaCode>050313|190112|260409|260416</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>원대규</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title></Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ae7b1568aff8c767e8967dd8980ec2a63eb2c9a916592f6868f68ecdd09ee770b607d32d899c9398</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2940f80548c1358af3fa431548de0acc6ff68a4f79603c9543dd990b692d536d3f68796c325e321469</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>48</SerialNumber>
+				<ApplicationNumber>4020100030085</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20100608</ApplicationDate>
+				<PublicNumber>4020110055169</PublicNumber>
+				<PublicDate>20110808</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4008961650000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20111226</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>소멸</ApplicationStatus>
+				<GoodClassificationCode>14</GoodClassificationCode>
+				<ViennaCode>270522|270907|270908</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>오위환</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title>hg hooGa</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344cf8870737f2162b334211e4d81b9c04d790bad7d5adc80668c6562aa9b1476c1</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3e1ea140b20ab05b32b5aee0370f763d0f3b790b4e3ee3f42f66251c0dd5a1b6a</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>49</SerialNumber>
+				<ApplicationNumber>4020100030092</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20100608</ApplicationDate>
+				<PublicNumber>4020110055172</PublicNumber>
+				<PublicDate>20110808</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4008961700000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20111226</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>소멸</ApplicationStatus>
+				<GoodClassificationCode>26</GoodClassificationCode>
+				<ViennaCode>270522|270907|270908</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>오위환</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title>hg hooGa</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344cf8870737f2162b334211e4d81b9c04dc0f4918407b3223b7ebd04b8ad2ad89a1ccd318fa1dbba71</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29be08ffd120b623eaaad7e755611ad75b132d8c91897adec7873ebe98596dead186b410426a19f5b0</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>50</SerialNumber>
+				<ApplicationNumber>4020100030094</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20100608</ApplicationDate>
+				<PublicNumber>4020110055173</PublicNumber>
+				<PublicDate>20110808</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4008961720000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20111226</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>소멸</ApplicationStatus>
+				<GoodClassificationCode>27</GoodClassificationCode>
+				<ViennaCode>270522|270907|270908</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>오위환</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title>hg hooGa</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344cf8870737f2162b334211e4d81b9c04dc0f4918407b3223ba593aa40cbb55b31</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3e1ea140b20ab05b32b5aee0370f763d0fa01e8a512db0df89ade44539c88d380</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>51</SerialNumber>
+				<ApplicationNumber>4120100014522</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20100608</ApplicationDate>
+				<PublicNumber>4120110068196</PublicNumber>
+				<PublicDate>20110926</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4102235510000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20111223</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>소멸</ApplicationStatus>
+				<GoodClassificationCode>35</GoodClassificationCode>
+				<ViennaCode>270522|270907|270908</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>오위환</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title>hg hooGa</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344649a1054f77dd4b625e68fb818983997cda26643fd9bb88320e67ccd446ca323</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c36dd1312a802ed7b0b78ddcfa1d48e0df8a59d65f9b66862d5f92fb3293c706dc</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>52</SerialNumber>
+				<ApplicationNumber>4020100030091</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20100608</ApplicationDate>
+				<PublicNumber>4020110055171</PublicNumber>
+				<PublicDate>20110808</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4008961680000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20111226</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>소멸</ApplicationStatus>
+				<GoodClassificationCode>25</GoodClassificationCode>
+				<ViennaCode>270522|270907|270908</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>오위환</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title>hg hooGa</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344cf8870737f2162b334211e4d81b9c04dc0f4918407b3223b6e49f0b2e14d6414</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3e1ea140b20ab05b32b5aee0370f763d0fa01e8a512db0df808b7928c49d9403c</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>53</SerialNumber>
+				<ApplicationNumber>4020100030090</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20100608</ApplicationDate>
+				<PublicNumber>4020110055170</PublicNumber>
+				<PublicDate>20110808</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4008961670000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20111226</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>소멸</ApplicationStatus>
+				<GoodClassificationCode>24</GoodClassificationCode>
+				<ViennaCode>270522|270907|270908</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>오위환</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title>hg hooGa</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344cf8870737f2162b334211e4d81b9c04dc0f4918407b3223bbcd13a40c19f4cd8</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3e1ea140b20ab05b32b5aee0370f763d0fa01e8a512db0df8587742adf18b3139</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>54</SerialNumber>
+				<ApplicationNumber>4020170132969</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20171020</ApplicationDate>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>거절</ApplicationStatus>
+				<GoodClassificationCode>28</GoodClassificationCode>
+				<ViennaCode>260418|270503</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>김홍길</AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title>남극 The Antarctic</Title>
+				<FulltextExistFlag>N</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ea1426f51e57de25b33e31ecf3f0665d58909e4afad1dae11825d17f67074a8a25c9c10a9fa792cf</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29a5e93bcaa0e35e071a0726679555ca624e3b4e5985534f230764ef30380031a2b28ef118729193d6</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>55</SerialNumber>
+				<ApplicationNumber>4020200226984</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20201211</ApplicationDate>
+				<PublicNumber>4020220018080</PublicNumber>
+				<PublicDate>20220211</PublicDate>
+				<RegistrationPublicNumber>4020220046617</RegistrationPublicNumber>
+				<RegistrationPublicDate>20220506</RegistrationPublicDate>
+				<RegistrationNumber>4018631560000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20220503</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>10</GoodClassificationCode>
+				<ViennaCode>120307|260116|270315|270519|270903|270908</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>원대규</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title>Health Ckecker</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344f20ce8245b099a8a9f3eea87dec7e5d2f32748ae6cdcb9cac80c2afc213193a024dfb6a4bc2ffa9b</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29df616987ef7331e93ce35c74782de59b7ef8ad9914617c6c358f890e85f1d178c0360486be80c3cd</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>56</SerialNumber>
+				<ApplicationNumber>4020090018425</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20090421</ApplicationDate>
+				<PublicNumber>4020100008937</PublicNumber>
+				<PublicDate>20100223</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4008244660000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20100527</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>소멸</ApplicationStatus>
+				<GoodClassificationCode>10|30</GoodClassificationCode>
+				<ViennaCode>031301|260115|270106</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>오위환|문춘오</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title>ORIENTAL MEDICINE WELLNESS CENTER</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344caa2520f8fd62e9027eb1e623331d5394de40d842bc500484a62ba00d08cf6a2</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c37cef60776c026cf2e7cdb43d673721f6631115f4aa218272458a8d04c889d126</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>57</SerialNumber>
+				<ApplicationNumber>4120150061665</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20151224</ApplicationDate>
+				<PublicNumber>4120160036679</PublicNumber>
+				<PublicDate>20160406</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4103645350000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20160704</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>35</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>오위환|정기택</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title>슈플레이스</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344bc22992e4e02e4d42e85180deead60f456a2079971043e4fe47534d07daf3642</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29b86af5a49c4ed9b29c656a7b8e33e840d2b47a5d6a8d4ad21ba5ffbd45274040</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>58</SerialNumber>
+				<ApplicationNumber>4120150061666</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20151224</ApplicationDate>
+				<PublicNumber>4120160032539</PublicNumber>
+				<PublicDate>20160325</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4103615940000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20160607</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>35</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>정기택|오위환</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title>SHOE PLACE</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344bc22992e4e02e4d42e85180deead60f456a2079971043e4fd178abb49320ea63</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29b86af5a49c4ed9b29c656a7b8e33e840d2b47a5d6a8d4ad25b57d3efc4ff6345</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>59</SerialNumber>
+				<ApplicationNumber>4020170144226</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20171114</ApplicationDate>
+				<PublicNumber>4020180057013</PublicNumber>
+				<PublicDate>20180611</PublicDate>
+				<RegistrationPublicNumber>4020180079613</RegistrationPublicNumber>
+				<RegistrationPublicDate>20180911</RegistrationPublicDate>
+				<RegistrationNumber>4013944630000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20180905</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>35</GoodClassificationCode>
+				<ViennaCode>260112|260205|260323|270112</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>정기택|오위환</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단</RegistrationRightholderName>
+				<Title>SHOE PLACE BUSAN</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ea1426f51e57de258778cc9cf9b1546f2c02b4d359ed8cb59dea65b75b6b8c1e42e7add04b0f5707</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29a5e93bcaa0e35e07dce6082d3a08943d46f81a2dbe71bf5829d979430a5d8a1d89a3f07904abb08e</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>60</SerialNumber>
+				<ApplicationNumber>4020170003765</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20170110</ApplicationDate>
+				<PublicNumber>4020170053948</PublicNumber>
+				<PublicDate>20170529</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>포기</ApplicationStatus>
+				<GoodClassificationCode>18</GoodClassificationCode>
+				<ViennaCode>200525|261112|261113</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단|사단법인 서면시장번영회</ApplicantName>
+				<AgentName>특허법인부경</AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title></Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ea1426f51e57de25d14d162f1a96c21a25f71b9ef26f15e5feb092851814cdef09c603ae80f5d3bf</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29a5e93bcaa0e35e071cf733cf5687943599d22182561bbb186856824b2ab649ada784b77940c9e0ac</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>61</SerialNumber>
+				<ApplicationNumber>4020180153715</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20181107</ApplicationDate>
+				<PublicNumber>4020190066634</PublicNumber>
+				<PublicDate>20190619</PublicDate>
+				<RegistrationPublicNumber>4020190099484</RegistrationPublicNumber>
+				<RegistrationPublicDate>20191016</RegistrationPublicDate>
+				<RegistrationNumber>4015302220000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20191010</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>41</GoodClassificationCode>
+				<ViennaCode>020723|040503|260403</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>원대규</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title>Humanity 5.0</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913445013eac76f09a846b5bfbc73a3915c4cec5b6f8e79d2edb5a63e604df5eea88e6bac6819633c6564</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e293228145e2e03ea1410e96c50199319364d9b94e5e151801b1dab1b0b365a8b7efd98f831893d554d</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>62</SerialNumber>
+				<ApplicationNumber>4020180083169</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20180620</ApplicationDate>
+				<PublicNumber>4020180106740</PublicNumber>
+				<PublicDate>20181019</PublicDate>
+				<RegistrationPublicNumber>4020190011177</RegistrationPublicNumber>
+				<RegistrationPublicDate>20190201</RegistrationPublicDate>
+				<RegistrationNumber>4014411050000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20190128</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>10</GoodClassificationCode>
+				<ViennaCode>010109|040501|050718|191313</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>원대규</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title></Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913445013eac76f09a846d6e0bb955a29584790bfe07ad3cce7fa4372cf0d79d20e7cad71ffc08402eb16</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e293228145e2e03ea14f309b7430f35e5c7689ce74d410f4de5d5335e0598b4065683c228dadfb1978b</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>63</SerialNumber>
+				<ApplicationNumber>4020180083167</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20180620</ApplicationDate>
+				<PublicNumber>4020180106739</PublicNumber>
+				<PublicDate>20181019</PublicDate>
+				<RegistrationPublicNumber>4020190011176</RegistrationPublicNumber>
+				<RegistrationPublicDate>20190201</RegistrationPublicDate>
+				<RegistrationNumber>4014411040000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20190128</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>10</GoodClassificationCode>
+				<ViennaCode>011503|020901|040501|050718|191313</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>원대규</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title></Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913445013eac76f09a846d6e0bb955a29584790bfe07ad3cce7fa56c7763557e5ed11a0b28140b6f5bf8c</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e293228145e2e03ea14f309b7430f35e5c7689ce74d410f4de5bb9978a34922d09708488cf280be45f7</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>64</SerialNumber>
+				<ApplicationNumber>4020180083166</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20180620</ApplicationDate>
+				<PublicNumber>4020180105735</PublicNumber>
+				<PublicDate>20181017</PublicDate>
+				<RegistrationPublicNumber>4020190011175</RegistrationPublicNumber>
+				<RegistrationPublicDate>20190201</RegistrationPublicDate>
+				<RegistrationNumber>4014411030000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20190128</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>10</GoodClassificationCode>
+				<ViennaCode>040501|050718|191313</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>원대규</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title>ZZZ</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913445013eac76f09a846d6e0bb955a29584790bfe07ad3cce7fabc7fb79d4f31621d9267a1d1361c9a1e</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e293228145e2e03ea14f309b7430f35e5c7689ce74d410f4de5b612589895786932c926e7e5f8d0fd7c</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>65</SerialNumber>
+				<ApplicationNumber>4020180083164</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20180620</ApplicationDate>
+				<PublicNumber>4020180106738</PublicNumber>
+				<PublicDate>20181019</PublicDate>
+				<RegistrationPublicNumber>4020190011174</RegistrationPublicNumber>
+				<RegistrationPublicDate>20190201</RegistrationPublicDate>
+				<RegistrationNumber>4014411020000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20190128</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>10</GoodClassificationCode>
+				<ViennaCode>040501|050718|191313</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>원대규</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title></Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913445013eac76f09a846d6e0bb955a29584790bfe07ad3cce7fac61e56fc274edf15c0c8d5ec9dc6fa16</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e293228145e2e03ea14f309b7430f35e5c7689ce74d410f4de5a5262c203a6fec1d43f34ca4ac07567f</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>66</SerialNumber>
+				<ApplicationNumber>4020180031321</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20180309</ApplicationDate>
+				<PublicNumber>4020180086626</PublicNumber>
+				<PublicDate>20180827</PublicDate>
+				<RegistrationPublicNumber>4020180101251</RegistrationPublicNumber>
+				<RegistrationPublicDate>20181116</RegistrationPublicDate>
+				<RegistrationNumber>4014158310000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20181112</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>16</GoodClassificationCode>
+				<ViennaCode>020910|040502</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>원대규</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title></Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913445013eac76f09a84696e7a7944be2c434813c9dbce13b749d7bc802e65334f16248e37fb28d7fde79</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e293228145e2e03ea14cf545deb97a896f62a4bfd031a63dd318f917780e6314f811f604d2614e2ed76</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>67</SerialNumber>
+				<ApplicationNumber>4020180031318</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20180309</ApplicationDate>
+				<PublicNumber>4020180086625</PublicNumber>
+				<PublicDate>20180827</PublicDate>
+				<RegistrationPublicNumber>4020180103127</RegistrationPublicNumber>
+				<RegistrationPublicDate>20181122</RegistrationPublicDate>
+				<RegistrationNumber>4014177560000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20181116</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>16</GoodClassificationCode>
+				<ViennaCode>020910|040502</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>원대규</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title></Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913445013eac76f09a84696e7a7944be2c43485aa2d5fda8c7e94cee2c87361bba015d5fd9fc1a78604c0</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e293228145e2e03ea14cf545deb97a896f65a5c296013309e3a21d6e5bea7b4fa0b3efd511d4bdafa94</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>68</SerialNumber>
+				<ApplicationNumber>4020180031324</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20180309</ApplicationDate>
+				<PublicNumber>4020180086628</PublicNumber>
+				<PublicDate>20180827</PublicDate>
+				<RegistrationPublicNumber>4020180101253</RegistrationPublicNumber>
+				<RegistrationPublicDate>20181116</RegistrationPublicDate>
+				<RegistrationNumber>4014158340000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20181112</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>16</GoodClassificationCode>
+				<ViennaCode>020910|040502</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>원대규</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title></Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913445013eac76f09a84696e7a7944be2c434813c9dbce13b749da3643d8355950bf7966f1f046330889d</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e293228145e2e03ea14cf545deb97a896f62a4bfd031a63dd316ccf1cd6ea5fedc3bace8fa3a3b9dc9b</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>69</SerialNumber>
+				<ApplicationNumber>4020170003764</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20170110</ApplicationDate>
+				<PublicNumber>4020170053947</PublicNumber>
+				<PublicDate>20170529</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>포기</ApplicationStatus>
+				<GoodClassificationCode>16</GoodClassificationCode>
+				<ViennaCode>200525|261112|261113</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단|사단법인 서면시장번영회</ApplicantName>
+				<AgentName>특허법인부경</AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title></Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ea1426f51e57de25d14d162f1a96c21a25f71b9ef26f15e519890f0c9f741c7a5e514e795b1f868a</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29a5e93bcaa0e35e071cf733cf5687943599d22182561bbb18bc7e5929a89bf5459cc95966fbb098d3</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>70</SerialNumber>
+				<ApplicationNumber>4020180031322</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20180309</ApplicationDate>
+				<PublicNumber>4020180086627</PublicNumber>
+				<PublicDate>20180827</PublicDate>
+				<RegistrationPublicNumber>4020180101252</RegistrationPublicNumber>
+				<RegistrationPublicDate>20181116</RegistrationPublicDate>
+				<RegistrationNumber>4014158330000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20181112</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>16</GoodClassificationCode>
+				<ViennaCode>020910|040502</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>원대규</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title></Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913445013eac76f09a84696e7a7944be2c434813c9dbce13b749d07289902820365b6fb89b0639aeb6993</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e293228145e2e03ea14cf545deb97a896f62a4bfd031a63dd311e856ae8003ad6aa73f667e9abe2eb44</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>71</SerialNumber>
+				<ApplicationNumber>4020170144225</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20171114</ApplicationDate>
+				<PublicNumber>4020180088845</PublicNumber>
+				<PublicDate>20180904</PublicDate>
+				<RegistrationPublicNumber>4020180104939</RegistrationPublicNumber>
+				<RegistrationPublicDate>20181128</RegistrationPublicDate>
+				<RegistrationNumber>4014198540000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20181122</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>25</GoodClassificationCode>
+				<ViennaCode>260112|260205|260323|270112</ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>정기택|오위환</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단</RegistrationRightholderName>
+				<Title>SHOE PLACE BUSAN</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ea1426f51e57de258778cc9cf9b1546f2c02b4d359ed8cb566b82adb65749e5b778a10c3fe8782f7</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29a5e93bcaa0e35e07dce6082d3a08943d46f81a2dbe71bf581bc844d68d795491181fcc89a6d96fe2</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>72</SerialNumber>
+				<ApplicationNumber>4020150095902</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20151224</ApplicationDate>
+				<PublicNumber>4020160055281</PublicNumber>
+				<PublicDate>20160526</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4011979550000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20160823</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>25</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>오위환|정기택</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title>슈플레이스</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a9134459b0ed09a289f73746f87fc10d52991704f66b6703e2c739c7f1d0c77613cc2e</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e298cd4f29188d84816e8ad0b604e9e04c079d7c67024ca4b2af0d8549455d40e07</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>73</SerialNumber>
+				<ApplicationNumber>4220150000419</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20150824</ApplicationDate>
+				<PublicNumber>4220150105386</PublicNumber>
+				<PublicDate>20151007</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4200062100000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20160223</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode></GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>오위환|정기택</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title>슈플레이스</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344f0ae564d5229520cf0ce702bd7d398fd72a3b3a4d4856e16a802a3ee4dfc0b80</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e299141ec1fb91dcc89ec2fb490d9e9454986725da6d0b9f242ddeb40d61ce37bdb</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>74</SerialNumber>
+				<ApplicationNumber>4220150000420</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20150824</ApplicationDate>
+				<PublicNumber>4220150105387</PublicNumber>
+				<PublicDate>20151007</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4200062110000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20160223</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode></GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>오위환|정기택</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title>shoeplace</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344f0ae564d5229520cf0ce702bd7d398fdc29c43dd4d7efadcd049ad0e943854b2</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e299141ec1fb91dcc89ec2fb490d9e94549ddb2239a852c863cb57d71156e5859b7</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>75</SerialNumber>
+				<ApplicationNumber>4120150061667</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20151224</ApplicationDate>
+				<PublicNumber>4120160032540</PublicNumber>
+				<PublicDate>20160325</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4103615960000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20160607</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>40</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>오위환|정기택</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title>슈플레이스</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344bc22992e4e02e4d42e85180deead60f456a2079971043e4ff1da0e33a4a01230</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29b86af5a49c4ed9b29c656a7b8e33e840d2b47a5d6a8d4ad2aee7970dfc08fda6</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>76</SerialNumber>
+				<ApplicationNumber>4120150061672</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20151224</ApplicationDate>
+				<PublicNumber>4120160032541</PublicNumber>
+				<PublicDate>20160325</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4103615970000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20160607</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>40</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>오위환|정기택</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title>SHOE PLACE</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344bc22992e4e02e4d42e85180deead60f4cdb08ffbd60c1092727acd405dc94500</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29b86af5a49c4ed9b29c656a7b8e33e8406c282d66b184b066a1c4506bb913b916</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>77</SerialNumber>
+				<ApplicationNumber>4020150095900</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20151224</ApplicationDate>
+				<PublicNumber>4020160058108</PublicNumber>
+				<PublicDate>20160602</PublicDate>
+				<RegistrationPublicNumber>4020160001441</RegistrationPublicNumber>
+				<RegistrationPublicDate>20160909</RegistrationPublicDate>
+				<RegistrationNumber>4012005730000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20160905</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>18</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>오위환|정기택</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title>SHOE PLACE</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a9134459b0ed09a289f73746f87fc10d52991704f66b6703e2c739aa5f748b185e1a10</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e298cd4f29188d84816e8ad0b604e9e04c079d7c67024ca4b2ab8fe1fb7f2f6cce2</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>78</SerialNumber>
+				<ApplicationNumber>4020150095898</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20151224</ApplicationDate>
+				<PublicNumber>4020160055280</PublicNumber>
+				<PublicDate>20160526</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4011979540000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20160823</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>18</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>동의대학교 산학협력단</ApplicantName>
+				<AgentName>정기택|오위환</AgentName>
+				<RegistrationRightholderName>동의대학교 산학협력단 Dongeui University IndustryAcademic Cooperation Foundation</RegistrationRightholderName>
+				<Title>슈플레이스</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a9134459b0ed09a289f73746f87fc10d5299174ca9e545e4a3813aaaaca015a91b3df5</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e298cd4f29188d84816e8ad0b604e9e04c024b15d6c5492cb38e8f05658646d3287</ThumbnailPath>
+			</TradeMarkInfo>
+		</items>
+	</body>
+</response>

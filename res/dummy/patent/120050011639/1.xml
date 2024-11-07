@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<response>
+	<header>
+		<resultCode></resultCode>
+		<resultMsg></resultMsg>
+	</header>
+	<body>
+		<items>
+			<PatentUtilityInfo>
+				<Applicant>아쿠아셀 주식회사|한국생산기술연구원</Applicant>
+				<ApplicationDate>20100118</ApplicationDate>
+				<ApplicationNumber>1020100004262</ApplicationNumber>
+				<Abstract>본 발명은 하이브리드형 저에너지 및 고효율 해수 담수화 방법에 관한 것으로, 유입된 해수를 전해살균하고, 가스 하이드레이트 생성원리를 이용하여 해수를 1차 담수화하며, 기수 역삼투막법으로 음용수 수준의 염분 농도로 2차 담수화하는 하이브리드 방법으로 저에너지 및 고효율로 해수를 담수화하는 방법에 관한 것이다.  본 발명에 따르면, 해수를 살균하는 제1단계; 가스 하이드레이트를 이용하여 1차 담수화하는 제2단계; 기수 역삼투막(BWRO)법을 이용하여 음용수 수준으로 2차 담수화하는 제3단계;를 포함하여 구성된 하이브리드형 저에너지 및 고효율 해수 담수화 방법이 제공된다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf7263f21efca3f266e6082cca0e264f4d802072a5f04e238940e36f59e226f5fec0163ec86961d9d237a8d0098283814b3af23ad5f63d2c28e8d</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cff5858f593560a1174f2318c41fdf6915bbaa7a1249e65119c3a3a4175148631ccacd4261f3cc612cbf18f5d139fe22a7e0c276163c19caae</ThumbnailPath>
+				<SerialNumber>1</SerialNumber>
+				<InventionName>하이브리드형 저에너지 및 고효율 해수 담수화 방법</InventionName>
+				<InternationalpatentclassificationNumber>C02F 9/00|C02F 1/467|B01D 61/02|C02F 1/26|C02F 103/08</InternationalpatentclassificationNumber>
+				<OpeningDate>20110726</OpeningDate>
+				<OpeningNumber>1020110084615</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20121109</PublicDate>
+				<RegistrationDate>20121105</RegistrationDate>
+				<RegistrationNumber>1011998400000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>아쿠아셀 주식회사</Applicant>
+				<ApplicationDate>20180418</ApplicationDate>
+				<ApplicationNumber>1020180044740</ApplicationNumber>
+				<Abstract>본 발명은 용수의 스케일성분 제거장치에 관한 것으로서, 내부 전극 및 외부 전극의 극성을 서로 전환함으로써 일측 전극에서는 용수의 스케일성분을 전해작용에 의해 석출하고, 타측 전극에서는 부착된 스케일이 탈리되도록 하는 용수의 스케일성분 제거장치에 관한 것이다. 이를 위해 하우징, 하우징의 내부에 삽입되는 내부 전극부,하우징의 내부에 삽입시에 내부 전극부가 내측으로 삽입되는 외부 전극부, 내부 전극부가 안착 되는 내부전극 안착홈이 형성되며, 하우징의 상부와 결합되는 상부 절연 플랜지부, 외부 전극부가 안착 되는 외부전극 안착홈이 형성되며, 하우징의 하부와 결합되는 하부 절연 플랜지부를 포함하고, 내부 전극부와 외부 전극부에 서로 다른 극성이 교차 형성됨으로써 스케일이 석출되며, 내부 전극부, 외부 전극부, 상부 절연 플랜지부 및 하부 절연 플랜지부가 하우징에 모듈 타입으로 각각 결합되는 것을 특징으로 하는 용수의 스케일성분 제거장치가 개시된다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00c118a98e7d4856f74a29942be77dcb8e62e7c24c3658fdcdcbce88e2aef417a7fd3ca05f729ae320a6a080ab6d8f69fc9349ff683c0e64e9</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfb5b051ba87f4ba77de8f26ada9a48f6bb470dda3580f4d5d61f708e2c20be89f29aad6459729ccc08fcf7a3e6a06e87fb7f583c0def1f3ce</ThumbnailPath>
+				<SerialNumber>2</SerialNumber>
+				<InventionName>용수의 스케일성분 제거장치</InventionName>
+				<InternationalpatentclassificationNumber>C02F 5/08|C02F 1/461</InternationalpatentclassificationNumber>
+				<OpeningDate>20191028</OpeningDate>
+				<OpeningNumber>1020190121439</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20191115</PublicDate>
+				<RegistrationDate>20191108</RegistrationDate>
+				<RegistrationNumber>1020447110000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>아쿠아셀 주식회사|국립부경대학교 산학협력단</Applicant>
+				<ApplicationDate>20070212</ApplicationDate>
+				<ApplicationNumber>1020070014486</ApplicationNumber>
+				<Abstract>본 발명은 악취 및 휘발성 유기화합물 처리용 바이오트리클링 필터시스템에 관한 것으로서, 더욱 상세하게는 시스템 내에 미생물 부착능이 우수하고 비표면적이 높아 악취 및 휘발성 유기화합물의 제거효율을 극대화 시킬 수 있으며, 80% 이상의 공극율을 갖고 있을 뿐만 아니라 비중이 1.05~1.20으로 낮아 효율적인 역세가 가능한 충진 여재인 미생물 담체를 내장하여 악취성분 및 휘발성 유기화합물질들을 미생물에 의해 분해 제거시켜 안정하고 무해한 형태의 물질로 전환 배출하도록 하는 친환경적인 악취 및 휘발성 유기화합물 처리용 바이오트리클링 필터시스템에 관한 것이다.  본 발명은 내부 중앙부에 순환수가 공급되는 제1살수관이 설치되고 내부 하측에는 다수의 통공이 형성된 지지망 위에 미생물 담체인 메디아가 충진되어 수용성 가스를 제거하는 제1반응챔버와, 내부 상측에 순환수가 공급되는 제2살수관이 설치되고 내부 중앙부에는 다수의 통공이 형성된 지지망 위에 미생물 담체인 메디아가 충진되어 난/비수용성 가스를 제거하는 제2반응챔버와, 상기 제1반응챔버 및 제2반응챔버 사이에 위치하여 상호간에 플랜지로서 체결되고 내부가 비어 있는 공간챔버와, 상기 제2반응챔버 상측에 플랜지로서 체결 설치되며 상측 중앙에 가스배출구가 형성된 호퍼형상의 상부덮개와, 상기 제1반응챔버 하측에 플랜지로서 체결 설치되며 일측면에 유해가스가 유입...(이하생략)</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9cf44e6e9608087f40e2207695ec701f85bf9a2e55da64485973f88fd76736cc45</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe484b73ac8e410bb2231475a98d400fee4daa6d73074a99787870fde010234ed11</ThumbnailPath>
+				<SerialNumber>3</SerialNumber>
+				<InventionName>악취 및 휘발성 유기화합물 처리용 바이오트리클링필터시스템</InventionName>
+				<InternationalpatentclassificationNumber>B01D 53/84</InternationalpatentclassificationNumber>
+				<OpeningDate>20070312</OpeningDate>
+				<OpeningNumber>1020070028498</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20071204</PublicDate>
+				<RegistrationDate>20071127</RegistrationDate>
+				<RegistrationNumber>1007817770000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>동명대학교산학협력단|아쿠아셀 주식회사</Applicant>
+				<ApplicationDate>20161110</ApplicationDate>
+				<ApplicationNumber>1020160149413</ApplicationNumber>
+				<Abstract>본 발명은 냉각수 스케일 처리장치에 관한 것으로서, 보다 상세하게는 냉각 순환수 중에 존재하는 스케일 유발물질을 전해반응에 의해 석출되도록 하여 제거하는 냉각수 스케일 처리장치에 관한 것이다.  본 발명에 따른 냉각수 스케일 처리장치는 하단이 개구된 원통 형상의 하우징과, 상단이 상기 하우징 내부 상면에 고정되고, 봉 형태이되 하부는 하단으로 갈 수록 점차 좁아지는 형태이며, 외주면에 다수의 탈락홀이 형성되며 내면에 전극이 형성되는 제1 전기분해관과, 상기 각 탈락홀에 각각 삽입되며, 상기 제1 전기분해관의 두께보다 길게 형성된 원통 형상이되 양단은 확장되어 상기 제1 전기분해관에 고정되고, 상기 제1 전기분해관 내면과 접하는 부위는 자성체로 이루어진 탈락마개와, 상기 제1 전기분해관 상부에 연결되며 상기 제1 전기분해관 내부로 냉각수를 공급하는 냉각수 유입관과, 상기 제1 전기분해관 상단에 관통설치되며, 하단이 개구된 원통 형상이고, 외면에 상기 제1 전기분해관과 다른 극성의 전극이 형성되는 제2 전기분해관과, 상기 제2 전기분해관 상단에 연결되어 상기 제2 전기분해관을 통해 이송된 냉각수를 냉방설비로 이송하는 냉각수 배출관과, 상기 제1 전기분해관의 내주면이 음극이 되고 상기 제2 전기분해관이 양극이 되도록 전원을 공급하는 전원공급기와, 상기 제1 전기분해관의 내면과 제2 전기분해관의 외면의 극...(이하생략)</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00f8643b96387669593f444f30efb04e545673df912e6d183853fa9682b88bf6af50ca8f8698ea3ca5833ef79134b043368c8c0483a285e10e</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf2674eff003f6eb977900132d15a4b5e698e43e1a18a1bf65da8e93875568c1a831cd39615371ebe09091dddd5d4d368f4b36fa63d890e261</ThumbnailPath>
+				<SerialNumber>4</SerialNumber>
+				<InventionName>냉각수 스케일 처리장치</InventionName>
+				<InternationalpatentclassificationNumber>C02F 1/461|C02F 5/08|F28F 19/00</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20171018</PublicDate>
+				<RegistrationDate>20171012</RegistrationDate>
+				<RegistrationNumber>1017876490000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>아쿠아셀 주식회사</Applicant>
+				<ApplicationDate>20181227</ApplicationDate>
+				<ApplicationNumber>1020180171271</ApplicationNumber>
+				<Abstract>본 발명은 해수 취수관 내벽 청소 장치에 관한 것으로서, 육상 양어장에 바닷물을 공급하는 취수관의 내벽에 부착된 패각류를 청소하는 해수 취수관 내벽 청소 장치에 관한 것이다. 이를 위해 상호 대칭 형성되며, 양식장의 취수관 펌프의 흡입력을 이용하여 취수관 내벽에 부착된 패각류를 청소하는 복수의 스크래퍼부, 복수의 스크래퍼부에 각각 결합 고정되며, 길이 조절이 가능한 스크래퍼 결합 링크부, 및 스크래퍼 결합 링크부와 서로 착탈 고정되며, 청소 대상의 취수관 입구까지 부력을 제공하는 부력부를 포함하는 것을 특징으로 하는 해수 취수관 내벽 청소 장치가 개시된다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00e119d00006f5453278ab2ffd4f2541cee6958cf0f7b7b0d10d03412f2a1bc7a59b69f6d78690e0c3825f7f1abe029bc01e9d82789c0c3d0f</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf64a4c0f184b5364d0b0797af530c94cde81590ce838d6408ed9e1874c0bd6e32c845092d827b4d435eae77b654d851e06c6e03b61cd3e595</ThumbnailPath>
+				<SerialNumber>5</SerialNumber>
+				<InventionName>해수 취수관 내벽 청소 장치</InventionName>
+				<InternationalpatentclassificationNumber>B08B 9/043|F16L 55/24|B08B 1/20</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20190510</PublicDate>
+				<RegistrationDate>20190502</RegistrationDate>
+				<RegistrationNumber>1019764090000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>아쿠아셀 주식회사</Applicant>
+				<ApplicationDate>20190220</ApplicationDate>
+				<ApplicationNumber>1020190019776</ApplicationNumber>
+				<Abstract>본 발명은 양식장의 수조 바닥 청소장치에 관한 것으로서, 양식장 수조의 바닥을 청소하면서 청소 수와 찌꺼기를 동시에 분리 저장할 수 있는 양식장의 수조 바닥 청소장치에 관한 것이다. 이를 위해 펌프의 펌핑에 의해 양식장의 바닥 청소 수가 상측 방향으로 진공 흡입되어 배출되며, 청소수의 상측 방향 이동에 따른 수력에 의해 회전함으로써 양식장의 바닥이 청소되도록 하는 양식장 바닥 청소부, 양식장 바닥 청소부로부터 배출된 청소수를 이송하도록 양식장 바닥 청소부와 연통 접속되는 청소수 배출 배관부, 및 펌프를 구비하며, 청소 수 배출 배관부로부터 이송된 청소 수가 유입되도록 청소 수 배출 배관부와 연통 접속되며, 청소 수에 포함된 찌꺼기를 분리 저장하는 청소 수 흡입 및 배출 설비부를 포함하는 것을 특징으로 하는 양식장의 수조 바닥 청소 장치가 개시된다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c939f9132947da80bd113ba8bdaa2cfa803b3801c644eac1da8659088476c25f5481bf85daeab6164881ceb7a42ade6d2000370137c194a1594</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf8dd6d53fc49193c04903be08c78cb83bbc59c10db0b7b8a9cff491b4aa6d894e6baf5b1fe84a35175f3fc8eb6734986f2cd9d39ffbd98a62</ThumbnailPath>
+				<SerialNumber>6</SerialNumber>
+				<InventionName>양식장의 수조 바닥 청소장치</InventionName>
+				<InternationalpatentclassificationNumber>A01K 63/10|A01K 61/10|B08B 1/32</InternationalpatentclassificationNumber>
+				<OpeningDate>20200828</OpeningDate>
+				<OpeningNumber>1020200101654</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20210628</PublicDate>
+				<RegistrationDate>20210622</RegistrationDate>
+				<RegistrationNumber>1022702910000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>아쿠아셀 주식회사</Applicant>
+				<ApplicationDate>20130215</ApplicationDate>
+				<ApplicationNumber>2020130001155</ApplicationNumber>
+				<Abstract>본 고안은 교반기 내의 교반축과 탈부착이 용이하며, 교반축 상의 어느 지점과도 결합이 가능하여 높이 조절이 가능한 분해와 조립이 용이한 교반기용 허브 조립체에 관한 것이다.  본 고안에 의하면, 원통형의 단면형상으로 형성되고, 중앙부가 중공의 형태로 구성되되, 두 개 이상으로 분리되는 허브몸체; 및 상기 허브몸체의 일측에 각각 연결되어 외부방향으로 뻗어나온 허브플랜지;를 포함하되, 상기 허브플랜지는 임펠러와 결합되고, 교반축이 상기 허브몸체의 중앙부를 관통해 결합되며, 상기 허브몸체는 상기 교반축과 분해가 용이하게 구성되는 것을 특징으로 하는 분해와 조립이 용이한 교반기용 허브조립체를 제공한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e006144a48716fda830cbf2c5d16c7c7c27e5f8c31f845fd176e0ced9537de1a2c01267ae666b18680959a0fb7639faec90e0f0a0d77494a891</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf69ae17f4d906c88d32afba20b8357a263239bd7d0cb6d7ccf9b07303ac90d13a68dbccc359f578bf2ca86b598efced8fad04136195b568f7</ThumbnailPath>
+				<SerialNumber>7</SerialNumber>
+				<InventionName>분해와 조립이 용이한 교반기용 허브조립체</InventionName>
+				<InternationalpatentclassificationNumber>B01F 35/00|B01F 27/80|B01F 7/16</InternationalpatentclassificationNumber>
+				<OpeningDate>20140825</OpeningDate>
+				<OpeningNumber>2020140004756</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20150709</PublicDate>
+				<RegistrationDate>20150630</RegistrationDate>
+				<RegistrationNumber>2004776520000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>동명대학교산학협력단|아쿠아셀 주식회사</Applicant>
+				<ApplicationDate>20191219</ApplicationDate>
+				<ApplicationNumber>1020190170738</ApplicationNumber>
+				<Abstract>본 발명은 차아염소산나트륨 발생 시스템에 관한 것으로, 내부에 정제염 및 물이 저장되는 염수 저장탱크, 상기 염수 저장탱크와 연결된 염수 공급라인, 상기 염수공급라인에 설치되는 염수 공급펌프, 상기 염수 공급라인과 연결되며, 상기 염수 저장탱크로부터 전달받은 염수를 전기분해하여 차아염소산나트륨 용액을 생성하는 적어도 하나 이상의 차아염소산나트륨 발생 장치, 상기 차아염소산나트륨 발생장치의 내부로 공기를 공급하는 에어공급라인, 상기 에어 공급라인으로 공기를 공급하는 송풍기, 내부가 중공형으로 상기 차아염소산나트륨 발생장치의 외측을 커버하여 설치되는 차아염소산나트륨 냉각장치, 상기 차아염소산나트륨 냉각장치와 연결된 냉각수 순환 라인, 상기 냉각수 순환라인에 설치되는 냉각수 공급 펌프, 상기 냉각수 순환 라인과 연결되며, 내부에는 연수가 저장되는 연수 저장탱크, 상기 연수저장탱크와 연결되며, 상기 연수 저장탱크의 연수를 냉각시키는 연수 냉각기, 상기 차아염소산나트륨 발생장치와 연결되며, 상기 차아염소산나트륨 발생에서 생성된 차아염소산나트륨 용액이 배출되는 차아염소산나트륨 용액 배출라인 및 상기 차아염소산나트륨 용액 배출라인 및 상기 연수저장탱크와 연결되며, 내부에 차아염소산나트륨 용액 및 연수가 저장되는 차아염소산나트륨 용액 저장탱크를 포함하는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c936bf3b58297db4093f5b5520d8c67adc93877070464c1dce908324f80dc31e92c8d96d620b2fbd5f4a8093093e4ad1321b9c6cc04bb939da9</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf299257e3fb218f472a19424ad5e5ccc7b37b7e399e33e912f93d82bb8912a787f8cd12781ec97463f1fbbc39f211fc1c12b6c614325e7418</ThumbnailPath>
+				<SerialNumber>8</SerialNumber>
+				<InventionName>차아염소산나트륨 발생 시스템</InventionName>
+				<InternationalpatentclassificationNumber>C02F 1/467|C02F 1/461|C25B 1/26|C25B 9/70|C25B 15/08</InternationalpatentclassificationNumber>
+				<OpeningDate>20210630</OpeningDate>
+				<OpeningNumber>1020210079459</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20210812</PublicDate>
+				<RegistrationDate>20210805</RegistrationDate>
+				<RegistrationNumber>1022888340000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>아쿠아셀 주식회사</Applicant>
+				<ApplicationDate>20070427</ApplicationDate>
+				<ApplicationNumber>1020070041492</ApplicationNumber>
+				<Abstract>본 발명은 선박의 분뇨 및 오수처리장치에 관한 것으로써, 더욱 상세하게는 선박내에서 발생되는 분뇨 및 오수를 미생물 담체가 적재된 접촉산화조로 유입시켜 담체에 부착된 생물에 의해 산화, 분해하여 유기물질을 제거하는 1차 정화과정을 거친 다음, 미생물 담체가 적재된 바이오 필터를 경유하게 하여 부유고형물(부유 미생물 및 난분해성 고형물)을 여과하고 일부 미 분해된 유기물질을 산화, 분해시키는 2차 정화과정을 시킨 후, 최종적으로 해수 전해장치에서 유입된 차아염소산에 의해 처리수 중에 잔류한 유기물질의 산화와 세균성 미생물을 완전 살균시키기 위한 반응조를 거침으로써 선박 분뇨, 오수의 정화 처리 효율을 높여 해양오염방지에 기여할 수 있는 선박의 분뇨 및 오수처리장치에 관한 것이다.  본 발명은 선박에서 발생되는 분뇨를 분쇄시킬 수 있는 통상의 유입조가 설치되고 사각형의 틀체 내부에 설치된 제1, 제2격벽 및 제1절곡가이드에 의해 형성되어 상기 유입조로부터 배출되는 분뇨 및 오수를 체류시켜 충분히 부패시키는 저류조와, 상기 틀체 및 제1, 제4격벽에 의해 저류조의 일측에 형성되며 상기 제4격벽의 하측에 형성된 제2개구부 상측에 설치된 제1그물망 위에 제1메디아가 설치되어 분뇨 또는 오수를 산화 및 분해하고 유기물질을 제거하여 1차 정화하는 접촉산화조와, 상기 틀체 및 제1, 제3, 제4격벽에 의해 접촉산...(이하생략)</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9cf44e6e9608087f40a42381c5ecc2e126c85e33dca4c7cf4cc488a9ccbf097d24</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe484b73ac8e410bb22f1b4636e7d6d0101c63e5c33d8d54898da678a9bc5c80a9e</ThumbnailPath>
+				<SerialNumber>9</SerialNumber>
+				<InventionName>선박의 분뇨 및 오수처리장치</InventionName>
+				<InternationalpatentclassificationNumber>C02F 9/00|C02F 3/10|C02F 1/00|C02F 1/467|C02F 103/00</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20070802</PublicDate>
+				<RegistrationDate>20070728</RegistrationDate>
+				<RegistrationNumber>1007459740000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>동명대학교산학협력단|아쿠아셀 주식회사</Applicant>
+				<ApplicationDate>20191219</ApplicationDate>
+				<ApplicationNumber>1020190170732</ApplicationNumber>
+				<Abstract>본 발명은 차아염소산나트륨 발생용 전기분해 장치에 관한 것으로, 내부가 중공형이며, 일측에 형성되는 염수 유입구와, 타측에 형성되는 염수 배출구와, 상기 염수 배출구에 수직한 방향으로 형성되는 공기 유입구, 상기 공기 유입구와 수평한 방향으로 일정간격 이격되어 형성되는 공기 배출구를 포함하는 하우징, 내부가 중공형으로 상기 하우징의 외측을 커버하며, 하측에는 냉각수 유입구가 형성되며 상측에는 냉각수 배출구가 형성되는 냉각 모듈, 상기 하우징의 길이방향을 따라 상기 하우징 내부에 설치되는 다수의 전극 조립체, 상기 전극 조립체를 관통하여 상기 전극 조립체의 길이방향을 따라 등간격으로 배치되며, 제1 플레이트 및 제2 플레이트를 포함하여 한 쌍으로 구성되는 지지대를 포함하는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c936bf3b58297db4093f5b5520d8c67adc93877070464c1dce908324f80dc31e92c4325747b7139783210355f6ad3399a4fecd0929c55ab3950</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf299257e3fb218f472a19424ad5e5ccc7b37b7e399e33e912f93d82bb8912a7871337ade04b8b8658ce8cf7a6e92ed17905de342d5d6570d7</ThumbnailPath>
+				<SerialNumber>10</SerialNumber>
+				<InventionName>차아염소산나트륨 발생용 전기분해장치</InventionName>
+				<InternationalpatentclassificationNumber>C02F 1/467|C02F 1/461|C25B 1/26|C25B 9/70|C25B 15/00|C25B 15/08</InternationalpatentclassificationNumber>
+				<OpeningDate>20210630</OpeningDate>
+				<OpeningNumber>1020210079456</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20210812</PublicDate>
+				<RegistrationDate>20210805</RegistrationDate>
+				<RegistrationNumber>1022888270000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>국립부경대학교 산학협력단|아쿠아셀 주식회사|오태선</Applicant>
+				<ApplicationDate>20150429</ApplicationDate>
+				<ApplicationNumber>1020150060687</ApplicationNumber>
+				<Abstract>본 발명의 목적은 용수에 포함된 스케일성분의 제거효율을 보다 높이면서 처리용량을 증가시킬 수 있는 구조의 스케일성분 제거장치를 제공하는 것이다. 이에 따라 본 발명에 따른 용수의 스케일성분 제거장치는, 상하로 세워진 원통형상으로 설치되고 내면이 전극을 형성하는 스케일석출부와, 상기 스케일석출부의 원통형상의 중심부에 세워진 상태로 설치되고 하단이 개방된 관형상이며 외면이 상기 스케일석출부의 내면과 다른 극성의 전극을 형성하는 볼텍스파인더부와, 상기 스케일석출부의 상부에 연통되어 상기 볼텍스파인더부의 외주면 둘레를 따라 유동하도록 상기 볼텍스파인더부의 접선방향을 향해 용수를 유입시키는 용수유입부와, 상기 볼텍스파인더부의 상단에 연결되어 상기 볼텍스파인더부의 하단에서 내부로 유입되어 상승하는 용수를 배출시키는 용수유출부와, 상기 스케일석출부의 하부에서 상기 스케일석출부의 내부와 연통되도록 결합되고 하방으로 가면서 원추관의 형상으로 그 내경이 감소하는 스케일수집부와, 상기 스케일석출부의 내면이 음극이 되고 상기 볼텍스파인더부의 외면이 양극이 되도록 전원을 공급하는 전원공급부를 포함하는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e009f7742724f038581641084f892913cd81891cc345f2f81d470e56d08ba5e88b33470e838d235171f792c92f6431736c32de714ea43795f72</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf4a24705dee947c7163da88bb237937a0d41c5033f6486adb5454298e7180051a5a6d29e8384f2be750ce9815266fe2fc4445d556e9ef3ab9</ThumbnailPath>
+				<SerialNumber>11</SerialNumber>
+				<InventionName>용수의 스케일성분 제거장치</InventionName>
+				<InternationalpatentclassificationNumber>C02F 5/08|C02F 1/461</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20150722</PublicDate>
+				<RegistrationDate>20150716</RegistrationDate>
+				<RegistrationNumber>1015387820000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>아쿠아셀 주식회사</Applicant>
+				<ApplicationDate>20130516</ApplicationDate>
+				<ApplicationNumber>1020130055575</ApplicationNumber>
+				<Abstract>본 발명은 악취를 포함하고 있는 물질 중 입자상 물질 등을 미리 제거할 수 있는 전처리장치를 약액저장탱크의 유입관 앞에 설치하고, 약액저장탱크 내부에 악취와 약액 간의 기-액 접촉효율을 높이기 위해 수중분사노즐을 형성시키고, 제 1반응챔버 및 제 2반응챔버 내부에 메디아층을 형성시킬 수 있으며, 약액공급장치가 아닌 전기분해장치에 의한 자체적인 약액생산을 통해 소요되는 부지의 면적의 최소화 및 탈취효율을 높일 수 있는 약액을 이용한 악취제거장치에 관한 것이다.  본 발명에 의하면, 덕트 안으로 유입되는 악취공기에 포함되어 있는 입자상 물질을 처리하기 위한 전처리장치; 내부에 약액을 저장시키되, 내부의 상층부에는 상기 전처리장치를 통과한 악취공기를 유입시키는 배관이 설치되어 상기 배관을 통해 상기 악취공기가 내부로 분사되는 약액저장탱크; 상기 약액저장탱크의 상부에 형성되며, 내부 상층부에는 약액이 공급되는 제 1분사관이 설치되고, 내부 하층부에는 제 1메디아층이 형성되어 상기 제 1분사관에서 분사되는 약액과 상기 배관으로부터 분사된 악취공기가 반응하여 악취를 제거하는 제 1반응챔버; 상기 제 1반응챔버의 상부에 형성되며, 내부 상층부에는 약액이 공급되는 제 2분사관이 설치되고, 내부 하층부에는 제 2메디아층이 형성되어 상기 제 2분사관에서 분사되는 약액과 상기 제 1반응챔버에서 반응되고 남은 악취공기가...(이하생략)</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf72660ef43a181fb898c831eddf8eb33f88a5427f2884cef7baf8c994bc7da798403c89f7967cce30587ae49575cf1690f8867a9414c5a5bb478</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf369d7276211a2a37938354722ba68250fd52f348a59faf9c591cb8d573d765505a9c59836e7f65158a40e1ec9b4251de47f6a695c1fc2748</ThumbnailPath>
+				<SerialNumber>12</SerialNumber>
+				<InventionName>약액을 이용한 악취제거장치</InventionName>
+				<InternationalpatentclassificationNumber>A61L 9/14</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20130902</PublicDate>
+				<RegistrationDate>20130827</RegistrationDate>
+				<RegistrationNumber>1013024130000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>아쿠아셀 주식회사|한국남부발전 주식회사</Applicant>
+				<ApplicationDate>20160817</ApplicationDate>
+				<ApplicationNumber>1020160104106</ApplicationNumber>
+				<Abstract>하수 슬러지를 이용한 펠릿제조방법에 대한 발명이 개시된다. 개시된 하수 슬러지를 이용한 펠릿제조방법은: 하수 슬러지를 준비하는 슬러지준비단계와, 우드칩, 톱밥, 폐목재 중 적어도 어느 하나를 포함한 목질원료를 준비하는 목질원료준비단계와, 하수 슬러지를 이송하여 제1호퍼에 저장하는 슬러지저장단계와, 목질원료를 이송하여 제2호퍼에 저장하는 목질원료저장단계와, 제1호퍼의 하수 슬러지와 제2호퍼의 목질원료를 이송컨베이어로 이송하여 혼합기에서 혼합하여 배합물을 만드는 혼합단계와, 배합물을 이송컨베이어로 이송하여 가공시 발생하는 압축열 및 마찰열을 이용하여 건조하면서 성형하여 슬러지펠릿을 제조하는 펠릿건조성형단계;를 포함하는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00e743c20bd1e2019264f0a487e22a3becbba407219cf8e5180de29ab3200cc8bdacca834e6b3f7ca70201ddea12531b27a86f78f9782bdb8f</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfb45dc7a40796fe9db02a7f4309fdc200308e5b98706c1651a476802ba7729fcce87852ad74d436e351ea9ebd273bf9b1b1f63390fb084a49</ThumbnailPath>
+				<SerialNumber>13</SerialNumber>
+				<InventionName>하수 슬러지를 이용한 펠릿제조방법</InventionName>
+				<InternationalpatentclassificationNumber>C10L 5/46|C10L 5/44|C10L 5/36|C10L 5/06|B03C 1/00|B01D 46/00</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20170927</PublicDate>
+				<RegistrationDate>20170911</RegistrationDate>
+				<RegistrationNumber>1017791360000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 링콘테크놀로지|아쿠아셀 주식회사</Applicant>
+				<ApplicationDate>20130514</ApplicationDate>
+				<ApplicationNumber>1020130054134</ApplicationNumber>
+				<Abstract>본 발명은 레일 전용 캡 타입 웨어 스트립에 관한 것으로서, 레일(RAIL)의 상부 영역을 부분적으로 덮는 캡(CAP) 타입을 갖는 스트립 몸체; 상기 스트립 몸체의 전단부에서 돌출되게 형성되는 화살촉 형상의 전단 돌출부; 및 상기 스트립 몸체의 후단부에 형성되며, 이웃된 웨어 스트립의 전단 돌출부가 형상 맞춤되게 수용되는 화살촉 형상의 후단 수용부를 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e001f70502691d890dbaacb2881b35b3841d463e995c810f304b79b72e86455a71217bf3105b7132b0a9971d215120f04f994a9f1908eb0cdd7</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfdbdb18c4d510d6e57d273652171bc8fe773e1c60546a1425fbbaaf4dbaf8fade30c8fec3b8d345be490ddd8910bcbcd6e0151e811cd6acc0</ThumbnailPath>
+				<SerialNumber>14</SerialNumber>
+				<InventionName>레일 전용 캡 타입 웨어 스트립</InventionName>
+				<InternationalpatentclassificationNumber>B01D 21/22|B01D 21/24</InternationalpatentclassificationNumber>
+				<OpeningDate>20141124</OpeningDate>
+				<OpeningNumber>1020140134389</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 링콘테크놀로지|아쿠아셀 주식회사</Applicant>
+				<ApplicationDate>20130425</ApplicationDate>
+				<ApplicationNumber>1020130045806</ApplicationNumber>
+				<Abstract>본 발명은 슬러지 수집기용 모듈형 웨어 스트립에 관한 것으로서, 슬러지를 걷어내는 다수의 플라이트; 및 상기 플라이트의 주행 레일로 사용되는 웨어 스트립(wear strip)을 포함하며, 상기 웨어 스트립은, 스트립 몸체; 상기 스트립 몸체의 일단부에 돌출되게 형성되는 연속 조립용 돌기부; 및 상기 스트립 몸체의 타단부 영역에 형성되며, 이웃된 웨어 스트립의 연속 조립용 돌기부가 형상맞춤되게 조립되는 돌기 조립부를 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00a2b7be7baed45cafce4a32093be30b0f5ee54239c01af3af83756f098154b32a932c07b8f518070b2a36833c468af676749780420a8176e4</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf1d75f8fc7e56c5c7f97adaf30bde7e19bafefd458311ffce2cc242033132468a92d51aa8d5e7046242dc73e82f8f43844a94594e7162007b</ThumbnailPath>
+				<SerialNumber>15</SerialNumber>
+				<InventionName>체인 플라이트식 슬러지 수집기용 모듈형 웨어 스트립</InventionName>
+				<InternationalpatentclassificationNumber>B01D 21/06|B01D 21/24|B01D 21/20|C02F 1/52</InternationalpatentclassificationNumber>
+				<OpeningDate>20141104</OpeningDate>
+				<OpeningNumber>1020140127473</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20150205</PublicDate>
+				<RegistrationDate>20150130</RegistrationDate>
+				<RegistrationNumber>1014903710000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>아쿠아셀 주식회사</Applicant>
+				<ApplicationDate>20130723</ApplicationDate>
+				<ApplicationNumber>1020130086432</ApplicationNumber>
+				<Abstract>본 발명은 소요되는 공간을 최소화하고 스트루바이트 입자의 생성효율을 최대화할 수 있는 연속식 스트루바이트 생성장치에 관한 것이다. 본 발명에 의하면, 외통; 일단은 폐수가 유입되는 폐수유입관과 연결되며, 타단은 상기 외통의 하단 중앙부를 관통하여 형성되는 교반부; 상기 외통 내부의 중심에 수직하게 설치되어 상기 외통보다 작은 직경을 가지며, 상기 교반부의 타단과 일정거리만큼 이격된 상태로 설치되는 내통; 상기 외통의 하단부의 일측에 형성되어 상기 교반부, 상기 내통 및 상기 외통의 내부에서 생성된 스트루바이트를 상기 폐수유입관으로 재순환시키는 재순환 호퍼; 및 상기 외통의 하단부의 타측에 형성되어 상기 교반부, 상기 내통 및 상기 외통의 내부에서 생성된 스트루바이트를 외부로 배출시키는 배출호퍼;를 포함하는 연속식 스트루바이트 생성장치를 제공한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e007841a918142453727c109f8a011f7671885dbc41cabe851a095ec94e597069ccd8853d5ad023c961860d3f641e8c565d55e3b19a56c19cb2</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf1814963c17561b395163ce4c4eabfc634a657fdab06e37b634fc78a9541671e360b7c5142fdff75782510b1fa3da04892eef4675d2bb5d6e</ThumbnailPath>
+				<SerialNumber>16</SerialNumber>
+				<InventionName>연속식 스트루바이트 생성장치</InventionName>
+				<InternationalpatentclassificationNumber>C02F 1/52|C02F 1/58</InternationalpatentclassificationNumber>
+				<OpeningDate>20150202</OpeningDate>
+				<OpeningNumber>1020150011476</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20150706</PublicDate>
+				<RegistrationDate>20150630</RegistrationDate>
+				<RegistrationNumber>1015340410000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>아쿠아셀 주식회사</Applicant>
+				<ApplicationDate>20191105</ApplicationDate>
+				<ApplicationNumber>1020190139845</ApplicationNumber>
+				<Abstract>본 발명은 화력발전소 폐기물을 이용한 재활용수 및 펠렛 생산방법에 관한 것으로서, 보다 상세하게는 화력발전소에서 생성되는 분탄, 탄진수 슬러리, 폐수 슬러지 및 우드펠렛 찌꺼기를 혼합하여 펠렛 연료를 제조하는 방법에 관한 것이다. 이를 위해 기 설정된 함수율이 되도록 탄진수를 원심분리하여 탄진수 슬러리를 준비하는 단계, 석탄화력 발전소의 분탄 45 ~ 50 중량%, 탄진수 슬러리 35 ~ 40 중량%, 폐수 슬러지 10 ~ 14 중량%, 및 우드펠렛 찌꺼기 0.1 ~ 1 중량%를 포함하는 화력발전소의 폐기물을 각각 준비하는 단계, 기 설정된 제1 함수율이 되도록 화력발전소의 폐기물을 혼합 및 교반하는 단계, 및 혼합 및 교반에 따른 혼합 폐기물을 성형하여 기 설정된 제2 함수율의 펠렛을 제조하는 단계를 포함하는 것을 특징으로 하는 화력발전소 폐기물을 이용한 재활용수 및 펠렛 생산방법이 개시된다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00a6e44b54f42694d5aa582ba52dd2b3c56359d6e92bda1090cf683e10028de817727f56b4326575d15bc71683c9f9bc3bd5b11f8f7cb04706</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cffd727554de6bcd6515b189c7fcffa48f45a7bb0648165e29f519780848b18bcd60156fc8c02775b35625ee04a708e2459927a7f729d81650</ThumbnailPath>
+				<SerialNumber>17</SerialNumber>
+				<InventionName>화력발전소 폐기물을 이용한 재활용수 및 펠렛 생산방법</InventionName>
+				<InternationalpatentclassificationNumber>C10L 5/48|C10L 5/36|C02F 1/38|C02F 1/52</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20200623</PublicDate>
+				<RegistrationDate>20200617</RegistrationDate>
+				<RegistrationNumber>1021257320000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>아쿠아셀 주식회사</Applicant>
+				<ApplicationDate>20171113</ApplicationDate>
+				<ApplicationNumber>1020170150485</ApplicationNumber>
+				<Abstract>본 발명은 일체형 차아염소산나트륨 발생장치에 관한 것으로서, 전기분해부와 전해수 저장부를 일체형으로 함과 동시에 구성요소 각각을 탑식으로 수직 배치함으로써 전해 효율을 높이고 전해수의 농도를 시간에 따라서 일정하게 유지할 수 있도록 한 일체형 차아염소산나트륨 발생장치에 관한 것이다. 이를 위해 공급된 소금물을 전기분해부에 의해 전기분해하여 차아염소산나트륨을 생성시킴과 동시에 전해수가 저장되도록 하부에 배치되는 일체형 전해수 저장부, 일체형 전해수 저장부의 상부에 배치되어 일체형 전해수 저장부로부터 탈기된 염소가스를 흡수하여 용해시키는 흡수층, 흡수층의 상부에 배치되어 소금물, 수도물, 및 재순환 전해수 중 어느 하나를 분사하는 분사부, 및 분사부의 상부에 배치되어 일체형 전해수 저장부에서 발생된 수소가스 또는 염소가스 일부를 대기로 방출하는 방출부를 포함하며, 탑식으로 배치됨으로써 일체형 전해수 저장부에서 생성된 수소가스와 염소가스가 방출부를 향해 상부방향으로 이동되도록 하는 것을 특징으로 하는 일체형 차아염소산나트륨 발생 장치가 개시된다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e008e225ea819389cb1a69ddab28d4e90a38dd2c68c7bf2150730d08d85c89a1fb134fc1c61ce256a2b77eaae6979991e326b52366b7f013b54</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfd7e21c060ea321515fa06e037753d8716df71362f2b439d3efbdd2dfb50d24b982f3abdcf2baf05fe24129b172ce6940078cf9c92f7b217b</ThumbnailPath>
+				<SerialNumber>18</SerialNumber>
+				<InventionName>일체형 차아염소산나트륨 발생 장치</InventionName>
+				<InternationalpatentclassificationNumber>C02F 1/467|C25B 1/26</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20180504</PublicDate>
+				<RegistrationDate>20180430</RegistrationDate>
+				<RegistrationNumber>1018551030000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>아쿠아셀 주식회사</Applicant>
+				<ApplicationDate>20100129</ApplicationDate>
+				<ApplicationNumber>1020100008462</ApplicationNumber>
+				<Abstract>본 발명은 바이 폴라형 전기 분해 반응기에 관한 것이다. 이는 입구와 출구가 형성된 상하 지지체와, 상기 지지체의 사이에 일정 간격으로 설치되고 최외곽에만 직류 전원의 반대 극성이 인가된 다수의 전극판으로 구성된다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726769a0361cdb6678286ef21546b6545705c675ad02e8b2777db2ffce6720bff1b14f73c6c7c70f8bcaa319f4e0db9148d854c837187741216</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf5443597aa0cc40e3126c896224736e9da9fa501a30ade14fb6ea3a8e400aaf2e0058287f369258e526bc9648c59b66d2b0c115ebce3aa147</ThumbnailPath>
+				<SerialNumber>19</SerialNumber>
+				<InventionName>바이 폴라형 전기 분해 반응기</InventionName>
+				<InternationalpatentclassificationNumber>C02F 1/461|C02F 1/467</InternationalpatentclassificationNumber>
+				<OpeningDate>20110804</OpeningDate>
+				<OpeningNumber>1020110088788</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20120608</PublicDate>
+				<RegistrationDate>20120518</RegistrationDate>
+				<RegistrationNumber>1011498030000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>아쿠아셀 주식회사</Applicant>
+				<ApplicationDate>20061020</ApplicationDate>
+				<ApplicationNumber>1020060102265</ApplicationNumber>
+				<Abstract>본 발명은 은(銀) 전해반응기를 사용하여 아파트 및 대단위 상가 건물 등의 물탱크 내 음용수, 대단위 급식시설의 음용수, 선박의 청수를 살균하는 음용수의 은 전해 살균시스템에 관한 것으로써, 더욱 상세하게는 전해반응기의 양극(+)과 음극(-)에 모두 은 전극을 설치하고, 극성전환부, 펄스발생부, 유량감지센서를 부가함으로써 양극과 음극의 극성을 주기적으로 전환시켜 은 전해 살균이 중단 없이 이루어지게 하여 살균효율을 높이도록 하는 한편, 원수(原水)의 유입량에 따라 전해량을 조절하여 적정한 은 이온 농도를 조절하고, 이와 동시에 두 개의 은 전극에 일정 대역의 주파수 인가로 인한 미세진동을 발생시켜 은 전극 표면에 산화물 피막의 형성을 방지함으로써 전해반응기의 전류효율을 높일 수 있도록 하는 음용수의 은 전해 살균시스템에 관한 것이다.  본 발명은 유입되는 원수를 저장조에 유입시키는 유입펌프와, 상기 저장조의 후단에 설치되어 저장조에 유입된 음용수를 배출하는 배출펌프와, 상기 배출펌프의 후단에 설치되어 유량조절기 및 솔레노이드밸브를 통해 유입된 음용수를 은 이온수로 만들어 저장조로 공급하는 전해반응기가 설치되고, 상기 전해반응기와 유입.배출펌프 및 유량조절기, 솔레노이드밸브를 제어하는 제어부가 구비된 음용수의 은 전해 살균시스템에 있어서, 상기 전해반응기는 2개의 은 전극으로 이루어지고, 상기 제어부...(이하생략)</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9cfe49d03e6a3dce01e810b13bf34bb212c6d38efbe2c31d58d9f113ac2f7c884f</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe46c22163f668395d40238a8351c3c4779561d58d617f7afcb8dc4792c40568115</ThumbnailPath>
+				<SerialNumber>20</SerialNumber>
+				<InventionName>음용수의 은 전해 살균시스템</InventionName>
+				<InternationalpatentclassificationNumber>C02F 1/46|C02F 1/467</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20070607</PublicDate>
+				<RegistrationDate>20070530</RegistrationDate>
+				<RegistrationNumber>1007256580000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>아쿠아셀 주식회사</Applicant>
+				<ApplicationDate>20060203</ApplicationDate>
+				<ApplicationNumber>1020060010516</ApplicationNumber>
+				<Abstract>본 발명은 각종 유기성 오폐수 중에 포함된 질소, 인, 유기물을 생물학적으로 처리하여 오폐수를 정화하는 생물막을 형성시키는 메디아(media)의 제조방법에 관한 것으로, 더욱 상세하게는 하수처리과정에서 발생되는 침전물인 하수 슬러지를 열분해 또는 탄화시켜 생성한 탄화물을 메디아의 주원료로 사용함으로써 폐기물의 재활용도가 증대되고, 하수 슬러지의 재활용을 통하여 환경오염과 과도한 처리비용을 야기시키던 종래의 하수 슬러지 최종처분의 문제를 개선하며, 주변에서 손쉽게 구할 수 있는 하수 슬러지가 사용됨에 따라 메디아의 제조를 위한 재료의 조달이 용이해지고, 제조비용도 절감될 뿐만 아니라, 생성된 탄화물이 가지는 풍부한 다공질에 의해 미생물의 부착이 증대되어 오폐수 정화능력이 더욱 향상된 하수슬러지 탄화물을 이용한 오폐수 정화용 메디아의 제조방법에 관한 것이다.  본 발명에 따르면, 생물학적 오폐수 정화에 사용되는 생물막 형성용 메디아를 제조하는 방법에 있어서, 하수 슬러지를 열분해 또는 탄화시켜 생성한 탄화물 10~49%와, 폴리염화비닐(PVC), 저밀도 폴리에틸렌(LDPE), 고밀도 폴리에틸렌(HDPE), 폴리프로필렌(PP), 에틸렌비닐아세테이트(EVA) 등과 같은 합성수지 50~89%와, 친수성 고분자물질로 된 첨가제 1~10%를 혼합하여 입자화하는 1단계와; 상기에서 입자화된 탄화물과 합성수지의 혼...(이하생략)</Abstract>
+				<DrawingPath></DrawingPath>
+				<ThumbnailPath></ThumbnailPath>
+				<SerialNumber>21</SerialNumber>
+				<InventionName>하수슬러지 탄화물을 이용한 오폐수 정화용 메디아의 제조방법</InventionName>
+				<InternationalpatentclassificationNumber>C02F 3/10|C02F 3/30</InternationalpatentclassificationNumber>
+				<OpeningDate>20060314</OpeningDate>
+				<OpeningNumber>1020060023586</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20070427</PublicDate>
+				<RegistrationDate>20070420</RegistrationDate>
+				<RegistrationNumber>1007120070000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>아쿠아셀 주식회사|국립부경대학교 산학협력단</Applicant>
+				<ApplicationDate>20090528</ApplicationDate>
+				<ApplicationNumber>1020090046821</ApplicationNumber>
+				<Abstract>본 발명은 악취처리용 충진 전해 흡수탑에 관한 것으로, 극성이 주기적으로 바뀌는 전극이 포함된 전기분해장치가 하부 흡수탑의 소금물에 잠기게 설치되고, 전기분해에 의해 생성되는 일정농도(1~7,000ppm)의 차아염소산을 상부 흡수탑의 상부에서 분사하여 상부 흡수탑 내부에 충진된 메디아(Media)에 의해 넓은 기-액 접촉 면적에서 물리·화학 반응에 의해 악취 제거 효능이 증대되는 효과가 있는 악취처리용 충진 전해 흡수탑에 관한 것이다.  본 발명에 따르면, 악취 가스를 공급하는 송풍기와 슬러지배출구가 설치되고, 일정 수위의 소금물이 채워진 하부 흡수탑; 상기 하부 흡수탑 내부의 소금물에 잠기도록 설치된 전기분해장치; 상기 하부 흡수탑 내측 상부에 설치되고, 상기 전기분해장치에 극전환 기능을 갖추고 전류를 공급하는 전원공급장치; 브로와를 통해 공기를 상기 전기분해장치의 아래쪽에서 공급하도록 다수 개 설치된 산기관; 하부 흡수탑 위에 설치되고, 상부에 무취가스 배출구가 설치된 상부 흡수탑; 전기분해장치에서 생성된 전해수를 상부 흡수탑의 상부로 공급하는 전해수 공급배관; 상부 흡수탑의 상부 내측에 설치되고, 전해수 공급배관과 연결되어 전해수를 공급하는 살수 노즐;을 포함하여 구성된 악취처리용 충진 전해 흡수탑이 제공된다.  악취 제거 장치, 전기분해장치, 전기분해, 차아염소산, 충진 전해 흡수</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726bf3b9cfe236c6535886304b2a894ef258e73b7697e6489fc9726b5f7c10d0b85a962c2c86ab7d861fd7e4a39b24830c05637ba8c7e284f43</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf4554e7df61911f2eb0cd5c493f41826d7dd16ac95a7f2411210c08e7ed6077d2f60e7680a339daed328ed5512bdb932257c140264bec83de</ThumbnailPath>
+				<SerialNumber>22</SerialNumber>
+				<InventionName>악취처리용 충진 전해 흡수탑</InventionName>
+				<InternationalpatentclassificationNumber>B01D 53/78|A61L 9/14|B01D 47/06|B01D 53/14|C02F 1/461|C25B 1/26</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20100420</PublicDate>
+				<RegistrationDate>20100413</RegistrationDate>
+				<RegistrationNumber>1009538390000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>아쿠아셀 주식회사|한국남부발전 주식회사</Applicant>
+				<ApplicationDate>20210429</ApplicationDate>
+				<ApplicationNumber>1020210055439</ApplicationNumber>
+				<Abstract>탄진수 슬러지의 함수율 저감 장치 및 그 제어방법에 관한 것으로서, 화력발전소 등지에서 배출된 폐기물 슬러지를 혼합한 탄진수 슬러지의 함수율을 낮추도록 한 탄진수 슬러지의 함수율 저감 장치 및 그 제어방법에 관한 것이다. 이를 위해 메인 프레임부, 유입된 점성이 있는 탄진수 슬러지를 진동에 의해 균질화시키는 균질부, 복수로 배치되며, 회전에 의해 탄진수 슬러지의 유입, 탈수 및 배출이 이루어지는 슬러지 실린더부, 슬러지 실린더부가 안착되며, 슬러지 실린더부가 제어신호에 따라 일방향으로 기 설정된 각도만큼 회전하도록 하는 회전부, 회전부에 구동력을 제공하는 구동부를 포함하는 것을 특징으로 하는 탄진수 슬러지의 함수율 저감 장치가 개시된다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c930d63365de6abe56f8fc3089612b231e6c2d3c76d2642280fd22c26ba776317fdd664eb822bfc1c6097a4a0ece43610a4c2c8cc48510175ee</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf6433d3d1032ff27700843a5653a8291a656f985e2a29262c0ad0acd62f482545db7db49a85dcf6e0ccbaba46400e2291735e327ddcd45828</ThumbnailPath>
+				<SerialNumber>23</SerialNumber>
+				<InventionName>탄진수 슬러지의 함수율 저감 장치 및 그 제어방법</InventionName>
+				<InternationalpatentclassificationNumber>C02F 11/127|C10L 5/48</InternationalpatentclassificationNumber>
+				<OpeningDate>20221107</OpeningDate>
+				<OpeningNumber>1020220148435</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20221130</PublicDate>
+				<RegistrationDate>20221122</RegistrationDate>
+				<RegistrationNumber>1024712530000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>아쿠아셀 주식회사</Applicant>
+				<ApplicationDate>20210428</ApplicationDate>
+				<ApplicationNumber>1020210055305</ApplicationNumber>
+				<Abstract>본 발명은 용수 스케일 제거 장치에 관한 것으로서, 보다 상세하게는 부직포를 이용하여 용수에 포함된 스케일 성분을 제거하는 모듈 타입의 용수 스케일 제거 장치에 관한 것이다. 이를 위해 스케일 성분이 포함된 용수를 외부로부터 유입 공급하는 용수 유입 배관부, 용수를 공급받아 스케일 성분을 여과하도록 일측이 개방된 여과포, 여과포와 동일한 방향으로 일측이 개방됨으로써 여과포가 내측 둘레로 삽입 안착 되어 여과포를 틀 고정하며, 여과포로부터 스케일 성분이 필터링된 여과수가 몸체 둘레방향으로 따라 배출되는 여과포 틀 고정부, 여과포로부터 배출된 재사용 여과수를 저장하며, 필요에 따라 외부로 배출하는 여과수 저장부, 여과수 저장부로부터 배출되는 재사용 여과수를 외부 냉각탑으로 배출하는 재사용 여과수 유출 배관부를 포함하며, 여과포 및 여과포 틀 고정부가 여과수 저장부에 모듈 타입으로 배치 결합하며, 모듈 타입 배치에 따라 여과포만 교체하는 것을 특징으로 하는 용수 스케일 제거 장치가 개시된다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93e6ca5b307df07affe1ddd1b0abeb1eae7d4a10204f985617ca954126eaccccaf644e7fa003628186d479641d180bc23c3d90b054bce1dc1a</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfe5a52eba3e574b42a503459dbf75c4397b2d45031a4171012f6acee974b610f5f3d1422093e0babddb661e8413c53a37508c3cd8b58c4988</ThumbnailPath>
+				<SerialNumber>24</SerialNumber>
+				<InventionName>용수 스케일 제거 장치</InventionName>
+				<InternationalpatentclassificationNumber>C02F 5/08|C02F 1/00|B01D 35/02|B01D 39/14</InternationalpatentclassificationNumber>
+				<OpeningDate>20221104</OpeningDate>
+				<OpeningNumber>1020220148052</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20230314</PublicDate>
+				<RegistrationDate>20230309</RegistrationDate>
+				<RegistrationNumber>1025097860000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>아쿠아셀 주식회사|한국수자원공사|김좌관</Applicant>
+				<ApplicationDate>20210812</ApplicationDate>
+				<ApplicationNumber>1020210106995</ApplicationNumber>
+				<Abstract>본 발명은 물 흐름 조절이 가능한 조립형 인공습지 조성 장치에 관한 것으로서, 인공함양지에 수중식물을 미리 식재하여 인공함양지를 모듈별로 만든 후에 모듈형 블록 프레임에 미리 조성한 인공함양지를 각각 삽입하여 인공습지 조성지에 설치하는 물 흐름 조절이 가능한 조립형 인공습지 조성 장치에 관한 것이다. 이를 위해 토양 식생층, 모래 여과층, 및 자갈층으로 적층 구획되며, 토양 식생층에 식물이 심겨진 상태로 모듈별로 블록형으로 조성되는 블록형 인공습지 조성부, 블록형 인공습지 조성부가 내측으로 삽입되며, 블록형 인공습지 조성부를 통과하는 물의 흐름 방향을 조절하도록 하도록 하는 모듈형 블록 프레임부를 포함하는 것을 특징으로 하는 물 흐름 조절이 가능한 조립형 인공습지 조성 장치가 개시된다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c931b592b6e68e222ff38a33f8145f422e8a3e948f958149a94e385eebee0b5d64c3c05cc2f8c79b4d1c1c497e6d47394cce41368586bc73dca</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfeaff8148439c0e490f650802017b5de62890bbbc1ad8c27f1f0378a37b34c776a93639f869747f542836db7001a52c04a88bc728b844fea9</ThumbnailPath>
+				<SerialNumber>25</SerialNumber>
+				<InventionName>물 흐름 조절이 가능한 사전식재형 인공습지 조성 장치</InventionName>
+				<InternationalpatentclassificationNumber>C02F 3/32|B01D 24/00|B01D 24/10|B01D 24/46|C02F 1/00</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20220907</PublicDate>
+				<RegistrationDate>20220831</RegistrationDate>
+				<RegistrationNumber>1024399610000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>아쿠아셀 주식회사</Applicant>
+				<ApplicationDate>20230330</ApplicationDate>
+				<ApplicationNumber>1020230042371</ApplicationNumber>
+				<Abstract>본 발명은 분진 제거 습식 스크러버에 관한 것으로서, 분진을 포함하는 오염된 공기를 세정수를 사용하여 분진을 제거하고 정화된 공기를 배출하도록 하는 분진 제거 습식 스크러버에 관한 것이다. 이를 위해 분진의 세정을 위해 분진이 함유된 분진 공기가 제1 방향으로 유입되는 분진 유입부, 분진 유입부로부터 유입된 분진 공기가 벽면에 부착되지 않고 균등하게 분배되어 제2 방향으로 흐르도록 내측 방향으로 경사지게 분진 유입부로부터 결합 형성된 분진 균등 분배 경사판, 분진 균등 분배 경사판으로부터 수직 하강한 분진 공기가 내측 충돌공간에서 1차 충돌하고, 1차 충돌한 분진 공기가 세정수에 흡착되어 양방향으로 수평하게 분사되는 양방향 분사 슬롯판, 양방향 분사 슬롯판으로부터 일정 거리 떨어지면서 멀어지도록 경사지게 배치되며, 1차 충돌한 분진 공기가 세정수와 2차 충돌하여 분진 및 세정수 교반 영역에서 액적을 형성하는 액적 교반 경사판, 액적 교반 경사판의 상부에 배치되며, 액적 교반 경사판을 따라 상측방향으로 이동한 1차 정화된 공기 및 액적이 다시 하측의 세정수와 3차 충돌하도록 하여 2차 정화된 공기가 상부로 이동하고 하부로 액적이 침전되도록 하는 회수판, 회수판에 의해 2차 정화된 공기가 급기에 의해 외부로 배출되는 배기부를 포함하는 것을 특징으로 하는 분진 제거 습식 스크러버가 개시된다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9377645caea41c5bfec8b88b8aa7bacb851a3c776671fd08b6a6989678fe2d091375af600fafa313d1b040937e993b51ecd293b73b0f342961</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf3e946f524c211bf866978b9065b231545cbc01fa0e4624f408ecf91dc8aa1f08d77a9f9b30fe0719cdd864d793377526238dc74147be8d1c</ThumbnailPath>
+				<SerialNumber>26</SerialNumber>
+				<InventionName>분진 제거 습식 스크러버</InventionName>
+				<InternationalpatentclassificationNumber>B01D 47/06|B01D 47/12</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20230801</PublicDate>
+				<RegistrationDate>20230727</RegistrationDate>
+				<RegistrationNumber>1025621300000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>아쿠아셀 주식회사</Applicant>
+				<ApplicationDate>20061020</ApplicationDate>
+				<ApplicationNumber>1020060102518</ApplicationNumber>
+				<Abstract>본 발명은 해산어(海産漁) 양식장의 수질관리시스템에 관한 것으로써, 더욱 상세하게는 양식장에 유입된 해수를 양극과 음극 모두에 티탄 소재에 불용성 촉매 피막이 형성된 전극으로 이루어진 전해반응기에 통과하여 전기 분해키므로써 생성된 살균력이 높은 차아염소산 또는 차아염소산 이온 및 차아염소산나트륨으로 해수를 살균하며, 전해반응기에 펄스를 인가하여 미세 진동에 의한 수산화염화합물이 부착되는 것을 방지하여 살균 및 전류효율을 극대화하는 한편, 상기 살균된 해수에 잔존하는 차아염소산 또는 차아염소산 이온 및 차아염소산나트륨을 활성탄에 의하여 제거한 후에 양식장에 공급하여 해산어의 성장에 악영향을 미칠 우려를 사전에 차단하도록 하는 해산어 양식장의 수질관리시스템에 관한 것이다.  본 발명은 여과장치(33)와, 상기 여과장치(33)의 후단에 살균조(35)가 배관(40)을 통하여 순차적으로 설치되고, 상기 살균조(35)로부터 설치되는 제2펌프(31b)가 설치된 배관(40)의 끝부분에는 저장조(36)가 설치된 것에 있어서, 상기 여과장치(33)의 후단에는 밸브(V)가 설치되어 있는 연장된 배관(40)에 2개의 티탄 소재에 불용성 촉매 피막이 형성된 전극(11)(12)으로 이루어진 전해반응기(10)가 병렬로 설치되며 상기 전해반응기(10)의 배출구와 살균조(35)를 연결하는 배관(40)이 연장 형성되고, 상기 전해...(이하생략)</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9cfe49d03e6a3dce01e810b13bf34bb212b7a4acf3a08884f67fa45bd1844c2f99</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe46c22163f668395d40238a8351c3c477906304af54b5ff60bafd2b100894fa88d</ThumbnailPath>
+				<SerialNumber>27</SerialNumber>
+				<InventionName>해산어 양식장의 수질관리시스템</InventionName>
+				<InternationalpatentclassificationNumber>A01K 63/04|A01K 61/10|A01K 63/00</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20070130</PublicDate>
+				<RegistrationDate>20070122</RegistrationDate>
+				<RegistrationNumber>1006753750000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>아쿠아셀 주식회사</Applicant>
+				<ApplicationDate>20090916</ApplicationDate>
+				<ApplicationNumber>1020090087686</ApplicationNumber>
+				<Abstract>본 발명은 손 세정기에 관한 것으로, 손 세정액으로 전해수가 사용되고, 상기 전해수를 담은 용기는 상부에서 꼽히는 방식으로 되며, 손 받침대가 없는 구조를 제공함으로써, 보다 간편하게 손의 살균과 세정을 할 수 있고, 세정기에서의 2차 오염을 방지하는 발명이다.  본 발명에 따르면, 하방으로 뚫린 송기구가 형성된 부분이 전방으로 돌출되게 형성되고, 송기구의 하측벽에 근접센서가 설치된 케이스; 상기 케이스의 내부에 설치되어, 외부의 공기를 흡입하여 송기구로 송출하는 팬; 상기 케이스의 내부에 설치되고, 초음파진동자에 의해 담기 세정액을 안개화하여 송기구로 보내는 초음파발생기;를 포함하여 구성된 손 세정기에 있어서, 상기 케이스의 상부에 용기삽입공이 형성되며; 상기 용기삽입공으로 세정액이 담긴 용기의 입구가 초음파발생기에 연결되게 거꾸로 삽입된 구조를 가진 손 세정기가 제공된다.  손 세정기, 전해수, 초음파</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf7265a7386a684ff9c3939506f7c2622bea4f835a3d942fb8643cc206d7a25870e13afdcb6b392ccfccce97c2a932813a5e75f72e327be609882</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfcc7ee8530ba7da9353237ae3b8bb308cff6bb6121d48aa59f8d5aa86d68ecbd7a716546cf087cafdde39884e858b93c1cf265c8b8b643b06</ThumbnailPath>
+				<SerialNumber>28</SerialNumber>
+				<InventionName>손 세정기</InventionName>
+				<InternationalpatentclassificationNumber>A61L 2/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20110323</OpeningDate>
+				<OpeningNumber>1020110029841</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20120125</PublicDate>
+				<RegistrationDate>20120111</RegistrationDate>
+				<RegistrationNumber>1011070470000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>아쿠아셀 주식회사</Applicant>
+				<ApplicationDate>20181220</ApplicationDate>
+				<ApplicationNumber>1020180166073</ApplicationNumber>
+				<Abstract>본 발명은 에너지 절감 효과 및 내구성이 우수한 악취감지 시스템에 관한 것으로, 에너지 절감 효과가 우수하며, 수분에 의해 센서가 부식되는 것을 방지할 수 있도록 악취 발생원에서 발생하는 악취가스를 흡입하는 악취가스 공급라인, 상기 악취 공급라인에서 악취가스를 흡입하여 상기 악취 발생원 외부로 배출하는 탈취팬, 상기 탈취팬으로부터 공급받은 악취가스를 이송시키는 제1 탈취라인, 상기 제1 탈취 라인으로부터 공급받은 악취가스를 탈취시키는 탈취기, 상기 탈취기에서 탈취된 가스를 탈취기 외부로 방출하는 제2 탈취라인, 상기 제1 탈취라인에서 분기되어 형성되는 제1 센싱라인, 상기 제2 탈취라인에서 분기되어 형성되는 제2 센싱라인, 상기 제1 센싱라인 및 제2 센싱라인과 연결되며, 상기 제1 센싱라인 및 상기 제2 센싱라인으로부터 공급되는 악취의 농도를 측정하는 센싱부, 상기 센싱부와 상기 제1 생신라인을 연결하는 회수라인 및 상기 탈취팬, 상기 탈취기 및 상기 센싱부와 전기적으로 연결되어 있는 제어부를 포함하는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93fd7243654565b88d5be64eaabc9a9261a8fabd60a10c4e38e51ec7a6b29f8bae70f39a6ac58831e6b1a5f71d1e35dcf25300449778fd0234</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf57e06699b86c74096493cb4d00a0387dcd39274ef59e2dda4f669d9dbd36a3679f5bf2788e33e7fa7abeeadd5058b283e96070b20402afb9</ThumbnailPath>
+				<SerialNumber>29</SerialNumber>
+				<InventionName>에너지 절감 효과 및 내구성이 우수한 악취감지 시스템</InventionName>
+				<InternationalpatentclassificationNumber>G01N 33/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20200630</OpeningDate>
+				<OpeningNumber>1020200076998</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20210316</PublicDate>
+				<RegistrationDate>20210310</RegistrationDate>
+				<RegistrationNumber>1022284300000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>아쿠아셀 주식회사|김경숙</Applicant>
+				<ApplicationDate>20211228</ApplicationDate>
+				<ApplicationNumber>1020210189176</ApplicationNumber>
+				<Abstract>본 발명은 아크가 발생하는 용접부에 온도를 포함하는 용접 환경을 실시간으로 감지하여 전체 용접의 품질을 실시간으로 정확하게 파악할 수 있는 용접 검사 장치를 제공하는 것을 그 목적으로 한다.  상기의 목적을 달성하기 위하여 본 발명은, 전기 아크 방식의 용접이 연속되어 수행되는 용접부를 실시간으로 용접 품질을 검사하는 용접 검사 장치에 있어서, 2개로 구분되며 서로 접촉되는 부분에 용접부가 형성되어 접합하는 소재; 상기 소재와 대응되는 부분에 배치되어 상기 소재의 용접부 중 아크부와 아크를 발생시키고 아크에 의하여 지속적으로 공급되는 용가재가 용융되어 용접부를 형성하는 용접건; 상기 용접건의 상태를 감지하는 센서셋; 상기 아크부의 온도를 일정거리 이격된 위치에서 비접촉 방식으로 감지하는 2파장 온도센서; 및 상기 센서셋과 상기 2파장 온도센서에서 감지된 값을 기초로 용접부의 품질을 판단하는 제어모듈을 포함하는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93ab0b42bc0909636439450557a68496e9b7a5d6fba2cd3177fd83c8a02c7c0c49ae0eeea23861625f1d001c80639da828eef8367bffea9034</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf634ea8a5a193079e82a36b9a0beeef3ac6075946b3a23b559908a5e16ecfb56b371687c119937fc0412d6e6c9864a1025448b7803569e114</ThumbnailPath>
+				<SerialNumber>30</SerialNumber>
+				<InventionName>용접 검사 장치</InventionName>
+				<InternationalpatentclassificationNumber>B23K 9/095|B23K 31/12|G01J 5/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20230705</OpeningDate>
+				<OpeningNumber>1020230099818</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20231129</PublicDate>
+				<RegistrationDate>20231122</RegistrationDate>
+				<RegistrationNumber>1026066760000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>아쿠아셀 주식회사</Applicant>
+				<ApplicationDate>20060721</ApplicationDate>
+				<ApplicationNumber>1020060068536</ApplicationNumber>
+				<Abstract>본 발명은 선박의 선체 안정을 유지하기 위해 배의 바닥에 싣는 밸러스트(ballast) 해수(海水) 살균장치에 관한 것으로써, 더욱 상세하게는 전해살균장치의 양극(+)과 음극(-) 모두 티탄소재 불용성 전극을 설치하고, 극성전환부, 전류조절부 및 유량감지센서, 펄스발생기, 잔류염소이온농도감지센서를 각각 부가함으로써 양극과 음극의 극성을 주기적으로 전환시켜 차아염소산나트륨을 중단 없이 생성되도록 하는 한편, 해수의 유입량과 차아염소산나트륨의 농도에 의해 전해량을 조절하여 차아염소산나트륨 농도를 조절할 수 있을 뿐만 아니라, 전극에 수산화염화합물이 부착되는 것을 방지하여 밸러스트수의 살균을 효과적으로 이루어질 수 있도록 하는 선박의 밸러스트 해수 전해살균장치에 관한 것이다.  본 발명은 티탄소재 불용성 전극이 구비된 전해살균장치에 의한 해수의 전기분해로 차아염소산나트륨를 생성하여 해수에 포함된 세균을 살균하는 선박 밸러스트수 전해살균시스템에 있어서, 상기 전해살균장치는 해수를 전기 분해시키는 두개의 티탄 소재 불용성 전극으로 이루어지고, 밸러스트탱크 내에 설치되어 해수의 잔류염소이온농도를 센싱하여 그에 비례하는 전기적신호를 발생하는 잔류염소이온 농도감지센서와, 밸러스트탱크 내에 해수를 유입시키는 펌프의 배관에 설치되어 해수의 유입량을 센싱하여 그에 비례하는 전기적신호를 발생하는 유량감지센서와, 상기 불...(이하생략)</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9cfe49d03e6a3dce01e53675d113b8fad597d42b6f5ab3b29112c246399b0d07e3</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe46c22163f668395d43d860816e9b1d065f19229be51fa8eeec162d0aadad83d1c</ThumbnailPath>
+				<SerialNumber>31</SerialNumber>
+				<InventionName>선박 밸러스트수 전해살균시스템의 제어장치</InventionName>
+				<InternationalpatentclassificationNumber>C02F 1/467|C02F 1/461|B63J 4/00|C02F 103/00</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20070105</PublicDate>
+				<RegistrationDate>20061222</RegistrationDate>
+				<RegistrationNumber>1006633320000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>아쿠아셀 주식회사|국립부경대학교 산학협력단</Applicant>
+				<ApplicationDate>20080703</ApplicationDate>
+				<ApplicationNumber>1020080064240</ApplicationNumber>
+				<Abstract>본 발명은 용존 산소와 수소가 풍부한 음용수 제조장치에 관한 것으로, 정수된 물이 저수조에 저장될 때 세균성 미생물의 번식을 방지하기 위하여 차아염소산을 인체에 무해할 정도로 극미량 생성시키고, 산소와 수소가 풍부한 음용수를 제조할 수 있도록, 전해 반응부와 이를 제어하는 전해장치제어부와 생성된 산소와 수소를 정수된 물속에 포화 상태로 용존시키는 용해 촉진부를 포함한, 용존 산소와 수소가 풍부한 음용수 제조장치에 관한 것이다.  음용수, 정수기, 용존산소, 용존수소, 전해 반응부, 용해 촉진부</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c8b05d8ff1d82925155aedd0f818f23ef63dd77ccc1b6da7afd37d2b08478a8ef</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe47b96eebc40c82075a8f1e286bba09a5e1f8abaca56efa9a79556850fce9b51da</ThumbnailPath>
+				<SerialNumber>32</SerialNumber>
+				<InventionName>용존 산소와 수소가 풍부한 음용수 제조장치</InventionName>
+				<InternationalpatentclassificationNumber>C02F 1/467|C02F 1/461</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20090325</PublicDate>
+				<RegistrationDate>20090319</RegistrationDate>
+				<RegistrationNumber>1008906040000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>아쿠아셀 주식회사|국립부경대학교 산학협력단</Applicant>
+				<ApplicationDate>20061206</ApplicationDate>
+				<ApplicationNumber>1020060122781</ApplicationNumber>
+				<Abstract>각종 산업현장에서 발생하는 ppb수준의 다 성분 복합 휘발성유기화합물 (VOCs) 및 냄새물질을 총체적으로 분석하기 위해서는 여러 종류의 농축방법과 검출기를 이용하여야 가능하며, 많은 비용과 시간이 요구된다.  본 발명은 이를 극복하기 위한 것이며, 미량(ppb 수준)의 다 성분 복합 VOCs 및 냄새물질을 동시에 흡착-채취하여 분석하는 방법으로써, 이에 사용되는 장치는 크게 흡착튜브와 열탈착시스템, 그리고 가스크로마토그래피와 사중극자형 질량분석계로 구성된다.  특히 상기의 흡착튜브는 다 성분 VOCs 및 냄새물질의 분석에 효과적이도록 2단 이상의 다단으로 구성되고, 이는 환원황, 아민, 알콜, 알데히드, 케톤 등 C  1  ~C  26  의 복합물질을 동시에 정성 및 정량분석이 가능하게 하는 장치이다.  이와 같이 단일 흡착튜브를 사용하는 기존의 방식과는 달리 Tenax-TA, Carbopack B, Carbosieve SⅢ 등과 같이 흡착 및 탈착 특성이 서로 다른 흡착제를 적절히 다단으로 배열하여, 다 성분 복합 VOCs 및 냄새물질의 흡착 및 탈착에 효과적인 흡착튜브의 제조방법에 관한 것이다.  또한 상기 다단 흡착튜브를 열탈착장비와 사중극자형 GC-MS에 적용하여, mass range 20m/z이상, 운반가스의 순도 99.9999%의 조건에서 목적이온 추출 정량법으로 다 성분 복합 VOCs...(이하생략)</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9cfe49d03e6a3dce017cf95e3abf950f85602f3e63a9152d307a1949a19f46ab49</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe46c22163f668395d4b4232ef11bcf6031658b9c81ea0b218f957127a73b814784</ThumbnailPath>
+				<SerialNumber>33</SerialNumber>
+				<InventionName>미량 다성분 복합휘발성 유기화합물 및 냄새물질의 정량을위한 다단 흡착튜브 및 이를 이용한 정량분석방법</InventionName>
+				<InternationalpatentclassificationNumber>G01N 30/02|G01N 1/40|G01N 30/00</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20071018</PublicDate>
+				<RegistrationDate>20071011</RegistrationDate>
+				<RegistrationNumber>1007679960000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>아쿠아셀 주식회사|국립부경대학교 산학협력단</Applicant>
+				<ApplicationDate>20030109</ApplicationDate>
+				<ApplicationNumber>1020030001252</ApplicationNumber>
+				<Abstract>본 발명은 각종 유기성 오폐수 중에 포함된 질소와 인 및 유기물을 생물학적으로 처리하기 위하여 생물막을 형성시키는 메디아의 제조방법에 관한 것으로, 더욱 상세하게는 폐기물로 인식되어 온 소각재 용융 슬래그를 이용하여 합성된 제올라이트를 주원료로 하여 합성수지 및 첨가제를 첨가함으로써 폐기물의 재활용과 미생물의 부착을 증대시켜 오폐수의 정화능력을 향상시키는 제올라이트를 이용한 오폐수 정화용 메디아의 제조방법에 관한 것이다.  본 발명에 따르면, 소각재 용융 슬래그를 이용하여 합성된 제올라이트 5~60%와 합성수지 40~95%와 첨가제 0.5~10%를 혼합하여 입자화하는 1단계와, 입자화된 재료 50~90%와 첨가제로서 합성수지 10~50%를 혼합하여 일정형상으로 사출 또는 압출성형하는 2단계와, 성형품을 표면처리하는 3단계를 포함함을 특징으로 하는 제올라이트를 이용한 오폐수 정화용 메디아의 제조방법이 제공된다.  제올라이트, 메디아, 오폐수, 정화, 미생물</Abstract>
+				<DrawingPath></DrawingPath>
+				<ThumbnailPath></ThumbnailPath>
+				<SerialNumber>34</SerialNumber>
+				<InventionName>제올라이트를 이용한 오폐수 정화용 메디아의 제조방법</InventionName>
+				<InternationalpatentclassificationNumber>C02F 3/10</InternationalpatentclassificationNumber>
+				<OpeningDate>20030418</OpeningDate>
+				<OpeningNumber>1020030031013</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20050622</PublicDate>
+				<RegistrationDate>20050610</RegistrationDate>
+				<RegistrationNumber>1004962690000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>아쿠아셀 주식회사|김영규</Applicant>
+				<ApplicationDate>20050113</ApplicationDate>
+				<ApplicationNumber>1020050003087</ApplicationNumber>
+				<Abstract>본 발명은 저농도의 유기물 및 난분해성 용존물을 함유한 오폐수 또는 하수처리 방류수(이하, 공급원수)를 처리하여 중수(中水)로 재활용하기 위한 중수도시스템에 관한 것으로, 더욱 상세하게는 전기투석장치 또는 역삼투여과장치를 선택적으로 구비하여 공급원수 내의 용존고형물(TDS)의 제거가 함께 이루어지도록 함으로써, 처리된 중수를 청소용수, 화장실용수 등과 같은 통상적인 중수의 활용 용도외에 배관내 체류시간이 긴 보일러용수나 살수용수 등으로 활용하는 것도 가능하도록 하여 중수의 활용범위를 극대화하고 궁극적으로 수자원의 안정적 확보에 기여케 하는 용존고형물제거장치가 조합된 중수도시스템에 관한 것이다.  본 발명에 따르면 공급원수를 집수, 저장하는 저장조와; 생물막 형성을 위한 메디아가 충진된 바이오필터와; 유량 및 수질을 균등화하는 유량조정조와; 난분해성 용존 유기물, 잔류염소, 색깔, 냄새 및 미량의 유해 무기물을 흡착, 제거하는 활성탄흡착기와; 미세 부유물질과 고분자 물질 및 콜로이드상의 물질을 제거하는 정밀여과기와; 이온성의 용존고형물을 선택적 투과에 의해 농축, 제거하는 전기투석장치와; 피처리수에 염소를 투입하여 미생물의 번식을 방지하고 살균토록 하기 위한 염소소독장치와; 처리가 완료된 중수를 저류하는 중수저류조;가 일련되게 구성됨을 특징으로 하는 용존고형물제거장치가 조합된 중수도시스템이 제공된다....(이하생략)</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c592fb536ea920a4dd63f427339dd8d76630f2960e3835da07303d3e93f3a7202</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe407489d23bbfec243b5329f30ffc5893f62ccbf56990bb6fedb30d33974b79b64</ThumbnailPath>
+				<SerialNumber>35</SerialNumber>
+				<InventionName>용존고형물제거장치가 조합된 중수도장치</InventionName>
+				<InternationalpatentclassificationNumber>C02F 9/00|C02F 3/10|C02F 1/40|C02F 1/28|C02F 1/00|C02F 1/469|C02F 1/50|C02F 1/68|C02F 1/44|B01D 61/02|B01D 61/42|C02F 103/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20050202</OpeningDate>
+				<OpeningNumber>1020050012875</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>동명대학교산학협력단|아쿠아셀 주식회사</Applicant>
+				<ApplicationDate>20150731</ApplicationDate>
+				<ApplicationNumber>1020150108685</ApplicationNumber>
+				<Abstract>본 발명은 하수반려수 내 질소, 인 제거 시스템에 관한 것으로, 하수반려수가 저류되는 원수탱크와; 암모니아성 질소(NH  3  -N) 및 마그네슘(Mg) 약품이 저장되는 약품탱크와; 상기 원수탱크로부터 공급되는 하수반려수와 약품탱크로부터 공급되는 약품이 혼합된 혼합액을 분사하기 위한 분사노즐과; 상기 분사노즐을 통해 혼합액이 하향유입되도록 설치되며, 혼합액이 반응하여 인결정화 반응을 일으켜 스트러바이트가 생성되도록 4개의 다단으로 형성된 제1 내지 제4 반응조와; 상기 제4 반응조에서 생성된 스트러바이트를 유동현상에 의해 탈수여액과 분리하는 월류웨어와; 상기 제4 반응조에서 발생한 탈수여액이 방출되는 방류조; 및 및 상기 원수탱크에 유입되는 유입수의 총인(T-P) 농도, 총암모니아성 질소(NH  3  -N) 농도 및 총 마그네슘(Mg) 농도와 인결정화를 위한 pH를 산정하고, 상기 약품탱크로부터 약품의 공급량을 결정하는 제어부;를 포함하는 것을 특징으로 한다.  이에 의하면 하수처리장 내 고농도 질소, 인을 함유하고 있는 탈수여액의 다량 처리가 가능고, 비료로써 가치가 있는 스트러바이트의 연속 생산이 가능한 효과가 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00a41341846e9e2405ef0a958dc62bfcf66fb6b094e4bcc49f1be7dbf0af385e968e33c18e72b0ebc7d050bb13fe56d919a6b92d96f200b112</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfcfb0d48be4b539b443a91123fab4bf6f557faa41ce1d63f0176cad2bb8f5978560fb061bd51f6c239a6215d40c5df9e981c2dd81a5155db6</ThumbnailPath>
+				<SerialNumber>36</SerialNumber>
+				<InventionName>하수반려수 내 질소, 인 제거 시스템</InventionName>
+				<InternationalpatentclassificationNumber>C02F 1/58|C02F 1/52|C02F 1/66|C02F 101/16|C02F 101/10</InternationalpatentclassificationNumber>
+				<OpeningDate>20170208</OpeningDate>
+				<OpeningNumber>1020170014793</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>아쿠아셀 주식회사</Applicant>
+				<ApplicationDate>20100107</ApplicationDate>
+				<ApplicationNumber>1020100001290</ApplicationNumber>
+				<Abstract>본 발명은 가스 하이드레이트 형성 원리를 이용한 바이오 가스 내 메탄 정제 방법에 관한 것으로, 유기성 폐기물 처리 시에 발생하는 메탄 가스가 포함된 바이오 가스에서 황화수소와 이산화탄소를 안정적으로 제거하여 메탄 가스 함량을 96% 이상으로 하여 고부가 에너지원으로 사용할 수 있도록 하기 위한 방법에 관한 것이다.  본 발명에 따르면, 유기성 폐기물에서 발생되는 바이오 가스를 물에 혼합시키는 제1단계; 2~10℃의 온도와 10~30bar의 압력하에서 이산화탄소와 황화수소 가스 하이드레이트를 형성시켜 제2단계; 이산화탄소와 황화수소 가스하이드레이트와 물을 바이오 가스와 분리 배출하는 제3단계;를 포함하여 메탄 가스의 함량이 높은 바이오 가스를 얻음을 특징으로 하는, 가스하이드레이트 형성 원리를 이용한 바이오 가스 내 메탄 정제 방법이 제공된다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726789d83c4cfe414986632987b6c51750135ed49f5b06f712b6a90981b1bdb424538b500588af1644d72c54b050ead50ef61e1997d4e3da86e</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfa48ccaff1a62de083744a23bc8e1e96847b2ff24d0a3d784757c6bd09456cb6e67e46673e5ff24b3436cd3420f10c87d61f6d335e23d7cf4</ThumbnailPath>
+				<SerialNumber>37</SerialNumber>
+				<InventionName>가스 하이드레이트 형성 원리를 이용한 바이오 가스 내 메탄 정제 방법</InventionName>
+				<InternationalpatentclassificationNumber>C07C 7/11|B01D 53/78|B01D 47/02</InternationalpatentclassificationNumber>
+				<OpeningDate>20110713</OpeningDate>
+				<OpeningNumber>1020110080870</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>아쿠아셀 주식회사|김영규</Applicant>
+				<ApplicationDate>20050113</ApplicationDate>
+				<ApplicationNumber>1020050003088</ApplicationNumber>
+				<Abstract>본 발명은 저농도의 유기물 및 난분해성 용존물을 함유한 오폐수 또는 하수처리 방류수(이하, 공급원수)를 처리하여 중수(中水)로 재활용하기 위한 중수도시스템에 관한 것으로, 더욱 상세하게는 비표면적이 넓고 미생물 부착능이 탁월하며 여과기능을 갖는 특수 구조의 미생물 담지체(이하, 메디아)가 충진되어 질소, 인, 저농도의 유기물, 탁도 성분 및 부유물질 제거 기능을 갖는 바이오필터를 구비함으로써 보다 향상된 처리효율을 가져오고 시스템의 간소화를 이룩하여 궁극적으로 수자원의 안정적 확보에 기여케 하는 생물막공법의 중수도시스템에 관한 것이다.  본 발명에 따르면 공급원수를 집수, 저장하는 저장조와; 특수 구조의 메디아가 충진된 바이오필터와; 유량 및 수질을 균등화하는 유량조정조와; 난분해성 용존 유기물, 잔류염소, 색깔, 냄새 및 미량의 유해 무기물을 흡착, 제거하는 활성탄흡착기와; 미세 부유물질, 고분자 물질 및 콜로이드상의 물질을 제거하는 정밀여과기와; 피처리수에 염소를 투입하여 미생물의 번식을 방지하고 살균토록 하기 위한 염소소독장치와; 처리가 완료된 중수를 저류하는 중수저류조;가 일련되게 구성됨을 특징으로 하는 생물막공법의 중수도시스템이 제공된다.  공급원수, 바이오필터, 생물막, 메디아</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c592fb536ea920a4dd63f427339dd8d76630f2960e3835da08ca673c69990bf4d</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe407489d23bbfec243b5329f30ffc5893f62ccbf56990bb6fe6f40a86fb5f780d1</ThumbnailPath>
+				<SerialNumber>38</SerialNumber>
+				<InventionName>생물막공법의 중수도장치</InventionName>
+				<InternationalpatentclassificationNumber>C02F 3/10|C02F 1/28|C02F 1/40|C02F 1/50</InternationalpatentclassificationNumber>
+				<OpeningDate>20050202</OpeningDate>
+				<OpeningNumber>1020050012876</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>아쿠아셀 주식회사</Applicant>
+				<ApplicationDate>20051226</ApplicationDate>
+				<ApplicationNumber>1020050129373</ApplicationNumber>
+				<Abstract>본 발명은 골프 퍼팅 연습용 타깃볼에 관한 것으로, 더욱 상세하게는 퍼팅홀이 없는 장소에서도 골프공을 사용하여 퍼팅 연습을 할 수 있도록, 구형의 타깃볼에 골프공이 적당한 세기로 타격될 때 내부의 센서가 타격의 세기를 감지하여 스피커를 통해 골프공이 퍼팅홀에 홀인되는 소리와 동일한 전자음을 발생되게 함으로써, 이를 놓은 위치에 따라 다양한 퍼팅 길이와 각도로 퍼팅 연습할 수 있을 뿐만 아니라 흥미도 유발하여 퍼팅 연습시의 지루함을 해소할 수 있어 퍼팅 감각을 더욱 효과적으로 익힐 수 있게 한 골프 퍼팅 연습용 타깃볼에 관한 것이다.  본 발명에 따르면, 반구형의 상부케이싱과 반구형의 하부케이싱이 회동가능하게 상하로 결합된 구형의 본체와; 상기 상부케이싱의 내부에 고정된 고정판에 설치되고, 충격감지센서와 스피커 및 배터리가 장치된 인쇄회로기판과; 상기 하부케이싱의 내부에 고정된 지지판에 의해 하부케이싱의 중앙에 위치되는 중심추와; 상기 고정판의 하면과 지지판의 상면에 각각 설치되어, 상부케이싱과 하부케이싱의 회동에 따라 전원을 온오프시키는 전원스위치와 전원플랜지로; 구성됨을 특징으로 한 골프 퍼팅 연습용 타깃볼이 제공된다.  골프, 퍼팅 연습, 충격감지센서, 스피커, 타깃볼</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c592fb536ea920a4d2522d865d796520f2c7809885d7d8d204d2ae7c67d0bb41e</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe407489d23bbfec243f60986656e2481736a1229a3c4b3817de9086f7dc39ae9c1</ThumbnailPath>
+				<SerialNumber>39</SerialNumber>
+				<InventionName>골프 퍼팅 연습용 타깃볼</InventionName>
+				<InternationalpatentclassificationNumber>A63B 69/36|A63B 43/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20060206</OpeningDate>
+				<OpeningNumber>1020060011928</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20070612</PublicDate>
+				<RegistrationDate>20070601</RegistrationDate>
+				<RegistrationNumber>1007261240000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>아쿠아셀 주식회사</Applicant>
+				<ApplicationDate>20090511</ApplicationDate>
+				<ApplicationNumber>1020090040531</ApplicationNumber>
+				<Abstract>본 발명은 절수형 습식 스크라바에 관한 것으로서, 보다 상세히는 배기가스 혹은 분진이 다량으로 포함된 수용성 악취가스를 처리하는 스크라바로 투입되는 물의 소비량을 절반 이상으로 줄일 수 있도록 하고자, 본 발명은 하단부에 분할된 수조(14, 14a)가 형성되며, 하부 일측의 가스유입구(18) 및 상단부에 배기구(28)가 구비된 본체(12)와; 상기 본체 내부에 다단으로 이격 설치된 여과부(20, 20a)와; 상기 여과부의 상부에 각각 설치된 분사구(24, 24a)와; 상기 여과부의 하부에 가로로 설치되고 다수개의 통공(32)들이 형성된 안내판(30, 30a)과; 상기 안내판(30, 30a)의 일측 또는 타측에 하향 설치되고, 상기 수조와 연결된 각각의 통로(35, 35a)를 통해 상기 안내판의 물이 상기의 수조로 별도로 투입되도록 하는 측판(34, 34a)으로 구성됨을 특징으로 하는 절수형 습식 스크라바를 제안한다.  스크라바, 악취, 여과부, 안내판, 수조.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf72696099adc7d32db9246439ec092ea71e4c1cf7628e0c387810fea98c895f79bd158edf49fbefb01e9ae657db068fa0db06a7e2657d85d0d3b</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf9b38582625654d752a7946937c764897a1b5b27c070206eb2a14431c89f9ca6c60d244e6278b6e38e0702503f4ad9a916a37f77abda2d332</ThumbnailPath>
+				<SerialNumber>40</SerialNumber>
+				<InventionName>절수형 습식 스크라바</InventionName>
+				<InternationalpatentclassificationNumber>B01D 47/12|B01D 53/78</InternationalpatentclassificationNumber>
+				<OpeningDate>20101119</OpeningDate>
+				<OpeningNumber>1020100121713</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<TotalSearchCount>40</TotalSearchCount>
+			<SearchStartNumber>1</SearchStartNumber>
+		</items>
+	</body>
+</response>

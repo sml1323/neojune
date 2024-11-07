@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<response>
+	<header>
+		<resultCode></resultCode>
+		<resultMsg></resultMsg>
+	</header>
+	<body>
+		<items>
+			<TotalSearchCount>1</TotalSearchCount>
+			<TradeMarkInfo>
+				<SerialNumber>1</SerialNumber>
+				<ApplicationNumber>4020210187459</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20210909</ApplicationDate>
+				<PublicNumber>4020230031345</PublicNumber>
+				<PublicDate>20230216</PublicDate>
+				<RegistrationPublicNumber>4020230097424</RegistrationPublicNumber>
+				<RegistrationPublicDate>20230713</RegistrationPublicDate>
+				<RegistrationNumber>4020500590000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20230710</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>10</GoodClassificationCode>
+				<ViennaCode>261111|270522|270923</ViennaCode>
+				<ApplicantName>주식회사 테스크</ApplicantName>
+				<AgentName>특허법인 케이투비</AgentName>
+				<RegistrationRightholderName>주식회사 테스크 TESK Co, Ltd</RegistrationRightholderName>
+				<Title>Walkingcar We will take care of you</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ae7b1568aff8c76773884daba8aad541edd8198a24c5910f5a4914ec0cc7c7256828cad7c058a506</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2940f80548c1358af3c00ac49fc122afa3446450e01fe4e14c429372eaba053d72f8a3bd5c9ef3d202</ThumbnailPath>
+			</TradeMarkInfo>
+		</items>
+	</body>
+</response>

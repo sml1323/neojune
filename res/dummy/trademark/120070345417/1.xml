@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<response>
+	<header>
+		<resultCode></resultCode>
+		<resultMsg></resultMsg>
+	</header>
+	<body>
+		<items>
+			<TotalSearchCount>8</TotalSearchCount>
+			<TradeMarkInfo>
+				<SerialNumber>1</SerialNumber>
+				<ApplicationNumber>4020240081389</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20240503</ApplicationDate>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>출원</ApplicationStatus>
+				<GoodClassificationCode>09</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>(주)에어박스</ApplicantName>
+				<AgentName></AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title>에어핏 AirFit</Title>
+				<FulltextExistFlag>N</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ab46dd62dcdb3b50f25eba04707c4d5de02657adc1c1ec89535ed424e5230946b31d9533edcb66ba</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29a04489ad4cba26e5e2b6039123f684c27728a9d7827495cb88638f55d936343123992df4c51e5c0c</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>2</SerialNumber>
+				<ApplicationNumber>4020240081743</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20240503</ApplicationDate>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>출원</ApplicationStatus>
+				<GoodClassificationCode>09</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>(주)에어박스</ApplicantName>
+				<AgentName></AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title>에어캡슐 AirCapsule</Title>
+				<FulltextExistFlag>N</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ab46dd62dcdb3b50f25eba04707c4d5df175fd01924deb64bbf0859b2ac892d70ecd5bdbbb4c2878</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29a04489ad4cba26e5e2b6039123f684c2f97f9d8af97239950629e0fcd4713cf914904f5cd90e7b94</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>3</SerialNumber>
+				<ApplicationNumber>4020240081295</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20240503</ApplicationDate>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>출원</ApplicationStatus>
+				<GoodClassificationCode>09</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>(주)에어박스</ApplicantName>
+				<AgentName></AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title>에어웨이비 AirWavy</Title>
+				<FulltextExistFlag>N</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ab46dd62dcdb3b50f25eba04707c4d5ddf9d2639112bcd8a2bd9d1a16cdfb280d0c85baaf6da985d</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29a04489ad4cba26e5e2b6039123f684c2147ca4369f3b07a5e7107c0a80c80ec90f3806b9d3f4c2fa</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>4</SerialNumber>
+				<ApplicationNumber>4020240081326</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20240503</ApplicationDate>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>출원</ApplicationStatus>
+				<GoodClassificationCode>09</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>(주)에어박스</ApplicantName>
+				<AgentName></AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title>에어하티 AirHearty</Title>
+				<FulltextExistFlag>N</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ab46dd62dcdb3b50f25eba04707c4d5d83b4e65d5cc3135d536f94aac0d058cce8781a29e596ac7b</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29a04489ad4cba26e5e2b6039123f684c2c11c2b7784f08202bd9d38e2e452b7265b6958dd9840ca64</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>5</SerialNumber>
+				<ApplicationNumber>4020220021385</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20220204</ApplicationDate>
+				<PublicNumber>4020230144772</PublicNumber>
+				<PublicDate>20230816</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>포기</ApplicationStatus>
+				<GoodClassificationCode>09</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>(주)에어박스</ApplicantName>
+				<AgentName></AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title>에어핏 AirFit</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913442817c88e040e84f748ee507d59e2bbe5483f63abba006cf7fb171ed7e0529c44bcfac209bb85cc38</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2942dee2feafab2a09bfb67ed7b007616f68c25fcfd75c654e687dfd991453073d68f1989c7c010f80</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>6</SerialNumber>
+				<ApplicationNumber>4020220021394</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20220204</ApplicationDate>
+				<PublicNumber>4020230110023</PublicNumber>
+				<PublicDate>20230620</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>포기</ApplicationStatus>
+				<GoodClassificationCode>09</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>(주)에어박스</ApplicantName>
+				<AgentName></AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title>에어웨이비 AirWavy</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913442817c88e040e84f748ee507d59e2bbe5e41eefacfa9ee6580427ae6c459f83f34a351f6237a6a0e9</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2942dee2feafab2a09bfb67ed7b007616f325a96e8a8d48b18ea7e644404a2202881fd4627bc1ca9e2</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>7</SerialNumber>
+				<ApplicationNumber>4020220021543</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20220204</ApplicationDate>
+				<PublicNumber>4020230110025</PublicNumber>
+				<PublicDate>20230620</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>포기</ApplicationStatus>
+				<GoodClassificationCode>09</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>(주)에어박스</ApplicantName>
+				<AgentName></AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title>에어하티 AirHearty</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913442817c88e040e84f748ee507d59e2bbe56d61784320f5efab58f8ae37d4039cacd070b16af8e0b648</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2942dee2feafab2a09bfb67ed7b007616f8e677807da6f342f8d62892f80712e7abcd7415a9700344f</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>8</SerialNumber>
+				<ApplicationNumber>4020100063278</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20101209</ApplicationDate>
+				<PublicNumber>4020120005927</PublicNumber>
+				<PublicDate>20120201</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4009237880000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20120618</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>12|20|22|28</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>(주)에어박스</ApplicantName>
+				<AgentName>김국진</AgentName>
+				<RegistrationRightholderName>(주)에어박스 Air Box co,Ltd</RegistrationRightholderName>
+				<Title>AIRBOX</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344cf8870737f2162b36a9a2867367b86457c5e627d92c31baee2e0187adab201f9bce9adc651f92766</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29be08ffd120b623ea2ff9365c1357d4648585030a88d097866e525ab38d364cdc75397b118d6cc11a</ThumbnailPath>
+			</TradeMarkInfo>
+		</items>
+	</body>
+</response>

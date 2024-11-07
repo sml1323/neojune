@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<response>
+	<header>
+		<resultCode></resultCode>
+		<resultMsg></resultMsg>
+	</header>
+	<body>
+		<items>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20220502</ApplicationDate>
+				<ApplicationNumber>1020220054299</ApplicationNumber>
+				<Abstract>본 발명은 공기 구조물 연결 구조에 관한 것으로서, 더욱 상세하게는 내부에 공기가 주입되는 공기 구조물의 크기가 크게 형성되더라도 용이하게 조립 및 분해할 수 있을 뿐만 아니라 인접한 공기 구조물이 서로 완전하게 밀착하도록 견고하게 연결할 수 있는 공기 구조물 연결 구조에 관한 것이다.  상기한 목적을 달성하기 위한 본 발명은 내부에 공기가 주입되는 공기 구조물과, 상기 공기 구조물을 연결하는 연결부재로 이루어지고, 그리고, 상기 연결구는 상기 공기 구조물에 설치되는 보조 연결구와, 상기 보조 연결구를 연결하는 연결구로 이루어지는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9330798aa02956556c3ca24f3746db4a8999204177b9214c5d9710401f6dc36a1f662eea16c872997e43ac7362c85cefc270b57a9eb0c083ef</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfb8820f4ad7259a73c77435ffc763cbd07f065250e871a4b61b4eaf171c4875afc7e1552339f9e594733713aefa393547298c47560ddb0b23</ThumbnailPath>
+				<SerialNumber>1</SerialNumber>
+				<InventionName>공기 구조물 연결 구조</InventionName>
+				<InternationalpatentclassificationNumber>F16B 5/00|A47C 27/08|E04H 15/20</InternationalpatentclassificationNumber>
+				<OpeningDate>20231109</OpeningDate>
+				<OpeningNumber>1020230154633</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>공개</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20120222</ApplicationDate>
+				<ApplicationNumber>1020120018047</ApplicationNumber>
+				<Abstract>본 발명은 수상용 레저 구조물에 관한 것으로, 보다 상세하게는 바다나, 강, 저수지 등 수상에 에어튜브로 이루어진 구조물을 용이하게 설치함과 동시에 이 구조물에서 휴식을 취하거나 낚시, 물놀이, 식사 등을 할 수 있도록 수상용 레저 구조물에 관한 것이다.  상기한 목적을 달성하기 위한 본 발명은 부력을 가지는 바닥부와, 상기 바닥부의 상부에 설치되어 내측에 활동공간이 형성된 본체부로 이루어진 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726c8eb812d96155806631c3006a4ac93cc4494b931ac1ad36b874c7e6129082e29372c8a9e45d51ee19e5fba1e53f41c7026278ebeb193be79</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cff809a4c393737c06d718b993ac5f951de72933baab90488cdaf917e6684cd74be4f58afc359a4c09f94f3e7b27606261218e42ad5779fd02</ThumbnailPath>
+				<SerialNumber>2</SerialNumber>
+				<InventionName>수상용 레저 구조물</InventionName>
+				<InternationalpatentclassificationNumber>B63B 34/52|B63B 17/02|B63H 20/02|B63B 34/10|A45B 23/00|B63B 73/46</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20121121</PublicDate>
+				<RegistrationDate>20121115</RegistrationDate>
+				<RegistrationNumber>1012036030000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20160404</ApplicationDate>
+				<ApplicationNumber>1020160041075</ApplicationNumber>
+				<Abstract>본 발명은 공기구조물 융착장치에 관한 것으로, 보다 상세하게는 공기가 수용되는 수용공간이 내측에 형성되도록 구성되는 한 쌍의 시트 테두리, 특히 이중공간지의 가장자리에 형성되는 테두리부재를 열융착시켜 커버하되, 이중공간지의 가장자리 둘레 상, 하부에 열풍을 동시에 분사한 후 가압로울러로 가압하여 이중공간지의 가장자리에 형성되는 2겹의 테두리부재가 열융착되도록 함으로써, 한 번의 공정으로 이중공간지의 가장자리 둘레에 형성되는 테두리부재를 동시에 열융착되도록 하여 작업공정을 간소화시킬 수 있도록 한 공기구조물 융착장치에 관한 것이다.  상기한 목적을 달성하기 위한 본 발명은 본체부와, 상기 본체부에 설치되는 연결부와, 상기 본체부에 설치되어 테두리부재를 공급하는 테두리부재공급부와, 상기 연결부에 설치되어 이중공간지의 상,하단 가장자리부로 열풍을 분사하는 열풍분사수단과, 상기 본체부에 설치되어 가열된 이중공간지와 테두리부재를 가압하여 융착시키는 가압부를 포함하여 구성된 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0079ab81ec4c0a996ba7a8a6cee9bbde06632f26036dcd77fce46e9ff554683bc740b6512af6d8c40716eb7547bfec1dde22107058be2a426e</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cff69fea36f2d4e264f6aa06b353d652f0b804c5d1aed7a1b3019f6baeeeab84824efc478f884156923686d181d5f4282c02ff04484467dfdd</ThumbnailPath>
+				<SerialNumber>3</SerialNumber>
+				<InventionName>공기구조물 융착장치</InventionName>
+				<InternationalpatentclassificationNumber>B29C 65/10|B29D 22/02|B29C 65/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20171016</OpeningDate>
+				<OpeningNumber>1020170114385</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20171204</PublicDate>
+				<RegistrationDate>20171127</RegistrationDate>
+				<RegistrationNumber>1018039230000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20221107</ApplicationDate>
+				<ApplicationNumber>1020220146723</ApplicationNumber>
+				<Abstract>본 발명은 다용도 침대에 관한 것으로, 더욱 상세하게는 단순한 구성으로 공기를 주입하여 침대의 설치가 완료되는 것으로 부피가 작고, 가벼워 설치 및 이동이 간편한 다용도 침대에 관한 것이다.  본 발명은 내부에 강화섬유사가 구비되는 이중공간지로 형성되는 본체가 3분절되어 침대부와 침대부의 좌우 양단에 구비되어 지면에 지지되는 다리부를 포함하는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93c395ebea00f20b3146fcebcd46f923e84031e55b5e83d069edab531cee87f9ac98225024de5dcc1ee714e2edb60d32f1521fe9a1c084e6ca</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf3928042258f2c17ba8e1aa18f94514e73ebc528562e1e21de6e45c30d862008b9999d2c596e0145a8706996a3afefdc31d0a34dd4edb4a1d</ThumbnailPath>
+				<SerialNumber>4</SerialNumber>
+				<InventionName>다용도 침대</InventionName>
+				<InternationalpatentclassificationNumber>A47C 20/02|A47C 27/12|A47C 27/08|A47C 19/02|A47C 31/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20231010</OpeningDate>
+				<OpeningNumber>1020230141416</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>공개</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20190925</ApplicationDate>
+				<ApplicationNumber>1020190118432</ApplicationNumber>
+				<Abstract>본 발명은 스피커가 구비된 에어매트리스에 관한 것으로, 보다 상세하게는 에어매트부의 내측에 스피커를 구비함으로써 스피커를 통해 확산되는 음향이 에어매트부의 내측에 형성된 섬유사에 직접 전달됨으로써, 에어매트부에 가해지는 진동을 보다 강하게 체감할 수 잇고, 음향효과 또한 뛰어난 스피커가 구비된 에어매트리스에 관한 것이다.  본 발명은 상부시트와 하부시트의 사이에 섬유사가 구비되고, 측면시트에 의해 측부가 밀폐되는 에어매트부와, 상기 에어매트부의 측면에 설치되는 스피커부를 포함하여 이루어지는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93eff933228d23b92de0a423fb0415ea0ad06944b4b966043b17767e235b1b7dfe6c51d51ee6e40963e62203d6b506c3964a59f0eb8349b01d</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cff44134efa672d156b3cbd287b034ba4248946a12c61f1c88dc089419ecb403fff53eada937455c788b8444cadf01ade112b04abebbb35ecd</ThumbnailPath>
+				<SerialNumber>5</SerialNumber>
+				<InventionName>스피커가 구비된 에어매트리스</InventionName>
+				<InternationalpatentclassificationNumber>A47C 21/00|A61H 23/02</InternationalpatentclassificationNumber>
+				<OpeningDate>20210402</OpeningDate>
+				<OpeningNumber>1020210036221</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20210831</PublicDate>
+				<RegistrationDate>20210824</RegistrationDate>
+				<RegistrationNumber>1022955480000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20190918</ApplicationDate>
+				<ApplicationNumber>1020190114940</ApplicationNumber>
+				<Abstract>본 발명은 이중공간지를 이용한 전동 승용물에 관한 것으로서, 더욱 상세하게는 장거리를 이동하더라도 사용자의 피로감을 줄여주어 안정적으로 주행할 수 있을 뿐만 아니라, 전체적인 무게를 줄여주어 에너지효율을 높일 수 있으며, 사용하지 않을 때에는 부피를 줄일 수 있어 보관 및 운반이 용이한 이중공간지를 이용한 전동 승용물에 관한 것이다.  상기한 목적을 달성하기 위한 본 발명은 본체와, 상기 본체의 전방 하부에 구비되는 앞바퀴와, 상기 본체의 후방 하부에 구비되는 뒷바퀴를 포함하여 이루어지고, 상기 뒷바퀴는 지지대에 의해 상기 본체에 고정되되, 상기 지지대에는 뒷바퀴를 회전시키는 구동부가 구비되는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93e7c28124f6a06fc25466abc854479c9ca9069e409e93462e49be1499e829443d1cb55d12d99b20deef3f393feccd073f94ced4840b712a66</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfdb3eaa9d790e17083877119fbf8cd8a94cb4d288037e757ecb41ec9ee84c3f81314080d8892cd40980283fb267ae66c3c1079c0f3e109a92</ThumbnailPath>
+				<SerialNumber>6</SerialNumber>
+				<InventionName>이중공간지를 이용한 전동 승용물</InventionName>
+				<InternationalpatentclassificationNumber>B62K 5/01|B62M 7/12|B62K 21/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20210326</OpeningDate>
+				<OpeningNumber>1020210033339</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20210901</PublicDate>
+				<RegistrationDate>20210824</RegistrationDate>
+				<RegistrationNumber>1022952200000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20130528</ApplicationDate>
+				<ApplicationNumber>1020130060529</ApplicationNumber>
+				<Abstract>본 발명은 조립식 대형 텐트에 관한 것으로, 더욱 상세하게는 이중공간지로 형성되는 터널형의 텐트부재들을 결합부재를 이용하여 결합하여 설치함으로써 텐트가 용이하게 조립, 분리되도록 형성함으로써 대형 텐트의 제작, 보관 및 이동을 용이하게 할 수 있도록 하는 조립식 대형 텐트에 관한 것이다.  본 발명은 이중 공간지로 형성되는 텐트부재와; 상기 텐트부재들을 연결 결합시키는 결합부재로 이루어지는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0010f2b5b87a0f316e6f827d6852c174f952f58eccf044e72bcee59b6444e2db98b63a1eb968867d78bd469a2fae210f495aaa1a741ab35733</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfa6543d2bb6598b6aebd81eb002220620145080a5b24e76106bd709438b20941c78a8eb3ba4a0931f53588254be79c67d4bd33b128f24aacd</ThumbnailPath>
+				<SerialNumber>7</SerialNumber>
+				<InventionName>조립식 대형 텐트</InventionName>
+				<InternationalpatentclassificationNumber>E04H 15/20</InternationalpatentclassificationNumber>
+				<OpeningDate>20141208</OpeningDate>
+				<OpeningNumber>1020140139869</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20150820</PublicDate>
+				<RegistrationDate>20150813</RegistrationDate>
+				<RegistrationNumber>1015460610000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20091217</ApplicationDate>
+				<ApplicationNumber>1020090125870</ApplicationNumber>
+				<Abstract>본 발명은 윈드서핑 보드에 관한 것으로서, 더욱 상세하게는 이중공간지로 보드를 형성하고 조인트 체결부를 단순한 구조로 형성하여 내구성이 좋고, 보드의 조립과 해체가 용이하며, 이동성이 좋은 윈드서핑 보드에 관한 것이다.  상기한 목적을 달성하기 위한 본 발명은 마스트가 설치되는 윈드서핑 보드에 있어서, 보드 본체가 이중공간지로 이루어지고, 상기 보드 본체에는 조인트 체결부가 고정 결합되는 체결부 고정부가 형성되는 것을 특징으로 한다.  윈드서핑, 보드, 이중공간지, 조인트 체결부</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726d4dcb7a4fb3b585a1bd895c636eba89e583ab143375061ca12dbd4449603c5cdc63f18e3710b4aad9e5f3e33cb4e3d027afd34544a0a5c9b</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfb0bcb23279f89686e2e518c88a4e54da601ebeb89f346f1b54fbcc9cfe494a124519307ee9b7ca808727497255ff43baf45ec2d8a644786b</ThumbnailPath>
+				<SerialNumber>8</SerialNumber>
+				<InventionName>윈드서핑 보드</InventionName>
+				<InternationalpatentclassificationNumber>B63B 32/40</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20100804</PublicDate>
+				<RegistrationDate>20100729</RegistrationDate>
+				<RegistrationNumber>1009740290000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20170901</ApplicationDate>
+				<ApplicationNumber>1020170112053</ApplicationNumber>
+				<Abstract>본 발명은 노약자용 욕조에 관한 것으로서, 더욱 상세하게는 내부에 환자 또는 노약자가 목욕할 수 있도록 공간이 형성된 욕조본체의 하부에 별도의 매트부재를 삽입하여 매트부재에 의해 환자 또는 노약자의 신체를 지지할 수 있도록 하여 안정적으로 목욕을 수행할 수 있도록 하는 노약자용 욕조에 관한 것이다.  상기한 목적을 달성하기 위한 본 발명은 내부에 목욕공간이 마련된 욕조본체와, 상기 욕조본체의 하부에 구비되는 수용부와, 상기 수용부에 삽입되는 매트부재를 포함하여 이루어지는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00b530444aca96dc49700626fa8e874c1bcb00f0cbc7807606356e18f54f7e12f8d2f28a9d78c526184c4b340569e00b38459f3cecd7229304</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf3c16e98e319872420bffdf1e7b8b97112db89eaa1d720522b80d4408ba632aaec18b9414f51134ab75e1d6eb0769f7d48ebfb2af332c5639</ThumbnailPath>
+				<SerialNumber>9</SerialNumber>
+				<InventionName>노약자용 욕조</InventionName>
+				<InternationalpatentclassificationNumber>A47K 3/022|A47K 3/12</InternationalpatentclassificationNumber>
+				<OpeningDate>20190311</OpeningDate>
+				<OpeningNumber>1020190025427</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20190701</PublicDate>
+				<RegistrationDate>20190621</RegistrationDate>
+				<RegistrationNumber>1019937890000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20140904</ApplicationDate>
+				<ApplicationNumber>1020140117920</ApplicationNumber>
+				<Abstract>본 발명은 패들 보드 및 그 제조방법에 관한 것으로, 보다 상세하게는 보드의 몸체를 내부에 공기를 수용할 수 있는 이중공간지로 구성하여 가볍고 보관 및 운반이 용이하도록 하면서도 몸체의 내부에 공기를 채워 넣었을 때 보드의 전단부 하부에 물살을 가를 수 있도록 하는 쐐기 형상의 웨지(wedge)부가 형성되도록 함으로써 사용시 속도감을 향상시킬 수 있도록 하는 패들 보드 및 그 제조방법에 관한 것이다.  본 발명은 이중공간지로 이루어진 몸체부를 포함하여 구성되는 패들 보드에 있어서, 상기 몸체부의 하면에는 웨지부가 돌출 형성되는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e006c107f63327a53299929fea707febe81c9c05d0b28f6554514e0790c6a86f005c6d5b7772d551ff22bfbea6a9e6f1693cc1fa8d0ec8bd46a</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf19a66c55a032726fb5cc679494a8fe49ed74f55a446b23429fb6fa581a2e826351c9809b6958d59ce0b5efca4491bbd624522c88ba885686</ThumbnailPath>
+				<SerialNumber>10</SerialNumber>
+				<InventionName>패들 보드 및 그 제조방법</InventionName>
+				<InternationalpatentclassificationNumber>B63B 32/00</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20150610</PublicDate>
+				<RegistrationDate>20150603</RegistrationDate>
+				<RegistrationNumber>1015275700000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20080326</ApplicationDate>
+				<ApplicationNumber>1020080027786</ApplicationNumber>
+				<Abstract>본 발명은 에어튜브로 이루어진 텐트용 골조와 이를 이용한 텐트에 관한 것으로, 보다 상세하게는 이중공간지로 이루어진 에어튜브에 에어를 주입하여 골조가 형성되고 이 골조에 외피를 씌워 체결하게 되면 텐트의 설치가 모두 완료되는 것으로, 간편하고 신속하게 텐트를 설치할 수 있도록 하는 에어튜브로 이루어진 텐트용 골조와 이를 이용한 텐트에 관한 것이다.  상기한 목적을 달성하기 위한 본 발명은 하부가 개방되게 내측에 공간이 형성되고, 돔 형상의 골조로 이루어진 것을 특징으로 한다.  여기서, 상기 골조는 돔형상으로 형성되되, 상부에 수평부가 형성되고, 상기 수평부와 이격되어 하부에 도넛 형상의 하부지지대가 구비되며, 상기 하부지지대의 상부 원주방향으로 다수개가 돌출되어 형성되되, 하부지지대와 일체로 형성되어 상부의 수평부에 연결되는 측면지지대가 구비되며, 상기 측면지지대의 다수개를 서로 연결시켜 주는 연결지지대로 이루어진 것을 특징으로 한다.  에어튜브, 텐트, 골조, 샤워기, 에어 풀장, 섬유사, 에어</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726d4dcb7a4fb3b585a84b943cbef518dd45c7d7ea4a8ef67d34c52838a3ea71b169188c86e1c89fbbdacc48913b7e76ec475847d8f69fdcfa1</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfb0bcb23279f89686fcc933596d39847940563c15a457b4989e278b3bd6fd229b29d8db07c6c27b3e220065f5a1d32525268d888a408dc582</ThumbnailPath>
+				<SerialNumber>11</SerialNumber>
+				<InventionName>에어튜브로 이루어진 텐트용 골조와 이를 이용한 텐트</InventionName>
+				<InternationalpatentclassificationNumber>E04H 15/20|A47K 3/32</InternationalpatentclassificationNumber>
+				<OpeningDate>20090930</OpeningDate>
+				<OpeningNumber>1020090102379</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20100804</PublicDate>
+				<RegistrationDate>20100729</RegistrationDate>
+				<RegistrationNumber>1009740270000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20070817</ApplicationDate>
+				<ApplicationNumber>1020070082978</ApplicationNumber>
+				<Abstract>본 발명은 구명환에 관한 것으로, 구명환에 수납부를 구성하고, 상기 수납부에 비상식량, 식수, 구조 신호탄 및 구급약등의 생존 필수품을 수납함으로써 조난자가 구조될 때까지 상기 구명환에 수납된 생존 필수품을 이용하도록 구성되고, 또한, 상기 구명환에 에어백을 구성하여 구명환의 부력을 증가시킴으로써, 한 개의 구명환에 여러 명이 조난자가 매달리 수 있고, 조난자가 상기 구명환에 올라 앉더라도 물에 가라앉지 않는 구명환에 관한 것이다.  본 발명은 환형의 부력체로 이루어진 부구와, 상기 부구에 소정 개수의 수납부로 구성된다.  구명장비, 구명튜브, 구명환, 에어백</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9cf44e6e9608087f40b34c2efa041e58714ca6bf0c39d318e664ddb2e84c16d6ea</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe484b73ac8e410bb22ae9dd56be6e28ed7a592a87e4a8f61c11eb51703832c3559</ThumbnailPath>
+				<SerialNumber>12</SerialNumber>
+				<InventionName>구명환</InventionName>
+				<InternationalpatentclassificationNumber>B63C 9/19|B63C 9/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20090220</OpeningDate>
+				<OpeningNumber>1020090018495</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20090803</PublicDate>
+				<RegistrationDate>20090721</RegistrationDate>
+				<RegistrationNumber>1009097180000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20130823</ApplicationDate>
+				<ApplicationNumber>1020130100114</ApplicationNumber>
+				<Abstract>본 발명은 캡슐 텐트에 관한 것으로서, 더욱 상세하게는 무게를 가볍게 형성하여 운반 및 보관이 좋으며, 차량이 적재함이나 지붕에도 설치할 수 있을 뿐만 아니라, 설치와 해체를 용이하게 할 수 있는 캡슐 텐트에 관한 것이다.  상기한 목적을 달성하기 위한 본 발명은 원통형상의 몸체와, 상기 몸체의 내측 하부에 구비되는 매트리스와, 상기 몸체의 길이방향 양단부에 형성되는 출입구와, 상기 출입구에 구비되는 도어로 이루어지는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00497bfe73a0b51938bbc0039a5e63be1e6cec1690065bc11fc38ca3f1e56a5b7c724a324ef62be85b7a642a718cafc183281a13febe432531</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf18e75f74f2e5aaeeec81e3d207c3b7d3897a7c4c254cd7c2400f52c44bf4f9028d5022f316391abc6974c8a59e3b3a637bd2378a016f22c0</ThumbnailPath>
+				<SerialNumber>13</SerialNumber>
+				<InventionName>캡슐 텐트</InventionName>
+				<InternationalpatentclassificationNumber>E04H 15/00|E04H 15/06</InternationalpatentclassificationNumber>
+				<OpeningDate>20150304</OpeningDate>
+				<OpeningNumber>1020150022375</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20160415</PublicDate>
+				<RegistrationDate>20160408</RegistrationDate>
+				<RegistrationNumber>1016128580000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20210817</ApplicationDate>
+				<ApplicationNumber>1020210107890</ApplicationNumber>
+				<Abstract>본 발명은 다용도 침대 겸용 텐트에 관한 것으로, 더욱 상세하게는 단순한 구성으로 공기를 주입하여 침대의 설치가 완료되는 것으로 부피가 작고, 가벼워 설치 및 이동이 간편하고 매트리스를 견고하게 지지할 수 있는 다용도 침대 겸용 텐트에 관한 것이다.  본 발명은 이중공간지로 형성되어 지면에 기립 설치되는 지지부재와, 이중공간지로 형성되어 상기 지지부재의 사이에 연결 설치되는 매트리스를 포함하는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93ceb91d785b8d7da01f049d2f5784679683dcf513a714498d26379a48b4fd6e7f70af2f6dd4e79c372e927cf349210f992eabcb039b588f02</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfafe09ec83c3258def7fce00e7f1c1b5a9afefcf5e7ecf166c1742c9b0655de603e405471c4843bd984df642ad347fd747e6e89c645afeb1f</ThumbnailPath>
+				<SerialNumber>14</SerialNumber>
+				<InventionName>다용도 침대 겸용 텐트</InventionName>
+				<InternationalpatentclassificationNumber>E04H 15/02|A47C 19/02|A47C 27/08|A47C 31/02</InternationalpatentclassificationNumber>
+				<OpeningDate>20230224</OpeningDate>
+				<OpeningNumber>1020230026015</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20240412</PublicDate>
+				<RegistrationDate>20240405</RegistrationDate>
+				<RegistrationNumber>1026566530000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20220224</ApplicationDate>
+				<ApplicationNumber>1020220024020</ApplicationNumber>
+				<Abstract>본 발명은 스마트 에어 매트리스에 관한 것으로서, 더욱 상세하게는 스피커에서 출력되는 음악을 소리뿐만 아니라 진동으로도 느낄 수 있도록 하여 음악을 보다 다양하게 즐길 수 있으며 내부의 압력을 설정된 압력으로 자동으로 유지하도록 함으로써, 가해지는 하중이 변하더라도 항상 일정한 내부 압력을 유지하여 편안한 상태로 사용할 수 있는 스마트 에어 매트리스에 관한 것이다.  상기한 목적을 달성하기 위한 본 발명은 이중 공간지로 이루어지는 에어 매트리스부와, 상기 에어 매트리스의 내측에 설치되는 스피커부와, 상기 에어 매트리스부의 외측에 구비되어 상기 스피커부를 제어하는 컨트롤 박스로 이루어지는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93ceb91d785b8d7da07f7d252e60781ed33a7d11f3493f61fc786bfacdfbc586f176a1cbfeeea01bed6a0774e6f8299c80ee9ac9addf9f6a1a</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfafe09ec83c3258deada8628de5f878ca4419857b627616c5113566d5c800f25bfeda0675ec8a9c43afcbd0017978eec438f469917b654243</ThumbnailPath>
+				<SerialNumber>15</SerialNumber>
+				<InventionName>스마트 에어 매트리스</InventionName>
+				<InternationalpatentclassificationNumber>A47C 21/00|A61H 23/02|H04R 1/02|A47C 31/00|A47C 27/08|A47C 31/12</InternationalpatentclassificationNumber>
+				<OpeningDate>20230831</OpeningDate>
+				<OpeningNumber>1020230126796</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20240412</PublicDate>
+				<RegistrationDate>20240405</RegistrationDate>
+				<RegistrationNumber>1026566630000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20110429</ApplicationDate>
+				<ApplicationNumber>1020110040930</ApplicationNumber>
+				<Abstract>본 발명은 수상 인공 수영장에 관한 것으로, 보다 상세하게는 바다나 강, 저수지 등 수상에 수영장을 설치하여 수영을 즐김과 동시에 휴식을 취할 수 있도록 한 수상 인공 수영장에 관한 것이다.  상기한 목적을 달성하기 위한 본 발명은 내측에 물이 수용되는 본체부와, 상기 본체부의 외측에 설치되는 다수개의 연결부와, 상기 연결부에 설치되는 부유부로 이루어진 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf7261b91571a0b945fee6dc249599c69f0aac1d968b600d12cd38194898ce6c5b9485780665089b31ea1014470174f85aab4721e56f6a67a4ce0</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfcd730d4dae06b69685f8e9561e02438cb6e32c8aa60304bd62ca1ea82b91e76c7e42e530532b305ec40ab2d45d235798c35f3f8f13cce248</ThumbnailPath>
+				<SerialNumber>16</SerialNumber>
+				<InventionName>수상 인공 수영장</InventionName>
+				<InternationalpatentclassificationNumber>B63B 34/00|E04H 4/00|B63J 2/12</InternationalpatentclassificationNumber>
+				<OpeningDate>20121107</OpeningDate>
+				<OpeningNumber>1020120122646</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20130704</PublicDate>
+				<RegistrationDate>20130628</RegistrationDate>
+				<RegistrationNumber>1012821560000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20191018</ApplicationDate>
+				<ApplicationNumber>1020190129612</ApplicationNumber>
+				<Abstract>본 발명은 운동기구 겸용 해먹에 관한 것으로, 보다 상세하게는 단순한 구성으로 에어매트부의 양단에 에어매트부가 곡률을 형성하도록 연결 설치되는 시트부를 구비하여 운동기구 또는 해먹으로 선택적으로 사용할 수 있도록 하는 운동기구 겸용 해먹에 관한 것이다.  본 발명은 이중공간지로 형성되는 몸체로 이루어지는 패들보드에 있어서, 상기 몸체의 상부면에는 곡률성형부가 구비되어 몸체의 곡률을 형성할 수 있도록 구성된 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9338e0769ee573a3b2914484d6c07644313dc683029606e8d519aaffd5469ca3a4f76c9ef182db1e264779ae2c70d67ab6690f0f914e6ab0b6</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfcf4b71214ba356824f7d4e15b1772069c6f88380c702952d715c6f630ad938294333faef462757b2752fb53a226aba66e5128eab82343b15</ThumbnailPath>
+				<SerialNumber>17</SerialNumber>
+				<InventionName>운동기구 겸용 해먹</InventionName>
+				<InternationalpatentclassificationNumber>A45F 4/00|A45F 3/22|A61H 1/02|A61H 1/00</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20210402</PublicDate>
+				<RegistrationDate>20210329</RegistrationDate>
+				<RegistrationNumber>1022353500000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20190115</ApplicationDate>
+				<ApplicationNumber>1020190005184</ApplicationNumber>
+				<Abstract>본 발명은 이중공간지를 이용한 전동 승용물에 관한 것으로서, 더욱 상세하게는 장거리를 이동하더라도 사용자의 피로감을 줄여주어 안정적으로 주행할 수 있을 뿐만 아니라, 전체적인 무게를 줄여주어 에너지효율을 높일 수 있으며, 사용하지 않을 때에는 부피를 줄일 수 있어 보관 및 운반이 용이한 이중공간지를 이용한 전동 승용물에 관한 것이다.  상기한 목적을 달성하기 위한 본 발명은 본체와, 상기 본체의 전방 하부에 구비되는 앞바퀴와, 상기 본체의 후방 하부에 구비되는 뒷바퀴를 포함하여 이루어지고, 상기 뒷바퀴는 지지대에 의해 상기 본체에 고정되되, 상기 지지대에는 뒷바퀴를 회전시키는 구동부가 구비되는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93ef4ad01377cdfbca1f1d418d8580069708bfceef494a1a9d9b7a694c80f193ae8ff45527a51d0857881f7ac6dfa571f13c652d82c4021d75</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf602d596fbf8231c60262ae8a5f206f9b42d7395bdc169b26e0db5e2a00cac597617c25d50ca36bbf003c5a0378920c731fa00330b330136f</ThumbnailPath>
+				<SerialNumber>18</SerialNumber>
+				<InventionName>이중공간지를 이용한 전동 승용물</InventionName>
+				<InternationalpatentclassificationNumber>B62K 9/00|B62M 6/65|B62M 6/45|B62K 21/26|B62K 23/02</InternationalpatentclassificationNumber>
+				<OpeningDate>20200723</OpeningDate>
+				<OpeningNumber>1020200088644</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20210405</PublicDate>
+				<RegistrationDate>20210329</RegistrationDate>
+				<RegistrationNumber>1022353470000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20140428</ApplicationDate>
+				<ApplicationNumber>1020140050796</ApplicationNumber>
+				<Abstract>본 발명은 수상 놀이 공원에 관한 것으로서, 더욱 상세하게는 다양한 놀이기구를 착탈할 수 있게 형성함으로써, 필요에 따라 다양한 놀이기구를 연결하여 사용할 수 있을 뿐만 아니라, 착탈이 가능하여 설치 및 보관이 용이하며, 놀이기구를 이중공간지로 형성하여 부상을 방지할 수 있는 수상 놀이 공원에 관한 것이다.  상기한 목적을 달성하기 위한 본 발명은 중심부에 구비되는 중심부재와, 상기 중심부재의 외측에 구비되는 놀이기구와, 상기 중심부재와 놀이기구를 연결하는 연결부재로 이루어지고, 상기 중심부재, 연결부재, 놀이기구는 이중공간지로 이루어지되, 상기 이중공간지는 내부에 공기가 주입되도록 형성되는 외피와, 상기 외피의 내측 상부면와 하부면을 연결하는 강화섬유사로 이루어지는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e009fa3720533f10f21edf7a3ff49d235b669d5f46db7924508070d172742634dcae6d766b5a630b54bdb9e97a6826c8522f3b9926ee6139b3d</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf3ba19b425d427d872e4dee1e366b719cd6d9a1ee9a04470df4176b4c79fbab98507e6293e57a468995fda3618ff5d02408b1c10ecf340775</ThumbnailPath>
+				<SerialNumber>19</SerialNumber>
+				<InventionName>수상 놀이 공원</InventionName>
+				<InternationalpatentclassificationNumber>B63B 35/44|A63G 31/00|B63B 7/08|E02B 3/06</InternationalpatentclassificationNumber>
+				<OpeningDate>20151105</OpeningDate>
+				<OpeningNumber>1020150124220</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20160316</PublicDate>
+				<RegistrationDate>20160310</RegistrationDate>
+				<RegistrationNumber>1016041070000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20101014</ApplicationDate>
+				<ApplicationNumber>1020100100180</ApplicationNumber>
+				<Abstract>본 발명은 욕조겸용 침대에 관한 것으로서, 더욱 상세하게는 에어를 주입하여 사용하는 에어 매트리스를 욕조로 용이하게 변형 사용할 수 있어 사용자가 이동하지 않고도 침대와 욕조의 변형이 가능한 욕조겸용 침대에 관한 것이다.  상기한 목적을 달성하기 위한 본 발명은 내측에 공간부가 형성된 몸체와, 상기 몸체의 공간부에 설치되는 에어 매트리스로 이루어지는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf7264dd2038aa34fca7ae365aebf6ce7bd40212ce600ce0e3b4d76b27259242426588ff612d8b92c024c859e05530ae5e762fb39be31f4a382cb</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf7cedfe9613dc895b01c12be543adffc4cb7d78c73f3145355d0ec0f129f4a6e9523d5b0614ab704dedf62453d2906c16c782170b367aa75e</ThumbnailPath>
+				<SerialNumber>20</SerialNumber>
+				<InventionName>욕조겸용 침대</InventionName>
+				<InternationalpatentclassificationNumber>A61G 7/00|A61G 7/057</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20110609</PublicDate>
+				<RegistrationDate>20110601</RegistrationDate>
+				<RegistrationNumber>1010397020000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20080104</ApplicationDate>
+				<ApplicationNumber>1020080001389</ApplicationNumber>
+				<Abstract>본 발명은 조난 구조용 구명대에 관한 것으로, 보다 상세하게는 강이나 호수 및 수영장 등 수상에서 사고가 발생시에 구조자가 간편하게 휴대하여 사고지점으로 이동할 수 있도록 함과 동시에 조난자에 접근 후 간단한 조작에 의해 구명대가 펼쳐지도록 하여 조난자를 신속하게 구조 및 이동시킬 수 있도록 하는 조난 구조용 구명대에 관한 것이다.  상기한 목적을 달성하기 위하여 본 발명은 외부로부터 공급된 에어에 의해 펼쳐져 부력을 갖는 본체와,상기 본체의 내부로 에어를 공급하는 에어 공급부로 구성된 것을 특징으로 한다.  구명대, 압축에어, 익사자, 구조자, 에어저장기</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf72688911d61cc32a9b7d96540b67ac97fdf3b2155494b74facb7c02cbab81fbf834ada80432bad159b58420e52ceeafcfe4db145364058b773b</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf1a9e2afe005eda98e49660d06a29359c468072e4d6b81655a1219846b48eb9cc41e0dae8dec1eb56493cfd1a26d3933badcacd580725a546</ThumbnailPath>
+				<SerialNumber>21</SerialNumber>
+				<InventionName>조난 구조용 구명대</InventionName>
+				<InternationalpatentclassificationNumber>B63C 9/04|B63C 9/18|B63C 9/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20090708</OpeningDate>
+				<OpeningNumber>1020090075510</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20100127</PublicDate>
+				<RegistrationDate>20100119</RegistrationDate>
+				<RegistrationNumber>1009389250000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20211111</ApplicationDate>
+				<ApplicationNumber>1020210154416</ApplicationNumber>
+				<Abstract>본 발명은 공기 구조물용 센서장치 및 그 제어 방법에 관한 것으로서, 더욱 상세하게는 내부에 공기를 수용하여 사용하는 운동기구나 게임장치 등의 다양한 공기 구조물과 연결하여 센싱한 공기압 및 위치 정보를 각 공기 구조물에 대응되는 정보로 변환하여 적용할 수 있게 함으로써, 다양한 공기 구조물에 다양한 방법으로 사용할 수 있는 공기 구조물용 센서장치 및 그 제어 방법에 관한 것이다.  상기한 목적을 달성하기 위한 본 발명은 케이스와, 상기 케이스의 일측에 설치되어 내부에 공기가 수용되는 공기 구조물의 공기 주입구에 결합되는 결합 젠더와, 상기 케이스의 내측에 구비되어 상기 결합 젠더를 통하여 공급되는 공기의 압력을 감지하는 공기 압력 센서로 이루어지고, 상기 케이스의 내측에는 상기 공기 압력 센서가 설치되는 기판이 구비되고, 상기 기판의 일측에는 관성센서가 더 설치되는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93ef356fd5060e053ef02e0777a313940bf23f6ac4f1180b6bebb177554551227f42fdb9c0fd34b99708aae2a9e59bfc688c9c655411d958b8</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf3d19d80894a1d2536d94117ab80d8fa3fa450d8e3552afdfc31bebc438132d9ba9f5200fe1e7c8f1c612415fe6bc106ad2610e2d39b2d8ca</ThumbnailPath>
+				<SerialNumber>22</SerialNumber>
+				<InventionName>공기 구조물용 센서장치 및 그 제어 방법</InventionName>
+				<InternationalpatentclassificationNumber>G01L 19/08|G01L 19/00|G01L 19/14|G01P 15/02|A63B 21/008|A63F 7/24</InternationalpatentclassificationNumber>
+				<OpeningDate>20230518</OpeningDate>
+				<OpeningNumber>1020230068534</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20240102</PublicDate>
+				<RegistrationDate>20231226</RegistrationDate>
+				<RegistrationNumber>1026194470000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20190201</ApplicationDate>
+				<ApplicationNumber>1020190013800</ApplicationNumber>
+				<Abstract>본 발명은 이중공간지를 이용한 공기구조물에 관한 것으로, 보다 상세하게는 공기구조물을 구성하는 이중공간지를 접합을 통해 다수 개의 구획으로 구분하고, 구획된 부분 중 일부 이중공간지 내부의 섬유사를 제거하여 섬유사가 제거된 부분은 공기 주입에 의해 자유롭게 부풀어 오르도록 함으로써 다양한 형상 및 기능을 갖는 공기구조물을 제조할 수 있도록 하는 이중공간지를 이용한 공기구조물에 관한 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c931ca20df7e2a4574da1d85daa3d589e3379afd9938aba2188b984ed3e921a9a7dc230f61a2c9424a6c3d980bec2e45e25946686debd454c79</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf75980f6acf58ed32703887601ba83940deda2ebfc840eb5bf354c53bf8ea9c031305cd3ecd83e8cda5a8734d64de1a05c8adf8bf25170cd3</ThumbnailPath>
+				<SerialNumber>23</SerialNumber>
+				<InventionName>이중공간지를 이용한 공기구조물</InventionName>
+				<InternationalpatentclassificationNumber>A47C 27/08|A47C 27/12|B29C 65/62|B63B 7/08|E04H 15/20|B63B 1/24|B63C 9/04</InternationalpatentclassificationNumber>
+				<OpeningDate>20200811</OpeningDate>
+				<OpeningNumber>1020200095880</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20210105</PublicDate>
+				<RegistrationDate>20201228</RegistrationDate>
+				<RegistrationNumber>1021978990000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20121207</ApplicationDate>
+				<ApplicationNumber>1020120142303</ApplicationNumber>
+				<Abstract>본 발명은 간이 풀장의 배수구 구조에 관한 것으로서, 더욱 상세하게는 배수구의 설치를 용이하게 하고 내부에 수용된 물을 용이하게 외부로 배출할 수 있을 뿐만 아니라, 물을 외부로 배출할 때, 물놀이에 의해 발생한 이물질이 외부로 배출되는 것을 방지하여 환경오염을 줄일 수 있는 간이 풀장의 배수구 구조에 관한 것이다.  상기한 목적을 달성하기 위한 본 발명은 측부를 커버하는 측벽과 측벽의 하부에 구비되는 바닥부로 이루어지는 간이 풀장에 설치되는 간이 풀장의 배수구 구조에 있어서, 상기 측벽은 바닥부의 경계부에 연통부가 형성되고, 상기 연통부에는 내측시트에 설치된 배수구가 설치되는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e008d8b3ac05c24950d3d1a8a9d2b5da1c162bd2dae7ef030ba3af2154f0f5777f7d4f6f5bb7aac1f1ee54026a6aa19374b35014b96bfcf36b6</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfbf04d1a6e8189eeec43ec141ed528bdd39f6ff0c7618cf5c2df8fb5064b5791264d233d7c89e3240dcd38c84dc87c63c226dc1a5e65aa350</ThumbnailPath>
+				<SerialNumber>24</SerialNumber>
+				<InventionName>간이 풀장의 배수구 구조</InventionName>
+				<InternationalpatentclassificationNumber>E04H 4/12|E04H 4/14|E04H 4/00</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20140327</PublicDate>
+				<RegistrationDate>20140321</RegistrationDate>
+				<RegistrationNumber>1013787660000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20140904</ApplicationDate>
+				<ApplicationNumber>1020140117603</ApplicationNumber>
+				<Abstract>본 발명은 이중공간지로 이루어진 공기 구조물의 접합 구조에 관한 것으로서, 더욱 상세하게는 공기가 수용되는 수용공간의 마주보는 내측면을 섬유사로 연결하는 이중공간지는 섬유사가 형성되지 않은 측변의 접착부로 압력이 집중되는데, 이러한 접착부가 압력에 안정적으로 지지되도록 하는 이중공간지로 이루어진 공기 구조물의 접합 구조에 관한 것이다.  상기한 목적을 달성하기 위한 본 발명은 내부에 공기를 수용할 수 있도록 접합되는 제1외피와 제2외피는 마주보는 면을 섬유사로 연결하는 이중공간지로 이루어지는 이중공간지로 이루어진 공기 구조물의 접합 구조에 있어서, 상기 제1외피의 측부에 연장 형성되는 제1접합부와 제2외피의 측부에 연장형성되는 제2접합부는 서로 재봉으로 결합되는 재봉부가 형성되고, 상기 제1접합부와 제2접합부의 외측 및 재봉부를 커버하는 제1커버부재가 구비되는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e005ba900549cbc8885a55e738b68d535431967c973f0c2c7752c78e825e006bcb1853e0d9eae89560264824bc31ff853dc1591b7aed1ee259a</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf8300c713f00cd24a3bd95cbd8cf0bae4c419aaba3b3d34bf31fa4481d6877257ddd099cd0e382605d8bf5f01e959eae0bbebaa3b280bdd4c</ThumbnailPath>
+				<SerialNumber>25</SerialNumber>
+				<InventionName>이중공간지로 이루어진 공기 구조물의 접합 구조</InventionName>
+				<InternationalpatentclassificationNumber>B29C 65/62|B29C 65/02</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20151127</PublicDate>
+				<RegistrationDate>20151123</RegistrationDate>
+				<RegistrationNumber>1015726690000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20081229</ApplicationDate>
+				<ApplicationNumber>1020080135720</ApplicationNumber>
+				<Abstract>본 발명은 패들링 스포츠용 보트에 관한 것으로서, 외부의 공기가 주입되어 수면에 뜬 상태를 유지하는 본체와, 상기 본체의 내부로 공기를 주입시키는 공기주입구로 구성된 것을 특징으로 한다.  따라서, 본 발명은 보트의 본체에서 상면 및 하면이 과도하게 팽창하는 것을 방지하면서 공기가 주입될 때 보트의 전체적인 형상이 평면을 이루도록 하고, 탑승자의 체중을 안정적으로 지지할 수 있고, 보트의 후방측에서 전방측으로 갈수록 폭이 좁아지고, 전방 끝단 또는 후방 끝단이 곡면 형상을 이루도록 함으로써 보트의 수면 저향력이 낮아져 보트가 작은 힘으로도 물살을 원활하게 해치고 전진할 수 있으며, 카누, 카약, 뗏목과 같은 패들링 스포츠를 위한 보트 제작시 더욱 다양한 형상으로 제작할 수 있으며, 보트의 보관성, 휴대성, 및 이동성이 향상될 수 있다.  패들링 스포츠, 본체, 등받이, 끼움홈, 보강부재</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726c8eb812d96155806c5278bd0939c98f81edb13e17eec21674a23e5c511a959926ab367f287be1817697cfdcb23c00ae0dc441531dbc79df1</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cff809a4c393737c06e4d9a8155924ffa77d69f1c16a4f589fb1dac06fa71681c60b7fe8701dedb92492991028880585f764f1b78c7b4f8e6b</ThumbnailPath>
+				<SerialNumber>26</SerialNumber>
+				<InventionName>패들링 스포츠용 보트</InventionName>
+				<InternationalpatentclassificationNumber>B63B 34/50|B63B 43/12|B63H 16/04|B63B 7/08|B63B 34/565</InternationalpatentclassificationNumber>
+				<OpeningDate>20100708</OpeningDate>
+				<OpeningNumber>1020100077698</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20121121</PublicDate>
+				<RegistrationDate>20121115</RegistrationDate>
+				<RegistrationNumber>1012036040000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20130823</ApplicationDate>
+				<ApplicationNumber>1020130100116</ApplicationNumber>
+				<Abstract>본 발명은 수상 놀이기구에 관한 것으로서, 더욱 상세하게는 물이 튀는 것을 방지하여 탑승자가 수영복을 입지 않고도 물놀이를 즐길 수 있을 뿐만 아니라, 어린이나 노약자도 안전하게 물놀이를 즐길 수 있는 수상 놀이기구에 관한 것이다.  상기한 목적을 달성하기 위한 본 발명은 원통형상의 몸체와, 상기 몸체의 내측 하부에 구비되는 매트리스와, 상기 몸체의 길이방향 양단부에 형성되는 출입구와, 상기 몸체의 일측에 동력보트와 연결되는 와이어가 연결되는 연결고리로 이루어지는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00f309de9bf2813a3be27cc4ae049f701aa6a5a0fbf5c653e252fa8dc01ef52ad2685fe7e35c73d0f1d382019b28eef2ded05ef62848fc0b8c</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf336597f50a6d63ee3df98b5ea3dfec9220ed36f881555f2a9296b8f39f845f2d781bbb6feebc6fd996ebbb4795ed753ac0c42d199c49c72d</ThumbnailPath>
+				<SerialNumber>27</SerialNumber>
+				<InventionName>수상 놀이기구</InventionName>
+				<InternationalpatentclassificationNumber>B63B 34/52|B63B 34/54|B63B 34/565|B63B 73/46</InternationalpatentclassificationNumber>
+				<OpeningDate>20150304</OpeningDate>
+				<OpeningNumber>1020150022376</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20161207</PublicDate>
+				<RegistrationDate>20161201</RegistrationDate>
+				<RegistrationNumber>1016844140000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20150105</ApplicationDate>
+				<ApplicationNumber>1020150000396</ApplicationNumber>
+				<Abstract>본 발명은 조립식 수상용 보드에 관한 것이다.  본 발명은 보드 본체가 적어도 두 개의 분할체로 이루어지면서 상기 분할체를 결합시키기 위하여 어느 한편의 분할체는 마주하는 분할체가 접촉되는 접촉면으로부터 돌출되는 돌출부를 구비하고, 다른 한편의 분할체는 상기 돌출부에 대응하는 형상으로 되는 삽입부가 형성되어 마주하는 두 개의 분할체가 결합되고, 결합되는 분할체는 하우징의 중심에 대해서 회전하는 회전체가 한쪽 방향으로 회전할 때에는 감기고, 반대 방향으로 회전할 때에는 풀리게 되는 와이어가 양쪽의 분할체를 고정시키게 되는 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00baf7d762799c663ed9e6432f791d3176f66dd6d7cfca224979348dcdf718b4942eeeff3c8f19fc1c1e1eb3dcd9d03667ca7a0c9122c87f59</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf85a2b058cc1efc27fc68f36c100570087e431d0f4b3997a9ee318291c4becec0211a17d6e893412f22e4e87096c5656176ad3f3bd9dd2ca3</ThumbnailPath>
+				<SerialNumber>28</SerialNumber>
+				<InventionName>조립식 수상용 보드</InventionName>
+				<InternationalpatentclassificationNumber>B63B 32/53|B63C 9/08</InternationalpatentclassificationNumber>
+				<OpeningDate>20160714</OpeningDate>
+				<OpeningNumber>1020160084514</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20161213</PublicDate>
+				<RegistrationDate>20161128</RegistrationDate>
+				<RegistrationNumber>1016821300000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20140401</ApplicationDate>
+				<ApplicationNumber>1020140038598</ApplicationNumber>
+				<Abstract>대면적 발포수지성형품 제작을 위한 발포수지성형품 접합장치 및 방법이 개시된다. 본 발명의 일 측면에 발포수지성형품 접합장치는, 접합대상 발포수지성형품의 접합면이 중앙의 절개부를 사이에 두고 서로 대면하도록 놓여지는 테이블, 테이블의 절개부를 승강 이동하며 대면 배치된 상기 접합면에 열을 가하는 히터유닛 및 접합면에 열을 가하는 히터유닛의 온도를 제어하는 온도 컨트롤러를 포함하여 구성됨을 요지로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00e23ee87c7015068a89d317fd76c80d8098bea44b54f36e430d2784e96d07549a9f24f86d473b78ca797a1a2cc8b07ba373fccb73621aea64</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf4cd54d419ce57b80e1c1138587b7735638320b427e4949851e052e8b2aaedd92222734074fe533b8b1a744d08c248a8edf67074ea9aa8ade</ThumbnailPath>
+				<SerialNumber>29</SerialNumber>
+				<InventionName>발포수지성형품 접합장치 및 그 방법</InventionName>
+				<InternationalpatentclassificationNumber>B29C 65/04</InternationalpatentclassificationNumber>
+				<OpeningDate>20151012</OpeningDate>
+				<OpeningNumber>1020150114245</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20151105</PublicDate>
+				<RegistrationDate>20151029</RegistrationDate>
+				<RegistrationNumber>1015658040000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20081231</ApplicationDate>
+				<ApplicationNumber>1020080138163</ApplicationNumber>
+				<Abstract>본 발명은 물놀이용 튜브에 관한 것으로서, 물의 부력으로 수면에 뜬 상태를 유지하기 위하여 내부로 공기가 주입되는 튜브 프레임과, 상기 튜브 프레임의 측면에서 소정 길이 연장되어 2개 이상이 형성된 다리 프레임과, 상기 튜브프레임 및 다리프레임의 내부로 공기를 주입시키는 공기주입구로 구성된 것을 특징으로 한다.  따라서, 본 발명은 기존의 도넛 형태의 고무튜브를 원형, 삼각형, 사각형, 오각형 또는 육각형 등의 튜브프레임에 다리프레임을 형성하여 ―형태, Y형태, +형태,  형태 및 *형태 등 여러 형태로 형성된 튜브에 여러 명이 올라가서 동시에 물놀이를 즐길 수 있을 뿐만 아니라, 상기 다리 프레임에 편안하게 누워서 물놀이를 즐길 수 있으며, 또 각각의 다리 프레임에 여러 명의 사람이 매달려서 물놀이를 즐기거나, 서로 마주보는 다리 프레임에 올라가서 균형을 맞추거나 서로 넘어뜨리는 게임 등을 할 수 있다.  물놀이용 튜브, 튜브 프레임, 다리 프레임, 공기 주입구</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726877377b7a09beaa08aa2a8a2c260676c37fb53b5dcec70fbb56f1ce3260fa217a74915066bfccd37b32bda94c86cc59d6a8c269be5ec9d0c</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfb1633b440a4b3c0b8cc2ca8ac07105b11de5477d8b83d3c8506601448043705d05f261c8a876b14876ffa4569c86b284f71ad29807918079</ThumbnailPath>
+				<SerialNumber>30</SerialNumber>
+				<InventionName>물놀이용 튜브</InventionName>
+				<InternationalpatentclassificationNumber>B63C 9/08</InternationalpatentclassificationNumber>
+				<OpeningDate>20100708</OpeningDate>
+				<OpeningNumber>1020100079628</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20111108</PublicDate>
+				<RegistrationDate>20111101</RegistrationDate>
+				<RegistrationNumber>1010806870000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20170417</ApplicationDate>
+				<ApplicationNumber>1020170049338</ApplicationNumber>
+				<Abstract>본 발명은 환자 격리 장치에 관한 것으로서, 더욱 상세하게는 내부에 격리된 환자가 장기간 격리되더라도 불편함을 최소화하며, 주사 등의 처치를 용이하게 할 수 있을 뿐만 아니라 격리상태를 안정적으로 유지할 수 있으며, 이동시에도 별도의 들것을 사용하지 않고도 용이하게 이동을 가능하게 하는 환자 격리 장치에 관한 것이다.  상기한 목적을 달성하기 위한 본 발명은 환자를 외부와 격리시키기 위한 환자 격리 장치에 있어서, 환자를 외부와 격리시키기 위한 메인 커버와, 상기 메인 커버의 내측에 구비되는 매트리스를 포함하여 이루어지고, 상기 매트리스는 환자가 위치하는 본체와, 상기 본체의 길이방향 양 단부에 절첩 가능하게 구비되는 제1,2측벽으로 이루어지는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e003525aa2007dec50e37e6d529e50bd223512533444c42bf729952c276cc71d8f1cf90ddd253166243ee293d2ec445e93d522951c81446a87c</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf516b6b61c21dee45be6d24767e319ccf321e81e71a26e35cf2c7ba6b0164ff38b5d8a0add40e5489671f39b329bf5b9fa68660025f42689d</ThumbnailPath>
+				<SerialNumber>31</SerialNumber>
+				<InventionName>환자 격리 장치</InventionName>
+				<InternationalpatentclassificationNumber>A61G 10/00|A61G 7/05|A61G 1/04</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20181001</PublicDate>
+				<RegistrationDate>20180919</RegistrationDate>
+				<RegistrationNumber>1019024880000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20100513</ApplicationDate>
+				<ApplicationNumber>1020100045150</ApplicationNumber>
+				<Abstract>본 발명은 에어 소파에 관한 것으로서, 더욱 상세하게는 좌대를 이중공간지로 형성하여 가볍고, 이동성 및 보관성이 좋을뿐만 아니라, 쿠션의 조절이 가능한 에어 소파에 관한 것이다.  상기한 목적을 달성하기 위한 본 발명은 좌대와 등받이로 구성되는 에어 소파에 있어서, 상기 좌대와 등받이는 이중공간지로 이루어지고, 상기 등받이에는 등받이 고정대가 설치되고, 상기 좌대에는 고정대 체결부가 설치되는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf7260412ec21cbddc73ce7553214e7feedf5f9b8df862b478d888272602e5839e8279cbd34ca2448faa568b223da71784da7357264348de9b7f9</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf9c8b407fa29026025eeb33b6dca11eae9e034b665c21b913b56b5e87e3bc44bc0301558f2288a811a617609806ac5f847c03b4509d1fc624</ThumbnailPath>
+				<SerialNumber>32</SerialNumber>
+				<InventionName>에어 소파</InventionName>
+				<InternationalpatentclassificationNumber>A47C 17/02|A47C 27/08|A47C 4/54|A47C 27/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20111121</OpeningDate>
+				<OpeningNumber>1020110125558</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20120830</PublicDate>
+				<RegistrationDate>20120821</RegistrationDate>
+				<RegistrationNumber>1011773130000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20211104</ApplicationDate>
+				<ApplicationNumber>1020210150447</ApplicationNumber>
+				<Abstract>본 발명은 공기구조물 연결 구조에 관한 것으로, 더욱 상세하게는 단순한 구성으로 공기구조물로 이루어지는 기초구조물에 연장구조물의 상부시트와 하부시트를 접합하여 연결 설치함으로써 연결되는 두 공기구조물 간에 평탄화를 쉽게 도모할 수 있도록 한 공기구조물 연결 구조에 관한 것이다.  본 발명은 이중공간지로 이루어지는 기초구조물의 측부에 연장 설치되는 연장구조물이 구비되되, 상기 연장구조물의 개방된 상부시트와 하부시트가 상기 기초구조물의 상부면 및 하부면에 각각 접합되어 이루어지는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93ea5faaf49118c1e49418eae930a93dd707e735de447d5996279d708392516061a1a9ad1516f67f867caa6353ff5136491fb10ede16b73326</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cff6f66e2093e1c35862744abd9c00ba8ac375424c2fa1306c9216f1cc9076f630593fa053c3f1ca72e701813993ae841ca28554c80031164c</ThumbnailPath>
+				<SerialNumber>33</SerialNumber>
+				<InventionName>공기구조물 연결 구조</InventionName>
+				<InternationalpatentclassificationNumber>B63B 32/53|B63B 32/51|B63B 32/40</InternationalpatentclassificationNumber>
+				<OpeningDate>20230511</OpeningDate>
+				<OpeningNumber>1020230064878</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20230601</PublicDate>
+				<RegistrationDate>20230525</RegistrationDate>
+				<RegistrationNumber>1025384860000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20130610</ApplicationDate>
+				<ApplicationNumber>1020130065934</ApplicationNumber>
+				<Abstract>본 발명은 비닐하우스에 관한 것으로, 더욱 상세하게는 하우스부재를 이중공간지로 형성함으로써 하우스부재에 공기를 주입하여 비닐하우스의 설치 및 철거를 용이하게 할 수 있고, 경량이면서도 내구성이 좋은 비닐하우스에 관한 것이다.  본 발명은 비닐하우스에 있어서, 상기 비닐하우스는 이중공간지로 형성되는 터널형상의 하우스부재;로 이루어지는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0068392bdba8f7c361e3a3b05731f339549c8e821b1c1f04f4ed8e5d33700b4ea02189364e71698b2b813a3c80349e97305bb0e89b102a6bb9</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf9eece3fc915fb0eb6c417ec7872f9935591dd8aad535d647a9e1936da028cfd0458d20ac849f6de4b4a94796841ac951132c85b1e69f94c1</ThumbnailPath>
+				<SerialNumber>34</SerialNumber>
+				<InventionName>비닐하우스</InventionName>
+				<InternationalpatentclassificationNumber>A01G 9/16</InternationalpatentclassificationNumber>
+				<OpeningDate>20141218</OpeningDate>
+				<OpeningNumber>1020140144027</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20150521</PublicDate>
+				<RegistrationDate>20150512</RegistrationDate>
+				<RegistrationNumber>1015212770000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20110429</ApplicationDate>
+				<ApplicationNumber>1020110040936</ApplicationNumber>
+				<Abstract>본 발명은 운동수단이 구비된 에어매트리스에 관한 것으로, 보다 상세하게는 에어매트리스에 운동을 할 수 있도록 운동수단을 구비함으로써, 에어매트리스에서 휴식을 취함과 동시에 간편하게 운동을 할 수 있게 되어 사용자의 건강을 증진시킬 수 있도록 한 운동수단이 구비된 에어매트리스에 관한 것이다.  상기한 목적을 달성하기 위한 본 발명은 에어매트리스에 있어서, 상기 에어매트리스의 상부에는 손잡이부가 포함되어 이루어진 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf7261a94b9a6641bfe9de9e08a1a02047d0db0924a10421b3b2e386530146722c388fafa3a819c9a1921a36f56290ae63926388f28eb64285af4</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf392ecb2a3263acadd508c202a8cc9774768bc95e7d5f4daf85b331bd4c2b2837a7efed53031f0a89267171e37d05578cad5a3453536c5190</ThumbnailPath>
+				<SerialNumber>35</SerialNumber>
+				<InventionName>운동수단이 구비된 에어매트리스</InventionName>
+				<InternationalpatentclassificationNumber>A47C 27/08|A63B 23/035|A63B 21/16</InternationalpatentclassificationNumber>
+				<OpeningDate>20121107</OpeningDate>
+				<OpeningNumber>1020120122652</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20130311</PublicDate>
+				<RegistrationDate>20130226</RegistrationDate>
+				<RegistrationNumber>1012404740000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20140401</ApplicationDate>
+				<ApplicationNumber>1020140038491</ApplicationNumber>
+				<Abstract>서핑 보드의 강성 보강 유닛 및 이를 포함하는 분리형 서핑 보드가 개시된다. 본 발명의 일 측면에 따른 서핑 보드가 강성 보강 유닛은, 제1 베이스부재, 제1 베이스부재와 대칭인 제2 베이스부재, 제1 베이스부재와 제2 베이스부재의 서로 마주보는 면에 대향 실장된 다수 쌍의 커넥터부재 및 커넥터부재가 실장된 면의 반대편 면의 제1, 제2 베이스부재에 대향 설치되는 다수의 보강부재를 포함하여 구성됨을 요지로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00029dfc69324466d947155bcefafa4addffc3e334c0314018c1cf9b30db35c977c15303b7c8353a9614552df0aea00d8c864a22d8338e7c1a</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf3756dcd2d369c10f1cd6cee26b7e51ed639cc4635ff0bab79efada77f946b3dc42c78bcb4cb53135f0aed2098ed920aeb33273b17f265ca1</ThumbnailPath>
+				<SerialNumber>36</SerialNumber>
+				<InventionName>서핑 보드의 강성 보강 유닛 및 이를 포함하는 분리형 서핑 보드</InventionName>
+				<InternationalpatentclassificationNumber>B63B 32/40|B63B 32/53|B63B 32/20|B63B 73/40</InternationalpatentclassificationNumber>
+				<OpeningDate>20151012</OpeningDate>
+				<OpeningNumber>1020150114203</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>포기</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20210323</ApplicationDate>
+				<ApplicationNumber>1020210037521</ApplicationNumber>
+				<Abstract>본 발명은 물놀이구 겸용 부표에 관한 것으로서, 더욱 상세하게는 사용하지 않을 때에는 부피를 줄여 보관 및 운반을 용이하게 할 뿐만 아니라, 부표 역할과 더불어 물놀이 기능 및 물놀이 도중 위급 상황시 사람이 긴급대피할 수 있으며 물에 빠진 사람을 구조시에는 구명대 역할을 수행할 수 있는 물놀이구 겸용 부표에 관한 것이다.  상기한 목적을 달성하기 위한 본 발명은</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c933f7dc9a94b12544b07b55b079a3e5e95f80417c14e5d3791865a08b31da7a5a366d9328d5292764c40a9209716065525e3b3c5608121454f</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfcc605efbe1167a1b543ace5831e5aac91a4aa5d1b135228fe6ca8e0e252a1fc141863726bb4274ac8bae6521d6bbf124bbcc023a766c187e</ThumbnailPath>
+				<SerialNumber>37</SerialNumber>
+				<InventionName>물놀이구 겸용 부표</InventionName>
+				<InternationalpatentclassificationNumber>B63B 22/00|B63C 9/08</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20220610</PublicDate>
+				<RegistrationDate>20220603</RegistrationDate>
+				<RegistrationNumber>1024069090000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20090112</ApplicationDate>
+				<ApplicationNumber>1020090002411</ApplicationNumber>
+				<Abstract>본 발명은 수상 레저용 보트에 관한 것으로서, 외부의 공기가 주입되고 물의 부력에 의해 수면에 뜬 상태를 유지함으로써 탑승자가 탑승하는 본체와, 상기 본체의 내부로 공기를 주입시키는 공기주입구로 구성된 것을 특징으로 한다.  따라서, 본 발명은 보트의 본체에 공기 주입시 본체의 상면 및 하면이 과도하게 팽창하는 것을 방지하면서 공기가 주입될 때 보트의 전체적인 형상이 평면을 이루도록 하고, 탑승자가 탑승하는 탑승부가 넓게 형성되어 있어서 앉거나 누워서 보트를 탈 수 있어 더욱 편안하게 놀이를 즐길 수 있고, 보트의 전방 부분이 곡면 형상을 이루도록 함으로써 보트의 수면 저향력이 낮아져 보트가 작은 힘으로도 물살을 원활하게 해치고 전진할 수 있다.  수상 레저, 보트, 본체, 공기주입구, 등받이, 손잡이, 섬유사</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726498994a0f649a45a5896d2019d9d9a0aa6b77c24a3c78e322553aa5d3ec54908efdf634daf4cd1ddce904dd520ebd79b56b179fca05956af</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfc7a9e33173cebb42e18194aec35811612bfd6c7c0388b95196391712772d2bee796ba7a4463efbbf825f8b787cba99636c9942d0665f9763</ThumbnailPath>
+				<SerialNumber>38</SerialNumber>
+				<InventionName>수상 레저용 보트</InventionName>
+				<InternationalpatentclassificationNumber>B63B 7/08|B63B 34/54</InternationalpatentclassificationNumber>
+				<OpeningDate>20100708</OpeningDate>
+				<OpeningNumber>1020100080265</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20150316</ApplicationDate>
+				<ApplicationNumber>1020150036160</ApplicationNumber>
+				<Abstract>본 발명은 패들보드에 관한 것으로, 보다 상세하게는 단순한 구성으로 이중공간지로 형성되는 몸체의 중앙부에 길이 방향으로 관통공을 형성하고, 관통공에 보조부력체를 삽입하여 몸체가 손상되더라도 부력을 유지할 수 있도록 하여 안전하게 물놀이를 즐길 수 있도록 하는 패들보드에 관한 것이다.  본 발명은 이중공간지로 형성되되, 중앙부에 길이 방향으로 관통공이 형성된 몸체와, 상기 몸체의 관통공에 삽입 설치되는 보조부력체로 이루어지는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0092c2ff201b2078b63321a42b19e01c6e3195fadfbf315883707419326639b96af486810482da77937176f78b1536a2262bcd3a3812806298</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf15316e551546c56dce37708432ed69b81c6f4fb8c467c5e270ab8d764ae2b7322ec7347c21de984addb8ea9cfc165f8b213c74a319bcf71c</ThumbnailPath>
+				<SerialNumber>39</SerialNumber>
+				<InventionName>패들보드</InventionName>
+				<InternationalpatentclassificationNumber>B63B 32/40|B63B 32/53</InternationalpatentclassificationNumber>
+				<OpeningDate>20160926</OpeningDate>
+				<OpeningNumber>1020160111252</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20171121</ApplicationDate>
+				<ApplicationNumber>1020170155388</ApplicationNumber>
+				<Abstract>본 발명은 공기구조물 융착장치에 관한 것으로, 보다 상세하게는 공기가 수용되는 수용공간이 내측에 형성되도록 구성되는 한 쌍의 시트 테두리, 특히 이중공간지의 가장자리에 형성되는 테두리부재를 열융착시켜 커버하되, 이중공간지의 가장자리 둘레 상, 하부에 열풍을 동시에 분사한 후 가압로울러로 가압하여 이중공간지의 가장자리에 형성되는 2겹의 테두리부재가 열융착되도록 함으로써, 한 번의 공정으로 이중공간지의 가장자리 둘레에 형성되는 테두리부재를 동시에 열융착되도록 하여 작업공정을 간소화시킬 수 있도록 한 공기구조물 융착장치에 관한 것이다.  상기한 목적을 달성하기 위한 본 발명은 본체부와, 상기 본체부에 설치되는 연결부와, 상기 본체부에 설치되어 테두리부재를 공급하는 테두리부재공급부와, 상기 연결부에 설치되어 이중공간지의 상,하단 가장자리부로 열풍을 분사하는 열풍분사수단과, 상기 본체부에 설치되어 가열된 이중공간지와 테두리부재를 가압하여 융착시키는 가압부를 포함하여 구성된 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e005f67036a403804a8278d8e45f4bd601d1d070129d37008664ad1537422b883f8d0d1156e277266d1c5178d44b3af272a62426817f8f6f325</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfbab140eb03298e94b29f67e69ee49d1b7b7e21ba6f4da2f61e79c0b7b7a8751cb0f68d2e642a16bb7158f7db48d3ff5c3e0b13014d0d6e82</ThumbnailPath>
+				<SerialNumber>40</SerialNumber>
+				<InventionName>공기구조물 융착장치</InventionName>
+				<InternationalpatentclassificationNumber>B29C 65/10</InternationalpatentclassificationNumber>
+				<OpeningDate>20190529</OpeningDate>
+				<OpeningNumber>1020190057913</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20170330</ApplicationDate>
+				<ApplicationNumber>1020170040714</ApplicationNumber>
+				<Abstract>본 발명은 다용도 텐트에 관한 것으로, 더욱 상세하게는 이중공간지로 형성되는 터널 형상의 텐트부재의 양단에 지지부재를 결합하여 설치함으로써 텐트가 용이하게 조립, 분리되도록 형성함으로써 텐트의 제작, 보관 및 이동을 용이하게 할 수 있도록 하는 다용도 텐트에 관한 것이다.  본 발명은 판넬 형태의 이중 공간지로 형성되는 텐트부재와, 이중 공간지로 형성되어 상기 텐트부재의 양단에 결합되는 지지부재로 이루어지는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00ee91539d4c0e6783c366ed26b664e8edf0b44d974e3080e4bcc14f82e202954e235c649eba98b2814b48e1bc78eff1e648d553d8911c02b9</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf5d14e5363491f56405c87065cf1608c72e59b400c64d1305a4ffff279a8d3b461b45455e2a2c4f47a2d8be45f1f68dd61fb913fc7e061a2f</ThumbnailPath>
+				<SerialNumber>41</SerialNumber>
+				<InventionName>다용도 텐트</InventionName>
+				<InternationalpatentclassificationNumber>E04H 15/20</InternationalpatentclassificationNumber>
+				<OpeningDate>20181011</OpeningDate>
+				<OpeningNumber>1020180110859</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>취하</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>이경철|주식회사 베프|(주)에어박스</Applicant>
+				<ApplicationDate>20150120</ApplicationDate>
+				<ApplicationNumber>1020150009015</ApplicationNumber>
+				<Abstract>본 발명은 친환경 발포형 부표 및 제조방법에 관한 것으로서, 더욱 상세하게는 내부에 발포폴리스틸렌(EPS) 재질의 부력부가 형성되고, 상기 부력부의 삽입홀에 폐 PT병이 삽입된 상태에서 부력부의 외주연에 발포폴리프로필렌(EPP) 재질의 본체부가 감싸도록 성형됨으로써, 종래의 부표에 사용되는 발포폴리프로필렌(EPP) 입자의 양보다 적게 사용하여도 본체부가 단단하게 형성되어 내구성이 향상되고, 원료가 적게 들어 단가가 절감되며, 종래의 부표보다 물의 접촉 표면적이 작아 해수에 장시간 노출시에도 부식되지 않는 내부식성이 증가되는 특징이 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00c71e2c69451defe97c74347ee9067f447d7e1cf7a7212f1bbd4b593d0d88e6eeadc964cedbbc94fbc1117d4f1853681035f3f4b261574989</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cffa5a743681996ba21c57ba021a6f752d6925a4a22ccbae253ba08a2dd79caf0b60310686640f55e46492e4aa0d9dd823f8673790fff09f95</ThumbnailPath>
+				<SerialNumber>42</SerialNumber>
+				<InventionName>친환경 발포형 부표</InventionName>
+				<InternationalpatentclassificationNumber>B63B 22/00|A01K 61/60|A01K 75/04|B29C 44/12|B29K 25/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20160729</OpeningDate>
+				<OpeningNumber>1020160089904</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>포기</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>이경철|주식회사 베프|(주)에어박스</Applicant>
+				<ApplicationDate>20150120</ApplicationDate>
+				<ApplicationNumber>1020150009112</ApplicationNumber>
+				<Abstract>본 발명은 자성체가 포함된 발포금형에 관한 것으로서, 더욱 상세하게는 자성체가 상부 금형 또는 하부 금형 중 어느 하나의 금형 속에 형성되는데, 상기 자성체는 다수개로 형성되어 금형의 일면 전체에 상호 일정간격으로 배열됨으로써, 일측면에 다양한 패턴 무늬가 형성된 패턴 금형 파트가 발포수지제품의 패턴 형태와 위치에 따라 원하는 곳에 탈부착이 간편하고, 그로 인해 종래에 발포수지제품의 패턴에 따라 금형을 제작해야하는 비용 및 발포수지제품의 제작시간이 크게 절감되는 특징이 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00c71e2c69451defe97c74347ee9067f447d7e1cf7a7212f1bef5871e1ebd74bbf8b77d412f86a8c362d79d272e44d0371ebc6840ee8b73ce3</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cffa5a743681996ba21c57ba021a6f752d6925a4a22ccbae257b95fa85449c1d5d5f3a8d25cdaa3561d61f5845cf20d40808161d9beea6f077</ThumbnailPath>
+				<SerialNumber>43</SerialNumber>
+				<InventionName>자성체가 포함된 발포금형</InventionName>
+				<InternationalpatentclassificationNumber>B29C 44/58|B29C 33/32|B29C 33/30</InternationalpatentclassificationNumber>
+				<OpeningDate>20160729</OpeningDate>
+				<OpeningNumber>1020160089912</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>포기</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20141119</ApplicationDate>
+				<ApplicationNumber>1020140161744</ApplicationNumber>
+				<Abstract>본 발명은 트램펄린에 관한 것으로, 보다 상세하게는 단순한 구성으로 설치 및 해체가 용이할 뿐만 아니라, 이중공간지로 이루어지는 에어매트를 사용하여 사용하지 않을 때에는 공기를 배출하여 부피를 줄일 수 있어 용이하게 보관할 수 있는 트램펄린에 관한 것이다.  본 발명은 판 형상을 형성되는 상, 하부매트부재와, 상기 상, 하부매트부재의 사이에 연결 설치되는 탄성부재로 이루어지는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00559adcec1f88ea6a8704c6e18ccd3b49752820838dadeeacc74cbc42d943e2ae9a33356c776e7133168cde18ad838d9437c293040f7104e3</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfbde648c90e7bfd02fa554d51e9f4e9d5827e862b0ce07826fbba7d33643507caf3429ddbcb4beac734e23a2be2436fe1c7c3b6492aa7db19</ThumbnailPath>
+				<SerialNumber>44</SerialNumber>
+				<InventionName>트램펄린</InventionName>
+				<InternationalpatentclassificationNumber>A63B 5/11</InternationalpatentclassificationNumber>
+				<OpeningDate>20160527</OpeningDate>
+				<OpeningNumber>1020160059787</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>포기</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20140401</ApplicationDate>
+				<ApplicationNumber>1020140038597</ApplicationNumber>
+				<Abstract>조립식 부교용 부체 유닛 및 그 조립방법이 개시된다. 본 발명의 일 측면에 따른 조립식 부교용 부체 유닛은, 상면이 평평한 다면체 구조의 부체 및 이웃하는 두 개의 부체를 서로 연결하는 연결부재를 포함하며, 부체는, 상면 각 가장자리 중앙부에 형성되는 요홈부와, 상면과 직교하는 부체의 측면과 요홈부를 직선상으로 잇는 절개부를 갖고, 연결부재는 요홈부에 정착되는 부분과 절개부를 경유하는 부분으로 이루어져 이웃하는 두 개의 부체를 서로 연결하도록 된 것을 구성의 요지로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00029dfc69324466d947155bcefafa4addffc3e334c03140184df2751a33a3de0815085f1fa0d527cd8533e5a1b56a873c3d82151e31ddbd6c</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf3756dcd2d369c10f1cd6cee26b7e51ed639cc4635ff0bab7e8bf2c37f55c1b54cc7c1065aa2e6de83c6bef29d516db08cb04bc4a459f6266</ThumbnailPath>
+				<SerialNumber>45</SerialNumber>
+				<InventionName>조립식 부교용 부체 유닛 및 그 조립식 부교용 부체 유닛의 조립방법</InventionName>
+				<InternationalpatentclassificationNumber>E01D 15/14</InternationalpatentclassificationNumber>
+				<OpeningDate>20151012</OpeningDate>
+				<OpeningNumber>1020150114244</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20100601</ApplicationDate>
+				<ApplicationNumber>1020100051843</ApplicationNumber>
+				<Abstract>본 발명은 에어 매트리스가 구비된 침낭에 관한 것으로서, 더욱 상세하게는 비교적 요철이 심한 곳에서도 안정적으로 사용할 수 있을 뿐만 아니라, 온도가 낮은 곳에서도 체온을 일정하게 유지할 수 있는 에어 매트리스가 구비된 침낭에 관한 것이다.  상기한 목적을 달성하기 위한 본 발명은 에어매트리스가 구비되는 에어 매트리스가 구비된 침낭에 있어서, 상기 에어매트리스는 이중공간지로 이루어지고, 상기 에어매트리스에는 면상발열체가 구비되는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf72636b89d4fb40752adeaaf5cab26ec9d8aeb882fcc14057bdea10ced9695306f51a2b4deee4b2dc0434281befe5036e7349eefd1fb880ee770</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf934ac22dea27e69df72a08574ffebb22766d0480a513751c93981437b31a318ba9f490e5566c959b5076edf1956af968a00dce63b896a89b</ThumbnailPath>
+				<SerialNumber>46</SerialNumber>
+				<InventionName>에어 매트리스가 구비된 침낭</InventionName>
+				<InternationalpatentclassificationNumber>A47G 9/08|A47G 9/02|A47G 9/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20111207</OpeningDate>
+				<OpeningNumber>1020110132047</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>포기</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스|김병주</Applicant>
+				<ApplicationDate>20080723</ApplicationDate>
+				<ApplicationNumber>1020080071490</ApplicationNumber>
+				<Abstract>본 발명은 조명등이 구비된 트레일러에 관한 것으로, 보다 상세하게는 트레일러에 조명장치를 더 구비하여 야간 공사현장이나 각종 재난 및 사고현장 등에서 작업을 수행할 때 빛을 조사하여 용이한 작업이 이루어질 수 있도록 조명을 제공하는 조명등이 구비된 트레일러에 관한 것이다.  상기한 목적을 달성하기 위하여 본 발명은 적재함이 구비된 트레일러에 있어서, 상기 트레일러에 일체로 형성되어 빛을 조사하는 조명장치가 구비된 것을 특징으로 한다.  트레일러, 조명장치, 작업등, 견인차</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c8b05d8ff1d8292517792c3b9fe0085469925c677392b7f2874f2f5af111445f0</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe47b96eebc40c8207507c6581074983f733c0f548a1e3324823f1d5541434f0e94</ThumbnailPath>
+				<SerialNumber>47</SerialNumber>
+				<InventionName>조명장치가 구비된 트레일러</InventionName>
+				<InternationalpatentclassificationNumber>B60Q 1/26|B60P 3/14</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20090115</PublicDate>
+				<RegistrationDate>20090109</RegistrationDate>
+				<RegistrationNumber>1008790750000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20080104</ApplicationDate>
+				<ApplicationNumber>1020080001400</ApplicationNumber>
+				<Abstract>본 발명은 조명등이 구비된 트레일러에 관한 것으로, 보다 상세하게는 트레일러에 조명장치를 더 구비하여 야간 공사현장이나 각종재난 및 사고현장 등에서 야간에 작업을 수행할 때 빛을 조사하여 용이한 작업이 이루어질 수 있도록 조명을 제공하는 조명등이 구비된 트레일러에 관한 것이다.  상기한 목적을 달성하기 위하여 본 발명은 적재물이 적재되는 적재함과, 적재함의 하부 양측에 구비되는 바퀴와, 적재함의 전면에 견인차량에 연결되는 견인연결부로 이루어진 트레일러에 있어서, 상기 트레일러에 일체로 형성되어 빛을 조사하는 조명장치가 구비된 것을 특징으로 한다.  트레일러, 조명장치, 작업등, 견인차</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c8b05d8ff1d82925103d1e86fa6cdca1e83d8d5fc010bab577231bfc08b2688b0</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe47b96eebc40c8207539b76ccafc9a806ec1aaaa1e363e49e01291d36b44d138b3</ThumbnailPath>
+				<SerialNumber>48</SerialNumber>
+				<InventionName>조명장치가 구비된 트레일러</InventionName>
+				<InternationalpatentclassificationNumber>B62D 53/04|B60P 3/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20090708</OpeningDate>
+				<OpeningNumber>1020090075519</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)에어박스</Applicant>
+				<ApplicationDate>20070817</ApplicationDate>
+				<ApplicationNumber>1020070082975</ApplicationNumber>
+				<Abstract>본 발명은 신발의 발바닥이 접하는 부분에 공기가 충전된 바닥부를 구성함으로써, 사용자의 발바닥으로 전달되는 충격을 완화하고 사용자의 하중을 분산하여서 발바닥 건강은 물론, 신체의 관절부분과 척추의 부담을 줄여주어 건강을 증진시킬 수 있는 신발에 관한 것이다.  본 발명에 의한 신발은 상면과 하면이 결속실로 연결된 에어백으로 구성된 바닥부와, 상기 바닥부와 결합되는 결속밴드로 구성되는 것을 특징으로 한다.  신발, 슬리퍼, 바닥부, 에어백, 완충</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9cf44e6e9608087f40b34c2efa041e58714ca6bf0c39d318e63c527e3c1d685a22</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe484b73ac8e410bb22ae9dd56be6e28ed7a592a87e4a8f61c15edfde758962c488</ThumbnailPath>
+				<SerialNumber>49</SerialNumber>
+				<InventionName>신발</InventionName>
+				<InternationalpatentclassificationNumber>A43B 13/20|A43B 13/32|A43B 7/32</InternationalpatentclassificationNumber>
+				<OpeningDate>20090220</OpeningDate>
+				<OpeningNumber>1020090018493</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<TotalSearchCount>49</TotalSearchCount>
+			<SearchStartNumber>1</SearchStartNumber>
+		</items>
+	</body>
+</response>
