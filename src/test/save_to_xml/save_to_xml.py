@@ -10,17 +10,15 @@ import time
 mysql = Mysql()
 
 
-
 async def main(table_name):
     patent, design, trademark = None, None, None
     
     async def get_info():
         nonlocal patent, design, trademark  # 바깥 스코프 변수에 접근
-
+        isuniv = table_name == 'TB24_210' # table name에 따라 True, False 리턴
         _applicant_numbers = mysql.get_all_app_no_and_applicant_id(table_name)
-
         # p3: 120080091393,  p23: 120070509242
-        _applicant_numbers = [[120070509242, 10],[120080091393, 20]]
+        # _applicant_numbers = [[120070509242, 10],[120080091393, 20]]
 
         kipris_xml_dataGenerator = KiprisXmlDataGenerator()
         
@@ -33,7 +31,8 @@ async def main(table_name):
         async def patent_action_save():
             kipris_xml_dataGenerator.append_data_lists(patent)
             kipris_xml_dataGenerator.apply()
-            kipris_xml_dataGenerator.save("patent")
+            file = "univ_patent" if isuniv else "patent"
+            kipris_xml_dataGenerator.save(file)
         await util.get_run_time(patent_action_save, "patent_action_save")
         
         
@@ -47,7 +46,8 @@ async def main(table_name):
             
             kipris_xml_dataGenerator.append_data_lists(design)
             kipris_xml_dataGenerator.apply()
-            kipris_xml_dataGenerator.save("design")
+            file = "univ_design" if isuniv else "design"
+            kipris_xml_dataGenerator.save(file)
         await util.get_run_time(design_action_save, "design_action_save")
         
 
@@ -62,7 +62,8 @@ async def main(table_name):
 
             kipris_xml_dataGenerator.append_data_lists(trademark)
             kipris_xml_dataGenerator.apply()
-            kipris_xml_dataGenerator.save("trademark")
+            file = "univ_trademark" if isuniv else "trademark"
+            kipris_xml_dataGenerator.save(file)
         await util.get_run_time(trademark_action_save, "trademark_action_save")
 
         
