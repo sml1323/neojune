@@ -1,170 +1,185 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<root><data>
-    <applicantId>2</applicantId>
-    <itemGrop><items>
-			<TotalSearchCount>6</TotalSearchCount>
-			<TradeMarkInfo>
-				<SerialNumber>1</SerialNumber>
-				<ApplicationNumber>4120130008475</ApplicationNumber>
-				<AppReferenceNumber> </AppReferenceNumber>
-				<ApplicationDate>20130308</ApplicationDate>
-				<PublicNumber>4120140009693</PublicNumber>
-				<PublicDate>20140204</PublicDate>
-				<RegistrationPublicNumber/>
-				<RegistrationPublicDate/>
-				<RegistrationNumber>4102900970000</RegistrationNumber>
-				<RegReferenceNumber> </RegReferenceNumber>
-				<RegistrationDate>20140603</RegistrationDate>
-				<PriorityClaimNumber/>
-				<PriorityClaimDate/>
-				<InternationalRegisterNumber> </InternationalRegisterNumber>
-				<InternationalRegisterDate> </InternationalRegisterDate>
-				<ApplicationStatus>등록</ApplicationStatus>
-				<GoodClassificationCode>35</GoodClassificationCode>
-				<ViennaCode>260103|270515</ViennaCode>
-				<ApplicantName>주식회사 파인메딕스</ApplicantName>
-				<AgentName>최경수</AgentName>
-				<RegistrationRightholderName>주식회사 파인메딕스</RegistrationRightholderName>
-				<Title>|주|파인메딕스 FINEMEDIX</Title>
-				<FulltextExistFlag>Y</FulltextExistFlag>
-				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913448efd2a6ea1ddbf8d46f71c2a5d1ad50e2eacd16814542dac489b535bcfa1f84b</ImagePath>
-				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e290e6d58d1e0f7f5bf704c6426ac458a3ceee61a4b05d294db020be58df77f8ea8</ThumbnailPath>
-			</TradeMarkInfo>
-			<TradeMarkInfo>
-				<SerialNumber>2</SerialNumber>
-				<ApplicationNumber>4020210101667</ApplicationNumber>
-				<AppReferenceNumber> </AppReferenceNumber>
-				<ApplicationDate>20210517</ApplicationDate>
-				<PublicNumber>4020220105320</PublicNumber>
-				<PublicDate>20220824</PublicDate>
-				<RegistrationPublicNumber/>
-				<RegistrationPublicDate/>
-				<RegistrationNumber/>
-				<RegReferenceNumber> </RegReferenceNumber>
-				<RegistrationDate/>
-				<PriorityClaimNumber/>
-				<PriorityClaimDate/>
-				<InternationalRegisterNumber> </InternationalRegisterNumber>
-				<InternationalRegisterDate> </InternationalRegisterDate>
-				<ApplicationStatus>포기</ApplicationStatus>
-				<GoodClassificationCode>10</GoodClassificationCode>
-				<ViennaCode>010302|241702|260106|260124</ViennaCode>
-				<ApplicantName>주식회사 파인메딕스</ApplicantName>
-				<AgentName>신용길|전준</AgentName>
-				<RegistrationRightholderName/>
-				<Title>ACUTIUM</Title>
-				<FulltextExistFlag>Y</FulltextExistFlag>
-				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ae7b1568aff8c76748e2c9cfd1ab18dc1b9cf31a87b11ce2b9ce80a9a3f4c81df38c05c22a070fd4</ImagePath>
-				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2940f80548c1358af37e15a23cfdb468de6dafd2eb3de2665d3d45f2919b0872866585b73b2cb919e1</ThumbnailPath>
-			</TradeMarkInfo>
-			<TradeMarkInfo>
-				<SerialNumber>3</SerialNumber>
-				<ApplicationNumber>4020090059679</ApplicationNumber>
-				<AppReferenceNumber> </AppReferenceNumber>
-				<ApplicationDate>20091203</ApplicationDate>
-				<PublicNumber>4020100059579</PublicNumber>
-				<PublicDate>20101112</PublicDate>
-				<RegistrationPublicNumber/>
-				<RegistrationPublicDate/>
-				<RegistrationNumber>4008538690000</RegistrationNumber>
-				<RegReferenceNumber> </RegReferenceNumber>
-				<RegistrationDate>20110218</RegistrationDate>
-				<PriorityClaimNumber/>
-				<PriorityClaimDate/>
-				<InternationalRegisterNumber> </InternationalRegisterNumber>
-				<InternationalRegisterDate> </InternationalRegisterDate>
-				<ApplicationStatus>소멸</ApplicationStatus>
-				<GoodClassificationCode>10</GoodClassificationCode>
-				<ViennaCode>261112|270511</ViennaCode>
-				<ApplicantName>주식회사 파인메딕스</ApplicantName>
-				<AgentName>최경수</AgentName>
-				<RegistrationRightholderName>주식회사 파인메딕스 FINE MEDIX CO, LTD</RegistrationRightholderName>
-				<Title>(주) 파인메딕스 FINEMEDIX FINEMEDIX CO.,LTD</Title>
-				<FulltextExistFlag>Y</FulltextExistFlag>
-				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344caa2520f8fd62e900490c7d7d1183cfbc0b9fca59fd1e233906077aa4e2ef266</ImagePath>
-				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c37cef60776c026cf2cf6b8f300fe86c523c64d0b2569822d360c97ec2e6fe825a</ThumbnailPath>
-			</TradeMarkInfo>
-			<TradeMarkInfo>
-				<SerialNumber>4</SerialNumber>
-				<ApplicationNumber>4020100056645</ApplicationNumber>
-				<AppReferenceNumber> </AppReferenceNumber>
-				<ApplicationDate>20101104</ApplicationDate>
-				<PublicNumber>4020110057590</PublicNumber>
-				<PublicDate>20110816</PublicDate>
-				<RegistrationPublicNumber/>
-				<RegistrationPublicDate/>
-				<RegistrationNumber/>
-				<RegReferenceNumber> </RegReferenceNumber>
-				<RegistrationDate/>
-				<PriorityClaimNumber/>
-				<PriorityClaimDate/>
-				<InternationalRegisterNumber> </InternationalRegisterNumber>
-				<InternationalRegisterDate> </InternationalRegisterDate>
-				<ApplicationStatus>포기</ApplicationStatus>
-				<GoodClassificationCode>10</GoodClassificationCode>
-				<ViennaCode>261112|270511</ViennaCode>
-				<ApplicantName>주식회사 파인메딕스</ApplicantName>
-				<AgentName>최경수</AgentName>
-				<RegistrationRightholderName/>
-				<Title>FINEMEDIX ClearCut Knife</Title>
-				<FulltextExistFlag>Y</FulltextExistFlag>
-				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344cf8870737f2162b3e7857fb962441165d9c1ad6ea8ec00fe86542ebb42e612ed</ImagePath>
-				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3e1ea140b20ab05b303bef5bf9b300c5e4341f6dfe80ab3e00c70958b72b29ee7</ThumbnailPath>
-			</TradeMarkInfo>
-			<TradeMarkInfo>
-				<SerialNumber>5</SerialNumber>
-				<ApplicationNumber>4020100056653</ApplicationNumber>
-				<AppReferenceNumber> </AppReferenceNumber>
-				<ApplicationDate>20101104</ApplicationDate>
-				<PublicNumber>4020110057592</PublicNumber>
-				<PublicDate>20110816</PublicDate>
-				<RegistrationPublicNumber/>
-				<RegistrationPublicDate/>
-				<RegistrationNumber/>
-				<RegReferenceNumber> </RegReferenceNumber>
-				<RegistrationDate/>
-				<PriorityClaimNumber/>
-				<PriorityClaimDate/>
-				<InternationalRegisterNumber> </InternationalRegisterNumber>
-				<InternationalRegisterDate> </InternationalRegisterDate>
-				<ApplicationStatus>포기</ApplicationStatus>
-				<GoodClassificationCode>10</GoodClassificationCode>
-				<ViennaCode>261112|270511</ViennaCode>
-				<ApplicantName>주식회사 파인메딕스</ApplicantName>
-				<AgentName>최경수</AgentName>
-				<RegistrationRightholderName/>
-				<Title>FINEMEDIX ClearView MouthPiece</Title>
-				<FulltextExistFlag>Y</FulltextExistFlag>
-				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344cf8870737f2162b3e7857fb962441165088816e6de70dfb47015f224e5c31ad0</ImagePath>
-				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3e1ea140b20ab05b303bef5bf9b300c5e76b85ce65da534f1048e257d5ec32655</ThumbnailPath>
-			</TradeMarkInfo>
-			<TradeMarkInfo>
-				<SerialNumber>6</SerialNumber>
-				<ApplicationNumber>4020100056654</ApplicationNumber>
-				<AppReferenceNumber> </AppReferenceNumber>
-				<ApplicationDate>20101104</ApplicationDate>
-				<PublicNumber>4020110057593</PublicNumber>
-				<PublicDate>20110816</PublicDate>
-				<RegistrationPublicNumber/>
-				<RegistrationPublicDate/>
-				<RegistrationNumber/>
-				<RegReferenceNumber> </RegReferenceNumber>
-				<RegistrationDate/>
-				<PriorityClaimNumber/>
-				<PriorityClaimDate/>
-				<InternationalRegisterNumber> </InternationalRegisterNumber>
-				<InternationalRegisterDate> </InternationalRegisterDate>
-				<ApplicationStatus>포기</ApplicationStatus>
-				<GoodClassificationCode>10</GoodClassificationCode>
-				<ViennaCode>261112|270511</ViennaCode>
-				<ApplicantName>주식회사 파인메딕스</ApplicantName>
-				<AgentName>최경수</AgentName>
-				<RegistrationRightholderName/>
-				<Title>FINEMEDIX ClearGrasp Snare</Title>
-				<FulltextExistFlag>Y</FulltextExistFlag>
-				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344cf8870737f2162b3e7857fb962441165088816e6de70dfb4d3793bc5df1f7133</ImagePath>
-				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3e1ea140b20ab05b303bef5bf9b300c5e76b85ce65da534f13a6aa782c8629561</ThumbnailPath>
-			</TradeMarkInfo>
-		</items>
-	</itemGrop>
-</data></root>
+<root>
+    <data>
+        <applicantId>2</applicantId>
+        <itemGrop>
+            <items>
+                <TotalSearchCount>6</TotalSearchCount>
+                <TradeMarkInfo>
+                    <SerialNumber>1</SerialNumber>
+                    <ApplicationNumber>4120130008475</ApplicationNumber>
+                    <AppReferenceNumber> </AppReferenceNumber>
+                    <ApplicationDate>20130308</ApplicationDate>
+                    <PublicNumber>4120140009693</PublicNumber>
+                    <PublicDate>20140204</PublicDate>
+                    <RegistrationPublicNumber />
+                    <RegistrationPublicDate />
+                    <RegistrationNumber>4102900970000</RegistrationNumber>
+                    <RegReferenceNumber> </RegReferenceNumber>
+                    <RegistrationDate>20140603</RegistrationDate>
+                    <PriorityClaimNumber />
+                    <PriorityClaimDate />
+                    <InternationalRegisterNumber> </InternationalRegisterNumber>
+                    <InternationalRegisterDate> </InternationalRegisterDate>
+                    <ApplicationStatus>등록</ApplicationStatus>
+                    <GoodClassificationCode>35</GoodClassificationCode>
+                    <ViennaCode>260103|270515</ViennaCode>
+                    <ApplicantName>주식회사 파인메딕스</ApplicantName>
+                    <AgentName>최경수</AgentName>
+                    <RegistrationRightholderName>주식회사 파인메딕스</RegistrationRightholderName>
+                    <Title>|주|파인메딕스 FINEMEDIX</Title>
+                    <FulltextExistFlag>Y</FulltextExistFlag>
+                    <ImagePath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913448efd2a6ea1ddbf8d46f71c2a5d1ad50e2eacd16814542dac489b535bcfa1f84b</ImagePath>
+                    <ThumbnailPath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e290e6d58d1e0f7f5bf704c6426ac458a3ceee61a4b05d294db020be58df77f8ea8</ThumbnailPath>
+                </TradeMarkInfo>
+                <TradeMarkInfo>
+                    <SerialNumber>2</SerialNumber>
+                    <ApplicationNumber>4020210101667</ApplicationNumber>
+                    <AppReferenceNumber> </AppReferenceNumber>
+                    <ApplicationDate>20210517</ApplicationDate>
+                    <PublicNumber>4020220105320</PublicNumber>
+                    <PublicDate>20220824</PublicDate>
+                    <RegistrationPublicNumber />
+                    <RegistrationPublicDate />
+                    <RegistrationNumber />
+                    <RegReferenceNumber> </RegReferenceNumber>
+                    <RegistrationDate />
+                    <PriorityClaimNumber />
+                    <PriorityClaimDate />
+                    <InternationalRegisterNumber> </InternationalRegisterNumber>
+                    <InternationalRegisterDate> </InternationalRegisterDate>
+                    <ApplicationStatus>포기</ApplicationStatus>
+                    <GoodClassificationCode>10</GoodClassificationCode>
+                    <ViennaCode>010302|241702|260106|260124</ViennaCode>
+                    <ApplicantName>주식회사 파인메딕스</ApplicantName>
+                    <AgentName>신용길|전준</AgentName>
+                    <RegistrationRightholderName />
+                    <Title>ACUTIUM</Title>
+                    <FulltextExistFlag>Y</FulltextExistFlag>
+                    <ImagePath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ae7b1568aff8c76748e2c9cfd1ab18dc1b9cf31a87b11ce2b9ce80a9a3f4c81df38c05c22a070fd4</ImagePath>
+                    <ThumbnailPath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2940f80548c1358af37e15a23cfdb468de6dafd2eb3de2665d3d45f2919b0872866585b73b2cb919e1</ThumbnailPath>
+                </TradeMarkInfo>
+                <TradeMarkInfo>
+                    <SerialNumber>3</SerialNumber>
+                    <ApplicationNumber>4020090059679</ApplicationNumber>
+                    <AppReferenceNumber> </AppReferenceNumber>
+                    <ApplicationDate>20091203</ApplicationDate>
+                    <PublicNumber>4020100059579</PublicNumber>
+                    <PublicDate>20101112</PublicDate>
+                    <RegistrationPublicNumber />
+                    <RegistrationPublicDate />
+                    <RegistrationNumber>4008538690000</RegistrationNumber>
+                    <RegReferenceNumber> </RegReferenceNumber>
+                    <RegistrationDate>20110218</RegistrationDate>
+                    <PriorityClaimNumber />
+                    <PriorityClaimDate />
+                    <InternationalRegisterNumber> </InternationalRegisterNumber>
+                    <InternationalRegisterDate> </InternationalRegisterDate>
+                    <ApplicationStatus>소멸</ApplicationStatus>
+                    <GoodClassificationCode>10</GoodClassificationCode>
+                    <ViennaCode>261112|270511</ViennaCode>
+                    <ApplicantName>주식회사 파인메딕스</ApplicantName>
+                    <AgentName>최경수</AgentName>
+                    <RegistrationRightholderName>주식회사 파인메딕스 FINE MEDIX CO, LTD</RegistrationRightholderName>
+                    <Title>(주) 파인메딕스 FINEMEDIX FINEMEDIX CO.,LTD</Title>
+                    <FulltextExistFlag>Y</FulltextExistFlag>
+                    <ImagePath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344caa2520f8fd62e900490c7d7d1183cfbc0b9fca59fd1e233906077aa4e2ef266</ImagePath>
+                    <ThumbnailPath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c37cef60776c026cf2cf6b8f300fe86c523c64d0b2569822d360c97ec2e6fe825a</ThumbnailPath>
+                </TradeMarkInfo>
+                <TradeMarkInfo>
+                    <SerialNumber>4</SerialNumber>
+                    <ApplicationNumber>4020100056645</ApplicationNumber>
+                    <AppReferenceNumber> </AppReferenceNumber>
+                    <ApplicationDate>20101104</ApplicationDate>
+                    <PublicNumber>4020110057590</PublicNumber>
+                    <PublicDate>20110816</PublicDate>
+                    <RegistrationPublicNumber />
+                    <RegistrationPublicDate />
+                    <RegistrationNumber />
+                    <RegReferenceNumber> </RegReferenceNumber>
+                    <RegistrationDate />
+                    <PriorityClaimNumber />
+                    <PriorityClaimDate />
+                    <InternationalRegisterNumber> </InternationalRegisterNumber>
+                    <InternationalRegisterDate> </InternationalRegisterDate>
+                    <ApplicationStatus>포기</ApplicationStatus>
+                    <GoodClassificationCode>10</GoodClassificationCode>
+                    <ViennaCode>261112|270511</ViennaCode>
+                    <ApplicantName>주식회사 파인메딕스</ApplicantName>
+                    <AgentName>최경수</AgentName>
+                    <RegistrationRightholderName />
+                    <Title>FINEMEDIX ClearCut Knife</Title>
+                    <FulltextExistFlag>Y</FulltextExistFlag>
+                    <ImagePath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344cf8870737f2162b3e7857fb962441165d9c1ad6ea8ec00fe86542ebb42e612ed</ImagePath>
+                    <ThumbnailPath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3e1ea140b20ab05b303bef5bf9b300c5e4341f6dfe80ab3e00c70958b72b29ee7</ThumbnailPath>
+                </TradeMarkInfo>
+                <TradeMarkInfo>
+                    <SerialNumber>5</SerialNumber>
+                    <ApplicationNumber>4020100056653</ApplicationNumber>
+                    <AppReferenceNumber> </AppReferenceNumber>
+                    <ApplicationDate>20101104</ApplicationDate>
+                    <PublicNumber>4020110057592</PublicNumber>
+                    <PublicDate>20110816</PublicDate>
+                    <RegistrationPublicNumber />
+                    <RegistrationPublicDate />
+                    <RegistrationNumber />
+                    <RegReferenceNumber> </RegReferenceNumber>
+                    <RegistrationDate />
+                    <PriorityClaimNumber />
+                    <PriorityClaimDate />
+                    <InternationalRegisterNumber> </InternationalRegisterNumber>
+                    <InternationalRegisterDate> </InternationalRegisterDate>
+                    <ApplicationStatus>포기</ApplicationStatus>
+                    <GoodClassificationCode>10</GoodClassificationCode>
+                    <ViennaCode>261112|270511</ViennaCode>
+                    <ApplicantName>주식회사 파인메딕스</ApplicantName>
+                    <AgentName>최경수</AgentName>
+                    <RegistrationRightholderName />
+                    <Title>FINEMEDIX ClearView MouthPiece</Title>
+                    <FulltextExistFlag>Y</FulltextExistFlag>
+                    <ImagePath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344cf8870737f2162b3e7857fb962441165088816e6de70dfb47015f224e5c31ad0</ImagePath>
+                    <ThumbnailPath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3e1ea140b20ab05b303bef5bf9b300c5e76b85ce65da534f1048e257d5ec32655</ThumbnailPath>
+                </TradeMarkInfo>
+                <TradeMarkInfo>
+                    <SerialNumber>6</SerialNumber>
+                    <ApplicationNumber>4020100056654</ApplicationNumber>
+                    <AppReferenceNumber> </AppReferenceNumber>
+                    <ApplicationDate>20101104</ApplicationDate>
+                    <PublicNumber>4020110057593</PublicNumber>
+                    <PublicDate>20110816</PublicDate>
+                    <RegistrationPublicNumber />
+                    <RegistrationPublicDate />
+                    <RegistrationNumber />
+                    <RegReferenceNumber> </RegReferenceNumber>
+                    <RegistrationDate />
+                    <PriorityClaimNumber />
+                    <PriorityClaimDate />
+                    <InternationalRegisterNumber> </InternationalRegisterNumber>
+                    <InternationalRegisterDate> </InternationalRegisterDate>
+                    <ApplicationStatus>포기</ApplicationStatus>
+                    <GoodClassificationCode>10</GoodClassificationCode>
+                    <ViennaCode>261112|270511</ViennaCode>
+                    <ApplicantName>주식회사 파인메딕스</ApplicantName>
+                    <AgentName>최경수</AgentName>
+                    <RegistrationRightholderName />
+                    <Title>FINEMEDIX ClearGrasp Snare</Title>
+                    <FulltextExistFlag>Y</FulltextExistFlag>
+                    <ImagePath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344cf8870737f2162b3e7857fb962441165088816e6de70dfb4d3793bc5df1f7133</ImagePath>
+                    <ThumbnailPath>
+                        http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3e1ea140b20ab05b303bef5bf9b300c5e76b85ce65da534f13a6aa782c8629561</ThumbnailPath>
+                </TradeMarkInfo>
+            </items>
+        </itemGrop>
+    </data>
+</root>
