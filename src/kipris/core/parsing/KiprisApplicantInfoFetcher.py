@@ -25,23 +25,23 @@ class KiprisApplicantInfoFetcher:
         self.session = None
         self.params = param
 
-    async def open_session(self):
+    async def __open_session(self):
         """ClientSession을 열어서 여러 요청에서 공유"""
         if self.session is None:
             self.session = aiohttp.ClientSession()
 
-    async def close_session(self):
+    async def __close_session(self):
         """ClientSession을 닫음"""
         if self.session:
             await self.session.close()
             self.session = None
 
-    def backoff_hdlr(details):
+    def __backoff_hdlr(details):
         exception = details.get('exception')
         print(f"Retrying after exception: {exception}... Attempt {details['tries']}")
 
-    @backoff.on_exception(backoff.constant, (asyncio.TimeoutError, Exception), max_tries=3, interval=10, on_backoff=backoff_hdlr)
-    async def _fetch_content(self, page: int) -> str:
+    @backoff.on_exception(backoff.constant, (asyncio.TimeoutError, Exception), max_tries=3, interval=10, on_backoff=__backoff_hdlr)
+    async def __fetch_content(self, page: int) -> str:
         """API 호출 후 페이지 내용 반환"""
         self.params.docsStart = page
         async with KiprisFetcher.semaphore:
@@ -80,10 +80,10 @@ class KiprisApplicantInfoFetcher:
         """총 페이지 수 계산"""
         return (total_count // self.params.docsCount) + (1 if total_count % self.params.docsCount else 0)
 
-    async def _handle_response(self, page: int) -> bool:
+    async def __handle_response(self, page: int) -> bool:
         """응답 처리 및 성공 여부 반환"""
         try:
-            content = await self._fetch_content(page)
+            content = await self.__fetch_content(page)
             self.__throw_error_if_blocked_users(content)
             logger_ori.info(content)
 
@@ -106,27 +106,27 @@ class KiprisApplicantInfoFetcher:
             self.fail_count += 1
             raise
 
-    async def _increment_page(self, page: int) -> int:
+    async def __increment_page(self, page: int) -> int:
         """페이지 증가 및 지연 적용"""
         await asyncio.sleep(0.02)
         return page + 1
 
-    async def fetch_initial(self):
+    async def __fetch_initial(self):
         """첫 요청으로 totalCount 추출 및 첫 페이지 결과 저장"""
-        success = await self._handle_response(1)
+        success = await self.__handle_response(1)
         if not success:
             print("첫 페이지 요청 실패")
 
-    async def fetch_pages(self):
+    async def __fetch_pages(self):
         
         tasks = []
         # 페이지 번호 2부터 self.max_pages까지 반복
         page = 2
         while page <= self.max_pages:
             # _increment_page를 사용하여 페이지를 증가시키면서 지연을 적용
-            task = self._handle_response(page)
+            task = self.__handle_response(page)
             tasks.append(task)
-            page = await self._increment_page(page)
+            page = await self.__increment_page(page)
 
         # 모든 task를 asyncio.gather로 실행
         await asyncio.gather(*tasks)
@@ -138,14 +138,14 @@ class KiprisApplicantInfoFetcher:
     
     async def get_info(self, session: aiohttp.ClientSession) -> KiprisFetchData:
         if session is None:
-            self.open_session()
-            await self.fetch_initial()
-            await self.fetch_pages()
-            self.close_session()
+            self.__open_session()
+            await self.__fetch_initial()
+            await self.__fetch_pages()
+            self.__close_session()
         else:
             self.session = session
-            await self.fetch_initial()
-            await self.fetch_pages()
+            await self.__fetch_initial()
+            await self.__fetch_pages()
 
         
         return KiprisFetchData(self.params.app_no, self.params.applicant_id, self.result)
