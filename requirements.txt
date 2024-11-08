@@ -25,6 +25,7 @@ requests==2.32.3
 setuptools==68.1.2
 six==1.16.0
 ssh-import-id==5.11
+tqdm==4.67.0
 tzdata==2024.2
 urllib3==2.2.3
 wheel==0.42.0
