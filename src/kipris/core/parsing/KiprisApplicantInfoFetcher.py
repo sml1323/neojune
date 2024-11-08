@@ -56,7 +56,7 @@ class KiprisApplicantInfoFetcher:
 
         return result_msg == "Blocked users."
         
-    def throw_error_if_blocked_users(self, content: str=""):
+    def __throw_error_if_blocked_users(self, content: str=""):
         if self.__is_blocked_users(content):
             raise Exception("User is blocked.")
         
