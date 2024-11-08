@@ -20,7 +20,7 @@ class KiprisFetcher:
     async def get_infos(self, file_name: str = "default.prof") -> list:
         # 여기서 yappi_profiler를 동적으로 적용하여 호출
         base_path = "res/log"
-        profiled_get_infos = yappi_profiler(f'{base_path}/{file_name}')(self._get_infos)
+        profiled_get_infos = yappi_profiler(f'{base_path}/{file_name}')(self.__get_infos)
         return await profiled_get_infos()
 
     # async def _get_infos(self) -> list:
@@ -30,7 +30,7 @@ class KiprisFetcher:
     #         tasks.append(task)
     #     return await asyncio.gather(*tasks)
 
-    async def _get_infos(self) -> list:
+    async def __get_infos(self) -> list:
         tasks = []
         async with aiohttp.ClientSession() as session: 
             for param in self.params:
