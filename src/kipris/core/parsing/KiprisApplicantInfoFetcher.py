@@ -76,9 +76,9 @@ class KiprisApplicantInfoFetcher:
             raise Exception("User is blocked.")
         
     
-    def _calculate_max_pages(self, total_count: int):
+    def __get_max_pages(self, total_count: int):
         """총 페이지 수 계산"""
-        self.max_pages = (total_count // self.params.docsCount) + (1 if total_count % self.params.docsCount else 0)
+        return (total_count // self.params.docsCount) + (1 if total_count % self.params.docsCount else 0)
 
     async def _handle_response(self, page: int) -> bool:
         """응답 처리 및 성공 여부 반환"""
@@ -91,7 +91,7 @@ class KiprisApplicantInfoFetcher:
                 total_count = self.__get_total_count(content)
                 if total_count == -1:
                     return False # totalCount 추출 실패시 함수 종료
-                self._calculate_max_pages(total_count)
+                self.max_pages = self.__get_max_pages(total_count)
                 logger.info(f"총 검색 건수: {total_count}, 총 페이지 수: {self.max_pages}")
             self.result.append(content)
             self.success_count += 1
