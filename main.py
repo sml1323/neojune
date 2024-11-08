@@ -8,10 +8,10 @@ from src.test.save_to_xml import save_to_xml
 from src.util.util import send_slack_message
 
 try:
-    send_slack_message( "<!here> 사용 시작 : 윤재")
+    send_slack_message( "<!here> 사용 시작 : neojune")
     asyncio.run(save_to_xml.main('TB24_200'))
 finally:
-    send_slack_message( "<!here> 사용 완료 : 윤재")
+    send_slack_message( "<!here> 사용 완료 : neojune")
 
 # asyncio.run(save_to_xml.main('TB24_200'))
 
