@@ -12,7 +12,8 @@ def run():
     # fetcher_data.main()
     # fetcher.main()
     # applicant_info_fetcher.main()
-    # xml_to_dict_converter.main()
+    xml_to_dict_converter.main()
     # uploader.main()
     # all_conn.main()
-    blocked_users.main()
+    # blocked_users.main()
+    pass
