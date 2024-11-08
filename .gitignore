@@ -1,7 +1,8 @@
+.vscode
 .env
 __pycache__
 *.xlsx
 res/output
-.vscode
+res/log/*
 combined_file.md
 temp

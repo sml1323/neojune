@@ -7,13 +7,13 @@ import random
 from .KiprisFetchData import KiprisFetchData
 from .KiprisParam import KiprisParam
 from ...core.parsing import KiprisFetcher
-from ....util.monitoring import setup_logger,setup_logger_origin
+from ....util import monitoring
 
 load_dotenv()
 service_key = os.getenv('SERVICE_KEY')
 
-logger = setup_logger("API 호출")
-logger_ori = setup_logger_origin("origin text")
+logger = monitoring.setup_logger("API 호출")
+logger_ori = monitoring.setup_logger_origin("origin text")
 
 class KiprisApplicantInfoFetcher:
     def __init__(self, url:str, param:KiprisParam):

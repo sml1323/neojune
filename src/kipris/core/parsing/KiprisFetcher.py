@@ -19,7 +19,8 @@ class KiprisFetcher:
     
     async def get_infos(self, file_name: str = "default.prof") -> list:
         # 여기서 yappi_profiler를 동적으로 적용하여 호출
-        profiled_get_infos = yappi_profiler(file_name)(self._get_infos)
+        base_path = "res/log"
+        profiled_get_infos = yappi_profiler(f'{base_path}/{file_name}')(self._get_infos)
         return await profiled_get_infos()
 
     # async def _get_infos(self) -> list:
