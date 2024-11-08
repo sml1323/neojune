@@ -121,9 +121,16 @@ class KiprisApplicantInfoFetcher:
 
     
     async def get_info(self, session: aiohttp.ClientSession) -> KiprisFetchData:
-        self.session = session
-        await self.fetch_initial()
-        await self.fetch_pages()
+        if session is None:
+            self.open_session()
+            await self.fetch_initial()
+            await self.fetch_pages()
+            self.close_session()
+        else:
+            self.session = session
+            await self.fetch_initial()
+            await self.fetch_pages()
+
         
         return KiprisFetchData(self.params.app_no, self.params.applicant_id, self.result)
 
