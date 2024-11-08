@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<response>
+	<header>
+		<resultCode></resultCode>
+		<resultMsg></resultMsg>
+	</header>
+	<body>
+		<items>
+			<TotalSearchCount>2</TotalSearchCount>
+			<TradeMarkInfo>
+				<SerialNumber>1</SerialNumber>
+				<ApplicationNumber>4020220046206</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20220314</ApplicationDate>
+				<PublicNumber>4020240168115</PublicNumber>
+				<PublicDate>20241029</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>공고</ApplicationStatus>
+				<GoodClassificationCode>09</GoodClassificationCode>
+				<ViennaCode>260323|261125|270508|270916</ViennaCode>
+				<ApplicantName>혜성씨앤씨주식회사</ApplicantName>
+				<AgentName>김영식</AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title>PSAC</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913442817c88e040e84f7286148d4cee0b7e4ac4cc44fb3766d7ccd5921267502d01a28913cb316266cb8</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2942dee2feafab2a09c72844ad55e0264bde09c68a83dadb021091d15ea5175784657c9216ba356403</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>2</SerialNumber>
+				<ApplicationNumber>4020220046208</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20220314</ApplicationDate>
+				<PublicNumber>4020220108769</PublicNumber>
+				<PublicDate>20220901</PublicDate>
+				<RegistrationPublicNumber>4020220123724</RegistrationPublicNumber>
+				<RegistrationPublicDate>20221202</RegistrationPublicDate>
+				<RegistrationNumber>4019413090000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20221130</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>09</GoodClassificationCode>
+				<ViennaCode>260203|261108|261112|270508|270920</ViennaCode>
+				<ApplicantName>혜성씨앤씨주식회사</ApplicantName>
+				<AgentName>김영식</AgentName>
+				<RegistrationRightholderName>혜성씨앤씨주식회사 HYESUNG Cable &amp; Communication INC</RegistrationRightholderName>
+				<Title>TMFC</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913442817c88e040e84f7286148d4cee0b7e4ac4cc44fb3766d7c14757dfac0dd8a4a2735979a9638fcee</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2942dee2feafab2a09c72844ad55e0264bde09c68a83dadb02c90068340e707e451051f9c810e8a88f</ThumbnailPath>
+			</TradeMarkInfo>
+		</items>
+	</body>
+</response>

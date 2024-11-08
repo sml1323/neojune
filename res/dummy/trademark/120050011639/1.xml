@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<response>
+	<header>
+		<resultCode></resultCode>
+		<resultMsg></resultMsg>
+	</header>
+	<body>
+		<items>
+			<TotalSearchCount>5</TotalSearchCount>
+			<TradeMarkInfo>
+				<SerialNumber>1</SerialNumber>
+				<ApplicationNumber>4020080028784</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20080612</ApplicationDate>
+				<PublicNumber>4020090019892</PublicNumber>
+				<PublicDate>20090423</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4008001380000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20090907</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>01|11</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>아쿠아셀 주식회사</ApplicantName>
+				<AgentName></AgentName>
+				<RegistrationRightholderName>아쿠아셀 주식회사 AQUACELL CO,LTD</RegistrationRightholderName>
+				<Title>아쿠아셀(주)</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344c651644c5f71b85de92b90f522ebdbf84ed062e2b5224957970eb45980ea2a0d952e1ea15c990091</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29403e59b3141ab4aa879c973423bca486b8fc6b8b2c1ffd5df2a5015cd06c5e1973d692f55a516187</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>2</SerialNumber>
+				<ApplicationNumber>4020080028771</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20080612</ApplicationDate>
+				<PublicNumber>4020090019890</PublicNumber>
+				<PublicDate>20090423</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4008001360000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20090907</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>01|11</GoodClassificationCode>
+				<ViennaCode>261112|261113</ViennaCode>
+				<ApplicantName>아쿠아셀 주식회사</ApplicantName>
+				<AgentName></AgentName>
+				<RegistrationRightholderName>아쿠아셀 주식회사 AQUACELL CO,LTD</RegistrationRightholderName>
+				<Title>아쿠아셀(주) AQUACELL</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344c651644c5f71b85de92b90f522ebdbf82533351825d27960b5e702dc385e03d42b4554ad3171acdb</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29403e59b3141ab4aa879c973423bca486eab3bc408a1f717259817299b5bbffb2959dade151554751</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>3</SerialNumber>
+				<ApplicationNumber>4020080028777</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20080612</ApplicationDate>
+				<PublicNumber>4020090019891</PublicNumber>
+				<PublicDate>20090423</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4008001370000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20090907</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>01|11</GoodClassificationCode>
+				<ViennaCode>261112|261113</ViennaCode>
+				<ApplicantName>아쿠아셀 주식회사</ApplicantName>
+				<AgentName></AgentName>
+				<RegistrationRightholderName>아쿠아셀 주식회사 AQUACELL CO,LTD</RegistrationRightholderName>
+				<Title>AQUACELL</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344c651644c5f71b85de92b90f522ebdbf82533351825d2796070d248104e3aa851c6daa76ca9935591</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29403e59b3141ab4aa879c973423bca486eab3bc408a1f71724bc218ab5d01a6281ea167093075f47e</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>4</SerialNumber>
+				<ApplicationNumber>4020060048796</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20060922</ApplicationDate>
+				<PublicNumber>4020070013298</PublicNumber>
+				<PublicDate>20070302</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4007111190000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20070528</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>소멸</ApplicationStatus>
+				<GoodClassificationCode>28</GoodClassificationCode>
+				<ViennaCode>260106|260218|260224</ViennaCode>
+				<ApplicantName>아쿠아셀 주식회사</ApplicantName>
+				<AgentName></AgentName>
+				<RegistrationRightholderName>아쿠아셀 주식회사 AQUACELL CO,LTD</RegistrationRightholderName>
+				<Title>PUTTING Ball</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a9134401c3e2fc9dd8d57cc78cedcb9cb7efbcc1dd83c5ecd630b1c24923188fa24744</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3b07fc4130a12eaf4da8091696f02182302cbdeaceaa2907a53c5cc3e76acb47d</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>5</SerialNumber>
+				<ApplicationNumber>4120060022835</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20060908</ApplicationDate>
+				<PublicNumber>4120070029512</PublicNumber>
+				<PublicDate>20070523</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>포기</ApplicationStatus>
+				<GoodClassificationCode>42</GoodClassificationCode>
+				<ViennaCode>261102|261113</ViennaCode>
+				<ApplicantName>아쿠아셀 주식회사</ApplicantName>
+				<AgentName></AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title>아쿠아셀(주) AQUACELL</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344b214c6c14cdbf82014cb0635102bb37d463ac78bd3fe040f842e47f4e6d07491</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3e1106402a38fc97cafcd1c5c5aba12ff2efb362f2f71e608af764e5425958be2</ThumbnailPath>
+			</TradeMarkInfo>
+		</items>
+	</body>
+</response>

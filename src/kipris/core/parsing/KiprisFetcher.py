@@ -2,25 +2,41 @@ import asyncio, aiohttp
 from .KiprisFetchData import KiprisFetchData
 from .KiprisApplicantInfoFetcher import KiprisApplicantInfoFetcher
 from .KiprisParam import KiprisParam
+from tqdm import tqdm
+from ....util.util import yappi_profiler
 
+semaphore = asyncio.Semaphore(20)
 
 class KiprisFetcher:
     def __init__(self, url:str='', params:list[KiprisParam]=[KiprisParam()]):
         self.url = url
         self.params = params
 
-    async def __task(self, param:KiprisParam):
-
+    async def __task(self, param: KiprisParam, session: aiohttp.ClientSession):
         info = KiprisApplicantInfoFetcher(self.url, param)
-        return await info.get_info()
-        
+        result = await info.get_info(session)  # session 전달
+        return result
+    
+    async def get_infos(self, file_name: str = "default.prof") -> list:
+        # 여기서 yappi_profiler를 동적으로 적용하여 호출
+        base_path = "res/log"
+        profiled_get_infos = yappi_profiler(f'{base_path}/{file_name}')(self._get_infos)
+        return await profiled_get_infos()
 
-    async def get_infos(self) -> list[KiprisFetchData]:
+    # async def _get_infos(self) -> list:
+    #     tasks = []
+    #     for param in tqdm(self.params):
+    #         task = self.__task(param)
+    #         tasks.append(task)
+    #     return await asyncio.gather(*tasks)
+
+    async def _get_infos(self) -> list:
         tasks = []
-        for param in self.params:
-            await asyncio.sleep(0.02)
-            tasks.append(asyncio.create_task(self.__task(param)))
-        return await asyncio.gather(*tasks)
+        async with aiohttp.ClientSession() as session: 
+            for param in self.params:
+                task = asyncio.create_task(self.__task(param, session)) 
+                tasks.append(task)
+            return await asyncio.gather(*tasks)
     
     def set_params(self, params_list:list[str|int], ParamType:KiprisParam=KiprisParam):
         res = []

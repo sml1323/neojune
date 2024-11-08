@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+    <header>
+        <resultCode></resultCode>
+        <resultMsg></resultMsg>
+    </header>
+    <body>
+        <items>
+            <PatentUtilityInfo>
+                <Applicant>동의대학교 산학협력단</Applicant>
+                <ApplicationDate>20170928</ApplicationDate>
+                <ApplicationNumber>1020170126044</ApplicationNumber>
+                <Abstract>본 발명에 따른 급성 안면통증 예방 및 개선용 조성물은 블랙 커런트(black currant, 카시스 베리) 추출물,
+                    아사이베리(acaiberry) 추출물, 크렌베리(cranberry) 추출물, 블루베리(blueberry) 추출물 및 이들의 혼합물로 이루어진
+                    군에서 선택된 베리류 추출물을 유효성분으로 포함하는 것이다. 본 발명의 유래의 급성 안면통증 예방 및 개선용 조성물에 의하면 급성 안면통증을
+                    완화시킬 수 있다.</Abstract>
+                <DrawingPath>
+                    http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0034523ef1a7041f203eb940b0ff6980377d94e8960508b94b36e25aae0ce8d710342e3db4aa9f36178cdc5911d937b40b86ceb9c69e5123f6</DrawingPath>
+                <ThumbnailPath>
+                    http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfac019b9a5c7946ec58ddcb5b449eccbd19191c7891e1cd91be4a8d9a832bc6b1c13066fa7fd9b367dea377fd6aef09f68db6bea610db9dcf</ThumbnailPath>
+                <SerialNumber>1</SerialNumber>
+                <InventionName>급성 안면통증 예방 및 개선용 조성물</InventionName>
+                <InternationalpatentclassificationNumber>A23L 33/105|A61K 36/185|A61K 36/889|A61K
+                    36/45</InternationalpatentclassificationNumber>
+                <OpeningDate></OpeningDate>
+                <OpeningNumber></OpeningNumber>
+                <PublicNumber></PublicNumber>
+                <PublicDate>20190130</PublicDate>
+                <RegistrationDate>20190124</RegistrationDate>
+                <RegistrationNumber>1019441130000</RegistrationNumber>
+                <RegistrationStatus>소멸</RegistrationStatus>
+            </PatentUtilityInfo>
+            <PatentUtilityInfo>
+                <Applicant>동의대학교 산학협력단</Applicant>
+                <ApplicationDate>20221230</ApplicationDate>
+                <ApplicationNumber>1020220190304</ApplicationNumber>
+                <Abstract>본 발명은 상판이 회전되는 지진대피용 책상에 대한 발명으로, 구체적으로 평상시에는 제1 상판이 책상의 기능을 수행하지만, 지진이
+                    발생하였을 경우 제1 상판이 회전하여 낙하물의 파편에 의한 위험으로부터 대피자의 몸을 충분히 보호할 수 있게 되는 지진대피용 책상에 관한
+                    발명이다.</Abstract>
+                <DrawingPath>
+                    http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c938826990045ec5c6d3f157225867559b21add52c78aef528459d5c482d26b0c9802350c761da27103b5a1b5aad6cb3d57f907d6271da46f5d</DrawingPath>
+                <ThumbnailPath>
+                    http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf66b532a156c4392b4b70f234fc58dad65edee41883694b7e36b612f56b1c1678f42ec19d24def8b3738c42c1790379e1c8b3163a8d7caf52</ThumbnailPath>
+                <SerialNumber>2</SerialNumber>
+                <InventionName>상판이 회전되는 지진대피용 책상</InventionName>
+                <InternationalpatentclassificationNumber>A47B 41/02|A47B 13/08|A47B 13/02</InternationalpatentclassificationNumber>
+                <OpeningDate>20240709</OpeningDate>
+                <OpeningNumber>1020240107552</OpeningNumber>
+                <PublicNumber></PublicNumber>
+                <PublicDate></PublicDate>
+                <RegistrationDate></RegistrationDate>
+                <RegistrationNumber></RegistrationNumber>
+                <RegistrationStatus>공개</RegistrationStatus>
+            </PatentUtilityInfo>
+            <TotalSearchCount>1784</TotalSearchCount>
+            <SearchStartNumber>1</SearchStartNumber>
+        </items>
+    </body>
+</response>

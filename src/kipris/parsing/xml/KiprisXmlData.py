@@ -8,7 +8,7 @@ class KiprisXmlData(KiprisXml):
     def __init__(self, data:KiprisFetchData):
         super().__init__()
         self.root = self.__get_base_xml()
-        self.data:KiprisFetchData = data
+        self.data = data
 
     def __get_base_xml(self):
         base_path = os.path.dirname(__file__)

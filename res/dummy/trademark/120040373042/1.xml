@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<response>
+	<header>
+		<resultCode></resultCode>
+		<resultMsg></resultMsg>
+	</header>
+	<body>
+		<items>
+			<TotalSearchCount>7</TotalSearchCount>
+			<TradeMarkInfo>
+				<SerialNumber>1</SerialNumber>
+				<ApplicationNumber>4020050014803</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20050406</ApplicationDate>
+				<PublicNumber>4020050072244</PublicNumber>
+				<PublicDate>20051212</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4006518610000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20060220</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>소멸</ApplicationStatus>
+				<GoodClassificationCode>09</GoodClassificationCode>
+				<ViennaCode>260418</ViennaCode>
+				<ApplicantName>주식회사 윈텍오토메이션</ApplicantName>
+				<AgentName>박길님</AgentName>
+				<RegistrationRightholderName>주식회사 윈텍오토메이션 Wintech Automation Co,Ltd</RegistrationRightholderName>
+				<Title>WTA NI-COM WTA 엔아이 컴</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344b1486cfa4836122f0c2d5b672242af95fc00e37d2f06b8d2e97e662cf18d5164ba81360e5b775afd</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29b30afd527c27b25ad6527882e50063c056046c115ad6c5c9d068d4a6660c9b95a0f87046a2eeadbb</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>2</SerialNumber>
+				<ApplicationNumber>4020210116535</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20210607</ApplicationDate>
+				<PublicNumber>4020220128138</PublicNumber>
+				<PublicDate>20221006</PublicDate>
+				<RegistrationPublicNumber>4020230009465</RegistrationPublicNumber>
+				<RegistrationPublicDate>20230119</RegistrationPublicDate>
+				<RegistrationNumber>4019625840000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20230117</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>07|09|35|42</GoodClassificationCode>
+				<ViennaCode>260502|261111|270923</ViennaCode>
+				<ApplicantName>주식회사 윈텍오토메이션</ApplicantName>
+				<AgentName>김재왕</AgentName>
+				<RegistrationRightholderName>주식회사 윈텍오토메이션 Wintech Automation Co,Ltd</RegistrationRightholderName>
+				<Title>W</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ae7b1568aff8c7678137e02a0bbdd972a2861235d2056837e35777c30e5a902be9d457808795b010</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2940f80548c1358af3c2cab5727f2c5a4ced909494536f9c6ac9ac04a86913425797794520edd912ab</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>3</SerialNumber>
+				<ApplicationNumber>4020210116542</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20210607</ApplicationDate>
+				<PublicNumber>4020220144737</PublicNumber>
+				<PublicDate>20221103</PublicDate>
+				<RegistrationPublicNumber>4020230023349</RegistrationPublicNumber>
+				<RegistrationPublicDate>20230217</RegistrationPublicDate>
+				<RegistrationNumber>4019767520000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20230215</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>07|09</GoodClassificationCode>
+				<ViennaCode>270525</ViennaCode>
+				<ApplicantName>주식회사 윈텍오토메이션</ApplicantName>
+				<AgentName>김재왕</AgentName>
+				<RegistrationRightholderName>주식회사 윈텍오토메이션 Wintech Automation Co,Ltd</RegistrationRightholderName>
+				<Title>HAM</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ae7b1568aff8c7678137e02a0bbdd97248d5f9f2ba2377811c6bafd1c859ddd3e722daa891eb8cb1</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2940f80548c1358af3c2cab5727f2c5a4c7f84df281be83a0fdc7f85dd79fd7a1a6a2af5515305aeff</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>4</SerialNumber>
+				<ApplicationNumber>4020210116546</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20210607</ApplicationDate>
+				<PublicNumber>4020220144738</PublicNumber>
+				<PublicDate>20221103</PublicDate>
+				<RegistrationPublicNumber>4020230023350</RegistrationPublicNumber>
+				<RegistrationPublicDate>20230217</RegistrationPublicDate>
+				<RegistrationNumber>4019767580000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20230215</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>07|09</GoodClassificationCode>
+				<ViennaCode>270525</ViennaCode>
+				<ApplicantName>주식회사 윈텍오토메이션</ApplicantName>
+				<AgentName>김재왕</AgentName>
+				<RegistrationRightholderName>주식회사 윈텍오토메이션 Wintech Automation Co,Ltd</RegistrationRightholderName>
+				<Title>HIM</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ae7b1568aff8c7678137e02a0bbdd97248d5f9f2ba2377813788bb8386ade2107fea95d0bc937064</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2940f80548c1358af3c2cab5727f2c5a4c7f84df281be83a0f74c6a21ccb6856a08f9585fe835b9628</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>5</SerialNumber>
+				<ApplicationNumber>4020210116538</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20210607</ApplicationDate>
+				<PublicNumber>4020220128139</PublicNumber>
+				<PublicDate>20221006</PublicDate>
+				<RegistrationPublicNumber>4020230009466</RegistrationPublicNumber>
+				<RegistrationPublicDate>20230119</RegistrationPublicDate>
+				<RegistrationNumber>4019625880000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20230117</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>07|09|35|42</GoodClassificationCode>
+				<ViennaCode>270525</ViennaCode>
+				<ApplicantName>주식회사 윈텍오토메이션</ApplicantName>
+				<AgentName>김재왕</AgentName>
+				<RegistrationRightholderName>주식회사 윈텍오토메이션 Wintech Automation Co,Ltd</RegistrationRightholderName>
+				<Title>WTA</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ae7b1568aff8c7678137e02a0bbdd972a2861235d2056837994e6419efb97490b7908f4da013ddf7</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2940f80548c1358af3c2cab5727f2c5a4ced909494536f9c6a96f0db504926f3d9b76f887018c4a0e4</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>6</SerialNumber>
+				<ApplicationNumber>4020070060521</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20071126</ApplicationDate>
+				<PublicNumber>4020080051549</PublicNumber>
+				<PublicDate>20080828</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>포기</ApplicationStatus>
+				<GoodClassificationCode>09</GoodClassificationCode>
+				<ViennaCode>270904</ViennaCode>
+				<ApplicantName>주식회사 윈텍오토메이션</ApplicantName>
+				<AgentName>박윤호</AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title>iDWTA</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913449585d0b251d5ba316deec3d2037fe5c9a5441254b9b4496ca7fcf57c19834f5c</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c31b16d13dde094ab3183c40175e653136e1f8c238eb372ee57c781e7ee86d1061</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>7</SerialNumber>
+				<ApplicationNumber>4020070060518</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20071126</ApplicationDate>
+				<PublicNumber>4020080051548</PublicNumber>
+				<PublicDate>20080828</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4007703010000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20081127</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>소멸</ApplicationStatus>
+				<GoodClassificationCode>09</GoodClassificationCode>
+				<ViennaCode>270904</ViennaCode>
+				<ApplicantName>주식회사 윈텍오토메이션</ApplicantName>
+				<AgentName>박윤호</AgentName>
+				<RegistrationRightholderName>주식회사 윈텍오토메이션 Wintech Automation Co,Ltd</RegistrationRightholderName>
+				<Title>iD</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913449585d0b251d5ba316deec3d2037fe5c980bb554cede9ceb35ab4b020576136bd4d8c37f106782b1c</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e297f4f3b43696e8c6cc1d3cfcb00b161ce0d013e7b9af8680fa13b0db3f292b14047617f8cab89bb19</ThumbnailPath>
+			</TradeMarkInfo>
+		</items>
+	</body>
+</response>

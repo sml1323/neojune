@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<response>
+	<header>
+		<resultCode></resultCode>
+		<resultMsg></resultMsg>
+	</header>
+	<body>
+		<items>
+			<PatentUtilityInfo>
+				<Applicant>(주)마린바이오프로세스</Applicant>
+				<ApplicationDate>20220126</ApplicationDate>
+				<ApplicationNumber>1020220011322</ApplicationNumber>
+				<Abstract>본 발명은 락토바실러스 브레비스(Lactobacillus brevis) BJ-20(KCTC11377BP)를 이용하여 고농도의 가바(GABA) 및 저분자 콜라겐을 동시 생성시키는 것을 특징으로 하는 제조방법 및 상기 제조방법에 따라 제조된 우수한 효과를 나타내는 피부장벽 손상 개선 및 수면활동 개선용 조성물에 관한 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93bafd06e713854f7bfee0c87fec17613be9f22b4de58a65636433b282f4081fcff629a162063782e7456e3aa605fcb7ea4fdc728e07532f60</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf00041f590a0e35d1845a42de677ff1dddda8392bd163af916bff3ed6c3fd84bc280d96775a08f2c519d14b2c850abbf8d0203d42fd8ae7aa</ThumbnailPath>
+				<SerialNumber>1</SerialNumber>
+				<InventionName>락토바실러스 브레비스(Lactobacillus brevis) BJ-20(KCTC11377BP)를 이용하여 가바(GABA) 및 저분자 콜라겐을 제조하는 제조방법, 이를 포함하는 피부장벽 손상 개선용 조성물 및 수면활동 개선용 조성물</InventionName>
+				<InternationalpatentclassificationNumber>C12P 13/00|C12P 21/00|C12N 1/20|A61K 31/197|A61P 17/00|A61K 8/44|A61Q 19/00|A23L 33/175|A61P 25/20</InternationalpatentclassificationNumber>
+				<OpeningDate>20221107</OpeningDate>
+				<OpeningNumber>1020220148723</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>공개</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)마린바이오프로세스</Applicant>
+				<ApplicationDate>20190529</ApplicationDate>
+				<ApplicationNumber>1020190063015</ApplicationNumber>
+				<Abstract>본 발명은 GABA를 함유한 발효 정제염의 제조방법에 관한 것으로, 더욱 상세하게는 함수 농축액을 이용한 GABA 함유 발효 정제염의 제조방법에 관한 것이다.  본 발명의 함수 농축액을 이용한 GABA 함유 발효 정제염의 제조방법은 (a) 해수를 여과기에서 여과하는 단계; (b) 여과된 해수를 이온교환막으로 정제하여 함수를 제조하는 단계; (c) 함수를 농축하여 함수 농축액을 제조하는 단계; (d) GABA 함유 균주 배양액에 함수 농축액을 첨가한 후, 발효시키는 단계; (e) GABA 함유 균주 배양액 및 함수 농축액의 발효액을 멸균하고 여과시키는 단계; 및 (f) 여과된 GABA 함유 균주 배양액 및 함수 농축액의 발효액을 증발 결정화시키는 단계를 포함한다.  본 발명에 따르면, 발효 과정에서 투입되는 함수농축액은 건조 한주소금에 비하여 제조원가가 낮으며, 1회의 건조과정으로 고농도 GABA를 함유한 발효 정제염을 경제적으로 대량생산할 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00aa15f0ac646b0555341f7ecc07782666a89863ac9405268d76acfefb3a4f4cf301f0502ea1008dc262b98925e7f8cd118ee23fae1f8e327b</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf7c1ce390962eb41d29faac9edba96921b17bf3abd96d310d9319f2ada8cc8803011d09f7a8c8ba102ebcecab7528da6e8942c019836803b4</ThumbnailPath>
+				<SerialNumber>2</SerialNumber>
+				<InventionName>함수 농축액을 이용한 GABA 함유 발효 정제염의 제조방법</InventionName>
+				<InternationalpatentclassificationNumber>A23L 27/40|A23L 5/00|A23L 29/00|C02F 1/44</InternationalpatentclassificationNumber>
+				<OpeningDate>20201209</OpeningDate>
+				<OpeningNumber>1020200137156</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>공개</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)마린바이오프로세스</Applicant>
+				<ApplicationDate>20190530</ApplicationDate>
+				<ApplicationNumber>1020190063734</ApplicationNumber>
+				<Abstract>본 발명은 요오드 가바 소금 및 이의 제조방법에 관한 것으로, 더욱 상세하게는 소금의 성분중 인체에 유용한 가바 및 요오드를 함유하는 소금 및 이의 제조방법에 관한 것이다.  본 발명의 요오드 가바 소금의 제조방법은 (a) 다시마 추출 농축액을 제조하는 단계; (b) 상기 다시마 추출 농축액을 포함하는 배지에 유산균을 접종하고, 증식 배양시켜, 가바 및 요오드를 함유하는 유산균 발효 다시마 추출액을 제조하는 단계; (c) 상기 가바 및 요오드를 함유하는 유산균 발효 다시마 추출액에 정제염을 첨가하고, 후 발효하는 단계; (d) 후 발효 후 멸균, 여과 및 농축하여 정제염을 함유하는 유산균 발효 다시마 추출 농축액을 제조하는 단계; 및 (e) 상기 정제염을 함유하는 유산균 발효 다시마 추출 농축액의 건조를 통해 소금을 결정화하는 단계를 포함한다.  본 발명에 따른 발효소금은 인체에 유용하며 다양한 생리활성을 갖는 GABA 및 요오드를 함유하고 있으므로, 고혈압과 같은 대표적인 성인병 뿐 만 아니라 갑상선 기능 저하증 예방에 유용하다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00aa15f0ac646b0555341f7ecc07782666a89863ac9405268d7a002f042d17e6d739701b80065b96169a8e990d5442023e86306c9cd5499906</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf7c1ce390962eb41d29faac9edba96921b17bf3abd96d310dc81d22dd2f74cb0a79374e35d44c341adaa20ae087c6380aac07e9fa9b5653ae</ThumbnailPath>
+				<SerialNumber>3</SerialNumber>
+				<InventionName>요오드 가바 소금 및 이의 제조방법</InventionName>
+				<InternationalpatentclassificationNumber>A23L 27/40|A23L 17/60|A23L 17/00|A23L 5/00|A23L 33/10</InternationalpatentclassificationNumber>
+				<OpeningDate>20201209</OpeningDate>
+				<OpeningNumber>1020200137409</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>공개</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>국립부경대학교 산학협력단|(주)마린바이오프로세스</Applicant>
+				<ApplicationDate>20211206</ApplicationDate>
+				<ApplicationNumber>1020210173056</ApplicationNumber>
+				<Abstract>본 발명은 항콜레스테롤 활성을 갖는 락토바실러스 플란타룸 BJ21 균주(KCTC18911P) 또는 이의 배양물 및 이의 용도에 관한 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9358076c44ef23c6f7a6ff90f6930d09444cd0cde360dbd0013a446aec9a20e3864e61792c7c119112d6baedd53daddca36894dbf7292745aa</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf1a452232145a60d07e5e6b9a5a8202f874e75ceea893c8d1e550a05194d324a3187664a0067df04a7bfbe05af396140de183e140b0af3a07</ThumbnailPath>
+				<SerialNumber>4</SerialNumber>
+				<InventionName>항콜레스테롤 활성을 갖는 신규 락토바실러스 플란타룸 BJ21 균주 및 이의 용도</InventionName>
+				<InternationalpatentclassificationNumber>C12N 1/20|A23L 33/135|A23K 10/16|C12R 1/25</InternationalpatentclassificationNumber>
+				<OpeningDate>20230614</OpeningDate>
+				<OpeningNumber>1020230085274</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20240821</PublicDate>
+				<RegistrationDate>20240814</RegistrationDate>
+				<RegistrationNumber>1026966060000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>제주대학교 산학협력단|어업회사법인 주식회사 해천마|(주)마린바이오프로세스</Applicant>
+				<ApplicationDate>20170511</ApplicationDate>
+				<ApplicationNumber>1020170058908</ApplicationNumber>
+				<Abstract>본 발명은 HS(horse serum)로 분화 유도된 마우스 유래 근원세포(myoblast)인 C2C12에 세포독성을 보이지 않으면서 C2C12의 증식을 촉진하고, 근육 등에서의 에너지 저장 형태인 크레아틴인산 생성에 관여하는 세포 내 크레아틴 키나아제 활성을 증가시키며, 근육 수축에 필요한 ATP를 합성하는데 쓰이는 글리코겐의 레벨을 높일 뿐만 아니라, 근육 성장을 저해하는 인자인 p-Smad2/3과 Smad4의 발현을 억제하고, 근육 성장을 유도하는 인자인 p-Akt, p-FoxO 및 MyoD의 발현을 촉진하는 것으로 확인된, 빅벨리해마 알칼레이즈 가수분해물을 이용한 근육 성장 또는 운동 능력 개선용 조성물을 개시한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0035b31c4403f4097491243e12efd519fa76cad375886eda9662e6c5aa215bd291869b053a224c1ea81e57cc79d42cbf7d730c550abc2049ce</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfce767f8e9892aa2aa1a5e5a3fddb84c20c6470a4cdf0635918775dab036fb15fd20e88e65a2506d9ddc5a557e3c5617a30bd973f17f6ea3c</ThumbnailPath>
+				<SerialNumber>5</SerialNumber>
+				<InventionName>빅벨리해마 알칼레이즈 가수분해물을 이용한 근육 성장 또는 운동 능력 개선용 조성물</InventionName>
+				<InternationalpatentclassificationNumber>A23L 33/18|A61K 35/60</InternationalpatentclassificationNumber>
+				<OpeningDate>20181121</OpeningDate>
+				<OpeningNumber>1020180124426</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20190819</PublicDate>
+				<RegistrationDate>20190812</RegistrationDate>
+				<RegistrationNumber>1020117470000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)마린바이오프로세스</Applicant>
+				<ApplicationDate>20080904</ApplicationDate>
+				<ApplicationNumber>1020080087219</ApplicationNumber>
+				<Abstract>본 발명은 (1) 해조류를 120~125℃에서 15~30분간 고온가압멸균하여 배지를 준비하는 단계; (2) 상기 배지에 유산균과 효모 중 적어도 하나의 미생물을 접종하고 미생물에 따라 호기 또는 혐기 조건에서 발효시켜 글루타메이트의 GABA (gamma aminobutyric acid)로의 전환과 해조 다당류의 단당류와 올리고당으로의 분해를 유도하는 단계; (3) 발효산물을 120~125℃에서 15~30분간 고온가압멸균하는 단계를 포함하는 해조류 발효산물의 제조방법, 그 제조방법에 의해 수득한 해조류 발효산물, 상기 해조류 발효산물의 발효액을 조미료로 제조하는 방법과 그 제조방법에 의해 수득한 해조류 발효조미료, 상기 해조류 발효산물의 발효잔사를 해조류 발효 분말로 제조하는 방법과 그 제조방법에 의해 수득한 해조류 발효분말에 관한 것이다.  본 발명에 의하면, 천연의 글루타메이트를 주원료로 이용하여 GABA를 생산할 수 있으므로 종래 기술인 MSG(Mono Sodium Glutamate)를 주원료로 이용하여 GABA를 생산하는 경우 GABA로 전환되지 않고 잔류하는 MSG로 인한 문제를 극복할 수 있고, 또한, 종래의 기술인 해조류의 추출액만을 이용하는 것과는 달리 해조류 전체를 이용하고 이를 고온가압멸균 및 발효시키는 과정에서 해조류로부터 지속적으로 글루타메이트가 추출되어 고 수율의 GABA를 수...(이하생략)</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726135e347feb815cba897afed3d8256c760b0ef8e25a346804e3dd9e81dd908bf4dc91c873aceb8fd9f67562dc4fe0068ea84c8714d7391da1</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf07178f2d8c3142313f519ebfe480111e289cdae4ed326f9d8e5d96bdaecef59a806b55e180d8b9e9a9e6cf3ddcb1dd362d35850840bc9187</ThumbnailPath>
+				<SerialNumber>6</SerialNumber>
+				<InventionName>해조류의 발효에 의한 GABA의 제조방법</InventionName>
+				<InternationalpatentclassificationNumber>C12P 13/04|C12P 1/02</InternationalpatentclassificationNumber>
+				<OpeningDate>20100312</OpeningDate>
+				<OpeningNumber>1020100028265</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20110825</PublicDate>
+				<RegistrationDate>20110819</RegistrationDate>
+				<RegistrationNumber>1010594820000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)마린바이오프로세스</Applicant>
+				<ApplicationDate>20210602</ApplicationDate>
+				<ApplicationNumber>1020210071575</ApplicationNumber>
+				<Abstract>본 발명은 발효 굴 추출물을 포함하는 키 성장 촉진용 조성물에 관한 것으로, 천연 소재인 굴을 이용하여, 미생물 발효공정을 통해 장기간 복용 시에도 부작용의 문제가 발생하지 않고, 성장기의 어린이에 대한, 성장판의 자극 및 키 성장을 촉진할 수 있다.  또한, 발효 굴 추출물을 포함하는 키 성장 촉진용 조성물을 포함하는 기능성 식품 조성물 및 약학 조성물로 제공될 수 있다.</Abstract>
+				<DrawingPath></DrawingPath>
+				<ThumbnailPath></ThumbnailPath>
+				<SerialNumber>7</SerialNumber>
+				<InventionName>발효 굴 추출물을 포함하는 키 성장 촉진용 발효 조성물</InventionName>
+				<InternationalpatentclassificationNumber>A61K 35/618|A61P 43/00|A23L 33/10</InternationalpatentclassificationNumber>
+				<OpeningDate>20220517</OpeningDate>
+				<OpeningNumber>1020220063699</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20240625</PublicDate>
+				<RegistrationDate>20240620</RegistrationDate>
+				<RegistrationNumber>1026782970000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)마린바이오프로세스</Applicant>
+				<ApplicationDate>20221026</ApplicationDate>
+				<ApplicationNumber>1020220139167</ApplicationNumber>
+				<Abstract>본 발명은 락토바실러스 브레비스(Lactobacillus brevis) BJ-20(KCTC11377BP) 및 락토바실러스 플란타룸(Lactobacillus plantarum) BJ-21을 이용하여 MSG(mono sodium glutamate), L-글루타믹산(L-glutamic acid) 또는 이들의 혼합물, 고분자 콜라겐 및 대두박 추출물을 다단계 발효하여 제조되는 갱년기 증상 완화용 기능성 식품 조성물 및 이의 제조방법을 제공하는 것으로, 상기 기능성 식품 조성물은 향상된 갱년기 증상 완화효과를 나타낼 수 있다.</Abstract>
+				<DrawingPath></DrawingPath>
+				<ThumbnailPath></ThumbnailPath>
+				<SerialNumber>8</SerialNumber>
+				<InventionName>락토바실러스 브레비스(Lactobacillus brevis) BJ-20(KCTC11377BP) 및 락토바실러스 플란타룸(Lactobacillus plantarum) BJ-21을 이용하여 다단계 발효하여 제조되는 갱년기 증상 완화용 기능성 식품 조성물 및 이의 제조방법</InventionName>
+				<InternationalpatentclassificationNumber>A23L 33/135|A23L 33/175|A23L 27/22|A23L 29/281|A23L 27/24|C12N 1/20|A23L 29/30|A23L 31/15|A23L 13/30|A23L 29/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20240507</OpeningDate>
+				<OpeningNumber>1020240059014</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>공개</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)마린바이오프로세스|가천대학교 산학협력단</Applicant>
+				<ApplicationDate>20181127</ApplicationDate>
+				<ApplicationNumber>1020180148814</ApplicationNumber>
+				<Abstract>본 발명은 과립제형 가바소금 및 이의 제조방법에 관한 것으로, 더욱 상세하게는 고혈압 및 혈전형성 예방용 과립제형 가바소금 및 이의 제조방법에 관한 것이다.  상기 고혈압 및 혈전형성 예방용 과립제형 가바소금은 가바(GABA)를 0.3~1중량% 함유하고, 210~250㎛ 입도이며, 20℃, 상대습도 80% 조건에서 24시간 방치 후 측정된 수분함량이 2% 미만인 것을 특징으로 한다.  본 발명에 따른 과립제형 가바소금은 결착유도제의 첨가 없이 정제염과 가바(GABA)만을 이용하여 과립제형을 완성함으로써 고혈압 및 혈전형성 예방용 Natural Colour Food를 실현하였다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93e573586f14dc226d551a321262a1dcf9ce7708b97025709475fd6988522ee9d48bd2179080c9e5c938885e6cb1ea49be38680f88c20b0fc4</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf2a63a52cf35aaabc51487258fe3fa05612de7255d5cdb2c62518e4d65c75441fac261bd0ee4035403be31af4f259a627f1a5b72d50dd8bba</ThumbnailPath>
+				<SerialNumber>9</SerialNumber>
+				<InventionName>고혈압 및 혈전형성 예방용 과립제형 가바소금 및 이의 제조방법</InventionName>
+				<InternationalpatentclassificationNumber>A23L 27/40|A23P 10/25|A23L 29/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20200604</OpeningDate>
+				<OpeningNumber>1020200062882</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20210217</PublicDate>
+				<RegistrationDate>20210209</RegistrationDate>
+				<RegistrationNumber>1022165930000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)마린바이오프로세스|가천대학교 산학협력단</Applicant>
+				<ApplicationDate>20181127</ApplicationDate>
+				<ApplicationNumber>1020180148813</ApplicationNumber>
+				<Abstract>본 발명은 과립제형 건강소금 및 이의 제조방법에 관한 것으로, 더욱 상세하게는 천연색소 및 기능성 성분을 함유하고 있는 천연 농수산물 원료와 소금을 결착제 사용없이 과립화시킨 과립제형 건강소금 및 이의 제조방법에 관한 것이다.  상기 과립제형 건강소금은 천연 농수산 원료 및 소금으로 구성되고, 210-250㎛ 입도이며, 20℃, 상대습도 80% 조건에서 24시간 방치 후 측정된 수분함량이 2% 미만인 것을 특징으로 한다.  본 발명에 따른 과립제형 건강소금은 결착유도제의 첨가 없이 정제염과 천연소재만을 이용하여 과립제형을 완성함으로써 천연 무첨가를 표방하는 Natural Colour Food를 실현하였다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93173282656019715190f1a477a65242d603731ec5141e4be2092ccf591f8d7a0c4265e1055b3dfa2c5916b4d2f8f5b6f3f4b48c215c183526</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfb8b51d73525b11f97d3cc7730877e69f0381b585ef036111d05b26e07adee0c791f7202232024c3e695f0e029a2838d28aa1b5c68da21ff2</ThumbnailPath>
+				<SerialNumber>10</SerialNumber>
+				<InventionName>과립제형 건강소금 및 이의 제조방법</InventionName>
+				<InternationalpatentclassificationNumber>A23L 27/40|A23P 10/22|A23P 10/28</InternationalpatentclassificationNumber>
+				<OpeningDate>20200604</OpeningDate>
+				<OpeningNumber>1020200062881</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20210413</PublicDate>
+				<RegistrationDate>20210407</RegistrationDate>
+				<RegistrationNumber>1022396620000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)마린바이오프로세스</Applicant>
+				<ApplicationDate>20220603</ApplicationDate>
+				<ApplicationNumber>1020220068372</ApplicationNumber>
+				<Abstract>본 발명은 쌀눈 효소분해물을 주발효원으로 하는 배지에서, 락토바실러스 브레비스(Lactobacillus brevis) BJ-20(KCTC11377BP) 및 락토바실러스 플란타룸(Lactobacillus plantarum) BJ-21(KCTC18911P)을 이용한 다단발효 공정 통하여 수득되는 고농도 가바(GABA) 함유 배양액 조성물의 제조방법을 제공한다.  또한, 본 발명에서 상기 제조 방법에 따라 제조된 고농도 가바(GABA) 함유 배양액 조성물은 스트레스로 인한 긴장 완화 및 수면활동 개선 효과가 현저히 우수하다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93fbd79de932337f30952e84dddaa9fb596381d763e95c72cb32a00b3895a2e2adf55e7e7c78cb2b65518d22a6adc5b166669dac38436e1582</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf0b9d276c0508159e2f726a5336674eadf0ba53210ce96c24284b62f6bf39d79630d0737edbb78de38a14436eaa718a710bf41a3835519f6d</ThumbnailPath>
+				<SerialNumber>11</SerialNumber>
+				<InventionName>고농도 가바(GABA) 함유 배양액 조성물의 제조방법 및 이의 용도</InventionName>
+				<InternationalpatentclassificationNumber>C12P 13/00|C12N 1/20</InternationalpatentclassificationNumber>
+				<OpeningDate>20231212</OpeningDate>
+				<OpeningNumber>1020230168006</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>공개</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)마린바이오프로세스</Applicant>
+				<ApplicationDate>20091230</ApplicationDate>
+				<ApplicationNumber>1020090134558</ApplicationNumber>
+				<Abstract>본 발명은 효모 엑기스, 해조류 또는 이들의 혼합물을 주원료로 사용하여 발효함으로써, 고농도의 GABA 및 해조올리고당을 비롯한 해조미네랄 등을 함유하는 기능성 발효소재 및 그의 제조방법에 관한 것으로, 보다 구체적으로는 GABA의 생성능 및 비린내의 제거에 우수한 발효 미생물들을 사용하여 효모엑기스, 해조류 또는 이들을 혼합하여 발효함으로써 고농도의 천연 GABA 및 해조올리고당을 비롯한 해조 미네랄과 후코이단 유래의 후코즈 등을 다량으로 함유하는 기능성 발효소재에 관한 것이다.  효모엑기스, 해조류, 발효, GABA, 해조올리고당</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726b413723b1089d8fa540daa11600123f250de6ee62c56b554935ebe2178a5d4241782be2ab1aeb11d13251e4b831bdbb0ee34e72f53fdf132</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfea2a3b08303601632d2ba6f3f1faf129af828ded9b15be7f728bf0c9197a93ba8bf470e82a4823076c9202dd03b1bfb68bc9b40710344fce</ThumbnailPath>
+				<SerialNumber>12</SerialNumber>
+				<InventionName>효모 엑기스를 이용한 고농도의 천연 GABA를 함유하는 기능성 발효소재 및 그의 제조방법</InventionName>
+				<InternationalpatentclassificationNumber>C12P 13/00|A23L 33/10|A23L 17/60</InternationalpatentclassificationNumber>
+				<OpeningDate>20110707</OpeningDate>
+				<OpeningNumber>1020110077882</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20120620</PublicDate>
+				<RegistrationDate>20120614</RegistrationDate>
+				<RegistrationNumber>1011584480000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)마린바이오프로세스|(주)필로스</Applicant>
+				<ApplicationDate>20070928</ApplicationDate>
+				<ApplicationNumber>1020070097738</ApplicationNumber>
+				<Abstract>본 발명은 미세조류 또는 미생물이 생물(alive)상태에서의 활성을 그대로 유지되도록하여 이들 세포의 물성변화를 방지함으로서, 수산양식용 생물먹이사료, 관상어 및 애완용 동물의 먹이, 기능성 식품 및 향장 소재로 이용되는 미세조류 또는 미생물을 경제적으로 수확할 수 있는 분리 농축장치에 관한 것이다.  본 발명은 외측하부의 공급관(40)에 공급밸브(22)와 유량조절밸브(20)가 결합되고 각종 미세조류나 미생물을 배양하는 배양조(1)와;  내측에 제1차 침지형 분리막 모듈(7)이 설치되고, 제1차 침지형 분리막 모듈(7)의 저면에는 자흡식 펌프(18)와 연결되는 이송관(41)이 배관되며, 이송관(41)의 하측에는 에어블로워(11)로부터 공급되는 공기를 분사하고 공기제어밸브(23)가 결합된 산기관(9)이 설치되고, 외측하부의 공급관(42)에 공급밸브(26)와 유량조절밸브(21)가 결합된 제1차 농축조(5)와;  내측에 제2차 침지형 분리막 모듈(8)이 설치되고, 제2차 침지형 분리막 모듈(8)의 저면에는 이송관(41)과 연결되는 보조이송관(44)이 결합되며, 보조이송관(44)의 하측에는 에어블로워(11)로부터 공급되는 공기를 분사하고 공기제어밸브(24)가 결합된 산기관(10)이 설치되고, 외측하부의 배출관(45)에 드레인밸브(27)가 결합된 제2차 농축조(6)와;  주입밸브(25)가 결합된 주입관(46...(이하생략)</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9cf44e6e9608087f40e7c633f439d4a3c678d0d92569c58f5b146ced5dcce5aabd</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe484b73ac8e410bb221e725f7220043262159dcb709537d3145b822501f0515492</ThumbnailPath>
+				<SerialNumber>13</SerialNumber>
+				<InventionName>미세조류 및 미생물 분리 농축장치</InventionName>
+				<InternationalpatentclassificationNumber>C12M 1/00|C12M 1/12|C12M 3/00</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20090316</PublicDate>
+				<RegistrationDate>20090310</RegistrationDate>
+				<RegistrationNumber>1008888970000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>국립부경대학교 산학협력단|(주)마린바이오프로세스</Applicant>
+				<ApplicationDate>20090112</ApplicationDate>
+				<ApplicationNumber>1020090002197</ApplicationNumber>
+				<Abstract>본 발명은 다시마 발효추출액을 이용한 다시마 마늘 고추장 제조방법 및 상기 방법에 의해 제조된 다시마 마늘 고추장에 관한 것으로서, 보다 구체적으로는, 다시마에서 유래되는 천연의 글루탐산(glutamic acid)과 유산균에 의한 최적의 발효시스템을 통하여 글루탐산으로부터 전환된 다량의 GABA성분 및 발효과정에서 고분자 기능성 해조다당류의 저분자화를 통한 해조류 유래의 기능성 저분자 올리고당을 동시에 함유하는 다시마 발효추출액을 이용한 다시마 마늘 고추장을 제조하는 방법 및 상기 방법에 의해 제조된 다시마 마늘 고추장에 관한 것이다.  상기 본 발명에 따른 다시마 마늘 고추장은 갯 비린내 같은 해조취가 완전히 제거될 뿐만 아니라, 해조류 유래의 기능성 올리고당을 함유함과 동시에, 비단백질성 아미노산인 GABA성분을 함유함으로써 기능성 올리고당의 항균, 항산화, 항바이러스, 항암활성과 GABA의 동맥경화, 심근경색, 고혈압, 협심증, 뇌졸중 등의 성인병 예방과 관련된 생리활성 효과를 가진다.  다시마 발효추출액, 다시마 마늘고추장, GABA, 기능성 올리고당, 유산균</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf7263313d3f56e43fa4bae45ab03fd2cd6fb152c68974382a53161f94f1dea87e531f37788ce808d4ecd6ecdcb4f5b0fab0cfd131a8c8c291b2d</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfd63cc3a26a695aa393bf5e2c178f8d768efaa7081e7e3a5115b30c5c6db4c33b53c2f0a2df532e3c9bf9a91a28b1ba33499788421e25d1f5</ThumbnailPath>
+				<SerialNumber>14</SerialNumber>
+				<InventionName>다시마 마늘 고추장 제조방법 및 이에 의해 제조된 다시마 마늘 고추장</InventionName>
+				<InternationalpatentclassificationNumber>A23L 27/10|A23L 17/60|A23L 33/105|A23L 19/00|A23L 11/50|A23L 11/00|A23L 7/104|A23L 5/30</InternationalpatentclassificationNumber>
+				<OpeningDate>20100721</OpeningDate>
+				<OpeningNumber>1020100082912</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20110921</PublicDate>
+				<RegistrationDate>20110915</RegistrationDate>
+				<RegistrationNumber>1010663950000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>국립부경대학교 산학협력단|(주)마린바이오프로세스</Applicant>
+				<ApplicationDate>20100323</ApplicationDate>
+				<ApplicationNumber>1020100025806</ApplicationNumber>
+				<Abstract>본 발명은 다시마를 발효 균주로 발효하는 단계를 포함하는 다시마 발효분말을 제조하는 방법에 있어서, 상기 다시마를 10 내지 30 중량%로 함유하는 것을 특징으로 다시마 발효분말의 제조방법에 관한 것으로, 본 발명의 제조방법에 의해 수용성 및 비수용성 다시마 발효분말을 동시에 생산 가능하여 간소화된 제조공정을 통해 생산성과 수율이 높은 발효분말 및 발효환을 얻을 수 있으며, 이러한 제조방법에 의해 제조된 다시마 발효분말은 항산화, 숙취해소 및 간기능개선에 효능을 나타낸다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726ed41e9de6f031d24aab67794cafcddd33cea2d3a9ae0ec5628a2e604f808a48df93e49c059b2d732270eb401619eb988bff359a4870156d0</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf9ff78bcec48355411fc1c02474271f944f2d894cbe9830efdc3f46a47dba66270d7000541af506cad286c21c624d284e919b949a5261adc0</ThumbnailPath>
+				<SerialNumber>15</SerialNumber>
+				<InventionName>유산균 발효공법을 이용한 기능성 다시마 발효분말 및 그의 제조방법</InventionName>
+				<InternationalpatentclassificationNumber>A23L 17/60|A23L 33/105</InternationalpatentclassificationNumber>
+				<OpeningDate>20110929</OpeningDate>
+				<OpeningNumber>1020110106640</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)마린바이오프로세스</Applicant>
+				<ApplicationDate>20201204</ApplicationDate>
+				<ApplicationNumber>1020200168588</ApplicationNumber>
+				<Abstract>본 발명은 고농도 가바(GABA) 함유 유산균 배양액 및 이의 제조방법에 관한 것이다.  본 발명의 고농도 가바(GABA) 함유 유산균 배양액의 제조방법은 (a) 쌀눈 효소분해물을 포함하는 배지를 제조하는 단계; (b) 상기 배지에 MSG(Mono Sodium Glutamate) 및 L-글루탐산(L-glutamic acid)을 첨가하는 단계; 및 (c) 락토바실러스 브레비스(Lactobacillus brevis) 균주를 접종하고, 배양하여 발효시키는 단계를 포함한다.  본 발명에 의하여 수득된 고농도 가바(GABA) 함유 유산균 배양액은 쌀눈 효소분해물이 배지에 주발효원으로 포함되어 다양한 영양성분을 함유하고 있어 영양학적으로 매우 우수하다. 또한, 유산균이 보유하고 있는 글루타메이트 디카르복실라아제(Glutamate decarboxylase)에 의해 MSG(Mono Sodium Glutamate) 및 L-글루탐산(L-glutamic acid)이 가바(GABA)로 전환되어 고농도의 가바(GABA)를 제조할 수 있으며, 기존에 개발된 가바(GABA) 함유 제품 대비 가바(GABA) 함량이 월등하게 높다. 뿐만 아니라 최종적으로 적용되는 제품에 따라 용해성 및 비용해성 소재로 모두 이용될 수 있으며, 액상 및 분말 소재로 모두 적용이 가능하다.</Abstract>
+				<DrawingPath></DrawingPath>
+				<ThumbnailPath></ThumbnailPath>
+				<SerialNumber>16</SerialNumber>
+				<InventionName>고농도 가바(GABA) 함유 유산균 배양액 및 이의 제조방법</InventionName>
+				<InternationalpatentclassificationNumber>C12N 1/20|C12P 13/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20220613</OpeningDate>
+				<OpeningNumber>1020220079129</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20231108</PublicDate>
+				<RegistrationDate>20231103</RegistrationDate>
+				<RegistrationNumber>1025999560000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)마린바이오프로세스</Applicant>
+				<ApplicationDate>20150827</ApplicationDate>
+				<ApplicationNumber>1020150120974</ApplicationNumber>
+				<Abstract>본 발명은 GABA가 함유된 발효소금 및 이의 제조방법에 관한 것으로, 더욱 상세하게는 소금의 성분중 인체에 유용한 GABA를 함유한 발효소금 및 이의 제조방법에 관한 것이다.  본 발명에 따른 GABA를 함유한 발효소금의 제조방법은 (a) 글루타메이트를 포함하는 배지에 유산균을 접종하고, 증식 배양시키는 단계; (b) 유산균이 배양된 배지에 소금을 첨가한 후, 재 배양시키는 단계; (c) 재 배양된 배지를 여과시키는 단계; 및 (d) 여과된 배양액을 건조시켜 소금을 회수하는 단계를 포함한다.  본 발명에 따른 발효소금은 인체에 유용하며 다양한 생리활성을 갖는 GABA를 포함하고 있으므로, 고혈압과 같은 대표적인 성인병 예방에 유용하다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0066383e46c4bcfbf77484ef9e0f611274bbafabcd09ef285b56634aa82b0e4ecc313db37d6dd3d0b8ac4e89c44248b8aa804b0241316171cf</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf2eff8d24c43a56d9ddb4295350fd4826850b7e45dfcf7515bb3bb09ccc4cf99cf25fe0d205d3329ff4a16e7deda01dce40e2503522736670</ThumbnailPath>
+				<SerialNumber>17</SerialNumber>
+				<InventionName>GABA를 함유한 발효소금 및 이의 제조방법</InventionName>
+				<InternationalpatentclassificationNumber>A23L 27/40|A23L 29/00|C12N 1/20|C12P 13/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20170308</OpeningDate>
+				<OpeningNumber>1020170025075</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20170726</PublicDate>
+				<RegistrationDate>20170720</RegistrationDate>
+				<RegistrationNumber>1017617100000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)마린바이오프로세스</Applicant>
+				<ApplicationDate>20180615</ApplicationDate>
+				<ApplicationNumber>1020180069112</ApplicationNumber>
+				<Abstract>본 발명의 굴을 이용한 기능성 발효물을 포함하는 근육 질환 예방 및 치료용, 또는 근 기능 개선용 조성물에 의하면, 굴을 발효시킨, 굴 발효물로부터 추출한 발효 추출물을 포함하며, 상기 발효 추출물은 근감소증의 예방 또는 치료 효과가 우수하며, 근육세포의 미토콘드리아 대사 및 당 대사 작용을 활성화시켜 운동 수행 능력을 향상시킬 수 있다.  또한, 굴을 이용하여, 다량의 타우린, 비타민, 천연 GABA(gamma-aminobutyric Acid) 및 올리고당을 함유한 근육 질환 예방 및 치료용, 또는 근 기능 개선용 조성물을 제공할 수 있다.  또한, 근육세포의 미토콘드리아 대사와 당 대사 작용을 활성화시켜 ATP 함량을 증가시켜, 운동 수행 능력을 향상시킬 수 있고, 근감소증의 예방 및 억제 효과가 우수하고, 근 기능을 향상시킬 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00bb9052654a38599e1755e00811dccd8c9f1e23b1f89fb1d1e77373755df6de5b21fd0a8764d050beeaa9860e4af59ff1204f9e2f914c2280</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf3873e750612cd0da2f9cba1c08c24e814b2a0b6cf92b336e37edc3073292a6b6f3fbdcbed755f3164a0f4891f94fa47685a6d51c9b6089c9</ThumbnailPath>
+				<SerialNumber>18</SerialNumber>
+				<InventionName>굴을 이용한 기능성 발효물을 포함하는 근육 질환 예방 및 치료용, 또는 근 기능 개선용 조성물</InventionName>
+				<InternationalpatentclassificationNumber>A61K 35/618|A61K 31/185|A61K 31/197|A23L 33/10|A61P 21/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20191226</OpeningDate>
+				<OpeningNumber>1020190142058</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20200722</PublicDate>
+				<RegistrationDate>20200716</RegistrationDate>
+				<RegistrationNumber>1021368860000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)마린바이오프로세스</Applicant>
+				<ApplicationDate>20150827</ApplicationDate>
+				<ApplicationNumber>1020150120975</ApplicationNumber>
+				<Abstract>본 발명은 GABA를 함유하고 나트륨이 저감된 발효소금 및 이의 제조방법에 관한 것으로, 더욱 상세하게는 소금의 성분중 인체에 유용한 GABA를 함유하고, 인체에 유해한 나트륨을 저감시킨 미생물 발효소금 및 이의 제조방법에 관한 것이다.  본 발명에 따른 GABA를 함유하고 나트륨이 저감된 발효소금의 제조방법은 (a) 글루타메이트를 포함하는 배지에 유산균을 접종하고, 증식 배양시키는 단계; (b) 유산균이 배양된 배지에 소금을 첨가한 후, 재 배양시키는 단계; (c) 재 배양된 배지를 여과시키는 단계; 및 (d) 여과된 배양액을 건조시켜 소금을 회수하는 단계를 포함한다.  본 발명에 따른 발효소금은 인체에 유해한 나트륨은 저감되고, 다양한 생리활성을 갖는 GABA를 포함하고 있으므로, 고혈압과 같은 대표적인 성인병 예방에 유용하다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0066383e46c4bcfbf77484ef9e0f611274bbafabcd09ef285b56634aa82b0e4ecc1f6ca09ac919a4a6c22b7c6ec2de430d989f411d47f9883c</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf2eff8d24c43a56d9ddb4295350fd4826850b7e45dfcf7515bb3bb09ccc4cf99cdd8e57e6132fafa1ee5eafec8ba911b66da184b0c35abe63</ThumbnailPath>
+				<SerialNumber>19</SerialNumber>
+				<InventionName>GABA를 함유하고 나트륨이 저감된 발효소금 및 이의 제조방법</InventionName>
+				<InternationalpatentclassificationNumber>A23L 27/40|A23L 29/00|C12N 1/20|C12P 13/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20170308</OpeningDate>
+				<OpeningNumber>1020170025076</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20170726</PublicDate>
+				<RegistrationDate>20170720</RegistrationDate>
+				<RegistrationNumber>1017617110000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)마린바이오프로세스</Applicant>
+				<ApplicationDate>20200728</ApplicationDate>
+				<ApplicationNumber>1020200093503</ApplicationNumber>
+				<Abstract>본 발명은 생 유산균을 함유하는 가바(GABA) 소금 및 이의 제조방법에 관한 것이다.  본 발명의 생 유산균을 함유하는 가바(GABA) 소금의 제조방법은 (a) 락토바실러스 브레비스(Lactobacillus brevis) 균주를 이용하여 20~80% 농도의 GABA 용액을 제조하는 단계; (b) 유산균을 배양하는 단계; (c) 상기 20~80% 농도의 GABA 용액 및 유산균 배양액에 소금을 첨가하고, 발효시키는 단계; 및 (d) 발효된 소금을 분무건조하는 단계를 포한다.  본 발명은 고농도의 가바(GABA) 및 락토바실러스 브레비스(lacto bacillus brevis)와 유산균의 배양액에 함유된 유익한 생리활성물질을 소금에 함유시켜 건강기능성 및 관능을 향상시킨 뛰어난 효과가 있다. 특히, 소금에 함유된 유산균이 살아있어 발효식품에 사용하였을 경우 활성화된 유산균이 발효를 향상시키며, 식품 속 글루타메이트를 이용하여 추가적으로 GABA를 생성시킬 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93feaefeef33c5853ad044dc46cc016b0dceaace4f7df8c61bcda04ba033e275f0de56924b4d42ce85bac71df076fc87aba06da9cb2c9d5bb9</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cff6cfe4bd5efa3bf2ce3d4233b066ffb39e7dfddc23252b9b9002589abdd5fa88e6f280625cb1005da15874c2f8b483c0ea027d82f1d81d81</ThumbnailPath>
+				<SerialNumber>20</SerialNumber>
+				<InventionName>생 유산균을 함유하는 가바(GABA) 소금 및 이의 제조방법</InventionName>
+				<InternationalpatentclassificationNumber>A23L 27/40|A23L 29/00|A23L 3/46|A23L 33/135|C12N 1/20</InternationalpatentclassificationNumber>
+				<OpeningDate>20220204</OpeningDate>
+				<OpeningNumber>1020220013990</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20230711</PublicDate>
+				<RegistrationDate>20230706</RegistrationDate>
+				<RegistrationNumber>1025543070000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 제이 엔 에스 텍|(주)마린바이오프로세스</Applicant>
+				<ApplicationDate>20140313</ApplicationDate>
+				<ApplicationNumber>1020140029567</ApplicationNumber>
+				<Abstract>본 발명은 소금의 맛은 그대로 살리고, 유해한 성분인 나트륨이 저감된 소금을 제공하기 위한 것으로, 미생물을 증식 배양시키는 단계와;상기 배양된 미생물이 투입된 배지에 소금액을 투입하는 단계와; 소금액이 투입된 상태에서 상기 미생물을 재차 배양발효하여 소금액상에 존재하는 나트륨을 제거하는 단계;와 상기 재차 배양된 배양발효액을 미세망에 여과하여 미생물을 제거하는 단계;그리고 여과된 배양액을 건조시켜 소금을 회수하는 단계;로 이루어져, 상기 소금액이 투입된 상태에서 미생물의 배양발효과정중에 소금액의 나트륨을 섭취함으로써 나트륨이 저감된 소금이 이루어지는 것을 기술적 특징으로 한다. 그리고, 바람직 하기로는 상기 미생물은 전통 장류식품 유래인 아스퍼질러스 오리지에(Aspergillus oryzae) 또는 바실러스 서브틸리스(Bacillus subtilis)이거나, 이들 미생물의 혼합으로 이루어지도록 한다. 본 발명에 따르면, 소금 자체의 풍미는 그대로 살리고, 인체에 유해한 나트륨 성분이 저감되었으므로 보다 건강한 소금을 제공할 수 있는 효과가 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0084576606ad73bd0fd217e59691b73410cf9d9b28a8841273c8ee96dcae555ffb65370c10de914879bf109389fd694fc3d6ede7371687dc27</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfff3abad612ad9f4f6ee3d703a4bbe97c1cb45a4ff689d27cbc78f283726a8ebd33643ba1bd0299f7770dd351db6fc8f9590b167b2f86d8e9</ThumbnailPath>
+				<SerialNumber>21</SerialNumber>
+				<InventionName>전통 장류식품 미생물을 이용한 소금의 나트륨 제거방법 및 이에 의해 생산된 소금</InventionName>
+				<InternationalpatentclassificationNumber>A23L 27/40|A23L 5/20|C12N 1/20</InternationalpatentclassificationNumber>
+				<OpeningDate>20140924</OpeningDate>
+				<OpeningNumber>1020140113452</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20160321</PublicDate>
+				<RegistrationDate>20160315</RegistrationDate>
+				<RegistrationNumber>1016050690000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)마린바이오프로세스</Applicant>
+				<ApplicationDate>20181126</ApplicationDate>
+				<ApplicationNumber>1020180147855</ApplicationNumber>
+				<Abstract>본 발명은 숙취해소 및 요오드결핍 개선용 한천젤리의 제조방법에 관한 것으로 숙취 해소, 기억력 개선 및 혈압 개선 등 기능성 GABA(gamma amino butyric acid)를 함유하고 요오드결핍을 개선하는 다시마발효추출물이 첨가된 복합기능성의 한천젤리의 제조방법에 관한 것으로 보다 상세하게는 한천을 물에 용해하는 단계, 한천이 용해된 용액에 부재료를 첨가하고 가열하는 단계, 부재료가 첨가된 한천 용액에 한천 젤리의 관능적 맛과 기능성을 향상시키기 위하여 과즙과 기능성 GABA를 함유하는 소재를 첨가하고 겔화하는 단계, 겔화시켜 절단한 다음 덧가루를 바르고 건조하는 단계를 포함한다.  본 발명의 한천 젤리는 한천과 부재료 이외에 과즙과 기능성 GABA가 포함되어 있어 관능성 및 건강기능성이 향상된 한천젤리를 제조하여 어린아이들의 간식뿐만 아니라 건강식품으로 제공하고자 한다. 또한 본 발명의 한천젤리는 섭취가 간편할 뿐만 아니라 휴대가 용이하므로, 남녀노소 누구나 시간과 장소에 구애받지 않고 간편하게 섭취할 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00baa4b9fefea964ae0c834dd19c54d1bd6a2b8a183cc8bc012ae9b54219198786944e9261c12ad52ab046ab1abf9ab205465430eb99282451</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf760177dbaaaed41d9681538b92bb8a12141e384dac41bf2b683d37e6076af282f4cb95cf4b5aa82777222e5987624c7a2d7ac973a28a605b</ThumbnailPath>
+				<SerialNumber>22</SerialNumber>
+				<InventionName>숙취해소 및 요오드결핍 개선용 한천젤리의 제조방법</InventionName>
+				<InternationalpatentclassificationNumber>A23L 21/10|A23L 33/105|A23L 29/256|A23L 17/60</InternationalpatentclassificationNumber>
+				<OpeningDate>20200603</OpeningDate>
+				<OpeningNumber>1020200061963</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>취하</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)마린바이오프로세스|김병진</Applicant>
+				<ApplicationDate>20080903</ApplicationDate>
+				<ApplicationNumber>1020080086611</ApplicationNumber>
+				<Abstract>본 발명은 (1) 다시마를 고온가압멸균하여 다시마로부터 기능성 다당류(fucoidan 등)와 해조류 유래의 생리활성물질을 비롯한 글루탐산을 추출해서 배지를 준비하는 단계; (2) 상기 배지에 효모를 접종하여 발효시켜 다시마의 이취와 이미를 제거하고, 후코이단 등의 해조 다당류를 저분자화함으로써 후코즈(fucose)와 같은 단당류와 올리고당을 생성하는 단계; (3) 발효산물을 고온가압멸균하여 효모에 함유된 정미성분인 핵산을 추출하는 단계를 포함하는 다시마 발효산물의 제조방법, 그 제조방법에 의해 수득한 다시마 발효산물, 상기 다시마 발효산물의 발효액을 조미료로 제조하는 방법과 그 제조방법에 의해 수득한 다시마 발효 조미료, 상기 다시마 발효산물의 발효잔사를 다시마 발효 분말로 제조하는 방법과 그 제조방법에 의해 수득한 다시마 발효분말에 관한 것이다.  다시마, 효모, 글루탐산, 조미료, 발효 분말</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf72614848e28aeb784a072a93a3418d5e4a2119666f05f0992801f663842cc6cf4911f27f0bf9c874a074f388c0c481a0592c45a5b47f97a4d4b</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfbc8105328ef2eadeb928c877bba59c3bde2d647160c88e3c3f900e0cd63931531b9610b92f8df1532de7b5deb2a683390cbb9c4132ff58d3</ThumbnailPath>
+				<SerialNumber>23</SerialNumber>
+				<InventionName>효모에 의한 다시마 발효산물로부터 기능성 천연 발효조미료와 다시마 발효분말 및 그의 제조방법</InventionName>
+				<InternationalpatentclassificationNumber>A23L 27/24|A23L 27/10|A23L 17/60</InternationalpatentclassificationNumber>
+				<OpeningDate>20100311</OpeningDate>
+				<OpeningNumber>1020100027621</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20110830</PublicDate>
+				<RegistrationDate>20110824</RegistrationDate>
+				<RegistrationNumber>1010605140000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)마린바이오프로세스|김병진</Applicant>
+				<ApplicationDate>20080903</ApplicationDate>
+				<ApplicationNumber>1020080086608</ApplicationNumber>
+				<Abstract>본 발명은 (1) 다시마와 물을 혼합하여 저온 추출하는 단계; (2) 다시마의 추출물을 여과하여 다시마 추출액을 분리하는 단계; (3) 다시마 추출액을 정밀여과하는 단계; (4) 정밀여과된 다시마 추출액을 고온가압멸균하는 단계; (5) 고온가압멸균된 다시마 추출액에 효모를 접종하고 발효하여 해조취 등의 이미, 이취를 제거하고 후코이단(fucoidan) 등의 해조 다당류를 저분자화함으로써 후코즈(fucose)와 같은 단당류와 올리고당을 생성하는 단계; (6) 다시마 발효액을 고온가압멸균하여 효모로부터 핵산 등의 정미성분을 추출하여 정미성을 강화하는 단계; (7) 고온가압멸균된 다시마 발효액을 정밀여과하는 단계; (8) 정밀여과된 다시마 발효액을 건조하고 분말화하는 단계를 포함한 다시마 발효 조미료의 제조방법 및 상기 제조방법에 의해 수득된 다시마 발효 조미료에 관한 것이다.  다시마, 효모, 정밀여과, 고온가압멸균, 조미료</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726fdff996fb0ac438a2b4e612038a30991e5238f06d8e6f4624ba131ced9558a7092a4082b0f4c826fc40b4ec3ef412d6842fcd1dddfce6127</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf5ab30f008bc548a4328556cd24fab87a15d80888ff0b8397888714e1ee3cd0ec5735b74260ba29b8bacef3590de1102ce2bb648df57d090c</ThumbnailPath>
+				<SerialNumber>24</SerialNumber>
+				<InventionName>효모에 의한 다시마 추출액의 기능성 천연 발효조미료 및 이의 제조방법</InventionName>
+				<InternationalpatentclassificationNumber>A23L 27/10</InternationalpatentclassificationNumber>
+				<OpeningDate>20100311</OpeningDate>
+				<OpeningNumber>1020100027618</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20110329</PublicDate>
+				<RegistrationDate>20110321</RegistrationDate>
+				<RegistrationNumber>1010252920000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)마린바이오프로세스</Applicant>
+				<ApplicationDate>20080513</ApplicationDate>
+				<ApplicationNumber>1020080043928</ApplicationNumber>
+				<Abstract>본 발명은 해조류로부터 추출발효액 및 발효분말을 제조하는 방법에 관한 것으로서, 보다 구체적으로는, 황국균 또는 유산균에 의한 해조류 발효과정에 의하여 글루탐산으로부터 전환된 다량의 GABA성분 및 발효과정에서 고분자 기능성 해조다당류의 저분자화를 통한 해조류 유래의 기능성 저분자 올리고당을 동시에 함유하는 해조류 추출발효액과 발효분말을 제조하는 방법에 관한 것이다. 또한 본 발명은 상기 방법에 의하여 제조된, 다량의 GABA와 해조류 유래의 기능성 올리고당을 함유하고 맛과 향이 탁월한 해조류 추출발효액과 추출발효분말, 및 이를 포함하여 면역력강화, 비만방지, 숙취해소, 혈압강하, 혈류촉진 및 뇌세포 대사 촉진에 유용한 건강기능식품에 관한 것이다.  상기 본 발명의 방법은 발효공정을 통하여 전환되어진 다량의 GABA성분과 해조류 유래의 기능성 올리고당을 함유할 뿐만 아니라, 갯 비린내 같은 해조취를 완전히 제거할 뿐만 아니라, 향미증진, 식감개선, 고점도 물질의 제거를 통한 가공적성의 개량 등의 효과가 있어 해조류를 이용한 기능성식품의 제조시 해조류 첨가량의 증량과 향미증진을 가능하게 한다.  해조추출물, GABA, 외부순환식 감압형 분리막, 황국균</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c8b05d8ff1d829251f546409edcee03a8fa7223db6e593a774ae1b54a2fac1550</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe47b96eebc40c82075198bb86f120f15adfbe9c370dba3bcde35f2f6ae062fb3fe</ThumbnailPath>
+				<SerialNumber>25</SerialNumber>
+				<InventionName>해조류로부터 추출발효액 및 발효분말을 제조하는 방법</InventionName>
+				<InternationalpatentclassificationNumber>A23L 29/256|A23L 17/60|A23L 33/10</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20090414</PublicDate>
+				<RegistrationDate>20090407</RegistrationDate>
+				<RegistrationNumber>1008933500000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)마린바이오프로세스</Applicant>
+				<ApplicationDate>20091230</ApplicationDate>
+				<ApplicationNumber>1020090134366</ApplicationNumber>
+				<Abstract>본 발명은 해조류 유래의 천연 GABA를 다량으로 함유하는 기능성 발효주의 제조방법 및 상기 방법에 의해 제조된 기능성 발효주에 관한 것으로서, 보다 구체적으로는 기능성 발효주의 발효공정에 해조류 추출액 또는 발효액을 10~30%가 되도록 첨가하고, GABA의 생성능이 우수한 발효 균주를 사용함으로써 해조류 유래의 해조미네랄과 천연 GABA 등을 다량으로 함유하는 기능성 발효주를 제조하는 방법 및 상기 방법에 의해 제조된 기능성 발효주에 관한 것이다.  상기 본 발명에 따른 기능성 발효주는 발효공정에 의하여 증가된 알코올 발효 효율을 가지며, 다량의 천연 GABA의 함유에 따른 높은 알콜 대사 촉진 작용을 통하여 음주 후의 숙취해소에 효과를 나타낸다.  해조류 추출액, 해조류 발효액, 발효주, GABA, 해조올리고당</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726265aea314174a01ce1d7ddd69136abd694f08b09955427e569fce587d6d73386aa23611d75f43a54be259cdd0074c321c274e5050a1c51bd</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfc2897c42c117a0f4375e006a231857a79ccbbf87c95390b352a4cba33eb99b4568b8dd6f4b6bd8002266973fcff9ead82b88d4f0b8893418</ThumbnailPath>
+				<SerialNumber>26</SerialNumber>
+				<InventionName>천연 GABA를 함유하는 기능성 발효주의 제조방법 및 이에 의해 제조된 기능성 발효주</InventionName>
+				<InternationalpatentclassificationNumber>C12G 3/022|C12G 3/026</InternationalpatentclassificationNumber>
+				<OpeningDate>20110707</OpeningDate>
+				<OpeningNumber>1020110077719</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20121112</PublicDate>
+				<RegistrationDate>20121101</RegistrationDate>
+				<RegistrationNumber>1011987460000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)마린바이오프로세스</Applicant>
+				<ApplicationDate>20080904</ApplicationDate>
+				<ApplicationNumber>1020080087205</ApplicationNumber>
+				<Abstract>(1) 다시마, 미강, 포도당 및 글루타메이트를 함유한 천연물을 혼합하고 고온가압멸균함으로써 원료와 발효조 내부의 멸균을 비롯하여 다시마로터 기능성 다당류 등의 생리활성물질 및 정미성분인 글루탐산과 더불어 미강으로부터 천연 GABA를 추출하는 단계; (2) 상기 배지에 효모를 접종하여 혐기 조건에서 발효시켜 다시마와 상기 천연물에 함유된 글루타메이트의 일부는 GABA(gamma aminobutyric acid)로 전환하고, 해조 다당류(fucoidan 등)는 단당류(fucose 등)와 올리고당으로 저분자화하는 단계; (3) 발효산물을 고온가압멸균하여 효모에 함유된 다량의 핵산을 추출하는 단계를 포함하는 다시마 발효산물의 제조방법, 그 제조방법에 의해 수득한 다시마 발효산물, 상기 다시마 발효산물의 발효액을 조미료로 제조하는 방법과 그 제조방법에 의해 수득한 다시마 발효조미료, 상기 다시마 발효산물의 발효잔사를 다시마 발효분말로 제조하는 방법과 그 제조방법에 의해 수득한 다시마 발효분말에 관한 것이다.  이러한 본 발명의 발효산물은 고농도의 GABA와 해조 다당류 유래 단당류와 올리고당을 함유하고 있어 탁월한 항산화력, 면역력 강화, 비만 방지, 숙취 해소, 혈압 강하, 혈류 촉진 및 뇌세포 대사 촉진에 의한 스트레스 해소와 집중력 강화에 유용할 것으로 예상된다.  글루타메이트, GABA, 다시마, ...(이하생략)</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726fdff996fb0ac438a2b4e612038a309918504210db06585a4a9a59b071570d2550e7ed2b379c869dea35b6338c647c7983b3bc7f1ecca8c4e</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf5ab30f008bc548a4328556cd24fab87aa538d35882528406b9fe3a7dbe0835a8a80c8307e8222fdaa0c211e510f580762b77178ec8ca3508</ThumbnailPath>
+				<SerialNumber>27</SerialNumber>
+				<InventionName>다시마의 발효에 의한 다량의 GABA를 함유한 발효산물 및 이를 이용한 기능성 천연 발효조미료와 다시마 발효분말의 제조 방법</InventionName>
+				<InternationalpatentclassificationNumber>A23L 27/10</InternationalpatentclassificationNumber>
+				<OpeningDate>20100312</OpeningDate>
+				<OpeningNumber>1020100028258</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20110329</PublicDate>
+				<RegistrationDate>20110321</RegistrationDate>
+				<RegistrationNumber>1010252860000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)마린바이오프로세스</Applicant>
+				<ApplicationDate>20070823</ApplicationDate>
+				<ApplicationNumber>1020070084885</ApplicationNumber>
+				<Abstract>본 발명은 발아현미와 다시마추출액을 이용한 다량의 GABA 및 기능성 다당류를 함유하는 주류조성물 및 그의 제조방법에 관한 것으로, 이를 더욱 상세하게 설명하면, 뇌세포 대사촉진 및 뇌 혈류 개선, 산소공급 증가, 기억력 증가에 효과가 있는 GABA(-aminobutyric acid)성분을 강화한 발아현미를 발효원으로 하고, 다시마추출액의 glutamic acid로부터 Koji균 등에 의해 전환된 GABA와 기능성 다당류를 당화 공정 중에 적용함으로서 다량의 GABA와 기능성 다당류를 함유하는 알코올성 음료 또는 주류조성물과 이를 제조하는 방법에 관한 것으로, 주요 공정은 GABA의 함량이 풍부한 발아현미를 주 발효원으로 하고, glutamic acid를 다량 함유하는 다시마추출액을 Koji 및 유산균 등으로 매개한 당화 및 발효공정을 통하여 풍부한 GABA를 생성시키며, 이 과정에서 다시마추출액에 함유된 퓨코이단(fucoidan) 등과 같은 갈조류 유래의 고분자 기능성 다당류의 저분자화를 통한 기능성 올리고당을 확보함으로서 비단백질성 아미노산인 GABA와 해조류 유래의 기능성 다당류의 생리활성 효과를 동시에 부여하는 알코올성 음료 또는 주류조성물 및 그의 제조방법에 관한 것이다.  발아현미, 다시마추출액, γ-aminobutyric acid, GABA, 기능성 다당류</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9cf44e6e9608087f40e420b313ab492440d1607219a1542946b7813d0bdd4222b2</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe484b73ac8e410bb22eda8593ae55a398915f84161e85f6d9a3c9746be7a95f14d</ThumbnailPath>
+				<SerialNumber>28</SerialNumber>
+				<InventionName>발아현미와 다시마추출액을 이용한 다량의 가바 및 기능성다당류를 함유하는 주류조성물 및 그의 제조방법</InventionName>
+				<InternationalpatentclassificationNumber>C12G 3/026|C12G 3/022|C12H 1/22</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20080905</PublicDate>
+				<RegistrationDate>20080901</RegistrationDate>
+				<RegistrationNumber>1008571950000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)마린바이오프로세스</Applicant>
+				<ApplicationDate>20131129</ApplicationDate>
+				<ApplicationNumber>1020130147727</ApplicationNumber>
+				<Abstract>본 발명은 해조류 및 굴을 이용한 기능성 발효산물의 제조방법에 관한 것으로, 더욱 상세하게는 50 ~ 70% 주정을 이용함으로써 해조류 및 굴 내의 글루탐산 추출수율을 최적화하고, 상기 추출물에 유산균 및/또는 효모균을 접종하여 발효시킴으로써 고농도의 타우린(Taurine) 및 가바(GABA)를 함유하며, 지방축적 및 섭취충동 억제용 기능성 발효산물의 제조방법에 관한 것이다. 상기와 같은 제조방법에 따라 제조된 본 발명의 발효산물은 인체에 대한 독성이 전혀 없어 장기적으로 섭취 가능하므로 건강기능식품의 원료로 사용될 수 있으며, 이러한 건강기능식품은 세포내 지방 축적을 억제하고, 신경안정을 통한 식이 섭취조절을 통해 다이어트에 유용한 장점을 나타낸다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00a5980059bf74a76aa154b618ce35bea42847095ad9ef6d498b610b07ce6da81d11ab2a1a7b9865dd03d929da7abfec9aaa37d3d17b5471a6</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf2bb44c943b5e04405bed3f0411f24f7dee3211274dc247b58317c453b8687798b4a08960eb5506629e1cd93bc8be1bf62f3360056922aab3</ThumbnailPath>
+				<SerialNumber>29</SerialNumber>
+				<InventionName>해조류 및 굴의 발효에 의한 지방축적 및 섭취충동 억제용 발효산물의 제조방법, 이에 따라 제조된 발효산물 및 이를 포함하는 건강기능식품</InventionName>
+				<InternationalpatentclassificationNumber>A23L 17/60|A23L 33/15|A23L 33/16|A23L 33/17|C12R 1/24</InternationalpatentclassificationNumber>
+				<OpeningDate>20150608</OpeningDate>
+				<OpeningNumber>1020150062749</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)마린바이오프로세스|성신여자대학교 연구 산학협력단</Applicant>
+				<ApplicationDate>20131129</ApplicationDate>
+				<ApplicationNumber>1020130147717</ApplicationNumber>
+				<Abstract>본 발명은 해조류를 이용한 기능성 발효산물의 제조방법에 관한 것으로, 더욱 상세하게는 50 ~ 70% 주정을 이용함으로써 해조류의 글루탐산 추출수율을 최적화하고, 상기 추출물에 유산균 및/또는 효모균을 접종하여 발효시킴으로써 고농도의 가바(GABA)를 함유하며, 지방축적 및 섭취충동 억제용 기능성 발효산물의 제조방법에 관한 것이다. 상기와 같은 제조방법에 따라 제조된 본 발명의 발효산물은 인체에 대한 독성이 전혀 없어 장기적으로 섭취 가능하므로 건강기능식품의 원료로 사용될 수 있으며, 이러한 건강기능식품은 세포내 지방 축적을 억제하고, 신경안정을 통한 식이 섭취조절을 통해 다이어트에 유용한 장점을 나타낸다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00a5980059bf74a76aa154b618ce35bea42847095ad9ef6d498b610b07ce6da81d35b325e231d2d9599c2a52eb3349e2142b7213782d6c790c</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf2bb44c943b5e04405bed3f0411f24f7dee3211274dc247b58317c453b8687798000252dd991151e9dfac812e739f3e016c733801c1dd7163</ThumbnailPath>
+				<SerialNumber>30</SerialNumber>
+				<InventionName>해조류의 발효에 의한 지방축적 및 섭취충동 억제용 발효산물의 제조방법, 이에 의하여 제조된 발효산물 및 이를 포함하는 건강기능식품</InventionName>
+				<InternationalpatentclassificationNumber>A23L 17/60|A23L 33/20|C12R 1/24</InternationalpatentclassificationNumber>
+				<OpeningDate>20150608</OpeningDate>
+				<OpeningNumber>1020150062747</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)마린바이오프로세스</Applicant>
+				<ApplicationDate>20120829</ApplicationDate>
+				<ApplicationNumber>1020120095150</ApplicationNumber>
+				<Abstract>본 발명은 굴과 해조류의 혼합물을 발효시켜 다량의 천연 GABA를 함유하는 스트레스 해소 또는 수면장애 개선용 발효소재 및 이의 제조방법에 관한 것이다. 본 발명에 따른 굴과 다시마의 혼합물을 발효시켜 제조된 발효소재는 기존의 발효소재와 비교하여 다량의 타우린 및 GABA를 함유하며, 스트레스 억제 효과 및 수면장애 개선효과가 우수하다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00fce09cf68032a86103b0eb34bd4e9d83851a1770082dc69237f117f3303011256c9edcb92f57a063105a22267a93c9815a7b600194a4411d</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf6a87514bfb88ccc030a3107f4d4f1b81be96226c44813b5c100b3f6597a178df9b36bd431cba81c1be6b8936b7b686d59b8a6b49a8a0e629</ThumbnailPath>
+				<SerialNumber>31</SerialNumber>
+				<InventionName>굴과 해조류의 혼합물을 발효시켜 천연 가바를 함유하는 스트레스 해소 또는 수면장애 개선용 발효소재 및 이의 제조방법</InventionName>
+				<InternationalpatentclassificationNumber>A23L 33/00|A23L 1/30|A23L 17/40|A23L 17/60</InternationalpatentclassificationNumber>
+				<OpeningDate>20140312</OpeningDate>
+				<OpeningNumber>1020140030454</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)마린바이오프로세스</Applicant>
+				<ApplicationDate>20091230</ApplicationDate>
+				<ApplicationNumber>1020090134470</ApplicationNumber>
+				<Abstract>본 발명은 굴 유래의 타우린 (taurine)과 해조류 유래의 해조올리고당을 비롯한 천연 GABA를 다량으로 함유하는 기능성 발효소재 및 그의 제조방법에 관한 것으로서, 보다 구체적으로는 GABA의 생성능 및 비린내의 제거에 우수한 발효 균주를 사용하여 해조류 및 굴을 발효함으로써 굴로부터 다량의 타우린과 비타민을 함유하게 되고 해조류로부터 천연 GABA 및 해조올리고당을 함유하는 기능성 발효소재를 제조하는 방법 및 이에 의해 제조되는 기능성 발효소재에 관한 것이다.  상기 본 발명에 따른 기능성 발효소재는 발효공정에 의하여 해조취와 비린내가 제거되어 맛과 향이 탁월할 뿐만 아니라, 다량의 타우린과 GABA 그리고 해조올리고당을 함유하고 있어 항산화 및 항고혈압의 기능성을 갖게 된다.  해조류, 굴, 발효, GABA, 해조올리고당</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726721df8475d860cd1e891104de7a147ddf33f19a83fe3e3468ce80d06a6c616541ae596baff7708bf5165912786a7f8e00d81e74995910b01</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf89479606081b1353e3c9d6087f66ae9377479b07611c7b4e2ce96ac258c79ddade0eeaa8ce5d041382c659160a92de4c4b04b43645ef1aa7</ThumbnailPath>
+				<SerialNumber>32</SerialNumber>
+				<InventionName>굴을 이용한 다량의 타우린 및 GABA을 함유하는 기능성 발효소재 및 그의 제조방법</InventionName>
+				<InternationalpatentclassificationNumber>C12P 11/00|C12P 13/00|A23L 33/10</InternationalpatentclassificationNumber>
+				<OpeningDate>20110707</OpeningDate>
+				<OpeningNumber>1020110077807</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20121204</PublicDate>
+				<RegistrationDate>20121128</RegistrationDate>
+				<RegistrationNumber>1012078990000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주)마린바이오프로세스</Applicant>
+				<ApplicationDate>20110531</ApplicationDate>
+				<ApplicationNumber>1020110052483</ApplicationNumber>
+				<Abstract>본 발명은 a) 홍삼 및 해조류를 가압 추출하여 고분자 다당류 및 글루탐산을 추출하여 배지를 제조하는 단계; b) 상기 배지에 유산균을 접종하여 24시간 이내에 발효하는 단계; 를 포함하는 고농도의 진세노사이드와 가바(gamma-aminobutyric acid, GABA)를 함유하는 발효 산물의 제조방법과 이러한 제조 방법에 의하여 생산된 고농도의 진세노사이드와 가바를 포함하는 조성물 및 건강 기능 식품에 관한 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e004a591865481854a460ef8a13899ef071a9d60c0c0a072e5689b0b816155eb9e8bf037ca1269ddb8793c8144531fde812b1a81c5976838a88</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf793ceb95f0e4d3f926e01d45e7eac6561a445941aac4716240258916b149e34fba87fe8bf45ece8c5444ec8e989612d2272e03e22411915a</ThumbnailPath>
+				<SerialNumber>33</SerialNumber>
+				<InventionName>홍삼과 해조류의 유산균 발효에 의한 저분자 진세노사이드와 가바를 동시에 함유하는 기능성 발효산물의 제조방법</InventionName>
+				<InternationalpatentclassificationNumber>C12P 19/44|C12P 33/16|C12P 13/00|C12N 1/20|A23L 33/10</InternationalpatentclassificationNumber>
+				<OpeningDate>20121212</OpeningDate>
+				<OpeningNumber>1020120134167</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20140924</PublicDate>
+				<RegistrationDate>20140806</RegistrationDate>
+				<RegistrationNumber>1014296650000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<TotalSearchCount>33</TotalSearchCount>
+			<SearchStartNumber>1</SearchStartNumber>
+		</items>
+	</body>
+</response>

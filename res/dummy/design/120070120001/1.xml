@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<response>
+	<header>
+		<resultCode></resultCode>
+		<resultMsg></resultMsg>
+	</header>
+	<body>
+		<items>
+			<totalCount>6</totalCount>
+			<DesignInfo>
+				<number>1</number>
+				<applicationNumber>3020220047376</applicationNumber>
+				<applicationDate>20221116</applicationDate>
+				<appReferenceNumber></appReferenceNumber>
+				<publicationNumber></publicationNumber>
+				<publicationDate>20230228</publicationDate>
+				<registrationDate>20230223</registrationDate>
+				<registrationNumber>3012054170000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber></regReferenceNumber>
+				<priorityNumber></priorityNumber>
+				<priorityDate></priorityDate>
+				<internationalRegisterNumber></internationalRegisterNumber>
+				<internationalRegisterDate></internationalRegisterDate>
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>주식회사 에이치비티</applicantName>
+				<agentName>설인보</agentName>
+				<fullText>Y</fullText>
+				<inventorName>박경원</inventorName>
+				<articleName>포장용 상자</articleName>
+				<openNumber></openNumber>
+				<openDate></openDate>
+				<designMainClassification></designMainClassification>
+				<dsShpClssCd></dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0819f447391f08ae273486ae6798d7611bd87c303a192f8878c89815b3dbdf7fcea143d8dc99e383a1eda4e32fc8fe8d6</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa512ff377ade1ebbad2df1d31e8cd022d6e50f8f86490584bc847f8bd34228568ab1de4fd2b66428ec49800a02ce6de4b6</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>2</number>
+				<applicationNumber>3020220039362</applicationNumber>
+				<applicationDate>20220926</applicationDate>
+				<appReferenceNumber></appReferenceNumber>
+				<publicationNumber></publicationNumber>
+				<publicationDate>20230919</publicationDate>
+				<registrationDate>20230914</registrationDate>
+				<registrationNumber>3012321700000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber></regReferenceNumber>
+				<priorityNumber></priorityNumber>
+				<priorityDate></priorityDate>
+				<internationalRegisterNumber></internationalRegisterNumber>
+				<internationalRegisterDate></internationalRegisterDate>
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>주식회사 에이치비티</applicantName>
+				<agentName>양정근</agentName>
+				<fullText>Y</fullText>
+				<inventorName>박경원</inventorName>
+				<articleName>족형 측정 장치</articleName>
+				<openNumber></openNumber>
+				<openDate></openDate>
+				<designMainClassification></designMainClassification>
+				<dsShpClssCd></dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb072247192958297bc7a60fc84880e22277a34bbfd57cb9fe2671a1e473407cff090a412bc44e6465e29140eba98abab46</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa56eca64b296102c077358d7b6023e75a6a4f5f8f630a1affe8b5ed1b8dc33898bd21fb60d866c33746a43bee4b5f3ff2d</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>3</number>
+				<applicationNumber>3020220018302</applicationNumber>
+				<applicationDate>20220509</applicationDate>
+				<appReferenceNumber></appReferenceNumber>
+				<publicationNumber></publicationNumber>
+				<publicationDate>20220627</publicationDate>
+				<registrationDate>20220622</registrationDate>
+				<registrationNumber>3011700370000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber></regReferenceNumber>
+				<priorityNumber></priorityNumber>
+				<priorityDate></priorityDate>
+				<internationalRegisterNumber></internationalRegisterNumber>
+				<internationalRegisterDate></internationalRegisterDate>
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>주식회사 에이치비티</applicantName>
+				<agentName>양정근</agentName>
+				<fullText>Y</fullText>
+				<inventorName>박경원</inventorName>
+				<articleName>신발 인솔용 아치 스프링</articleName>
+				<openNumber></openNumber>
+				<openDate></openDate>
+				<designMainClassification></designMainClassification>
+				<dsShpClssCd></dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb087751c10d9934ca119ae94ed690e77a998b9c220c25798a2b60d708dca2c5eb589f1adcd06a7451f8332d4e204e15c1f</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa5f23f4a1a1db1d1d92eef1b422a24f7c3a54b76e48a66a47176458d5d5386cbf4900fb1561b8338f7fbfb0ac2b2ae48dd</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>4</number>
+				<applicationNumber>3020200056230</applicationNumber>
+				<applicationDate>20201119</applicationDate>
+				<appReferenceNumber></appReferenceNumber>
+				<publicationNumber></publicationNumber>
+				<publicationDate>20210907</publicationDate>
+				<registrationDate>20210901</registrationDate>
+				<registrationNumber>3011264880000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber></regReferenceNumber>
+				<priorityNumber></priorityNumber>
+				<priorityDate></priorityDate>
+				<internationalRegisterNumber></internationalRegisterNumber>
+				<internationalRegisterDate></internationalRegisterDate>
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>주식회사 에이치비티</applicantName>
+				<agentName>양정근</agentName>
+				<fullText>Y</fullText>
+				<inventorName>박경원</inventorName>
+				<articleName>족부용 레이저 스캐너</articleName>
+				<openNumber></openNumber>
+				<openDate></openDate>
+				<designMainClassification>H5440</designMainClassification>
+				<dsShpClssCd>H5440</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0db2b6668a20e058f81ba736cf923b4f82197defeee6f123f7eed19af18034be8f2a6070963c77476ea2d8f1580fc1e4e</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa5116b40362194bbe6c29e906ab7a8b4fb218c0ad096898fee290beb96df174167937d3118141701331974c08f11421959</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>5</number>
+				<applicationNumber>3020200056228</applicationNumber>
+				<applicationDate>20201119</applicationDate>
+				<appReferenceNumber></appReferenceNumber>
+				<publicationNumber></publicationNumber>
+				<publicationDate>20210907</publicationDate>
+				<registrationDate>20210901</registrationDate>
+				<registrationNumber>3011264870000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber></regReferenceNumber>
+				<priorityNumber></priorityNumber>
+				<priorityDate></priorityDate>
+				<internationalRegisterNumber></internationalRegisterNumber>
+				<internationalRegisterDate></internationalRegisterDate>
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>주식회사 에이치비티</applicantName>
+				<agentName>양정근</agentName>
+				<fullText>Y</fullText>
+				<inventorName>박경원</inventorName>
+				<articleName>족부용 레이저 스캐너</articleName>
+				<openNumber></openNumber>
+				<openDate></openDate>
+				<designMainClassification>H5440</designMainClassification>
+				<dsShpClssCd>H5440</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0db2b6668a20e058f81ba736cf923b4f82197defeee6f123f7eed19af18034be8b965759a703c16cfd92f9af823914313</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa5116b40362194bbe6c29e906ab7a8b4fb218c0ad096898fee290beb96df1741674a7b9da331ecd052ae1b257ca224148f</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>6</number>
+				<applicationNumber>3020170043088</applicationNumber>
+				<applicationDate>20170914</applicationDate>
+				<appReferenceNumber></appReferenceNumber>
+				<publicationNumber></publicationNumber>
+				<publicationDate>20180213</publicationDate>
+				<registrationDate>20180207</registrationDate>
+				<registrationNumber>3009441250000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber></regReferenceNumber>
+				<priorityNumber></priorityNumber>
+				<priorityDate></priorityDate>
+				<internationalRegisterNumber></internationalRegisterNumber>
+				<internationalRegisterDate></internationalRegisterDate>
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>주식회사 에이치비티</applicantName>
+				<agentName>양정근</agentName>
+				<fullText>Y</fullText>
+				<inventorName>박경원</inventorName>
+				<articleName>3D 족부용 이미지 스캐너</articleName>
+				<openNumber></openNumber>
+				<openDate></openDate>
+				<designMainClassification>H5440</designMainClassification>
+				<dsShpClssCd>H5440</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb00c6d40079052df53187645615adbf50df9f5dac81bd521892462886288192adc05cb1475e599f2feca679f4eacc0dcc2</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa50e8a60b1090759eb0c8784ef023c0d31ba81e59837bf8db9b9f5766328f6684905cebcd4f573a1efd312d3199e8c8e2e</imagePathLarge>
+			</DesignInfo>
+		</items>
+	</body>
+</response>

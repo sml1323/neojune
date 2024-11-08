@@ -1,0 +1,1673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<response>
+	<header>
+		<resultCode></resultCode>
+		<resultMsg></resultMsg>
+	</header>
+	<body>
+		<items>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20230110</ApplicationDate>
+				<ApplicationNumber>1020230003245</ApplicationNumber>
+				<Abstract>본 발명은 연삭 장치에서 제품의 연삭량을 측정하는 시스템에 관한 것으로서, 상기 제품을 공급하고 취출하도록 구성되는 핸들러 장치, 상기 핸들러 장치와 결합하여 상기 제품을 연삭하도록 구성되는 연삭 장치를 포함하는 연삭 장치의 연삭량 측정시스템에 관한 것이고, 상기 측정시스템을 이용하여 제품의 연삭량을 측정하는 방법에 관한 것으로서, (a) 제품의 치수를 측정하고 측정된 데이터를 획득하는 단계, (b) 상기 획득된 데이터를 정리 및 연산하고 연삭 장치에 전송하는 단계 및 상기 단계에서 전송된 데이터를 기반으로 연삭 작업을 수행하는 단계를 포함하는 것을 특징으로 하는 연삭 장치의 연삭량 측정방법에 관한 것이다.  따라서 본 발명은 양면 연삭 설비에 결합하여 작업자의 숙련도와 상관없이 디지털 정밀가공이 가능하여 제품의 정밀도 제고 및 다량 생산할 수 있는 연삭 설비를 제공한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93d717d763041573985c4a7f2079046fafb3643cc9bf4af1ad9c4a70f642b89a93d8f39f4b60283b095fd0b5681421340ea0040d0f54c80dbb</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf5c7ee8822f8116d0b657268ea1b903c51dab5f7c8636bce7a3e6d058f26efaad0329819a7c6185726cc6271bf97ed4d03f2e45aba91834ca</ThumbnailPath>
+				<SerialNumber>1</SerialNumber>
+				<InventionName>연삭 장치의 연삭량 측정시스템 및 그 측정방법</InventionName>
+				<InternationalpatentclassificationNumber>B24B 3/34|B24B 49/12|B23Q 17/24|B23Q 17/20</InternationalpatentclassificationNumber>
+				<OpeningDate>20240717</OpeningDate>
+				<OpeningNumber>1020240111423</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>공개</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20220520</ApplicationDate>
+				<ApplicationNumber>1020220062084</ApplicationNumber>
+				<Abstract>본 발명은 검사장비에 결합하여 초경인서트의 측면 코너부를 검사를 위하여 영상을 획득하는 시스템에 관한 것으로서, 상기 영상 획득시스템은, 상기 검사대상 초경인서트의 측면 코너부를 촬영하는 카메라, 상기 카메라의 전면에 결합하여 상기 측면부의 영상을 통과시키는 렌즈로 구성되는 영상 획득유닛과, 상기 영상 획득유닛의 일정 거리에 위치하여 촬영되는 검사대상 초경인서트의 측면부 및 코너부에 빛을 조사(照射)할 수 있도록 구성되는 조명 유닛과, 상기 영상 획득유닛 및 조명 유닛이 탑재되도록 구성되는 바디를 포함하는 것을 특징으로 하는 초경인서트 측면 코너부 검사를 위한 영상 획득시스템에 관한 것이다.  따라서 영상 획득유닛 및 조명 유닛을 포함하는 영상 획득시스템을 이용하여 검사대상 초경인서트의 측면 코너부의 영상을 획득하여 초경인서트의 결함을 정확히 검출함으로써 초경인서트의 품질을 제고 할 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93fe41ef1acadada6514049844eefb1dfa8955732400f3ba79f86be012b3be85a35090b73b390eda18d537105b28a0f313429ca6bded86960e</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf5172d1aa06b17a204df33f9e61042af6a578f267ccc877105ac28544a5cc53d1ce0a72cc9159b8c5ac4ab87291d3a34cd2748667e6603fd7</ThumbnailPath>
+				<SerialNumber>2</SerialNumber>
+				<InventionName>초경인서트 측면 코너부 검사를 위한 영상 획득시스템</InventionName>
+				<InternationalpatentclassificationNumber>G01N 21/88|G01N 21/95</InternationalpatentclassificationNumber>
+				<OpeningDate>20231128</OpeningDate>
+				<OpeningNumber>1020230162338</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20241101</PublicDate>
+				<RegistrationDate>20241029</RegistrationDate>
+				<RegistrationNumber>1027251420000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20220801</ApplicationDate>
+				<ApplicationNumber>1020220095193</ApplicationNumber>
+				<Abstract>본 발명은 성형된 초경인서트를 소결로에 공급하기 위하여 프레스 핸들러와 결합하여 프레스에서 취출되는 초경인서트의 &#039;로딩 작업&#039;을 할 수 있는 다수 개의 소결판을 이송하도록 구성되는 AGV를 이용한 초경인서트 공급시스템에 관한 것으로서, 상기 AGV를 이용한 초경인서트 공급시스템은 상기 초경인서트의 로딩 작업을 위하여 소결판 매거진을 수직 상・하 이동하도록 구성되는 엘리베이터 유닛, 상기 엘리베이터 유닛의 소결판 매거진에서 빈 소결판을 이송하여 &#039;로딩 작업&#039;을 수행하고 로딩 완료된 소결판을 상기 소결판 매거진에 이송 적재하도록 구성되는 픽업 및 이송 유닛, 수직 상・하 이동하는 상기 소결판 매거진을 향하여 설치되어 상기 소결판을 클램프 및 정렬하도록 구성되는 클램프 및 정렬 유닛을 포함하여 구성되는 AGV를 이용한 초경인서트 공급시스템에 관한 것이다.  따라서 성형 프레스에서 취출되는 초경인서트를 소결로에 공급하는 공정을 자동화함으로써, 초경인서트 생산 공정상의 지체구간을 제거하여 작업효율을 증대할 수 있으며, 가격경쟁력이 있는 제품의 생산이 가능하다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9398493e17c3b8ac69cec5aa31af1d132d83559b29c2c636b29117612edd1ee66299cc21a859ebc59ca30e5505128ad5e23968bd8f2c13e870</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf1cfe29b956979877c647371d2857741125ef6439281a4e99d032fecbb64a6d438ffe8a343426d6d220d96160aa6b347752aea6e70127b211</ThumbnailPath>
+				<SerialNumber>3</SerialNumber>
+				<InventionName>AGV를 이용한 초경인서트 공급시스템</InventionName>
+				<InternationalpatentclassificationNumber>B65G 60/00|B65G 61/00|B65G 47/90|B65G 47/26|B66F 9/06</InternationalpatentclassificationNumber>
+				<OpeningDate>20240208</OpeningDate>
+				<OpeningNumber>1020240017439</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20241011</PublicDate>
+				<RegistrationDate>20241003</RegistrationDate>
+				<RegistrationNumber>1027151790000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20230110</ApplicationDate>
+				<ApplicationNumber>1020230003252</ApplicationNumber>
+				<Abstract>본 발명은 상부 휠 및 하부 휠 사이에 제품의 연삭 작업을 수행하는 양면 연삭 장치에서 상기 제품의 열화현상을 방지하기 위하여 수용성 윤활유를 이용하여 냉각하는 제품 열화 방지시스템에 관한 것으로서, 상기 제품 열화 방지시스템은 상기 양면 연삭 장치의 상・하부 휠에 제품의 열화현상 방지를 위하여 상기 연삭유를 공급하도록 구성되는 공급부, 상기 공급부에 공급되는 연삭유를 제어하도록 구성되는 제어부를 포함하는 양면 연삭 장치의 제품 열화 방지시스템에 관한 것이다.  따라서 본 발명은 양면 연삭 설비에 결합하여 연삭유를 가압분출하여 제품의 열화를 방지하고, 압축공기를 분사하도록 잔여 수분을 제거함으로써 품질 제고 및 다량 생산할 수 있는 연삭 설비를 제공한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93b67443774ad43eb6e85e94271c8d007040e9c25f87773b44ebf21c872dcab1fe9bde806c2ced22fd3f0736bf62e231b138bbeaec90fb2cac</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfde568cbcc7358e1072904701a0417fc92803aecc7771d0c71bcd55886e458167a325d16f0120a49c24688b0e53bdf05c91745fbab5cb0b86</ThumbnailPath>
+				<SerialNumber>4</SerialNumber>
+				<InventionName>양면 연삭 장치의 제품 열화 방지시스템</InventionName>
+				<InternationalpatentclassificationNumber>B24B 37/015|B24B 37/08|B24B 55/02|B24B 57/02|B23Q 11/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20240717</OpeningDate>
+				<OpeningNumber>1020240111425</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20240826</PublicDate>
+				<RegistrationDate>20240821</RegistrationDate>
+				<RegistrationNumber>1026988790000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20220726</ApplicationDate>
+				<ApplicationNumber>1020220092154</ApplicationNumber>
+				<Abstract>본 발명은 PVD 코팅을 위한 초경인서트 로딩 및 언로딩 장비에서 초경인서트의 혼합적재를 위하여 와셔를 공급하는 장치에 관한 것으로서, 상기 와셔를 공급하는 장치는 상기 &#039;본체장비&#039;에서 초경인서트를 샤프트에 로딩할 때 초경인서트와 초경인서트 사이에 끼워지는 와셔를 공급하도록 구성되는 공급 유닛, 상기 공급 유닛에서 상기 와셔의 영상을 촬영하여 위치를 검출하고 그리퍼로 상기 와셔를 픽업하도록 구성되는 검출 및 픽업 유닛, 상기 검출 및 픽업 유닛에서 픽업한 와셔를 상기 본체장비에 로딩하기 위한 스테이에 이송하도록 구성되는 이송 유닛을 포함하는 것을 특징으로 하는 PVD 코팅을 위한 와셔 공급장치에 관한 것이다.  따라서 본 발명에 따른 PVD 코팅을 위한 와셔 공급장치는 본체장비에 결합하여 PVD 코팅을 위한 초경인서트 로딩 작업 시, 샤프트에 혼합 적재되는 초경인서트 사이에 와셔를 정확하고 원활하게 공급함으로써, 본체장비의 성능을 극대화할 수 있으며, 고품질의 본체장비를 생산할 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9303cae34512d528235f5895a4ed374927e82062204e1b5532aa4e343e0e7b7be95cf929adb2e50ceb71f06b76ea3edf7bbd23ed5f857ba099</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfc1ad6069b116827c7d1da9a1cc4149c17b994ae05219a6989cc8a7ba32826c4cbc5ae4fc604ff3d1ad8d984ae4f9064f38e8ae6c816bacf8</ThumbnailPath>
+				<SerialNumber>5</SerialNumber>
+				<InventionName>PVD 코팅을 위한 와셔 공급장치</InventionName>
+				<InternationalpatentclassificationNumber>C23C 14/56|C23C 14/50|B65G 47/14|B65G 47/90|B65G 35/06</InternationalpatentclassificationNumber>
+				<OpeningDate>20240202</OpeningDate>
+				<OpeningNumber>1020240014689</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>공개</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20220304</ApplicationDate>
+				<ApplicationNumber>1020220028192</ApplicationNumber>
+				<Abstract>본 발명은 성형된 초경인서트를 소결로에 공급하기 위하여 프레스 핸들러와 결합하여 프레스에서 취출된 초경인서트를 로딩할 수 있는 다수 개의 소결판을 이송하도록 구성되는 AGV를 이용한 초경인서트 공급시스템에 관한 것으로서,  상기 AGV를 이용한 초경인서트 공급시스템은, 상기 소결판을 적재하도록 구성되는 소결판 매거진 유닛, 상기 초경인서트 &#039;로딩 작업&#039;을 위하여 상기 소결판 매거진 유닛을 수직 상・하 이동을 하도록 구성되는 엘리베이터 유닛, 상기 소결판 매거진 유닛에서 빈 소결판을 이송하여 &#039;로딩 작업&#039;을 수행하여 로딩된 소결판을 상기 소결판 매거진 유닛에 이송 적재하도록 구성되는 픽업 및 이송 유닛을 포함하는 것을 특징으로 하는 AGV를 이용한 초경인서트 공급시스템에 관한 것이다.  따라서 성형 프레스에서 취출되는 초경인서트를 소결로에 공급하는 공정을 자동화함으로써, 초경인서트 생산 공정상의 지체구간을 제거하여 작업효율을 증대할 수 있으며, 가격경쟁력이 있는 제품의 생산이 가능하다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93c7df2d5060ba58d9607a8be283a5b67083c11b87810dc73596ecaa11c6ea39a326ea16ae53be22c0cac623d6afd73151d0cba2d9f090f570</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfd899b2d09d0b5a3b1c4579224f3c83800f4d7f76dd56913a25cf12f4217ea29c137fa6dc338fb0494947ce4ca74b133791b7303cc19d3424</ThumbnailPath>
+				<SerialNumber>6</SerialNumber>
+				<InventionName>AGV를 이용한 초경인서트 공급시스템</InventionName>
+				<InternationalpatentclassificationNumber>B65G 60/00|B65G 61/00|B65G 47/90|B66F 9/06</InternationalpatentclassificationNumber>
+				<OpeningDate>20230912</OpeningDate>
+				<OpeningNumber>1020230130952</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20240617</PublicDate>
+				<RegistrationDate>20240612</RegistrationDate>
+				<RegistrationNumber>1026757590000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20220715</ApplicationDate>
+				<ApplicationNumber>1020220087279</ApplicationNumber>
+				<Abstract>본 발명은 초경인서트 제품의 이송 및 검사장비에 결합하여 상기 초경인서트 제품을 그립 및 해제하도록 동작시키는 3 조우 그리퍼 실린더 구조에 관한 것으로서, 상기 3 조우 그리퍼 실린더 구조는 선단부에 결합하는 그리퍼 유닛의 3 조우가 중심부를 기점으로 확장・복귀 동작을 할 수 있도록 구성되는 척 유닛; 상기 척 유닛의 3개 척 중심부에 위치하여 상기 척이 중심부를 기점으로 확장・복귀 동작을 할 수 있도록 상・하 슬라이딩 동작을 하는 푸셔로 구성되는 푸셔 유닛; 상기 척 유닛 및 푸셔 유닛과 결합하도록 플레이트의 일 측에는 상기 척이 확장・복귀 동작을 할 수 있도록 척 가이드가 형성되고, 다른 일 측에는 상기 푸셔가 상・하 슬라이딩 동작할 수 있는 실린더로 구성되는 실린더 바디를 포함하는 것을 특징으로 하는 3 조우 그리퍼 실린더 구조에 관한 것이다.  따라서 실린더 구조를 개선하여 공압 관로를 구성함으로써, 본체장비의 운전 및 유지보수에 유리하고, 실린더의 구조가 단순해 고장 발생이 감소하고 작업효율을 향상할 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93b1bd11bec33dcd6cac554707b1b96cff9d49bed300ca494dd3bf240517ab753e1a20a83d8b6e67dae239898610771051ed09119df7b5d6ef</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf43b4c8f415defef6fc06b209e160bfacdeb5b552cd8e49650e01fec271af9c5e9cd11ad288e15eba5677c1617ca9a8529d2718f7131460a7</ThumbnailPath>
+				<SerialNumber>7</SerialNumber>
+				<InventionName>3 조우 그리퍼 실린더 구조</InventionName>
+				<InternationalpatentclassificationNumber>B25J 15/00|B25J 19/00|B25J 11/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20240123</OpeningDate>
+				<OpeningNumber>1020240010129</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20240503</PublicDate>
+				<RegistrationDate>20240430</RegistrationDate>
+				<RegistrationNumber>1026633940000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20211231</ApplicationDate>
+				<ApplicationNumber>1020210193664</ApplicationNumber>
+				<Abstract>본 발명은 PVD 코팅을 위한 초경인서트 로딩 및 언로딩 장비에서 초경인서트를 혼합적재 하기 위하여 와셔를 공급하는 장치에 관한 것으로서, 상기 와셔 공급장치는 상기 본체장비에서, 초경인서트를 샤프트에 혼합 적재할 때, 상기 초경인서트와 번갈아 끼우기 위하여, 와셔를 공급하도록 구성되는 공급 유닛과, 상기 공급 유닛으로부터 공급되는 와셔를 소정의 위치에 정렬시키도록 구성되는 정렬 유닛과, 상기 정렬 유닛에 정렬된 상기 와셔를 &#039;정위치&#039;에 이송하도록 구성되는 이송 유닛을 포함하는 것을 특징으로 하는 PVD 코팅 혼합적재를 위한 와셔 공급장치에 관한 것이다.  따라서 본 발명에 따른 PVD 코팅 혼합적재를 위한 와셔 공급장치는 초경인서트를 샤프트에 혼합 적재할 때 공급되는 와셔를 &#039;정위치&#039;에 이송시킴으로써, 작업효율을 증대할 수 있으며, 가격경쟁력이 있는 제품(본체장비)의 생산이 가능하다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c937b1ef2f9232a75cd1aa2cb2ff5246bdbbf1ca776fcc6280bca76cf3b81d52709e57aaeb35353be33ebabbced0073ad46a7c3717811629e64</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf4b7d0eb217d1460d5c46aa2a33074f8cdd47fbcb2d73ea346478483c7d74a05d26937a5474b16195ccd6e1ad275c88571796a35730b4017f</ThumbnailPath>
+				<SerialNumber>8</SerialNumber>
+				<InventionName>PVD 코팅 혼합적재를 위한 와셔 공급장치</InventionName>
+				<InternationalpatentclassificationNumber>C23C 14/56|C23C 14/50|C23C 30/00|C23C 14/54</InternationalpatentclassificationNumber>
+				<OpeningDate>20230707</OpeningDate>
+				<OpeningNumber>1020230103073</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20240222</PublicDate>
+				<RegistrationDate>20240219</RegistrationDate>
+				<RegistrationNumber>1026396350000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20210806</ApplicationDate>
+				<ApplicationNumber>1020210103634</ApplicationNumber>
+				<Abstract>본 발명은 카메라 및 조명장치를 이용하여 3차원 구조물의 인선부 및 표면 검사를 위하여 곡선 구배 구간의 멀티채널 영상을 획득하는 3차원 구조물 영상 획득시스템에 관한 것으로서, 검사에 대한 전반적인 수행 명령을 인가하고 수집된 영상 데이터를 합성, 처리 및 저장하도록 구성되는 컴퓨터와, 상기 컴퓨터에서 인가받은 명령으로 카메라 및 조명장치를 제어하도록 구성되는 모션 제어기와, 상기 모션 제어기가 제어하는 모터의 위치를 피드백하도록 구성되는 엔코더와, 상기 카메라가 영상 획득을 위한 정확한 시점에서 촬영을 위한 전기적 신호를 발생시키는 신호 발생기와, 상기 신호 발생기에서 발생한 전기적 신호를 상기 조명장치에 분배하여 출력하도록 구성되는 신호 분배장치를 포함하는 것을 특징으로 하는 3차원 구조물 영상 획득시스템에 관한 것이다.  따라서 멀티 조명 채널에 발광 신호를 분배하는 장치가 포함되는 영상 획득시스템을 이용하여 곡선 구배가 큰 3차원 구조물의 인선부 및 표면의 영상을 채널별로 획득하여 상기 인선부 및 표면의 결함을 검사하고자 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9302bcd3483e99a26a9c683d05446b7c925df128f8de9f7dc91502fd828f09b15f6fb4db6330acd0b54b4acae0f3373a1f11468e22a8f54a07</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfb7b82589e1a84f5acb5e6e0680aebaf8ec59f3d6f011b1ad56d02d8abcea1f9c886a4d0adf40534aa1cbefaa7a7b8e1d51b0029739cb22eb</ThumbnailPath>
+				<SerialNumber>9</SerialNumber>
+				<InventionName>3차원 구조물 영상 획득시스템</InventionName>
+				<InternationalpatentclassificationNumber>G01N 21/88|G01N 21/95|G01B 11/24|G01B 11/02|G06T 7/00|G06T 7/30|G06T 17/30</InternationalpatentclassificationNumber>
+				<OpeningDate>20230215</OpeningDate>
+				<OpeningNumber>1020230022341</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20240805</PublicDate>
+				<RegistrationDate>20240729</RegistrationDate>
+				<RegistrationNumber>1026906740000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20220209</ApplicationDate>
+				<ApplicationNumber>1020220016618</ApplicationNumber>
+				<Abstract>본 발명은 팔레트에 장입된 초경인서트를 클리닝하는 장치에 관한 것으로서, 팔레트 또는 전용 팔레트에 장입된 초경인서트의 청소 할 수 있도록 구성된 클리닝 유닛과, 상기 클리닝 유닛을 상하로 이동하도록 구성되는 상하 이동 유닛을 포함하는 것을 특징으로 하는 포터블 초경인서트 클리닝 장치에 관한 것이다.  따라서 본 발명은 초경인서트 표면의 이물질을 제거하는 청소공정을 수행하기 위한 포터블 초경인서트 클리닝 장치로서 초경인서트 클리닝 및 반전 장치에 결합되어 팔레트에 장입된 초경인서트를 일거에 클리닝함으로서 다음 공정을 원활하게 함으로서 제품 생산성을 향상시킬 수 있는 포터블 초경인서트 클리닝 장치를 제공한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9394d711dcbf215f684804d0bbe6c76f132d7a0896d346e51c3ed9222171c786b410eed28332b4972ef1e6ae2297f0685f0f0e9082ec180e05</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfe682035516d0ca09d2a8e1f650d3a2079f4240ac3cba311b1e65b85ec867838b5f1de84fe19de9db11ed9a131113a30bbe9696ff77098124</ThumbnailPath>
+				<SerialNumber>10</SerialNumber>
+				<InventionName>포터블 초경인서트 클리닝 장치</InventionName>
+				<InternationalpatentclassificationNumber>B08B 7/04|B08B 1/00|B08B 1/20|B08B 5/02|B08B 5/04</InternationalpatentclassificationNumber>
+				<OpeningDate>20230817</OpeningDate>
+				<OpeningNumber>1020230120258</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>공개</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20220418</ApplicationDate>
+				<ApplicationNumber>1020220047661</ApplicationNumber>
+				<Abstract>본 발명은 소결판 위에 산재(散在)되어 있는 소결 초경인서트의 위치를 검출하기 위한 영상 획득시스템에 관한 것으로서, 상기 영상 획득시스템은 상기 소결 초경인서트 각각의 위치를 촬영하는 렌즈・카메라, 상기 카메라와 전기적으로 연결되고 상기 소결판을 수직으로 조사하는 조명장치로 구성되는 영상 획득 유닛과, 상기 영상 획득 유닛의 하부에 위치하여, 상기 소결 초경인서트 각각의 위치를 촬영할 수 있도록 상기 소결판을 이송하는 소결판 이송 유닛과, 상기 소결판 이송 유닛(200)의 상부에 직각으로 가로질러 설치되어, 상기 영상 획득 유닛이 탑재되도록 구성되는 프레임을 포함하는 것을 특징으로 하는 초경인서트 위치 검출을 위한 영상 획득시스템 및 그 영상 획득시스템을 이용한 획득방법에 관한 것이다.  따라서 카메라, 렌즈 및 조명장치를 포함하는 영상 획득시스템을 이용하여 소결판 위에 산재된 소결 초경인서트의 전체영상을 획득하여 각 소결 초경인서트의 위치를 정확히 검출함으로써 소결 초경인서트의 취출 공정을 원활하게 수행할 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93cf39531982f407da8d2b18e4deb75372d7ed282d07d65461227399b4f9538beacca3fcfdddc9f32024bf142099ac7367b7997ba241b4d9d8</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf078069f921410a6fa09aabeb9161cf9b47e1e61444fb03b8f4385c64882c5f2a91f8ec292463259f92739a6931cbf2cc20641d46b4ea79c4</ThumbnailPath>
+				<SerialNumber>11</SerialNumber>
+				<InventionName>초경인서트 위치 검출을 위한 영상 획득시스템 및 그 영상 획득방법</InventionName>
+				<InternationalpatentclassificationNumber>B65G 43/08|H04N 23/00|B23Q 17/24</InternationalpatentclassificationNumber>
+				<OpeningDate>20231025</OpeningDate>
+				<OpeningNumber>1020230148627</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20240514</PublicDate>
+				<RegistrationDate>20240509</RegistrationDate>
+				<RegistrationNumber>1026660190000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20210806</ApplicationDate>
+				<ApplicationNumber>1020210103647</ApplicationNumber>
+				<Abstract>본 발명은 곡선 구배가 심한 검사 대상체의 인선부 및 표면의 결함 검사를 위한 영상 획득시스템에 관한 것으로서, 상기 영상 획득시스템은 상기 검사 대상체의 영상을 촬영하는 카메라와, 상기 카메라와 전기적으로 연결되어 상기 검사 대상체에 다양한 각도에서 빛을 조사하는 조명장치 및 상기 검사 대상체의 측면부에 조사된 빛을 반사하는 안티-콘 미러를 포함하여 구성되는 것을 특징으로 하는 45° 안티-콘 미러를 이용한 검사 대상체의 영상 획득시스템 및 그 영상 획득시스템을 이용한 획득방법에 관한 것이다.  따라서 카메라와 조명장치 및 45° 안티-콘 미러를 포함하는 영상 획득시스템을 이용하여 검사 대상체의 이동 없이 상면부 및 측면부의 전체영상을 획득함으로써, 인선부 및 표면의 결함을 검사하고자 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9302bcd3483e99a26a9c683d05446b7c925df128f8de9f7dc91502fd828f09b15f1df594234240d0fe038768066d3c1fe1dbcf2a2690164f24</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfb7b82589e1a84f5acb5e6e0680aebaf8ec59f3d6f011b1ad56d02d8abcea1f9cbfdd40eb678a66a4f566937a8754189a3c938f157a4bf99f</ThumbnailPath>
+				<SerialNumber>12</SerialNumber>
+				<InventionName>45° 안티-콘 미러를 이용한 검사 대상체의 영상 획득시스템 및 그 획득방법</InventionName>
+				<InternationalpatentclassificationNumber>G01N 21/88|G01N 21/95|G06T 7/00|G06T 7/30</InternationalpatentclassificationNumber>
+				<OpeningDate>20230214</OpeningDate>
+				<OpeningNumber>1020230021824</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20240805</PublicDate>
+				<RegistrationDate>20240729</RegistrationDate>
+				<RegistrationNumber>1026906750000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20211225</ApplicationDate>
+				<ApplicationNumber>1020210187870</ApplicationNumber>
+				<Abstract>본 발명은 PVD 코팅을 위하여 초경인서트를 샤프트에 로딩하거나, PVD 코팅을 마친 초경인서트를 샤프트로부터 언로딩 하는 장비에 상기 샤프트를 공급 또는 회수하는 초경인서트 코팅 타워 공급 및 취출장치에 관한 것으로서, 상기 초경인서트 코팅 타워 공급 및 취출장치는, 상기 코팅 타워를 외주연에 나란히 탑재하여 회전하도록 구성되는 회전부와, 상기 회전부의 일 측에 위치하여 상기 코팅 타워의 샤프트를 정확히 탑재 및 분리하기 위하여 촬영하도록 구성되는 비전부와, 상기 샤프트를 상기 코팅 타워에 탑재 및 분리하는 위치에 이송하거나, 상기 작업 위치에서 본체장비에 이송하도록 구성되는 이송부를 포함하는 것을 특징으로 하는 PVD 코팅을 위한 초경인서트 코팅 타워 공급 및 취출장치에 관한 것이다.  따라서 본체장비에서 초경인서트가 꽂힌 샤프트를 공급하거나, PVD 코팅이 완료된 초경인서트를 상기 본체장비에 취출하는 초경인서트 코팅 타워를 &#039;작업 위치&#039;에 정렬함으로써, 작업효율을 증대할 수 있으며, 가격경쟁력이 있는 제품의 생산이 가능하다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c937b1ef2f9232a75cd1aa2cb2ff5246bdb9ffc0569628b2389f961cd059c73e034bfa16c5ba54749446171a59f3b008604786ab891d6fc2920</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf4b7d0eb217d1460d5c46aa2a33074f8c6b79c2c55cc7baa363bfbf62fafc440f248cac8a24c6cd27f01d72613adc1e094f429e7d7c4daccc</ThumbnailPath>
+				<SerialNumber>13</SerialNumber>
+				<InventionName>PVD 코팅을 위한 초경인서트 코팅 타워 공급 및 취출장치</InventionName>
+				<InternationalpatentclassificationNumber>C23C 14/56|C23C 14/50|C23C 14/52|C23C 14/00|C23C 14/58</InternationalpatentclassificationNumber>
+				<OpeningDate>20230704</OpeningDate>
+				<OpeningNumber>1020230098462</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20240222</PublicDate>
+				<RegistrationDate>20240219</RegistrationDate>
+				<RegistrationNumber>1026393890000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20160629</ApplicationDate>
+				<ApplicationNumber>1020160081632</ApplicationNumber>
+				<Abstract>본 발명은 초경인서트 제품의 연마, 코팅, 검사장비에서 초경인서트 제품을 파지하여 이송하는 그립장치에 결합되는 초경인서트 배큠 그립퍼에 관한 것으로서, 상기 그립장치에 결합되도록 나사부가 형성되어있는 홀더 뭉치부와, 홀더 뭉치부의 하단에 길게 연장 형성되는 홀더 포스트부로 구성되는 배큠 홀더; 상기 배큠 홀더의 홀더 포스트부에 결합되는 상단부와 상기 초경인서트 제품의 상면부와 접촉되는 주름부로 구성되는 배큠 패드로 이루어지며, 상기 배큠 홀더는 상부의 홀더 뭉치부의 중심부로부터 하부의 홀더 포스트부의 소정의 깊이까지 형성된 수직 홀과, 수직 홀의 일정 깊이에서 좌우로 관통하여 형성된 수평 홀로 구성되는 배큠 홀을 더 포함하고, 상기 배큠 패드는 전체적으로 튜브 형상으로 된 연질의 고무소재로서, 상단부의 내측은 두껍고 단차지게 하여 상기 홀더 포스트부의 패드 고정부에 끼워져 밀착되게 형성되고, 주름부는 주름관 형상으로 얇게 형성하여 초경인서트 제품과 면 접촉에 의한 배큠이 유지되도록 구성되는 것을 특징으로 하는 초경인서트 배큠 그립퍼이다.  따라서 본 발명은 면부가 평탄하지 않은 초소형 초경인서트 제품의 파지 및 이송 작업을 정확하게 수행할 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00dd3c4d51d0e0c6a0eb618dfcd336acc998b278df7dea7e88a94e7d0ae6ae8ccf44c9af427a03fcba49b21527fad2d905beacd48134b0f5dd</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf8f4196c3dfd787deb994d466612b21bd743c9291ebe5e487eed6c3463d3175ca08449b0f14d01f089d0775d4dbec6fef3ada3700f4775910</ThumbnailPath>
+				<SerialNumber>14</SerialNumber>
+				<InventionName>초경인서트 배큠 그립퍼</InventionName>
+				<InternationalpatentclassificationNumber>B25J 15/06|B25J 15/00</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20161012</PublicDate>
+				<RegistrationDate>20161006</RegistrationDate>
+				<RegistrationNumber>1016656070000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20180618</ApplicationDate>
+				<ApplicationNumber>1020180069432</ApplicationNumber>
+				<Abstract>본 발명은 초경인서트 제품 검사장비에 결합되어, 초경인서트 제품의 전체 면을 검사하기 위하여, 일부 면의 검사가 끝난 윗면과 아랫면의 위치를 바꾸는 반전 작업과, 초경인서트 제품을 검사부에서 반전 장치부로 또는 반전 장치부에서 검사부로 이송하는 초경인서트 제품 검사를 위한 반전 및 이송장치에 관한 것으로서, 소정의 두께와 면적을 가지는 철판을 절단 및 조립하여, 바닥면을 형성한 플레이트와, 상기 플레이트의 양측에 수직으로 결합되는 소정의 높이를 가지는 외곽 프레임과, 상기 외곽 프레임의 상부에 수평으로 결합된 테이블을 포함하여 구성되는 바디; 상기 본체장비의 검사부 일 측에 위치하여, 상기 바디의 플레이트에 탑재되어 반전 작업을 하도록 구성되는 반전 장치부; 상기 바디의 테이블 상면에 탑재되어, 상기 본체장비의 검사부에서 파지된 초경인서트 제품을 상기 반전 장치부에 이송하거나, 반전 작업이 완료된 초경인서트 제품을 파지하여 상기 검사부로 이송하도록 구성되는 이송 장치부;를 포함하는 것을 특징으로 하는 초경인서트 제품 검사를 위한 반전 및 이송장치이다.  따라서 다양한 형태와 높이의 초경인서트 제품을 개별적으로 반전하고 검사부로 이송할 수 있는 콤팩트한 장치를 제공함으로서 생산성 향상 및 제품의 원가절감에 기여할 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e005b83daf6a42ca014897f1508585eb056e0f151ae472b20495e10887288573d977c2081f821d770033855ec1880825ca741e45743353e07a2</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf829835a1ebbb8b7dfe1251c0bc80df3d7f8f82729404d85b950d4b1417005e8c09d3c51d9342b4b81aeb0f8be7d5cd43fe5d7d739721d8d6</ThumbnailPath>
+				<SerialNumber>15</SerialNumber>
+				<InventionName>초경인서트 제품 검사를 위한 반전 및 이송장치</InventionName>
+				<InternationalpatentclassificationNumber>B65G 47/248|B65G 47/90</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20191015</PublicDate>
+				<RegistrationDate>20191007</RegistrationDate>
+				<RegistrationNumber>1020318670000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20180618</ApplicationDate>
+				<ApplicationNumber>1020180069732</ApplicationNumber>
+				<Abstract>본 발명은 초경인서트를 청소, 반전, 코팅, 검사, 마킹하는 것을 목적으로 하는 초경인서트 이송장비에 결합되어, 적재된 팔레트와 팔레트를 원활하게 분리하는 장치에 관한 것으로서, 상기 이송 팔레트 분리장치는, 상기 이송장비의 프레임의 높은 일 측의 상부 면에 전후 방향 또는 좌우 방향으로 설치되어 팔레트를 일 측의 팔레트 적재함에서 작업위치까지 이송하거나, 상기 작업위치에서 다른 일 측의 팔레트 적재함으로 이송하도록 구성되는 팔레트 이송부의 양 측 단부의 상기 팔레트 적재함에 설치되어 적재된 각각의 팔레트를 원활하게 분리하는 팔레트 분리부를 포함하는 것을 특징으로 하는 초경인서트 이송 팔레트 분리장치에 관한 것이다.  따라서 수지제품인 팔레트가 적층될 때 요철부의 돌기 맞춤되나 오랜 기간 사용으로 인한 변형 및 이물질의 점착에 따라 팔레트가 잘 분리되는 않는 문제점을 해소할 수 있는 장치를 제공한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00c347da2d246237e6cb5d5a8cea9f65557ae41fab8d136c94d38b763b98675c8c4f6a84267982c3d2b852d68231219c6bb119539f073f209b</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf1fa071b9936635fb58c9e93d640634e37252810453bce595fdee3f1e27de8ed21ff608b63d7d0d18cc1c7044fbb5a9b7f15673e67675eb6f</ThumbnailPath>
+				<SerialNumber>16</SerialNumber>
+				<InventionName>초경인서트 이송 팔레트 분리장치</InventionName>
+				<InternationalpatentclassificationNumber>B65G 61/00|B65G 59/06</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20191029</PublicDate>
+				<RegistrationDate>20191022</RegistrationDate>
+				<RegistrationNumber>1020371510000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20180723</ApplicationDate>
+				<ApplicationNumber>1020180085172</ApplicationNumber>
+				<Abstract>본 발명은 초경인서트 제품을 청소 ・반전 ・검사하는 것을 목적으로 하는 초경인서트 제품 이송장비에 결합되어 초경인서트 제품을 공급하거나 회수하는 팔레트를 이송하는 장치에 있어서, 이송 프레임의 양 끝단에 설치되고 초경인서트 제품이 수납된 팔레트 및/또는 빈 팔레트를 적재하도록 가이드가 설치되어 있는 팔레트 적재함, 상기 초경인서트 제품이 수납된 팔레트 및/또는 빈 팔레트를 &#039;작업위치&#039;로 이송하는 팔레트 피더, 상기 &#039;작업위치&#039;에서 작업을 완료한 팔레트를 제1 방향전환 위치(A  1  /B  1  )까지 밀어주는 팔레트 푸셔, 상기 제1 방향전환 위치(A  1  /B  1  )에 도달한 팔레트를 90도로 방향 전환하여 제2 방향전환 위치(A  2  /B  2  )까지 밀어주는 방향전환 푸셔, 상기 제2 방향전환 위치(A  2  /B  2  )에 도달한 팔레트를 90도로 방향 전환하여 팔레트 배출위치(A  3  /B  3  )까지 견인하는 팔레트 캐리어를 포함하는 것을 특징으로 하는 초경인서트 제품 탑재용 팔레트 이송장치에 관한 것이다.  따라서 초경인서트 제품을 탑재할 수 있는 팔레트를 이송할 때, 하나의 이송 프레임에서 공급구역과 회수구역으로 나누어, 초경인서트 공급 팔레트와 회수 팔레트의 이송방향을 서로 달리 형성함으로서 공급 및 회수 작업이 원활하여 작업효율을 제고할 수 있는 초경인서트 제품 탑...(이하생략)</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e006702a3bdb5d5d6c98de4ced2632d5857afff684b4fdf2cc9b7fbf84a223256322d1d28fe6bedef401a1af0a2cec520b3f630bb4d9843c993</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfd2214b76ff2472abb9777dc711320dcd1e18ae1ad51f2c114df26a618c4bb31929a8a979a23b1a1de61527260189e3dfe6ad884bb39a1f90</ThumbnailPath>
+				<SerialNumber>17</SerialNumber>
+				<InventionName>초경인서트 제품 탑재용 팔레트 이송장치</InventionName>
+				<InternationalpatentclassificationNumber>B65G 47/74|B65G 39/10</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20191127</PublicDate>
+				<RegistrationDate>20191105</RegistrationDate>
+				<RegistrationNumber>1020429860000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20100701</ApplicationDate>
+				<ApplicationNumber>1020100063264</ApplicationNumber>
+				<Abstract>이 발명은 다수/다기종의 인버터 및 인버터가 관리하는 모터를 원격지의 중앙 통제실에서 통합 관리하도록 하는 시스템 및 방법에 관한 것이다.  이 발명에 따른 인버터 및 모터 원격 통합 관리 방법은, 각각이 다수의 인버터들 및 이더넷에 접속되는 다수의 중계기와, 다수의 인버터들을 관리하는 데이터베이스서버를 포함한 인버터 및 모터 원격 통합 관리시스템에서, 상기 데이터베이스서버가 상기 다수의 중계기의 중계기 리스트와 상기 각 중계기의 하위 레벨에 연결된 인버터 리스트와, 상기 각 인버터별 통신프로토콜 정보를 저장하는 제1단계와, 상기 데이터베이스서버가 통신대상인버터를 설정하고, 상기 통신대상인버터의 통신프로토콜에 따른 제어신호를 생성한 후 이더넷신호로 변환하여 상기 통신대상인버터의 상위레벨 중계기에게 송출하는 제2단계와, 상기 중계기가 상기 제어신호가 포함된 이더넷신호를 직렬통신신호로 변환하여 상기 통신대상인버터에게 송출하는 제3단계와, 상기 중계기가 상기 통신대상인버터로부터 상기 제어신호에 대한 응답이 포함된 직렬통신신호를 수신하여 이더넷신호로 변환하고 상기 데이터베이스서버에게 송출하는 제4단계와, 상기 데이터베이스서버가 상기 중계기로부터 수신되는 이더넷신호로부터 상기 통신대상인버터 통신프로토콜을 기반으로 상기 응답을 분석하는 제5단계를 포함한다</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf7261039c778adc8a108cb3fc23b4ac0e61e7bd83338d28f0fd9ba5ab7a2732bad0da3b65bbd6d1afc8131d7f61e761fb8dfe3a0da305cf6db19</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf877efd5f6cbec401eba52d991d6d852a9822ea425e5a64b71d750a6320e1202152e77020e848fa6567c29f517351a62f783d0b8ed4e9ed91</ThumbnailPath>
+				<SerialNumber>18</SerialNumber>
+				<InventionName>인버터 및 모터 원격 통합 관리 방법</InventionName>
+				<InternationalpatentclassificationNumber>H04L 12/24|H04L 41/00</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20101108</PublicDate>
+				<RegistrationDate>20101101</RegistrationDate>
+				<RegistrationNumber>1009925310000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20180723</ApplicationDate>
+				<ApplicationNumber>1020180085181</ApplicationNumber>
+				<Abstract>본 발명은 초경인서트 제품을 검사하는 것을 목적으로 하는 초경인서트 제품 검사장비에 결합되어 초경인서트 제품의 측면을 검사하는 초경인서트 제품 검사장비의 사이드 비전 시스템에 있어서, 장방형 플레이트 형상의 바디, 상기 바디의 상부 일 측에 고정 결합되어 초경인서트 제품을 로딩하고, 회전하도록 구성되는 검사 스테이션, 상기 검사 스테이션과 90도 교차 설치되어 초경인서트 제품 측면의 결함을 검사하고, 두께의 균일성을 측정하도록 구성되는 검사 시스템을 포함하는 것을 특징으로 하는 초경인서트 제품 검사장비의 사이드비전 시스템에 관한 것이다.  따라서 제조된 초경인서트 제품을 검사할 때, 메크로 비전과 마이크로 비전으로 전체적인 크기, 형상 및 꼭지점을 확대하여 결함 여부를 검사하고, 최종적으로 본 발명에 따른 사이드 비전 시스템으로 초경인서트 제품을 회전시키면서 측면부의 결함 검사와 각 면의 두께(높이)를 정밀하게 측정하여 균일한 품질의 초경인서트 제품을 생산할 수 있는 초경인서트 제품 검사장비의 사이드비전 시스템을 제공한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00008f314bf760f712fa7029353f700eaf4c7c02df24703ed9f2829b2733bd65b344aee5b6b35aaab193b071b5c7f39710a1eb3c8c18dab600</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf639cabe79c81f03e8b50864b168f4b5f0101655be0780b0209c131155a07443de6463f994c4afc82fa966f44504eb7202bbaaafe1c51492c</ThumbnailPath>
+				<SerialNumber>19</SerialNumber>
+				<InventionName>초경인서트 제품 검사장비의 사이드 비전 시스템</InventionName>
+				<InternationalpatentclassificationNumber>G01N 21/88|G01B 11/06</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20191220</PublicDate>
+				<RegistrationDate>20191216</RegistrationDate>
+				<RegistrationNumber>1020581120000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20150922</ApplicationDate>
+				<ApplicationNumber>1020150133497</ApplicationNumber>
+				<Abstract>본 발명은 초경합금 분말 회수장치에 관한 것으로서, 피더 플레이트를 가지는 분말 성형 프레스부; 피더 플레이트로부터 압착 성형된 인서트 팁을 픽업하는 그리퍼와 초경합금 분말을 흡입하는 분말회수노즐을 각각 교체하여 장착 사용할 수 있도록 이루어진 핸들러부; 회수된 초경합금 분말을 한데 모을 수 있는 진공흡입장치를 가지는 초경합금 분말 회수부;를 포함하여 이루어지며, 전용기구부를 이용한 것으로는 피더 플레이트를 가지는 분말 성형 프레스부; 피더 플레이트 주변의 초경합금 분말을 흡입하는 분말회수노즐이 형성된 전용기구부; 회수된 초경합금 분말을 한데 모을 수 있는 진공흡입장치를 가지는 초경합금 분말 회수부;를 포함하여 이루어진다.  따라서 산업용 다축 로봇시스템을 이용하거나 분말 성형 프레스부에 설치된 전용기구부를 이용하여 피더 플레이트에 산재된 초경합금 분말을 전량 회수할 수 있어 경제적이며, 시스템의 완전 자동화에 따른 작업성, 생산성이 크게 향상된다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00ebac1a3569fc6243ec71db210fab6dc4d5c2165cde0d5e28e27a8b86b8944a3afe313256832ab0d756007df8721b2d97a080bb92a51a58ba</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf0134c2280ae13d953cbcb0deed03d5e575933368a9bd35f826d9796011d3e09c950a387173d9a984b2496d8e89091ecb508285a52f4909bb</ThumbnailPath>
+				<SerialNumber>20</SerialNumber>
+				<InventionName>초경합금 분말 회수장치</InventionName>
+				<InternationalpatentclassificationNumber>B30B 15/08|B30B 15/00|B30B 11/02|B22F 3/03</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20160107</PublicDate>
+				<RegistrationDate>20151230</RegistrationDate>
+				<RegistrationNumber>1015828050000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20181114</ApplicationDate>
+				<ApplicationNumber>1020180139571</ApplicationNumber>
+				<Abstract>본 발명은 직교형 로봇을 이용한 초경인서트 고속 검사장비에서 초경인서트의 표면을 클리닝하기 위한 장치에 관한 것으로서, 팔레트 이송부의 팔레트에서 다수 개의 검사대상 초경인서트를 동시에 파지하여 초경인서트 클리닝장치에, 상기 클리닝장치에서 클리닝 작업이 완료된 초경인서트를 검사 전용 지그 이송부의 검사 전용 지그에 적재하도록 구성되는 이송부와, 상기 이송부에 의해 이송된 초경인서트 표면의 이물질을 제거하도록 구성되는 클리닝부와, 상기 클리닝부에서 초경인서트 표면으로부터 탈거된 이물질을 한곳에 모으도록 구성되는 집진부를 포함하는 것을 특징으로 하는 직교 로봇을 이용한 초경인서트 고속 검사장비의 초경인서트 클리닝장치에 관한 것이다.  따라서 검사대상인 다수 개의 초경인서트를 동시에 클리닝이 가능한 본 발명에 따른 초경인서트 클리닝장치를 결합함으로서 본체장비인 직교 로봇을 이용한 초경인서트 고속 검사장비의 효율을 높여 제품 생산성을 향상시킬 수 있으며, 탈거된 이물질을 한곳으로 모아 이물질 속의 초경합금가루를 회수하여 생산 원가를 절감할 수 있는 장치를 제공한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00654429ae9f35e0d1729687b9ed0bbcc6429ac9a1ff328072b08c3d5afb35d2e74a90dafb98ac90dc1b7170b9fa4c3b6657d5d28524c9fada</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf5c6e9764c9f029d43d34ddffad18696d991d5dadf4097a548480b93a249d5040c86e8c8028d1dd24d7456db971ce143dcd1335d6938bffc8</ThumbnailPath>
+				<SerialNumber>21</SerialNumber>
+				<InventionName>직교 로봇을 이용한 초경인서트 고속 검사장비의 초경인서트 클리닝장치</InventionName>
+				<InternationalpatentclassificationNumber>B08B 15/02|B08B 5/02|B08B 5/04|B08B 1/00|B08B 1/32|A46B 13/02</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20191025</PublicDate>
+				<RegistrationDate>20191021</RegistrationDate>
+				<RegistrationNumber>1020365890000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20160629</ApplicationDate>
+				<ApplicationNumber>1020160081517</ApplicationNumber>
+				<Abstract>본 발명은 초경인서트 제품의 연마, 코팅, 검사를 목적으로 하는 장비에 수직으로 결합되어, 초경인서트 제품을 파지하여 이송하는 초경인서트 제품 그립장치에 관한 것으로서, 그립장치가 초경인서트 제품을 파지하기 위하여 상하 운동 시 발생하는 충격을 완화하도록 형성되는 완충부; 완충부의 아래 수직선상에 위치하며, 그립장치 작동 에어를 공급, 배출 및 음압을 생성 하도록 형성되는 에어 작동부; 에어 작동부의 아래 수직선상에 위치하며, 그립장치가 회전운동을 하도록 형성되는 회전 운동부; 회전 운동부의 아래 수직선상에 위치하며, 초경인서트 제품 그립 툴을 부착하도록 형성되는 툴 조인트부; 툴 조인트부에 결합되어 회전 운동부 및 에어 작동부의 수직 중심부를 관통하여 완충부에 연결되는 업다운 샤프트를 가지는 에어 관로 샤프트부;를 포함하여 이루어지는 것을 특징으로 하는 초경인서트 제품 그립장치에 관한 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00dd3c4d51d0e0c6a0eb618dfcd336acc998b278df7dea7e8837f6363d631176bc0cf636a1ce07256f071c7a02b41d68fa1ae0b8d650b02a55</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf8f4196c3dfd787deb994d466612b21bd743c9291ebe5e48700b93d6f8e3f5b5cd1de75ffd378eee0af627fdae6d9e42637c8e6f79a12124c</ThumbnailPath>
+				<SerialNumber>22</SerialNumber>
+				<InventionName>초경인서트 제품 그립장치</InventionName>
+				<InternationalpatentclassificationNumber>B25J 15/00|B25J 11/00|B25J 19/00</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20161012</PublicDate>
+				<RegistrationDate>20161006</RegistrationDate>
+				<RegistrationNumber>1016656020000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션|아주대학교산학협력단</Applicant>
+				<ApplicationDate>20161014</ApplicationDate>
+				<ApplicationNumber>1020160133345</ApplicationNumber>
+				<Abstract>본 발명은 고해상도의 카메라를 통하여 초경인서트의 영상을 획득하여 상기 영상을 기반으로 제품의 대칭성과 영상 유사도를 비교하여 초경인서트의 결함을 검출하는 방법에 관한 것으로서, 상기 초경인서트(시료)를 준비하는 단계; 초경인서트의 광학처리 및 영상을 획득하는 단계; 상기 단계에서 획득한 영상을 기반으로 수학적 해석을 통해 상기 시료의 형태를 추정하고 대칭성에 따른 영역을 분류하는 단계; 상기 단계에서 획득한 영상을 기반으로 결함을 검출할 검사영역과, 상기 단계에서 분류된 대응영역의, 부분영상을 획득하는 단계; 상기 단계에서 획득한 부분영상 간의 유사도를 비교하여 결함을 검출하는 단계;를 포함하여 이루어지는 것을 특징으로 하는 제품의 대칭성과 영상 유사도를 이용한 초경인서트 결함 검출방법에 관한 것이다.  따라서 다양한 형태와 크기를 갖는 결함을 검사하고자 하는 제품의 대칭성을 이용하여 각 대응영상과의 유사도 비교를 통해 결함을 검출할 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00d7f7915cafb12b3c469c414a32144a67970ebc6ac625d280b5ccb8a10a0a8dc638d9eebcec962e52086fe8890c58e10345ed453cada3943b</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf3971b25463079d2ebd0c4197d93a9f3e046fef0c18477bdb31ebe0b240acabc530e92ca342241434707376b38c800299c0d47451bd5c3ff1</ThumbnailPath>
+				<SerialNumber>23</SerialNumber>
+				<InventionName>제품의 대칭성과 영상 유사도를 이용한 초경인서트 결함 검출방법</InventionName>
+				<InternationalpatentclassificationNumber>G01N 21/88|G06T 7/00|G01B 11/30</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20171030</PublicDate>
+				<RegistrationDate>20171024</RegistrationDate>
+				<RegistrationNumber>1017914690000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20180102</ApplicationDate>
+				<ApplicationNumber>1020180000365</ApplicationNumber>
+				<Abstract>본 발명은 PVD 코팅을 위하여 초경인서트를 샤프트에 로딩 하거나, 언로딩 하는 장비에서, 프레임, 팔레트 이송부, 초경인서트 공급 및 회수부, 로딩 및 언로딩부, 로딩 및 언로딩 샤프트 그립부, 로딩 및 언로딩 작업부, 스페이서 공급부 스페이서 회수부 및 컨트롤러에 있어서, 스페이서 회수부는, 로딩 및 언로딩부의 샤프트의 좌우 일정한 거리에 수직으로 형성된 두 개의 회수관, 상기 회수관의 하단에 회수된 스페이서가 1차 집결되는 집결통, 상기 집결통으로부터 경사지게 연결된 덕트를 통해 최종적으로 회수되는 회수통을 포함하는 것을 특징으로 하는 PVD 코팅을 위한 초경인서트 로딩 및 언로딩 장비의 스페이서 회수장치에 관한 것이다.  따라서 본 발명에 따른 PVD 코팅을 위한 초경인서트 로딩 및 언로딩 장비의 스페이서 회수장치는 초경인서트를 샤프트로부터 언로딩할 때, 상기 로딩 및 언로딩 작업부의 두 대의 스페이서 언로딩 그립퍼는, 번갈아 가면서 파지된 스페이서를 각각의 회수관에 정확하게 자유낙하 시켜서 스페이서를 안전하게 회수할 수 있어 장비의 안전성과 작업효율을 증대할 수 있는 이점이 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00008f314bf760f712fa7029353f700eaf4d26a48a345f205a42d22dcc380e01450d5a9b02d5a0c547b6f1f6943ed954bbc42fc340d04c0341</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf639cabe79c81f03e8b50864b168f4b5f365ad0aa4a7440fc478420aa010c86e98d28202b91de2eacd41b01aa4eb5870e36fc6d54594566a4</ThumbnailPath>
+				<SerialNumber>24</SerialNumber>
+				<InventionName>PVD 코팅을 위한 초경인서트 로딩 및 언로딩 장비의 스페이서 회수장치</InventionName>
+				<InternationalpatentclassificationNumber>C23C 14/56|C23C 14/50</InternationalpatentclassificationNumber>
+				<OpeningDate>20190710</OpeningDate>
+				<OpeningNumber>1020190082585</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20191220</PublicDate>
+				<RegistrationDate>20191216</RegistrationDate>
+				<RegistrationNumber>1020578410000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20150615</ApplicationDate>
+				<ApplicationNumber>1020150084031</ApplicationNumber>
+				<Abstract>본 발명은 초경인서트 검사장치에 관한 것으로서, 상부 면에 일정한 두께와 폭을 가지는 대리석으로 된 직육면체의 정반을 포함하여 형성되는 육면체의 프레임과, 프레임의 상부 면에 정반과 나란히 설치되어 초경인서트를 공급하거나 회수하는 팔레트를 이송할 수 있도록 형성된 팔레트 이송부와, 정반과 팔레트 이송부의 경계부의 공중에 두 개의 레그에 의해 지지되어 형성된 Y축 이송프레임과, Y축 이송프레임의 하부에 결합되어 초경인서트를 팔레트 이송부로부터 초경인서트 검사부에 공급하고, 검사를 마친 초경인서트를 회수하도록 형성된 X1축 공급로봇 및 X2축 회수로봇과, 정반위에 설치되어 초경인서트의 윗면, 모서리, 측면 및 바닥면을 검사하도록 형성된 초경인서트 검사부와, 팔레트 이송부와 초경인서트 검사부 사이에 설치되어 초경인서트에 묻은 이물질을 청소하도록 형성된 초경인서트 청소부와, 팔레트 이송부, Y축 이송프레임, X1축 공급로봇, X2축 회수로봇, 초경인서트 검사부, 초경인서트 청소부에 연결되어 이들을 제어하는 컨트롤러를 포함하여 이루어진 것을 특징으로 하는 초경인서트 검사장치에 관한 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0088b5a1de24a8437044cfcfa04ed9ed73089edce65daaedfd28ca6eb6133e01fe456ae20b03f1885ad2d37899bf185726cb9b28ff647a958c</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf5420d0ad9388660a5820259055c217df53f3168e3fae4bd0fd0d287ccac3baaf946243add819c6a8c6e0820157a8b8346153d9ec8afbe350</ThumbnailPath>
+				<SerialNumber>25</SerialNumber>
+				<InventionName>초경인서트 검사장치</InventionName>
+				<InternationalpatentclassificationNumber>G01N 21/88|G01N 21/15|B65G 47/92|B65G 29/00</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20151208</PublicDate>
+				<RegistrationDate>20151202</RegistrationDate>
+				<RegistrationNumber>1015756910000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20190618</ApplicationDate>
+				<ApplicationNumber>1020190072246</ApplicationNumber>
+				<Abstract>본 발명은 초경인서트 제품을 연삭하기 위하여 연삭장비에 초경인서트 제품을 공급하는 핸들러의 팔레트 공급 및 취출장치에 관한 것으로서, 상기 팔레트 공급 및 취출장치는, 상기 연삭장비에 초경인서트 제품을 공급하기 위하여 포켓에 장입된 팔레트를 공급하도록 구성되는 팔레트 공급부와, 상기 연삭장비로부터 연삭작업을 모두 마친 초경인서트 제품이 장입된 팔레트를 취출하도록 구성되는 팔레트 취출부를 포함하는 것을 특징으로 하는 초경인서트 제품 연삭을 위한 핸들러의 팔레트 공급 및 취출장치에 관한 것이다.  따라서 본 발명에 따른 초경인서트 제품 연삭을 위한 핸들러의 팔레트 공급 및 취출장치는, 기존의 연삭장비에 결합 또는 접근하여 공급되는 초경인서트 제품을 연삭장비에 공급하기 위하여 초경인서트 제품이 장입된 팔레트를 공급하고, 연삭이 완료된 초경인서트 제품이 장입된 팔레트를 취출함으로서 초경인서트 제품을 다량 생산할 수 있도록 구성된다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00b98c097737c793f0b3d9a1a8dc539563bf6f22eda39d7834b0094eeb8ab82e1735ba2df424af17c8404f42ad4464a33ae93db11c3e03b33c</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf98a27862ad924afadade04018ec0820fef36a54e4f8a522d1364298ea33931c7b20b39ef1f5c95101181202682b6c132f24163f18611ca1d</ThumbnailPath>
+				<SerialNumber>26</SerialNumber>
+				<InventionName>초경인서트 제품 연삭을 위한 핸들러의 팔레트 공급 및 취출장치</InventionName>
+				<InternationalpatentclassificationNumber>B24B 41/06|B23Q 7/10|B23Q 7/14|B24B 49/04</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20201029</PublicDate>
+				<RegistrationDate>20201023</RegistrationDate>
+				<RegistrationNumber>1021715650000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20180102</ApplicationDate>
+				<ApplicationNumber>1020180000347</ApplicationNumber>
+				<Abstract>본 발명은 초경인서트 제품의 CVD 코팅 및 회수를 위하여, 프레임, 팔레트 이송부, 코팅 트레이 이송부, 초경인서트 검사 및 반전부, 초경인서트 이송부 및 위치 검출용 무빙 카메라부를 포함하여 구성되는 CVD 코팅을 위한 초경인서트 로딩 및 언로딩 장비에서, 상기 코팅 트레이 이송부의 CVD 코팅 트레이로부터 초경인서트 제품을 분리하는 장치에 관한 것으로서, 상기 초경인서트 이송부의 그립퍼 이동자에 수직으로 형성되어 초경인서트 제품을 파지하도록 구성된 다수 개의 그립퍼와 일직선상의 일정한 간격을 유지하여 결합되는 초경인서트 제품 분리장치를 포함하는 것을 특징으로 하는 CVD 코팅 트레이로부터 초경인서트 제품 분리장치에 관한 것이다.  CVD 코팅이 끝나고 트레이와 함께 배출될 때 트레이에 붙어서 굳은 상태인 초경인서트 제품을 트레이에서 분리하기 위하여 물리적인 충격이 필요로 한다. 본 발명의 초경인서트 제품 분리장치는 그립퍼가 CVD 코팅 트레이의 초경인서트 제품을 파지하면, CVD 코팅 트레이의 테두리 부분을 가격하여 초경인서트 제품의 그립 및 이송을 원활하게 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0046810ad903b4811dee36de894202c9fa590e903db8b42fd43111b7abf3798c09c7c3569b9879e23da320d4b5e1899e1281a1b83f2e6a1ff5</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cffd52fd7f1d82f05e1623026687d741972997a05a9d08cfdc76fc5ef6608b7570c66b6aae07a2dc748a18074b99682fee4cd24e4c8f50647b</ThumbnailPath>
+				<SerialNumber>27</SerialNumber>
+				<InventionName>초경인서트 제품 분리장치</InventionName>
+				<InternationalpatentclassificationNumber>C23C 16/458|C23C 16/52|B65G 47/90</InternationalpatentclassificationNumber>
+				<OpeningDate>20190710</OpeningDate>
+				<OpeningNumber>1020190082573</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20200103</PublicDate>
+				<RegistrationDate>20191227</RegistrationDate>
+				<RegistrationNumber>1020620910000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20181015</ApplicationDate>
+				<ApplicationNumber>1020180122328</ApplicationNumber>
+				<Abstract>본 발명은 전기에너지 관리 및/또는 전기 사고 감지·차단 기능을 가지는 전자식 전력량 측정장치에 있어서, 교류전원을 인가받아 전력소비 패턴을 원격으로 측정, 분석하여 전력소비의 효율적인 관리 및 에너지 절감이 가능한 전자식 전력량계; 상기 교류전원을 인가받아 전기화재의 직접적인 위협 요소인 아크를 감지하여 차단신호를 발생시켜, 사고를 미연에 방지하는 아크차단 시스템을 포함하는 것을 특징으로 하는 전기 사고 감지 및 차단 기능을 가지는 전자식 전력량 측정장치에 관한 것이다.  따라서 본 발명은 전기에너지 관리기능을 가진 전자식 전력량계를 통해 에너지 사용현황을 원격으로 확인하여 전력소비 관리 및 에너지 절감과 아크 감지 및 차단을 통해 아크로 인한 화재 사고 예방을 하나의 기기에서 복합적으로 처리할 수 있는 전기 사고 감지 및 차단 기능을 가지는 전자식 전력량 측정장치를 제공한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00197f73e69e7fc04ea1a2fe6c9569abcefa8b504e42ee868831f060e415e8c00d6e955255419d66f4ad7eadfe6e92c9221b3288df65fdc10d</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf7a66b7eb7b7d70b1ad18dfe2b684fb3deec2e81cfabfb1f4b14b6694da941d2c9c1d9b64ef542adbd6a1721870b9d9fd611bfcdc61e31c9b</ThumbnailPath>
+				<SerialNumber>28</SerialNumber>
+				<InventionName>전기 사고 감지 및 차단 기능을 가지는 전자식 전력량 측정장치</InventionName>
+				<InternationalpatentclassificationNumber>G01R 1/36|G01R 22/06|G01R 21/06|G01R 21/133|H02H 3/00</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20181207</PublicDate>
+				<RegistrationDate>20181130</RegistrationDate>
+				<RegistrationNumber>1019258600000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20190412</ApplicationDate>
+				<ApplicationNumber>1020190042848</ApplicationNumber>
+				<Abstract>본 발명은 PVD 코팅을 위하여 초경인서트를 샤프트에 로딩 하거나, PVD 코팅을 마친 초경인서트를 샤프트로부터 언로딩 하는 장비(본체장비)에 포함되는 스페이서 공급장치에 관한 것으로서, 상기 스페이서 공급장치는, 상기 본체장비에서 초경인서트를 샤프트에 로딩 할 때 상기 초경인서트와 번갈아 끼우기 위하여 스페이서를 소정의 위치(정위치)에 공급하는 스페이서 공급부 및, 상기 스페이서 공급부로부터 공급되는 스페이서가 상기 &#039;정위치&#039;에 공급되도록 스페이서를 소정의 자세로 정렬시키는 스페이서 정렬부를 포함하는 것을 특징으로 하는 PVD 코팅을 위한 초경인서트 로딩 및 언로딩 장비의 스페이서 공급장치에 관한 것이다.  따라서 본 발명에 따른 PVD 코팅을 위한 초경인서트 로딩 및 언로딩 장비의 스페이서 공급장치는 초경인서트를 샤프트에 로딩 할 때, 종래의 구성에 비해 간단한 구성인 정렬판과 가이드를 이용하여 스페이서를 &#039;정위치&#039;에 정렬시킴으로서, 작업효율을 증대할 수 있으며, 가격경쟁력이 있는 제품(본체장비)의 생산이 가능하다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00251be366d87e3d75d0c02cbf0fd5d658e659402a968a3e9270f9d36c4da484fdafcc70cd059ded9a6f02e00020fbb5a8cafd2838f4641f07</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf37d4b6e3d7c334ec8a8a111091e52a28ef9fb03018c8a1eb04d38781c8a3815c399fb4d4f772929e3e3fddf967a201422bb97b077ad07de3</ThumbnailPath>
+				<SerialNumber>29</SerialNumber>
+				<InventionName>PVD 코팅을 위한 초경인서트 로딩 및 언로딩 장비의 스페이서 공급장치</InventionName>
+				<InternationalpatentclassificationNumber>C23C 14/56|C23C 14/50|B65G 47/04|B65G 47/26</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20201016</PublicDate>
+				<RegistrationDate>20201012</RegistrationDate>
+				<RegistrationNumber>1021670650000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20161013</ApplicationDate>
+				<ApplicationNumber>1020160132548</ApplicationNumber>
+				<Abstract>본 발명은 PVD 코팅을 위하여 초경인서트를 샤프트에 로딩 하거나, 언로딩 하는 장치에 관한 것으로서, 육면체 모양의 프레임, 초경인서트를 담는 팔레트를 이송할 수 있도록 형성된 팔레트 이송부, 스페이서를 공급할 수 있도록 형성된 스페이서 공급부와, 스페이서를 회수할 수 있도록 형성된 스페이서 회수부로 구성된 스페이서 공급 및 회수부, 초경인서트를 공급 및 회수할 수 있도록 형성된 초경인서트 공급 및 회수부, 초경인서트가 꽂힐 수 있는 다수 개의 샤프트를 거치하는 원통 모양의 회전체로 형성된 로딩 및 언로딩부, 팔레트 이송부와 스페이서 공급 및 회수부 및 로딩 및 언로딩부의 가운데 공간에 위치하며, 초경인서트와 스페이서를 번갈아 수용하는 샤프트를 수직으로 세워서 파지하는 로딩 및 언로딩 샤프트 그립부, 로딩 및 언로딩 샤프트 그립부의 상부에 설치되어 초경인서트 스테이와 스페이서 스테이로부터 초경인서트와 스페이서를 샤프트에 번갈아 꽂아 넣는 작업과, 샤프트에 꽂혀있는 초경인서트와 스페이서를 파지하여 초경인서트 스테이와 스페이서 회수부로 이동시키는 작업을 수행하도록 형성되는 로딩 및 언로딩 작업부 및 컨트롤러를 포함하여 이루어진 것을 특징으로 하는 PVD 코팅을 위한 초경인서트 로딩 및 언로딩 장치에 관한 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e008a586e2c8cba75096992e3cb2cc9620bae7eeff34904bc6c20734d4e439f4e3a64f53c952026269ded006ec45f0cd3da857553e38dd208a3</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf8875ee314fb916fd133e008cc90167fccc89f4ea8b61c72d6975f10b354a67c44f93ed6b51e1452d59d05a6dc19d8bb9ee8376ec86051536</ThumbnailPath>
+				<SerialNumber>30</SerialNumber>
+				<InventionName>PVD 코팅을 위한 초경인서트 로딩 및 언로딩 장치</InventionName>
+				<InternationalpatentclassificationNumber>C23C 14/56|C23C 14/50|C23C 30/00</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20161227</PublicDate>
+				<RegistrationDate>20161221</RegistrationDate>
+				<RegistrationNumber>1016903210000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20230104</ApplicationDate>
+				<ApplicationNumber>1020230001030</ApplicationNumber>
+				<Abstract>본 발명은 PVD 코팅을 위하여 초경인서트를 샤프트에 로딩하는 장비에 포함되는 스페이서 공급장치에 관한 것으로서, 상기 스페이서 공급장치는, 상기 본체장비에서 초경인서트를 샤프트에 로딩할 때 상기 초경인서트와 번갈아 끼우기 위하여 스페이서를 소정의 위치(정위치)에 공급하는 스페이서 공급부 및 상기 스페이서 공급부로부터 공급되는 스페이서가 &#039;정위치&#039;에 공급되도록 스페이서를 소정의 자세로 정렬시키는 스페이서 정렬부를 포함하는 것을 특징으로 하는 PVD 코팅을 위한 초경인서트 로딩 장비의 스페이서 공급장치에 관한 것이다.  따라서 본 발명에 따른 PVD 코팅을 위한 초경인서트 로딩 장비의 스페이서 공급장치는 초경인서트를 샤프트에 로딩할 때, 종래의 구성에 비해 스페이서의 엉킴 없이 정렬판 및 가이드를 이용하여 스페이서를 &#039;정위치&#039;에 정렬함으로써, 작업효율을 증대할 수 있고, 가격경쟁력이 있는 본체장비의 생산이 가능하다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c933714dfbb7d15b00697983b8c79694d9b3eee1e9779be50fb4730c9a429b35c610af66cbb27fe77560094be84a556d204919cb6b2dff30026</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfd90d0542664eb5406f690fb0416c6babbc5ebf4879c1f70c92bc7aa99ba468f2607daa64f3714a60c13719716c06c630ea429910dc076106</ThumbnailPath>
+				<SerialNumber>31</SerialNumber>
+				<InventionName>PVD 코팅을 위한 초경인서트 로딩 장비의 스페이서 공급장치</InventionName>
+				<InternationalpatentclassificationNumber>C23C 14/56|C23C 14/50|B65G 47/04|B65G 47/26</InternationalpatentclassificationNumber>
+				<OpeningDate>20240711</OpeningDate>
+				<OpeningNumber>1020240109369</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>공개</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20050504</ApplicationDate>
+				<ApplicationNumber>1020050037561</ApplicationNumber>
+				<Abstract>본 발명은 로봇비젼을 이용한 수동노광기의 자동화 장치 및 그 방법에 관한 것으로, 다축으로 형성되어 구동부(111)의 상부에 상하좌우로 이송하는 상하좌우이송관절(112)을 형성하고, 상하좌우이송관절(114)의 상부에는 횡방향으로 회전하는 횡방향회전관절(113)을 형성하며, 전면 측으로 종방향으로 회전하는 종방향회전관절(114)을 형성하고 종방향회전관절(114)의 하부에 공구부(115)를 형성하여 상하좌우 및 종횡으로 회전하도록 다축의 다관절이 형성된 다축다관절로봇(110)과, 상기 다축다관절로봇(110)의 공구부(115)에 상부에 구비된 상부고정구(122)로 이송브라켓(121)을 형성하고, 이송브라켓(121)의 전후면 측으로 장공형태의 고정장홈(125)이 형성된 지지플레이트(124)를 결합구(123)로 하부에 설치하며, 이송브라켓(121)의 일측 상부로 압착펌프(126)를 형성하여 지지플레이트(124)의 고정장홈(125)에 따라 길이를 조절하면서 각 모서리 측에 위치하도록 진공압착구(127)를 압착펌프(126)와 연결하여 노광필름(2)과 기판(4)을 진공 압착하여 이송하도록 형성하고, 노광기(1)의 좌우측으로 기판(4)을 공급하는 공급컨베이어(128)를 일측에 형성하고 타측으로 기판을 배출하는 배출컨베이어(129)를 형성한 이송부(120)와, 상기 이송부(120)의 일측으로 일정한 간격을 이격되도록...(이하생략)</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9c592fb536ea920a4d87f41dc603ae757b1511bdc682d1fcf9c9d0ac790740aa10</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe407489d23bbfec243b9f5a3831f3a12927855b4f4ccf4d0a13a4b0f07a0d20abb</ThumbnailPath>
+				<SerialNumber>32</SerialNumber>
+				<InventionName>로봇비젼을 이용한 수동노광기의 자동화 장치 및 그 방법</InventionName>
+				<InternationalpatentclassificationNumber>G03F 7/00|G03F 7/16</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20050906</PublicDate>
+				<RegistrationDate>20050830</RegistrationDate>
+				<RegistrationNumber>1005128690000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20150520</ApplicationDate>
+				<ApplicationNumber>1020150070132</ApplicationNumber>
+				<Abstract>본 발명은 CVD 코팅을 위하여 초경인서트 코팅 로에 공급하고, 또 코팅이 완료된 초경인서트를 회수하는 장치 및 그 방법에 관한 것으로, 프레임의 상면 일 측에 팔레트를 이송할 수 있도록 형성된 팔레트 이송부와, 프레임의 상면 타 측에 팔레트 이송부와 나란히 대향되며, 코팅 트레이를 이송할 수 있도록 형성된 코팅 트레이 이송부와, 팔레트 이송부와 코팅 트레이 이송부 사이에 초경인서트를 검사와 반전을 할 수 있도록 형성된 초경인서트 검사부 및 반전부와, 팔레트 이송부와 코팅 트레이 이송부의 공중을 가로지르도록 구성되어, 초경인서트를 이송하도록 형성된 초경인서트 이송부와, 초경인서트 이송부의 상부에 같은 방향으로 형성되어 있는 위치 검출용 무빙 카메라부를 포함하여 이루어진 것을 특징으로 하는 초경인서트 공급 및 코팅 후 회수장치, 및 팔레트 이송 단계와, 초경인서트 검사 단계 및 반전 단계와, 코팅 트레이 이송 단계를 포함하여 이루어진 것을 특징으로 하는 초경인서트 공급 및 코팅 후 회수방법에 관한 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0073135347b9fa38f5e37ed2588a614b1c868141af5783c833b4df4f0f1c08ad82532778c8c4e7f18bba81126a8043d445a77005a9e54f8304</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfdd8a5d98ff636722b182427cc4b6c576f732148b63587929007f7baa2c71d9b3cf274dd3bf4a0f018231f7aabbd3d84236d459b6853672d1</ThumbnailPath>
+				<SerialNumber>33</SerialNumber>
+				<InventionName>초경인서트 공급, 코팅 후 회수장치 및 그 방법</InventionName>
+				<InternationalpatentclassificationNumber>C23C 16/52|C23C 16/458|C23C 16/06|B65G 49/00|B65G 47/90</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20151021</PublicDate>
+				<RegistrationDate>20150903</RegistrationDate>
+				<RegistrationNumber>1015522530000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20120724</ApplicationDate>
+				<ApplicationNumber>1020120080311</ApplicationNumber>
+				<Abstract>본 발명은 초경합금 프레스 제품 이송용 듀얼 그립 장치에 관한 것이다  즉, 본 발명은 프레스에서 성형된 인서트팁을 계량기로 이송시키는 제1그립과, 검사 완료된 인서트팁을 계량기에서 플랫폼으로 이송시키는 제2그립을 동시에 구비하여, 제1 및 제2그립의 동시 작동에 의거 인서트팁의 이송 및 배치 작업속도를 보다 빠르게 향상시킬 수 있고, 결국 인서트팁의 생산성을 크게 향상시킬 수 있도록 한 초경합금 프레스 제품 이송용 듀얼 그립 장치를 제공하고자 한 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726a1fc76cd75d4f887b49aff69c83f8d8a9618ed2f09a7c2460c4d020742142f02dbe72965eb51b9e7a61a8215f8d78ae8eb0a3f704137c822</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfd2666af83cab0227ac082fcb20df1b465c143da3c1455b55c0ee0e07b72b265fdfc9d69062ae6b6fa8302282c6f7d7c178b073f404e519e0</ThumbnailPath>
+				<SerialNumber>34</SerialNumber>
+				<InventionName>초경합금 프레스 제품 이송용 듀얼 그립 장치</InventionName>
+				<InternationalpatentclassificationNumber>B65G 47/90|B25J 15/00|B25J 5/02</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20121002</PublicDate>
+				<RegistrationDate>20120925</RegistrationDate>
+				<RegistrationNumber>1011873490000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20190710</ApplicationDate>
+				<ApplicationNumber>1020190083007</ApplicationNumber>
+				<Abstract>본 발명은 초경인서트 제품이 장입된 팔레트를 180도 반전하는 전용시스템에 관한 것으로서, 상기 전용시스템의 팔레트 공급 측에서 배출 측까지 일직선으로 설치되어 초경인서트가 장입된 팔레트를 이송하도록 구성되는 컨베이어 유닛과, 초경인서트 제품이 장입된 팔레트 위에 빈 팔레트를 겹쳐놓거나, 반전을 완료한 후 상부 팔레트를 픽업하도록 구성되는 픽업 유닛으로 이루어지는 이송부와, 상기 이송부의 중간 부분에 위치하여 팔레트에 장입된 초경인서트의 상하면을 바꾸기 위하여 팔레트를 반전하도록 구성되는 로터리 유닛과, 상기 로터리 유닛에서 회전할 수 있도록 이송된 팔레트를 받쳐주도록 구성되는 클램프 유닛으로 이루어지는 반전부를 포함하는 것을 특징으로 하는 초경인서트 제품이 장입된 팔레트 반전 전용시스템에 관한 것이다.  따라서 본 발명은 초경인서트 제품의 이송장치에 결합되거나 근접 설치되어 연삭공정, 코팅공정 및 검사공정에 공급되는 다량의 초경인서트 제품을 동시에 반전함으로서 제품 생산성을 향상시킬 수 있는 초경인서트 제품이 장입된 팔레트 반전 전용시스템을 제공한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00ba77fa82e1de18583246996581fb08a3206f33b95c3ec27a3bfde34907d3f914a61ed6d6d4e698ff10e56f77195cd7694eeac53d0b2a63fe</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf08138d563102a1a817740b9ec7e47859f9ce6ed0ddd09cd3fa81dc4e7b30d569a84b5174bb71b7ad1132004783811fc9bc46d91ace783196</ThumbnailPath>
+				<SerialNumber>35</SerialNumber>
+				<InventionName>초경인서트 제품이 장입된 팔레트 반전 전용시스템</InventionName>
+				<InternationalpatentclassificationNumber>B65G 47/252|B65G 37/00|B65G 21/12|B65G 23/22|B65G 47/90</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20200723</PublicDate>
+				<RegistrationDate>20200718</RegistrationDate>
+				<RegistrationNumber>1021373620000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20180103</ApplicationDate>
+				<ApplicationNumber>1020180000609</ApplicationNumber>
+				<Abstract>본 발명은 초경인서트를 청소 ・반전 ・코팅 ・검사 ・마킹하는 것을 목적으로 하는 초경인서트 이송장비에 결합되어, 초경인서트가 담겨있는 팔레트를 이송하고, 적재된 팔레트와 팔레트를 원활하게 분리하는 팔레트 이송장치에 있어서, 상기 팔레트 이송장치는, 이송장비의 프레임의 높은 일 측의 상부 면에 전후 방향 또는 좌우 방향으로 설치되어 초경인서트가 담겨진 팔레트를 일 측의 팔레트 적재함에서 소정의 위치까지 이송하거나, 빈 팔레트를 소정의 위치에서 다른 일 측의 팔레트 적재함에 이송하도록 형성되는 팔레트 이송부, 초경인서트가 담겨진 팔레트가 적재되어 있는 팔레트 적재함에서 원활한 이송을 위하여 팔레트를 각각 분리하는 팔레트 분리부를 포함하는 것을 특징으로 하는 초경인서트 이송 팔레트 분리장치에 관한 것이다.  따라서 수지제품인 팔레트가 적층될 때 요철부의 돌기 맞춤되나 오랜 기간 사용으로 인한 변형 및 이물질의 점착에 따라 팔레트가 잘 분리되는 않는 문제점을 해소할 수 있는 장치를 제공한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e009781c6e2b1fa5a7140f0670db918c72052330abe2b912f94b668b3b59aa59b8dc5e018b426cb0a115454f14c654686d019182aec0b36681e</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf2c7b57c813d26299ff5b8a08657ac09be9a819097f23eb13eef0b1a9cf0a39fb6229c276bc46f45cd0f23d061ff377358b52db83fe30acc5</ThumbnailPath>
+				<SerialNumber>36</SerialNumber>
+				<InventionName>초경인서트 이송 팔레트 분리장치</InventionName>
+				<InternationalpatentclassificationNumber>B65G 59/06</InternationalpatentclassificationNumber>
+				<OpeningDate>20190711</OpeningDate>
+				<OpeningNumber>1020190083086</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20191001</PublicDate>
+				<RegistrationDate>20190725</RegistrationDate>
+				<RegistrationNumber>1020060200000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20190626</ApplicationDate>
+				<ApplicationNumber>1020190076032</ApplicationNumber>
+				<Abstract>본 발명은 프레임의 길이방향의 일 측은 본체장비에 결합되며, 다른 일 측은 성형된 초경인서트 제품을 취출하는 픽업장치와, 성형 금형을 청소하는 청소장치가 나란히 구성되는 초경인서트의 프레스 성형을 위한 제품이송장치의 복합 툴 시스템에 관한 것으로서, 상기 성형 프레스에서 성형된 제품을 픽업하여 다음 공정으로 이송하도록 구성되는 그립부와, 상기 프레임에 그립부와 나란히 형성되어 금형의 상하면을 청소하도록 구성되는 클린부를 포함하는 것을 특징으로 하는 초경인서트의 프레스 성형을 위한 제품이송장치의 복합 툴 시스템에 관한 것이다.  본 발명에 따른 초경인서트의 프레스 성형을 위한 제품이송장치의 복합 툴 시스템은, 상기 그립부와 클린부를 결합하여 툴 교체시간을 절약하여 제품 생산성을 향상시키고, 금형 청소가 잘 되어 제품의 품질향상에 도움이 되도록 구성된다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00cc2c02e8e3f1ee5aae3054d00c4aab5c1af856f326b6b65432d55ab4724a5f68d79b4adfce86f0e86216d9ece9f5612ec7016c6ab6a41b62</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfe5d8adc71df0848d49354bcf74c8650aa8f846e7af867e84f79517e18b4075acbfcd38b90bbcbb2ebba574be2d2efe4b2214282c68b509c1</ThumbnailPath>
+				<SerialNumber>37</SerialNumber>
+				<InventionName>초경인서트의 프레스 성형을 위한 제품이송장치의 복합 툴 시스템</InventionName>
+				<InternationalpatentclassificationNumber>B30B 15/30|B23Q 7/04</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20200826</PublicDate>
+				<RegistrationDate>20200820</RegistrationDate>
+				<RegistrationNumber>1021481710000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20150514</ApplicationDate>
+				<ApplicationNumber>1020150067297</ApplicationNumber>
+				<Abstract>본 발명은 초경인서트 청소 및 버 제거장치에 관한 것으로서, 개구부를 통해 초경인서트를 이송하며, 전후 진진 운동하는 아암을 형성하고 초경인서트를 흡착하는 흡착패드가 형성된 그리퍼; 상기 그리퍼가 전, 후 직진 운동을 통해 입출입하고 청소 시 분진이 개구부를 통해 외부로 확산 되는 것을 차단하도록 개구부 주변에 에어커튼이 형성된 세척공간을 갖는 에어박스; 상기 에어박스에 설치되어 초경인서트를 파지한 그리퍼가 세척공간 내로 위치하면, 상기 초경인서트의 좌측 또는 우측 중 어느 한 방향에서 다른 쪽 방향으로 에어를 분사하여 초경인서트 둘레의 이물질을 제어하는 에어분사부; 상기 에어분사부에 연결되어 에어를 공급하는 에어공급부; 에어분사부의 반대 방향에 형성되어, 세척공간 내의 이물질 및 분사된 에어를 흡입하여 배출하는 흡입부;를 포함하여 이루어진다.  따라서, 개구부가 오픈된 상태에서 초경인서트를 세척하여도 에어커튼에 의해 먼지가 주변으로 비산되지 않으므로 에어박스에는 개구부를 덮기 위한 커버가 설치될 필요가 없다. 따라서 에어박스에 커버를 설치할 필요가 없으며 그리퍼의 헤드가 개구부를 출입할 때마다 커버를 개폐할 필요도 없으므로, 헤드가 개구부를 자유롭게 출입할 수 있으며, 이에 따라 작업성, 생산성이 크게 향상된다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e004658430dff52b698348323524ba6fb8af1a1fbf17e4c3c3257b5af870262deda2130cf1f592cf404ae02b7197e8935046b004a2c99c7dae1</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfc19d4a3c9a3c29e907b0f3ec61f45009ae6d688d8166fcba9c7fb17eca394fe0cf41923fd910ef6041d02ec97d6c6112b61b43a3c0c33fd5</ThumbnailPath>
+				<SerialNumber>38</SerialNumber>
+				<InventionName>초경인서트 청소 및 버 제거장치</InventionName>
+				<InternationalpatentclassificationNumber>B08B 3/04</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20150903</PublicDate>
+				<RegistrationDate>20150827</RegistrationDate>
+				<RegistrationNumber>1015496980000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20190618</ApplicationDate>
+				<ApplicationNumber>1020190072237</ApplicationNumber>
+				<Abstract>본 발명은 초경인서트 제품을 연삭하기 위하여 연삭장비에 초경인서트 제품을 공급하는 핸들러의 픽업 툴 장치에 관한 것으로서, 상기 연삭장비에 초경인서트 제품을 공급하고 취출하도록 다수 개 구성되는 픽업 툴과, 상기 초경인서트 제품이 장입된 팔레트를 이송하도록 구성되는 팔레트 트랜스퍼와, 상기 픽업 툴을 전・후, 좌・우 및 상・하로 이동하도록 구성되는 픽업 툴 로봇과, 상기 픽업 툴 장치의 중심부에 상기 픽업 툴, 팔레트 트랜스퍼 및 픽업 툴 로봇이 결합되는 좌・우측 및 하방이 개방된 상자 형상으로 구성되는 하우징과, 상기 픽업 툴의 측면에 결합되어 팔레트 내부의 제품 위치 및 상기 연삭장비의 마스크 포켓의 위치를 검출하도록 구성되는 위치 검출 비젼을 포함하는 것을 특징으로 하는 초경인서트 제품 연삭을 위한 핸들러의 픽업 툴 장치에 관한 것이다.  따라서 본 발명에 따른 초경인서트 제품 연삭을 위한 핸들러 장치의 픽업 툴 장치는, 기존의 연삭장비에 결합 또는 근접 설치되어 협소한 연삭 공간에 초경인서트 제품을 안전하게 공급하고, 연삭이 완료된 초경인서트 제품을 안전하게 취출하는 공정을 자동으로 수행함으로서 고품질의 초경인서트 제품을 다량 생산할 수 있도록 구성된다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00266af337763ddd28b1a78b7950d6b4e564e028903143d28e1ddf1282d09d8a7adc995a02d7cd0764dac2f00a578ebbde79780cc851e8558c</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfb53335947a81ee490cc8228f12ee19d904bbdaf059b71e221bd2cb150e906e1d9650525c94fa5e73d703bf71425a1680924d3baa9909b987</ThumbnailPath>
+				<SerialNumber>39</SerialNumber>
+				<InventionName>초경인서트 제품 연삭을 위한 핸들러의 픽업 툴 장치</InventionName>
+				<InternationalpatentclassificationNumber>B23Q 7/04|B23Q 7/14</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20200805</PublicDate>
+				<RegistrationDate>20200701</RegistrationDate>
+				<RegistrationNumber>1021311100000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20120404</ApplicationDate>
+				<ApplicationNumber>1020120034983</ApplicationNumber>
+				<Abstract>본 발명은, 초경합금용 프레스 제품이송장치의 복합그립에 관한 것으로, 초경합금용 프레스 제품이송장치의 툴체인지부 또는 Z축이송부에 착탈되고 프레스 가공된 인서트를 파지하여 프레임 상부에 위치된 팔레트의 상부면에 배열하는 그립; 그립의 일측에 설치되어서 그립과 함께 이동되며, 인서트팁이 가공되는 프레스 장치를 청소하도록 브러시가 구비된 크리닝툴로 이루어지며; 인서트팁의 운반시 크리닝툴의 브러시는 그립의 동작을 방해하지 않도록 상측으로 이동되어 있고, 프레스 장치의 청소시에는 크리닝툴의 브러시 하단부가 그립의 진공패드 또는 그리퍼보다 더 하강되어서 청소가 이루어지도록 구비된다.  따라서 모듈화된 복합그립으로 그립의 교체없이 인서트팁의 이송 및 프레스 장치의 청소를 모두 수행할 수 있으며, 이에 따라 그립 및 크리닝툴의 교체에 따른 작업 시간 지연 및 생산성 저하 등의 종래 문제가 해결된다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf7260412ec21cbddc73cdd86ad8982430176947a66534b65827ae051419ee831ad23c14dd44d764e89a939abea6c7ba1416a5b798f2869b52ac5</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf9c8b407fa2902602f8ba828531b0ae840a5f023f6e822b6a89f2f441d33229a27bd8dd6bcbde78fbb509899f439e0466e5d656f26682f528</ThumbnailPath>
+				<SerialNumber>40</SerialNumber>
+				<InventionName>초경합금용 프레스 제품이송장치의 복합그립</InventionName>
+				<InternationalpatentclassificationNumber>B30B 15/30|B30B 15/00|B23Q 7/04|B65G 47/90</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20120830</PublicDate>
+				<RegistrationDate>20120824</RegistrationDate>
+				<RegistrationNumber>1011786050000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20150602</ApplicationDate>
+				<ApplicationNumber>1020150077716</ApplicationNumber>
+				<Abstract>본 발명은 PVD 코팅을 위한 초경인서트 로딩장치에 관한 것으로서, 육면체 모양에서 일정한 크기의 사각형 면적이 수직 함몰되어 단차가 있는 상부 면을 가진 프레임과, 프레임의 높은 일 측의 상부 면에 전후 방향으로 설치되어서 초경인서트가 장입된 팔레트를 이송할 수 있도록 형성된 팔레트 이송부와, 팔레트 이송부와 90도 각을 이룬 프레임의 다른 높은 쪽 상부 면에 위치하며 스페이서를 공급할 수 있도록 형성된 스페이서 공급부와, 팔레트 이송부의 공중에 가로로 설치되어 초경인서트를 공급하도록 형성된 초경인서트 공급부와, 프레임의 함몰된 부분에 설치되어 초경인서트가 꽂힐 수 있는 로딩 샤프트를 가진 원통 모양의 로딩 회전체로 형성된 초경인서트 로딩부와, 팔레트 이송부와 스페이서 공급부 및 초경인서트 로딩부의 가운데 공간에 위치하며, 초경인서트와 스페이서를 번갈아 가며 수용하는 로딩 샤프트를 수직으로 세워서 파지하는 샤프트 그립부와, 샤프트 그립부의 상부에 설치되어 초경인서트 스테이와 스페이서 스테이로부터 초경인서트와 스페이서를 파지하여 로딩 샤프트에 꽂아 넣도록 형성된 로딩 작업부 및 상기 구성요소들을 제어하는 컨트롤러를 포함하여 이루어진 것을 특징으로 하는 PVD 코팅을 위한 초경인서트 로딩장치에 관한 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e004971537f73cef9a6be3d4727d5603b152e40c1230e952792c524b2c62ed541544f61637a880a331449a490c3c5ca66c3fe8bad86a50c039e</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf8b762fd9f6f5f4ef0a422f27d43b35a278670bcbe83e8d92d5e9693c0b59464eac43c48d3c7604117299e941c3f709e2d22781ae2ab1d694</ThumbnailPath>
+				<SerialNumber>41</SerialNumber>
+				<InventionName>PVD 코팅을 위한 초경인서트 로딩장치</InventionName>
+				<InternationalpatentclassificationNumber>B65G 49/00|B65G 37/00|B65G 35/06|B65G 27/02|B65G 27/24|B65G 47/90|C23C 14/00</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20150731</PublicDate>
+				<RegistrationDate>20150724</RegistrationDate>
+				<RegistrationNumber>1015405880000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20190423</ApplicationDate>
+				<ApplicationNumber>1020190047030</ApplicationNumber>
+				<Abstract>본 발명은 초경인서트 이송장비 또는 클리닝 및 반전 장치에 결합되어 팔레트에 장입된 초경인서트의 반전 공정을 위하여 상기 팔레트를 반전하도록 구성되는 팔레트 반전 장치에 관한 것으로서, 이송부(1.2)의 상부에서 초경인서트가 장입된 팔레트가 대기하는 &#039;위치 A&#039; 또는 &#039;위치 B&#039;까지 전용 팔레트 및/또는 팔레트를 파지하여 상하 이동 하도록 구성되는 픽업 유닛과, 상기 반전위치(A, B)에 대기 중인 팔레트에 합쳐진 상기 전용 팔레트 및/또는 팔레트를 결합 파지하여 반전하도록 구성되는 로터리 유닛를 포함하는 것을 특징으로 하는 초경인서트가 장입된 팔레트 반전 장치에 관한 것이다.  따라서 본 발명은 초경인서트 표면의 이물질을 제거하는 청소공정을 수행하기 위한 초경인서트 클리닝 및 반전 장치 및 이송장비에 결합되거나, 독자적 장치로 팔레트에 장입된 초경인서트를 반전하여 다음 공정의 작업을 원활하게 함으로서 제품 생산성을 향상시킬 수 있는 초경인서트가 장입된 팔레트 반전 장치를 제공한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00ba77fa82e1de18583246996581fb08a3d78041a4038488bae65adfe186c6d92e6feccfe0a284209337a25b7f8ad569e40da8e211623a9598</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf08138d563102a1a817740b9ec7e4785997378f008057675049cd82b5140ac9ec25021fb72264ece7048f2199caf0e82952ab52dfd7980f29</ThumbnailPath>
+				<SerialNumber>42</SerialNumber>
+				<InventionName>초경인서트가 장입된 팔레트 반전 장치</InventionName>
+				<InternationalpatentclassificationNumber>B65G 47/248|B65G 47/90</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20200723</PublicDate>
+				<RegistrationDate>20200718</RegistrationDate>
+				<RegistrationNumber>1021373610000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20190423</ApplicationDate>
+				<ApplicationNumber>1020190047035</ApplicationNumber>
+				<Abstract>본 발명은 팔레트에 장입된 초경인서트를 클리닝하는 장치에 관한 것으로서, 팔레트 또는 전용 팔레트에 장입된 초경인서트의 청소 할 수 있도록 구성된 클리닝 유닛과, 상기 클리닝 유닛을 상하로 이동하도록 구성되는 상하 이동 유닛을 포함하는 것을 특징으로 하는 초경인서트 클리닝 장치에 관한 것이다.  따라서 본 발명은 초경인서트 표면의 이물질을 제거하는 청소공정을 수행하기 위한 초경인서트 클리닝 장치로서 초경인서트 클리닝 및 반전 장치에 결합되어 팔레트에 장입된 초경인서트를 일거에 클리닝함으로서 다음 공정을 원활하게 함으로서 제품 생산성을 향상시킬 수 있는 초경인서트 클리닝 장치를 제공한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e001f65609b153ebefe79ca125298948d5c3340ef49b6822ff0bf6299fbb544cbefe8f9c18eb30b131ad1c010be18121bfc3860124af4d46c36</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf411848c93aab6ae1af3cec57662f7c537e96b2cbc796803df35e148cd8030b947b477df3db0af0045fced6a8d0b0e5e2f23289657ce4d300</ThumbnailPath>
+				<SerialNumber>43</SerialNumber>
+				<InventionName>초경인서트 클리닝 장치</InventionName>
+				<InternationalpatentclassificationNumber>B08B 1/00|B08B 1/20|B08B 3/02</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20200806</PublicDate>
+				<RegistrationDate>20200731</RegistrationDate>
+				<RegistrationNumber>1021418140000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20190826</ApplicationDate>
+				<ApplicationNumber>1020190104275</ApplicationNumber>
+				<Abstract>본 발명은 직교로봇을 이용한 초경인서트 고속 검사장비(이하, 본체장비)에서 MGT 및 밀링용 초경인서트의 상면 검사를 위한 카메라 심도 자동 조절장치에 관한 것으로서, 소정의 지름과 두께를 가지는 원판 형상의 인덱스, 상기 인덱스의 원둘레 내측에 상기 원둘레를 따라 렌즈를 장착하기 위하여 다수 개 형성되는 렌즈 홀로 구성되는 인덱스부와, 상기 인덱스부를 수평 회전할 수 있도록 구성되는 구동부와, 상기 인덱스부의 상 ・ 하부에 위치하여 상기 초경인서트의 상면을 검사하도록 구성되는 검사부와, 장방형 플레이트로서 길이 방향의 일 측 단부에는 상기 인덱스부가 설치되고, 타 단부에는 상기 구동부가 결합되어, 상기 구동부의 회전력이 상기 인덱스부에 전달되도록 구성되는 바디부를 포함하는 것을 특징으로 하는 직교로봇을 이용한 초경인서트 고속 검사장비의 MGT 및 밀링용 초경인서트 상면 검사 카메라 심도 자동 조절장치에 관한 것이다.  따라서 검사 전용 지그에 적재된 다수 개의 검사대상 인서트를 상면 검사위치에서 본 발명의 카메라 심도 자동 조절장치를 이용하여 틸팅 작용으로 차이나는 초점거리를 자동 보정함으로서 직교 로봇을 이용한 초경인서트 고속 검사장비의 효율을 높여 제품 생산성을 향상시킬 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00cc2c02e8e3f1ee5aae3054d00c4aab5c8208d9d405e03f99a4cc38d0eeb97f3985588c44357aa75d7994c36667534a33d0867bc284bc1616</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfe5d8adc71df0848d49354bcf74c8650a25235b61a8c996aeb7d168906e0c1874fa2a1205cf9e4ea3da8fe0ec6bfc177b0bf6af4a940410f8</ThumbnailPath>
+				<SerialNumber>44</SerialNumber>
+				<InventionName>직교로봇을 이용한 초경인서트 고속 검사장비의 MGT 및 밀링용 초경인서트 상면 검사 카메라 심도 자동 조절장치</InventionName>
+				<InternationalpatentclassificationNumber>H04N 23/60|H04N 23/00|G01N 21/88</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20200826</PublicDate>
+				<RegistrationDate>20200820</RegistrationDate>
+				<RegistrationNumber>1021481670000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20120404</ApplicationDate>
+				<ApplicationNumber>1020120034980</ApplicationNumber>
+				<Abstract>본 발명은 초경합금용 제품이송장치에 관한 것으로, 프레임의 상부면 모서리 부분에 수직으로 설치되어 있는 수직대들과, 수직대들의 상단부에 고정되어 있는 탑프레임으로 이루어진 상부구조물이 구비되며; X축이송부, Y축이송부, Z축이송부가 상부구조물의 탑프레임에 거꾸로 매달린 형태로 설치된다.  따라서, X축이송부, Y축이송부, Z축이송부가 상부구조물에 설치되므로 프레임의 상부면의 공간 활용율이 극대화되고, 장비를 컴팩트하게 구비할 수 있으며, 프레임 상부에 부품들을 조립하거나 보수하기가 용이하다. 또한, X축이송부, Y축이송부, Z축이송부가 상부구조물의 하부에 거꾸로 매달린 형태로 설치되므로 비산되는 파우더가 X축이송부, Y축이송부, Z축이송부 내부로 유입되기 어려운 구조이며, X축이송부의 양측 및 하부에 설치된 이물질투입방지부에 의해 비산되는 제품의 파우더가 X축이송부의 내부로 유입되지 않는다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726978200d167bad52eea94af8c20bc1a0ae927eaa799c21fc9ef467ca9ff5b5e12d1c8d8f3098c34900916dae44da06f905e7133e0a169fe47</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfa2730b4ec62b3892290fb68208fbb89df166b7ef71e250a1aab98e2bf9acc7efee2af8868f0af9d20523141ad46dfda9365bc940789c5752</ThumbnailPath>
+				<SerialNumber>45</SerialNumber>
+				<InventionName>초경합금용 제품이송장치</InventionName>
+				<InternationalpatentclassificationNumber>B23Q 7/04|B23Q 7/06|B23Q 11/08</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20120725</PublicDate>
+				<RegistrationDate>20120718</RegistrationDate>
+				<RegistrationNumber>1011682080000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20190710</ApplicationDate>
+				<ApplicationNumber>1020190083010</ApplicationNumber>
+				<Abstract>본 발명은 초경인서트가 장입된 팔레트를 이송하거나, 반전에 필요한 빈 팔레트를 픽업하는 이송부를 가지는 초경인서트 제품이 장입된 팔레트 반전 전용시스템의 반전 장치에 있어서, 상기 초경인서트 제품이 장입된 팔레트 반전 전용시스템의 반전 장치는, 팔레트에 장입된 초경인서트 제품의 상하면을 바꾸기 위하여, 팔레트를 반전하도록 구성되는 로터리 유닛과, 상기 로터리 유닛에서 회전할 수 있도록 이송된 팔레트를 받쳐주도록 구성되는 클램프 유닛으로 이루어지는 것을 특징으로 하는 초경인서트 제품이 장입된 팔레트 반전 전용시스템의 반전 장치에 관한 것이다.  따라서 본 발명은 초경인서트 제품의 이송장치에 결합되거나 근접 설치되어 연삭공정, 코팅공정 및 검사공정에 공급되는 다량의 초경인서트 제품을 동시에 반전함으로서 제품 생산성을 향상시킬 수 있는 초경인서트 제품이 장입된 팔레트 반전 전용시스템의 반전 장치를 제공한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e003786cc94f010ed9fcfab2f35dfbb1db6d1872dddfc9867a45e87ab7c1aab22738b432d02e38e157abd0fa16bde61ebf53303e33dd886ca76</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf488c33b70259c0ce46b9dc215c9c3d7529644cc29dcf95722cbda175868a48650cca7488ff2a2296af2a0524eaab503a6a0005f3d2e37600</ThumbnailPath>
+				<SerialNumber>46</SerialNumber>
+				<InventionName>초경인서트 제품이 장입된 팔레트 반전 전용시스템의 반전 장치</InventionName>
+				<InternationalpatentclassificationNumber>B65G 47/252</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20200724</PublicDate>
+				<RegistrationDate>20200720</RegistrationDate>
+				<RegistrationNumber>1021374230000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20170117</ApplicationDate>
+				<ApplicationNumber>1020170007925</ApplicationNumber>
+				<Abstract>본 발명은 초경인서트 연삭용 이송장비에 결합되어, 이송되는 초경인서트의 윗면과 아랫면의 위치를 바꾸는 반전 작업을 할 수 있도록 구성되는 초경인서트 반전 장치에 관한 것으로서, 일정한 두께와 면적을 가지는 철판을 절단 및 조립하여 외곽이 수직 직육면체의 형상을 하도록 형성되는 바디; 상기 바디의 상부 면에 위치하며, 상기 초경인서트의 반전 작업을 할 수 있도록 복수 개의 마그네틱 그립을 가지는 그립부; 상기 바디의 하부 내측에 위치하며, 상기 그립부가 반전 작업을 할 때 초경인서트의 두께 만큼 높이를 보정하도록 형성되는 구동부; 상기 바디의 중심부 후면에 위치하며, 상기 구동부와 결합되고, 상기 그립부와 연결되어, 그립부의 마그네틱 그립을 회전하도록 형성되는 반전 구동부;를 포함하여 이루어지는 것을 특징으로 하는 초경인서트 반전 장치이다.  따라서 다양한 형태와 높이의 초경인서트 제품을 반전할 수 있는 콤팩트한 장치를 제공하여 생산성 향상 및 제품의 원가절감에 기여할 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00316ae47b311c54533a28dfae94f353caa81ef9d2a8787b332b212eac3f046fd227145a847427dbdfe62a1a5db52c6b6aa05ef782dc54e255</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfd44f024b3f7dfe16156ac7eb09ddecb2f56235cfb05baea45b5ef009be63de72338831b84d175077422e9b0470a310774e2da361640243e3</ThumbnailPath>
+				<SerialNumber>47</SerialNumber>
+				<InventionName>초경인서트 반전 장치</InventionName>
+				<InternationalpatentclassificationNumber>B65G 47/248|B65G 47/14|B24B 47/20</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20170817</PublicDate>
+				<RegistrationDate>20170810</RegistrationDate>
+				<RegistrationNumber>1017688720000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20121116</ApplicationDate>
+				<ApplicationNumber>1020120130088</ApplicationNumber>
+				<Abstract>본 발명은 초경합금용 청소툴에 관한 것으로, 하우징 일단에 외부의 공압이 공급되도록 에어공급포트가 연결되어 있고, 하우징에는 에어공급포트에서 에어가 공급되면 회전되도록 스핀들이 내장되어 있으며, 이 스핀들의 스핀들축에는 제1베벨기어 및 제2베벨기어에 의해 회전축이 연결되어 있고, 회전축의 양단에는 브러시가 설치되어 있다.  따라서, 에어공급포트에 에어가 공급되면 하우징을 통해 스핀들의 둘레로 에어가 공급되고, 스핀들이 회전되면 스핀들축, 제1베벨기어, 제2베벨기어, 회전축이 연동되며, 회전축 양단의 브러시가 회전된다. 그러므로 본 발명은 초경합금용 제품이송장치의 구동수단으로 이용되는 공압을 이용하여서 브러시를 회전시키므로 별도의 브러시 회전용 모터가 필요 없으며, 이에 따라 제품의 단가가 절감되며, 소형화, 경량화를 꾀할 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726fbd579a8498557bf198e45ade0d13b818ff9d4ebc916fdb16f88b58be8a8001ff0f983146893d934f8539eb9a4980e9a3229144508faf0ba</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf25044d31fc9f3feae877c34f9ff60d1f0274d2a87a5209c98a1c6c86b982844647fdce5b169b280e706397fd18b6d0e006fc4aa3617f273f</ThumbnailPath>
+				<SerialNumber>48</SerialNumber>
+				<InventionName>초경합금용 청소툴</InventionName>
+				<InternationalpatentclassificationNumber>B23Q 11/02|B08B 1/32</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20130729</PublicDate>
+				<RegistrationDate>20130718</RegistrationDate>
+				<RegistrationNumber>1012893820000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20190118</ApplicationDate>
+				<ApplicationNumber>1020190006596</ApplicationNumber>
+				<Abstract>본 발명의 마이크로 그리드내의 다른 셀(수용가) 또는 에너지원과 연결되어 그 연결된 셀 또는 에너지원에 송전을 요청하여 전송되는 전기에너지를 저장하거나, 상기 전기에너지를 부하 또는 송전 요청하는 다른 셀에 전송하는 기능을 구비하는 직류배전 자율제어 시스템 및 운용방법에 관한 것으로서, 전체 시스템의 동작을 차단하거나 제어하는 통신 및 제어유닛, 입력되는 서로 다른 크기와 종류의 복수 직류전원을 소정 크기의 전압과 전류로 변환하여 출력하는 단방향 DC-DC 변환장치, 일 측은 각각 다른 전압의 직류 배전선로에 연결되고, 다른 일 측은 단방향 DC-DC 변환장치와 연결되는 다수 개의 양방향 DC-DC 변환장치, 상기 변환장치들과 연결되며, 공급된 직류전원을 셀 내부의 교류 부하에 공급하는 독립형 DC-AC 인버터를 포함하는 시스템이며, 또한, 마이크로 그리드내의 부하 간 효율적인 전력 송배전을 위한 직류 자율배전 제어시스템(DC-DACS)을 다수 개의 셀에 결합하는 단계, DC-DACS이 결합된 셀을 클러스터 DC 그리드에 연결하는 단계, 다수 개의 클러스트 DC 그리드를 메인 DC 그리드에 연결하는 단계, DC-DACS에 의해 송전 및 수전이 스스로 이루어지는 단계를 포함하는 운용방법에 관한 것이다.  따라서 각 셀 단위에서 신・재생에너지 설비의 설치 운영으로 대규모 설비 설치공간이 불필요하고, 기...(이하생략)</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e002c42e15f50368dcc923d307176aa2eef9c718a9a4885201725f1c8eead2695bcc43dcc6f21b987ea59574e209d1355cc2befbede3619538d</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf91c926459ec82cf664a35f2df46fd1bd0376b6037a324e550d188d67cf0240db188a57ccca2077d2681137f7275c3b68c1a836f1e9fccd7e</ThumbnailPath>
+				<SerialNumber>49</SerialNumber>
+				<InventionName>직류 마이크로 그리드 내의 수용가 상호간 직류 자율배전 제어시스템 및 그 운용방법</InventionName>
+				<InternationalpatentclassificationNumber>H02J 3/32|H02J 3/38|H02M 3/335|H02M 7/48|H02M 7/12</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20190821</PublicDate>
+				<RegistrationDate>20190812</RegistrationDate>
+				<RegistrationNumber>1020118860000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20220304</ApplicationDate>
+				<ApplicationNumber>1020220028207</ApplicationNumber>
+				<Abstract>본 발명은 성형된 초경인서트를 소결로에 공급하기 위하여 프레스 핸들러와 결합하여 프레스에서 취출되는 초경인서트를 로딩할 수 있는 다수 개의 소결판을 이송하도록 구성되는 AGV를 이용한 초경인서트 공급시스템에 관한 것으로서, 상기 AGV를 이용한 초경인서트 공급시스템은, 상기 소결판을 적재하여 수직 상・하 이동을 하도록 구성되는 엘리베이터 유닛, 상기 엘리베이터 유닛에서 빈 소결판을 이송하여 &#039;로딩 작업&#039;을 수행하여 상기 엘리베이터 유닛에 적재하도록 구성되는 픽업 및 이송 유닛을 포함하는 것을 특징으로 하는 AGV를 이용한 초경인서트 공급시스템에 관한 것이다.  따라서 성형 프레스에서 취출되는 초경인서트를 소결로에 공급하는 공정을 자동화함으로써, 초경인서트 생산 공정상의 지체구간을 제거하여 작업효율을 증대할 수 있으며, 가격경쟁력이 있는 제품의 생산이 가능하다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c938d45359b3eade85b962c81a90e7b80fab655e05d15eeeff480a72c4b6dbf1028e9a46f0fcf242f6aa4a4bea41b9d99c1892550063a2c5919</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfdb30c28d6c233b9feb3698c780f52a2bf7ebdc0ea4ed992b3a5e25567934cd5c90e4ae681105a38ec9593771eb6f31d00e68621c5717d272</ThumbnailPath>
+				<SerialNumber>50</SerialNumber>
+				<InventionName>AGV를 이용한 초경인서트 공급시스템</InventionName>
+				<InternationalpatentclassificationNumber>B65G 60/00|B65G 61/00|B65G 47/90|B66F 9/06</InternationalpatentclassificationNumber>
+				<OpeningDate>20230912</OpeningDate>
+				<OpeningNumber>1020230130961</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20240425</PublicDate>
+				<RegistrationDate>20240422</RegistrationDate>
+				<RegistrationNumber>1026610120000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20181114</ApplicationDate>
+				<ApplicationNumber>1020180139539</ApplicationNumber>
+				<Abstract>본 발명은 직교형 로봇을 이용한 검사장비에서 초경인서트 검사 전용 지그를 운반하는 검사 전용 지그 이송장치에 관한 것으로서, 검사 전용 지그 이송장치의 양측 단부에 위치하여, 상면 검사부에서 인입되는 초경인서트 검사 전용 지그를 제1 롤러부에 정위치 시키고, 반전부에서 반전하여 이송되어 제2 롤러부에 정위치된 초경인서트 검사 전용 지그를 하면 검사부로 인출하도록 구성되는 롤러 시스템과, 상기 제1 정위치의 초경인서트 검사 전용 지그를 반전부에, 상기 반전부의 초경인서트 검사 전용 지그를 제2 정위치에 이송하도록 구성되는 컨베이어 시스템을 포함하는 것을 특징으로 하는 직교 로봇을 이용한 초경인서트 고속 검사장비의 검사 전용 지그 이송장치에 관한 것이다.  따라서 제조된 초경인서트를 검사할 때, 다수 개의 초경인서트를 적재한 검사 전용 지그를 이송함으로서 검사장비의 효율을 높여 제품 생산성을 향상시킬 수 있는 직교 로봇을 이용한 초경인서트 고속 검사장비의 검사 전용 지그 이송장치를 제공한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00baa4b9fefea964ae0c834dd19c54d1bd749dfc5392a5ea983cb9ed845fb0cee129ff0b9d29c88bda9777e06e40e811b60e877d08d412c45b</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf760177dbaaaed41d9681538b92bb8a124d3c7341c0b6ce10581e128de3bb0ad8b8833d92ebd60c3fe373585a3bdafb720e9b75fa869e914e</ThumbnailPath>
+				<SerialNumber>51</SerialNumber>
+				<InventionName>직교 로봇을 이용한 초경인서트 고속 검사장비의 검사 전용 지그 이송장치</InventionName>
+				<InternationalpatentclassificationNumber>B65G 37/00|B65G 13/12|B65G 47/248|B65G 13/06|B65G 15/12|B65G 23/04|G01N 21/88</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20200603</PublicDate>
+				<RegistrationDate>20200424</RegistrationDate>
+				<RegistrationNumber>1021065800000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20160302</ApplicationDate>
+				<ApplicationNumber>1020160025354</ApplicationNumber>
+				<Abstract>본 발명은 초경 인서트 이송장비에 결합되어, 이송되는 초경인서트의 중심을 정렬하고(얼라인), 반전 작업을 할 수 있도록 형성되는 초경 인서트 얼라인 및 반전 장치에 관한 것으로서, 단면이 &#039;그&#039;자 형상이며, 일정한 두께와 사각형 면적을 가지는 철판재로서, 상기 &#039;그&#039;자의 상부 수평면인 제1 지지판과, 수직면인 제2 지지판과, 상기 초경 인서트 이송장비에 결합되는 하부 수평면인 블록 브래킷으로 구성되는 바디부; 상기 제1 지지판의 일 측의 공중에 수평 길이 방향으로 상부 수평면과 일정한 간격을 가지도록 위치하는 그립부; 상기 그립부와 90도 각을 이루며, 상기 제1 지지판의 상부 수평면에 밀착되어 일부 면이 그립부의 하면에 위치하는 슬라이딩 서포트부; 상기 바다부의 제1 지지판, 제2 지지판 및 블록 브래킷으로 둘러싸인 공간에 위치하며, 제2 지지판에 볼트 결합되어 상기 그립부를 상하왕복 운동할 수 있도록 구성되는 상하 운동부를 포함하여 이루어지는 것을 특징으로 하는 초경 인서트 얼라인 및 반전 장치이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00e71e92c0a0b2bd506d7260caa4bf977f28f1389101ee60738909e8aa0014fd7a4547c3c80b48d0cf85cede21be6aa605205b525b5ebe9a4f</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfbaebf7bfdeeab659bab8006b093b9e75698187c80a6218b9f37684dd64db32ffd4bd8235da16d17e02544ce7497f55eb089e2f76572d21e8</ThumbnailPath>
+				<SerialNumber>52</SerialNumber>
+				<InventionName>초경인서트 얼라인 및 반전 장치</InventionName>
+				<InternationalpatentclassificationNumber>B65G 47/26|B65G 47/248|B65G 43/08|B65G 49/00</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20160706</PublicDate>
+				<RegistrationDate>20160630</RegistrationDate>
+				<RegistrationNumber>1016367570000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20130415</ApplicationDate>
+				<ApplicationNumber>1020130040921</ApplicationNumber>
+				<Abstract>본 발명은 전압 제어 방식의 AC-AC 변환 장치에 관한 것으로, 해결하고자 하는 기술적 과제는 광범위한 크기와 주파수를 생산하는 발전기 등의 출력 전원을 입력 전원으로 하여 교류 변환 과정을 통하여 일정한 크기의 전압과 주파수로 변환 출력하여 변환 효율을 향상시킬 수 있게 하는데 있다.  이를 위해 본 발명의 일 실시예는 교류 전원을 공급하는 전원 공급부; 각각 2개의 양방향 스위치가 병렬로 연결된 제1 내지 제4 스위치군이 풀 브리지 방식으로 결선되어, 상기 전원 공급부로부터 공급된 교류 전원의 주파수를 원하는 주파수로 변환하는 주파수 변환부; 상기 주파수 변환부의 출력단에 2개의 양방향 스위치가 병렬로 연결된 제5 스위치군과 리액터가 직렬로 연결되어, 상기 주파수 변환부로부터 출력되는 전원의 크기를 변환하는 변압부; 및 상기 전원 공급부의 출력단과 상기 변압부의 출력단의 전압 또는 전류 신호를 검출하여 상기 제1 내지 제4 스위치군과 상기 제5 스위치군의 스위칭 제어신호를 발생하는 제어부(50)를 포함하고, 상기 제어부(50)는 상기 제1 내지 제4 스위치군과 상기 제5 스위치군의 스위칭 제어신호를 통하여 상기 리액터의 양단의 전압 및 전류의 크기를 조절하고, 상기 변압부의 출력단에 병렬로 연결되는 부하단의 입력 전압 및 전류를 조절할 수 있는 전압 제어 방식의 AC-AC 변환 장치를 개시한다...(이하생략)</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726ff07d68aedaf721bf34924c12041f56cfc196a69047a767f6f90e1807237e2c838a095fcf60ae21bb808b810e192df21e6ffc10ccf38c44a</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf64a5adff625220f2bf0e7b740dd5f692a28e65a7a6dfc6fe3356ef3469a7132df1bf0c1d6d8cd99326e9d1a74b0f432ea9a5f48f2822d8dd</ThumbnailPath>
+				<SerialNumber>53</SerialNumber>
+				<InventionName>전압 제어 방식의 AC-AC 변환 장치</InventionName>
+				<InternationalpatentclassificationNumber>H02M 1/00</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20130524</PublicDate>
+				<RegistrationDate>20130515</RegistrationDate>
+				<RegistrationNumber>1012662810000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20180503</ApplicationDate>
+				<ApplicationNumber>1020180051318</ApplicationNumber>
+				<Abstract>본 발명은 초경인서트의 연마, 코팅, 검사를 목적으로 하는 이송장비(본체장비)에 수직으로 결합되어, 상기 초경인서트 제품을 파지하여 이송하는 초경인서트 픽업 툴에 관한 것으로서, 상기 픽업 툴은, 초경인서트를 파지하기 위하여 상하 운동을 담당하도록 형성되는 상하 운동부, 상기 상하 운동부의 전면에 위치하며, 그립 툴에 작동 에어를 공급, 배출 및 배큠을 생성 하도록 형성되는 에어 작동부, 상기 에어 작동부에서 생성된 작동 에어를 업다운 샤프트의 중심부를 관통하여 그립 툴에 공급하도록 형성되는 에어 관로부, 상기 에어 작동부의 아래 수직선상 상기 에어 관로부의 업다운 샤프트의 하단부에 결합되어, 그립 툴을 부착하도록 형성되는 툴 조인트부를 포함하는 것을 특징으로 하는 초경인서트 픽업 툴에 관한 것이다.  따라서 본 발명은 종래의 초경인서트 픽업 툴에 비해 구성이 간단하고 소형 경량화가 가능하므로 기존 본체장비의 공간 활용도와 결합력이 우수하여 본체장비의 생산성 향상에 이바지 할 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00b65faa25ef62a52aab4896958e59fecb3c6d82e8a9a50664e1407cafd2c105a571d6cad1cb6c89f0caf7d50f3ee78e493289ea25489fc441</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfff22e006efbb943d34464b4abc6c88a73c13d9cab48decb067a313768d925417f99e89ea28c897ed453b0f3c2e8743b22a1c93d8979c9bb4</ThumbnailPath>
+				<SerialNumber>54</SerialNumber>
+				<InventionName>초경인서트 픽업 툴</InventionName>
+				<InternationalpatentclassificationNumber>B25J 15/00|B25J 15/02|B25J 15/06</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20190624</PublicDate>
+				<RegistrationDate>20190618</RegistrationDate>
+				<RegistrationNumber>1019920920000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20200810</ApplicationDate>
+				<ApplicationNumber>1020200099618</ApplicationNumber>
+				<Abstract>본 발명은 직교형 로봇을 이용한 초경인서트 고속 검사장비에서 초경인서트의 규격 측정 및 외관 검사를 위하여 다수 개의 검사대상 초경인서트가 적재되고, 검사 전용 지그 이송부를 따라 이송하도록 구성되는 검사 전용 지그에 관한 것으로서, 상기 검사 전용 지그는, 상기 검사대상 초경인서트를 이송할 수 있도록, 다수 개의 홀이 형성되는 지그 플레이트와, 상기 지그 플레이트의 홀에 결합되어, 상기 검사대상 초경인서트를 안착할 수 있도록 형성되는 쿼츠와, 상기 쿼츠의 중심부에는, 상기 검사대상 초경인서트를 정확히 안착할 수 있도록 형성되는 마그네틱과, 상기 마그네틱의 중심부에는 상기 검사대상 초경인서트 중심 홀의 벽면을 반사할 수 있도록 형성되는 미러를 포함하는 것을 특징으로 하는 초경인서트 중심 홀의 내벽 검사를 위하여 개선된 검사 전용 지그에 관한 것이다.  따라서 초경인서트 중심 홀의 벽면을 촬영하여 이물질 부착여부를 검사할 수 있어 초경인서트 고속 검사장비의 검사 효율을 제고하고, 제품의 품질 향상에 기여할 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93934d1b77b0dcb676eaf83d8f0db6d795a456fc6ef1125bc22dda1782bd3e59fcd562e2985105854ef56b1a9024246a79c70f061970144cb1</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf9b895346b3d6b49a2d9641d3234d2aa7f43968fb2b663a2cbf7cdf5e096ad03a79730574a39ca4489521217e810f8a104597efea1d9e9533</ThumbnailPath>
+				<SerialNumber>55</SerialNumber>
+				<InventionName>초경인서트 중심 홀의 내벽 검사를 위하여 개선된 검사 전용 지그</InventionName>
+				<InternationalpatentclassificationNumber>G01N 21/88|G01N 21/954|G01N 21/03</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20210602</PublicDate>
+				<RegistrationDate>20210527</RegistrationDate>
+				<RegistrationNumber>1022599880000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20200117</ApplicationDate>
+				<ApplicationNumber>1020200006335</ApplicationNumber>
+				<Abstract>본 발명은 초경인서트 제품을 출하하기 위하여 케이스에 담고 포장하는 초경인서트 제품 케이스 포장 기기에서, 상기 초경인서트 제품에 잉크 마킹을 하는 장치에 있어서, 상기 초경인서트 제품의 면(面)에 글자 또는 숫자를 마킹하도록 구성되는 마킹 어셈블리와, 상기 마킹 어셈블리의 케이블을 지지하여 진동을 감쇠하도록 구성되는 케이블 클램프 어셈블리를 포함하는 것을 특징으로 하는 케이스 포장기기의 잉크 마킹장치에 관한 것이다.  따라서 본 발명은 제품을 출하하기 위하여 초경인서트 제품 케이스 포장 기기에서 초경인서트 제품의 면에 잉크 마킹을 떨림 없이 정확히 수행하여 불량품이 발생하지 않도록 구성되어 생산력이 향상되는 초경인서트 제품 케이스 포장기기의 잉크 마킹장치를 제공한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9316da55e3813547f0f32a8b279840472676018b6683bac8727e1ea27cea139565c31bcf615e1dfdaa4a7c76422773835bab0363bf82f9526a</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf5041256476d7919787536f4c874ab9da85f90940a9e6667c5c5d6cc0f148f99bcec512150dd8b215f648e935a81ba74d4b2b909155c214f6</ThumbnailPath>
+				<SerialNumber>56</SerialNumber>
+				<InventionName>초경인서트 제품 케이스 포장기기의 잉크 마킹장치</InventionName>
+				<InternationalpatentclassificationNumber>B41J 3/413|B41J 29/15</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20210701</PublicDate>
+				<RegistrationDate>20210625</RegistrationDate>
+				<RegistrationNumber>1022717960000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20171024</ApplicationDate>
+				<ApplicationNumber>1020170138178</ApplicationNumber>
+				<Abstract>본 발명의 마이크로그리드내의 다른 셀(수용가) 또는 에너지원과 연결되어 그 연결된 셀 또는 에너지원에 송전을 요청하여 전송되는 전기에너지를 저장하거나, 상기 전기에너지를 부하 또는 송전 요청하는 다른 셀에 전송하는 기능을 구비하는 직류배전 자율제어 시스템 및 운용방법에 관한 것이다. 전체 시스템의 동작을 차단하거나 제어하는 제어유닛; 입력되는 서로 다른 크기와 종류의 복수 직류전원을 소정 크기의 전압과 전류로 변환하여 출력하는 일방향 DC-DC 변환장치; 일 측은 직류 배전선로(DC-Grid)에 연결되고, 다른 일 측은 일방향 DC-DC 변환장치와 연결되는 양방향 DC-DC 변환장치; 상기 변환장치들과 연결되며, 공급된 직류전원을 셀 내부의 교류 부하에 공급하는 독립형 DC-AC 인버터;를 포함하는 시스템이며, 또한, 마이크로그리드내의 부하 간 효율적인 전력 송배전을 위한 직류배전 자율제어 시스템(DC-DACS)을 다수 개의 셀에 결합하는 단계; DC-DACS이 결합된 셀을 클러스트 DC 그리드에 연결하는 단계; 다수 개의 클러스트 DC 그리드를 메인 DC 그리드에 연결하는 단계; DC-DACS에 의해 송전 및 수전이 스스로 이루어지는 단계(S400);를 포함하는 마이크로그리드내의 부하 간 효율적인 전력 송배전을 위한 직류배전 자율제어 시스템 및 그 운용방법에 관한 것이다.  따라서 각 셀 단위에서...(이하생략)</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e002a95ed92e0419bb9e1fc6edcb86d39d1924e159862e73dc56df39a1af71b7a1bb8187429cd608805f655a1a97c9652456631bdaa3d661dd9</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf2dbfa96a270438b419420371c26999628cb29db2cd02821c0b2dbe4f95da3ad50a7df4fc007128a66ebb7f6af16b86f899859ed977760a15</ThumbnailPath>
+				<SerialNumber>57</SerialNumber>
+				<InventionName>마이크로그리드내의 부하 간 효율적인 전력 송배전을 위한 직류배전 자율제어 시스템 및 그 운용방법</InventionName>
+				<InternationalpatentclassificationNumber>H02J 1/00|H02J 7/35</InternationalpatentclassificationNumber>
+				<OpeningDate>20190507</OpeningDate>
+				<OpeningNumber>1020190045951</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20190703</PublicDate>
+				<RegistrationDate>20190626</RegistrationDate>
+				<RegistrationNumber>1019952550000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20190115</ApplicationDate>
+				<ApplicationNumber>1020190005107</ApplicationNumber>
+				<Abstract>본 발명은 초경인서트 이송장비에 결합되어, 이송되는 초경인서트 제품의 윗면과 아랫면의 위치를 바꾸는 반전 작업을 할 수 있도록 구성되는 초경인서트 제품 반전 장치에 관한 것으로서, 일정한 두께와 면적을 가지는 철판을 절단 및 조립하여 바닥 플랜지와 상하 플레이트로 형성하는 바디와, 상기 바디의 상부 플레이트에 위치하며, 상기 초경인서트 제품의 반전 작업을 할 수 있도록 복수 개의 그립퍼를 가지는 그립부와, 상기 바디의 하부 플레이트에 위치하며, 상기 그립부가 반전 작업을 할 때 초경인서트 제품의 두께 만큼 높이를 보정하도록 형성되는 상하 구동부와, 상기 바디의 중심부 후면에 위치하며, 상기 구동부와 결합되고, 상기 그립부와 연결되어, 그립부의 그립퍼를 회전하도록 형성되는 반전 구동부와, 상기 반전 구동부의 그립퍼에 연결되는 배선 및 에어 호스를 가이드 하도록 구성되는 라인 가이드를 포함하는 것을 특징으로 하는 초경인서트 제품 반전 장치에 관한 것이다.  따라서 다양한 형태와 높이 및 자성체/비자성체의 초경인서트 제품을 반전할 수 있는 콤팩트한 장치를 제공하여 생산성 향상 및 제품의 원가절감에 기여할 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00d0c1d95bdf26f35c5697b69ee166694733f6c3be3d6d93ee540dbc95c15a9eb2745da7dd2dec5d19adc63df8a76e2149cd697532a1e76d99</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf25e3e07ae38103dde32cdba0801531c4e5735fbd22c851072c9c2573ecc23b4aca11f1d3f59386db1df3538fe35ea3d80d481ff175ce5fa4</ThumbnailPath>
+				<SerialNumber>58</SerialNumber>
+				<InventionName>초경인서트 제품 반전 장치</InventionName>
+				<InternationalpatentclassificationNumber>B65G 47/248</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20200424</PublicDate>
+				<RegistrationDate>20200420</RegistrationDate>
+				<RegistrationNumber>1021042310000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20190423</ApplicationDate>
+				<ApplicationNumber>1020190047027</ApplicationNumber>
+				<Abstract>본 발명은 팔레트에 장입된 초경인서트를 클리닝 및 반전 하는 장치에 관한 것으로서, 상기 초경인서트 클리닝 및 반전 장치에 결합되어 초경인서트가 장입된 팔레트를 공급하고 회수하도록 구성되는 적재부와, 상기 적재부에서 초경인서트가 장입된 팔레트를 클리닝 위치 및 반전 위치로 이송하거나, 클리닝 및 반전이 완료된 초경인서트가 장입된 팔레트를 적재부에 이송하도록 구성되는 이송부와, 상기 이송부의 양단 상부에 위치하여, 팔레트에 장입된 초경인서트의 상하면을 바꾸기 위하여 팔레트를 반전하도록 구성되는 반전부와, 상기 이송부의 중앙 상부에 위치하여 상기 일 측 반전부에서 타 측 반전부로 이송되는 팔레트 내의 초경인서트를 클리닝하도록 구성되는 클리닝부를 포함하는 것을 특징으로 하는 초경인서트 클리닝 및 반전 장치에 관한 것이다.  따라서 본 발명은 초경인서트를 검사하는 공정에 앞서서 표면의 이물질을 제거하는 청소공정을 수행하기 위하여 팔레트에 장입된 초경인서트를 클리닝 하여 초경인서트의 표면을 청정하게 유지함으로서 다음단계의 검사 효율을 높여 제품 생산성을 향상시킬 수 있는 초경인서트 클리닝 및 반전 장치를 제공한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e002b5333b1986a83abaf92f93b2483efa30dee9aff58b6ac21df8967c69080c475b8fb354615cca5300cdf2b94f70e9113fc9c70960d7cc602</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf216e21c7a9b18b0357cb384bf677ba7e8b92e36b8039b1b053f2bca3b4cd7a54b6f303d74a69b78ba0916e4c9016c9ed5068721bbf6d788f</ThumbnailPath>
+				<SerialNumber>59</SerialNumber>
+				<InventionName>초경인서트 클리닝 및 반전 장치</InventionName>
+				<InternationalpatentclassificationNumber>B08B 5/02|B08B 1/00</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20200521</PublicDate>
+				<RegistrationDate>20200515</RegistrationDate>
+				<RegistrationNumber>1021135790000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20170124</ApplicationDate>
+				<ApplicationNumber>1020170011058</ApplicationNumber>
+				<Abstract>본 발명은 초경인서트 제품을 포장하는 본체 장비에 결합되어, 복수 개의 초경인서트 제품이 정렬되어 들어있는 케이스와, 상기 케이스의 상면을 뚜껑 형태로 닫거나, 외면을 감싸도록 형성되며, 투명 또는 반투명 소재로서 내부가 관찰될 수 있도록 형성되는 케이스 커버로 구성된 초경인서트 제품 케이스를 조립하는 초경인서트 제품 케이스 조립장치에 관한 것으로서, 상기 본체 장비의 소정의 공간에 볼트 체결되며, 일정한 두께와 넓이를 가지는 몇 개의 철판으로 단면이 역 &#039;ㅂ&#039;자 형태로서, 장방형의 상부 면과 중간부의 내측 공간에 구성요소를 배치할 수 있도록 형성되는 프레임: 상기 프레임 상부 면을 이등분하여 일 측에는 상기 케이스가 길이 방향으로 놓이는 하나 또는 복수 개의 케이스 스테이션과, 다른 일 측에는 상기 케이스 커버가 길이 방향으로 놓이는 하나 또는 복수 개의 케이스 커버 스테이션으로 구성되는 스테이션; 상기 프레임 중간부의 내측 공간에는 상기 케이스와 케이스 커버가 조립될 수 있도록 작동하는 구동부;를 포함하여 이루어지는 것을 특징으로 하는 초경인서트 제품 케이스 조립장치이다.  따라서 초경인서트 제품을 제조하는 과정에서 최후 공정인 포장공정을 자동화하는 초경인서트 제품 케이스 조립장치를 제공하여 생산성 향상과 제품의 원가절감에 기여할 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e008487ac4caad54802d76e2f02ad7d4746e6f5b76ac2d16c441dc37c5ad4ce887103c8802716fa0bc6010a6f48d3043287bcaa69844d7b07f6</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf51a61d103193f663b3ae03ec510abfc6900f3439c530e5f604d3ebab43ffec335edaf042a6a58e5f8eaa24a2b3065c0a55d96c73fe88487c</ThumbnailPath>
+				<SerialNumber>60</SerialNumber>
+				<InventionName>초경인서트 제품 케이스 조립장치</InventionName>
+				<InternationalpatentclassificationNumber>B65B 7/28|B65B 65/02</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20170605</PublicDate>
+				<RegistrationDate>20170530</RegistrationDate>
+				<RegistrationNumber>1017436090000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20191205</ApplicationDate>
+				<ApplicationNumber>1020190160381</ApplicationNumber>
+				<Abstract>본 발명은 마이크로 그리드내의 셀과 셀 사이의 직류전원을 효율적으로 통합 제어하기 위한 자율 배전 제어시스템에 있어서, 상기 셀은, 데이터를 송・수신하며, 상기 전기에너지의 흐름을 측정・감지하여 시스템의 동작을 차단하거나 제어하는 셀 컨트롤러와, DC 배전망에서 입력되는 전원을 내부 배전망에 공급하는 DC-DC 컨버터와, 상기 셀과 셀 사이에 전기 에너지를 수수하는 Cell to Cell 양방향 DC/DC 컨버터와, 상기 각 구성을 통해 공급되는 전기 에너지를 ESS에 저장하는 ESS 양방향 DC/DC 컨버터와, 신재생 에너지를 상기 내부 배전망에 공급하는 신재생 에너지 컨버터를 포함하는 것을 특징으로 하는 마이크로 그리드 내의 셀 간의 직류전원을 효율적으로 통합 제어하기 위한 자율배전 제어시스템 및 상기 자율배전 제어시스템을 이용하여, &#039;정상 상태에서 전기 에너지를 공유&#039; 하거나, &#039;비정상 상태에서 전기 에너지를 공유&#039;하는 운용방법에 관한 것이다.  따라서 클러스터 내의 병렬로 연결된 셀과 셀 사이에 에너지를 공유함으로서 DC 배전망을 통해 수전되는 전체 에너지 배전 용량을 줄일 수 있으며, 상기 셀 단위의 고장 및 메인 서버의 고장 상태에서도 각 셀의 셀 컨트롤러 간의 정보 교환을 통하여 효율적으로 에너지를 공유하도록 구성된다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0093e2b4b7d47062d2582ea48ba000762d021a56578882644d645706b8974332bae87c0f5e3c57a93e0b9d26e0e483dc21a2f87e28829883ff</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf4d8cb27cfe5e114b73a566e20125a5679176428f272b7f4d154133744ed237483de1ed360e2bd29939186c9ea500762188b3725cdfb856e3</ThumbnailPath>
+				<SerialNumber>61</SerialNumber>
+				<InventionName>마이크로 그리드 내의 셀 간의 직류전원을 효율적으로 통합 제어하기 위한 자율배전 제어시스템 및 그 운용방법</InventionName>
+				<InternationalpatentclassificationNumber>H02J 3/38|H02J 3/00</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20200601</PublicDate>
+				<RegistrationDate>20200525</RegistrationDate>
+				<RegistrationNumber>1021167690000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20140903</ApplicationDate>
+				<ApplicationNumber>1020140116803</ApplicationNumber>
+				<Abstract>본 발명은 초경인서트 청소장치에 관한 것으로, 세척공간이 형성된 에어박스와, 에어박스에 설치되어서 초경인서트를 파지한 그리퍼가 세척공간 내에 위치되면 에어를 분사하여서 초경인서트 둘레의 이물질을 제거하는 에어분사부와, 에어박스에 연결되고 세척공간 내의 이물질 및 분사된 에어를 흡입하여 배출시키는 흡입부가 구비된다.  따라서, 초경인서트를 파지한 그리퍼가 세척공간 내에 위치되면 에어분사부에서 에어가 분사되어서 초경인서트 둘레의 이물질을 세척하며, 세척된 이물질은 흡입부를 통해 외부로 배출된다. 그러므로 프레스 가공된 초경인서트를 에어로 청소하므로 초경인서트의 둘레 전체가 고르게 청소되며, 이에 따라 청소 상태가 매우 양호해지므로 연삭량이 최소화된다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e008205109649decf9e66c0beb97bff9eacbea3074e3273a2d9565ebc3ba80a9a70ef7c524adf07f0fef2275a8f34dea2609ac611c081f3fa83</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf6271a662094be9babf6746dbf30c2b64d525f86579ea47f219e8b8e6ebedadd4bfbb93ba4f8d678fd206dc442166191d4112e06031ff1ade</ThumbnailPath>
+				<SerialNumber>62</SerialNumber>
+				<InventionName>초경인서트 청소장치</InventionName>
+				<InternationalpatentclassificationNumber>B08B 5/02|B08B 5/04</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20150618</PublicDate>
+				<RegistrationDate>20150610</RegistrationDate>
+				<RegistrationNumber>1015290510000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20210806</ApplicationDate>
+				<ApplicationNumber>1020210103651</ApplicationNumber>
+				<Abstract>본 발명은 검사 대상체 중앙홀의 결함 검사를 위하여 카메라와 조명장치를 이용하여 상기 중앙홀의 내벽부 영상을 획득하는 방법에 관한 것으로서, (a) 상기 중앙홀의 내벽부를 촬영하기 위한, 준비단계와 (b) 영상획득지점을 이동하면서 상기 중앙홀의 내벽부를 촬영하는, 영상 촬영 및 획득 단계와 (c) 상기 단계에서 획득한 영상을 기반으로 합성된 이미지를 생성하는, 이미지 생성 단계를 포함하는 것을 특징으로 하는 구배를 가지는 홀의 내벽 검사를 위한 영상 획득방법에 관한 것이다.  따라서 카메라와 조명장치를 포함하는 영상 획득시스템을 이용하여 검사 대상체의 중앙홀의 영상을 획득함으로써, 상기 중앙홀 내벽부의 결함을 검사하고자 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93a89b482ba757ab9128118095639ade05a21c41ef38777632923310e2b92c8d650d2f3abe8ff07bf6535bb236ec7acc3359ebb65833d3cafd</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf8dd0a54ed460deeb8cd27de515fa6b24c9289fd415f22d5e2353642889a53afb7ab584b4bb3890ea118223841db590bdae2ea19cac58a594</ThumbnailPath>
+				<SerialNumber>63</SerialNumber>
+				<InventionName>구배를 가지는 홀의 내벽 검사를 위한 영상 획득방법</InventionName>
+				<InternationalpatentclassificationNumber>G01N 21/954|G01N 21/88|G06T 7/00|G06T 7/30</InternationalpatentclassificationNumber>
+				<OpeningDate>20230214</OpeningDate>
+				<OpeningNumber>1020230021826</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20240112</PublicDate>
+				<RegistrationDate>20240109</RegistrationDate>
+				<RegistrationNumber>1026243350000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20201020</ApplicationDate>
+				<ApplicationNumber>1020200135755</ApplicationNumber>
+				<Abstract>본 발명은 성형 프레스장치에서 취출되는 성형물의 디버링 및 표면 클리닝을 위한 브러시를 이용한 초경인서트 제품 디버링장치에 관한 것으로서, 그리퍼에 파지되어 디버링 존을 통과하는 상기 성형물 인선부의 버와 하측면부에 부착된 이물질을 제거하도록 구성되는 브러시 모듈과, 상기 브러시 모듈을 용이하게 탈부착 하도록 구성되는 브러시 클램프와, 상기 브러시 모듈과 함께, 상기 성형물 상면부의 이물질을 제거하도록 구성되는 상면 클리너와, 상기 브러시 모듈 및 상면 클리너에 의해 발생되는 분진의 비산을 억제하고 집진하도록 구성되는 클리닝 모듈로 이루어지는 디버링부와, 상기 성형물을 청소하기 위하여 상기 브러시 모듈을 회전시키도록 구성되는 회전부와, 측면 브러시를 내측으로 이동시키도록 구성되는 이동부로 이루어지는 구동부와, 직육면체 형상으로서 상기 디버링부가 설치되는 상부와, 상기 구동부가 위치되는 하부 내측으로 이루어지는 프레임을 포함하는 것을 특징으로 하는 브러시를 이용한 초경인서트 제품 디버링장치에 관한 것이다.  따라서 성형 프레스에서 취출되는 초경인서트 제품을 두 대의 측면 브러시와 하면 브러시 및 상면 클리너를 이용하여 디버링과 청소를 함으로서 제품 생산성을 향상시킬 수 있으며, 탈거된 이물질을 한곳으로 모아 이물질 속의 초경합금 가루를 회수하여 생산 원가를 절감할 수 있는 장치를 제공한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c937cceb1409be41b25ca0bb32091d38f8ac33b0e383152b399a843f63be8137e145a0e93e3584d45dcc75c58a98163cc4f503c85408492b7f5</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfbc27e86c1e7052e90ffc06cfef4b4cf83d6f10a238aa3f63278292cd1d112860e858c8d85b57399ccd5c7fe2f5e6e1e38b5b0b41f9d19855</ThumbnailPath>
+				<SerialNumber>64</SerialNumber>
+				<InventionName>브러시를 이용한 초경인서트 제품 디버링장치</InventionName>
+				<InternationalpatentclassificationNumber>B08B 1/00|B08B 1/32|B08B 15/04</InternationalpatentclassificationNumber>
+				<OpeningDate>20220427</OpeningDate>
+				<OpeningNumber>1020220051978</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20220825</PublicDate>
+				<RegistrationDate>20220822</RegistrationDate>
+				<RegistrationNumber>1024361050000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20180618</ApplicationDate>
+				<ApplicationNumber>1020180069437</ApplicationNumber>
+				<Abstract>본 발명은 소형 초경인서트 제품을 파지하기 위하여 그립/언 그립 동작을 하는 초경인서트 제품 그립장치의 확장행정을 제어하는 장치에 관한 것으로서, 소정의 두께를 가진 링 형태로서 상기 초경인서트 제품 그립장치에 결합되어, 초경인서트를 파지하는 핀의 확장행정을 제어하는 스토퍼 링부와, 상기 스토퍼 링부를 상기 초경인서트 제품 그립장치 본체에 결합하도록 체결볼트를 가지는 체결부를 포함하는 것을 특징으로 하는 초경인서트 제품 그립의 확장행정 제어장치에 관한 것이다.  따라서 본 발명은 소형 초경인서트 제품을 파지할 때 제품의 내경에 적절한 확장행정 량으로 제어함으로서 핀의 파손을 방지할 수 있어 작업효율의 향상할 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e009a68531169042a890708d6bdd3cf2a210c947b6177709e1d16ef7e3a690175065b06ff87a173e8c921763c1d6ec319674a84ee789d56c246</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cff6833966c317166bba9f95abb084edce21d721c885d0e98550ccc06fe344de459c187bc2269b4038a216bfb6eef8f49e276478573357cfa1</ThumbnailPath>
+				<SerialNumber>65</SerialNumber>
+				<InventionName>초경인서트 제품 그립의 확장행정 제어장치</InventionName>
+				<InternationalpatentclassificationNumber>B25J 15/02|B25J 15/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20191227</OpeningDate>
+				<OpeningNumber>1020190142493</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20200327</PublicDate>
+				<RegistrationDate>20200323</RegistrationDate>
+				<RegistrationNumber>1020942660000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20200116</ApplicationDate>
+				<ApplicationNumber>1020200005737</ApplicationNumber>
+				<Abstract>본 발명은 초경인서트 제품의 연마, 코팅, 검사를 목적으로 하는 장비의 초경인서트 제품 그립장치에 수직으로 결합되어, 상기 초경인서트 제품을 파지하여 이송하는 볼 그립퍼에 관한 것으로서, 상기 초경인서트 제품 그립장치의 중심 하단에 결합되어 위치하며, 작동 에어를 공급하거나 배출하는 에어 홀이 형성되며, 내측에 하우징의 일부가 장착될 수 있도록 일정 깊이의 하우징 홀이 형성되는 그립퍼 홀더와, 상기 그립퍼 홀더의 하측 수직선상에 일부가 내측에 장착되어 위치하며, 상기 초경인서트 제품 그립장치에서 공급되는 작동 에어가 인입되는 실린더부, 상기 실린더부와 통공으로 연결되는 가는 파이프 형태의 그립퍼부가 형성되는 하우징과, 상기 하우징의 실린더부 및 그립퍼부의 내부에 결합되어 상기 작동 에어에 의해 피스톤 작용을 하도록, 위로부터 밀봉부, 윤활부, 스프링부 및 니들부로 형성되는 피스톤과, 상기 하우징의 최하단부 내측에 다수 개 위치하며, 상기 피스톤의 상하 운동을 하는 니들부에 의해 수평운동을 하도록 그립 볼을 포함하는 것을 특징으로 하는 볼 그립퍼에 관한 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c934a6bf7681ed405630c637c5a0283f9603bed34eeedc19dfc8eeb0d8aae2b41422f55bb45286bcbf9f965d96acb92d704ba561e3ecf1e8f59</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfad510b293e61e3e96a8a0d00457a90a8a40105bacad2fe043b84b14e55fa674cae6d4a8dc5e1a58d654503ee60032ade6be791d21e09809c</ThumbnailPath>
+				<SerialNumber>66</SerialNumber>
+				<InventionName>볼 그립퍼</InventionName>
+				<InternationalpatentclassificationNumber>B25J 15/00|B25J 9/14</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20210407</PublicDate>
+				<RegistrationDate>20210401</RegistrationDate>
+				<RegistrationNumber>1022371470000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20201006</ApplicationDate>
+				<ApplicationNumber>1020200128486</ApplicationNumber>
+				<Abstract>본 발명은 프레임의 길이방향 일 측은 본체장비에 결합되며, 다른 일 측은 성형 프레스에서 성형된 초경인서트 제품을 취출하는 픽업 툴이 구성되는 듀얼 픽업 툴 시스템에 관한 것으로서, 상기 성형 프레스에서 성형된 초경인서트 제품을 픽업하여 다음 공정으로 이송하도록 구성되는 그립부와, 상기 그립부를 구동하여 성형된 초경인서트 제품을 픽업하여 취출하도록 구성되는 구동부를 포함하는 것을 특징으로 하는 듀얼 픽업 툴 시스템에 관한 것이다.  본 발명에 따른 듀얼 픽업 툴 시스템은, 성형 프레스의 생산량에 맞출 수 있도록 상기 그립부의 그리퍼를 두 개 형성하여 한 동작으로 두 개의 초경인서트 제품을 픽업할 수 있도록 구성하여 제품 생산성을 향상시키고, 에어 블로어 노즐에서 압축공기를 분사하여 그리퍼 청소 및 초경인서트 제품 상면을 디버링 함으로서 품질향상에 도움이 되는 듀얼 픽업 툴 시스템을 제공한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93c39e0792c25bea5a3d0877314c0e78d00cfbf56114a7bdde51b0e83622f7ba22ce7fd4b92fc9efff015f0734716ce62396352a93cd6c03fc</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf1b095af3ab1a4f4f27550861d5da709c2425697ec8c02afaad70a53b00311b286c9a0d9dc3676121a3d69419b4279d9d0c7114dc4785bf74</ThumbnailPath>
+				<SerialNumber>67</SerialNumber>
+				<InventionName>듀얼 픽업 툴 시스템</InventionName>
+				<InternationalpatentclassificationNumber>B25J 15/06|B25J 15/00|B25J 15/04|B25J 9/10|B25J 19/00</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20220207</PublicDate>
+				<RegistrationDate>20220120</RegistrationDate>
+				<RegistrationNumber>1023552720000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20180625</ApplicationDate>
+				<ApplicationNumber>1020180072813</ApplicationNumber>
+				<Abstract>본 발명은 미러 및 비전시스템을 이용한 물체의 선단부 위치정렬장치에 관한 것으로서, 작업위치의 대상물을 기준으로 일 측에서 상기 대상물을 향해 수평으로 빛을 조사하도록 구성되는 라이트; 상기 대상물을 기준으로 상기 라이트와 대향되는 위치에 상기 라이트에서 조사된 빛에 의해 발생하는 영상을 입/반사하도록 구성되는 미러; 상기 미러에서 반사되는 영상을 촬영하도록 구성되는 비전을 포함하는 것을 특징으로 한다.  또한, 상기 장치를 이용하여 물체의 선단부 위치정렬을 하는 방법에 관한 것으로서, 대상물이 작업위치에 진입하여 바닥면으로부터 일정 높이에 정지하는 단계; 라이트를 점등하는 단계; 영상을 촬영하여 확보하는 단계; 3차원 위치 및 편심 량을 측정하는 단계를 포함하는 것을 특징으로 한다.  따라서 빛을 물체에 조사(照射)하여 얻어지는 영상(影像)을 이용하여 작업 공구 선단부(先端部)의 3차원 위치 및 편심 량을 측정하여, 공구의 좌표를 보정하고 사용 공구의 교체시기를 결정하여 작업의 효율성을 높이고 생산제품의 불량률을 격감시켜 품질을 제고할 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0053e7bf8535bd12badea5bb477d5360489808f353e7e1a32d22002ec194e135708e6f3266f06c00271fac527c68528911ff52f338f9aaac8f</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf06e98dc2d11a7ee4d7bb96903b46ceef8fa6200fc4e2ffd59730348b502dc7b18c9eb8dc0d365adea8724b5e81f965f11f231ced2947fa6e</ThumbnailPath>
+				<SerialNumber>68</SerialNumber>
+				<InventionName>미러 및 비전시스템을 이용한 물체의 선단부 위치정렬장치 및 그 방법</InventionName>
+				<InternationalpatentclassificationNumber>B23Q 17/24|G06T 7/70</InternationalpatentclassificationNumber>
+				<OpeningDate>20200103</OpeningDate>
+				<OpeningNumber>1020200000689</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20200310</PublicDate>
+				<RegistrationDate>20200304</RegistrationDate>
+				<RegistrationNumber>1020870370000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20210906</ApplicationDate>
+				<ApplicationNumber>1020210118343</ApplicationNumber>
+				<Abstract>본 발명은 픽업 툴의 일 측 단부에 결합되어, 소구경 및/또는 소형 초경인서트 제품을 픽업하도록 구성되는 소구경 초경인서트 전용 그립퍼 장치에 관한 것으로서, 소구경 및/또는 소형 초경인서트 제품을 픽업하며, 픽업 상태에서 상기 초경인서트 제품을 정, 역회전하도록 구성되는 그리퍼부와, 상기 그리퍼부의 그립 행정을 제한하도록 구성되는 베어링부를 포함하는 것을 특징으로 하는 소구경 초경인서트 전용 그리퍼 장치에 관한 것이다.  따라서 본 발명에서는, 초경인서트의 크기에 맞추어 조우의 그립량을 조절할 수 있어 초경인서트 제품을 안전하게 픽업 함으로써 소구경 및/또는 소형 초경인서트 제품을 생산할 수 있는 소구경 초경인서트 전용 그리퍼 장치를 제공하고자 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93a1f73f53cc2d32e32f948a6062e155167058af5c09fe78b2af531a8a60e69138596ce5648c796ac049424a1c2dcbe1084afa94b168a07cdf</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfb3bab84f82e4e783dae5426178ac321d229e712ac9f5995487ad155df67ee71ad9a9cfe1aa65f5d37bfd8b135c84097073dc14d73fc1fb75</ThumbnailPath>
+				<SerialNumber>69</SerialNumber>
+				<InventionName>소구경 초경인서트 전용 그리퍼 장치</InventionName>
+				<InternationalpatentclassificationNumber>B23Q 3/155|B23B 31/10|B23B 27/16|F16C 19/06</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20230223</PublicDate>
+				<RegistrationDate>20230220</RegistrationDate>
+				<RegistrationNumber>1025029110000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20200623</ApplicationDate>
+				<ApplicationNumber>1020200076313</ApplicationNumber>
+				<Abstract>본 발명은 초경인서트 제품을 성형하는 장비에 결합되어, 성형을 마친 상기 초경인서트 제품의 각 면 및 인선부를 청소하는 디버링 장치에 관한 것으로서, 초경인서트 제품 디버링 장치의 일 측에 위치하며, 상기 초경인서트 제품에 압축 공기를 분사하도록 구성되는 에어 분사부와, 상기 에어 분사부의 대향되는 곳에 위치하며, 상기 에어 분사부에서 분사되는 압축 공기와 분진을 흡수하여 배출하도록 구성되는 분진 배출부와, 상기 에어 분사부와 분진 배출부의 사이에 위치하여, 상기 초경인서트 제품을 청소할 수 있도록 형성되는 세척 공간을 포함하는 것을 특징으로 하는 초경인서트 제품 디버링 장치에 관한 것이다.  따라서 본 발명에 따른 초경인서트 제품 디버링 장치는 다양한 형상 및 크기의 초경인서트 제품을 청소할 때, 인선부에 압축 공기를 직접 분사함으로써 인선부에 남아있는 버(Burr)를 완벽하게 제거할 수 있는 장치를 제공한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93d326eb8adc165be50ff500cb293f7515ae223d5f651526ac64fdb9911f90a0020fb1070b15646fde511e5e90a68f864c7f01d8687114285a</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf1f3306d6c434254dfcc2d12ab2749a6c521fa4bec88217eb034c5dc15a2f8514f4d8d23e3f67a89d4b6e3f230d2e6b143b9057d519bf83bd</ThumbnailPath>
+				<SerialNumber>70</SerialNumber>
+				<InventionName>초경인서트 제품 디버링 장치</InventionName>
+				<InternationalpatentclassificationNumber>B23Q 11/00|B08B 15/04</InternationalpatentclassificationNumber>
+				<OpeningDate>20211230</OpeningDate>
+				<OpeningNumber>1020210158045</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20220728</PublicDate>
+				<RegistrationDate>20220725</RegistrationDate>
+				<RegistrationNumber>1024267940000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20200403</ApplicationDate>
+				<ApplicationNumber>1020200040703</ApplicationNumber>
+				<Abstract>본 발명은 초경인서트 제품을 청소 ・ 반전 ・ 코팅 ・ 검사하는 것을 목적으로 하는 초경인서트 제품 이송장비에 결합되어, 다양한 규격의 팔레트를 이송하는 장치에 있어서, 장방형 플레이트로서 내측에 길이방향으로 장방형의 홈이 형성되는 이송 프레임과, 상기 이송 프레임의 길이방향의 양 단에 설치되고 초경인서트 제품이 수납된 팔레트 또는 빈 팔레트를 적재하도록 구성되는 팔레트 적재함과, 상기 이송 프레임의 내측 장방형 홈을 따라, 상기 팔레트 적재함 또는 &#039;작업위치&#039;에 상기 팔레트를 이송하도록 구성되는 팔레트 피더를 포함하는 것을 특징으로 하는 다양한 규격의 팔레트를 이송하는 장치에 관한 것이다.  따라서 본 발명은 제조사에 따라 서로 다른 규격의 팔레트에 대응하여 상기 팔레트 적재함, 팔레트 피더 및 이송 프레임의 알루미늄 프로파일의 간격을 조절할 수 있도록 함으로서 초경인서트 제품의 공급 및 회수가 원활하여 작업효율을 제고할 수 있는 다양한 규격의 팔레트를 이송하는 장치를 제공한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c930d444d5d3f0367fdcc611b304f1593c598c9b28bf17a71b9764276fcbb7a0e7875f67ac35a05cd074be0bc19c3cf32be54021e7ec4feef75</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf3357957a3d6eb8ebb7e7c87d39cb82fbb2d0b1237d1aabc817f9d59c1da945e72aa5bdfd60bf550206504521e4c3be276677e438ed72cdc3</ThumbnailPath>
+				<SerialNumber>71</SerialNumber>
+				<InventionName>다양한 규격의 팔레트를 이송하는 장치</InventionName>
+				<InternationalpatentclassificationNumber>B65G 60/00|B65G 35/06</InternationalpatentclassificationNumber>
+				<OpeningDate>20211014</OpeningDate>
+				<OpeningNumber>1020210123511</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20220208</PublicDate>
+				<RegistrationDate>20220203</RegistrationDate>
+				<RegistrationNumber>1023594770000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20200117</ApplicationDate>
+				<ApplicationNumber>1020200006361</ApplicationNumber>
+				<Abstract>본 발명은 초경인서트 제품의 CVD 코팅 및 회수를 위하여, 프레임, 팔레트 이송부, 코팅 트레이 이송부, 초경인서트 검사부, 초경인서트 이송부를 포함하여 구성되는 CVD 코팅을 위한 초경인서트 로딩 및 언로딩 장비에서, 상기 코팅 트레이의 형상에 따라 장입 방향을 바꾸거나, 상・하면 검사를 위하여 초경인서트를 수평상태에서 수직상태로 90° 반전하기 위하여, 그립・얼라인 유닛부, 반전부 및 이송부로 이루어지는 초경인서트 얼라인 및 반전장치에 있어서, 상기 그립・얼라인 유닛부는, 초경인서트 제품을 그립하여 얼라인 정렬을 하도록 구성되는 다수 개의 그립퍼와, 상기 그립퍼를 슬라이딩 장착하며, 상기 그립퍼가 초경인서트 제품을 그립 및 언그립 운동을 하도록 구성되는 장착 및 작동 지그를 포함하는 것을 특징으로 하는 초경인서트 제품 얼라인 및 반전 장치의 그립퍼 장착구조에 관한 것이다.  따라서 상기 그립・얼라인 유닛부의 그립퍼를 교체할 때, 상기 장착 및 작동 지그에 슬라이딩 장착 결합 방식으로 교체함으로서 종래의 볼트 해체 결합 방식에 비해 훨씬 용이함으로서 생산력이 향상되는 초경인서트 제품 얼라인 및 반전장치를 제공한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c935d7cca487aa6c0740b829825b2d962dfe2302d5efeef9f950ae8a1efd4f574ffc2b67696ba7703b8bca9bd64621c0cdc78479cc7069c42e2</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf1ead725c7e832212e2d1c1a9cc89fa7112959daffe4dc3ae165fa33d1d2317c9a46a0e509ca9d3f963a8fa25baa0d4a689daca1cf23b7f40</ThumbnailPath>
+				<SerialNumber>72</SerialNumber>
+				<InventionName>초경인서트 제품 얼라인 및 반전 장치의 그립퍼 장착구조</InventionName>
+				<InternationalpatentclassificationNumber>B65G 47/22|B65G 47/90|B25J 15/08</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20210119</PublicDate>
+				<RegistrationDate>20210113</RegistrationDate>
+				<RegistrationNumber>1022047460000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20191104</ApplicationDate>
+				<ApplicationNumber>1020190139332</ApplicationNumber>
+				<Abstract>본 발명은 초경인서트 제품을 연삭하기 위하여 연삭장비에 초경인서트 제품을 공급하는 핸들러의 연삭량 측정 및 얼라인 보정장치에 관한 것으로서, 상기 연삭장비에서 취출되는 초경인서트 제품의 높이를 측정하도록 구성되는 제품 측정부와, 상기 연삭장비에서 취출되는 초경인서트 제품의 높이를 측정할 수 있도록 올려놓도록 구성되는 측정 스테이지와, 상기 연삭장비에 공급되는 초경인서트 제품의 각도를 연삭장비 마스크 포켓의 각도와 일치시키도록 얼라인을 보정하도록 보정 카메라로 구성되는 얼라인 보정부를 포함하는 것을 특징으로 하는 초경인서트 제품 연삭을 위한 핸들러의 연삭량 측정 및 얼라인 보정장치에 관한 것이다.  따라서 본 발명에 따른 초경인서트 제품 연삭을 위한 핸들러의 연삭량 측정 및 얼라인 보정장치는, 기존의 연삭장비의 마스크 포켓에 연삭하고자 하는 초경인서트 제품을 정확하게 장입할 수 있고, 연삭이 완료된 초경인서트 제품의 높이를 측정하여 연삭량을 자동으로 산출함으로서 각 제품의 연삭이력을 확보하여 데이터화된 고품질의 초경인서트 제품을 생산할 수 있도록 구성된다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c932f471fe9c4260ce781ae99193e47c162c8cf5ec5e12eb9e801ef45026e9b343b87357a40e8d42081bbc42a9f7d7439606f43e587a1637b61</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfc3bd3071f469244bd161ebcbe84eecd09e2ff0eea20dab69a9c1548a7af4840d6c0a1d9ee69f0bc8aafa567858889068765f5c0ea052875d</ThumbnailPath>
+				<SerialNumber>73</SerialNumber>
+				<InventionName>초경인서트 제품 연삭을 위한 핸들러의 연삭량 측정 및 얼라인 보정장치</InventionName>
+				<InternationalpatentclassificationNumber>B24B 49/04|G01B 5/06|G01B 5/012|G01B 11/24</InternationalpatentclassificationNumber>
+				<OpeningDate>20201229</OpeningDate>
+				<OpeningNumber>1020200144449</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20210330</PublicDate>
+				<RegistrationDate>20210324</RegistrationDate>
+				<RegistrationNumber>1022339630000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20181114</ApplicationDate>
+				<ApplicationNumber>1020180139557</ApplicationNumber>
+				<Abstract>본 발명은 직교형 로봇을 이용한 초경인서트 고속 검사장비에서 초경인서트를 검사하기 위한 전용 지그 장치에 관한 것으로서, 측정 및 외관검사를 위하여 다수 개의 검사대상 초경인서트가 적재되고, 검사 전용 지그 이송부를 따라 이송하도록 구성되는 검사 전용 지그, 상기 검사 전용 지그의 하 측에 위치하여 검사대상 초경인서트를 투영하여 얻어지는 영상이 상기 검사 비전에 전달하도록 조명을 조사하도록 구성되는 백라이트, 상기 백라이트의 양 측에 상기 전용 검사 지그가 검사를 위하여 인입하거나, 인출할 때 이송하도록 구성되는 지그 이송부를 포함하는 것을 특징으로 하는 직교 로봇을 이용한 초경인서트 고속 검사장비의 초경인서트 검사 전용 지그장치에 관한 것이다.  따라서 검사 전용 지그에 다수 개의 검사대상 초경인서트를 적재하여 검사위치에서 본 발명의 초경인서트 검사 전용 지그장치에 탑재함으로서 직교 로봇을 이용한 초경인서트 고속 검사장비의 효율을 높여 제품 생산성을 향상시킬 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00e3a40845faf57c0a7cc5bdc0e58132316a51e05d57fdd67534a5ac7259582c34dbbb34e6d39d18559034dc6033663d180fb06c19ecccf388</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf4e595a410ca7728f823c574e39aa8d85ac34ed448036d7ae842375f1767ee33b1aeb83f597dc43d1d325eca0b9309f9d419d6aa3cdf5a7fd</ThumbnailPath>
+				<SerialNumber>74</SerialNumber>
+				<InventionName>직교 로봇을 이용한 초경인서트 고속 검사장비의 초경인서트 검사 전용 지그장치</InventionName>
+				<InternationalpatentclassificationNumber>G01N 21/88|G01N 21/95|B65G 15/12</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20200420</PublicDate>
+				<RegistrationDate>20200221</RegistrationDate>
+				<RegistrationNumber>1020821350000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20191102</ApplicationDate>
+				<ApplicationNumber>1020190139082</ApplicationNumber>
+				<Abstract>본 발명은 초경인서트 제품을 연삭하기 위하여 연삭장비에 초경인서트 제품을 공급하는 이송장치에 관한 것으로서, 상기 연삭장비에 초경인서트 제품을 공급하고 취출하도록 구성되는 픽업 툴부와, 연삭작업을 위하여 공급되는 상기 초경인서트 제품의 얼라인을 보정하며, 초경인서트 제품의 연삭량을 측정하도록 구성되는 연삭량 측정 및 얼라인 보정부와, 연삭작업을 위한 초경인서트 제품이 장입된 팔레트를 적재하며, 연삭작업을 마친 초경인서트 제품이 장입된 팔레트를 적재하도록 구성되는 팔레트 공급・취출부와, 상기 픽업 툴부, 연삭량 측정 및 얼라인 보정부 및 팔레트 공급・취출부가 안치되도록 천장 및 하부 프레임으로 구성되는 프레임을 포함하는 것을 특징으로 하는 초경인서트 제품 연삭을 위한 핸들러 장치에 관한 것이다.  따라서 본 발명에 따른 초경인서트 제품 연삭을 위한 핸들러 장치는, 기존의 연삭장비에 결합되거나 근접 설치되어 협소한 연삭 공간에 초경인서트 제품을 안전하게 공급하고, 연삭이 완료된 초경인서트 제품을 안전하게 취출하며, 연삭량을 자동으로 측정함으로서 고품질의 초경인서트 제품을 다량 생산할 수 있도록 구성된다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c935d7cca487aa6c074f195f740a3623dfce0978dd7086970cbd0f3129ea5d1c8f6d8ddcc23f0b1f229f672e8832d916dae3e55e6ce6a32498f</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf1ead725c7e832212a356adda42965e265d46459120c46e0d1f8fc941808347982390fa471f59f23125bd836d635903b08a40bacd03832be7</ThumbnailPath>
+				<SerialNumber>75</SerialNumber>
+				<InventionName>초경인서트 제품 연삭을 위한 핸들러 장치</InventionName>
+				<InternationalpatentclassificationNumber>B23Q 7/04|B24B 41/06|B23Q 7/14</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20210119</PublicDate>
+				<RegistrationDate>20210113</RegistrationDate>
+				<RegistrationNumber>1022047690000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20170110</ApplicationDate>
+				<ApplicationNumber>1020170003345</ApplicationNumber>
+				<Abstract>본 발명은 소성가공이 완료된 초경인서트의 표면에 글씨 또는 도안을 그리거나 새기는 마킹장치에 관한 것으로서, 장방형으로 일정한 길이를 가지는 프레임의 상부에 길이방향으로 하나 또는 복수 개의 이송레일을 형성하며, 프레임의 일 측 단부에는 벨트 및 풀리가 형성되는 피딩 구동부와, 상기 프레임의 타 측 단부에는 링크와 링크 바 및 크랭크 암을 형성하는 틸팅 구동부로 구성되는 프레임부; 상기 프레임부의 이송레일에 슬라이딩 결합되어, 초경인서트를 이동하거나 틸팅 가능하도록 구성되는 틸팅 유닛; 상기 초경인서트의 상면 및 측면에 마킹을 할 수 있도록 틸팅 유닛으로 부터 일정한 거리와 경사각을 유지하는 레이저 마킹기 및 잉크 마킹기를 구비하는 마킹부;를 포함하여 이루어진다.  따라서 초경인서트 제품을 소정의 각도로 틸팅시켜 제품의 상면 및 측면에 레이저와 잉크 마킹기를 이용하여 마킹을 함으로서 작업성 및 생산성을 크게 향상시켜 고품질의 초경인서트를 생산하고자 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0028879114433d900d353a42019ad5a28eb2d6576f5850e753788be121249ddf8921e8ade867195e65be2c15aaf0a5a0526f618a0e62079632</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfa2b14af121d2f1237951bd9f37a37a738030265c019988e1fc26e859a16159095e61cab756e6198eaac860b31c7ac36500cf1256aba6b954</ThumbnailPath>
+				<SerialNumber>76</SerialNumber>
+				<InventionName>초경인서트 마킹장치</InventionName>
+				<InternationalpatentclassificationNumber>B23K 26/359|B23K 37/04|B23K 26/00|B41J 3/413</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20170308</PublicDate>
+				<RegistrationDate>20170302</RegistrationDate>
+				<RegistrationNumber>1017136050000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20181029</ApplicationDate>
+				<ApplicationNumber>1020180129547</ApplicationNumber>
+				<Abstract>본 발명은 초경인서트 제품의 CVD 코팅을 위한 초경인서트 로딩 및 언로딩 장비에서, 상기 코팅 트레이의 형상에 따라 장입 방향을 바꾸거나, 상・하면 검사를 위하여 초경인서트를 수평상태에서 수직상태로 90°반전하도록 초경인서트 제품을 파지하여 얼라인 정렬을 하도록 구성되는 그립・얼라인 유닛부와, 상기 그립・얼라인 유닛부의 하부에 결합되어 수직으로 90°회전운동을 하면서 초경인서트 제품을 반전하는 반전부와, 상기 그립・얼라인 유닛부 및 반전부를 탑재하여, 반전을 위한 초경인서트 제품을 공급받거나, 반전된 초경인서트 제품을 배출하기 위하여 상기 초경인서트 이송부의 이송 그립퍼의 &#039;작업위치&#039;까지 이동시키도록 구성되는 이송부를 포함하는 것을 특징으로 하는 초경인서트 제품 얼라인 및 반전장치에 관한 것이다.  다수 개의 초경인서트 제품을 동시에 파지하여 수평상태에서 수직상태로 90°반전함으로서 제품두께 편차에 대응이 가능하고, 반전 제품의 변경 시 그립・얼라인 유닛부 만 교체하도록 구성되어 생산력이 향상되는 초경인서트 제품 얼라인 및 반전장치를 제공한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0009add38c489f43eee8a19958751c5b441a423eb54bec350dce5169e368fc5c306d8294711a785f711f6d389cf714dc5fe59997edd49591d2</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfae13b8cf776bff1d32f4ebe480daf79e28dfe367852f6741053c464564e1eb5a2667d1c9d378a95c684a606cc418489f51f37e60dd798c96</ThumbnailPath>
+				<SerialNumber>77</SerialNumber>
+				<InventionName>초경인서트 제품 얼라인 및 반전 장치</InventionName>
+				<InternationalpatentclassificationNumber>B65G 47/22|B65G 47/90|C23C 16/00</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20190222</PublicDate>
+				<RegistrationDate>20190216</RegistrationDate>
+				<RegistrationNumber>1019511650000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20181114</ApplicationDate>
+				<ApplicationNumber>1020180139547</ApplicationNumber>
+				<Abstract>본 발명은 직교형 로봇을 이용한 초경인서트 고속 검사장비에서 초경인서트의 하면을 검사하기 위하여 초경인서트를 반전하는 장치에 관한 것으로서, 검사 전용 지그 이송부를 중심으로 일 측에 위치되며, 반전 정 위치에 도달한 초경인서트 검사 전용 지그의 쿼츠에 적재되어 있는 다수 개의 초경인서트를 흡착하여 반전부에 이송하도록 구성되는 이송부와, 상기 검사 지그 셔틀 이송장치를 중심으로 상기 이송부와 대향하여 위치하며, 상기 이송부로부터 이송된 다수 개의 초경인서트(1.2)를 반전하여 초경인서트 검사 전용 지그의 쿼츠에 적재하도록 구성되는 반전부를 포함하는 것을 특징으로 하는 직교 로봇을 이용한 초경인서트 고속 검사장비의 초경인서트 반전 장치에 관한 것이다.  따라서 다수 개의 검사대상 초경인서트를 동시에 반전하여, 직교 로봇을 이용한 초경인서트 고속 검사장비의 효율을 높여 제품 생산성을 향상시킬 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0053073c8e8587bdce317c2f2bcdb23af809e84b18ac96293f20c3d2e00bb3d59bd2848fc14878cd123f71713bd984227f0630e2cc72cfe2ce</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf37895e258fedd134a4b29dd5f6654e7d150fe7f8fbfafaf4e1097a79987afd1656cda04d1253f172d2b796567eb0a545627140df4aab8ff1</ThumbnailPath>
+				<SerialNumber>78</SerialNumber>
+				<InventionName>직교 로봇을 이용한 초경인서트 고속 검사장비의 초경인서트 반전 장치</InventionName>
+				<InternationalpatentclassificationNumber>B65G 47/252|B65G 47/92|B25J 9/02</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20200313</PublicDate>
+				<RegistrationDate>20200309</RegistrationDate>
+				<RegistrationNumber>1020890180000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20181024</ApplicationDate>
+				<ApplicationNumber>1020180127157</ApplicationNumber>
+				<Abstract>본 발명은 전기 에너지를 복합적으로 관리하는 기능과 전기사고를 감지하고 차단하는 기능을 구비한 스마트 차단기에 있어서, 인가받은 교류전원의 전력 소비 패턴을 측정・분석하고, 전력 소비 및 전기에너지를 효율적으로 관리하도록 구성되는 전기에너지 관리 시스템과, 상기 인가받은 교류전원의 전기사고를 감지하여 차단신호를 전달하여, 사고를 미연에 방지하도록 구성되는 아크 차단 시스템을 포함하는 것을 특징으로 하는 전기사고 감지・차단 및 전기 에너지 복합 관리 기능을 구비한 스마트 차단기에 관한 것이다.  따라서 본 발명에 따른 전기사고 감지・차단 및 전기 에너지 복합 관리 기능을 구비한 스마트 차단기는 전자식 전력량계와 아크 차단기의 기능을 결합하여 단일제품으로 개발한 전기사고 감지・차단은 물론, 전기 에너지 복합 관리 효율을 극대화한 스마트 차단기를 제공한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00c37bbe73b5a2b87afeb7199e0947dcf23d7947de03ef71055128095f9680516d397a6f427bee29f255fc5eb1fdb010fb2258054ec60700b5</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf4ca1fb0f3d488e8a280edff169dd97b0af46ee14136943ec34b0a6c4aa3210d76266932aecc2a8509c383f5fef6b113ba4c64da0effa2ff0</ThumbnailPath>
+				<SerialNumber>79</SerialNumber>
+				<InventionName>전기사고 감지·차단 및 전기 에너지 복합 관리 기능을 구비한 스마트 차단기</InventionName>
+				<InternationalpatentclassificationNumber>H02H 3/22|H02H 1/00|G01R 21/06</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20190307</PublicDate>
+				<RegistrationDate>20190227</RegistrationDate>
+				<RegistrationNumber>1019547000000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20181114</ApplicationDate>
+				<ApplicationNumber>1020180139566</ApplicationNumber>
+				<Abstract>본 발명은 초경인서트를 검사하는 것을 목적으로 하는 직교 로봇을 이용한 초경인서트 고속 검사장비에 결합되어 초경인서트 제품의 측면을 검사하는 사이드 검사 장치에 있어서, 장방형 플레이트 형상의 바디, 상기 바디의 상부 일 측에 고정 결합되어 초경인서트 제품을 로딩하고, 회전하도록 구성되는 검사 스테이션, 상기 검사 스테이션과 90도 교차 설치되어 초경인서트 제품 측면의 결함을 검사하고, 인선높이, 총 두께, 단차 및 여유 각을 측정하도록 구성되는 검사 시스템을 포함하는 것을 특징으로 하는 직교 로봇을 이용한 초경인서트 고속 검사장비의 사이드 검사 장치에 관한 것이다.  따라서 제조된 초경인서트를 검사할 때, 메크로 비전과 마이크로 비전으로 전체적인 크기, 형상 및 꼭지점을 확대하여 결함 여부를 검사하고, 최종적으로 본 발명에 따른 사이드 검사 장치로 초경인서트 제품을 회전시키면서 측면부의 결함 검사와 각 면의 인선높이, 총 두께, 단차 및 여유 각을 측정하여 균일한 품질의 초경인서트 제품을 생산할 수 있는 직교 로봇을 이용한 초경인서트 고속 검사장비의 사이드 검사 장치를 제공한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00ad4af803a616ffd3adba9c9cf469693ca7166205d32070687cd4027862cf21362e59700769d761a871da732e5bcac1a07f46d724a80c1ef3</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf9ee7dde20c1697cb18498dc8ef5c331e3c3ed7252eb612731ed681c8fce2264cc2b7333cd85dbc8429035375ef03cdfc341ef42330eed00b</ThumbnailPath>
+				<SerialNumber>80</SerialNumber>
+				<InventionName>직교 로봇을 이용한 초경인서트 고속 검사장비의 사이드 검사 장치</InventionName>
+				<InternationalpatentclassificationNumber>G01N 21/88|G01N 21/95|B65G 29/00</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20200227</PublicDate>
+				<RegistrationDate>20200221</RegistrationDate>
+				<RegistrationNumber>1020821380000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20160908</ApplicationDate>
+				<ApplicationNumber>1020160115476</ApplicationNumber>
+				<Abstract>본 발명은 대상물의 STL 전자파일에 저장된 다수 개의 점 위치 데이터를 분석하여 사용자가 선택한 점의 위치 정보, 수직 벡터 등을 추출하는 입력 처리부; 실제 로봇의 좌표를 이용하여 STL 기준좌표계와 로봇 기준좌표계 사이의 관계를 계산하는 로봇 동기부; 시작과 끝을 의미하는 2점 사이의 트래킹 방향 및 경로를 계산하고, 2점 사이의 다수 개의 점 좌표를 추출하는 트래킹 경로 연산부; 로봇 기준좌표계에 대한 좌표와 방향으로 변환하는 좌표 변환부; 로봇 좌표 정보를 실제 로봇 제어기로 전송하는 출력부;를 포함하여 이루어지는 대상물의 CAD 형상을 이용한 로봇의 위치 및 트래킹 경로 생성 시스템에 관한 것이고,  또한, 실제 로봇의 기준 좌표계와 STL 데이터의 기준 좌표계 사이의 관계를 계산하는 단계; 수직 벡터 정보를 이용하여 평면을 생성하고 트래킹 방향을 결정하는 단계; 생성된 평면과 STL 상의 다수 개의 삼각형과의 교차점을 추출하는 단계; 추출된 다수 개의 교차점을 순서대로 재배치하는 단계; 각 점에 대한 로봇 TCP 위치와 로봇 툴의 진입 각도 계산 후 트래킹 좌표 리스트 추출하여 위치좌표와 수직벡터를 유도하는 단계;를 포함하여 이루어지는 것을 특징으로 하는 대상물의 CAD 형상을 이용한 로봇의 위치 및 트래킹 경로 생성방법에 관한 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0006d44147201535f1c1a0a28eefe0626f2271b5ce2cbf239afdc5bb9ad9b941821946d5d2c3295bbc9b3125ab8b7d4b9c9fd792d906762d0b</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf4d3044363e28f583d9b5fb1adf2457722d9a2e9d19c277d3554c9e9383f01f1b1ac97a20d82f2b0fe3a7d33314335fdf7349fa97496697f9</ThumbnailPath>
+				<SerialNumber>81</SerialNumber>
+				<InventionName>대상물의 CAD 형상을 이용한 로봇의 위치 및 트래킹 경로 생성 방법</InventionName>
+				<InternationalpatentclassificationNumber>B25J 9/16</InternationalpatentclassificationNumber>
+				<OpeningDate>20180316</OpeningDate>
+				<OpeningNumber>1020180028155</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20180403</PublicDate>
+				<RegistrationDate>20180328</RegistrationDate>
+				<RegistrationNumber>1018450790000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20181204</ApplicationDate>
+				<ApplicationNumber>1020180154626</ApplicationNumber>
+				<Abstract>본 발명은 직교형 로봇을 이용한 초경인서트 고속 검사장비에서 MGT 및 밀링용 초경인서트를 검사하기 위한 전용 지그 장치에 관한 것으로서, 측정 및 외관검사를 위하여 다수 개의 검사대상 MGT 및 밀링용 초경인서트가 적재되고, 검사 전용 지그 이송부를 따라 이송하도록 구성되는 검사 전용 지그, 상기 검사 전용 지그의 하 측에 위치하여 검사대상 MGT 및 밀링용 초경인서트를 투영하여 얻어지는 영상이 상기 검사 비전에 전달하도록 조명을 조사하도록 구성되는 백라이트, 상기 백라이트의 양 측에 상기 전용 검사 지그가 검사를 위하여 인입하거나, 인출할 때 이송하도록 구성되는 지그 이송부, 상기 검사 전용 지그 및 백라이트의 하단에 결합되어 상기 검사 전용 지그가 틸팅할 수 있도록 구성되는 각도조절유닛을 포함하는 것을 특징으로 하는 직교 로봇을 이용한 초경인서트 고속 검사장비의 MGT 및 밀링용 초경인서트 검사 전용 지그장치에 관한 것이다.  따라서 검사 전용 지그에 다수 개의 검사대상 MGT 및 밀링용 초경인서트를 적재하여 검사위치에서 본 발명의 MGT 및 밀링용 초경인서트 검사 전용 지그장치에 탑재함으로서 직교 로봇을 이용한 초경인서트 고속 검사장비의 효율을 높여 제품 생산성을 향상시킬 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e001b716878f37bc794ebdcc3720ceb9cfbd1c4cb90e3e31aa1f2c9bdf1aac193325ed4a47a50b4d49d999d6e6ec2c6f20fffda13b71d86954b</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfcf65a27949f3a7d7c7776a1c1d52735246f9873802e1a9a72345f6138fb0dad5dfe8aad16b8986a1e6eb39207a16eab31e92e8c9f4ee6e66</ThumbnailPath>
+				<SerialNumber>82</SerialNumber>
+				<InventionName>직교 로봇을 이용한 초경인서트 고속 검사장비의 MGT 및 밀링용 초경인서트 검사 전용 지그장치</InventionName>
+				<InternationalpatentclassificationNumber>G01N 21/88|G01N 21/95|B65G 15/12</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20200326</PublicDate>
+				<RegistrationDate>20200320</RegistrationDate>
+				<RegistrationNumber>1020936680000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20170802</ApplicationDate>
+				<ApplicationNumber>1020170097943</ApplicationNumber>
+				<Abstract>본 발명은 인서트의 모서리에 팁(Tip)을 실장 하는 실장방법에 있어서, 인서트와 팁을 각각 준비하는 단계, 인서트를 실장작업위치로 이송하는 단계, 인서트 모서리의 팁 부착 위치에 은납 접착제를 도포하는 단계, 팁을 실장 위치로 이송하는 단계, 팁을 부착하여 실장 하는 단계, 인서트를 배출하는 단계를 포함하는 것을 특징으로 하는 인서트 팁 실장방법에 관한 것이며, 또한, 인서트를 공급하는 인서트 공급부, 인서트 공급부와 일정한 간격을 두고 위치되어, 팁을 공급하는 팁 공급부, 픽업한 인서트를 실장작업위치까지 이동 가능하도록 형성된 다수 개의 고정 그립퍼 이송레일을 가지는 실장 장치부, 실장이 완료된 인서트를 배출하는 실장인서트 배출부 및 장방형의 테이블 형상의 프레임을 포함하여 이루어지는 것을 특징으로 하는 인서트 팁 실장장치에 관한 것이다.  따라서 인서트에 팁을 실장 하는 방법을 개선하, 그 실장장치를 자동화함으로서, 은납 접착제를 도포할 때 발생하는 문제점을 해소하고, 우수한 품질의 인서트를 다량 생산할 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0087440696b8b56396ac29ece860fdc5a58910431332e9864d2a811b1d43a7ada5c937fdea567604b49de2743a53c00cd120ebc7ec937ba8f5</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cff72baafba7d5e38f3e9bcc1d34be9f460cda50c2c3a6f79b240aff372900dd5c15166f4623415b5fbbd3461951e980852efa20a045084875</ThumbnailPath>
+				<SerialNumber>83</SerialNumber>
+				<InventionName>인서트 팁 실장장치 및 그 실장방법</InventionName>
+				<InternationalpatentclassificationNumber>C09J 5/00|B23B 27/18|B23K 35/26</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20190117</PublicDate>
+				<RegistrationDate>20190111</RegistrationDate>
+				<RegistrationNumber>1019397290000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20210918</ApplicationDate>
+				<ApplicationNumber>1020210125325</ApplicationNumber>
+				<Abstract>본 발명은 호닝가공이 완료된 초경인서트 인선부의 곡면을 검사하도록 구성되는 초경인서트 인선부의 곡면 검사 자동화 시스템에 관한 것으로서, 상기 초경인서트 인선부의 곡면 검사 자동화 시스템은, 측정대상물에 대한 데이터 입력 및 획득한 측정데이터를 출력하도록 구성되는 입출력장치와, 상기 입출력장치에서 인가된 초경인서트 인선부의 곡면 검사를 수행하도록 명령을 인가하고 제어하도록 구성되는 중앙제어 모듈과, 상기 중앙제어 모듈에서 인가된 명령에 따라, 측정대상물인 초경인서트의 영상을 획득하도록 구성되는 3차원 카메라와, 상기 3차원 카메라의 하측에 상기 측정대상물을 올려놓아 이동할 수 있도록 구성되는 측정대상물 구동 모듈과, 바닥 플레이트, 수직 프레임으로 이루어진 프레임을 포함하는 것을 특징으로 하는 초경인서트 인선부의 곡면 검사 자동화 시스템에 관한 것이다.  따라서 본 발명은 초경인서트 인선부의 곡면을 검사할 때, 측정대상물을 기울이지 않으므로 정렬시간이 단축되어 짧은 시간에 정확하게 검사할 수 있으며, 검사효율이 제고되고, 제품의 품질 향상에 이바지할 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c939988ee71b286e8c8017be3a8733a886b6a0fc5b9567f4b41b7df4380b978d0770585e571ddfacf3801651fbbe3e2aa08309e889d6dd5ed3c</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf3a58233fdaa7d943939e9dbeb6766db334e7920b8388d4779fa19107c4997f071238d55051f75a498582a5d43f9ae1f96328a4537e0c33f9</ThumbnailPath>
+				<SerialNumber>84</SerialNumber>
+				<InventionName>초경인서트 인선부의 곡면 검사 자동화 시스템</InventionName>
+				<InternationalpatentclassificationNumber>G01B 11/24|G01B 11/25|G01B 11/02|G01B 11/03|G01N 21/88|F16F 15/02|G06T 7/00</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20230130</PublicDate>
+				<RegistrationDate>20230125</RegistrationDate>
+				<RegistrationNumber>1024930710000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20210728</ApplicationDate>
+				<ApplicationNumber>1020210098961</ApplicationNumber>
+				<Abstract>본 발명은 카메라를 이용하여 3차원 구조물(초경인서트)의 인선부 및 표면 검사를 위하여 곡선 구배 구간의 멀티채널 영상을 획득하는 방법에 관한 것으로서, (a) 상기 초경인서트의 곡선 구배 구간의 인선부 및 표면을 촬영하기 위하여 준비하는 준비단계와, (b) 상기 곡선 구배 구간을 이동하면서 촬영하는 영상 촬영 및 획득 단계와, (c) 상기 (b) 단계에서 획득한 영상을 기반으로 합성된 이미지를 생성하는 이미지 생성 단계를 포함하는 것을 특징으로 하는 3차원 구조물 검사를 위한 멀티채널 영상 획득방법에 관한 것이다.  따라서 카메라를 이용하여 3차원 구조물(초경인서트 제품)의 곡선 구배가 큰 인선부 및 표면의 멀티채널 영상을 획득하여 상기 인선부 및 표면의 결함을 검사하고자 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9394c4f868979973204ff97262c5038b5bcff1bbd644395dc2b0faa3ecbd04acacc641589e1fe0f4a98e2c2228ed9896abd6f5f84aa3004267</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf14178eb5d3b0c762c82663be41e488f26db0ad29e5a8e290fb51ba9a92e56681a20b776dfb9c1c5c7b89a3a8f6904a053f534ed341d95965</ThumbnailPath>
+				<SerialNumber>85</SerialNumber>
+				<InventionName>3차원 구조물 검사를 위한 멀티채널 영상 획득방법</InventionName>
+				<InternationalpatentclassificationNumber>G06T 5/50|G06T 7/00|G01N 21/88|G06V 10/10</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20221103</PublicDate>
+				<RegistrationDate>20221031</RegistrationDate>
+				<RegistrationNumber>1024627240000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20210420</ApplicationDate>
+				<ApplicationNumber>1020210050884</ApplicationNumber>
+				<Abstract>본 발명은 초경인서트 제품의 CVD 코팅 및 회수를 위하여, 프레임, 팔레트 이송부, 코팅 트레이 이송부, 초경인서트 검사 및 반전부, 위치 검출용 무빙 카메라부 및 초경인서트 이송부를 포함하여 구성되는 CVD 코팅을 위한 초경인서트 로딩 및 언로딩 장비에서, CVD 코팅이 완료된 초경인서트 제품을 회수할 때, 상기 코팅 트레이 이송부의 CVD 코팅 트레이로부터 초경인서트 제품을 분리하기 위한 배큠 그립퍼 장치에 있어서, 상기 배큠 그립퍼 장치는, 상기 초경인서트 이송부의 툴 그립에 결합되는 회전 분리형 배큠 그립퍼 또는 타격 분리형 배큠 그립퍼를 포함하는 것을 특징으로 하는 CVD 코팅 트레이로부터 초경인서트 제품을 분리하기 위한 배큠 그립퍼 장치에 관한 것이다.  본 발명은 배큠 그립퍼 장치의 단부에 회전 분리형 캡 또는 타격 분리형 캡을 결합하여, CVD 코팅 시 코팅 트레이와 눌어붙은 상태의 초경인서트 제품을 안전하게 분리함으로서 픽업 실패 현상을 방지하여 제품의 그립 및 이송을 원활하게 하고 본체장비를 보호한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93f3f59f2a905914636551c26d383dde36e1f685acf1f35b182c5eb3bb52c35a0397fadf9cff0f0c4be49ee985f7938ff031d175c32211022b</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cffd3e840d629cd35dd9725e7860cd809b3f95fca0af4c81f8455dd1c8f59fba98cbb99fa2f1eae375e71575d00bf88ce41d77dc53cda85666</ThumbnailPath>
+				<SerialNumber>86</SerialNumber>
+				<InventionName>CVD 코팅 트레이로부터 초경인서트 제품을 분리하기 위한 배큠 그립퍼 장치</InventionName>
+				<InternationalpatentclassificationNumber>B25J 15/06|B25J 15/00|C23C 16/54</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20220705</PublicDate>
+				<RegistrationDate>20220630</RegistrationDate>
+				<RegistrationNumber>1024166810000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20201123</ApplicationDate>
+				<ApplicationNumber>1020200157483</ApplicationNumber>
+				<Abstract>본 발명은 PVD 코팅을 마친 초경인서트를 코팅 막대로부터 언로딩 하는 본체장비에서, 웨이브 형상을 가지는 초경인서트를 회수하는 시스템에 관한 것으로서, 상기 코팅 막대로부터 회수되는 웨이브 형상의 초경인서트(1-1)이 회수되도록 구성되는 회수부(110)와, 상기 회수부(110)에 위치한 웨이브 형상의 초경인서트(1-1)의 상하 위치를 변경하도록 구성되는 반전부(120)와, 상기 회수부(110)와 반전부(120)의 중앙에 위치하여, 상기 반전부(120)를 회전시켜 상기 회수부(110)의 상부까지 왕복하도록 구성되는 회전 및 수직 이동부(130)를 포함하는 것을 특징으로 하는 PVD 코팅 후 언로딩 장비에서의 웨이브 형상 초경인서트 회수 시스템에 관한 것이다.  따라서 본 발명은, 웨이브 형상의 초경인서트를 코팅 막대로부터 언로딩할 때, 정・역 방향에 따라 적재된 특수한 모양의 초경인서트를 안전하고 정확하게 반전 및 회수할 수 있어 장비의 안전성과 작업효율을 증대할 수 있는 이점이 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93dc04285502ecb6dee3723b395a52dfd30c34224c7a245fed2602de48d60137a42c1080ec0e037ac156cc2eb1a1da44af15503f7c5f5448d7</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf3633db08639e9798195eb6c0ed93451527c7956265f58ab1b2e1ba92dd27eebdc7427d62f21eb710f6579541883fee04ad82b77c5330d16a</ThumbnailPath>
+				<SerialNumber>87</SerialNumber>
+				<InventionName>PVD 코팅 후 언로딩 장비에서의 웨이브 형상 초경인서트 회수 시스템</InventionName>
+				<InternationalpatentclassificationNumber>C23C 14/56|C23C 14/50|B23B 27/14</InternationalpatentclassificationNumber>
+				<OpeningDate>20220531</OpeningDate>
+				<OpeningNumber>1020220070682</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20220602</PublicDate>
+				<RegistrationDate>20220526</RegistrationDate>
+				<RegistrationNumber>1024041350000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20101228</ApplicationDate>
+				<ApplicationNumber>1020100136666</ApplicationNumber>
+				<Abstract>본 발명은 NC프레스 픽업장치에 관한 것으로, 한쌍의 Y축이송부 사이의 프레임 상부에 Y축이송부를 따라 길게 설치되고 제품그리퍼에 의해 프레임 상부로 이송된 인서트팁들이 배열되고 배열된 인서트팁들을 프레임의 후방측으로 이송시키는 제1피더; 제1피더 일측의 프레임 상부에 Y축이송부를 따라 길게 설치되고 제1피더가 배열된 인서트팁들을 프레임의 후방측으로 이송시키면 프레임의 전방측으로 이송되어서 제품그리퍼에 의해 이송되는 인서트팁들이 배열되도록 하는 제2피더; 제1피더 및 제2피더에 각각 안착되고 제품그리퍼에 의해 이송된 인서트팁들이 순차적으로 안착되어서 배열되는 팔레트들; 제1피더 및 제2피더의 후방측 프레임에 설치되고 다수의 팔레트들이 수직방향으로 적재되며 적재된 빈 팔레트를 제1피더 또는 제2피더에 공급하고 인서트팁들이 안착된 팔레트가 적재되는 엘리베이터를 포함하여 이루어진다.  따라서, 제1피더 및 제2피더가 빈 팔레트의 이송 및 인서트팁 안착 작업과 인서트팁이 배열된 팔레트의 이송 및 엘리베이터에 적재하는 작업을 교번하여 수행하므로 택타임(takt time)을 줄일 수 있으며, 이에 따라 제품의 생산성을 크게 향상시킬 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf7261cc71f301556a67f44de1dac0c0525a634ea130c6c69f98ccb47fd701a7416f7e7f1b17e1023898661de8455224c028ecd6f75d3f431fd5a</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfc2081c58c3969312c613bcf81eeaa2c10fc55762d47e2dc5262fa57fa8dd3b6aa55f823f3b225209ba9959b474fa8298954a28bcdca34ba4</ThumbnailPath>
+				<SerialNumber>88</SerialNumber>
+				<InventionName>NC프레스 픽업장치</InventionName>
+				<InternationalpatentclassificationNumber>B30B 15/30|B23Q 7/04|B23Q 7/06</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20110406</PublicDate>
+				<RegistrationDate>20110328</RegistrationDate>
+				<RegistrationNumber>1010268580000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20121116</ApplicationDate>
+				<ApplicationNumber>1020120130089</ApplicationNumber>
+				<Abstract>본 발명은 초경합금용 핸들링장치 및 그 설치구조에 관한 것으로, Z축로봇에 설치되어서 Z축로봇을 따라 X축방향으로 이송되며 Z축로봇의 구동시 Z축로봇의 길이방향인 Z축방향으로 이송되는 설치브라켓과, 설치브라켓에 설치되고 설치브라켓과 함께 X1축로봇의 길이방향인 X축방향으로 이송되는 X2축로봇과, X2축로봇에 설치되어서 X2축로봇과 함께 X1축로봇의 길이방향인 X축방향으로 이송되고 X2축로봇의 구동시 X2축로봇의 길이방향인 X축방향으로 이송되는 그리퍼로 이루어진다.  따라서, 본 발명은 X2축로봇이 Z축로봇에 의해 X1축로봇에 직접 설치되어 있으므로 그리퍼를 X축 방향으로 이송시킬 시 X1축로봇의 구동력이 Z축로봇을 통해 X2축로봇에 전달되므로 동력전달 경로가 단축되어서 미세한 진동 및 기계적 오차가 그만큼 감소되며, 이에 따라 제품의 파지 및 이송 작업을 정확하게 수행할 수 있다. 또한, X2축로봇 및 그리퍼가 X1축로봇에 의해 X축방향으로 1차 이송되는 동안 그리퍼는 X2축로봇에 의해 X축방향으로 2차 이송된다. 그러므로 그리퍼의 로딩시간이 단축되고 이에 따라 작업성이 크게 향상되며, 그리퍼를 X축방향으로 이송시키기 위한 이송로봇을 길게 구비할 필요가 없으므로 장비의 컴팩트화를 꾀할 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726ec432174d61fcf7ce35b57b5dbbad61eebf23c22ff7bf07ef728b8a7fd33cf46192344f6b5d060edd8eb7d566be0fa9639bb0d7b174a294e</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf3279a225e277e3729b65ea1c8e3fa62736b90ec0609226e28d7761832c7822d7dbc8a2db6328de7df27dc49380b2a00bae093e74aece50c0</ThumbnailPath>
+				<SerialNumber>89</SerialNumber>
+				<InventionName>초경합금용 핸들링장치 및 그 설치구조</InventionName>
+				<InternationalpatentclassificationNumber>B23Q 7/04|B30B 15/30|B65G 47/90</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20130326</PublicDate>
+				<RegistrationDate>20130318</RegistrationDate>
+				<RegistrationNumber>1012481280000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20071022</ApplicationDate>
+				<ApplicationNumber>1020070106114</ApplicationNumber>
+				<Abstract>본 발명은 컨베이어 체인 비젼 검사장치 및 그 검사방법에 관한 것으로, 컨베이어 체인의 일측에 설치되어서 체인의 성형 상태, 체인의 치수 변화, 체인의 파손 유무 등을 촬영하는 촬영수단; 상기 컨베이어 체인의 일측에 설치되어서 이상이 발생된 체인에 인식마크를 표시하는 마킹수단; 상기 체인의 촬영 신호를 전달받도록 상기 촬영수단에 연결되고, 상기 촬영수단으로부터 전달된 영상 정보와 이미 입력된 상기 컨베이어 체인에 대한 데이터 정보를 비교, 검토하여 이상이 발생된 체인에 마킹하도록 상기 마킹수단에 연결되어 이를 제어하는 비젼컨트롤러; 상기 비젼컨트롤러에 연결되어서 체인 검사시 이상이 발생되면 상기 비젼컨트롤러로부터 신호를 전달받아서 상기 컨베이어 체인의 구동장치를 제어하도록 하는 컨베이어제어판넬;로 이루어진다.  그러므로, 각각의 단위체인들의 성형 상태 및 손상 상태를 검사할 수 있고, 이상이 발생된 단위체인에 직접 마킹할 수 있으며, 체인에 대한 검사결과를 데이터 베이스화하여 체인의 변화 추이와 성형 이상에 따른 분석이 가능하도록 할 수 있다.  카메라, 마킹부재, 크레용, 비젼컨트롤러, 컨베이어제어판넬</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9cf44e6e9608087f4098dc473d6480569d4c1e0af79731e885d1abed2c2c9ef89e</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe484b73ac8e410bb2240e906b818020be2ebd1ff73c0e097a09185b408c4b1241b</ThumbnailPath>
+				<SerialNumber>90</SerialNumber>
+				<InventionName>컨베이어 체인 비젼 검사장치 및 그 검사방법</InventionName>
+				<InternationalpatentclassificationNumber>B65G 43/02|G01B 11/24|B65G 17/38|H04N 7/18|B43K 23/016</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20080319</PublicDate>
+				<RegistrationDate>20080313</RegistrationDate>
+				<RegistrationNumber>1008152110000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>한라대학교산학협력단|주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20141229</ApplicationDate>
+				<ApplicationNumber>1020140192440</ApplicationNumber>
+				<Abstract>본 발명은 컴퓨터를 이용한 치열교정용 아치와이어의 굽힘점 및 굽힘각도 산출 방법 및 그 프로그램에 관한 것으로, 3D 모델링 데이터를 표현하는 국제표준형식 중 하나로 3D 캐드 프로그램에서 저장할 수 있는 STL(STereoLithography) 파일을 판독할 수 있는 컴퓨터(예컨대, 데스크톱, 노트북, 태블릿 PC 등)에 의해 수행되며, 아치와이어의 형상이 STL 파일 형태로 입력되면 해당 STL 파일에 저장된 아치와이어의 점 위치 데이터들로부터 굽힘점의 좌표를 순차적으로 추출하고, 추출한 굽힘점 좌표들을 이용하여 아치와이어 제작용으로 사용되는 직선형태의 원재료 와이어의 시작 끝점에서부터 반대쪽 끝점까지의 사이에서 순차적으로 이웃하는 2개의 굽힘점의 사이 길이(L)와 각 굽힘점의 굽힘각도(θ) 및 각 굽힘점의 굽힘방향각도(α)를 계산한 후, 상기한 길이(L)와 굽힘각도(θ) 및 굽힘방향각도(α)들을 아치와이어 제작 데이터로 출력한다.  본 발명에 따라 상기한 길이(L)와 굽힘각도(θ) 및 굽힘방향각도(α)들을 아치와이어 제작 데이터로 출력하면, 이 아치와이어 제작 데이터를 입력받는 아치와이어 자동제조장치를 활용하여 정밀한 아치와이어를 완전 자동으로 제조할 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00011b1dc31004e14c27e68c9b52f6791480c541330fecdc250b99db46df3ed25c672fb8b4d54e08df7be530e0b4306f39e713084d7ad837af</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf10cdbfe74c044d6f7d000cd3ceadad7efae24ac2c477523999a80a26ced8529b074c7856dc688075edcac9a02610af2a6dfe526e2e7294c3</ThumbnailPath>
+				<SerialNumber>91</SerialNumber>
+				<InventionName>컴퓨터를 이용한 치열교정용 아치와이어의 굽힘점 및 굽힘각도 산출 방법 및 그 프로그램</InventionName>
+				<InternationalpatentclassificationNumber>A61C 7/00|A61C 7/20</InternationalpatentclassificationNumber>
+				<OpeningDate>20160711</OpeningDate>
+				<OpeningNumber>1020160082842</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20160921</PublicDate>
+				<RegistrationDate>20160909</RegistrationDate>
+				<RegistrationNumber>1016581130000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 윈텍오토메이션</Applicant>
+				<ApplicationDate>20061002</ApplicationDate>
+				<ApplicationNumber>1020060097162</ApplicationNumber>
+				<Abstract>본 발명은 반도체 이송장비용 웨이퍼 자동위치보정장치 및 그 방법에 관한 것으로, 상기 웨이퍼캐리어 내의 웨이퍼가 상기 챔버 내에 정확하게 삽입되도록 상기 기준웨이퍼를 상기 이송로봇 상에 로딩하는 단계; 상기 이송로봇에 로딩된 상기 기준웨이퍼의 위치값을 측정하여 산출하는 단계; 상기 이송로봇 상의 상기 기준웨이퍼를 언로딩하는 단계; 상기 웨이퍼캐리어 내의 웨이퍼를 상기 이송로봇 상에 로딩하는 단계; 상기 이송로봇에 로딩된 상기 웨이퍼의 위치값을 측정하여 산출하는 단계; 상기 웨이퍼의 위치값이 산출되면 상기 기준웨이퍼의 위치값과 비교하여 상기 웨이퍼의 위치값이 상기 기준웨이퍼의 위치값에 대해 편심되었는가를 판단하는 단계; 상기 기준웨이퍼에 대해 상기 웨이퍼의 위치값이 편심되었으면 상기 컨트롤러로 상기 이송로봇을 제어하여 편심된 값만큼 상기 웨이퍼의 위치를 보정하는 단계;로 이루어진다.  그러므로, 정렬되지 않은 웨이퍼캐리어 내부의 웨이퍼들이 컨트롤러 및 이에 의해 제어되는 이송로봇에 의해 이송되면서 그 위치가 자동으로 보정되어 정렬되고, 정렬된 상태에서 챔버 내에 삽입된다. 따라서 웨이퍼캐리어 내의 웨이퍼들을 챔버로 삽입시키기 전에 웨이퍼얼라이너에 의해 정렬시켰던 종래에 비해 하나의 장비가 감소되며, 이에 따라 작업 공정 및 작업시간이 단축되고, 전체 이송설비의 크기가 감소된다.  기준웨이퍼, 웨이퍼,...(이하생략)</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9cfe49d03e6a3dce01a912a3ce572b428cac8e2607a131f2e379a3b8abe6226afb</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe46c22163f668395d41a38ac2fb40056a9f552f7ef410d7ea42678e94e6d7c9b0a</ThumbnailPath>
+				<SerialNumber>92</SerialNumber>
+				<InventionName>반도체 이송장비용 웨이퍼 자동위치보정장치 및 그 방법</InventionName>
+				<InternationalpatentclassificationNumber>H01L 21/67|H01L 21/677|H01L 21/687</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20070611</PublicDate>
+				<RegistrationDate>20070531</RegistrationDate>
+				<RegistrationNumber>1007259330000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<TotalSearchCount>92</TotalSearchCount>
+			<SearchStartNumber>1</SearchStartNumber>
+		</items>
+	</body>
+</response>

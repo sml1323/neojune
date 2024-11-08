@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<response>
+	<header>
+		<resultCode></resultCode>
+		<resultMsg></resultMsg>
+	</header>
+	<body>
+		<items>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 테스크</Applicant>
+				<ApplicationDate>20140722</ApplicationDate>
+				<ApplicationNumber>1020140092380</ApplicationNumber>
+				<Abstract>본 발명은 디젤차량의 요소수탱크에 끼움장착되는 헤드부몸체가 구비되고 헤드부몸체에는 요소수를 가온시키는 히팅파이프와, 요소수를 흡입하여 요소수분무장치로 공급하는 흡입파이프와, 요소수분무장치로 공급되고 남은 요소수를 요소수탱크로 복귀시키는 리턴파이프와, 플로트에 의해 요소수의 수위를 측정하면서 요소수의 온도를 측정하는 리드파이프가 설치된 유레아센더 어셈블리에 있어서, 상기 헤드부몸체는 리드파이프와 히팅파이프의 온수유입관 및 온수회수관과 흡입파이프와 리턴파이프의 상부가 각각 끼움결합되는 복수개의 체결공이 수직으로 천공되어 있되, 상기 복수개의 체결공은 내주면 중간부분에 걸침단이 형성되어 있고 상측 내주면에는 체결소켓이 나사체결식으로 끼움결합되는 암나사부가 형성되어 있으며, 상기 리드파이프와 히팅파이프의 온수유입관 및 온수회수관과 흡입파이프와 리턴파이프는 상부끝부분에 각 체결소켓의 관통공 내측에 끼움결합되는 상측삽입부가 형성되어 있고 상측삽입부의 하부 외주면에는 걸림턱이 외측으로 돌출형성되어 있어 걸림턱의 하면부는 체결공의 걸침단 위에 걸침지지되고 걸림턱의 상면부는 체결소켓의 하방돌출부에 맞닿아 지지되면서 하방으로 이탈방지되는 것을 특징으로 하는 유레아센더 어셈블리에 관한 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e003070d0c74137e6a9fe6e1aef76a50ca95f93aa4f3375b36910363295ae4ce33453cf5ff38509b71641848f00d2e944ebc23b2d77d5215c44</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfc7966872e8369bf1839d42716531ee53d8f62b5c2587627a80433c18b6c3badd0cd5044bf75f5db80fbc8814dc865cedcb3f50d99b008735</ThumbnailPath>
+				<SerialNumber>1</SerialNumber>
+				<InventionName>유레아센더 어셈블리</InventionName>
+				<InternationalpatentclassificationNumber>F01N 3/36|F01N 3/28</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20141112</PublicDate>
+				<RegistrationDate>20141103</RegistrationDate>
+				<RegistrationNumber>1014596800000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 테스크</Applicant>
+				<ApplicationDate>20140623</ApplicationDate>
+				<ApplicationNumber>1020140076207</ApplicationNumber>
+				<Abstract>본 발명은 디젤차량의 요소수탱크에 끼움장착되는 헤드부몸체가 구비되고 헤드부몸체에는 요소수를 가온시키는 히팅파이프와, 요소수를 흡입하여 요소수분무장치로 공급하는 흡입파이프와, 요소수분무장치로 공급되고 남은 요소수를 요소수탱크로 복귀시키는 리턴파이프와, 플로트에 의해 요소수의 수위를 측정하면서 요소수의 온도를 측정하는 리드파이프가 설치된 유레아센더 어셈블리에 있어서, 상기 헤드부몸체는 리드파이프와 히팅파이프의 온수유입관 및 온수회수관과 흡입파이프와 리턴파이프의 상부가 각각 하방에서 끼움결합되는 복수개의 체결공이 수직으로 천공되어 있되, 상기 복수개의 체결공은 내주면 중간부분에 걸림턱이 내측으로 돌출형성되고 걸림턱의 하면부에는 밀폐링이 개재되며 각 체결공에서 걸림턱이 형성된 부분의 상측 내주면에는 암나사부가 형성되어 있어 체결소켓이 나사체결식으로 끼움결합되고, 상기 리드파이프와 히팅파이프의 온수유입관 및 온수회수관과 흡입파이프와 리턴파이프는 상단부가 밀폐링의 하면부에 밀착되어 수밀유지되면서 상부 외주면에 하방으로 갈수록 넓어지게 경사진 테이퍼부가 상하 연속되게 복수개 형성되어 있어 각 체결공의 하부 내주면에 테이퍼부가 걸림체결되어 이탈방지되는 것을 특징으로 하는 유레아센더 어셈블리에 관한 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e003070d0c74137e6a9fe6e1aef76a50ca98f3a8e429b8f85deb7410b07d578aa08573f042f189ef4702a08e8e9c50ebe859a29641325901431</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfc7966872e8369bf1839d42716531ee53bf3ba322f81afff74d33da0e5bfa8f5ffdc1471407ce24b4a7f7f07b1adb7497d583cd236afdd71f</ThumbnailPath>
+				<SerialNumber>2</SerialNumber>
+				<InventionName>유레아센더 어셈블리</InventionName>
+				<InternationalpatentclassificationNumber>F01N 3/36|F01N 3/28</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20141112</PublicDate>
+				<RegistrationDate>20141103</RegistrationDate>
+				<RegistrationNumber>1014596790000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 테스크</Applicant>
+				<ApplicationDate>20211126</ApplicationDate>
+				<ApplicationNumber>1020210165258</ApplicationNumber>
+				<Abstract>본 발명은 차량용 고압 수소파이프 메탈씰 가공방법에 관한 것으로, 보다 상세하게는 몸체부와 메탈씰로 구성되는 피팅의 연결 및 해제과정에서 몸체부가 손상되는 것을 방지하기 위한 차량용 고압 수소파이프 메탈씰 가공방법에 관한 것이다.  또한, 각 파이프의 단부에 형성된 몸체부와 메탈씰로 구성되는 피팅의 연결 및 해제시 메탈씰에 접촉되는 몸체부의 손상을 방지하기 위한 차량용 고압 수소파이프 메탈씰 가공방법에 있어서, 파이프의 단부를 포밍하여 기 설정된 형태의 메탈씰을 형성하는 가공단계와 형상 가공된 메탈씰의 단부를 고주파 열처리하는 열처리단계를 포함하는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c936def61e395fd88b175b6ee92c3ae13c924dc0b3c4b3cfc65675d0274bcd3485c2578dc69a0f8485a167b925aeef70eb820d14015e8756bd2</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfe72a049bb82bb2323bd5439e86d60f1f10ec61ecfffb1d8d1ba94fff0aa4f2363232174ea038aa70edad0eaf1b0fd3ef62e6f6da293c426b</ThumbnailPath>
+				<SerialNumber>3</SerialNumber>
+				<InventionName>차량용 고압 수소파이프 메탈씰 가공방법</InventionName>
+				<InternationalpatentclassificationNumber>B21D 19/12|B21D 19/04|B21D 19/08|C23C 26/00|C21D 9/08</InternationalpatentclassificationNumber>
+				<OpeningDate>20230602</OpeningDate>
+				<OpeningNumber>1020230077977</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>공개</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 테스크</Applicant>
+				<ApplicationDate>20220211</ApplicationDate>
+				<ApplicationNumber>1020220017886</ApplicationNumber>
+				<Abstract>요소수 주유기에 설치되어 요소수 품질을 실시간으로 표시하는 요소수 관리 시스템은, 요소수 탱크의 수위를 감지하는 수위센서와, 요소수 탱크의 온도를 감지하는 온도센서와, 요소수 탱크에 보관된 상기 요소수의 농도를 감지하는 농도센서와, 수위센서, 온도센서 및 농도센서의 동작을 제어하며 수위센서, 온도센서 및 농도센서의 감지 데이터를 처리하는 동작 제어부와, 동작 제어부의 제어에 따라 현재 주입 중인 요소수의 수위, 요소수의 온도 및 요소수의 농도를 실시간으로 표시하는 정보 표시부를 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93dc8c3b6fe58ed979f29b212188dc197265ddc70abb257979179911e2a049306ca5dfa75437f5d68e152db1c9df8c5ad1b2c7959860294320</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf014bf1507c2333ee60afc773cd0335ba038301b1ef4167f973728d96bd7f048d17d79538528508a28ed2547f454f9a71b84a9e683cfafa64</ThumbnailPath>
+				<SerialNumber>4</SerialNumber>
+				<InventionName>요소수 품질을 실시간으로 표시하는 요소수 관리 시스템</InventionName>
+				<InternationalpatentclassificationNumber>G06Q 50/26|G06Q 50/10|G06Q 10/06|B67D 7/08</InternationalpatentclassificationNumber>
+				<OpeningDate>20230818</OpeningDate>
+				<OpeningNumber>1020230121257</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>공개</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 테스크</Applicant>
+				<ApplicationDate>20161230</ApplicationDate>
+				<ApplicationNumber>1020160184324</ApplicationNumber>
+				<Abstract>본 발명은 내연기관에 구비된 엔진의 배기가스가 통과되어 배출되는 배기부에 설치되면서 배기부로부터의 열과 소음 및 진동을 차단하는 히트 프로텍터에 있어서, 상기 배기부의 외주면을 둘러싸도록 설치되는 단열부와, 상기 단열부의 외주면을 둘러싸도록 설치되는 본체커버부로 구성되어 있되, 상기 본체커버부는 금속박판 재질로 된 본체판이 구비되고 본체판에는 외측으로 볼록하게 돌출된 상태로 본체판에 전후좌우 일정간격 이격되게 다수개의 볼록부가 형성되어 있고 볼록부와 볼록부 사이에는 각각 본체판의 내측으로 오목하게 들어간 오목부가 형성되어 있어 본체판에 볼록부와 오목부가 전후좌우 순차적으로 이웃되게 다수개 형성되면서 배기부에서 발생되는 내부소음이 오목부 사이와 볼록부의 내측에 부딪쳐 감쇠되며, 각 오목부는 단열부의 외주면과 맞닿는 단부에 흡음용홀이 천공되어 있어 외부소음이 흡음용홀을 통해 단열부 내부로 흡수되어 감쇠되도록 되어 있는 것을 특징으로 하는 히트 프로텍터에 관한 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00534d7602305ff9d45f77e0faa8810197a0481ab824463a4e68b91ee1e92c99035bb778af76955aec58269ce22a1f6426b09001b4e5558c4f</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf7bd418094ec5d00c7949b24502bd6eb88e7a4a6177b01f56c63301d6b401eaf9fcdfc3c9caf08fa6ec0fe74314854193e51698dd5dc03eb2</ThumbnailPath>
+				<SerialNumber>5</SerialNumber>
+				<InventionName>히트 프로텍터</InventionName>
+				<InternationalpatentclassificationNumber>F01N 13/10|F01N 13/14</InternationalpatentclassificationNumber>
+				<OpeningDate>20180710</OpeningDate>
+				<OpeningNumber>1020180079001</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20181029</PublicDate>
+				<RegistrationDate>20181023</RegistrationDate>
+				<RegistrationNumber>1019126200000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 테스크</Applicant>
+				<ApplicationDate>20220321</ApplicationDate>
+				<ApplicationNumber>1020220034494</ApplicationNumber>
+				<Abstract>긴급출동 서비스를 수행하는 전기차 충전 시스템은 차량의 동력축의 동력을 그대로 사용하면서 동력의 인출을 제어하는 동력 인출 장치와, 동력 인출 장치의 인출축과 연결되어 인출축의 회전력에 의해 동작하고, 생성된 전기 에너지를 전기 자동차에 충전단자에 제공하는 발전장치와, 발전장치에서 생성된 전기 에너지에 의해 자체적으로 충전되고 발전장치가 구동되지 않을 때 전기 자동차를 충전시키기 위한 에너지 저장장치를 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9302b6ccca3435e9c38e34c646681c8069645082108167cc23cb27fba492f2bb3ccddc0a923dfd636848e376fa1814400eaa5e71fe0c7ecba5</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfa2ac87768a49edaa0ed8fbe4370a8620b9683ed66bf3ca0719d3d5623edfd20032eb341e670d4ec471cf35b95e1dd349dc3d1d53e7be03fc</ThumbnailPath>
+				<SerialNumber>6</SerialNumber>
+				<InventionName>차량동력연계 자가발전이 복합된 긴급출동 서비스를 수행하는 전기차 충전 시스템</InventionName>
+				<InternationalpatentclassificationNumber>B60L 50/30|B60L 53/16|B60K 17/28</InternationalpatentclassificationNumber>
+				<OpeningDate>20231004</OpeningDate>
+				<OpeningNumber>1020230136964</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20240904</PublicDate>
+				<RegistrationDate>20240830</RegistrationDate>
+				<RegistrationNumber>1027027930000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 테스크</Applicant>
+				<ApplicationDate>20220107</ApplicationDate>
+				<ApplicationNumber>1020220002447</ApplicationNumber>
+				<Abstract>본 발명은 후방 차축의 동력 인출 장치에 관한 것으로, 보다 상세하게는 차량의 후방 차축과 프로펠러 샤프트 사이에 설치함으로써, 엔진 및 미션에 가중되는 하중을 줄여 소음 및 진동을 줄인 후방 차축의 동력 인출 장치에 관한 것이다.  또한, 차량의 후방 차축과 프로펠러 샤프트 사이에 연결되는 동력축과 상기 동력축으로부터 동력을 전달받는 회전축 상에 설치되는 제1 폴리와 상기 회전축 상에 이송가능하도록 배치되는 클러치 몸체와 상기 회전축 상에 회전 가능하게 설치되는 제2 폴리와 상기 클러치 몸체를 이송시켜 제2 폴리의 측면에 형성된 돌출단에 맞물리도록 선택적으로 연결시키기 위한 시프팅 레버를 포함하는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9302b6ccca3435e9c38e34c646681c8069ae2d8ce0995e20e31a567867a0aa2f00301eacbe20e1d2ba595e85fdc67ace4d79f72ce76f262df3</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfa2ac87768a49edaa0ed8fbe4370a86207ade589df2e08f522b02301d56d5bd13e1529c184e1e70dcb532cf12639c5be3b329e680e3f37133</ThumbnailPath>
+				<SerialNumber>7</SerialNumber>
+				<InventionName>후방 차축의 동력 인출 장치</InventionName>
+				<InternationalpatentclassificationNumber>B60K 17/28|B60K 17/22|B60K 17/02|B60K 23/02</InternationalpatentclassificationNumber>
+				<OpeningDate>20230714</OpeningDate>
+				<OpeningNumber>1020230106827</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20240904</PublicDate>
+				<RegistrationDate>20240830</RegistrationDate>
+				<RegistrationNumber>1027028050000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 테스크</Applicant>
+				<ApplicationDate>20121019</ApplicationDate>
+				<ApplicationNumber>1020120116494</ApplicationNumber>
+				<Abstract>본 발명은 선별적탈질촉매(SCR, selective catalytic reduction)가 적용된 디젤차량의 배기장치에 구비되어 있는 요소수분무장치에 요소수를 공급 및 저장하기 위한 요소수탱크에 관한 것으로, 요소수가 저장되는 탱크하우징과, 히팅파이프와 흡입파이프와 레벨센서와 퀄리티센서가 하방으로 돌출되게 장착된 센서모듈과, 상기 탱크하우징의 상면부에 설치되면서 탱크하우징 내부의 가스를 외부로 배출시키는 에어벤트로 구성되며, 상기 센서모듈은 수직으로 된 막대형상의 레벨센서 하부끝부분에 충격완충이 가능하도록 합성수지나 합성고무재질로 된 레벨센서지지구가 끼움설치되면서 레벨센서지지구의 하면부가 탱크하우징의 내측 바닥면 위에 밀착되게 맞닿으며, 상기 히팅파이프는 모듈헤드에 수직하방으로 고정연결된 수직부와 상기 수직부의 하단부에 수평으로 절곡형성된 수평부로 이루어지되 상기 수평부에는 충격완충이 가능하도록 합성수지나 합성고무재질로 된 히팅파이프지지구가 끼움설치되면서 히팅파이프지지구의 하면부가 탱크하우징의 내측 바닥면 위에 밀착되게 맞닿아 센서모듈의 하부를 레벨센서지지구와 히팅파이프지지구가 받침지지하면서 충격완충 및 센서모듈의 유동을 방지하는 것을 특징으로 하는 센서지지구가 구비된 디젤차량용 요소수탱크에 관한 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00f922d5e68ed10e57bfe19138a87b3da00affdcd122fb056b58f4375e58df5d8b1de8c1d2429c2c6f139ac4c26d4783be47dc16ba1f75fdfe</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfa5deddbc755cf187f432ff585b8031849581f6258ac7494a75f94b0c29d7e99ca8581b373b850fecd174991dba3c1ac7d0206032b6dd4111</ThumbnailPath>
+				<SerialNumber>8</SerialNumber>
+				<InventionName>센서지지구가 구비된 디젤차량용 요소수탱크</InventionName>
+				<InternationalpatentclassificationNumber>B01D 53/94|F01N 3/28</InternationalpatentclassificationNumber>
+				<OpeningDate>20140429</OpeningDate>
+				<OpeningNumber>1020140050286</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20140902</PublicDate>
+				<RegistrationDate>20140827</RegistrationDate>
+				<RegistrationNumber>1014371180000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 테스크</Applicant>
+				<ApplicationDate>20180611</ApplicationDate>
+				<ApplicationNumber>1020180066716</ApplicationNumber>
+				<Abstract>본 발명은 휴대가능하도록 구성되고, 디젤 차량의 배기계통에 설치되어 질소산화물(NOx) 정화에 사용되는 요소수의 농도와 차량의 연료탱크에 수용되는 연료의 종류를 판별할 수 있는 검출장치로서, 본체; 상기 본체에 접속되고, 상기 본체에서 인가되는 전원에 의해 동작되어 센싱된 검출값을 캔통신을 통해 상기 본체로 전송하는 프로브를 포함하여 구성되며, 상기 프로브는 우레아센서, 온도센서 및 히터를 포함하는 제1 프로브 및 연료센서, 온도센서 및 히터를 포함하는 제2 프로브로 이루어지며, 상기 본체는 상기 제1 프로브의 접속에 따라 수신된 검출값을 설정된 로직에 의해 농도값으로 산출하거나 제2 프로브의 접속에 따라 수신된 검출값을 설정된 로직에 의해 연료의 종류를 판별하여 출력하도록 제어하는 제어부 및 상기 제어부의 제어에 의해 출력되는 농도값이나 판별된 연료의 종류가 표시되도록 처리하는 처리부를 포함하여 구성되는 것을 특징으로 하는 휴대용 연료판별 및 요소수농도 검출장치에 관한 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00b989e9f47e5b9c7a18d66d32a0255f2dab80fc7e9227670f3b0d0d30089942669065832a68de5a85d2ee62ceea56a30f9e6c4efebde39e86</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf8bb4bb3ca0bb85aa310086de50e3993f7042ea49f69b4ba0bada29a8dcb577f1c9337e7c9c71cc3fd0366724c9ba21e93ece81475c994235</ThumbnailPath>
+				<SerialNumber>9</SerialNumber>
+				<InventionName>휴대용 연료판별 및 요소수농도 검출장치</InventionName>
+				<InternationalpatentclassificationNumber>G01N 27/12|G01N 27/14</InternationalpatentclassificationNumber>
+				<OpeningDate>20191219</OpeningDate>
+				<OpeningNumber>1020190140211</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20200630</PublicDate>
+				<RegistrationDate>20200624</RegistrationDate>
+				<RegistrationNumber>1021286530000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 테스크</Applicant>
+				<ApplicationDate>20090107</ApplicationDate>
+				<ApplicationNumber>1020090001102</ApplicationNumber>
+				<Abstract>본 발명은 차량용 매연저감장치의 내부에 장착되어 매연을 정화처리하는 매연저감촉매조립체에 관한 것으로, 더욱 상세하게는 금속재질로 좌우양측이 개방된 원통형의 담체케이스가 구비되어 있고 상기 담체케이스의 내부에는 금속재질로 된 두꺼운 원판형으로 다수개의 통기공이 전체적으로 조밀하게 형성되도록 발포성형된 폼(foam)형태의 촉매담체가 수직으로 세워진 상태로 다수개가 차례로 적층된 다층촉매담체부가 고정설치되어 있되, 상기 다층촉매담체부는 각 촉매담체의 통기공 내주면에 각종 촉매물질이 코팅처리되어 있어 상기 통기공을 통과하는 배기가스 중 유해가스를 산환 환원시켜 정화처리하도록 되어 있으며 상기 다층촉매담체부는 일측에 위치된 촉매담체에서 타측에 위치된 촉매담체로 갈수록 발포성형된 통기공의 직경이 점점 작아지도록 발포성형되어 있어 일측방향에서 유입되는 배기가스 중 입자가 큰 유해가스 등이 먼저 정화처리되면서 순차적으로 입자가 작은 유해가스가 정화처리되도록 되어 있고, 상기 담체케이스와 다층촉매담체부 사이에는 다층촉매담체부의 외측 둘레면을 감싸 유동을 방지하는 내부완충재가 개재(介在)되어 있으며, 상기 담체케이스의 좌우양측 끝단부분의 내주면 둘레에는 금속재질로 된 링형상의 리테이너가 각각 일체로 용접부착되어 있어 내부에 위치된 상기 다층촉매담체부 및 내부완충재가 움직이지 않게 고정하도록 되어 있는 것을 특징으로 ...(이하생략)</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726769a0361cdb667828cf83c72a503984a6a7e28d62e04fb69e85c4a45d81c8c17ad0a6aa8858bba5c00c96e1e09a79408c17c45b5cf99b1dd</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf5443597aa0cc40e3fbf08674006c843d7fa2a11965a516eac1bb082d12a5e0466a9259d78da4d534784eed747d9efe6c0ecbd3bd96df8ba1</ThumbnailPath>
+				<SerialNumber>10</SerialNumber>
+				<InventionName>다층촉매담체부가 구비된 차량용 매연저감촉매조립체</InventionName>
+				<InternationalpatentclassificationNumber>F01N 3/28|F01N 3/021|F01N 3/035</InternationalpatentclassificationNumber>
+				<OpeningDate>20100715</OpeningDate>
+				<OpeningNumber>1020100081733</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20120608</PublicDate>
+				<RegistrationDate>20120521</RegistrationDate>
+				<RegistrationNumber>1011503250000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 테스크</Applicant>
+				<ApplicationDate>20200212</ApplicationDate>
+				<ApplicationNumber>1020200016709</ApplicationNumber>
+				<Abstract>디젤엔진의 배기가스 저감장치 중 블루박스라 불리는 밀집형 배기가스 저감장치에서 환원제로 사용하는 우레아 믹싱부는 100mm 전후의 길이를 가지고 가능하면 그 길이가 짧을수록 상기 블루박스 형태로 만들기 유리한 장점이 있으나, 길이가 짧을수록 상기 배기가스와 환원제로 사용하는 우레아가 혼합되지 않고, 배출될 가능성이 높은 문제가 있다. 본 발명은 상기와 같은 문제를 해결하기 위하여,  배기가스가 확산되어 입력되는 배기가스 확산판; 및 상기 배기가스 확산판 후방과 제1 믹싱부 사이에 배기가스가 지나가는 관로에 우레아를 분사하는 우레아 분사노즐; 및 상기 제1 믹싱부 후방에 1/4 원반 형태의 제2 믹싱부로 구성되는 것을 특징으로 하는 컴팩트 SCR 소용돌이 믹서(Swirl compact mixer)를 제공한다.  본 발명의 상기 구성에 의하여 100mm 이내의 구간에서 95% 이상의 배기가스와 환원제 혼합효율을 가지는 컴팩트 SCR 소용돌이 믹서를 제공한다. 이러한 고효율의 컴팩트(Swirl compact ) SCR 믹서를 제공함으로써 컴팩트한 배기가스 저감장치를 제공하는 효과가 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0070eccd724d275b99987716bcc26557833980395f09c0a4a546970cad6cc3840127dbd065e4e497217bb1c6ae2d37cfc20e2aa7e98ca5d3bd</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf70d34fa6a7ae39cbd67d966bbc4ee15cb3cffb8d4d93fd1a1a0326e68d4804b2fd96eb291451c1c611fa2b675cf57f198ce02217fc3335db</ThumbnailPath>
+				<SerialNumber>11</SerialNumber>
+				<InventionName>컴팩트 SCR 소용돌이 믹서</InventionName>
+				<InternationalpatentclassificationNumber>F01N 3/28|F01N 3/20</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20200525</PublicDate>
+				<RegistrationDate>20200519</RegistrationDate>
+				<RegistrationNumber>1021149090000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 테스크</Applicant>
+				<ApplicationDate>20200212</ApplicationDate>
+				<ApplicationNumber>1020200016706</ApplicationNumber>
+				<Abstract>디젤엔진의 배기가스 저감장치 중 블루박스라 불리는 밀집형 배기가스 저감장치에서 환원제로 사용하는 우레아 믹싱부는 100mm 전후의 길이를 가지고 가능하면 그 길이가 짧을수록 상기 블루박스 형태로 만들기 유리한 장점이 있으나, 길이가 짧을수록 상기 배기가스와 환원제로 사용하는 우레아가 혼합되지 않고, 배출될 가능성이 높은 문제가 있다. 본 발명은 상기와 같은 문제를 해결하기 위하여, 배기가스가 확산되어 입력되는 배기가스 확산판; 및 상기 배기가스 확산판 후방과 제1 믹싱부 사이에 배기가스가 지나가는 관로에 우레아를 분사하는 우레아 분사노즐; 및 상기 제1 믹싱부 후방에 1/4 원반 형태의 제2 믹싱부로 구성되며, 상기 제1 믹싱부의 돌출곡면부에 열팽창률이 높은 금속을 위쪽에 열팽창률이 낮은 금속을 하부에 결합하여 만든 우레아 제거부를 구비하는 것을 특징으로 하는 우레아 제거기능을 가지는 컴팩트 SCR 소용돌이 믹서를 제공한다.  본 발명의 상기 구성에 의하여 100mm 이내의 구간에서 95% 이상의 배기가스와 환원제 혼합효율을 가지는 우레아 제거기능을 가지는 컴팩트 SCR 소용돌이 믹서를 제공한다. 이러한 고효율의 우레아 제거기능을 가지는 컴팩트 SCR 소용돌이 믹서를 제공함으로써 컴팩트한 배기가스 저감장치를 제공하는 효과가 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0070eccd724d275b99987716bcc26557833980395f09c0a4a546970cad6cc3840119c82f724787b697fd0a3a28bab68f0bf416a125ed506631</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf70d34fa6a7ae39cbd67d966bbc4ee15cb3cffb8d4d93fd1a1a0326e68d4804b2b9819c8e71e8cc5127be2ab4b64e10e12cd59db32b921013</ThumbnailPath>
+				<SerialNumber>12</SerialNumber>
+				<InventionName>우레아 제거기능을 가지는 컴팩트 SCR 소용돌이 믹서</InventionName>
+				<InternationalpatentclassificationNumber>F01N 3/28|F01N 9/00</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20200525</PublicDate>
+				<RegistrationDate>20200519</RegistrationDate>
+				<RegistrationNumber>1021149050000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 테스크</Applicant>
+				<ApplicationDate>20220107</ApplicationDate>
+				<ApplicationNumber>1020220002446</ApplicationNumber>
+				<Abstract>본 발명은 동력 인출 장치에 관한 것으로, 보다 상세하게는 차량의 동력축의 동력을 그대로 사용하면서, 동력의 인출을 제어하기 위한 동력 인출 장치에 관한 것이다.  또한, 차량의 동력축 상에 배치되는 클러치 몸체와 상기 클러치 몸체에 축 결합되는 제1 기어와 상기 제1 기어에 맞물려 인출축으로 동력을 전달하기 위한 제2 기어와 상기 클러치 몸체를 동력축에 선택적으로 연결시키기 위한 시프팅 레버를 포함하는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9331a95b292e3220ea4201ab3d8ea4380e0d6936b67c3e7acaefe57c6239803c31c586227e6e9b0b38a029ac1648bc9264044fdbbc4ea48ba6</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfef3d89fddf14f06b8efaf9a6f7824f60b5a35b5dcd4edd41948d80ea0a734132e5b707b79267894792982ff90ffa375aed1caa97c3c5076a</ThumbnailPath>
+				<SerialNumber>13</SerialNumber>
+				<InventionName>동력 인출 장치</InventionName>
+				<InternationalpatentclassificationNumber>B60K 17/28|B60K 17/02|B60K 23/02</InternationalpatentclassificationNumber>
+				<OpeningDate>20230714</OpeningDate>
+				<OpeningNumber>1020230106826</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20240416</PublicDate>
+				<RegistrationDate>20240411</RegistrationDate>
+				<RegistrationNumber>1026578790000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 테스크</Applicant>
+				<ApplicationDate>20210916</ApplicationDate>
+				<ApplicationNumber>1020210123842</ApplicationNumber>
+				<Abstract>본 발명은 접이형 보행 보조기에 관한 것으로, 보다 상세하게는 간단하게 손잡이 각도를 조절하거나, 접을 수 있는 구조로 주행 및 보관 편의성을 높인 접이형 보행 보조기에 관한 것이다.  또한, 양측에 평행하게 배치되어 바퀴가 결합되는 메인 프레임과 상기 메인 프레임 사이에 체결되는 지지체와 상기 지지체가 체결된 메인 프레임의 전면 단부에 회동가능하게 결합되는 가동 프레임과 상기 가동 프레임의 상단부에 결합되는 손잡이를 포함하며, 상기 가동 프레임의 회동을 통해 접어서 보관이 가능한 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c935ffb7af845992d86769d837432802ceaaa7f5e5c6ae9d70e2b09d6ab30b8bd5404e5be48c0e3fa1b8c95cdeb0044169d6a2510c6bb39656e</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf6d1815af8c7dab207630c4b4d3deece04024721e489b67539ad5e5dddb515f6f1431cc7b0c7ab09504728a0e6e8333d391d7c83a2d888038</ThumbnailPath>
+				<SerialNumber>14</SerialNumber>
+				<InventionName>접이형 보행 보조기</InventionName>
+				<InternationalpatentclassificationNumber>A61H 3/04|B62B 3/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20230323</OpeningDate>
+				<OpeningNumber>1020230040561</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20231215</PublicDate>
+				<RegistrationDate>20231212</RegistrationDate>
+				<RegistrationNumber>1026142360000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 테스크</Applicant>
+				<ApplicationDate>20210628</ApplicationDate>
+				<ApplicationNumber>1020210083649</ApplicationNumber>
+				<Abstract>본 발명은 재생밸브 액츄에이터에 관한 것으로, 보다 상세하게는 배기 라인을 통해 배출되는 배기가스가 DPF에 체류하면서 고온에 의해 연소되도록 DPF의 후단에서 배기가스의 차단과 배출을 제어하는 재생밸브 액츄에이터에 관한 것이다.  또한, 배기 라인에 연결되는 중공 구조의 몸체와 상기 몸체 내부에 개폐를 위해 수직하게 배치된 회전축을 중심으로 회전가능하게 배치되는 플랩부와 상기 플랩부의 회전을 제어하기 위한 구동부와 상기 구동부를 몸체 외주면으로부터 소정의 거리만큼 이격시켜주기 위한 가이드를 포함하는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c931417374a4a13e6b4f5e61ab3a856d7b802c02fd1196d0ad9bd1b4424bdc06a02978a096a63783df527591b73b1432a593cb47077df09beec</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf4f2b557d74661ab2a217d44e189d34adafe17cd81a3b62015f99684345d41b7ee0d20a318eda544196ff11e2ba22882f45710bda1a477120</ThumbnailPath>
+				<SerialNumber>15</SerialNumber>
+				<InventionName>재생밸브 액츄에이터</InventionName>
+				<InternationalpatentclassificationNumber>F01N 1/16|F16K 31/44|F16K 31/04</InternationalpatentclassificationNumber>
+				<OpeningDate>20230104</OpeningDate>
+				<OpeningNumber>1020230001119</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20240207</PublicDate>
+				<RegistrationDate>20240202</RegistrationDate>
+				<RegistrationNumber>1026345990000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 테스크</Applicant>
+				<ApplicationDate>20220217</ApplicationDate>
+				<ApplicationNumber>1020220020789</ApplicationNumber>
+				<Abstract>본 발명은 도로 낙하물 처리장치에 관한 것으로, 보다 상세하게는 도로 상의 낙하물을 갓길로 유도하여 처리하기 위한 도로 낙하물 처리장치에 관한 것이다.  또한, 차량의 전면 하부에 설치되는 몸체부와 상기 몸체부로부터 양측으로 전개되어 도로 상의 낙하물을 밀어주기 위한 유도부와 상기 유도부를 회동시켜 전개 방향을 전환시켜주기 위한 조절부를 포함하는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c938a9faaabce11cc388f531aa8587e7878cc7838e2b500da74449432bb55ca81cf11b8f476b33fbd90269bc94daa00bffce9b30fa7ed3f5efa</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf3463920a7aeaf27fd613ab849080a2a860af95a9d1709e4b4f16afac6251ced3989df078ba159d16185fe09b59a2e9a3cf2906afaaef58f1</ThumbnailPath>
+				<SerialNumber>16</SerialNumber>
+				<InventionName>도로 낙하물 처리장치</InventionName>
+				<InternationalpatentclassificationNumber>E01H 1/00|B65F 3/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20230824</OpeningDate>
+				<OpeningNumber>1020230123708</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20240223</PublicDate>
+				<RegistrationDate>20240220</RegistrationDate>
+				<RegistrationNumber>1026402860000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 테스크</Applicant>
+				<ApplicationDate>20230216</ApplicationDate>
+				<ApplicationNumber>1020230020400</ApplicationNumber>
+				<Abstract>본 발명은 낙하물 수거가 가능한 도로 낙하물 처리장치에 관한 것으로, 보다 상세하게는 도로 상의 낙하물을 갓길로 유도하거나, 낙하물을 버켓으로 유도한 후 버켓으로 들어올려 처리할 수 있는 낙하물 수거가 가능한 도로 낙하물 처리장치에 관한 것이다.  또한,</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c931417374a4a13e6b4afec107ab97049b52ab8164fc47a762d3265de3ccbb13b5dd0b38e603d096bd863ed9e1e3b74f3e190c93774bed4323f</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf4f2b557d74661ab2909a60cfe61011a859fc1e0e13e31a268b30f4a03565ca9fed5e990e7f1dfb76ce1990e44a36ed972fd5058a0c732c19</ThumbnailPath>
+				<SerialNumber>17</SerialNumber>
+				<InventionName>낙하물 수거가 가능한 도로 낙하물 처리장치</InventionName>
+				<InternationalpatentclassificationNumber>E01H 1/00|B65F 3/00</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20240207</PublicDate>
+				<RegistrationDate>20240202</RegistrationDate>
+				<RegistrationNumber>1026345910000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 테스크</Applicant>
+				<ApplicationDate>20220208</ApplicationDate>
+				<ApplicationNumber>1020220016233</ApplicationNumber>
+				<Abstract>엔진 회전수에 따라 복수의 구동장치를 선택적으로 동작시키는 동력 인출 시스템은, 차량의 동력축의 동력을 그대로 사용하면서 동력의 인출을 제어하는 동력 인출 장치와, 동력 인출 장치의 인출축과 연결되어 인출축의 회전력에 의해 동작하는 제1 구동장치와, 동력 인출 장치의 인출축과 연결되어 인출축의 회전력에 의해 동작하는 제2 구동장치와, 엔진의 분당 회전수를 제어하여 제1 구동장치 및 제2 구동장치가 동시 또는 선택적으로 사용되도록 제어하는 구동제어장치를 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c938d6b9137096c11d448053d66b525bc4dcbb8186e33029abc7aedf0f6a28abd2b52b15c23207dece99955918ae70ddcb159047a0aae63367b</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfb26068de568f664afa1ad80a22489504d9a1745c7e85a61ba2df79c0a1be97e50d9ee03dea0a023e8ff844b16453fa591434ceab393792ca</ThumbnailPath>
+				<SerialNumber>18</SerialNumber>
+				<InventionName>엔진 회전수에 따라 복수의 구동장치를 선택적으로 동작시키는 동력 인출 시스템</InventionName>
+				<InternationalpatentclassificationNumber>B60K 17/28|B60K 17/22|B60K 17/10|B60K 17/12|B60K 17/02|B60K 23/02</InternationalpatentclassificationNumber>
+				<OpeningDate>20230816</OpeningDate>
+				<OpeningNumber>1020230119904</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20240123</PublicDate>
+				<RegistrationDate>20240118</RegistrationDate>
+				<RegistrationNumber>1026282550000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주) 상봉모터스|주식회사 테스크</Applicant>
+				<ApplicationDate>20150429</ApplicationDate>
+				<ApplicationNumber>1020150060503</ApplicationNumber>
+				<Abstract>본 발명에 따른 배기관의 단열 접합 구조는 중공의 배기 파이프(10); 상기 배기 파이프(10)의 외면을 둘러싸는 형태로 배치되는 단열 구조체(20); 상기 단열 구조체(20)의 외주면을 감싸는 형태로 상기 배기 파이프(10) 상에 결합되는 커버 조립체(30); 및 상기 배기 파이프(10)의 일측 또는 양측에 결합되는 중공의 연결구(40,50);를 포함하며, 상기 커버 조립체(30)는, 상부 커버(31), 상기 상부 커버(31)와 결합되는 하부 커버(36), 및 상기 상부 커버(31)와 상기 하부 커버(36)의 결합지점 상에 형성되는 용접부(38)를 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00b81272266d8ca6a5ffe9ed226a8d3b2c823307f104383168074b5b9742427c63e2a361e989425a7c25ab7cd4b256db3a8d9d261aac627705</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf54bede123c42c89e92eb5a5f1ab351f137957f99a7fd261eca8e0c230a3521c7b363e1c1ee4408371d12d1737d682763359c48296fa03915</ThumbnailPath>
+				<SerialNumber>19</SerialNumber>
+				<InventionName>배기관의 단열 접합 구조</InventionName>
+				<InternationalpatentclassificationNumber>F01N 13/14</InternationalpatentclassificationNumber>
+				<OpeningDate>20161108</OpeningDate>
+				<OpeningNumber>1020160128717</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20170404</PublicDate>
+				<RegistrationDate>20170329</RegistrationDate>
+				<RegistrationNumber>1017229570000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 테스크</Applicant>
+				<ApplicationDate>20070403</ApplicationDate>
+				<ApplicationNumber>2020070005437</ApplicationNumber>
+				<Abstract>본 고안은 버스나 트럭 등의 디젤엔진에 사용되는 차량용 매연저감장치의 케이스에 관한 것으로, 더욱 상세하게는 양측이 개방된 중간케이스와 상기 중간케이스의 양측에 각각 조립되는 측면케이스와 상기 중간케이스와 측면케이스의 조립체결된 사이로 유해가스가 누출되는 것을 방지하는 가스켓과 상기 중간케이스와 측면케이스를 고정체결시키는 클램프로 구성되며 내부에는 엔진으로부터의 유해가스를 저감시키는 매연여과장치나 디젤산화촉매가 장착되도록 되어 있는 매연저감장치케이스에 있어서, 상기 중간케이스는 양측끝단에 플랜지부가 각각 외측으로 절곡형성되어 있고 상기 각 측면케이스는 중간케이스와 맞닿는 부분의 끝단에 플랜지부가 외측으로 절곡형성되어 있으며 상기 중간케이스와 측면케이스가 서로 맞닿는 부분의 어느 한쪽 내주면에는 받침고정링이 고정부착되어 있고 다른 한쪽 내주면에는 끼움고정링이 고정부착되어 있어 상기 받침고정링과 끼움고정링이 서로 끼움결합된 상태에서 상기 플랜지부가 클램프에 의해 일체로 고정체결되도록 되어 있어 상기 중간케이스와 각 측면케이스가 서로 용이하게 끼움결합되면서 차량의 진동시에도 결합부분이 벌어지거나 변형되지 않고 안정되게 결합된 상태를 유지하여 내부의 매연이 외부로 누출되지 않도록 되어 있는 것을 특징으로 하는 차량용 분리형 매연저감장치케이스에 관한 것이다.  분리형 매연저감장치케이스, 중간케이스, 측면케이...(이하생략)</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00fe0c40eb4c2559009cae906bbd80f9fb41699d468e9b5bf7a5ca79eaafd98eee</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf8da8ff540e694282823e266176ea556232f27015569990e0f5c25dc3eb596645</ThumbnailPath>
+				<SerialNumber>20</SerialNumber>
+				<InventionName>차량용 분리형 매연저감장치케이스</InventionName>
+				<InternationalpatentclassificationNumber>F01N 13/18|F01N 3/10|F16L 37/088|F16L 23/02|F16B 7/04</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20080522</PublicDate>
+				<RegistrationDate>20080516</RegistrationDate>
+				<RegistrationNumber>2004400630000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 테스크</Applicant>
+				<ApplicationDate>20120920</ApplicationDate>
+				<ApplicationNumber>1020120104337</ApplicationNumber>
+				<Abstract>본 발명은 상면부 가운데부분에 센서설치공이 천공되고 상면부 일측에는 마개에 의해 개폐되는 요소수투입구가 구비되어 있어 내부에 요소수가 저장되는 탱크하우징과, 상기 센서설치공에 끼움설치되고 탱크하우징에 저장된 요소수의 수위, 농도, 온도를 측정하면서 요소수를 요소수분무장치로 공급하는 센서모듈과, 상기 탱크하우징의 상부 좌우양측에 각각 설치되면서 탱크하우징 내부의 가스를 외부로 배출시키는 좌우측 에어벤트부로 구성되며, 상기 좌우측 에어벤트부는 탱크하우징의 내측면 천정부에 전후수평방향으로 고정부착되는 수평파이프가 구비되고 수평파이프의 일측끝단에는 수직하방으로 가스유입파이프가 일체로 절곡형성되며 수평파이프의 타측끝단에는 수직상방으로 가스배출파이프가 일체로 절곡형성되고 상기 가스배출파이프는 탱크하우징의 상면부를 관통하여 상부외측으로 돌출설치되어 있되, 좌측 에어벤트부와 우측 에어벤트부는 좌우 나란히 설치된 상태로 좌측 에어벤트부의 가스유입파이프 및 가스배출파이프와 우측 에어벤트부의 가스유입파이프 및 가스배출파이프가 서로 반대편에 위치되게 설치된 것을 특징으로 하는 디젤차량용 요소수탱크에 관한 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726fe2bf74287a50ced58a11d3bf2003f386667d3c375a0a467330ab327a2a3b59a7e308ee3101e2b9f1763194963b3619a325b1cfc0a133783</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfcd804ec5c387c243f67eb17b218dea568611b8b442c2f07d7eca2167925be3904713f1ffbec503b444a12549f31da415dcc2b61d8e98e7b0</ThumbnailPath>
+				<SerialNumber>21</SerialNumber>
+				<InventionName>디젤차량용 요소수탱크</InventionName>
+				<InternationalpatentclassificationNumber>F01N 3/28|B01D 53/94</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20121127</PublicDate>
+				<RegistrationDate>20121121</RegistrationDate>
+				<RegistrationNumber>1012052320000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 테스크</Applicant>
+				<ApplicationDate>20130716</ApplicationDate>
+				<ApplicationNumber>1020130083701</ApplicationNumber>
+				<Abstract>본 발명은 내부가 빈 케이스형상으로 전방에는 개폐도어가 설치되며 일측면 상부에는 사용된 구 용접팁이 내측으로 투입되는 용접팁투입관이 관통설치되고 타측면 하부에는 신 용접팁이 외측으로 배출되는 용접팁배출관이 관통설치된 본체케이싱과, 상기 본체케이싱의 내부 일측에 설치되며 용접팁투입관의 개구된 하부에 근접되게 위치된 상태로 용접팁투입관을 통해 하방으로 낙하되는 구 용접팁을 감지하는 용접팁감지센서와, 상기 본체케이싱의 내부 타측에 상하방향으로 세워진 상태로 거치되는 장방형의 케이싱으로 내부에는 수평으로 눕혀진 복수개의 신 용접팁이 상하로 적층 수납되며 양측면 하부에는 각각 피스톤관통홀이 천공된 저장케이싱과, 상기 본체케이싱의 내측에 저장케이싱의 일측 피스톤관통홀과 근접되게 설치되고 용접팁감지센서에 의해 구 용접팁의 투입이 감지되면 피스톤이 저장케이싱의 일측 피스톤관통홀을 통해 저장케이싱의 내측 하부에 수납된 신 용접팁을 타측 피스톤관통홀로 밀어내 용접팁배출관으로 배출 공급하는 용접팁공급실린더로 구성된 것을 특징으로 하는 용접팁 교환장치에 관한 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e008ddf3f8a403363f22fa2348e27497afb91c15fd5c33b077d67768fe1c06661b7249c15a107cbe6d614c4f2456e5d77b4f495252951e0c9bc</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf835ee9a8989174bdf50c30ce1c7f780a9cfd530f97173cfd2d8a85ef2c2402bf9139161f934577740d4d7bca8229c87d9f2e0a984f94ea4e</ThumbnailPath>
+				<SerialNumber>22</SerialNumber>
+				<InventionName>용접팁 교환장치</InventionName>
+				<InternationalpatentclassificationNumber>B23K 9/26|B23K 9/32|B23K 9/28|B23K 9/29|B23K 9/12|B23K 11/30</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20131203</PublicDate>
+				<RegistrationDate>20131127</RegistrationDate>
+				<RegistrationNumber>1013362820000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 테스크</Applicant>
+				<ApplicationDate>20120920</ApplicationDate>
+				<ApplicationNumber>1020120104340</ApplicationNumber>
+				<Abstract>본 발명은 상면부 가운데부분에는 센서설치공이 천공되어 있고 상면부 일측에는 마개에 의해 개폐되는 요소수투입구가 구비되어 있어 내부에 일정량의 요소수가 저장되는 탱크하우징과, 상기 센서설치공에 부합되게 끼움설치되는 모듈헤드가 구비되고 상기 모듈헤드의 하부에는 동절기에 동결된 요소수를 해빙시키기 위한 히팅파이프와 요소수를 흡입하여 요소수분무장치로 공급하기 위한 흡입파이프와 플로트에 의해 요소수의 수위를 측정하는 레벨센서와 요소수의 농도 및 온도를 측정하는 퀄리티센서가 하방으로 돌출된 상태로 장착되어 있는 센서모듈과, 상기 탱크하우징의 센서설치공이 천공된 하부쪽 내측 바닥면에 고정설치되면서 내측에는 센서모듈의 히팅파이프와 흡입파이프와 레벨센서와 퀄리티센서의 하부가 부합되게 삽입되어 해빙된 얼음덩어리에 의해 센서모듈이 충돌되는 것을 방지하는 프로텍터로 구성되어 있는 것을 특징으로 하는 신속해빙이 가능한 디젤차량용 요소수탱크에 관한 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726fe2bf74287a50ced58a11d3bf2003f386667d3c375a0a467330ab327a2a3b59ab9ae2615a8ebf21b2ce81eb8229e9c40eced8ad350804261</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfcd804ec5c387c243f67eb17b218dea568611b8b442c2f07d7eca2167925be390dd698e5cc1bc74f82a55b74f3fe401817bf0a40d6178d8c1</ThumbnailPath>
+				<SerialNumber>23</SerialNumber>
+				<InventionName>신속해빙이 가능한 디젤차량용 요소수탱크</InventionName>
+				<InternationalpatentclassificationNumber>F01N 3/28|B01D 53/94</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20121127</PublicDate>
+				<RegistrationDate>20121121</RegistrationDate>
+				<RegistrationNumber>1012052340000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 테스크</Applicant>
+				<ApplicationDate>20180727</ApplicationDate>
+				<ApplicationNumber>1020180087543</ApplicationNumber>
+				<Abstract>본 발명은 디젤차량의 요소수탱크에 장착되는 헤드부몸체가 구비되고 헤드부몸체에는 요소수를 가온시키는 히팅파이프와, 요소수를 흡입하여 요소수분무장치로 공급하는 흡입파이프와, 요소수분무장치로 공급되고 남은 요소수를 요소수탱크로 복귀시키는 리턴파이프와, 플로트에 의해 요소수의 수위를 측정하면서 요소수의 온도를 측정하는 리드파이프가 설치된 유레아센더 어셈블리에 있어서, 상기 헤드부몸체는 히팅파이프의 온수유입관과 온수회수관의 상부가 끼움결합되는 체결공이 수직으로 천공되며 헤드부몸체의 하면부에는 각 체결공과 상하 연통되면서 외주면에 걸림돌기가 돌출형성된 하부장착관이 구비되고, 상기 온수유입관과 온수회수관은 상부에 걸림턱이 돌출형성되며 걸림턱의 상,하부에는 상,하부밀폐링이 끼워진 상태로 하부장착관을 통해 체결공의 내측에 끼움결합되고 하부장착관에는 온수유입관과 온수회수관에 끼워진 체결소켓이 걸림체결되면서 온수유입관과 온수회수관이 헤드부몸체의 하방으로 이탈방지되되, 상기 체결소켓은 링형상으로 내주면에 걸림홈이 형성되어 걸림돌기가 걸림체결되는 소켓몸체가 구비되고 소켓몸체의 내측에는 하부장착관을 통해 체결공의 내측에 삽입되면서 하부밀폐링을 받침지지하는 내부받침관이 구비된 것을 특징으로 하는 소켓체결식 유레아센더 어셈블리에 관한 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00c0edfe95dfd4ef7ce05e34e167a2ef9c8b6fdbf75e8a4e26fccee7156b29168abf716f0c173a97e14f9bca0579430c75322050ed074e3d2f</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfe8493c5f256d63109b5f1a5be8f866c0ef1e89463d78299c1e1e355f25e6e1238ef36e061796957ba5b28d875a68940294b16a2fc23f4340</ThumbnailPath>
+				<SerialNumber>24</SerialNumber>
+				<InventionName>소켓체결식 유레아센더 어셈블리</InventionName>
+				<InternationalpatentclassificationNumber>F01N 3/36|F01N 3/20</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20191128</PublicDate>
+				<RegistrationDate>20191122</RegistrationDate>
+				<RegistrationNumber>1020501650000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 테스크</Applicant>
+				<ApplicationDate>20070612</ApplicationDate>
+				<ApplicationNumber>2020070009609</ApplicationNumber>
+				<Abstract>본 고안은 차량용 매연저감장치의 내부에 장착되어 매연을 정화처리하는 매연저감촉매조립체에 관한 것으로, 더욱 상세하게는 금속재질로 좌우양측이 개방된 원통형의 담체케이스가 구비되어 있고 상기 담체케이스의 내부에는 다수개의 통기홀이 수평방향으로 조밀하게 천공된 세라믹재질의 원통형 촉매담체가 고정설치되어 있으며 상기 담체케이스와 촉매담체의 사이에는 촉매담체의 외측 둘레면을 감싸 유동을 방지하는 내부완충재가 개재되어 있는데, 상기 담체케이스는 좌우양측 끝단에 각각 내측으로 라운드지게 축관되어 내부에 위치된 상기 촉매담체의 좌우양측 끝단 모서리부분을 감싸 유동되지 않게 고정하는 곡면마감부가 일체로 형성되어 있으며 상기 내부완충재는 좌우양측 끝단 외측에 각각 금속망으로 된 링형상의 완충마감링이 위치되어 있되 상기 완충마감링은 통상의 강철솜과 같은 망상구조로 상기 담체케이스의 곡면마감부가 형성되는 부분과 촉매담체의 좌우양측 끝단 모서리부분 외주면 사이에 개재되어 있어 상기 담체케이스의 좌우양측 끝단을 축관가공시 촉매담체의 좌우양측 끝단 모서리부분이 눌려 손상되는 것을 방지하면서 완충작용하도록 되어 있는 것을 특징으로 하는 차량용 매연저감촉매조립체에 관한 것이다.  담체케이스, 내부완충재, 촉매담체, 곡면마감부, 완충마감링</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726389affa275f37367de4295876c73e1ea081cf890421e40148b2ec0b9bba473389f063dbfcf103bc4deab2fbc54a95852a3a826f00b799dd7</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf938da46a4504ca84d309c56f6f980105467eea897ec992749d3d6abf2961a5774e27638d80a0c36813b95cab858166ecec8bfd67f1e8c31f</ThumbnailPath>
+				<SerialNumber>25</SerialNumber>
+				<InventionName>차량용 매연저감촉매조립체</InventionName>
+				<InternationalpatentclassificationNumber>F01N 3/28|F01N 13/18</InternationalpatentclassificationNumber>
+				<OpeningDate>20081217</OpeningDate>
+				<OpeningNumber>2020080006259</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20100115</PublicDate>
+				<RegistrationDate>20100106</RegistrationDate>
+				<RegistrationNumber>2004473150000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 테스크|박종용</Applicant>
+				<ApplicationDate>20070309</ApplicationDate>
+				<ApplicationNumber>2020070003945</ApplicationNumber>
+				<Abstract>본 고안은 선별적탈질촉매(SCR)를 사용한 디젤차량의 배기장치 중 엔진의 배기다기관에 연결장착되어 엔진으로부터의 질소산화물과 같은 매연 및 소음을 저감시키면서 배출하는 머플러에 관한 것으로, 더욱 상세하게는 차량하부에 수평으로 장착되며 긴 원통형으로 된 내층의 외주면 전체에 단열재층과 외층이 차례로 적층된 상태로 둘러싸고 있고 좌우측면 끝단에는 각각 측면판이 끼움결합된 상태로 용접부착되는 외부케이싱과, 상기 외부케이싱의 외주면 좌측에 일측이 직각방향으로 관통 삽입되어 고정부착되며 타측은 배기다기관의 프론트파이프에 연결되고 외부케이싱의 내측에 삽입된 부분의 외주면에는 전체적으로 다수개의 배기공이 천공되어 있는 배기가스유입관과, 서로 일정간격 이격된 상태로 외부케이싱의 내측 가운데 부분에 수직으로 용접부착되는 좌우 고정지지판이 구비되어 있고 상기 좌우 고정지지판에는 크고 작은 직경을 지닌 다수개의 촉매컨버터와 배기가스배출관이 수평방향으로 나란히 관통 삽입되어 있는 배기가스저감배출부로 구성되어 있되, 상기 다수개의 촉매컨버터는 좌우양측이 개방된 원통형의 하우징 내측에 다수개의 관통홀이 조밀하게 천공되어 있는 SCR촉매로 된 촉매부재가 삽입고정되어 있어 관통홀을 통과하는 배기가스 중 질소산화물을 상기 프론트파이프에 연결장착된 요소용액분무장치로부터 공급되는 산화제인 요소용액으로 환원시켜 우측 고정지지판과 우...(이하생략)</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00fe0c40eb4c25590039a1740de4f47d5142a4c6a0763fc9e39695d82223fd4d41</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf8da8ff540e6942824207afbe3532ed08f238245c0512b18ad64914aafde859ba</ThumbnailPath>
+				<SerialNumber>26</SerialNumber>
+				<InventionName>선별적탈질촉매가 구비된 디젤차량용 매연저감머플러</InventionName>
+				<InternationalpatentclassificationNumber>F01N 3/20|F01N 3/24</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20080528</PublicDate>
+				<RegistrationDate>20080516</RegistrationDate>
+				<RegistrationNumber>2004400620000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 테스크</Applicant>
+				<ApplicationDate>20080222</ApplicationDate>
+				<ApplicationNumber>2020080002352</ApplicationNumber>
+				<Abstract>본 고안은 엔진으로부터의 유해가스 및 소음을 저감시키면서 외부로 배출하는 머플러에 관한 것으로, 더욱 상세하게는 차량의 하부에 수평으로 장착되는 긴 원통형의 외부케이싱이 구비되어 있고 상기 외부케이싱의 내부에는 촉매컨버터가 장착되어 있어 배기가스유입관으로부터 유입된 엔진의 유해가스를 정화하여 배기가스배출관을 통해 외부로 배출시키는 차량용 매연저감머플러에 있어서, 상기 외부케이싱은 양측끝단에 각각 배기가스의 배기압에 의한 충격을 완화시켜 진동 및 배기소음을 감소시키는 측면판조립체가 수직으로 세워져 끼움결합된 상태로 용접부착되어 있는데, 상기 측면판조립체는 각각 외측으로 볼록하게 라운드져 있으며 내측면판과 보강프레임과 흡음부재와 외측면판이 내측에서 외측으로 차례로 밀착되게 적층되어 있되, 상기 내측면판은 작은 직경으로 된 다수개의 통기공이 전체면에 고르게 천공되어 있으며 상기 보강프레임은 다수개의 프레임이 방사상으로 용접부착된 상태로 내측면판과 외측면판 사이에 위치되어 전체적인 강도를 보강하도록 되어 있고 상기 흡음부재는 흡음재질로 되어 있으며 방사상의 보강프레임 사이에 각각 충진된 상태로 내측면판의 통기공을 통해 외부케이싱의 내부로 유입된 배기가스의 배기압 및 배기소음을 흡수 저감시키도록 되어 있으며 상기 외측면판은 방사상의 보강프레임과 동일한 형상의 용접공이 점선형태로 천공되어 있어 내측의 보강프레...(이하생략)</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00d72fe698bc0b55cab55e52e2218900b7ef61612f8727286059ca3295e5ff353e</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfa6da8235d1efe987d9dc98c47c10586b18e9f58f89fd0e07c5266735373cb026</ThumbnailPath>
+				<SerialNumber>27</SerialNumber>
+				<InventionName>흡음 및 강도가 보강된 차량용 매연저감머플러</InventionName>
+				<InternationalpatentclassificationNumber>F01N 1/04|F01N 13/08</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20090514</PublicDate>
+				<RegistrationDate>20090430</RegistrationDate>
+				<RegistrationNumber>2004444260000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 테스크|박종용</Applicant>
+				<ApplicationDate>20070309</ApplicationDate>
+				<ApplicationNumber>2020070003944</ApplicationNumber>
+				<Abstract>본 고안은 선별적탈질촉매(SCR)를 사용한 디젤차량의 배기장치 중 엔진의 배기다기관에 연결장착되어 엔진으로부터의 질소산화물 및 소음을 저감시키면서 배출하는 머플러에 관한 것으로, 더욱 상세하게는 차량하부에 수평으로 장착되며 긴 원통형으로 된 내층의 외주면 전체에 단열재층과 외층이 차례로 적층된 상태로 둘러싸고 있고 좌우측면 끝단에는 각각 측면판이 끼움결합된 상태로 용접부착되는 외부케이싱과, 상기 외부케이싱의 외주면 좌측에 일측이 직각방향으로 관통 삽입되어 고정부착되며 타측은 배기다기관의 프론트파이프에 연결되고 외부케이싱의 내측에 삽입된 부분의 외주면에는 전체적으로 다수개의 배기공이 천공되어 있는 배기가스유입관과, 좌우양측이 개방된 원통형으로 상기 외부케이싱의 내측 가운데부분에 수평으로 용접부착되는 하우징이 구비되어 있고 상기 하우징의 내부에는 다수개의 관통홀이 조밀하게 천공되어 있어 상기 프론트파이프에 연결장착된 요소용액분무장치로부터 공급되는 요소용액을 산화제로 이용하여 질소산화물을 환원시키는 SCR촉매로 된 촉매부재가 삽입고정되어 있는 촉매컨버터와, 상기 우측 측면판의 가운데 부분에 수평방향으로 관통 삽입된 배기가스배출관이 구비되어 있고 상기 배기가스배출관은 외부케이싱의 내측에 위치된 가운데부분 외주면에 다수개의 순환배출공이 천공되어 있으며 좌측끝단 외주면에는 다수개의 통기홀이 천공된 차단판이 직...(이하생략)</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00fe0c40eb4c25590039a1740de4f47d5142a4c6a0763fc9e3d23579627516f80b</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf8da8ff540e6942824207afbe3532ed08f238245c0512b18a52f768bb5ff26c5d</ThumbnailPath>
+				<SerialNumber>28</SerialNumber>
+				<InventionName>선별적탈질촉매가 구비된 디젤차량용 머플러</InventionName>
+				<InternationalpatentclassificationNumber>F01N 3/20|F01N 3/28|F01N 1/08|F01N 3/035</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20080228</PublicDate>
+				<RegistrationDate>20080218</RegistrationDate>
+				<RegistrationNumber>2004386160000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 테스크|박종용</Applicant>
+				<ApplicationDate>20070309</ApplicationDate>
+				<ApplicationNumber>2020070003940</ApplicationNumber>
+				<Abstract>본 고안은 천연가스차량의 배기장치 중 엔진의 배기다기관에 연결장착되어 엔진으로부터의 유해가스 및 소음을 저감시키면서 배출하는 머플러에 관한 것으로, 더욱 상세하게는 차량의 하부에 수평으로 장착되며 좌우측면 끝단에 각각 측면판이 끼움결합된 상태로 용접부착된 긴 원통형의 외부케이싱과, 상기 외부케이싱의 외주면 좌측에 직각방향으로 관통 삽입되고 일측끝단에는 라운드진 만곡면이 형성되어 있어 외부케이싱의 내주면에 밀착되면서 상기 만곡면과 밀착된 부분의 외부케이싱에 천공된 만곡면용접홀을 통해 일측끝단을 외측에서 간단하게 용접부착하도록 되어 있으며 외부케이싱의 내측에 삽입된 외주면에는 전체적으로 다수개의 배기공이 천공되어 있는 배기가스유입관과, 좌우양측이 개방된 원통형으로 상기 외부케이싱의 내측 가운데부분에 수평으로 용접부착되는 하우징이 구비되어 있고 상기 하우징의 내부에는 다수개의 매연관통홀이 조밀하게 천공되어 있어 유입된 유해가스를 산화 환원시켜 제거하는 원기둥형의 촉매부재가 삽입고정된 촉매컨버터와, 상기 우측 측면판의 가운데 부분에 수평방향으로 관통 삽입된 배기가스배출관이 구비되어 있고 상기 배기가스배출관은 외부케이싱의 내측에 위치된 좌측끝단 외주면에 다수개의 통기홀이 천공된 차단판이 직각으로 세워진 상태로 끼움체결되어 있는 배기가스배출부로 구성된 것을 특징으로 하는 천연가스차량용 매연저감머플러에 관한 것...(이하생략)</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00fe0c40eb4c25590039a1740de4f47d5142a4c6a0763fc9e3ff6c4fc3e99e52fc</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf8da8ff540e6942824207afbe3532ed08f238245c0512b18aed3f918af33639d6</ThumbnailPath>
+				<SerialNumber>29</SerialNumber>
+				<InventionName>천연가스차량용 매연저감머플러</InventionName>
+				<InternationalpatentclassificationNumber>F01N 3/24|F01N 13/18</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20080228</PublicDate>
+				<RegistrationDate>20080218</RegistrationDate>
+				<RegistrationNumber>2004386150000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 테스크</Applicant>
+				<ApplicationDate>20061206</ApplicationDate>
+				<ApplicationNumber>2020060031074</ApplicationNumber>
+				<Abstract>본 고안은 차량용 매연저감기 고정장치에 관한 것으로, 상세하게는 차체프레임에 고정설치되는 브라켓과 상기 브라켓에 체결고정되는 행거와 상기 브라켓 및 행거에 체결되는 완충부재와 상기 행거에 결착되어 매연저감기를 고정시키는 클램프로 구성되며, 상기 브라켓은 차체에 볼트체결되는 지지부재와 상기 지지부재의 상단에 일측 끝단이 용접부착된 수평부재로 되어 있되 상기 지지부재는 높이조절홀이 다수개 형성된 수직판과 상기 수직판의 좌우 양측 끝단에 일체로 형성된 측방절곡부로 되어 있고 상기 수평부재는 장공형의 길이조절홀이 형성된 수평판과 상기 수평판의 좌우 양측 끝단에 일체로 형성된 하방절곡부로 되어 있으며, 상기 행거는 단면이 &#039;ㄱ&#039;자 형상인 고정판과 상기 고정판의 하단에 좌측 끝단이 용접부착된 호형상의 걸이판으로 되어 있되 상기 고정판은 상판에 고정판홀이 천공되어 있고 상기 걸이판은 우측 끝단에 클램프가 이탈되지 않도록 하는 걸림턱이 형성되어 있으며, 상기 완충부재는 고무재질로 된 링형상으로 되어 있되 고정판의 상판이 수평부재의 상면부에 위치된 상태에서 워셔와 함께 고정판의 상하에 각각 개재되고 상기 고정판홀과 길이조절홀을 통해 볼트체결되어 상하 진동을 흡수하도록 되어 있으며 상기 행거의 걸이판에 걸려지는 클램프에 의해 매연저감기가 단단하게 고정되도록 되어 있는 것을 특징으로 하는 차량용 매연저감기 고정장치에 ...(이하생략)</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e005befd6bfb2d370cc53af8c69da8da066e7e4a80084b517d6c8d8bf33ebfb6177</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf6665adad26e1aa05fe5cecbd8b9428f70ac8b596ab99908d09248e8c70722b97</ThumbnailPath>
+				<SerialNumber>30</SerialNumber>
+				<InventionName>차량용 매연저감기 고정장치</InventionName>
+				<InternationalpatentclassificationNumber>F01N 13/18|F16B 7/04|B60K 13/04|B62D 25/20</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20080228</PublicDate>
+				<RegistrationDate>20080218</RegistrationDate>
+				<RegistrationNumber>2004386140000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 테스크</Applicant>
+				<ApplicationDate>20061109</ApplicationDate>
+				<ApplicationNumber>2020060029320</ApplicationNumber>
+				<Abstract>본 고안은 차량의 배기장치 중 엔진의 배기다기관과 배기가스저감장치 사이에 연결되는 프론트 파이프에 관한 것으로, 엔진의 배기다기관에 직접 연결되는 선단파이프부재와 플렉시블조인트부와 배기가스저감장치에 연결되는 종단파이프부재가 일체로 연통되어 있으며, 상기 선단파이프부재는 일측끝단에 선단플랜지가 용접부착되어 있되 상기 선단플랜지는 가운데 부분에 천공된 체결공 내측에 선단파이프부재가 끼워진 상태에서 선단플랜지의 내주면에 선단파이프부재의 일측끝단이 일체로 용접되어 내면용접부를 형성하도록 되어 있고 상기 선단플랜지는 종단파이프부재의 종단플랜지보다 그 두께가 두껍게 형성되어 엔진으로부터의 강한 진동에도 내면용접부가 손상되지 않고 안정적으로 연결 부착된 상태를 유지하도록 되어 있으며, 상기 플렉시블조인트부는 내측에 위치된 벨로즈의 내주면 전체를 금속망재질의 원통형 소음방지망이 둘러싸고 있어 플렉시블조인트부 내측을 통과하는 배기가스에 의한 소음 및 진동의 감소와 외부로의 열발산을 차단하도록 되어 있는 것을 특징으로 하는 차량용 프론트 파이프에 관한 것이다.  선단파이프부재, 플렉시블조인트부, 종단파이프부재, 내면용접부, 소음방지망</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e005befd6bfb2d370cc0095f42ed6557d63bafd79203726a0fd4ffb6f7e5d084657</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf6665adad26e1aa05f2ed1d7bfdc49d1bbc25b5a33b0fd3cd539c131b253ba1e5</ThumbnailPath>
+				<SerialNumber>31</SerialNumber>
+				<InventionName>차량용 프론트 파이프</InventionName>
+				<InternationalpatentclassificationNumber>F01N 13/18</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20071128</PublicDate>
+				<RegistrationDate>20071121</RegistrationDate>
+				<RegistrationNumber>2004373710000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주) 상봉모터스|주식회사 테스크</Applicant>
+				<ApplicationDate>20140317</ApplicationDate>
+				<ApplicationNumber>1020140031299</ApplicationNumber>
+				<Abstract>배기가스 후처리장치에 대한 발명이 개시된다. 본 발명에 따른 배기가스 후처리장치는: 하우징과, 엔진으로부터 배출된 배기가스가 하우징으로 공급되는 흡기부와, 하우징에 설치되고, 흡기부로부터 공급되는 배기가스가 하우징 내부로 고르게 확산되게 하는 배플과, 하우징의 내부에 설치되고, 배플을 통과한 배기가스의 유해물질이 흡착되는 필터부와, 필터부를 통과한 배기가스가 하우징의 외부로 배출되는 배기부를 포함하는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0077c56ad2bae646ff303df965ac9c8bb9c9921706507fb479fbea756ab369743d102147f25f784ef2870082f8b9725475ca8fbc134285d348</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfd1c13103c2b3027d64a272d0d089c4f3cb6bf0cc8c0093731a7ef2442fef96485526f3193f48967316928570b162ee1066bce6541cc33365</ThumbnailPath>
+				<SerialNumber>32</SerialNumber>
+				<InventionName>배기가스 후처리장치</InventionName>
+				<InternationalpatentclassificationNumber>F01N 3/035|F01N 3/022|F01N 3/28|F01N 11/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20150925</OpeningDate>
+				<OpeningNumber>1020150108273</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>취하</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주) 상봉모터스|주식회사 테스크</Applicant>
+				<ApplicationDate>20150429</ApplicationDate>
+				<ApplicationNumber>1020150060504</ApplicationNumber>
+				<Abstract>본 발명에 따른 배기관 상에 결합되는 단열 커버의 소음 방지 구조에서, 상기 단열 커버는 중공의 상기 배기관 및 상기 배기관을 둘러싸는 형태로 배치되는 단열 구조체를 덮는 상태로 결합하며, 상기 단열 커버(10) 상에는 격자 형상으로 천공된 엠보싱 돌기(110)가 형성된다.  본 발명인 배기관 상에 결합되는 단열 커버의 소음 방지 구조는 컨버터 및 머플러 등 파이프 형태의 가스 배기관을 둘러싸도록 단열재를 부가한 상태에서 상기 단열재를 덮는 상태로 스테인레스 박판인 단열 커버를 결합하고, 상기 단열 커버 상에 구멍이 천공된 엠보싱을 형성하는 과정을 통해 소음 발생을 방지한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e002354274c177d8ba57173570b3643da05d142a91f0b31339f10cd9be046713006876f546fbcf7917ac0ca017297c1511b65fd64a1eee3fe76</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfe9bf88b9aa468513fb4cea73df28dee9dd9ff11b4b198479a13c3244aadc55cd80adf91db4fb13b88a776e163866b14f50ee731eab9c01c0</ThumbnailPath>
+				<SerialNumber>33</SerialNumber>
+				<InventionName>배기관 상에 결합되는 단열 커버의 소음 방지 구조</InventionName>
+				<InternationalpatentclassificationNumber>F01N 13/14|F01N 13/18</InternationalpatentclassificationNumber>
+				<OpeningDate>20161108</OpeningDate>
+				<OpeningNumber>1020160128718</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>(주) 상봉모터스|주식회사 테스크</Applicant>
+				<ApplicationDate>20140317</ApplicationDate>
+				<ApplicationNumber>1020140031300</ApplicationNumber>
+				<Abstract>배기가스 후처리장치에 대한 발명이 개시된다. 본 발명에 따른 배기가스 후처리장치는: 하우징과, 엔진으로부터 배출된 배기가스가 하우징으로 공급되는 흡기부와, 하우징의 내부에 설치되고, 배기가스의 유해물질이 흡착되는 여과부와, 여과부를 통과한 배기가스가 하우징의 외부로 배출되는 배기부를 포함하고, 여과부는, 배기가스가 유입되는 인렛과, 인렛을 통하여 유입되는 배기가스를 여과하는 다공성 물질로 이루어지고, 단면의 형상이 사각형 모양인 다수개의 통로가 상하좌우로 적층되는 필터부와, 상기 필터부를 통하여 여과되는 배기가스가 배출되는 아웃렛을 포함하는 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0077c56ad2bae646ff303df965ac9c8bb9c9921706507fb479f3f2575d07f3990cf51d82ab8532e457ce1ef67098e6c687c59858dea4394e52</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfd1c13103c2b3027d64a272d0d089c4f3cb6bf0cc8c00937378ce40b9f2f28c736b317c720fc4c82cf6e4022bc7a0cbd689378c0c0e9bfc7d</ThumbnailPath>
+				<SerialNumber>34</SerialNumber>
+				<InventionName>배기가스 후처리장치</InventionName>
+				<InternationalpatentclassificationNumber>F01N 3/022|F01N 3/035|B01D 37/02</InternationalpatentclassificationNumber>
+				<OpeningDate>20150925</OpeningDate>
+				<OpeningNumber>1020150108274</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>취하</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 테스크</Applicant>
+				<ApplicationDate>20081120</ApplicationDate>
+				<ApplicationNumber>1020080115505</ApplicationNumber>
+				<Abstract>본 발명은 차량용 매연저감장치의 내부에 장착되어 매연을 정화처리하는 매연저감촉매조립체의 제조시 상기 매연저감촉매조립체의 중심부에 위치되는 촉매담체의 외측 둘레면을 금속판으로 된 아웃플레이트로 균일하고 견고하게 랩핑하는 장치에 관한 것으로, 더욱 상세하게는 하부몸체와 상기 하부몸체의 후방 상면부에 수직상방으로 일체로 형성된 후방몸체와 상기 후방몸체의 상면부에 수평으로 고정부착된 상태로 상기 하부몸체의 상면부와 일정간격 이격되게 설치된 상부지지판으로 되어 있는 베이스몸체부와, 상기 상부지지판의 전방 상면부에 좌우로 일정간격 이격되어 수직하방으로 고정설치된 한쌍의 당김실린더와 상기 한쌍의 당김실린더의 실린더축 끝단에 수평방향으로 연결설치되어 상기 한쌍의 당김실린더의 작동에 의해 승강작동되는 수평대와 상기 수평대의 가운데부분에 끼움체결된 한쌍의 상부고정구로 이루어진 상부당김부와, 탄성복원력이 우수한 금속판으로 가운데부분에 원형의 공간부가 형성되도록 소정의 고리형상으로 말려있으며 상부는 상기 상부당김부에 설치된 한쌍의 상부고정구에 착탈식으로 조립설치되고 하부는 상기 하부몸체의 전방 상면부에 고정설치된 하부고정구에 착탈식으로 조립설치되는 랩핑부재로 구성되어 있는 것을 특징으로 하는 차량용 매연저감촉매조립체의 담체랩핑장치에 관한 것이다.  담체랩핑장치, 매연저감촉매조립체, 베이스몸체부, 상부당김부, 랩핑부재</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf7266e28365cd47166c4995ab9d39365ac023b0b106e198d71aaa7b6abda726d95a91a9bafa648f2289deea0b8424d4548e6148b7f78763f67c8</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf28c514807a8ee8bfc4ff7a48c0b1f14a71c60b0f1098e25c17eb6dafadf64873777c435e522553d88b8cf7d60ebae019826b5666c3bafe49</ThumbnailPath>
+				<SerialNumber>35</SerialNumber>
+				<InventionName>차량용 매연저감촉매조립체의 담체랩핑장치</InventionName>
+				<InternationalpatentclassificationNumber>F01N 3/28|B01D 46/42</InternationalpatentclassificationNumber>
+				<OpeningDate>20100528</OpeningDate>
+				<OpeningNumber>1020100056620</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20101207</PublicDate>
+				<RegistrationDate>20101130</RegistrationDate>
+				<RegistrationNumber>1009985070000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 테스크</Applicant>
+				<ApplicationDate>20060912</ApplicationDate>
+				<ApplicationNumber>1020060088252</ApplicationNumber>
+				<Abstract>본 발명은 금속재 원통형 구조물에 플랜지를 형성하는 장치에 관한 것으로, 더욱 상세하게는 수직으로 설치된 베이스본체와; 상기 베이스본체의 정면 중간부분에 구비되며 구동모터에 의해 회전구동되는 회전축이 수평방향으로 돌출설치되어 있고 상기 회전축은 플랜지형성휠과 구조물고정휠이 간격조절가능하도록 축설된 상태에서 플랜지형성휠과 구조물고정휠 사이에 원통형 구조물이 거치되어 회전되도록 하는 회전구동부와; 상기 베이스본체의 정면 상부에 구비되며 가압롤러작동실린더에 의해 상하이동되는 가압롤러가 플랜지형성휠에 거치된 원통형 구조물의 일측끝단 상면과 구름접촉된 상태에서 수직하방으로 가압하여 회전되는 원통형 구조물의 일측끝단 외주면에 플랜지가 1차 가공되도록 하는 가압롤러부와; 상기 가압롤러부와 일정간격 이격설치되며 가이드롤러작동실린더에 의해 상하이동되는 가이드롤러가 구조물고정휠에 거치된 원통형 구조물의 타측끝단 상면에 구름접촉되어 가이드하는 가이드롤러부; 상기 베이스본체의 좌측 중간부분에 구비되며 전면마감롤러작동실린더에 의해 위치조절되는 전면마감롤러가 1차 가공된 플랜지의 전면부에 맞닿아 구름지지하는 플랜지전면마감부와, 후면마감롤러작동실린더에 의해 전후이동되는 후면마감롤러가 전면마감롤러에 의해 구름지지되고 있는 플랜지의 후면부에 구름접촉된 상태에서 전면마감롤러쪽으로 지속적으로 가압하여 1차 가공된 플랜지를 직각으로 ...(이하생략)</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9cfe49d03e6a3dce0135c86891642e8ce26a1ad0417c308520d9b53795e0e81fe7</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe46c22163f668395d45402a880fcf8878cc20299b2c36a44bf2bf2a07bb92f5f93</ThumbnailPath>
+				<SerialNumber>36</SerialNumber>
+				<InventionName>원통형 구조물의 플랜지 형성장치 및 그 사용방법</InventionName>
+				<InternationalpatentclassificationNumber>B21D 19/04|B21D 19/08|B21D 41/00</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20080222</PublicDate>
+				<RegistrationDate>20080218</RegistrationDate>
+				<RegistrationNumber>1008068190000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 테스크</Applicant>
+				<ApplicationDate>20070612</ApplicationDate>
+				<ApplicationNumber>1020070057023</ApplicationNumber>
+				<Abstract>본 발명은 차량용 촉매담체의 소제장치에 관한 것으로, 더욱 상세하게는 촉매소제실과 상기 촉매소제실의 좌측면에 일체로 인접설치된 이물질회수실로 구성되어 있되, 상기 촉매소제실은 내측 중간바닥판의 상면부 가운데부분에 수평방향으로 나란히 이격설치된 상태로 구동모터에 의해 벨트구동되는 한쌍의 회전축이 구비되어 있어 상기 한쌍의 회전축 사이에 놓여지는 촉매담체를 회전시키는 회전구동부와, 상기 중간바닥판의 상면부 우측후방에 고정설치된 수직프레임이 구비되어 있고 상기 수직프레임의 상부에는 구동실린더에 의해 일정각도로 정역회전되는 구동축이 관통설치되어 있어 상기 구동축에 직각방향으로 고정부착된 에어토출관이 상하 일정각도로 회전되면서 촉매담체의 통기홀에 고압의 압축공기를 분사하여 이물질을 분리시키는 에어토출부와, 촉매소제실의 좌측면판에 이물질회수실의 내측으로 관통설치된 연통관이 구비되어 있고 상기 연통관의 내측에는 좌우이동가능한 유입관이 삽입되어 있어 상기 유입관의 유입호퍼가 촉매담체의 좌측면에 근접위치된 상태로 분리된 이물질을 이물질회수실로 이송시키는 이물질이송부로 되어 있으며, 상기 이물질회수실은 후면판의 내측면에 지속적인 흡입작용으로 이물질이 유입관을 통해 내측으로 유입되도록 하는 환풍팬이 설치되어 있고 회수실중간바닥판에는 이물질유입공이 천공되어 있어 유입된 이물질이 상기 이물질유입공을 통해 하부에 형성된 이...(이하생략)</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9cf44e6e9608087f40125541d89932bcee306241afc822b9c9c46189f9b6fe98ad</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe484b73ac8e410bb22a4378c20ce65ae75240fd3a17e5564c35273f8faa6f72cd5</ThumbnailPath>
+				<SerialNumber>37</SerialNumber>
+				<InventionName>차량용 촉매담체 소제장치 및 그 사용방법</InventionName>
+				<InternationalpatentclassificationNumber>F01N 3/20|B01D 46/04</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20081128</PublicDate>
+				<RegistrationDate>20081121</RegistrationDate>
+				<RegistrationNumber>1008709420000</RegistrationNumber>
+				<RegistrationStatus>소멸</RegistrationStatus>
+			</PatentUtilityInfo>
+			<TotalSearchCount>37</TotalSearchCount>
+			<SearchStartNumber>1</SearchStartNumber>
+		</items>
+	</body>
+</response>
