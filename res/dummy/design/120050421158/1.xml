@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<response>
+	<header>
+		<resultCode></resultCode>
+		<resultMsg></resultMsg>
+	</header>
+	<body>
+		<items>
+			<totalCount>2</totalCount>
+			<DesignInfo>
+				<number>1</number>
+				<applicationNumber>3020180059066</applicationNumber>
+				<applicationDate>20181214</applicationDate>
+				<appReferenceNumber></appReferenceNumber>
+				<publicationNumber></publicationNumber>
+				<publicationDate>20190821</publicationDate>
+				<registrationDate>20190814</registrationDate>
+				<registrationNumber>3010197730000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber></regReferenceNumber>
+				<priorityNumber></priorityNumber>
+				<priorityDate></priorityDate>
+				<internationalRegisterNumber></internationalRegisterNumber>
+				<internationalRegisterDate></internationalRegisterDate>
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>주식회사 이노디스</applicantName>
+				<agentName>변종진</agentName>
+				<fullText>Y</fullText>
+				<inventorName>박해신</inventorName>
+				<articleName>관 피팅용 조인트</articleName>
+				<openNumber></openNumber>
+				<openDate></openDate>
+				<designMainClassification>M24190</designMainClassification>
+				<dsShpClssCd>M24190</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb042deb9fad2a5ba327416e6b9c0927e5daf8a84844e900778a7060b7998c828a39c28d8ff463096b4712eaaaa196152ed</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa5290b0478f9de83f12a6858f2e9ba27e52c55c529d13b9c3511a52a0cd524b0ffc10b89080f59eb2202749179e787ffcf</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>2</number>
+				<applicationNumber>3020170036366</applicationNumber>
+				<applicationDate>20170807</applicationDate>
+				<appReferenceNumber></appReferenceNumber>
+				<publicationNumber></publicationNumber>
+				<publicationDate>20180514</publicationDate>
+				<registrationDate>20180508</registrationDate>
+				<registrationNumber>3009561410000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber></regReferenceNumber>
+				<priorityNumber></priorityNumber>
+				<priorityDate></priorityDate>
+				<internationalRegisterNumber></internationalRegisterNumber>
+				<internationalRegisterDate></internationalRegisterDate>
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>주식회사 이노디스</applicantName>
+				<agentName>변종진</agentName>
+				<fullText>Y</fullText>
+				<inventorName>박해신</inventorName>
+				<articleName>튜브 피팅용 조인트</articleName>
+				<openNumber></openNumber>
+				<openDate></openDate>
+				<designMainClassification>M24190</designMainClassification>
+				<dsShpClssCd>M24190</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb01d677707200751b87fb4e16a4093e78c22b2abd9c83409a53811a4bdbaaa52b94585d42b3b548f9ddbb3739fc86c03b4</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa5d3024cef8d5d03667c0e4f871a323b1c76b262240dfb5a4d1d34c9cb2771641d2a688cc7c0bcabaf3bc3efa03b444ef7</imagePathLarge>
+			</DesignInfo>
+		</items>
+	</body>
+</response>

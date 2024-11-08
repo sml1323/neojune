@@ -18,7 +18,7 @@ async def main(table_name):
         isuniv = table_name == 'TB24_210' # table name에 따라 True, False 리턴
         _applicant_numbers = mysql.get_all_app_no_and_applicant_id(table_name)
         # p3: 120080091393,  p23: 120070509242
-        # _applicant_numbers = [[120070509242, 10],[120080091393, 20]]
+        _applicant_numbers = [[120070509242, 10],[120080091393, 20]]
 
         kipris_xml_dataGenerator = KiprisXmlDataGenerator()
         

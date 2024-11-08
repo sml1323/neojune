@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<response>
+	<header>
+		<resultCode></resultCode>
+		<resultMsg></resultMsg>
+	</header>
+	<body>
+		<items>
+			<TotalSearchCount>3</TotalSearchCount>
+			<TradeMarkInfo>
+				<SerialNumber>1</SerialNumber>
+				<ApplicationNumber>4020210169869</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20210817</ApplicationDate>
+				<PublicNumber>4020220170456</PublicNumber>
+				<PublicDate>20221212</PublicDate>
+				<RegistrationPublicNumber>4020230051680</RegistrationPublicNumber>
+				<RegistrationPublicDate>20230413</RegistrationPublicDate>
+				<RegistrationNumber>4020053320000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20230411</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>09</GoodClassificationCode>
+				<ViennaCode>260323|270508|270914</ViennaCode>
+				<ApplicantName>주식회사 이노디스</ApplicantName>
+				<AgentName>경일호</AgentName>
+				<RegistrationRightholderName>주식회사 이노디스 innodis co,ltd</RegistrationRightholderName>
+				<Title>일낙적사</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ae7b1568aff8c76705232cfb9ca0f4fc26cf62e9378cfc0ac47e5051cc6859a2176f6c1cd9206e4a</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2940f80548c1358af3b37e5dd5e3315c42ec47a189bd7ee52739325a89bfeca2dbbec4bf7a571798b2</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>2</SerialNumber>
+				<ApplicationNumber>4020200157131</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20200904</ApplicationDate>
+				<PublicNumber>4020210095505</PublicNumber>
+				<PublicDate>20210723</PublicDate>
+				<RegistrationPublicNumber>4020210114074</RegistrationPublicNumber>
+				<RegistrationPublicDate>20211028</RegistrationPublicDate>
+				<RegistrationNumber>4017914170000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20211025</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>09</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>주식회사 이노디스</ApplicantName>
+				<AgentName>박정규</AgentName>
+				<RegistrationRightholderName>주식회사 이노디스 innodis co,ltd</RegistrationRightholderName>
+				<Title>Innodis Megalock</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344f20ce8245b099a8a7b9bbf3aac5b62584c68bec64c770afcbace64bce48cdb47d9a8b51c74033d76</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29df616987ef7331e90ed46abfe1dd948cebdacc029e8fd7a6f17a26c4a72ae13ec245a6dc41f14ad9</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>3</SerialNumber>
+				<ApplicationNumber>4020200202228</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20201111</ApplicationDate>
+				<PublicNumber>4020210142025</PublicNumber>
+				<PublicDate>20211108</PublicDate>
+				<RegistrationPublicNumber>4020220016232</RegistrationPublicNumber>
+				<RegistrationPublicDate>20220215</RegistrationPublicDate>
+				<RegistrationNumber>4018320940000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20220211</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>09</GoodClassificationCode>
+				<ViennaCode>260323|270508|270914</ViennaCode>
+				<ApplicantName>주식회사 이노디스</ApplicantName>
+				<AgentName>변종진</AgentName>
+				<RegistrationRightholderName>주식회사 이노디스</RegistrationRightholderName>
+				<Title>INNODIS</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344f20ce8245b099a8a40091ada5636303208219f48944b1dc3504e27254e8f7683f69a31f5b6a33704</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29df616987ef7331e9d7b6a90e284560938999a352a06facef5218fd6462f4a47a8696150068067e49</ThumbnailPath>
+			</TradeMarkInfo>
+		</items>
+	</body>
+</response>

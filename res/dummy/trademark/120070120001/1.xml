@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<response>
+	<header>
+		<resultCode></resultCode>
+		<resultMsg></resultMsg>
+	</header>
+	<body>
+		<items>
+			<TotalSearchCount>15</TotalSearchCount>
+			<TradeMarkInfo>
+				<SerialNumber>1</SerialNumber>
+				<ApplicationNumber>4020210221422</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20211101</ApplicationDate>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>거절</ApplicationStatus>
+				<GoodClassificationCode>25</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>주식회사 에이치비티</ApplicantName>
+				<AgentName>양정근</AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title>아치케어</Title>
+				<FulltextExistFlag>N</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ae7b1568aff8c7678145f5304460a54efb5a2978d41aa87d039b671912fec34c43dd54e3ad43405b</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2940f80548c1358af33bab2df1efbc03a1d8f44adfbdbc7fb5b1a61d7324915a06ca72912afbe8053d</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>2</SerialNumber>
+				<ApplicationNumber>4020160104262</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20161125</ApplicationDate>
+				<PublicNumber>4020170030488</PublicNumber>
+				<PublicDate>20170322</PublicDate>
+				<RegistrationPublicNumber>4020170065850</RegistrationPublicNumber>
+				<RegistrationPublicDate>20170714</RegistrationPublicDate>
+				<RegistrationNumber>4012675350000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20170710</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>10</GoodClassificationCode>
+				<ViennaCode>261112|270512|270902|270908</ViennaCode>
+				<ApplicantName>주식회사 에이치비티</ApplicantName>
+				<AgentName>정의환|특허법인 신우</AgentName>
+				<RegistrationRightholderName>주식회사 에이치비티 HBT Co,Ltd</RegistrationRightholderName>
+				<Title>HBT Human Bio Technology</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a9134423c9c66155bdee319a073144a1f91e46237f1c3e2bf7aa0e88c801157bad9ca0a6dae9b3377a6912</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29d6c998e272153d94305fbcdcac1273f8a6913fdae866c1600e505d65b11f674ea04b7c1ba0636df5</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>3</SerialNumber>
+				<ApplicationNumber>4020230180292</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20231006</ApplicationDate>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>출원</ApplicationStatus>
+				<GoodClassificationCode>25</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>주식회사 에이치비티</ApplicantName>
+				<AgentName>양정근</AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title>닥터풋프로젝트</Title>
+				<FulltextExistFlag>N</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913440be47db3b03c4b739fdf01e4f3744a00f6910d9313c22cf2d04cd0e9dc6e0a489423cab005d800a7</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2991ba5d9d09407d4bff785a97b8523c7289480687fc0babf42a92ee58982ed7dcd97d0aacd9c54d41</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>4</SerialNumber>
+				<ApplicationNumber>4020240026652</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20240213</ApplicationDate>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>출원</ApplicationStatus>
+				<GoodClassificationCode>25</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>주식회사 에이치비티</ApplicantName>
+				<AgentName>양정근</AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title>아치스프링</Title>
+				<FulltextExistFlag>N</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ab46dd62dcdb3b50704b7aab912784655745a97644eea07085ddc11613a91ce70278c92fa0efdfed</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29a04489ad4cba26e535a9c2cbbeb9394260ca19091ec6d5f117e053272d1c073dcebe411a5527e418</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>5</SerialNumber>
+				<ApplicationNumber>4020160104261</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20161125</ApplicationDate>
+				<PublicNumber>4020170030487</PublicNumber>
+				<PublicDate>20170322</PublicDate>
+				<RegistrationPublicNumber>4020170065849</RegistrationPublicNumber>
+				<RegistrationPublicDate>20170714</RegistrationPublicDate>
+				<RegistrationNumber>4012675330000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20170710</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>09|10</GoodClassificationCode>
+				<ViennaCode>261112|270512|270902|270908</ViennaCode>
+				<ApplicantName>주식회사 에이치비티</ApplicantName>
+				<AgentName>정의환|특허법인 신우</AgentName>
+				<RegistrationRightholderName>주식회사 에이치비티 HBT Co,Ltd</RegistrationRightholderName>
+				<Title>HBT Human Best Technology</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a9134423c9c66155bdee319a073144a1f91e46237f1c3e2bf7aa0e3dccd48a584a606acc9cc35302c893b3</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29d6c998e272153d94305fbcdcac1273f8a6913fdae866c16023f925228241e081935f808c719ef8c3</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>6</SerialNumber>
+				<ApplicationNumber>4020210220123</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20211029</ApplicationDate>
+				<PublicNumber>4020230037605</PublicNumber>
+				<PublicDate>20230228</PublicDate>
+				<RegistrationPublicNumber>4020230091372</RegistrationPublicNumber>
+				<RegistrationPublicDate>20230703</RegistrationPublicDate>
+				<RegistrationNumber>4020443830000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20230629</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>25</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>주식회사 에이치비티</ApplicantName>
+				<AgentName>양정근</AgentName>
+				<RegistrationRightholderName>주식회사 에이치비티</RegistrationRightholderName>
+				<Title>이지스텝</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ae7b1568aff8c76795a1a0750d0b4fdf4b665638ebcd95fb9c9edf299002b261d6d56a190161df7f</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2940f80548c1358af391a11d117a7b64ecf0ad423691c8c24432794775927838cdac524e335c696a61</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>7</SerialNumber>
+				<ApplicationNumber>4020160104263</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20161125</ApplicationDate>
+				<PublicNumber>4020170030489</PublicNumber>
+				<PublicDate>20170322</PublicDate>
+				<RegistrationPublicNumber>4020170065851</RegistrationPublicNumber>
+				<RegistrationPublicDate>20170714</RegistrationPublicDate>
+				<RegistrationNumber>4012675360000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20170710</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>10</GoodClassificationCode>
+				<ViennaCode>261112|270512|270902|270908</ViennaCode>
+				<ApplicantName>주식회사 에이치비티</ApplicantName>
+				<AgentName>정의환|특허법인 신우</AgentName>
+				<RegistrationRightholderName>주식회사 에이치비티 HBT Co,Ltd</RegistrationRightholderName>
+				<Title>HBT Human Body Technology</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a9134423c9c66155bdee319a073144a1f91e46237f1c3e2bf7aa0edbeb7ccc8bc26ad40f34aa9c2f6ed772</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29d6c998e272153d94305fbcdcac1273f8a6913fdae866c160024c0a2f0f3bbd44f7d7c945ce6446ed</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>8</SerialNumber>
+				<ApplicationNumber>4020200209515</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20201119</ApplicationDate>
+				<PublicNumber>4020210138281</PublicNumber>
+				<PublicDate>20211101</PublicDate>
+				<RegistrationPublicNumber>4020220019599</RegistrationPublicNumber>
+				<RegistrationPublicDate>20220223</RegistrationPublicDate>
+				<RegistrationNumber>4018355980000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20220221</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>42</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>주식회사 에이치비티</ApplicantName>
+				<AgentName>양정근</AgentName>
+				<RegistrationRightholderName>주식회사 에이치비티</RegistrationRightholderName>
+				<Title>라잇템 Right tem</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344f20ce8245b099a8a060fe8ad3653a90b05e4deac03830479e657a6da7814a0deedea951cddc2313e</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29df616987ef7331e9ad6522eb4a77501d131d0fbbc109d9d16d4a607dff740753dafb2e65ce41bfb2</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>9</SerialNumber>
+				<ApplicationNumber>4020210209333</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20211014</ApplicationDate>
+				<PublicNumber>4020230002304</PublicNumber>
+				<PublicDate>20230104</PublicDate>
+				<RegistrationPublicNumber>4020230067688</RegistrationPublicNumber>
+				<RegistrationPublicDate>20230516</RegistrationPublicDate>
+				<RegistrationNumber>4020213080000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20230512</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>10</GoodClassificationCode>
+				<ViennaCode>011315|270312|270908</ViennaCode>
+				<ApplicantName>주식회사 에이치비티</ApplicantName>
+				<AgentName>특허법인(유한) 해담</AgentName>
+				<RegistrationRightholderName>주식회사 에이치비티 HBT Co,Ltd</RegistrationRightholderName>
+				<Title>|주|에이치비티 Human Best Technology</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ae7b1568aff8c767e58502401e577761ce1a75d4df6c1856db1c97935db5a58dc028358120acbe4f</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2940f80548c1358af33a978e525012be1ba79ea892548791ee46e949ff0052f0ebbd3e2afd4e14d28a</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>10</SerialNumber>
+				<ApplicationNumber>4020220191647</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20221020</ApplicationDate>
+				<PublicNumber>4020240108212</PublicNumber>
+				<PublicDate>20240710</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>공고</ApplicationStatus>
+				<GoodClassificationCode>25</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>주식회사 에이치비티</ApplicantName>
+				<AgentName>양정근</AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title>듀얼바운스 Dual Bounce</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913442817c88e040e84f7726d96caf368c14f45dc9e39400f135f0619192c233f084e90aef40274e33de7</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2942dee2feafab2a094da71243827f764055d4ef5cf934f9da3c89df431a2fb46233ecc46b58556d9b</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>11</SerialNumber>
+				<ApplicationNumber>4020070015976</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20070326</ApplicationDate>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>거절</ApplicationStatus>
+				<GoodClassificationCode>10</GoodClassificationCode>
+				<ViennaCode>270919</ViennaCode>
+				<ApplicantName>주식회사 에이치비티</ApplicantName>
+				<AgentName></AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title>S라인밸런스</Title>
+				<FulltextExistFlag>N</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913449585d0b251d5ba3175af6d5415fcf70ac6f129577f3428c69c6c8c2ca917d4ff</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c31b16d13dde094ab3d999dace5533986dfef108be47554cda51d7c42e426aa8ed</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>12</SerialNumber>
+				<ApplicationNumber>4020230001069</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20230103</ApplicationDate>
+				<PublicNumber>4020240047859</PublicNumber>
+				<PublicDate>20240326</PublicDate>
+				<RegistrationPublicNumber>4020240101234</RegistrationPublicNumber>
+				<RegistrationPublicDate>20240819</RegistrationPublicDate>
+				<RegistrationNumber>4022347440000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20240814</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>25</GoodClassificationCode>
+				<ViennaCode>020919|241301|241705</ViennaCode>
+				<ApplicantName>주식회사 에이치비티</ApplicantName>
+				<AgentName>양정근</AgentName>
+				<RegistrationRightholderName>주식회사 에이치비티</RegistrationRightholderName>
+				<Title>Kids Jump Plus</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913440be47db3b03c4b73d9c2cc4fb47c6d0087ee90494172c31b5341574e08b7d771427783e3508bd3eb</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2991ba5d9d09407d4bb31e804b226b65c98be8f69c9f1192a266ce49c04baf1468dfa5afba54e2d13b</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>13</SerialNumber>
+				<ApplicationNumber>4020230153370</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20230824</ApplicationDate>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>출원</ApplicationStatus>
+				<GoodClassificationCode>25</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>주식회사 에이치비티</ApplicantName>
+				<AgentName>양정근</AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title>아치케어</Title>
+				<FulltextExistFlag>N</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913440be47db3b03c4b7394327475c1d54163a914d600e87de686b03f3e5a2751b16fd690c9723d8dc500</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2991ba5d9d09407d4bf0ac4a9b1427479f5fb508fcd4c2757593afb93e5dffdce9facb6e9b97fc9d50</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>14</SerialNumber>
+				<ApplicationNumber>4020220031099</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20220217</ApplicationDate>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>거절</ApplicationStatus>
+				<GoodClassificationCode>25</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>주식회사 에이치비티</ApplicantName>
+				<AgentName>양정근</AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title>아치스프링</Title>
+				<FulltextExistFlag>N</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913442817c88e040e84f7634607095be01a1593d54f835e560c0ade490405bebf1f170a1d306a7ed8762b</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2942dee2feafab2a0907193b24128791f237d6c44a2b37fca62801d2024002f937e80d5d0f9bfcf6f8</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>15</SerialNumber>
+				<ApplicationNumber>4020210220130</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20211029</ApplicationDate>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>거절</ApplicationStatus>
+				<GoodClassificationCode>25</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>주식회사 에이치비티</ApplicantName>
+				<AgentName>양정근</AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title>닥터풋프로젝트</Title>
+				<FulltextExistFlag>N</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ae7b1568aff8c76795a1a0750d0b4fdfe4cd1f0fd973b96138b14b45af48fbeb7550a7842ed14a84</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2940f80548c1358af391a11d117a7b64ec5280780bd8eb7b94efc13a05bda939723e74e8b146ecad52</ThumbnailPath>
+			</TradeMarkInfo>
+		</items>
+	</body>
+</response>

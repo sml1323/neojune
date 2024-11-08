@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<response>
+	<header>
+		<resultCode></resultCode>
+		<resultMsg></resultMsg>
+	</header>
+	<body>
+		<items>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20191128</ApplicationDate>
+				<ApplicationNumber>1020190155770</ApplicationNumber>
+				<Abstract>본 발명은 패턴 결합 방식의 신발 공급 서비스 플랫폼에 관한 것이다. 패턴 결합 방식의 신발 공급 서비스 플랫폼은 발의 스캔에 의하여 3D 스캔 데이터가 만들어지는 3D 스캔 데이터 획득 모듈(10); 3D 스캔 데이터에 대한 보정이 되고, 보정된 데이터에 기초하여 발의 3D 모델이 생성되는 데이터 보정 및 모델 생성 모듈(20); 생성된 모델에 따라 신발 모델이 선택되는 서비스 제공 모듈(30); 발의 3D 모델에 형상에 따라 발이 대응되는 패턴이 생성되는 패턴 모델 생성 모듈(40); 및 패턴 모델 생성 모듈(40)에서 패턴이 선택되도록 다양한 발의 패턴을 제공하는 패턴 DB(50)를 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93b51a8974175e825a2648cb1c7d7e368faa1b730913fe1e4ccebb374b83de905309e7f260e386b962047cc16ec4cbc16d8165fa99a701d798</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf77794e9c78c6f106fbacebb03ec97ed1bad22ee3f43a4d13417ad5a2f310285e1321a510db72f40c9ad4cf1d24b0fc1b50ef6530e42fcd46</ThumbnailPath>
+				<SerialNumber>1</SerialNumber>
+				<InventionName>패턴 결합 방식의 신발 공급 서비스 플랫폼</InventionName>
+				<InternationalpatentclassificationNumber>G06Q 50/04|A43D 1/02|G06T 17/20|G01B 11/25|G01B 11/03</InternationalpatentclassificationNumber>
+				<OpeningDate>20210607</OpeningDate>
+				<OpeningNumber>1020210066480</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20211029</PublicDate>
+				<RegistrationDate>20211025</RegistrationDate>
+				<RegistrationNumber>1023194060000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20240919</ApplicationDate>
+				<ApplicationNumber>1020240126608</ApplicationNumber>
+				<Abstract>본 발명은 형상 및 상태 진단에 기초하는 교정 기능을 가진 스마트 인솔 제조 시스템에 관한 것이다. 형상 및 상태 진단에 기초하는 스마트 인솔 제조 시스템은 발의 형상 및 상태에 대한 측정 매개변수를 설정하는 측정 매개변수 설정 모듈(11); 측정 매개변수에 기초하여 발의 형상 및 상태를 스캔하여 데이터를 획득하는 스캔 데이터 획득 모듈(12); 스캔 데이터로부터 발의 상태 진단을 위한 데이터 및 인솔 제조를 위한 데이터를 생성하는 진단 및 인솔 데이터 생성 모듈(13); 및 발의 상태를 추적하는 상태 추적 정보 모듈(14)을 포함하고, 측정 매개변수는 발바닥의 접촉 면적 및 무게 중심의 결정이 가능한 매개변수를 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=348aaf18c46825cf02d6c2de1c78338ed1317dba44d9790ab7d3f6a436f744141e711d90b0fd0242beacf07970843bbf047cd42f82f4fd4b85304c4d6f59b4db8ebf3562e0d85136</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf1ed19c573a05ab9cba5337a840721cb34acddcf1fd9dceed3821855880c7054f65bef19197d7747bfaeb684f16e32a328c7f408c61a2060b</ThumbnailPath>
+				<SerialNumber>2</SerialNumber>
+				<InventionName>형상 및 상태 진단에 기초하는 교정 기능을 가진 스마트 인솔 제조 시스템</InventionName>
+				<InternationalpatentclassificationNumber>A43D 1/02|A43B 17/00|A61B 5/107|A61B 5/103|A61B 5/00|A61B 8/08|G01B 11/24</InternationalpatentclassificationNumber>
+				<OpeningDate>20240927</OpeningDate>
+				<OpeningNumber>1020240141688</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>공개</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20230329</ApplicationDate>
+				<ApplicationNumber>1020230041488</ApplicationNumber>
+				<Abstract>본 발명은 신발 자동 공급 시스템 및 이를 위한 키오스크 신발 중계 플랫폼에 관한 것이고, 구체적으로 키오스크 장치와 연결된 3D 스캐너에 의하여 획득된 3D 데이터에 기초하여 신발의 주문 및 공급이 자동으로 이루어지도록 하는 신발 자동 공급 시스템 및 이를 위한 키오스크 신발 중계 플랫폼에 관한 것이다. 신발 자동 공급 시스템 및 이를 위한 키오스크 신발 중계 플랫폼은 수요자(C) 또는 공급자(S)가 접근 가능한 키오스크 장치(11); 키오스크 장치(11)와 데이터 통신이 가능하도록 연결되고, 발의 스캔에 의하여 3D 스캔 데이터를 생성하는 3D 스캐너(12); 및 서로 다른 위치에 배치된 다수 개의 키오스크 장치를 관리하는 중계 플랫폼(13)을 포함하고, 상기 키오스크 장치(11)는 3D 스캔 데이터로부터 신발 라스트 데이터를 생성한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c930e6a7ffeb6727e987fc24a0d5d72096da798c429a39b99a9b4838b50f68994df442d58aca696345123a75fa2f3dedbc7feeada6e2584038d</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf46a557639437e7b88302ff4ed836d4a4afb4a929a3e6481dcfe68dcf7ed7d1b6f7e695fbd927bff409412c70d3a5239869fb13bea638d6cf</ThumbnailPath>
+				<SerialNumber>3</SerialNumber>
+				<InventionName>신발 자동 공급 시스템 및 이를 위한 키오스크 신발 중계 플랫폼</InventionName>
+				<InternationalpatentclassificationNumber>G06Q 30/06|A43D 1/02|G07F 17/40|G06Q 20/18</InternationalpatentclassificationNumber>
+				<OpeningDate>20230404</OpeningDate>
+				<OpeningNumber>1020230045003</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>포기</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20211228</ApplicationDate>
+				<ApplicationNumber>1020210190138</ApplicationNumber>
+				<Abstract>본 발명은 3D 족부 스캔 장치 및 이에 의한 족부 이미지 획득 방법에 관한 것이다. 3D 족부 스캔 장치는 내부에 수용 공간이 형성된 스캔 하우징(11); 스캔 하우징(11)의 위쪽 면에 형성되어 발바닥의 접촉되는 스캔 윈도우(13); 스캔 하우징(11)의 내부에 배치되어 스캔 윈도우(13)에 위치하는 족부를 아래쪽 방향에서 스캔을 하는 레이저 스캐너(14); 및 스캔 윈도우(13)의 둘레를 따라 서로 다른 위치에 배치되어 스캔 윈도우(13)를 위쪽 방향에서 촬영하는 다수 개의 다시점 카메라(15a, 15b, 15c)를 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c937eb68216e5e65b99cf6777d0831b377a406acd649601dc1b0c8464e04d305039c188683d318653408090f3763ec8d7e759196291a99f769a</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf6c4c884220388ec4769acc8718d7316078d651f0adec16cf124f5530855f8d7f3366aa4d7eb1f4773fc331246d18692f2a6408da4b43642a</ThumbnailPath>
+				<SerialNumber>4</SerialNumber>
+				<InventionName>3D 족부 스캔 장치 및 이에 의한 족부 이미지 획득 방법</InventionName>
+				<InternationalpatentclassificationNumber>A61B 5/107|A61B 5/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20230705</OpeningDate>
+				<OpeningNumber>1020230100354</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20201228</ApplicationDate>
+				<ApplicationNumber>1020200184721</ApplicationNumber>
+				<Abstract>본 발명은 신발 자동 공급 시스템 및 이를 위한 키오스크 신발 중계 플랫폼에 관한 것이고, 구체적으로 키오스크 장치와 연결된 3D 스캐너에 의하여 획득된 3D 데이터에 기초하여 신발의 주문 및 공급이 자동으로 이루어지도록 하는 신발 자동 공급 시스템 및 이를 위한 키오스크 신발 중계 플랫폼에 관한 것이다. 신발 자동 공급 시스템 및 이를 위한 키오스크 신발 중계 플랫폼은 수요자(C) 또는 공급자(S)가 접근 가능한 키오스크 장치(11); 키오스크 장치(11)와 데이터 통신이 가능하도록 연결되고, 발의 스캔에 의하여 3D 스캔 데이터를 생성하는 3D 스캐너(12); 및 서로 다른 위치에 배치된 다수 개의 키오스크 장치를 관리하는 중계 플랫폼(13)을 포함하고, 상기 키오스크 장치(11)는 3D 스캔 데이터로부터 신발 라스트 데이터를 생성한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93fee8cf24ed7d6a57bb3033797d7d1fcb640e9299c5e89eb248e6aa68fa7e33ce60327f39400bc14d18cbdb916907c3420761953f9e3c0ee7</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf4ecd762057f4bcd55ad44eaec90412914f3b9898821bb5ea124b4a72ad7875051fc45f8d6cf210f02fbfb0dc4fc6afa27a20be2d6c5a3beb</ThumbnailPath>
+				<SerialNumber>5</SerialNumber>
+				<InventionName>신발 자동 공급 시스템 및 이를 위한 키오스크 신발 중계 플랫폼</InventionName>
+				<InternationalpatentclassificationNumber>G06Q 30/06|G06Q 20/18</InternationalpatentclassificationNumber>
+				<OpeningDate>20210106</OpeningDate>
+				<OpeningNumber>1020210002092</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20230228</ApplicationDate>
+				<ApplicationNumber>1020230027302</ApplicationNumber>
+				<Abstract>본 발명은 건강 진단 기초 3D 스캔 방식의 신발 제조 시스템에 관한 것이고, 구체적으로 신발의 제조를 위한 발의 스캐닝 과정에서 발과 관련된 건강 상태 또는 자세 교정을 위한 진단이 가능한 건강 진단 기초 3D 스캔 방식의 신발 제조 시스템에 관한 것이다. 건강 진단 기초 3D 스캔 방식의 신발 제조 시스템은 발의 3D 형상의 생성을 위한 적어도 하나의 3D 스캐너(11);3D 스캐너(11)에서 탐지된 정보를 분석하는 질환 분석 유닛(121), 발의 형상을 분석하는 형태 분석 유닛(122) 및 자세를 분석하는 자세 분석 유닛(123)으로 이루어진 분석 모듈(12); 분석 모듈(12)로부터 전송된 분석 정보에 기초하여 발의 형상을 생성하는 형상 모델링 모듈(13); 분석 모듈(12)로부터 전송된 분석 정보에 기초하여 신체의 중심을 결정하는 중심 모델링 모듈(14); 및 형상 모델링 모듈(13)과 중심 모델링 모듈(14)로부터 전송된 정보에 기초하여 발의 형상과 자세 교정을 위한 신발을 디자인하는 맞춤형 디자인 모듈(15)을 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c933e6e3c975d2a9f1c63826b1d46c78e1f4fc0d8eff0b92a3394df6437acdb9b35d5bd9c929e3b9d42d101e6abd9524637c1be8179c04dbc79</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf7249a2e9b12dcafd10fdbbf706fdf4990b87aeb6b067532cd0fed2b6ab52c525be04854430f3edb3024fca48143d36b700fd365441619498</ThumbnailPath>
+				<SerialNumber>6</SerialNumber>
+				<InventionName>건강 진단 기초 3D 스캔 방식의 신발 제조 시스템</InventionName>
+				<InternationalpatentclassificationNumber>A43D 1/02|A43D 1/08|A61B 5/107|A61B 5/00|G16H 50/20</InternationalpatentclassificationNumber>
+				<OpeningDate>20230309</OpeningDate>
+				<OpeningNumber>1020230034283</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20161207</ApplicationDate>
+				<ApplicationNumber>1020160165774</ApplicationNumber>
+				<Abstract>족부를 3차원 스캐닝하기 위한 장치가 제공된다. 본 장치는, 원형 스테이지, 상기 원형 스테이지를 회전시키도록 구성된 제1 구동부, 상기 원형 스테이지의 하부에 설치되는 선형 스테이지, 상기 선형 스테이지를 직선 구동하도록 구성된 제2 구동부, 상기 원형 스테이지의 원주 방향의 상부 면에 장착되며 제1 카메라 및 제1 선형 레이저를 포함하는 제1 촬상부 - 상기 제1 촬상부는 상기 제1 구동부에 의해 상기 원형 스테이지가 회전됨에 따라 같이 회전하면서 상기 족부의 상부를 촬영하여 복수의 제1 영상을 획득하도록 구성됨 -, 상기 선형 스테이지의 상부 면에 장착되며 제2 카메라 및 제2 선형 레이저를 포함하는 제2 촬상부 - 상기 제2 촬상부는 상기 제2 구동부에 의해 상기 선형 스테이지가 선형 이동함에 따라 같이 선형 이동하면서 상기 족부의 하부를 촬영하여 복수의 제2 영상을 획득하도록 구성됨 -, 상기 복수의 제1 영상을 선형 정합하여 제1 부분 족부 모델을 생성하도록 구성된 제1 선형 정합부, 상기 복수의 제2 영상을 선형 정합하여 제2 부분 족부 모델을 생성하도록 구성된 제2 선형 정합부, 상기 제1 부분 족부 모델 및 상기 제2 부분 족부 모델을 개략 정합하여 전체 족부 모델을 생성하도록 구성된 개략 정합부, 및 상기 전체 족부 모델에 대해 정제 정합을 수행하여 정제된 3D 족부 모델을 생성하...(이하생략)</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00b91910ee4b6590c83790f2cb2d9d2f3472607c9d71aaf3b0886de3899d70d2b5133f335fc09e03971db51c753846d1d8515903f16030200f</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfe2739a54590c66d6378ccd88ffcb0f8e368cc0b0e446bf8f4bf9d037a539ebe3202fec14c18474db78a0d1833215a70023a4584418e52a36</ThumbnailPath>
+				<SerialNumber>7</SerialNumber>
+				<InventionName>족부 스캐닝 장치</InventionName>
+				<InternationalpatentclassificationNumber>A61B 5/107|A43D 1/02|A43D 1/04|G01B 11/25</InternationalpatentclassificationNumber>
+				<OpeningDate>20180618</OpeningDate>
+				<OpeningNumber>1020180065229</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20180806</PublicDate>
+				<RegistrationDate>20180731</RegistrationDate>
+				<RegistrationNumber>1018857160000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20070323</ApplicationDate>
+				<ApplicationNumber>1020070028372</ApplicationNumber>
+				<Abstract>본 발명은 척추 측만증 등의 치료에 사용되는 3점압의 원리를 이용하여 골반의 자세를 교정하기 위한 것으로서, 골반을 전체적으로 감싸는 틀체의 전방 양측에 한쌍의 패드를 설치하여 상기 천골과 연결된 장골에 밀착되도록 하고 상기 틀체의 후방에는 천골의 틀어진 상태에 따라 높낮이가 조정된 천골 누름용 패드를 장착한 뒤 상기 틀체를 밴드로 묶어 고정시킴으로써, 상기 장골을 지지점으로 하여 상기 천골이 부분적으로 가압되어 수직축 또는 수평축을 기준축으로 하여 정상위치로 돌아오므로 꼬리벼가 수직으로 세워져 자세가 교정되고 골반통증이 완화되는 골반 교정용 보조기에 관한 것이다.  이를 위하여 본 발명은 골반을 감싸는 틀체가 구비되고, 상기 틀체의 전방에는 천골 양측의 장골을 2점 지지하는 한쌍의 장골누름패드가 구비되며, 상기 틀체의 후방에는 상기 장골누름패드들과 3점 지지 가압을 이루면서 상기 천골의 돌출부위를 국부적으로 눌러주는 천골누름패드가 구비되어, 상기 천골이 수직축을 기준으로 틀어지거나 또는 수직축을 기준으로 회동되면서 정상위치로 복귀되고 이와 연결된 꼬리뼈가 수직으로 세워지도록 구성되어 있다.  틀체, 천골, 천골누름패드, 장골누름패드, 삼점압</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9cf44e6e9608087f40b2ad1371f67c74aed2a0f8d767392c610dfcd7e2602141ac</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe484b73ac8e410bb223b075756f85d565c3b8c627be3844cfe2f13024be53712dc</ThumbnailPath>
+				<SerialNumber>8</SerialNumber>
+				<InventionName>골반 교정용 보조기</InventionName>
+				<InternationalpatentclassificationNumber>A61F 5/02|A61F 5/058</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20080416</PublicDate>
+				<RegistrationDate>20080408</RegistrationDate>
+				<RegistrationNumber>1008223750000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20170320</ApplicationDate>
+				<ApplicationNumber>1020170034471</ApplicationNumber>
+				<Abstract>본 발명은 3D 족부 스캐닝 기술을 이용하여 고객의 족부를 스캔한 후 고객에 적합한 신발 디자인을 제안함과 아울러 증강현실을 이용하여 가상으로 착화상태를 보여주어 고객이 원하는 디자인을 쉽게 선택할 수 있게 하는 맞춤형 신발 제조 방법 및 시스템에 관한 것이다. 본 발명의 시스템은 고객의 족부를 스캔하기 위한 3D 스캐너(120)와, 고객이 디자인을 선택할 수 있도록 화면을 제공하고, 고객의 선택을 입력받아 전달하는 단말기(140)와, 단말기와 연결되어 고객의 선호 정보를 입력받고 3D 스캐너로부터 고객의 족부 데이터를 입력받아 3차원 발 스캔 모델과 3차원 신발 모델을 생성한 후 가상 피팅을 통해 상기 단말기에 추천 모델을 제공하며 가상 착용상태를 보여주어 고객이 원하는 신발 선택할 수 있도록 하는 맞춤형 신발 서비스 서버(110)와, 맞춤형 신발 서비스 서버로부터 전달된 데이터에 따라 해당 고객의 라스트를 제작한 후 고객에 맞는 신발을 제작해주는 신발 제조 서브시스템(130)으로 구성된다. 본 발명에 따르면, 고객이 선택한 신발 정보와 발 스캔 정보를 이용하여 가상 피팅 시스템에서 생성된 신발 모델이 지원되는 신발 디자인들을 추천함과 아울러 가상 착화 시뮬레이션으로 확인할 수 있게 하여 고객 취향에 가장 잘 맞는 신발을 쉽고 편리하게 제공할 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00883eae7820d89e4d4907ba31cdd4a4ca6d91efd7ac103b9479bf8b333a6a31a7c4f1c3a60a90336f0d48f837ce4798ca8ec70eedee7b9599</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf6e9a16582b85f4fba0601ff24a1ca4b7c312dab801b79b6bf50b745d95d632152dd6a205e3992766b077df79934a9d4be43e638e1e20d9ab</ThumbnailPath>
+				<SerialNumber>9</SerialNumber>
+				<InventionName>3D 족부 스캐닝을 이용한 맞춤형 신발 제조 방법 및 시스템</InventionName>
+				<InternationalpatentclassificationNumber>A43D 1/02|A43D 1/08|G06Q 30/06</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20180213</PublicDate>
+				<RegistrationDate>20180207</RegistrationDate>
+				<RegistrationNumber>1018287850000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20220126</ApplicationDate>
+				<ApplicationNumber>1020220011677</ApplicationNumber>
+				<Abstract>본 발명은 3D센서를 이용하여 체형진단의 객관화 및 체형질환 진단플랫폼으로서 과학적으로 접근하고, 각종 체형진단 및 척추질환, 수술전후 등을 비교, 진단 예측하여 질환, 질병의 특성 판단에 대한 객관화 된 기준을 제시하기 위한 3D센서를 이용한 스캐너 시스템에 관한 것이다. 이를 위하여 본 발명은 3D센서를 이용하여 측정대상자를 3차원적으로 측정하기 위한 3D센서를 이용한 스캐너 시스템에 있어서, 기둥의 상부에 3D센서가 구비되고, 상기 기둥과 떨어져서 턴테이블이 구비되는데, 상기 턴테이블에는 측정대상자가 올라가 서있게 되며, 상기 3D센서가 작동되면 제어부를 통하여 상기 턴테이블이 한방향으로 회전되면서 3D센서의 빔이 전신에 조사되어 3차원의 신체측정이 이뤄지도록 한 특징이 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c938ebc634dac5eb456d2dbd71054586df73d6810899a990fcc28a25d83c0b51e9464f77513c8916bf11abe74f09ba1d97c83352b1712a06fa3</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf050e8a09dedb652ce2eb6fd5f12463dead481b8ba4c4f0cbbdcfdc6bf08a21659a74d3c1d1810125b348e1b4318125f623be56289e00f305</ThumbnailPath>
+				<SerialNumber>10</SerialNumber>
+				<InventionName>3D센서를 이용한 스캐너 시스템</InventionName>
+				<InternationalpatentclassificationNumber>A61B 5/107|A61B 5/00|G01B 11/24</InternationalpatentclassificationNumber>
+				<OpeningDate>20220218</OpeningDate>
+				<OpeningNumber>1020220020295</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20090205</ApplicationDate>
+				<ApplicationNumber>1020090009149</ApplicationNumber>
+				<Abstract>본 발명은 척추에 가해지는 힘의 세기와 적용 위치 및 보조기의 형태를 미리 알아내기 위해 3점압 원리를 이용하여 척추를 바르게 보정하되 각 센서패드에 전달되는 힘의 세기를 수치화여 보조기 제작 프로그램에서 이를 디지털 영상으로 보여줌으로써, 보조기 착용 후의 척추변화를 예측할 수 있으며 특히 환자가 청소년일 경우 성장과정에서 인체변화에 따른 보조기의 능동적인 수정 보완이 가능한 채형장치에 관한 것이다.  본 발명에 따르면 기판의 상부에 다수개의 기둥이 사방으로 구비되고 상기 기둥을 따라 높낮이 조절되는 다수개의 레일들에는 환자의 겨드랑이, 허리 및 골반을 3점지지할 수 있는 센서패드가 구비되며, 상기 각 센서패드는 핸들을 갖는 나사축에 의해 가변되면서 환자의 몸과 밀착되어 척추를 바르게 보정하고, 상기 센서패드에 가해지는 저항치의 변화를 비교분석하여 환자의 몸에 가해지는 힘의 세기를 수치화 하여 보여주는 표시부를 갖는 특징이 있다.  기판, 레일, 센서패드, 바닥센서, 비교분석부, 표시부</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf7267ee055bb88e156462de698c7d49515c9b07fd45b0571723a982679e21cb3019732275407cb1e76f818c7fba0c739af4ba2cf911431c53be6</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf3f6f3758b698c2a38073b9d8bd1aca9078776aaf59078c6dfb10cfe7ccbc306e82e897132784b4ea200def231368f8647362d815c5cf6abd</ThumbnailPath>
+				<SerialNumber>11</SerialNumber>
+				<InventionName>채형장치</InventionName>
+				<InternationalpatentclassificationNumber>A61B 5/11|A61B 5/00|A61B 5/103</InternationalpatentclassificationNumber>
+				<OpeningDate>20100813</OpeningDate>
+				<OpeningNumber>1020100089946</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20110429</PublicDate>
+				<RegistrationDate>20110421</RegistrationDate>
+				<RegistrationNumber>1010317850000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20150514</ApplicationDate>
+				<ApplicationNumber>1020150067420</ApplicationNumber>
+				<Abstract>본 발명은 3D센서로 개인의 전신체형을 측정하여 척추측만증, 사지기형 및 비만정도를 측정하고, 체형에 맞는 승마운동을 처방함으로써, 승마운동기구를 통한 재활운동으로 체형에 변화를 주고 지속적인 승마운동 및 3D측정으로 정확한 진단 및 체형의 교정이 이뤄지도록 한 3D센서와 승마운동기구를 이용한 재활운동시스템에 관한 것이다.  이를 위하여 본 발명은 3D센서로 측정된 사용자의 체형정보는 제어부를 통하여 저장부에 기록되고; 상기 저장부에 기록된 사용자의 체형을 분석하여 척추측만증, 비만체형 및 사지기형을 판단하는 체형분석부가 구비되며; 상기 체형분석부의 체형분석에 따라 승마기구를 좌우측, 상하측 및 복합팔자형으로 운동시키는 승마운동비교부가 구비되고; 사용자는 상기 승마기구에 탑승하여 전방의 스크린에 투영되는 경관을 보면서 승마운동을 통하여 체형을 교정하는 특징이 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e000e0cdc46c05e629f684e7297efe6a7b6c4962ec7af456b144f8d6a2d3f1fef98a287307cb53e539104dbfc7f0f1197ac906ce94fabd74abc</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf4c69ecd991b48b6369d771317ac616b0b421eb9da573a89fb93233b40dfba824bce59c1ce624364905f59af4806c9c2a693e7ea3eb62fcd9</ThumbnailPath>
+				<SerialNumber>12</SerialNumber>
+				<InventionName>3D센서와 승마운동기구를 이용한 재활운동시스템</InventionName>
+				<InternationalpatentclassificationNumber>A63B 69/04|A63B 23/02|A63B 24/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20161124</OpeningDate>
+				<OpeningNumber>1020160134990</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20210528</ApplicationDate>
+				<ApplicationNumber>1020210069324</ApplicationNumber>
+				<Abstract>본 발명은 족부 3D 스캐닝 오차 보정 방법 및 그에 의한 족부 3D 모델 생성 방법에 관한 것이다. 족부 3D 스캐닝 오차 보정 방법은 레이저 및 카메라의 위치가 설정되는 단계; 레이저 및 카메라가 미리 설정된 경로를 따라 이동되는 단계; 이동에 따른 레이저 및 카메라의 상부 및 하부 변위가 탐지되는 단계; 탐지 결과에 따라 레이저 또는 카메라의 위치가 보정되는 단계; 탐지된 상부 및 하부의 변위에 따른 각각의 개별 좌표계가 설정되는 단계; 각각의 개별 좌표의 일치 여부가 확인되는 단계; 및 확인 결과에 따라 공통 좌표계가 생성되는 단계를 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93bcb8f2cb57cc5e2e26525dc825b97664a369a9548ed2ed01057418a5116c5693ad8e6b64f4af9d3dda15213ae757af8bbfd41e0e2ac08760</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf45c7719872618894cff3c31097f8c126eb50886194333ef200d9a90be5ab196390d1bdfc045ba73e68829c5209c296c29c93aaa7b9607fa4</ThumbnailPath>
+				<SerialNumber>13</SerialNumber>
+				<InventionName>족부 3D 스캐닝 오차 보정 방법 및 그에 의한 족부 3D 모델 생성 방법</InventionName>
+				<InternationalpatentclassificationNumber>G01B 11/25|G01B 11/03|A43D 1/02|G06T 17/20</InternationalpatentclassificationNumber>
+				<OpeningDate>20210604</OpeningDate>
+				<OpeningNumber>1020210065926</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20210823</ApplicationDate>
+				<ApplicationNumber>1020210110679</ApplicationNumber>
+				<Abstract>본 발명은 3D 족부 진단 시스템 및 그에 의한 교정 인솔 서비스 플랫폼에 관한 것이다. 3D 족부 진단 시스템은 족부의 3D 형상 및 상태를 스캔하여 3D 데이터를 획득하는 3D 형상/상태 스캔 데이터 모듈(11); 획득된 3D 데이터로부터 형상 및 상태에 대한 진단 지수를 생성하는 형상/상태 진단 지수 모듈(12); 다양한 형상 또는 상태의 3D 족부에 대한 형상 진단 지수 또는 상태 진단 지수가 저장된 표준 데이터베이스(13); 3D 데이터를 표준 데이터베이스(13)의 적어도 하나의 표준 데이터와 대비하여 진단 데이터를 생성하는 진단 데이터 생성 모듈(14); 및 진단 데이터로부터 교정을 위한 진단 정보 또는 인솔 구조 정보가 포함된 교정 데이터를 생성하는 교정 데이터 모듈(16)을 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93146a34e26b853decd2cdeabdef6a4d0071d12ee4665891e4bfdf1711c5908d0492f2e806412b564e593fa04e042b859d1b5c76f129c8dfa8</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cff12490d2859fc8a0e1929e5208dfd4c1e8c283c042a1264522cffee75c6a7fd8ab627cfcc860d1c4a5680ad993f2fb869b1683597c30dde4</ThumbnailPath>
+				<SerialNumber>14</SerialNumber>
+				<InventionName>3D 족부 진단 시스템 및 그에 의한 교정 인솔 서비스 플랫폼</InventionName>
+				<InternationalpatentclassificationNumber>A61B 5/107|A61B 5/00|G16H 50/20</InternationalpatentclassificationNumber>
+				<OpeningDate>20230303</OpeningDate>
+				<OpeningNumber>1020230028865</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>포기</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20230228</ApplicationDate>
+				<ApplicationNumber>1020230027307</ApplicationNumber>
+				<Abstract>본 발명은 3D센서를 이용하여 체형진단의 객관화 및 체형질환 진단플랫폼으로서 과학적으로 접근하고, 각종 체형진단 및 척추질환, 수술전후 등을 비교, 진단 예측하여 질환, 질병의 특성 판단에 대한 객관화 된 기준을 제시하기 위한 3D센서를 이용한 스캐너 시스템에 관한 것이다. 이를 위하여 본 발명은 3D센서를 이용하여 측정대상자를 3차원적으로 측정하기 위한 3D센서를 이용한 스캐너 시스템에 있어서, 기둥의 상부에 3D센서가 구비되고, 상기 기둥과 떨어져서 턴테이블이 구비되는데, 상기 턴테이블에는 측정대상자가 올라가 서있게 되며, 상기 3D센서가 작동되면 제어부를 통하여 상기 턴테이블이 한방향으로 회전되면서 3D센서의 빔이 전신에 조사되어 3차원의 신체측정이 이뤄지도록 한 특징이 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9310b7528e802490de4cf626449a07745b690c29a0e5831e1bdca1b803bf06a01b5395c9d4bf8df99c2e0c499e8d96925605bf35b90d28d3e1</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfbc5f2555b2e18a03970e4771158e0597691db66a3c2ffb94f39eb8819b0a998e89ce94194f6b79be47849fed1720f89cef73d90d7c8105e7</ThumbnailPath>
+				<SerialNumber>15</SerialNumber>
+				<InventionName>3D센서를 이용한 스캐너 시스템</InventionName>
+				<InternationalpatentclassificationNumber>A61B 5/107|A61B 5/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20230310</OpeningDate>
+				<OpeningNumber>1020230035019</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>취하</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20180820</ApplicationDate>
+				<ApplicationNumber>1020180096677</ApplicationNumber>
+				<Abstract>본 발명은 IOT 환경 탐지 기반 지능형 개인 생활 패턴 조절을 위한 공기 케어 관리 시스템에 관한 것이고, 구체적으로 IOT 센서 방식에 의하여 주변 또는 활동 환경을 탐지하여 개인 활동에 적합한 활동 데이터를 생성하여 제공하는 IOT 환경 탐지 기반 지능형 개인 생활 패턴 조절을 위한 공기 케어 관리 시스템에 관한 것이다. IOT 환경 탐지 기반 지능형 개인 생활 패턴 조절을 위한 공기 케어 관리 시스템은 개인의 활동 공간과 관련을 가지는 환경 정보를 수신하여 분석하는 생활 패턴 생성 모듈(10); 개인의 활동 공간 및 생활 패턴에 대한 정보를 저장하고, 관련 정보를 생활 패턴 생성 모듈(10)로 전송하는 개인 활동 데이터베이스(10a); 및 생활 패턴 생성 모듈(10)과 데이터 통신이 가능하도록 휴대용 전자기기에 설치된 케어 애플리케이션(21)을 포함하고, 상기 생활 패턴 생성 모듈(10)은 환경 정보 및 생활 패턴 정보에 기초하여 활동 패턴 선택 데이터를 생성한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0078017c6e610594fb567a8a9d8d1e1f074dddd24a118f0965ad99bb5986a0dfcd35854dcc281a39b2ed163e36ba3c882ba6852c8a433d29dc</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf349b7d93729ecec49d2ebd73c41acce64bbdb7637c32fb60323877e4bf71e8955227480980f3ea190634eb14ca344fae3de3aef545b3261f</ThumbnailPath>
+				<SerialNumber>16</SerialNumber>
+				<InventionName>IOT 환경 탐지 기반 지능형 개인 생활 패턴 조절을 위한 공기 케어 관리 시스템</InventionName>
+				<InternationalpatentclassificationNumber>G06Q 50/26|H04L 65/40|H04W 4/02|G06F 9/44</InternationalpatentclassificationNumber>
+				<OpeningDate>20181213</OpeningDate>
+				<OpeningNumber>1020180133239</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>취하</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20201106</ApplicationDate>
+				<ApplicationNumber>1020200147869</ApplicationNumber>
+				<Abstract>본 발명은 ICT 융합 방식의 족부 진단 기능을 가진 인솔 스캐너 및 이와 연동된 공급 플랫폼에 관한 것이다. ICT 융합 방식의 족부 진단 기능을 가진 발 형상 데이터의 획득을 위한 외형 측정 유닛(111), 발 상태 데이터의 획득을 위한 상태 측정 유닛(112) 및 자극에 대한 발의 반응 데이터의 획득을 위한 반응 측정 유닛(113)을 포함하는 족부 탐지 모듈(11); 족부 탐지 모듈(11)에 의하여 획득된 데이터를 처리하여 분석하는 데이터 처리/분석 모듈(12); 데이터 처리/분석 모듈(12)의 분석 결과에 따라 발의 특징을 결정하는 특징 데이터 모듈(13); 및 특징 데이터 모듈(13)에서 결정된 특징에 기초하여 발을 진단하여 3D 모델을 생성하는 진단/3D 모델링 모듈(15)을 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c930139dc09ac13341cb572650a28845f3586a19888604835b9046bf69442e30724a9d489a8ef9fe6a0eb8f76ea00c66c732b1ac45afd71567c</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfa51ccfc45c9fbc2902b2832b7afaecdffa5f51e89958ef7c56e1c98cca9adda1cccb8ca06d106cb7f45303830cd3bec222b27fe10e5af41d</ThumbnailPath>
+				<SerialNumber>17</SerialNumber>
+				<InventionName>ICT 융합 방식의 족부 진단 기능을 가진 인솔 스캐너 및 이와 연동된 공급 플랫폼</InventionName>
+				<InternationalpatentclassificationNumber>A61B 5/107|A61B 5/103|A61B 5/00|A61F 5/14|B29C 64/386|B29D 35/12|A43B 7/14|A43D 1/02|B33Y 80/00|B33Y 50/00|B29L 31/50</InternationalpatentclassificationNumber>
+				<OpeningDate>20220516</OpeningDate>
+				<OpeningNumber>1020220062195</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20230530</PublicDate>
+				<RegistrationDate>20230522</RegistrationDate>
+				<RegistrationNumber>1025367570000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20150227</ApplicationDate>
+				<ApplicationNumber>1020150028097</ApplicationNumber>
+				<Abstract>본 발명은 3D센서를 이용하여 체형진단의 객관화 및 체형질환 진단플랫폼으로서 과학적으로 접근하고, 각종 체형진단 및 척추질환, 수술전후 등을 비교, 진단 예측하여 질환, 질병의 특성 판단에 대한 객관화 된 기준을 제시하기 위한 3D센서를 이용한 스캐너 시스템에 관한 것이다.  이를 위하여 본 발명은 3D센서를 이용하여 측정대상자를 3차원적으로 측정하기 위한 3D센서를 이용한 스캐너 시스템에 있어서, 기둥의 상부에 3D센서가 구비되고, 상기 기둥과 떨어져서 턴테이블이 구비되는데, 상기 턴테이블에는 측정대상자가 올라가 서있게 되며, 상기 3D센서가 작동되면 제어부를 통하여 상기 턴테이블이 한방향으로 회전되면서 3D센서의 빔이 전신에 조사되어 3차원의 신체측정이 이뤄지도록 한 특징이 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e008c720b681ece70ef175ef05dea764f161ddde766cefaa03c1289a13b53a039ad64326140399c745ccdd7642d7a18072a1c9f85c6b39b21bf</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfb46727152f11076cac68025cc31382bb4c85bb8ceec357445ebce975abc4a0fe5b085f75c24beb5f90dabd48a3fa767f6beba7b6406dc9a1</ThumbnailPath>
+				<SerialNumber>18</SerialNumber>
+				<InventionName>3D센서를 이용한 스캐너 시스템</InventionName>
+				<InternationalpatentclassificationNumber>A61B 5/107|A61B 5/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20160907</OpeningDate>
+				<OpeningNumber>1020160105598</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20130530</ApplicationDate>
+				<ApplicationNumber>1020130061445</ApplicationNumber>
+				<Abstract>본 발명은 척추의 수직 및 어깨의 수평이 바른 자세가 되도록 족압의 분포를 조정하고 이때의 발판 기울기 데이터로 인체의 특성에 맞는 인솔(insole)을 제작함으로써, 간단한 구성의 족형 측정 장치로 인솔 제작 전에 사용자에 맞는 입체적인 인솔의 형태를 수치화하여 족부관련 근골격 변화를 예방하고 개인의 족형에 최적화 된 신발형태 및 모양을 제시할 수 있는 맞춤형 인솔제작 시스템에 관한 것이다.  이를 위하여 본 발명은 사용자가 올라서는 한쌍의 발판들에는 족압을 측정하기 위한 압력측정판이 각각 구비되고, 상기 발판들의 밑면에는 발판의 기울기를 조정하는 기울기조절수단이 구비되며, 상기 발판들의 전면 및 측면에는 발판의 기울기를 측정하는 전후기울기센서 및 좌우기울기센서가 각각 구비된 족형 측정장치; 인솔을 필요로 하는 사용자가 상기 압력측정판에 올라서면 초기의 족압 분포가 측정되고, 이때의 초기 족압 분포값을 저장부에 기록하고, 상기 발판을 기울기조절수단으로 조절하여 사용자의 척추 및 어깨를 수직 및 수평에 근접되게 조절하고 이때의 교정된 족압 분포값을 측정하여 저장부에 기록하며; 상기 초기 및 교정된 족압 분포값을 족압비교판단부에서 비교하여 이를 제어부로 보내고, 상기 발판의 기울기값을 상기 전후 및 좌우기울기센서들에서 측정하여 이 값을 상기 제어부로 보내면, 상기 제어부는 족압의 변화된 분포값 및 발...(이하생략)</Abstract>
+				<DrawingPath></DrawingPath>
+				<ThumbnailPath></ThumbnailPath>
+				<SerialNumber>19</SerialNumber>
+				<InventionName>맞춤형 인솔제작 시스템</InventionName>
+				<InternationalpatentclassificationNumber>A43B 7/28|A43D 1/02|B29D 35/12|A61B 5/103</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20140926</PublicDate>
+				<RegistrationDate>20140922</RegistrationDate>
+				<RegistrationNumber>1014454880000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20220223</ApplicationDate>
+				<ApplicationNumber>1020220023660</ApplicationNumber>
+				<Abstract>본 발명은 신발 자동 공급 시스템 및 이를 위한 키오스크 신발 중계 플랫폼에 관한 것이고, 구체적으로 키오스크 장치와 연결된 3D 스캐너에 의하여 획득된 3D 데이터에 기초하여 신발의 주문 및 공급이 자동으로 이루어지도록 하는 신발 자동 공급 시스템 및 이를 위한 키오스크 신발 중계 플랫폼에 관한 것이다. 신발 자동 공급 시스템 및 이를 위한 키오스크 신발 중계 플랫폼은 수요자(C) 또는 공급자(S)가 접근 가능한 키오스크 장치(11); 키오스크 장치(11)와 데이터 통신이 가능하도록 연결되고, 발의 스캔에 의하여 3D 스캔 데이터를 생성하는 3D 스캐너(12); 및 서로 다른 위치에 배치된 다수 개의 키오스크 장치를 관리하는 중계 플랫폼(13)을 포함하고, 상기 키오스크 장치(11)는 3D 스캔 데이터로부터 신발 라스트 데이터를 생성한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93e087df63e3ca838559138bdd9959ffc810d3e8de42eb55252d4adefec85537bdafcd9eff1bbd47a1c4a8d5e0e90711082312b2fe4e83cf0a</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf2a3d36a2591796fcabc620844bf88d6933227d5f03953f5d4e6aad28c416afd65a0ec9cc8c6415f0d05bcb21050806ecaf7752223d1eff09</ThumbnailPath>
+				<SerialNumber>20</SerialNumber>
+				<InventionName>신발 자동 공급 시스템 및 이를 위한 키오스크 신발 중계 플랫폼</InventionName>
+				<InternationalpatentclassificationNumber>G06Q 30/06|G06Q 20/18|A43D 1/02|G06Q 50/04</InternationalpatentclassificationNumber>
+				<OpeningDate>20220314</OpeningDate>
+				<OpeningNumber>1020220031873</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20211130</ApplicationDate>
+				<ApplicationNumber>1020210168751</ApplicationNumber>
+				<Abstract>본 발명의 실시예에 따른 학용품 고정 필통은 학용품을 수용할 수 있는 내부 공간이 마련되고 원통 형상을 가지는 수용부; 상기 수용부의 내부 벽면에 연결되어 격자 형상인 중간고정망; 및 상기 수용부의 상면에 지퍼로 연결되는 내부공간을 갖는 뚜껑부를 포함한다.  상기 중간고정망은 수용부의 내부 벽면과 지퍼로 연결되어 수용부와의 결합면적을 조절할 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93a4c5ae95f13d7fe78ef8ba23a56f089858d9e711d99b9bc9596cd09654d0244b53e27a81584c87c9e21de150fd3f2b0c78b7627d3f5274db</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf3cba01d213c05eb29f3f9ae1d3eaf357f5d51127eba9b5cbfdd6a48a5c6a3494f870472d279e286276bb8e785d613b76decc1805c6a2d033</ThumbnailPath>
+				<SerialNumber>21</SerialNumber>
+				<InventionName>학용품 고정 가능한 다용도 필통</InventionName>
+				<InternationalpatentclassificationNumber>A45C 11/34</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20220628</PublicDate>
+				<RegistrationDate>20220623</RegistrationDate>
+				<RegistrationNumber>1024138610000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20220427</ApplicationDate>
+				<ApplicationNumber>1020220052218</ApplicationNumber>
+				<Abstract>본 발명은 족부 3D 스캐닝 오차 보정 방법 및 그에 의한 족부 3D 모델 생성 방법에 관한 것이다. 족부 3D 스캐닝 오차 보정 방법은 레이저 및 카메라의 위치가 설정되는 단계; 레이저 및 카메라가 미리 설정된 경로를 따라 이동되는 단계; 이동에 따른 레이저 및 카메라의 상부 및 하부 변위가 탐지되는 단계; 탐지 결과에 따라 레이저 또는 카메라의 위치가 보정되는 단계; 탐지된 상부 및 하부의 변위에 따른 각각의 개별 좌표계가 설정되는 단계; 각각의 개별 좌표의 일치 여부가 확인되는 단계; 및 확인 결과에 따라 공통 좌표계가 생성되는 단계를 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93849d30ec9042998663c6c5c8644b2340c778c0266737b6c3696c0423d8cc983d4636f60ca1067c7000958d0d0fe20c09aefb57de8184aeb6</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf5befe351e29e6ebf6ec494da2b81605c1dab2a26559cdfb287c05130a1a7a72d24d53e1140ef6310ef0e1dba8686e1635e7f407097bc2ede</ThumbnailPath>
+				<SerialNumber>22</SerialNumber>
+				<InventionName>족부 3D 스캐닝 오차 보정 방법 및 그에 의한 족부 3D 모델 생성 방법</InventionName>
+				<InternationalpatentclassificationNumber>G01B 11/25|G01B 11/03|G06T 7/30|G06T 17/30|A43D 1/02</InternationalpatentclassificationNumber>
+				<OpeningDate>20220510</OpeningDate>
+				<OpeningNumber>1020220058878</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20230504</PublicDate>
+				<RegistrationDate>20230428</RegistrationDate>
+				<RegistrationNumber>1025287770000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20200625</ApplicationDate>
+				<ApplicationNumber>1020200077662</ApplicationNumber>
+				<Abstract>본 발명은 건강 진단 기초 3D 스캔 방식의 신발 제조 시스템에 관한 것이고, 구체적으로 신발의 제조를 위한 발의 스캐닝 과정에서 발과 관련된 건강 상태 또는 자세 교정을 위한 진단이 가능한 건강 진단 기초 3D 스캔 방식의 신발 제조 시스템에 관한 것이다. 건강 진단 기초 3D 스캔 방식의 신발 제조 시스템은 발의 3D 형상의 생성을 위한 적어도 하나의 3D 스캐너(11);3D 스캐너(11)에서 탐지된 정보를 분석하는 질환 분석 유닛(121), 발의 형상을 분석하는 형태 분석 유닛(122) 및 자세를 분석하는 자세 분석 유닛(123)으로 이루어진 분석 모듈(12); 분석 모듈(12)로부터 전송된 분석 정보에 기초하여 발의 형상을 생성하는 형상 모델링 모듈(13); 분석 모듈(12)로부터 전송된 분석 정보에 기초하여 신체의 중심을 결정하는 중심 모델링 모듈(14); 및 형상 모델링 모듈(13)과 중심 모델링 모듈(14)로부터 전송된 정보에 기초하여 발의 형상과 자세 교정을 위한 신발을 디자인하는 맞춤형 디자인 모듈(15)을 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00e82fdb144fccf13911748060f67596d880f508254de7ac71126b410cee876a0e6e45dbb3c120a8c09e39fa8544762776eb333d028455bd01</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfd4f80ad81e6736060ced6dfe4b3b187870ca442c7b1d1c8a994c59cfbbc52a3a387b257603880a45a856f245671023d09fd205be792aeb89</ThumbnailPath>
+				<SerialNumber>23</SerialNumber>
+				<InventionName>건강 진단 기초 3D 스캔 방식의 신발 제조 시스템</InventionName>
+				<InternationalpatentclassificationNumber>A43D 1/02|A43D 1/08|A61B 5/107|A61B 5/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20200701</OpeningDate>
+				<OpeningNumber>1020200078459</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20180316</ApplicationDate>
+				<ApplicationNumber>1020180030789</ApplicationNumber>
+				<Abstract>본 발명은 건강 진단 기초 3D 스캔 방식의 신발 제조 시스템에 관한 것이고, 구체적으로 신발의 제조를 위한 발의 스캐닝 과정에서 발과 관련된 건강 상태 또는 자세 교정을 위한 진단이 가능한 건강 진단 기초 3D 스캔 방식의 신발 제조 시스템에 관한 것이다. 건강 진단 기초 3D 스캔 방식의 신발 제조 시스템은 발의 3D 형상의 생성을 위한 적어도 하나의 3D 스캐너(11);  3D 스캐너(11)에서 탐지된 정보를 분석하는 질환 분석 유닛(121), 발의 형상을 분석하는 형태 분석 유닛(122) 및 자세를 분석하는 자세 분석 유닛(123)으로 이루어진 분석 모듈(12); 분석 모듈(12)로부터 전송된 분석 정보에 기초하여 발의 형상을 생성하는 형상 모델링 모듈(13); 분석 모듈(12)로부터 전송된 분석 정보에 기초하여 신체의 중심을 결정하는 중심 모델링 모듈(14); 및 형상 모델링 모듈(13)과 중심 모델링 모듈(14)로부터 전송된 정보에 기초하여 발의 형상과 자세 교정을 위한 신발을 디자인하는 맞춤형 디자인 모듈(15)을 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0071d622f405f97f68009a808e1983e2c0a1599355630711bf9224e69dbe585b88c6ba6897ff644d56052a7329d070d5ea99e7258b4507fc7e</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfb3a9a292a23e421fba4c8de4b82f6ff96a0763815bb3fa5b2ee454b37af4ef1e2050d995c96d31e4d6a55eb9f6911a177d4d89a3fe151ac4</ThumbnailPath>
+				<SerialNumber>24</SerialNumber>
+				<InventionName>건강 진단 기초 3D 스캔 방식의 신발 제조 시스템</InventionName>
+				<InternationalpatentclassificationNumber>A43D 1/02|A43D 1/08|A61B 5/107|A61B 5/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20190925</OpeningDate>
+				<OpeningNumber>1020190109000</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20191218</ApplicationDate>
+				<ApplicationNumber>1020190170136</ApplicationNumber>
+				<Abstract>본 발명은 지능형 3D 모델 기초 방식의 발 건강 관리 시스템에 관한 것이다. 발 건강 관리 시스템은 2D 또는 3D 이미지로부터 3D 모델 데이터를 생성하는 3D 모델 데이터 생성 모듈(11); 3D 모델 데이터의 다양한 부분에 대한 수치 또는 유형을 분석하여 수치 및 형상 데이터를 생성하는 수치/유형 분석 모듈(12); 생성된 수치 및 형상 데이터로부터 3D 지능 모델을 생성하고, 생성된 3D 지능 모델로부터 발 또는 발과 관련된 인체의 건강 상태를 진단하는 3D 지능 모델링/진단 모듈(13); 및 진단 결과에 따라 건강을 위한 예방 또는 치료 방법을 제공하는 질환 예방/치료 관리 모듈(14)을 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93819c6a83aa19ed5bc799a0ac5ad938d9edab7cf48ea57ae5f39e5e510c4a678b33d9d483cd971f88a4c38554d1dd6943c3d7b45798b651fd</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfd0d9a590b7e76539161bac4b70e70238e7b1631f3942975e3dfba8b3d94f41e1e04b7ef69ab079fee9fdf35a457c9db75ac4cbe87f4b87ea</ThumbnailPath>
+				<SerialNumber>25</SerialNumber>
+				<InventionName>지능형 3D 모델 기초 방식의 발 건강 관리 시스템</InventionName>
+				<InternationalpatentclassificationNumber>A61B 5/107|A61B 5/00|G16H 50/20|A43D 1/02</InternationalpatentclassificationNumber>
+				<OpeningDate>20210628</OpeningDate>
+				<OpeningNumber>1020210078274</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20220103</PublicDate>
+				<RegistrationDate>20211228</RegistrationDate>
+				<RegistrationNumber>1023460950000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20211230</ApplicationDate>
+				<ApplicationNumber>1020210192949</ApplicationNumber>
+				<Abstract>본 발명은 건강 진단 기초 3D 스캔 방식의 신발 제조 시스템에 관한 것이고, 구체적으로 신발의 제조를 위한 발의 스캐닝 과정에서 발과 관련된 건강 상태 또는 자세 교정을 위한 진단이 가능한 건강 진단 기초 3D 스캔 방식의 신발 제조 시스템에 관한 것이다. 건강 진단 기초 3D 스캔 방식의 신발 제조 시스템은 발의 3D 형상의 생성을 위한 적어도 하나의 3D 스캐너(11);3D 스캐너(11)에서 탐지된 정보를 분석하는 질환 분석 유닛(121), 발의 형상을 분석하는 형태 분석 유닛(122) 및 자세를 분석하는 자세 분석 유닛(123)으로 이루어진 분석 모듈(12); 분석 모듈(12)로부터 전송된 분석 정보에 기초하여 발의 형상을 생성하는 형상 모델링 모듈(13); 분석 모듈(12)로부터 전송된 분석 정보에 기초하여 신체의 중심을 결정하는 중심 모델링 모듈(14); 및 형상 모델링 모듈(13)과 중심 모델링 모듈(14)로부터 전송된 정보에 기초하여 발의 형상과 자세 교정을 위한 신발을 디자인하는 맞춤형 디자인 모듈(15)을 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93a69898d34b0fd3dcea7a4125a830838825aee9d74307af64c3838dd5770da4df2bc6f4cf2185f317a2eb9fe5b1b2ac59bb383ddc803a8a56</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf8d6e137110c5768d5c8f476cd80718e65f89d0387d3662a06e9681ae94e243bc8d74c1f1eef078dd6e79c36fdc6c813fd16bd103ab39d35c</ThumbnailPath>
+				<SerialNumber>26</SerialNumber>
+				<InventionName>건강 진단 기초 3D 스캔 방식의 신발 제조 시스템</InventionName>
+				<InternationalpatentclassificationNumber>A43D 1/02|A43D 1/08|A61B 5/107|A61B 5/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20220110</OpeningDate>
+				<OpeningNumber>1020220003496</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20140213</ApplicationDate>
+				<ApplicationNumber>1020140016474</ApplicationNumber>
+				<Abstract>본 발명은 슬관절의 상,하부를 견고하게 고정시킨 상태에서 조임밴드로 대퇴골을 감싸 허리에 묶어주되 몸의 뒤쪽에는 상기 조임밴드와 연결되어 천추를 받쳐주고 골반이 바른 자세로 정렬되도록 하는 수단을 마련함으로써, 휜다리의 교정시 골반도 함께 교정되도록 한 휜다리 교정기에 관한 것이다.  이를 위하여 본 발명은 슬관절의 상,하부에 감기는 하부고정부재 및 상부고정부재, 그리고 상부고정부재에서 연장되어 대퇴골이 있는 다리를 감은 뒤 허리에서 묶여 상기 하부 및 상부고정부재를 당기고 슬관절이 바르게 펴지도록 하는 상부조임밴드로 구성된 휜다리 교정기에 있어서, 상기 하부고정부재는 연결부재를 통하여 상기 상부고정부재와 일체로 구성되고, 상기 하부고정부재는 고리 형태로 구성되어 다리에 끼워지며, 하부고정부재에서 연장된 하부조임밴드는 하부고정부재에 감겨서 슬관절의 하부를 강하게 압박하도록 한 특징이 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e007d983aafa556435a2aae6cdf0e216cb5eab6ce0ebde5088bb17d8070e8060a32982331139b7b5467a63f4f392effdb6ab87819b6b8457541</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfc38ec1abbc996c481a28223874071bbc88be13965263a6331bf5b4233bf6a6e1e45c37636bc5fd36052b4dda5251013fae6ab4403b9d7182</ThumbnailPath>
+				<SerialNumber>27</SerialNumber>
+				<InventionName>휜다리 교정기</InventionName>
+				<InternationalpatentclassificationNumber>A61F 5/05|A61F 5/04</InternationalpatentclassificationNumber>
+				<OpeningDate>20150821</OpeningDate>
+				<OpeningNumber>1020150095315</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20220630</ApplicationDate>
+				<ApplicationNumber>1020220080355</ApplicationNumber>
+				<Abstract>본 발명은 족부 진단 서비스 제공을 위한 플랫폼에 관한 것이다. 족부 진단 서비스 제공을 위한 플랫폼은 발의 형상과 관련된 데이터가 저장된 형상 표준 데이터베이스(11a); 발과 관련된 질환에 대한 데이터가 저장된 발 질환 표준 데이터베이스(11b); 발의 형상 및 상태에 대한 스캔 데이터를 획득하는 스캔 데이터 모듈(12); 스캔 데이터 모듈(12)에 의하여 획득된 형상 및 상대에 대응되는 형상 표준 데이터 및 상태 표준 데이터를 탐색하는 인공지능 매칭 모듈(13); 인공지능 매칭 모듈(13)에 의하여 탐색된 표준 데이터와 스캔 데이터 모듈(13)에 의하여 획득된 측정 데이터를 분석하여 측정된 발의 상태를 진단하는 분석/진단 모듈(14); 및 분석/진단 모듈(14)에 의하여 진단된 결과에 따라 교정 또는 치료 수단을 제시하는 교정/치료 선택 모듈(15)을 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9391f206647cd995242bba93ede9bd592f1b136831db5f26df8d5dd467dfe659fb1ffc2baa41e4b46a620bcb1ffb292908693458634e110508</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfe1bfdc5bf9d97ec639d75a87e2d08c4c4803e1a1830e37e07e31337e7386ca9260949f0080afd3b224a71f71021a67dca861fb3747ad57de</ThumbnailPath>
+				<SerialNumber>28</SerialNumber>
+				<InventionName>족부 진단 서비스 제공을 위한 플랫폼</InventionName>
+				<InternationalpatentclassificationNumber>A61B 5/107|A61B 5/00|A61B 5/103|G16H 50/20|G16H 20/30</InternationalpatentclassificationNumber>
+				<OpeningDate>20240108</OpeningDate>
+				<OpeningNumber>1020240003191</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>공개</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20200325</ApplicationDate>
+				<ApplicationNumber>1020200036251</ApplicationNumber>
+				<Abstract>본 발명은 키오스크 방식의 3D 신발 공급 시스템에 관한 것이고, 구체적으로 3D 스캔 데이터로부터 신발의 제조 공정이 자동화 과정으로 진행되도록 하는 키오스크 방식의 3D 신발 공급 시스템에 관한 것이다. 키오스크 방식의 3D 신발 공급 시스템은 레이저 유닛과 카메라로부터 발의 스캔 데이터를 생성시키는 3D 스캐너(11); 3D 스캐너(11)와 데이터 통신이 가능하도록 연결되고, 3D 스캐너(11)로부터 획득된 스캔 데이터를 디스플레이를 하는 윈도우(121) 및 작동 수단을 가지는 키오스크 모듈(12); 3D 스캐너(11)에서 획득된 스캔 데이터로부터 신발 라스트를 생성하는 라스트 생성 모듈(13); 및 발의 스캔 데이터의 생성으로부터 라스트 생성 과정을 관리하는 관리 플랫폼(14)을 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93e03e90150e7dc18b83169d72f1cc15f1ceefa0e0d1f00c9bd0c9bca60539ece3ffc158ba3a149160b6e3036f0802cefcd455f1c0c147574a</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfb14b5a9ddce1e063bf6eff9e5188cf0f039d3ac73990813f27e45e0fe198e2cdfa20d342d0e5e884779d28e8719767944216a24bb7dd90a9</ThumbnailPath>
+				<SerialNumber>29</SerialNumber>
+				<InventionName>키오스크 방식의 3D 신발 공급 시스템</InventionName>
+				<InternationalpatentclassificationNumber>G06Q 30/06|G06Q 50/04</InternationalpatentclassificationNumber>
+				<OpeningDate>20200331</OpeningDate>
+				<OpeningNumber>1020200034708</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20220224</PublicDate>
+				<RegistrationDate>20220221</RegistrationDate>
+				<RegistrationNumber>1023672190000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20120131</ApplicationDate>
+				<ApplicationNumber>1020120009364</ApplicationNumber>
+				<Abstract>본 발명은 발바닥의 아치 형태 및 면적분포, 발뒷꿈치와 발등의 형상 및 무릎의 형상(오다리, 휜다리 및 X다리)을 정확하게 측정 기록하기 위하여 스캐너로 발바닥을 측정함과 동시에 하나의 카메라로 발뒷꿈치, 발등 및 무릎형상을 단계별로 촬영할 수 있도록 함으로써, 장치가 저렴하고 간소화되며 또한 발바닥과 발 및 무릎의 형상이 정확하게 측정되므로 교정효과를 높일 수 있는 족형 및 무릎형상 측정장치에 관한 것이다.  이를 위하여 본 발명은 투명 발판을 갖는 본체의 내부에 빔발생기가 구비되어 왕복이동되면서 발바닥을 스캔하고, 상기 본체의 외부에는 카메라로 발 및 무릎의 형상을 촬영하도록 구성된 족형 및 무릎형상 측정장치에 있어서, 상기 본체의 상부 전방에 모터로 회전되는 카메라가 구비되어 4단계의 구분동작으로 회전되면서 발뒷꿈치, 발바닥, 발등 및 무릎을 촬영하되, 1단계로 상기 카메라가 회전되면 상기 본체의 내부 양쪽에 마련된 제1뒷꿈치반사경 및 제2뒷꿈치반사경과 상기 본체의 후방 상부에 마련된 제3뒷꿈치반사경에 의해 비추어진 발뒷꿈치가 촬영되고, 2단계로 상기 카메라가 회전되면 상기 본체의 내부 바닥에 놓인 발바닥반사경에 의해 비추어진 발바닥이 촬영되며, 3단계로 상기 카메라가 회전되면 상기 발등이 촬영되고, 4단계로 상기 카메라가 회전되면 상기 무릎이 촬영되도록 한 특징이 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00ca297198460e9667e80c0c58a2f4b39cd743f17818e7089e92aa23d5730038cda471a382359481c2ce890d6451b4c68b9ca396b4798951cc</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf9ea04035ec89f89e3ef0e3cce15da9c3f997cd9f499f9e12485efbeb8ec41cd76d83e25ef62e66477e31729cab9a364ec3ae02044ca001d8</ThumbnailPath>
+				<SerialNumber>30</SerialNumber>
+				<InventionName>족형 및 무릎형상 측정장치</InventionName>
+				<InternationalpatentclassificationNumber>A61B 5/107|A43D 1/02</InternationalpatentclassificationNumber>
+				<OpeningDate>20130808</OpeningDate>
+				<OpeningNumber>1020130088248</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20131217</PublicDate>
+				<RegistrationDate>20131211</RegistrationDate>
+				<RegistrationNumber>1013425450000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20070522</ApplicationDate>
+				<ApplicationNumber>1020070049636</ApplicationNumber>
+				<Abstract>본 발명은 측만증 환자를 세운 상태에서 전,후방의 양측 겨드랑이부분과 골반부분을 패드로 각각 2점지지하고, 양 측면은 패드로 허리부분을 각각 1점지지하는 식으로 하여 환자의 좌,우 양측을 3점압 원리로 눌러 척추의 바른 체형이 유지되도록 하되, 전방과 후방의 패드를 원호상으로 이동시키면서 패드의 누름 위치를 입체적으로 조정하여 측만증 환자뿐만 아니라 후만증, 전만증 및 회전변형증 환자 모두의 바른 체형을 석고로 본뜰 수 있도록 한 다기능의 척추 측만증 보조기용 체형장치에 관한 것이다.  이를 위하여 본 발명은 환자를 기준으로 전방의 좌우 양측 및 후방의 좌우 양측으로 두개가 한조를 이루는 한 쌍식의 전방기둥 및 후방기둥들이 구비되고, 환자의 좌우 양측에는 측면기둥이 각각 구비되며, 상기 전방기둥 및 후방기둥들에는 환자를 원호상으로 감싸는 전방좌,우측레일 및 후방좌,우측레일들이 구비되고, 상기 레일들에는 환자의 전,후방 좌,우측 겨드랑이부분과 전,후방 좌,우측 골반부분을 패드로 누르는 나사축이 위치조정가능하게 연결 구비되며, 상기 측면기둥들에는 환자의 양측 허리부분을 패드로 누르는 나사축이 높이조절 가능하게 연결 구비되도록 구성되어 있다.  나사축, 패드, 전방기둥, 후방기둥, 측면기둥, 좌측레일, 우측레일</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726188941099553ce606550f7666c06943781c26cace1f54cd39ddbd68d06c3dd4fef56caed8297ff8163f5ca017dd3d2b175a576d2e3da7495</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf6846d71131ba5b24b98d86381f45f3b4275e775bf38b78a420bfec422d915b0dbc39a6b8b9bcb48e1417f2d770faacb8fe173fa6a2ce63f6</ThumbnailPath>
+				<SerialNumber>31</SerialNumber>
+				<InventionName>척추 측만증 보조기용 체형장치</InventionName>
+				<InternationalpatentclassificationNumber>A61F 5/042|A61H 1/02</InternationalpatentclassificationNumber>
+				<OpeningDate>20081126</OpeningDate>
+				<OpeningNumber>1020080102765</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20100204</PublicDate>
+				<RegistrationDate>20100128</RegistrationDate>
+				<RegistrationNumber>1009407290000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20181116</ApplicationDate>
+				<ApplicationNumber>1020180141285</ApplicationNumber>
+				<Abstract>본 발명은 발 상태 탐지 구조의 신발 인솔 제조 시스템에 관한 것이고, 구체적으로 3D 스캔 데이터에 기초하여 각각의 발의 형상에 적합하면서 이와 동시에 보행 상태를 탐지하여 발과 관련된 건강 상태의 진단이 가능한 발 상태 탐지 구조의 신발 인솔 제조 시스템에 관한 것이다. 발 상태 탐지 구조의 신발 인솔 제조 시스템은 레이저 스캐너(111)와 카메라(112)로 이루어진 3D 스캔 장치(11); 3D 스캔 장치(11)로부터 전송된 정보에 기초하여 보행 습관의 탐지를 위한 탐지 영역을 설정하는 탐지 영역 설정 모듈(12); 3D 스캔 장치(11)의 스캔 데이터 및 탐지 영역 설정 모듈(12)의 탐지 영역에 기초하여 3D 스캔 데이터를 생성하는 3D 스캔 데이터 모듈(14); 설정된 탐지 영역에 대한 형상 및 소재 특성에 기초하여 형상을 결정하는 형상 데이터 모듈(15); 및 형상 데이터 모듈(15)의 데이터에 기초하여 3D 인솔 모델을 생성하는 인솔 3D 모델 모듈(16)을 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e004e938555fe3fdf0081e32342c1dcdf1fa189f76f650f2fb980e34b126e06e68414e6ac94505d62279479b5306b9278db965f5b30b9649608</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf76830a53936149921556b44c5b0b4f23f1f6fd4ca9a2ac264250fb360f030d56bbca7c331f82c3365c1daac3d2362630a28fedcf5931d986</ThumbnailPath>
+				<SerialNumber>32</SerialNumber>
+				<InventionName>발 상태 탐지 구조의 신발 인솔 제조 시스템</InventionName>
+				<InternationalpatentclassificationNumber>A43D 1/02|B29D 35/12|A43D 1/08|A43B 17/00|G06Q 50/04</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20191205</PublicDate>
+				<RegistrationDate>20191129</RegistrationDate>
+				<RegistrationNumber>1020525660000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20190429</ApplicationDate>
+				<ApplicationNumber>1020190049921</ApplicationNumber>
+				<Abstract>본 발명은 IOT 기반 지능형 감염 관리 시스템에 관한 것이고, 구체적으로 청정 상태의 유지가 요구되는 공간에 배치된 탐지 모듈 및 외부 환경 탐지 모듈에서 탐지된 정보에 기초하여 자동적으로 청정 상태가 유지되도록 하는 IOT 기반 지능형 감염 관리 시스템에 관한 것이다. IOT 기반 지능형 감염 관리 시스템은 제어 공간(10)의 환경 분위기를 탐지하는 센서 모듈(11); 센서 모듈(11)로부터 탐지된 정보를 분석하는 탐지 분석 유닛(13); 제어 공간(10)에 대한 환경 설정 기준에 따라 기준 지표 데이터 생성 유닛(14a)으로부터 생성된 기준 기표 데이터와 탐지 정보를 비교하여 적용 지표 데이터를 생성하는 비교/설정 유닛(14); 상기 적용 지표 데이터에 따라 제어 공간(10)이 미리 결정된 조건을 가지도록 관리하는 통합 관리 모듈(30); 상기 적용 지표 데이터에 따른 환경의 변화를 위한 최적 인자를 탐색하는 최적 인자 선택 유닛(15); 및 상기 최적 인자에 따라 작동되는 클리닝 모듈(12)을 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00752360e5dd502a411a11ad73927537dd7893d379be0c58e4c88d5c5da71a3a8bc9305ecaacb8a02f3033bb244403c8a0371d785e07b9ce8e</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf1cc05daa0dac3841d68ec18c22c906fddfa9a1717e2067982b493d778c86a3455f2de538cae87a9b74ecfdfa6408c0ebadb0ef4915af833c</ThumbnailPath>
+				<SerialNumber>33</SerialNumber>
+				<InventionName>IOT 기반 지능형 감염 관리 시스템</InventionName>
+				<InternationalpatentclassificationNumber>G06Q 50/22|H04L 65/40|G06Q 50/26|G06Q 50/10</InternationalpatentclassificationNumber>
+				<OpeningDate>20190507</OpeningDate>
+				<OpeningNumber>1020190046749</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>취하</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20150520</ApplicationDate>
+				<ApplicationNumber>1020150070120</ApplicationNumber>
+				<Abstract>본 발명은 재활운동의 단계별 진행과정을 3D센서로 측정하여 척추측만증, 사지기형 및 비만정도의 진행정도를 측정하고, 체형에 맞는 운동을 지속적으로 처방함으로써, 운동기구를 통한 재활운동으로 체형에 변화를 주고 지속적인 3D측정으로 정확한 진단 및 체형의 교정이 이뤄지도록 한 3D센서를 이용한 재활운동 분석시스템에 관한 것이다.  이를 위하여 본 발명은 3D센서로 측정된 사용자의 체형정보는 제어부를 통하여 저장부에 기록되고; 상기 저장부에 기록된 사용자의 체형을 분석하여 척추측만증, 비만체형 및 사지기형을 판단하는 체형분석부가 구비되며; 상기 체형분석부의 체형분석에 따라 승마기구를 좌우측, 상하측 및 복합팔자형으로 운동시키는 승마운동비교부가 구비되고; 사용자의 재활과정에서 변화된 체형은 상기 3D센서로 측정하여 체형의 변화를 상기 체형분석부에서 측정하고, 상기 저장부에 기록된 이전 체형과 비교하여 체형의 변화를 분석하는 특징이 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c930d27344f869d3b6ab10aef0673a7265658b56c4da3a9914f0047fd89aa54553cdc87da75ae50336dfb775018c9bd9c4a2eff1d936ab9d05a</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfb42d9f1cbb77fee67d35d41d85f38d104a5221501e0b3abe243d645053c30735d58a41d6abd3f43e3a60536b0f8be605eacbb10ee8ab56f1</ThumbnailPath>
+				<SerialNumber>34</SerialNumber>
+				<InventionName>3D센서를 이용한 재활운동 분석시스템</InventionName>
+				<InternationalpatentclassificationNumber>G16H 20/30|G16H 50/30|A61B 5/107</InternationalpatentclassificationNumber>
+				<OpeningDate>20161201</OpeningDate>
+				<OpeningNumber>1020160137698</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20210817</PublicDate>
+				<RegistrationDate>20210809</RegistrationDate>
+				<RegistrationNumber>1022898040000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20110928</ApplicationDate>
+				<ApplicationNumber>1020110098155</ApplicationNumber>
+				<Abstract>본 발명은 개개인의 병적 증상과 인체의 특성에 맞는 인솔(insole) 제작 및 최적의 신발 구매를 위한 3D족형 측정 장치를 개발하여 족부에 가해지는 압력과 족부의 형태만을 알 수 있는 아날로그 식 측정 장치를 보안하여 인솔 제작 전에 입체적인 인솔의 형태, 위치를 수치화하여 족부관련 근골격 변화를 예측할 수 있으며 신발구입 시 개인의 족형에 최적화 된 신발형태 및 모양을 제시할수 있는 3D족형 측정 장치 및 데이터 제공 소프트웨어를 제공하는 인솔제작 시스템에 관한 것이다.  이를 위하여 본 발명은 3D스캐너로 발의 이미지를 생성하고 이를 저장하는 단계; 발의 족압을 측정하고 이를 저장하는 단계; 상기 단계들의 데이터를 기반으로 족부관련 질환을 판단하는 단계; 상기 단계들의 데이터를 기반으로 인솔을 설계하는 단계; 그리고 상기 설계된 인솔 데이터를 CNC로 전송하여 인솔을 제작하는 단계들로 이루어진 특징이 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf7261aee8c160fd9ca851edf35c5459b51e58038cfc7e59e51e8e6977126504c386ac108d893d2c2904d76961c2d9729e66a4e5e579f136e1cf9</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf91721d53e7b4b83bcc4386c3ae5271a248f1666ef90cb41d81820067b5499befdd890fd68223e046bdf7c2688e75cb7db1c230c8dcccbda8</ThumbnailPath>
+				<SerialNumber>35</SerialNumber>
+				<InventionName>인솔제작 시스템</InventionName>
+				<InternationalpatentclassificationNumber>A43B 7/28|A43B 17/00|A43D 39/00|B29D 35/12|H04W 4/16|A43D 1/02</InternationalpatentclassificationNumber>
+				<OpeningDate>20130405</OpeningDate>
+				<OpeningNumber>1020130034250</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20220222</ApplicationDate>
+				<ApplicationNumber>1020220022891</ApplicationNumber>
+				<Abstract>본 발명은 멀티 스캐닝 데이터 기반 신체 교정기 제조 시스템 및 그에 의한 교정기의 제조 방법에 관한 것이다. 멀티 스캐닝 데이터 기반 신체 교정기 제조 시스템은 복수의 방향에서 인체를 스캔을 하여 스캔 정보를 생성하는 다중 3D 스캔 모듈; 다중 3D 스캔 모듈로부터 획득된 스캔 정보를 처리하여 복수의 방향 각각에 대한 스캔 데이터를 생성하는 다점 전신 스캔 데이터 모듈; 복수의 방향 각각에 대한 스캔 데이터 각각을 서로 정합시켜 3D 모델을 생성하는 정합 및 3D 모델 생성 모듈; 생성된 3D 모듈로부터 교정기 모델을 생성하는 교정기 모델 생성 모듈; 및 교정기 모델로부터 교정기를 가공하는 교정기 가공 모듈을 포함하고, 3D 모델은 상기 인체가 취한 현재 자세와 연관된 현재 상태 모델 및 상기 현재 자세와 다른 하나 이상의 자세와 연관된 가상 상태 모델을 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c936a9b5a1d49b4e8451319ed821e9066db43370bb5b92d0ce5f061c6d89037e8d7760dc07da0c6f87adf3fb2d5006b73c214ebb6bf16414014</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfd827885b592c67312068f27c15c9c147a05c932f5e2602ceafe39a4c49f096d3dc262a9b071b325847772aea310f5ae984786cd521dcf2e7</ThumbnailPath>
+				<SerialNumber>36</SerialNumber>
+				<InventionName>멀티 스캐닝 데이터 기반 신체 교정기 제조 시스템 및 방법</InventionName>
+				<InternationalpatentclassificationNumber>A61F 5/01|A61F 5/058|A61B 5/00|A61B 5/107|B29C 64/386|B33Y 10/00|B33Y 80/00|B33Y 50/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20230829</OpeningDate>
+				<OpeningNumber>1020230125979</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20201118</ApplicationDate>
+				<ApplicationNumber>1020200154616</ApplicationNumber>
+				<Abstract>본 발명은 족부 질환 진단용 인솔 스캐너 장치에 관한 것이다. 족부 질환 진단용 인솔 스캐너는 광 투과성을 가지는 스캔 보드(11); 스캔 보드(11)와 일체로 또는 분리 가능하도록 형성된 상태 탐지 보드(12); 및  스캔 보드(11) 또는 상태 탐지 보드(12)에 위치하는 발(F)의 형상 또는 상태의 탐지를 위한 스캔 모듈(14)을 포함하고, 상태 탐지 보드(12)에 접촉된 발의 상태를 탐지하는 다수 개의 탐지 부위(16_1 내지 16_N)가 형성된다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9329cc4da8f506ee39bf13a199348e76608c9fb697f082285c12b4e2de977ac4ff5eae02f5512b509ed9a1a4dfbc8eff34b24aaab055e6fe92</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf6591352afb17a66ac23c17ce4eb70e0171c4dc8cacc204b4d60c159db8977358fa9222cac7ef4e54902aeb5453e6a45c14ffae00ea0767de</ThumbnailPath>
+				<SerialNumber>37</SerialNumber>
+				<InventionName>족부 질환 진단용 인솔 스캐너 장치</InventionName>
+				<InternationalpatentclassificationNumber>A61B 5/103|A61B 5/107|A61B 5/11|A61F 5/14|A43B 7/14</InternationalpatentclassificationNumber>
+				<OpeningDate>20220525</OpeningDate>
+				<OpeningNumber>1020220067878</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20230210</PublicDate>
+				<RegistrationDate>20230207</RegistrationDate>
+				<RegistrationNumber>1024986650000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20201119</ApplicationDate>
+				<ApplicationNumber>1020200155654</ApplicationNumber>
+				<Abstract>본 발명은 스캔 방식의 족부 진단 데이터 생성 장치 및 이에 의한 족부 진단 서비스 제공 방법에 관한 것이다. 스캔 방식의 족부 진단 데이터 생성 장치는 내부에 스캔 모듈이 배치되고, 위쪽 면에 스캔 면이 형성된 스캔 박스(11); 스캔 박스(11)에 형성된 보조 프레임(12); 보조 프레임(12)에 결합 가능한 디스플레이(13); 및 보조 프레임(12)에 결합 가능한 이미지 획득 수단(14, 15); 및 스캔 모듈 및 이미지 획득 수단(14, 15)에 의하여 획득된 데이터의 처리를 위한 데이터 처리 모듈(193)을 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93a8eab98a08efaab543b185850287e75f17309bca7f45957c67598b10be7c4ff7bf77ab324249fd0b71309db7549ee7fc8266d59f69cf55b2</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfadc24f49216130e47aff166524169b7faa63d1a9dd2be1daa83d8557f1a42b06abe39ce6d7dfe902d96c3d55af2d8dc462cd2f48a3796669</ThumbnailPath>
+				<SerialNumber>38</SerialNumber>
+				<InventionName>스캔 방식의 족부 진단 데이터 생성 장치 및 이에 의한 족부 진단 서비스 제공 방법</InventionName>
+				<InternationalpatentclassificationNumber>A61B 5/107|A61B 5/00|G16H 40/67</InternationalpatentclassificationNumber>
+				<OpeningDate>20220526</OpeningDate>
+				<OpeningNumber>1020220068656</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>포기</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20090205</ApplicationDate>
+				<ApplicationNumber>1020090009157</ApplicationNumber>
+				<Abstract>본 발명은 3점압 원리를 이용하여 겨드랑이, 허리 및 골반을 패드로 눌러 척추를 바르게 교정하되 이들 패드를 밴드로 묶어 서로 당겨지면서 고정되도록 함으로써, 착용자의 활동성이 개선되도록 하였으며, 특히 패드에는 팽창수단을 마련하여 상기 패드와 인체 사이를 강하게 압박하여 측만증의 교정효과가 상승되도록 하였으며, 상기 밴드가 느슨해지더라도 척추의 교정에 지장이 없도록 한 척추 측만증 보조기에 관한 것이다.  이를 위하여 본 발명은 3점압 원리를 이용하여 겨드랑이 패드, 허리 패드 및 골반 패드를 다수의 밴드로 묶어 고정시킨 보조기에 있어서, 상기 겨드랑이 패드는 몸통을 감싸는 겨드랑이 밴드 및 어깨에 걸쳐지는 어깨 밴드로 고정되고, 상기 허리 패드와 겨드랑이 패드는 몸통을 사선방향으로 감싸는 허리상부 밴드로 묶이고, 상기 허리 패드와 골반 패드는 몸통을 사선방향으로 감싸는 허리하부 밴드로 묶이며, 상기 골반 패드는 다리에 묶인 다리 밴드와 골반 밴드로 연결되는 특징이 있다.  패드, 밴드, 팽창수단, 펌프, 튜브, 배기구</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf726ed278705596cb9af7bfa770c706da3e3e60520f9d3877e62488bca6a12581569ea36fec396d8dad11a6c87b933bf837eca0efa8218f7404f</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf5b98eaf255c8bd163696c0303b3a5e6c7bd54aec4a49e7e395648994a84aa5ec4a69238a06e2d51b9f3a9728d323bdc6ebf3764653468131</ThumbnailPath>
+				<SerialNumber>39</SerialNumber>
+				<InventionName>척추 측만증 보조기</InventionName>
+				<InternationalpatentclassificationNumber>A61F 5/02|A61F 5/34</InternationalpatentclassificationNumber>
+				<OpeningDate>20100813</OpeningDate>
+				<OpeningNumber>1020100089953</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20230623</ApplicationDate>
+				<ApplicationNumber>1020230081293</ApplicationNumber>
+				<Abstract>본 발명은 형상 및 상태 진단에 기초하는 교정 기능을 가진 스마트 인솔 제조 시스템에 관한 것이다. 형상 및 상태 진단에 기초하는 스마트 인솔 제조 시스템은 발의 형상 및 상태에 대한 측정 매개변수를 설정하는 측정 매개변수 설정 모듈(11); 측정 매개변수에 기초하여 발의 형상 및 상태를 스캔하여 데이터를 획득하는 스캔 데이터 획득 모듈(12); 스캔 데이터로부터 발의 상태 진단을 위한 데이터 및 인솔 제조를 위한 데이터를 생성하는 진단 및 인솔 데이터 생성 모듈(13); 및 발의 상태를 추적하는 상태 추적 정보 모듈(14)을 포함하고, 측정 매개변수는 발바닥의 접촉 면적 및 무게 중심의 결정이 가능한 매개변수를 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93bbda06d9c3edff2f5667a7a7a79028ad9c68d581567890b57694b5708b75af8ca0f86692e39eaedef68f540bc0e64ffcf84c1da5a0301921</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf31c64b0c087b500caddad11bfe126049c195199a8dc2370d69a22af8385ce3f736fdbc6de122869fad2a4145204a804c4d695963cbb03146</ThumbnailPath>
+				<SerialNumber>40</SerialNumber>
+				<InventionName>형상 및 상태 진단에 기초하는 교정 기능을 가진 스마트 인솔 제조 시스템</InventionName>
+				<InternationalpatentclassificationNumber>A43D 1/02|G01B 11/24</InternationalpatentclassificationNumber>
+				<OpeningDate>20230630</OpeningDate>
+				<OpeningNumber>1020230096954</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20170605</ApplicationDate>
+				<ApplicationNumber>1020170069525</ApplicationNumber>
+				<Abstract>본 발명은 IOT 기반 지능형 감염 관리 시스템에 관한 것이고, 구체적으로 청정 상태의 유지가 요구되는 공간에 배치된 탐지 모듈 및 외부 환경 탐지 모듈에서 탐지된 정보에 기초하여 자동적으로 청정 상태가 유지되도록 하는 IOT 기반 지능형 감염 관리 시스템에 관한 것이다. IOT 기반 지능형 감염 관리 시스템은 제어 공간(10)의 환경 분위기를 탐지하는 센서 모듈(11); 센서 모듈(11)로부터 탐지된 정보를 분석하는 탐지 분석 유닛(13); 제어 공간(10)에 대한 환경 설정 기준에 따라 기준 지표 데이터 생성 유닛(14a)으로부터 생성된 기준 기표 데이터와 탐지 정보를 비교하여 적용 지표 데이터를 생성하는 비교/설정 유닛(14); 상기 적용 지표 데이터에 따라 제어 공간(10)이 미리 결정된 조건을 가지도록 관리하는 통합 관리 모듈(30); 상기 적용 지표 데이터에 따른 환경의 변화를 위한 최적 인자를 탐색하는 최적 인자 선택 유닛(15); 및 상기 최적 인자에 따라 작동되는 클리닝 모듈(12)을 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0078017c6e610594fb5f48330fb7ab31eb06696a59fe0106e68553009ceab203980f80bc5ca6de3be609974aae68355d8a7bc97bd05c0005e2</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf349b7d93729ecec45cd85975593dd3dd20645b35f59f18c18894e7d4cafc7b68e718f8a3aa512866f510eea457abff5db6119d8554218468</ThumbnailPath>
+				<SerialNumber>41</SerialNumber>
+				<InventionName>IOT 기반 지능형 감염 관리 시스템</InventionName>
+				<InternationalpatentclassificationNumber>G16H 20/00|H04L 65/40|G06Q 50/26|G06Q 50/10</InternationalpatentclassificationNumber>
+				<OpeningDate>20181213</OpeningDate>
+				<OpeningNumber>1020180133064</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20181227</ApplicationDate>
+				<ApplicationNumber>1020180170781</ApplicationNumber>
+				<Abstract>본 발명은 교정 치료 기능을 가진 스마트 인솔 자동 제조 시스템에 관한 것이고, 구체적으로 3D 스캔 데이터에 기초하여 족부의 이상 여부를 진단하면서 교정에 적합한 구조를 가지는 인솔의 제조가 가능한 교정 치료 기능을 가진 스마트 인솔 자동 제조 시스템에 관한 것이다. 교정 치료 기능을 가진 스마트 인솔 자동 제조 시스템은 레이저 스캐너 및 영상 획득 수단에 의하여 양쪽 발을 함께 스캔하는 족부 스캐너(11); 족부 스캐너(11)로부터 전송된 데이터로부터 양쪽 발에 대한 3D 스캔 데이터를 생성하는 3D 스캔 데이터 모듈(12); 3D 스캔 데이터로부터 양쪽 발의 3D 모듈을 생성하는 3D 족부 모델 모듈(13); 생성된 3D 모듈로부터 양쪽 발의 구조를 분석하여 각각의 발의 이상 상태를 진단하는 족형 분석 진단 모듈(14); 및 족형 분석 진단 모듈(14)의 진단 결과에 기초하여 각각의 발의 교정을 위한 교정 인솔 구조를 생성하는 교정 구조 인솔 생성 모듈(15)을 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e002168463bd2cb052c68fbae136f162bc8b66273f834d34f6dc3178ad8eb325e8639cbc69de46b88a2e5279e60b69d16323e4386963e66027b</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf48ec61440ffd05ecc3af1c2e0d4a5d6032fa30fd7ad64a8578003a040da93cbfeca2b456034a7219b4a092a93c5fa0bcd4460b47b1eec1ca</ThumbnailPath>
+				<SerialNumber>42</SerialNumber>
+				<InventionName>교정 치료 기능을 가진 스마트 인솔 자동 제조 시스템</InventionName>
+				<InternationalpatentclassificationNumber>A43D 1/02</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20200422</PublicDate>
+				<RegistrationDate>20200416</RegistrationDate>
+				<RegistrationNumber>1021033320000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20210611</ApplicationDate>
+				<ApplicationNumber>1020210076315</ApplicationNumber>
+				<Abstract>본 발명은 질환 탐지 기능의 3D 스캔 시스템 및 이에 의한 인솔 제조 방법에 관한 것이다. 질환 탐지 기능의 3D 스캔 시스템은 족부에 대한 3D 스캔 데이터 및 상태 정보를 획득하는 족부 3D 진단 스캔 모듈(11); 스캔 데이터로부터 형상을 결정하는 형상 결정 모듈(12); 스캔 데이터 및 상태 정보로부터 족부의 질병을 진단하는 족부 진단 모듈(13); 인솔 제조 과정에 첨가되는 항균 성분 또는 탈취 성분을 결정하는 항균/탈취 선택 모듈(14); 진단 스캔 모듈(11)의 정보로부터 인솔 모델을 생성하는 3D 인솔 모델 모듈(15); 3D 인솔 모델의 가상 착화 상태를 생성하는 가상 착화 모듈(16); 및 가상 착화 결과에 따라 인솔을 제조하는 인솔 제조 모듈(17)을 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9307449b25b674d074a96cef37a2a5588a3a1e336a53ff832c2045f9631b31edf89554846c463fb9c9de152172c3600c3dae129e8a3fff7c2c</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf034a5c0ec3fd65b3d79bd9bed276abee56aa9e9c307c0fbfa30d3bbf52b8ea0923dda7f65cb722b505ed50f84be7b3c4adc7a8201677c266</ThumbnailPath>
+				<SerialNumber>43</SerialNumber>
+				<InventionName>질환 탐지 기능의 3D 스캔 시스템 및 이에 의한 인솔 제조 방법</InventionName>
+				<InternationalpatentclassificationNumber>A61B 5/107|A61B 5/00|A61F 5/14|A61B 5/01|A61B 5/103|A43D 5/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20221220</OpeningDate>
+				<OpeningNumber>1020220167145</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>포기</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20220629</ApplicationDate>
+				<ApplicationNumber>1020220079958</ApplicationNumber>
+				<Abstract>본 발명은 족부 스캔에 의한 족부 상태 진단 시스템 및 그에 의한 족부 상태 진단 방법에 관한 것이다. 족부 상태 진단 시스템은 다양한 형태의 발의 형상을 탐지하여 저장하는 형상 데이터 모듈(11); 발 또는 발과 관련된 다양한 상태를 탐지하여 저장하는 상태 데이터 모듈(12); 형상 데이터 모듈(11) 및 상태 데이터 모듈(12)에 저장된 데이터로부터 발에 대한 표준 데이터를 생성하여 저장하는 발 표준 데이터베이스(13); 발의 3D 스캔에 의하여 발의 형상을 위한 3D 형상 데이터를 생성하는 형상 스캔 데이터 모듈(14); 발의 스캔에 의하여 발의 상태를 측정하여 상태 데이터를 생성하는 상태 측정 데이터 모듈(15); 및 형상 스캔 데이터 모듈(14)과 상태 측정 데이터 모듈(15)에 의하여 생성된 데이터로부터 족부 데이터를 생성하는 족부 진단 데이터 모듈(17)을 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93735e64dd23d5b668161d5e107fafeff68b9ef49d4d42a444a6e893433c249fd8fbe549bdfc34a11b7c1dd569581ff0d30cb95dde31ec243e</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfd0961b141e2fe8842f8832dd58d54dfd09e7b2158b4dc4e6b0017e91fbbfb8d8d535d92b57140a04f356a5a73af00e3d5298f160c482c529</ThumbnailPath>
+				<SerialNumber>44</SerialNumber>
+				<InventionName>족부 스캔에 의한 족부 상태 진단 시스템 및 그에 족부 상태 진단 방법</InventionName>
+				<InternationalpatentclassificationNumber>A61B 5/107|A61B 5/00|A61B 5/103|G16H 50/30</InternationalpatentclassificationNumber>
+				<OpeningDate>20240105</OpeningDate>
+				<OpeningNumber>1020240002592</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>공개</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20220630</ApplicationDate>
+				<ApplicationNumber>1020220080755</ApplicationNumber>
+				<Abstract>본 발명은 3D 스캔 데이터에 의한 척추측만증 보조기의 제조 방법에 관한 것이다. 척추측만증 보조기의 제조 방법은 체형이 3D 방식으로 스캔이 되어 3D 체형 스캔 데이터가 획득되는 단계; 3D 체형 스캔 데이터에 기초하여 보조기 모델이 생성되는 단계; 항균 소재를 포함하는 보조기 소재가 준비되는 단계; 3D 프린팅을 위한 소프트웨어가 준비되는 단계; 및 보조기가 프린팅이 되는 단계를 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9391f206647cd995242bba93ede9bd592f1b136831db5f26dfc9781cf33c243a368d5e58c2bd3f2ef05db5873c2e6969b2548a22adbe03494b</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfe1bfdc5bf9d97ec639d75a87e2d08c4c4803e1a1830e37e0b5df28a6cdb80ec2fcfe1b04b8bdd2b11803739941294b8b732de359caf7cc12</ThumbnailPath>
+				<SerialNumber>45</SerialNumber>
+				<InventionName>3D 스캔 데이터에 의한 척추측만증 보조기의 제조 방법</InventionName>
+				<InternationalpatentclassificationNumber>A61F 5/02|A61B 5/00|A61B 5/107|A01N 59/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20240108</OpeningDate>
+				<OpeningNumber>1020240002765</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>공개</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20180620</ApplicationDate>
+				<ApplicationNumber>1020180070586</ApplicationNumber>
+				<Abstract>본 발명은 신발 자동 공급 시스템 및 이를 위한 키오스크 신발 중계 플랫폼에 관한 것이고, 구체적으로 키오스크 장치와 연결된 3D 스캐너에 의하여 획득된 3D 데이터에 기초하여 신발의 주문 및 공급이 자동으로 이루어지도록 하는 신발 자동 공급 시스템 및 이를 위한 키오스크 신발 중계 플랫폼에 관한 것이다. 신발 자동 공급 시스템 및 이를 위한 키오스크 신발 중계 플랫폼은 수요자(C) 또는 공급자(S)가 접근 가능한 키오스크 장치(11); 키오스크 장치(11)와 데이터 통신이 가능하도록 연결되고, 발의 스캔에 의하여 3D 스캔 데이터를 생성하는 3D 스캐너(12); 및 서로 다른 위치에 배치된 다수 개의 키오스크 장치를 관리하는 중계 플랫폼(13)을 포함하고, 상기 키오스크 장치(11)는 3D 스캔 데이터로부터 신발 라스트 데이터를 생성한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00cfebd7c59175852749ce7973590167d986d8e74c5bd821e2179e3d3d754ba6a279555e130140c90ec4e632b1cab18e7c6f3a7e3e4ee78705</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfdf2c895829e52609b804294146f5aba6002d83e41adb5def66d010a75691fce126247dc5d7ad93fb5e07a1652ee54bc94b3e0b6ea9c7f55b</ThumbnailPath>
+				<SerialNumber>46</SerialNumber>
+				<InventionName>신발 자동 공급 시스템 및 이를 위한 키오스크 신발 중계 플랫폼</InventionName>
+				<InternationalpatentclassificationNumber>G06Q 30/06|G06Q 20/18</InternationalpatentclassificationNumber>
+				<OpeningDate>20191230</OpeningDate>
+				<OpeningNumber>1020190143077</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20220217</ApplicationDate>
+				<ApplicationNumber>1020220021024</ApplicationNumber>
+				<Abstract>본 발명은 아치 스프링 결합 구조의 신발 물품에 관한 것이다. 아치 스프링 결합 구조의 신발 물품은 발의 중간 부분의 측면 부위가 접촉되면서 위쪽으로 볼록한 곡면 형상이 되는 아치 부분(13); 및 아치 부분(13)에 결합되면서 적어도 일부가 탄성에 의하여 다른 부분에 대하여 상하로 이동 및 복원되는 아치 스프링(20, 30)을 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93b9185a2d022affa7abc23b2cd991d8c06371ae27ccd8429d5fc3147bd817a6d4a8d1ae15c4db3ff201bdbf42e01e409455e6220365414b93</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfc33673f8aed12d22472925f45851bd4b520b1e3436664e551f1126b7dcf50e01909d6e1d7253de34d314529a581c0b62f9138979442a3177</ThumbnailPath>
+				<SerialNumber>47</SerialNumber>
+				<InventionName>아치 스프링 결합 구조의 신발 물품</InventionName>
+				<InternationalpatentclassificationNumber>A43B 17/06|A43B 7/142|A43B 7/32</InternationalpatentclassificationNumber>
+				<OpeningDate>20230824</OpeningDate>
+				<OpeningNumber>1020230123797</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20240529</PublicDate>
+				<RegistrationDate>20240524</RegistrationDate>
+				<RegistrationNumber>1026704120000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20180427</ApplicationDate>
+				<ApplicationNumber>1020180049239</ApplicationNumber>
+				<Abstract>본 발명은 3D 스캔 데이터에 기초하는 신발 라스트 모델의 생성 방법 및 이를 위한 시스템에 관한 것이고, 구체적으로 다양한 방향에서 측정된 3D 스캔 데이터를 분석한 수치 데이터에 기초하여 신발 라스트 모델을 생성하는 3D 스캔 데이터에 기초하는 신발 라스트 모델의 생성 방법 및 이를 위한 시스템에 관한 것이다. 3D 스캔 데이터에 기초하는 신발 라스트 모델의 생성 방법 및 이를 위한 시스템은 발의 3D 스캔 데이터를 생성하는 단계; 발의 영상 데이터를 획득하는 단계; 획득된 3D 스캔 데이터 및 영상 데이터로부터 기준 모델을 선택하여 측정 기준점을 결정하는 단계; 획득된 3D 스캔 데이터 및 영상 데이터로부터 형상 특성 부위를 결정하는 단계; 측정 기준점 및 형상 특성 부위를 기준으로 형상 모델링 기준선을 설정하는 단계; 측정 기준점 및 모델링 기준선으로부터 기준선 수치 데이터를 생성하는 단계; 생성된 수치 데이터로부터 수치 데이터 3D 모델링을 하는 단계; 및 3D 모델링으로부터 라스트 모델을 생성하는 단계를 포함하고, 상기 기준선 수치 데이터는 라스트에 대한 고유 데이터가 된다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0041b60732677b513e47edd8661e461903fae1b690ae50c922d4ed6b2e90fc2a930f44e1176346ce2ff469b41286f72b96d9374fcd3eb8c70b</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfc3fcc3372912a7604f74819aa51ddc3e456cc03cd1da9b3b004aba26fc55c8a2df25b176727ccb06aa423578d28e43c210f98f53b91ec551</ThumbnailPath>
+				<SerialNumber>48</SerialNumber>
+				<InventionName>3D 스캔 데이터에 기초하는 신발 라스트 모델의 생성 방법 및 이를 위한 시스템</InventionName>
+				<InternationalpatentclassificationNumber>G06T 17/20|A43D 3/02</InternationalpatentclassificationNumber>
+				<OpeningDate>20191106</OpeningDate>
+				<OpeningNumber>1020190125023</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20191227</PublicDate>
+				<RegistrationDate>20191220</RegistrationDate>
+				<RegistrationNumber>1020600040000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20201019</ApplicationDate>
+				<ApplicationNumber>1020200135040</ApplicationNumber>
+				<Abstract>본 발명은 형상 및 상태 진단에 기초하는 교정 기능을 가진 스마트 인솔 제조 시스템에 관한 것이다. 형상 및 상태 진단에 기초하는 스마트 인솔 제조 시스템은 발의 형상 및 상태에 대한 측정 매개변수를 설정하는 측정 매개변수 설정 모듈(11); 측정 매개변수에 기초하여 발의 형상 및 상태를 스캔하여 데이터를 획득하는 스캔 데이터 획득 모듈(12); 스캔 데이터로부터 발의 상태 진단을 위한 데이터 및 인솔 제조를 위한 데이터를 생성하는 진단 및 인솔 데이터 생성 모듈(13); 및 발의 상태를 추적하는 상태 추적 정보 모듈(14)을 포함하고, 측정 매개변수는 발바닥의 접촉 면적 및 무게 중심의 결정이 가능한 매개변수를 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93a71669cd16b9c463f46ea30296cb9091f9b57330a0420c8b5443844cd1218bd06657baf82e99beda921113f8e057f91f5d2a2843528d9cf4</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfbc7cb88495893364059d3dcaaa07a3d80698e9b8f44a857511c40ff62341bdf96aac59c5190b8395e1628ce002efbb78e0551c8f4be10dfa</ThumbnailPath>
+				<SerialNumber>49</SerialNumber>
+				<InventionName>형상 및 상태 진단에 기초하는 교정 기능을 가진 스마트 인솔 제조 시스템</InventionName>
+				<InternationalpatentclassificationNumber>A43D 1/02|A43D 1/06|A43D 1/08|A61B 5/107|A61B 5/103|A61B 5/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20220426</OpeningDate>
+				<OpeningNumber>1020220051527</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20070522</ApplicationDate>
+				<ApplicationNumber>1020070049647</ApplicationNumber>
+				<Abstract>본 발명은 측만증 환자를 눕힌 상태로 양측 겨드랑이부분, 허리부분 및 골반부분을 패드로 눌러 측만증 환자의 척추를 반대방향으로 휘게 하여 누워 자는 동안 자세를 통하여 측만증이 교정되도록 하되 어깨와 골반 뿐만 아니라 척추를 받쳐서 휘어진 상태로 누운 환자의 체형을 뜨는 동안 환자의 불편을 덜어주고 정확한 자세 유지로 수면용 보조기를 만들 수 있는 척추 측만증 수면 보조기용 체형장치에 관한 것이다.  이를 위하여 본 발명은 테이블의 사방 모서리에 수직기둥이 입설되고, 상기 수직기둥들에 상하조절구를 통하여 높낮이 조절되게 연결된 받침대레일 및 나사축레일이 구비되며, 상기 받침대레일에는 환자의 어깨 및 골반을 받쳐주는 어깨받침대 및 골반받침대가 이동가능하게 구비되고, 상기 나사축레일에는 좌우조절구를 통하여 좌우로 이동되면서 환자의 겨드랑이부분, 허리부분 및 골반부분을 눌러주는 패드를 갖는 다수개의 나사축이 구비되며, 상기 어깨받침대 및 골반받침대에는 힌지를 통하여 회동가능하게 연결되어 환자의 척추를 휘어진 상태대로 받쳐주는 척추받침부가 구비되도록 구성되어 있다.  척추받침부, 나사축, 연장부, 안내홈</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd035bfb5ff666db4c9cf44e6e9608087f40d6517825ab36dcd736dda9096963278a5a23031ef29d5f51</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e2d625a3dcb0746fe484b73ac8e410bb22c6f593a887e4b02f3dcd00fa87c1bbfab599c3e41422f5cc</ThumbnailPath>
+				<SerialNumber>50</SerialNumber>
+				<InventionName>척추 측만증 수면 보조기용 체형장치</InventionName>
+				<InternationalpatentclassificationNumber>A61F 5/042|A61F 5/01|A61H 1/02</InternationalpatentclassificationNumber>
+				<OpeningDate>20081126</OpeningDate>
+				<OpeningNumber>1020080102771</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20090807</PublicDate>
+				<RegistrationDate>20090803</RegistrationDate>
+				<RegistrationNumber>1009113320000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20110928</ApplicationDate>
+				<ApplicationNumber>1020110098146</ApplicationNumber>
+				<Abstract>본 발명은 체감형 재활운동에 필요한 모션인식 기술로 안정되고 우수한 의학적 특징을 갖는 재활운동에 최적화 되도록 하고, 다양한 운동처방을 개발했을 때 최소한의 변경으로 손쉽게 적용가능한 확장성이 우수하며, 다양한 정보통신기기에 익숙치 않는 노인의 특성을 반영하여 TV처럼 쉽게 조작 가능하도록 한 것으로서, 신체 각각의 관절에 감지수단을 부착하여 관절의 각도 및 관절운동 범위를 정량적으로 측정하여 관절의 이상 유무를 판단할 수 있는 진단 기술과 최상의 치료효과를 기대할 수 있는 관절의 등속성 및 등척성 운동을 처방하고 운용 및 관리할 수 있는 재활용 운동량 측정 시스템에 관한 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf7261aee8c160fd9ca851edf35c5459b51e58038cfc7e59e51e8e6977126504c386a353d1f59e71a01d2b2f09429914c66a9dbdcb7ca3c34c556</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf91721d53e7b4b83bcc4386c3ae5271a248f1666ef90cb41d81820067b5499bef753c6be59dca0e08dce84bee667b231fff57f8ae2cc7e6ee</ThumbnailPath>
+				<SerialNumber>51</SerialNumber>
+				<InventionName>재활용 운동량 측정 시스템</InventionName>
+				<InternationalpatentclassificationNumber>A61B 5/11|A61B 5/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20130405</OpeningDate>
+				<OpeningNumber>1020130034245</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20170918</ApplicationDate>
+				<ApplicationNumber>1020170119269</ApplicationNumber>
+				<Abstract>본 발명은 3D 스캐너에 의한 신발 주문용 키오스크 시스템에 관한 것이고, 구체적으로 유무선 통신에 의하여 맞춤형 신발이 주문되면서 3D 스캐너에 의하여 생성된 3D 이미지에 의하여 수요자에 의한 선택이 가능하도록 하는 3D 스캐너에 의한 신발 주문용 키오스크 시스템에 관한 것이다. 3D 스캐너에 의한 신발 주문용 키오스크 시스템은 주문자에게 신발 정보를 제공하면서 주문자의 입출력을 처리하는 입출력 처리 모듈(10); 입출력 처리 모듈(10)으로 전송된 주문자 정보 및 주문 정보를 분류하는 정보/주문 분류 모듈(20); 정보/주문 분류 모듈(20)과 데이터 통신이 가능하도록 연결되고, 각각의 발의 3D 스캐닝이 가능한 3D 스캐너(32)에 대한 정보가 저장된 스캐너 데이터베이스(31); 및 신발 제조사(42)에 대한 정보가 저장된 제조사 데이터베이스(41)를 포함하고, 상기 주문자는 입출력 처리 모듈(10)로부터 접근 가능한 3D 스캐너(32)의 위치 정보를 획득하여 발의 3D 이미지가 생성되도록 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00af692ba4e8b0d62a04ea2733360aca4bcbd11907efa1e5a3bfbd75f375d62be8332020eb8a35cb27404c4b166639c18197e1d3685a948f6c</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cff34a6884d382252465edfb5500727fb54e5189d03ca3f82ecff3bd9cf52f8d38799a350f15750336625d38f8041ecd94b7df194cdd5d2395</ThumbnailPath>
+				<SerialNumber>52</SerialNumber>
+				<InventionName>3D 스캐너에 의한 신발 주문용 키오스크 시스템</InventionName>
+				<InternationalpatentclassificationNumber>G06Q 30/06|G06T 19/00</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20181217</PublicDate>
+				<RegistrationDate>20181211</RegistrationDate>
+				<RegistrationNumber>1019300290000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20210610</ApplicationDate>
+				<ApplicationNumber>1020210075473</ApplicationNumber>
+				<Abstract>본 발명은 다중 스캔 방식의 인체 모델 생성에 의한 교정기 제조 시스템 및 그에 의한 교정기의 제조 방법에 관한 것이다. 다중 스캔 방식의 인체 모델 생성에 의한 교정기 제조 시스템은 서로 다른 방향에서 인체를 스캔을 하여 스캔 정보를 생성하는 다중 3D 스캔 모듈(11); 다중 3D 스캔 모듈(11)로부터 획득된 스캔 정보를 처리하여 서로 다른 방향에 따른 스캔 데이터를 생성하는 다점 전신 스캔 데이터 모듈(12); 다점 스캔 데이터 각각을 서로 정합시켜 3D 모델을 생성하는 정합 및 3D 모델 생성 모듈(13); 생성된 3D 모델로부터 교정기 모델을 생성하는 교정기 모델 생성 모듈(14); 및 교정기 모델로부터 교정기를 가공하는 교정기 가공 모듈(15)을 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c938d6b9137096c11d4c8fa71729c8b424f42604b502e6c1ba7122b5b4b3e015576812f068385b6b3341516a1bd3225afde66a03674452be137</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfb26068de568f664a20ad98f470ebc301cdf2b4825e7f5d772271c750a5289feda52fe73ff479761e6ce28e0da3029b08cb93958f9a0d76bc</ThumbnailPath>
+				<SerialNumber>53</SerialNumber>
+				<InventionName>다중 스캔 방식의 인체 모델 생성에 의한 교정기 제조 시스템 및 그에 의한 교정기의 제조 방법</InventionName>
+				<InternationalpatentclassificationNumber>A61F 5/01|A61F 5/02|A61B 5/107|B29C 64/386|B29C 64/10|B33Y 10/00|B33Y 50/00|B33Y 80/00</InternationalpatentclassificationNumber>
+				<OpeningDate>20221219</OpeningDate>
+				<OpeningNumber>1020220166564</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20240123</PublicDate>
+				<RegistrationDate>20240117</RegistrationDate>
+				<RegistrationNumber>1026279020000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 에이치비티</Applicant>
+				<ApplicationDate>20180528</ApplicationDate>
+				<ApplicationNumber>1020180060215</ApplicationNumber>
+				<Abstract>본 발명은 키오스크 방식의 3D 신발 공급 시스템에 관한 것이고, 구체적으로 3D 스캔 데이터로부터 신발의 제조 공정이 자동화 과정으로 진행되도록 하는 키오스크 방식의 3D 신발 공급 시스템에 관한 것이다. 키오스크 방식의 3D 신발 공급 시스템은 레이저 유닛과 카메라로부터 발의 스캔 데이터를 생성시키는 3D 스캐너(11); 3D 스캐너(11)와 데이터 통신이 가능하도록 연결되고, 3D 스캐너(11)로부터 획득된 스캔 데이터를 디스플레이를 하는 윈도우(121) 및 작동 수단을 가지는 키오스크 모듈(12); 3D 스캐너(11)에서 획득된 스캔 데이터로부터 신발 라스트를 생성하는 라스트 생성 모듈(13); 및 발의 스캔 데이터의 생성으로부터 라스트 생성 과정을 관리하는 관리 플랫폼(14)을 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00d832c7e59c0d6a644f5594276d7b1c2449f14cb2ca26dfc0feb0c49ed6e65fdb6d094bf1a86d1910b8bca3b2ab731c04d6f72a32258fc061</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf314bfcfa39cfdf0b660da5ca001787d10e6c24a5da08e4b9a35d331f7cfce54b1514ee01c4ddf0639386677a22f9d07c31b4ade805b7f26b</ThumbnailPath>
+				<SerialNumber>54</SerialNumber>
+				<InventionName>키오스크 방식의 3D 신발 공급 시스템</InventionName>
+				<InternationalpatentclassificationNumber>G06Q 30/06|G06Q 50/04</InternationalpatentclassificationNumber>
+				<OpeningDate>20191206</OpeningDate>
+				<OpeningNumber>1020190135139</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<TotalSearchCount>54</TotalSearchCount>
+			<SearchStartNumber>1</SearchStartNumber>
+		</items>
+	</body>
+</response>

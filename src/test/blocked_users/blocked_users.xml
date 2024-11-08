@@ -1,0 +1,10 @@
+<response>
+    <header>
+        <requestMsgID/>
+        <responseTime>2024-11-06 12:34:56</responseTime>
+        <responseMsgID/>
+        <successYN>N</successYN>
+        <resultCode>10</resultCode>
+        <resultMsg>Blocked users.</resultMsg>
+    </header>
+</response>

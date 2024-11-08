@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<response>
+	<header>
+		<resultCode></resultCode>
+		<resultMsg></resultMsg>
+	</header>
+	<body>
+		<items>
+			<totalCount>9</totalCount>
+			<DesignInfo>
+				<number>1</number>
+				<applicationNumber>3020130014383</applicationNumber>
+				<applicationDate>20130321</applicationDate>
+				<appReferenceNumber></appReferenceNumber>
+				<publicationNumber></publicationNumber>
+				<publicationDate>20140602</publicationDate>
+				<registrationDate>20140523</registrationDate>
+				<registrationNumber>3007300310001</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber></regReferenceNumber>
+				<priorityNumber></priorityNumber>
+				<priorityDate></priorityDate>
+				<internationalRegisterNumber></internationalRegisterNumber>
+				<internationalRegisterDate></internationalRegisterDate>
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>주식회사 테스크</applicantName>
+				<agentName>이정우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>황정상</inventorName>
+				<articleName>요소수 저장탱크</articleName>
+				<openNumber></openNumber>
+				<openDate></openDate>
+				<designMainClassification>K8294</designMainClassification>
+				<dsShpClssCd>K8294</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb051737325fc1ea42424b60c5e5ce4cf490480ec3387dacf42dbfca31118a87ffaefd7cfe76ce547f5526621870998f0dd</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa589efaa760e925cea3891b2024d0d49f326937c454e9dc3efb010de37c0929a1c7c7b2b4f52cca5bcf8e61f9cdda2833b</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>2</number>
+				<applicationNumber>3020130014382</applicationNumber>
+				<applicationDate>20130321</applicationDate>
+				<appReferenceNumber></appReferenceNumber>
+				<publicationNumber></publicationNumber>
+				<publicationDate>20140219</publicationDate>
+				<registrationDate>20140212</registrationDate>
+				<registrationNumber>3007300310000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber></regReferenceNumber>
+				<priorityNumber></priorityNumber>
+				<priorityDate></priorityDate>
+				<internationalRegisterNumber></internationalRegisterNumber>
+				<internationalRegisterDate></internationalRegisterDate>
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>주식회사 테스크</applicantName>
+				<agentName>이정우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>황정상</inventorName>
+				<articleName>요소수 저장탱크</articleName>
+				<openNumber></openNumber>
+				<openDate></openDate>
+				<designMainClassification>K8294</designMainClassification>
+				<dsShpClssCd>K8294</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0630daea77589dd902a2c6c5835e8c68ee486a9d37e9a139cb7ca5c6972f3dbd2d223a1d5caad34e4ee4c855326a1625b</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa5d3f4f4afb5e1c3800e4395044c3ff9b8d6308ea55a67ead80c9b6ad59eadc7a452b7337fe26ac1385a465bd35a2c3ea1</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>3</number>
+				<applicationNumber>3020060035066</applicationNumber>
+				<applicationDate>20060825</applicationDate>
+				<appReferenceNumber></appReferenceNumber>
+				<publicationNumber></publicationNumber>
+				<publicationDate>20070416</publicationDate>
+				<registrationDate>20070409</registrationDate>
+				<registrationNumber>3004462850000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber></regReferenceNumber>
+				<priorityNumber></priorityNumber>
+				<priorityDate></priorityDate>
+				<internationalRegisterNumber></internationalRegisterNumber>
+				<internationalRegisterDate></internationalRegisterDate>
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 테스크</applicantName>
+				<agentName>이정우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>황정상</inventorName>
+				<articleName>자동차용 배기파이프</articleName>
+				<openNumber></openNumber>
+				<openDate></openDate>
+				<designMainClassification>G2902</designMainClassification>
+				<dsShpClssCd>G2902</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974af14fca22beb19cb47006006d12605f741d34f58ecf40b62faef4894b6ea5ccd6dd967e8910da4c4</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c7fe8cc667cb7fa03d716cb8c04cdce31afe4fdaf88321a2c9554eceb1525fda60fedfc5cbc9c28cd</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>4</number>
+				<applicationNumber>3020070008011</applicationNumber>
+				<applicationDate>20070223</applicationDate>
+				<appReferenceNumber></appReferenceNumber>
+				<publicationNumber></publicationNumber>
+				<publicationDate>20071127</publicationDate>
+				<registrationDate>20071121</registrationDate>
+				<registrationNumber>3004706060000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber></regReferenceNumber>
+				<priorityNumber></priorityNumber>
+				<priorityDate></priorityDate>
+				<internationalRegisterNumber></internationalRegisterNumber>
+				<internationalRegisterDate></internationalRegisterDate>
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 테스크|박종용</applicantName>
+				<agentName>이정우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>황정상|박종용</inventorName>
+				<articleName>자동차용 배기가스 저감기</articleName>
+				<openNumber></openNumber>
+				<openDate></openDate>
+				<designMainClassification>G2902|K8295</designMainClassification>
+				<dsShpClssCd>G2902A|G2902|K8295</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c8139745b8c637ff51249057fae5d3b51d67236024866f358f2434de7c6f9400eeb3595ccb2a66eda9a441c</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c2b4e6d7bf9256d5e3ca648a0782047d32286f623aa254212c0d18a6495b0b932b49addfd7bf7cc9d</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>5</number>
+				<applicationNumber>3020070010270</applicationNumber>
+				<applicationDate>20070309</applicationDate>
+				<appReferenceNumber></appReferenceNumber>
+				<publicationNumber></publicationNumber>
+				<publicationDate>20071127</publicationDate>
+				<registrationDate>20071121</registrationDate>
+				<registrationNumber>3004706080000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber></regReferenceNumber>
+				<priorityNumber></priorityNumber>
+				<priorityDate></priorityDate>
+				<internationalRegisterNumber></internationalRegisterNumber>
+				<internationalRegisterDate></internationalRegisterDate>
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 테스크|박종용</applicantName>
+				<agentName>이정우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>황정상|박종용</inventorName>
+				<articleName>자동차용 배기가스 저감기</articleName>
+				<openNumber></openNumber>
+				<openDate></openDate>
+				<designMainClassification>G2902|K8295</designMainClassification>
+				<dsShpClssCd>G2902A|G2902|K8295</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c8139745b8c637ff512490547c53aac20f9e8c8c7f5c84b3358b1e066457670e29ab9ec005ff7ff102df38e</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c2b4e6d7bf9256d5ef441e05800987df9adcad95e6cd8537e0713935fdbb7edfaf81ad6047a1f44d3</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>6</number>
+				<applicationNumber>3020070008012</applicationNumber>
+				<applicationDate>20070223</applicationDate>
+				<appReferenceNumber></appReferenceNumber>
+				<publicationNumber></publicationNumber>
+				<publicationDate>20071127</publicationDate>
+				<registrationDate>20071121</registrationDate>
+				<registrationNumber>3004706060001</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber></regReferenceNumber>
+				<priorityNumber></priorityNumber>
+				<priorityDate></priorityDate>
+				<internationalRegisterNumber></internationalRegisterNumber>
+				<internationalRegisterDate></internationalRegisterDate>
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>주식회사 테스크|박종용</applicantName>
+				<agentName>이정우</agentName>
+				<fullText>Y</fullText>
+				<inventorName>황정상|박종용</inventorName>
+				<articleName>자동차용 배기가스 저감기</articleName>
+				<openNumber></openNumber>
+				<openDate></openDate>
+				<designMainClassification>G2902|K8295</designMainClassification>
+				<dsShpClssCd>G2902A|G2902|K8295</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c8139745b8c637ff51249057fae5d3b51d67236024866f358f2434d48bee117ab611e2d1d421e1e480663ab</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c2b4e6d7bf9256d5e3ca648a0782047d32286f623aa254212df2c4148dc439cc78ad43c9c84994c94</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>7</number>
+				<applicationNumber>3020150009948</applicationNumber>
+				<applicationDate>20150226</applicationDate>
+				<appReferenceNumber></appReferenceNumber>
+				<publicationNumber></publicationNumber>
+				<publicationDate>20160520</publicationDate>
+				<registrationDate>20160509</registrationDate>
+				<registrationNumber>3008539950000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber></regReferenceNumber>
+				<priorityNumber></priorityNumber>
+				<priorityDate></priorityDate>
+				<internationalRegisterNumber></internationalRegisterNumber>
+				<internationalRegisterDate></internationalRegisterDate>
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>주식회사 테스크|(주) 상봉모터스</applicantName>
+				<agentName>특허법인 다해</agentName>
+				<fullText>Y</fullText>
+				<inventorName>홍진표|황정상|김순애</inventorName>
+				<articleName>배기가스 정화기</articleName>
+				<openNumber></openNumber>
+				<openDate></openDate>
+				<designMainClassification>K8295</designMainClassification>
+				<dsShpClssCd>K8295</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0fb34a85159fa6c72588ff9ec9cd4f8222e8ba22f7c960635d9e0dfdff0ff1b2784831b24e2524cbd795cc0fa314c863c</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa5f99811ed7b817a41221c38e8664603032a0ff3c2f79e15bd044111a93f5e1334d5612d4987abe8c79614e92b2ef9ff4b</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>8</number>
+				<applicationNumber>3020140064144</applicationNumber>
+				<applicationDate>20141230</applicationDate>
+				<appReferenceNumber></appReferenceNumber>
+				<publicationNumber></publicationNumber>
+				<publicationDate>20160519</publicationDate>
+				<registrationDate>20160509</registrationDate>
+				<registrationNumber>3008539880000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber></regReferenceNumber>
+				<priorityNumber></priorityNumber>
+				<priorityDate></priorityDate>
+				<internationalRegisterNumber></internationalRegisterNumber>
+				<internationalRegisterDate></internationalRegisterDate>
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>주식회사 테스크|(주) 상봉모터스</applicantName>
+				<agentName>특허법인 다해</agentName>
+				<fullText>Y</fullText>
+				<inventorName>김순애</inventorName>
+				<articleName>배기가스 정화기</articleName>
+				<openNumber></openNumber>
+				<openDate></openDate>
+				<designMainClassification>K8295</designMainClassification>
+				<dsShpClssCd>K8295</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0be5cf48adb68a723527c41470f0f6cf230f8b5e6dc0c56ff2853caa2eba4ea3b826c39db87e972a7611341502c4771c2</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa57fdeb976c415d3301cebddae42a953c1b5fc5aea0ad5f5202f94f7eba843bdd466ee1ec1ddd593f44be493eb719312b1</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>9</number>
+				<applicationNumber>3020210043451</applicationNumber>
+				<applicationDate>20210910</applicationDate>
+				<appReferenceNumber></appReferenceNumber>
+				<publicationNumber></publicationNumber>
+				<publicationDate>20221006</publicationDate>
+				<registrationDate>20220930</registrationDate>
+				<registrationNumber>3011849080000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber></regReferenceNumber>
+				<priorityNumber></priorityNumber>
+				<priorityDate></priorityDate>
+				<internationalRegisterNumber></internationalRegisterNumber>
+				<internationalRegisterDate></internationalRegisterDate>
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>주식회사 테스크</applicantName>
+				<agentName>특허법인 케이투비</agentName>
+				<fullText>Y</fullText>
+				<inventorName>손형대|이석길|최진영|황정상</inventorName>
+				<articleName>아이스박스가 결합된 보조보행기</articleName>
+				<openNumber></openNumber>
+				<openDate></openDate>
+				<designMainClassification></designMainClassification>
+				<dsShpClssCd></dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0856f5258dcb443ebd8ef64dfa09322596a6563b27322ef6e2f8995847ce7733f7c972cd54662706c345a4a1fd0ad404e</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa5e42a0d8c7b657b54827d8c5a93b5ebb37d1534724e2ac55e4dff2242f27e66327aabea39fa6c9337244c54a77e8479d6</imagePathLarge>
+			</DesignInfo>
+		</items>
+	</body>
+</response>

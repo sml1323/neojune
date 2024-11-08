@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<response>
+	<header>
+		<resultCode></resultCode>
+		<resultMsg></resultMsg>
+	</header>
+	<body>
+		<items>
+			<PatentUtilityInfo>
+				<Applicant>혜성씨앤씨주식회사</Applicant>
+				<ApplicationDate>20150729</ApplicationDate>
+				<ApplicationNumber>2020150005106</ApplicationNumber>
+				<Abstract>본 고안의 한 실시예에 따른 방차통은, 속이 빈 원통형의 중심부, 그리고 상기 중심부의 양끝에 결합되어 있는 한 쌍의 원반형 바퀴부를 포함하며, 상기 중심부와 상기 바퀴부는 플라스틱 소재로 일체형으로 되어 있으며, 상기 바퀴부는 방사상으로 설치된 복수의 덧살을 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00b6ffcc6c400ee9e0a73a8b2f4523954a84cf9be095ee0d9b5cfee32a784376c6e164a2a13ae0559169c8e41447e8eae2443ed355ea1e9009</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf3757e85728576da5ffaeddb0a01da00bea3a0074fef956ff07f89c69d4f559dfafcf5a29dcd028e48a7dec450cad51ebf86fd1032b7d6909</ThumbnailPath>
+				<SerialNumber>1</SerialNumber>
+				<InventionName>방차통</InventionName>
+				<InternationalpatentclassificationNumber>H02G 11/02|B65H 75/14|B65H 75/34</InternationalpatentclassificationNumber>
+				<OpeningDate>20170208</OpeningDate>
+				<OpeningNumber>2020170000524</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20170209</PublicDate>
+				<RegistrationDate>20170202</RegistrationDate>
+				<RegistrationNumber>2004825760000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>혜성씨앤씨주식회사</Applicant>
+				<ApplicationDate>20231004</ApplicationDate>
+				<ApplicationNumber>1020230132011</ApplicationNumber>
+				<Abstract>본 발명은 공압 포설이 용이한 광케이블에 관한 것으로, 보다 상세하게는, 공압 포설시 보다 효과적으로 유체견인력이 가해질 수 있도록 하되, 특히, 중공관과의 접촉면적을 최소화함과 동시에 중공관내 센터링을 유도하여 포설 과정에서 중공관과의 마찰저항을 최소화해 광케이블의 직진 이동성을 보장하고, 아울러, 피복을 중공관으로부터 균일하게 이격시킴에 따라 피복의 마찰 손상을 미연에 방지하여, 포설 용이성과 시공 품질을 보장할 수 있도록 하는 공압 포설이 용이한 광케이블에 관한 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c93da4d9ba918d77a2543938f0c26fb4e0c715b19df07091242cddca1f9325d39a4a13aceaff033ff234c96064c3ee7a64c58a98feb1481ab26</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf63a93f25e925c2aa8b0adb53c60b478a458e6aabf75b14a4a585876dd557dc3e541b6f94f6a9ee37c71a4fae11e629a49325e9cf50fea7d4</ThumbnailPath>
+				<SerialNumber>2</SerialNumber>
+				<InventionName>공압 포설이 용이한 광케이블</InventionName>
+				<InternationalpatentclassificationNumber>G02B 6/44|G02B 6/52</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20240326</PublicDate>
+				<RegistrationDate>20240320</RegistrationDate>
+				<RegistrationNumber>1026507480000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>혜성씨앤씨주식회사</Applicant>
+				<ApplicationDate>20221114</ApplicationDate>
+				<ApplicationNumber>1020220151544</ApplicationNumber>
+				<Abstract>본 발명은 피복 내측 보강돌기 사이에 인장재를 구비한 광케이블에 관한 것으로, 보다 상세하게는, 강도 보강을 위한 각종 내장재를 내장한 상태에서도 직경이 커지는 것을 최소화하며, 이에 따라, 내구성이 보장됨은 물론, 소형화된 구조로 제조 원가 절감, 포설 작업성 개선 등의 유리한 효과를 기대할 수 있는 피복 내측 보강돌기 사이에 인장재를 구비한 광케이블에 관한 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9304149abbf73086e70d3d4fb6925376ec4d99336891b43946aa9c739061d6baa1e60baaf8338bfa1af3e6c4e8b7982e341aee25c9a10cd3b3</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfcd1353c76a866ad9b5bce83f92cd813f2ab9bcd9e26f520172e1e4cb803aed0cb959171c2b016635dce7edee84050265a2d4362483b8ba43</ThumbnailPath>
+				<SerialNumber>3</SerialNumber>
+				<InventionName>피복 내측 보강돌기 사이에 인장재를 구비한 광케이블</InventionName>
+				<InternationalpatentclassificationNumber>G02B 6/44</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20231011</PublicDate>
+				<RegistrationDate>20231005</RegistrationDate>
+				<RegistrationNumber>1025878280000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>혜성씨앤씨주식회사</Applicant>
+				<ApplicationDate>20220427</ApplicationDate>
+				<ApplicationNumber>1020220052206</ApplicationNumber>
+				<Abstract>본 발명은 추적가능한 광케이블 제조장치에 관한 것으로, 보다 상세하게는, 현장에서, 중간 분기나, 말단 접속 작업을 위한 피복 분리 작업을 용이하게 할 수 있을 뿐만 아니라, 매설 위치를 용이하게 추적할 수 있도록 하는 추적가능한 광케이블 제조장치에 관한 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9370d69b88b885b3dd003207d5e99df361ff4feeb0bb726d8ba3eaf6da93d5494339ca5f98cb835b59fd48cd280b2746bb876b38ee02d2b59d</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf9005044b87db51665fc48ff2641e608800847d6dae32df7ffc0f104725c6986efd04c79a8ffa368db1aa72f2c30c8c222f75ccb3e48585dd</ThumbnailPath>
+				<SerialNumber>4</SerialNumber>
+				<InventionName>추적가능한 광케이블 제조장치</InventionName>
+				<InternationalpatentclassificationNumber>G02B 6/44</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20221011</PublicDate>
+				<RegistrationDate>20220930</RegistrationDate>
+				<RegistrationNumber>1024517590000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>혜성씨앤씨주식회사</Applicant>
+				<ApplicationDate>20220427</ApplicationDate>
+				<ApplicationNumber>1020220052210</ApplicationNumber>
+				<Abstract>본 발명은 추적가능한 장거리 배선용 유리섬유 케이블 제조장치에 관한 것으로, 보다 상세하게는, 깊게 매설되더라도, 케이블의 유지보수작업을 고려해, 매설 위치를 용이하게 추적할 수 있도록 하는 추적가능한 장거리 배선용 유리섬유 케이블 제조장치에 관한 것이다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9370d69b88b885b3dd003207d5e99df361ff4feeb0bb726d8ba3eaf6da93d54943dd2bde7f58ed3c96c36807bf27db30c0fd608c2447426439</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf9005044b87db51665fc48ff2641e608800847d6dae32df7ffc0f104725c6986ef6ed0b176620154ae96fd43e0905e4ce89a9c4f84a275ae8</ThumbnailPath>
+				<SerialNumber>5</SerialNumber>
+				<InventionName>추적가능한 장거리 배선용 유리섬유 케이블 제조장치</InventionName>
+				<InternationalpatentclassificationNumber>G02B 6/44|C03C 27/10</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20221011</PublicDate>
+				<RegistrationDate>20220930</RegistrationDate>
+				<RegistrationNumber>1024517610000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>혜성씨앤씨주식회사</Applicant>
+				<ApplicationDate>20220105</ApplicationDate>
+				<ApplicationNumber>1020220001274</ApplicationNumber>
+				<Abstract>본 발명은, 복수의 광섬유를 포함하는 집합코어부와, 상기 집합코어부의 외측에 배치되는 금속테이프와, 상기 금속테이프의 외측에 배치되는 피복부를 포함하는 광케이블을 제조하는 광케이블 제조장치로서, 상기 집합코어부의 외측에 상기 금속테이프를 가접착하는 가접합부; 상기 가접합부의 후방에 배치되어 상기 금속테이프의 양단 중 적어도 일부에 제1 접착제를 도포하는 제1 도포부; 상기 가접합부의 후방에 배치되어, 상기 금속테이프의 양단을 중첩한 상태로 상기 집합코어부의 외측에 상기 금속테이프를 접착하는 접합부; 상기 접합부의 후방에 배치되어 상기 금속테이프의 외측에 제2 접착제를 도포하는 제2 도포부;및 상기 제2 도포부의 후방에 배치되어, 상기 금속테이프가 접착된 집합코어부에 피복을 입히는 피복제조부를 포함하고, 상기 금속테이프가 접착된 집합코어부가 상기 제2 도포부에 진입하기 전에, 상기 금속테이프가 접착된 집합코어부의 상부를 가열하고, 상기 제2 도포부에서, 상기 금속테이프가 접착된 집합코어부의 하부에만 상기 제2 접착제를 도포하고, 상기 제1 접착제의 녹는점은 상기 제2 접착제의 녹는점보다 높은 것을 특징으로 하는 광케이블 제조장치를 제공할 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c931c116849b53c160cafdd76ef458a9851002225fc1c49350b8136c2d4a85b984429f4949018898947c24186f20b4ebeffaaf4c4ceee053599</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfd4358b69e8055da16da413fc4b2317f89d7f890e7dab830ff99553ae29a7ecf7bc69a55bfbfdd8dc67dea70833f9420be198d4e2b51356d9</ThumbnailPath>
+				<SerialNumber>6</SerialNumber>
+				<InventionName>광케이블 제조장치</InventionName>
+				<InternationalpatentclassificationNumber>G02B 6/44</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20220504</PublicDate>
+				<RegistrationDate>20220428</RegistrationDate>
+				<RegistrationNumber>1023938620000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<TotalSearchCount>6</TotalSearchCount>
+			<SearchStartNumber>1</SearchStartNumber>
+		</items>
+	</body>
+</response>

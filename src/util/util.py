@@ -1,4 +1,4 @@
-import os, sys, time, re
+import os, sys, time, re, json, requests
 from datetime import datetime
 from functools import wraps
 import contextlib
@@ -31,7 +31,6 @@ def clean_whitespace(text: str) -> str:
 
 def split(text: str, seperator: str = '|') -> str:
     return text.split(seperator)
-
 
 
 #         return sync_wrapper
@@ -79,3 +78,27 @@ def send_slack_message( message):
         print("메시지 전송 성공!")
     else:
         print(f"메시지 전송 실패! 상태 코드: {response.status_code}, 응답: {response.text}")
+
+
+def get_file(file_path):
+    with open(file_path, "r") as file:
+        return file.read()
+    
+def send_slack_message(name, callback:callable):
+    def inner(message):
+        webhook_url = 'https://hooks.slack.com/services/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'
+        headers = {'Content-Type': 'application/json'}
+        data = {'text': message}
+        
+        response = requests.post(webhook_url, headers=headers, data=json.dumps(data))
+        
+        if response.status_code == 200:
+            print("메시지 전송 성공!")
+        else:
+            print(f"메시지 전송 실패! 상태 코드: {response.status_code}, 응답: {response.text}")
+    
+    try:
+        inner( f"<!here> 사용 시작 : {name}")
+        callback()
+    finally:
+        inner( f"<!here> 사용 완료 : {name}")

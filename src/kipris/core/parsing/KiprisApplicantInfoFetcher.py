@@ -62,6 +62,20 @@ class KiprisApplicantInfoFetcher:
         print("totalCount와 TotalSearchCount를 찾을 수 없습니다.")
         return 0
 
+    def __is_blocked_users(self, content: str=""):
+        if content == "":
+            return False
+
+        root:etree = etree.fromstring(content.encode("utf-8"))
+        result_msg = root.find(".//resultMsg").text
+
+        return result_msg == "Blocked users."
+        
+    def __throw_error_if_blocked_users(self, content: str=""):
+        if self.__is_blocked_users(content):
+            raise Exception("User is blocked.")
+        
+    
     def _calculate_max_pages(self, total_count: int):
         """총 페이지 수 계산"""
         self.max_pages = (total_count // self.params.docsCount) + (1 if total_count % self.params.docsCount else 0)
@@ -70,7 +84,9 @@ class KiprisApplicantInfoFetcher:
         """응답 처리 및 성공 여부 반환"""
         try:
             content = await self._fetch_content(page)
+            self.__throw_error_if_blocked_users(content)
             logger_ori.info(content)
+
             if page == 1:  # 첫 페이지는 totalCount 추출
                 total_count = self.__get_total_count(content)
                 if total_count == -1:
