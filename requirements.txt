@@ -29,4 +29,5 @@ tzdata==2024.2
 urllib3==2.2.3
 wheel==0.42.0
 xmltodict==0.14.2
+yappi==1.6.9
 yarl==1.16.0
