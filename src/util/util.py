@@ -20,7 +20,8 @@ def add_sys_path():
 def __print_run_time_core(end_time, start_time, msg):
     elapsed_time = end_time - start_time
     print("")
-    print(f"총 걸린 시간 : {elapsed_time:.2f}초, {msg}")
+    print(f"* {msg}")
+    print(f"   - 총 걸린 시간 : {elapsed_time:.2f}초")
     print("")
 
 def print_run_time(callback:callable, msg:str):
@@ -30,10 +31,12 @@ def print_run_time(callback:callable, msg:str):
     __print_run_time_core(end_time, start_time, msg)
 
 async def print_run_time_async(callback:callable, msg:str):
+    res = None
     start_time = time.time()
-    await callback()
+    res = await callback()
     end_time = time.time()
     __print_run_time_core(end_time, start_time, msg)
+    return res
 
 def clean_whitespace(text: str) -> str:
     """텍스트의 여러 개 공백을 하나로 줄이고, 앞뒤 공백을 제거."""
