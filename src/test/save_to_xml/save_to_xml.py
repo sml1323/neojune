@@ -10,7 +10,7 @@ import time
 mysql = Mysql()
 
 
-async def main(table_name):
+async def main(table_name="TB24_200"):
     patent, design, trademark = None, None, None
     
     async def get_info():
