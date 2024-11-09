@@ -24,13 +24,15 @@ def __print_run_time_core(end_time, start_time, msg):
     print(f"   - 총 걸린 시간 : {elapsed_time:.2f}초")
     print("")
 
-def print_run_time(callback:callable, msg:str):
+def execute_with_time(callback:callable, msg:str):
+    res = None
     start_time = time.time()
-    callback()
+    res = callback()
     end_time = time.time()
     __print_run_time_core(end_time, start_time, msg)
+    return res
 
-async def print_run_time_async(callback:callable, msg:str):
+async def execute_with_time_async(callback:callable, msg:str):
     res = None
     start_time = time.time()
     res = await callback()

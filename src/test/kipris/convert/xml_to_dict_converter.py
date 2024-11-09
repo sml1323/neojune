@@ -30,7 +30,7 @@ def main():
             design_results = design_parser.parse()
             print(len(design_results))
             print(design_results)
-        util.print_run_time(design_action, "#### design_parser")
+        util.execute_with_time(design_action, "#### design_parser")
 
     if True:
         def patent_action():
@@ -38,7 +38,7 @@ def main():
             patent_results = patent_parser.parse()
             print(len(patent_results))
             print(patent_results)
-        util.print_run_time(patent_action, "#### patent_parser")
+        util.execute_with_time(patent_action, "#### patent_parser")
 
     if True:
         def trademark_action():
@@ -46,7 +46,7 @@ def main():
             trademark_results = trademark_parser.parse()
             print(len(trademark_results))
             print(trademark_results)
-        util.print_run_time(trademark_action, "#### trademark_parser")
+        util.execute_with_time(trademark_action, "#### trademark_parser")
 
 
 
