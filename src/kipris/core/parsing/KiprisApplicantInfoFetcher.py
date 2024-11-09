@@ -136,12 +136,12 @@ class KiprisApplicantInfoFetcher:
         logger.info(f"총 호출 횟수: {total_requests}, 성공: {self.success_count}, 실패: {self.fail_count}")
 
     
-    async def get_info(self, session: aiohttp.ClientSession) -> KiprisFetchData:
+    async def get_info(self, session: aiohttp.ClientSession = None) -> KiprisFetchData:
         if session is None:
-            self.__open_session()
+            await self.__open_session()
             await self.__fetch_initial()
             await self.__fetch_pages()
-            self.__close_session()
+            await self.__close_session()
         else:
             self.session = session
             await self.__fetch_initial()
