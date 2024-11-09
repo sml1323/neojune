@@ -176,13 +176,23 @@ class Mysql:
 
         return rows
 
-    def get_limit_app_no_and_applicant_id(self, limit) -> list[list]:
+    def get_limit_enterprise_no_id(self, limit=1) -> list[list]:
         sql = f'SELECT applicant_no, applicant_id FROM TB24_200 LIMIT {limit}'
         return self.get_cursor_fetchall(sql)
 
-    def get_all_app_no_and_applicant_id(self, table="TB24_200") -> list[list]:
-        sql = f'SELECT applicant_no, applicant_id FROM {table} ORDER BY applicant_id'
+    def get_all_enterprise_no_id(self, ) -> list[list]:
+        sql = f'SELECT applicant_no, applicant_id FROM TB24_200'
         return self.get_cursor_fetchall(sql)
+
+    def get_limit_university_no_seq(self, limit=1) -> list[list]:
+        # applicant_no, university_seq
+        sql = f'SELECT applicant_no, university_seq FROM TB24_210 LIMIT {limit}'
+        return self.get_cursor_fetchall(sql)
+
+    def get_all_university_no_seq(self, ) -> list[list]:
+        sql = f'SELECT applicant_no, university_seq FROM TB24_210'
+        return self.get_cursor_fetchall(sql)
+
 
     def close_connection(self):
         """연결 닫기"""

@@ -1,6 +1,6 @@
 import os, sys, time, re, json, requests
 from datetime import datetime
-from functools import wraps
+from functools import wraps, partial
 import contextlib
 import asyncio
 import yappi
@@ -17,27 +17,27 @@ def add_sys_path():
     root_dir = os.path.dirname(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
     return root_dir
 
-def __print_run_time_core(end_time, start_time, msg):
+def __print_run_time_core(msg:str, end_time, start_time):
     elapsed_time = end_time - start_time
     print("")
     print(f"* {msg}")
     print(f"   - 총 걸린 시간 : {elapsed_time:.2f}초")
     print("")
 
-def execute_with_time(callback:callable, msg:str):
+def execute_with_time(msg:str, callback:callable, *callback_args):
     res = None
     start_time = time.time()
-    res = callback()
+    res = callback(*callback_args)
     end_time = time.time()
-    __print_run_time_core(end_time, start_time, msg)
+    __print_run_time_core(msg, end_time, start_time)
     return res
 
-async def execute_with_time_async(callback:callable, msg:str):
+async def execute_with_time_async(msg:str, callback:callable, *callback_args):
     res = None
     start_time = time.time()
-    res = await callback()
+    res = await callback(*callback_args)
     end_time = time.time()
-    __print_run_time_core(end_time, start_time, msg)
+    __print_run_time_core(msg, end_time, start_time)
     return res
 
 def clean_whitespace(text: str) -> str:
@@ -99,7 +99,7 @@ def get_file(file_path):
     with open(file_path, "r") as file:
         return file.read()
     
-def send_slack_message(name, callback:callable):
+def send_slack_message(name, callback:callable, *callback_args):
     def inner(message):
         webhook_url = 'https://hooks.slack.com/services/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'
         headers = {'Content-Type': 'application/json'}
@@ -113,7 +113,9 @@ def send_slack_message(name, callback:callable):
             print(f"메시지 전송 실패! 상태 코드: {response.status_code}, 응답: {response.text}")
     
     try:
+        # partial로 인자를 고정시킨 함수 생성
         inner( f"<!here> 사용 시작 : {name}")
-        callback()
+        async_callback = partial(callback, *callback_args)
+        asyncio.run(async_callback())
     finally:
         inner( f"<!here> 사용 완료 : {name}")
