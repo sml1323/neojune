@@ -19,9 +19,9 @@ from ...util import util
 def main():
    
     # 매핑 사전 정의
-    design_mapping = DesignKiprisMapper().get_dict()
-    patent_mapping = PatentKiprisMapper().get_dict()
-    trademark_mapping = TrademarkKiprisMapper().get_dict()
+    design_mapping = DesignKiprisMapper()
+    patent_mapping = PatentKiprisMapper()
+    trademark_mapping = TrademarkKiprisMapper()
     util.add_sys_path()
     # XML 파일 이름 설정
     base_path = f"{os.path.dirname(os.path.abspath(__file__))}/xml"
@@ -29,11 +29,11 @@ def main():
     patent_xml_filename = f'{base_path}/patent.xml'  # XML 파일 경로
     trademark_xml_filename = f'{base_path}/trademark.xml'  # XML 파일 경로
 
-    if False:
+    if True:
         print("#### design")
         design_parser = KiprisDesignXmlToDictConverter(design_mapping, design_xml_filename)
         design_results = design_parser.parse()
-        KiprisTB24DesignDataUploader().upload(design_results)
+        # KiprisTB24DesignDataUploader().upload(design_results)
 
 
     if False:
@@ -44,7 +44,7 @@ def main():
         # KiprisTB24PatentDataUploader().upload(patent_results)
 
 
-    if True:
+    if False:
         print("#### trademark")
         trademark_parser = KiprisTrademarkXmlToDictConverter(trademark_mapping, trademark_xml_filename)
         # trademark_results = trademark_parser.parse()

@@ -18,9 +18,9 @@ def run():
     # fetcher_data.main()
     # fetcher.main()
     # applicant_info_fetcher.main()
-    # xml_to_dict_converter.main()
+    xml_to_dict_converter.main()
     # uploader.main()
     # all_conn.main()
     # blocked_users.main()
-    util.send_slack_message("neojune", save_to_xml.main)
+    # util.send_slack_message("neojune", save_to_xml.main)
     pass

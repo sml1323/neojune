@@ -45,7 +45,7 @@ def main():
         print("")
         print(time.time() - start)
 
-    if True:
+    if False:
         print("#### trademark_parser")
         start = time.time()
         trademark_parser = KiprisTrademarkXmlToDictConverter(trademark_mapping, trademark_xml_filename)
