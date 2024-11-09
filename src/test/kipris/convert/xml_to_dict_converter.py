@@ -25,34 +25,28 @@ def main():
     trademark_xml_filename = f'{base_path}/trademark.xml'  # XML 파일 경로
 
     if True:
+        def design_action():
+            design_parser = KiprisDesignXmlToDictConverter(design_mapping, design_xml_filename)
+            design_results = design_parser.parse()
+            print(len(design_results))
+            print(design_results)
+        util.print_run_time(design_action, "#### design_parser")
 
-        start = time.time()
+    if True:
+        def patent_action():
+            patent_parser = KiprisPatentXmlToDictConverter(patent_mapping, patent_xml_filename)
+            patent_results = patent_parser.parse()
+            print(len(patent_results))
+            print(patent_results)
+        util.print_run_time(patent_action, "#### patent_parser")
 
-        print("#### design_parser")
-        design_parser = KiprisDesignXmlToDictConverter(design_mapping, design_xml_filename)
-        design_results = design_parser.parse()
-        print(len(design_results))
-        print(design_results)
-        print("")
-        print(time.time() - start)
-
-    if False:
-        print("#### patent_parser")
-        start = time.time()
-        patent_parser = KiprisPatentXmlToDictConverter(patent_mapping, patent_xml_filename)
-        patent_results = patent_parser.parse()
-        print(len(patent_results))
-        print("")
-        print(time.time() - start)
-
-    if False:
-        print("#### trademark_parser")
-        start = time.time()
-        trademark_parser = KiprisTrademarkXmlToDictConverter(trademark_mapping, trademark_xml_filename)
-        trademark_results = trademark_parser.parse()
-        print(len(trademark_results))
-        print("")
-        print(time.time() - start)
+    if True:
+        def trademark_action():
+            trademark_parser = KiprisTrademarkXmlToDictConverter(trademark_mapping, trademark_xml_filename)
+            trademark_results = trademark_parser.parse()
+            print(len(trademark_results))
+            print(trademark_results)
+        util.print_run_time(trademark_action, "#### trademark_parser")
 
 
 

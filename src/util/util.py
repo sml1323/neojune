@@ -17,13 +17,23 @@ def add_sys_path():
     root_dir = os.path.dirname(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
     return root_dir
 
-async def get_run_time(callback:callable, msg:str):
+def __print_run_time_core(end_time, start_time, msg):
+    elapsed_time = end_time - start_time
+    print("")
+    print(f"총 걸린 시간 : {elapsed_time:.2f}초, {msg}")
+    print("")
+
+def print_run_time(callback:callable, msg:str):
+    start_time = time.time()
+    callback()
+    end_time = time.time()
+    __print_run_time_core(end_time, start_time, msg)
+
+async def print_run_time_async(callback:callable, msg:str):
     start_time = time.time()
     await callback()
     end_time = time.time()
-    
-    elapsed_time = end_time - start_time
-    print(f"총 걸린 시간 : {elapsed_time:.2f}초, {msg}")
+    __print_run_time_core(end_time, start_time, msg)
 
 def clean_whitespace(text: str) -> str:
     """텍스트의 여러 개 공백을 하나로 줄이고, 앞뒤 공백을 제거."""

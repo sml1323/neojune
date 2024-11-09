@@ -28,21 +28,21 @@ async def main(table_name="TB24_200"):
                 nonlocal patent
                 patent_fetcher = KiprisPatentFetcher(_applicant_numbers)
                 patent = await patent_fetcher.get_infos("patent 처리 시간")
-            await util.get_run_time(patent_action_api, "patent_action_api")
+            await util.print_run_time_async(patent_action_api, "patent_action_api")
 
             async def patent_action_save():
                 kipris_xml_dataGenerator.append_data_lists(patent)
                 kipris_xml_dataGenerator.apply()
                 file = "univ_patent" if isuniv else "patent"
                 kipris_xml_dataGenerator.save(file)
-            await util.get_run_time(patent_action_save, "patent_action_save")
+            await util.print_run_time_async(patent_action_save, "patent_action_save")
         
         if True:
             async def design_action_api():
                 nonlocal design
                 design_fetcher = KiprisDesignFetcher(_applicant_numbers)
                 design = await design_fetcher.get_infos("design")
-            await util.get_run_time(design_action_api, "design_action_api")
+            await util.print_run_time_async(design_action_api, "design_action_api")
 
             async def design_action_save():
                 
@@ -50,7 +50,7 @@ async def main(table_name="TB24_200"):
                 kipris_xml_dataGenerator.apply()
                 file = "univ_design" if isuniv else "design"
                 kipris_xml_dataGenerator.save(file)
-            await util.get_run_time(design_action_save, "design_action_save")
+            await util.print_run_time_async(design_action_save, "design_action_save")
         
         if True:
             async def trademark_action_api():
@@ -58,7 +58,7 @@ async def main(table_name="TB24_200"):
 
                 trademark_fetcher = KiprisTrademarkFetcher(_applicant_numbers)
                 trademark = await trademark_fetcher.get_infos("trademark")
-            await util.get_run_time(trademark_action_api, "trademark_action_api")
+            await util.print_run_time_async(trademark_action_api, "trademark_action_api")
 
             async def trademark_action_save():
 
@@ -66,11 +66,11 @@ async def main(table_name="TB24_200"):
                 kipris_xml_dataGenerator.apply()
                 file = "univ_trademark" if isuniv else "trademark"
                 kipris_xml_dataGenerator.save(file)
-            await util.get_run_time(trademark_action_save, "trademark_action_save")
+            await util.print_run_time_async(trademark_action_save, "trademark_action_save")
 
         
 
-    await util.get_run_time(get_info , f"전체 호출 완료: 3개 신청자 처리")
+    await util.print_run_time_async(get_info , f"전체 호출 완료: 3개 신청자 처리")
     
     
 
