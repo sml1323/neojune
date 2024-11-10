@@ -2,14 +2,20 @@ import os
 from typing import Dict, Optional
 from lxml import etree
 from typing import List, Dict
+from itertools import chain
 from ....util import util
 from .KiprisMapper import KiprisMapper
-from itertools import chain
+from .KiprisConvertedDataCartridge import KiprisConvertedDataCartridge
+
 
 class KiprisXmlToDictConverter:
-    def __init__(self, mapper: KiprisMapper, xml_filename: str):
+    def __init__(
+            self, mapper: KiprisMapper=KiprisMapper(), 
+            data_cartridge_class:type=KiprisConvertedDataCartridge, 
+            xml_filename: str=""
+    ):
         self.mapper = mapper  # 매핑 정보를 초기화
-        self.mapper_dict = self.mapper.get_dict()
+        self.data_cartridge_class = data_cartridge_class
         self.file_path = self.get_file_path(xml_filename)  # XML 파일 경로 생성
         self.xml_string = self.read_xml()  # XML 파일 읽기
         self.root = etree.fromstring(self.xml_string)
@@ -34,11 +40,11 @@ class KiprisXmlToDictConverter:
             return ""
 
     def __get_match_dict_item(self, data:etree.Element, item:etree.Element) -> Dict:
-        res = {}  # 기본값 설정
-        for data_key, xml_key in self.mapper_dict.items():
-            sub_element = item.find(xml_key) if xml_key else data
-            res[data_key] = self.__get_element_value(data_key, sub_element)
-        return res
+        res:KiprisConvertedDataCartridge = self.data_cartridge_class()
+        for key, value in self.mapper:
+            sub_element = item.find(value) if value else data
+            res[key] = self.__get_element_value(key, sub_element)
+        return res.get_dict_with_properties()
     pass
 
     def __get_match_dict_items(self, data: etree.Element) -> list[Dict]:
@@ -65,22 +71,10 @@ class KiprisXmlToDictConverter:
         match data_key:
             case "applicant_id":
                 return self.__get_applicant_id(sub_element)
-            case "ipr_code":
-                return self.__get_ipr_code(cleaned_text)
-            case "main_ipc":
-                return self.__get_main_ipc(cleaned_text)
             case "None":
                 return None
             case _:
                 return cleaned_text
-
-    def __get_ipr_code(self, text: str) -> str:
-        """ipr_code에 대해 첫 두 문자만 반환"""
-        return text[:2]
-
-    def __get_main_ipc(self, text: str) -> str:
-        """main_ipc에 대해 첫 번째 요소만 반환"""
-        return util.split(text)[0]
 
     def __get_applicant_id(self, element: etree.Element) -> str:
         """applicant_id 처리 함수"""

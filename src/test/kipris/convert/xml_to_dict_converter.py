@@ -13,41 +13,45 @@ from ....util import util
 
 def main():
     # 매핑 사전 정의
-    design_mapping = DesignKiprisMapper()
-    patent_mapping = PatentKiprisMapper()
-    trademark_mapping = TrademarkKiprisMapper()
+    
+    
+    
     util.add_sys_path()
     # XML 파일 이름 설정
     # base_path = f"res/output/{util.get_timestamp()}"
     base_path = f"src/test/kipris/convert/xml"
-    design_xml_filename = f'{base_path}/design.xml'  # XML 파일 경로
-    patent_xml_filename = f'{base_path}/patent.xml'  # XML 파일 경로
-    trademark_xml_filename = f'{base_path}/trademark.xml'  # XML 파일 경로
+    
+    
+    
 
-    if True:
-        def design_action():
-            design_parser = KiprisDesignXmlToDictConverter(design_mapping, design_xml_filename)
-            design_results = design_parser.parse()
-            print(len(design_results))
-            print(design_results)
-        util.execute_with_time(design_action, "#### design_parser")
+    def design_action():
+        design_mapping = DesignKiprisMapper()
+        design_xml_filename = f'{base_path}/design.xml'  # XML 파일 경로
+        design_parser = KiprisDesignXmlToDictConverter(design_mapping, design_xml_filename)
+        design_results = design_parser.parse()
+        print(len(design_results))
+        print(design_results)
 
-    if True:
-        def patent_action():
-            patent_parser = KiprisPatentXmlToDictConverter(patent_mapping, patent_xml_filename)
-            patent_results = patent_parser.parse()
-            print(len(patent_results))
-            print(patent_results)
-        util.execute_with_time(patent_action, "#### patent_parser")
+    def patent_action():
+        patent_mapping = PatentKiprisMapper()
+        patent_xml_filename = f'{base_path}/patent.xml'  # XML 파일 경로
+        patent_parser = KiprisPatentXmlToDictConverter(patent_mapping, patent_xml_filename)
+        patent_results = patent_parser.parse()
+        print(len(patent_results))
+        print(patent_results)
 
-    if True:
-        def trademark_action():
-            trademark_parser = KiprisTrademarkXmlToDictConverter(trademark_mapping, trademark_xml_filename)
-            trademark_results = trademark_parser.parse()
-            print(len(trademark_results))
-            print(trademark_results)
-        util.execute_with_time(trademark_action, "#### trademark_parser")
+    def trademark_action():
+        trademark_mapping = TrademarkKiprisMapper()
+        trademark_xml_filename = f'{base_path}/trademark.xml'  # XML 파일 경로
+        trademark_parser = KiprisTrademarkXmlToDictConverter(trademark_mapping, trademark_xml_filename)
+        trademark_results = trademark_parser.parse()
+        print(len(trademark_results))
+        print(trademark_results)
 
+
+    # util.execute_with_time("#### design_parser", design_action)
+    util.execute_with_time("#### patent_parser", patent_action)
+    # util.execute_with_time("#### trademark_parser", trademark_action)
 
 
 if __name__ == "__main__":
