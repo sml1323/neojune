@@ -50,8 +50,8 @@ def main():
 
 
     util.execute_with_time("#### design_parser", design_action)
-    util.execute_with_time("#### patent_parser", patent_action)
-    util.execute_with_time("#### trademark_parser", trademark_action)
+    # util.execute_with_time("#### patent_parser", patent_action)
+    # util.execute_with_time("#### trademark_parser", trademark_action)
 
 ## 출력
 '''

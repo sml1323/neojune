@@ -10,8 +10,17 @@ class KiprisObject:
             if not key.startswith('_'):
                 attributes[key] = value
         return attributes
-    
+
     def get_dict_with_properties(self) -> dict:
-            # dir()을 써서 인스턴스의 모든 속성을 다 가져오고, property 속성도 추가함
-            return {name: getattr(self, name) for name in dir(self) 
-                    if not name.startswith('_') and not callable(getattr(self, name))}
+        # 모든 속성명을 가져옴
+        attributes = dir(self)
+        result = {}
+
+        # 속성명 하나씩 반복해서 확인
+        for name in attributes:
+            # 속성이 비공개 속성(밑줄로 시작)인지, 함수가 아닌지 체크
+            if not name.startswith('_') and not callable(getattr(self, name)):
+                # 속성을 접근하여 딕셔너리에 추가
+                result[name] = getattr(self, name)
+
+        return result

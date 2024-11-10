@@ -42,10 +42,18 @@ class KiprisXmlToDictConverter:
     def __get_match_dict_item(self, data:etree.Element, item:etree.Element) -> Dict:
         res:KiprisConvertedDataCartridge = self.data_cartridge_class()
         for key, value in self.mapper:
-            sub_element = item.find(value) if value else data
-            res[key] = self.__get_element_value(key, sub_element)
+            if key == "applicant_id":
+                res[key] = self.__get_applicant_id(data, value)
+            else:
+                sub_element = None
+                if value is not None:
+                    sub_element = item.find(value)
+
+                if sub_element is not None:
+                    res[key] = self.__get_element_value(sub_element)
+
         return res.get_dict_with_properties()
-    pass
+
 
     def __get_match_dict_items(self, data: etree.Element) -> list[Dict]:
         result = []# 기본값 설정
@@ -59,30 +67,25 @@ class KiprisXmlToDictConverter:
         # data.xpath(item)
         return result
 
+    def __get_is_str_none(self, value):
+        return None if value == "None" else value
 
-    def __get_element_value(self, data_key: str, sub_element: Optional[etree.Element]) -> str:
+    def __get_element_value(self, sub_element: Optional[etree.Element]) -> str:
         """data_key별로 처리하는 match-case문"""
         if sub_element is None:
-            return ""
+            return None
 
         cleaned_text = util.clean_whitespace(str(sub_element.text))
+        return self.__get_is_str_none(cleaned_text)
 
-        # data_key별로 처리
-        match data_key:
-            case "applicant_id":
-                return self.__get_applicant_id(sub_element)
-            case "None":
-                return None
-            case _:
-                return cleaned_text
 
-    def __get_applicant_id(self, element: etree.Element) -> str:
+    def __get_applicant_id(self, element: etree.Element, data_key: str) -> str:
         """applicant_id 처리 함수"""
-        applicant_id_element = element.find('applicantId')
+        applicant_id_element = element.find(data_key)
         if applicant_id_element is not None:
             return applicant_id_element.text
         else:
-            return ""
+            return None
             
             
     # def __get_match_dict
