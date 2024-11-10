@@ -1,6 +1,5 @@
 from ...core.convert.KiprisMapper import KiprisMapper
 
-
 class DesignKiprisMapper(KiprisMapper):
     def __init__(self):
         super().__init__()
