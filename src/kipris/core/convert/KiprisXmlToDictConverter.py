@@ -75,8 +75,10 @@ class KiprisXmlToDictConverter:
         if sub_element is None:
             return None
 
-        cleaned_text = util.clean_whitespace(str(sub_element.text))
-        return self.__get_is_str_none(cleaned_text)
+        res = util.clean_whitespace(str(sub_element.text))
+        res = self.__get_is_str_none(res)
+        
+        return res
 
 
     def __get_applicant_id(self, element: etree.Element, data_key: str) -> str:
