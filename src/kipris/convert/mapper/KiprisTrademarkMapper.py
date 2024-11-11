@@ -1,6 +1,6 @@
 from ...core.convert.KiprisMapper import KiprisMapper
 
-class TrademarkKiprisMapper(KiprisMapper):
+class KiprisTrademarkMapper(KiprisMapper):
     def __init__(self):
         super().__init__()
         self.ipr_code = "ApplicationNumber"
