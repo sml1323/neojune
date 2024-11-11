@@ -109,7 +109,7 @@ class KiprisApplicantInfoFetcher:
     async def __increment_page(self, page: int) -> int:
         """페이지 증가 및 지연 적용"""
         await asyncio.sleep(0.02)
-        return page + 1
+        return page + self.params.docsCount
 
     async def __fetch_initial(self):
         """첫 요청으로 totalCount 추출 및 첫 페이지 결과 저장"""
