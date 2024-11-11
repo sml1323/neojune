@@ -1,3 +1,4 @@
+-- 기업정보
 CREATE TABLE TB24_100 (
     company_seq INT AUTO_INCREMENT PRIMARY KEY,
     biz_no VARCHAR(12) NULL, 
@@ -37,7 +38,7 @@ CREATE TABLE TB24_210 (
 -- 기업 특실 테이블
 CREATE TABLE TB24_company_patent (
     ipr_seq INT AUTO_INCREMENT PRIMARY KEY,
-    applicant_id INT NOT NULL, -- TB24_200의 applicant_id 참조
+    applicant_id INT NULL, -- TB24_200의 applicant_id 참조
     ipr_code VARCHAR(2),
     title VARCHAR(255),
     serial_no VARCHAR(50),
@@ -64,9 +65,9 @@ CREATE TABLE TB24_company_patent (
 -- 기업 디자인 테이블
 CREATE TABLE TB24_company_design (
     ipr_seq INT AUTO_INCREMENT PRIMARY KEY,
-    applicant_id INT NOT NULL, -- TB24_200의 applicant_id 참조
+    applicant_id INT NULL, -- TB24_200의 applicant_id 참조
     ipr_code VARCHAR(2),
-    title VARCHAR(255),
+    title VARCHAR(255) NOT NULL,
     serial_no VARCHAR(50),
     applicant VARCHAR(100),
     inventor VARCHAR(100),
@@ -91,13 +92,13 @@ CREATE TABLE TB24_company_design (
 -- 기업 상표 테이블
 CREATE TABLE TB24_company_trademark (
     ipr_seq INT AUTO_INCREMENT PRIMARY KEY,
-    applicant_id INT NOT NULL, -- TB24_200의 applicant_id 참조
+    applicant_id INT NULL, -- TB24_200의 applicant_id 참조
     ipr_code VARCHAR(2),
     title VARCHAR(255) NOT NULL,
     serial_no VARCHAR(50),
-    applicant VARCHAR(100),
+    applicant VARCHAR(100) ,
     agent VARCHAR(100),
-    appl_no VARCHAR(50),
+    appl_no VARCHAR(50) UNIQUE,
     appl_date DATE,
     pub_num VARCHAR(50),
     pub_date DATE,
@@ -113,9 +114,9 @@ CREATE TABLE TB24_company_trademark (
 -- 대학 특실 테이블
 CREATE TABLE TB24_university_patent (
     ipr_seq INT AUTO_INCREMENT PRIMARY KEY,
-    applicant_id INT NOT NULL, -- TB24_200의 applicant_id 참조
+    applicant_id INT NULL, -- TB24_210의 applicant_id 참조
     ipr_code VARCHAR(2),
-    title VARCHAR(255),
+    title VARCHAR(255) NOT NULL,
     serial_no VARCHAR(50),
     applicant VARCHAR(100),
     main_ipc VARCHAR(15),
@@ -140,9 +141,9 @@ CREATE TABLE TB24_university_patent (
 -- 대학 디자인 테이블
 CREATE TABLE TB24_university_design (
     ipr_seq INT AUTO_INCREMENT PRIMARY KEY,
-    applicant_id INT NOT NULL, -- TB24_200의 applicant_id 참조
+    applicant_id INT NULL, -- TB24_210의 applicant_id 참조
     ipr_code VARCHAR(2),
-    title VARCHAR(255),
+    title VARCHAR(255) NOT NULL,
     serial_no VARCHAR(50),
     applicant VARCHAR(100),
     inventor VARCHAR(100),
@@ -167,13 +168,13 @@ CREATE TABLE TB24_university_design (
 -- 대학 상표 테이블
 CREATE TABLE TB24_university_trademark (
     ipr_seq INT AUTO_INCREMENT PRIMARY KEY,
-    applicant_id INT NOT NULL, -- TB24_200의 applicant_id 참조
+    applicant_id INT NULL, -- TB24_200의 applicant_id 참조
     ipr_code VARCHAR(2),
     title VARCHAR(255) NOT NULL,
     serial_no VARCHAR(50),
     applicant VARCHAR(100),
     agent VARCHAR(100),
-    appl_no VARCHAR(50),
+    appl_no VARCHAR(50) UNIQUE,
     appl_date DATE,
     pub_num VARCHAR(50),
     pub_date DATE,
@@ -186,27 +187,46 @@ CREATE TABLE TB24_university_trademark (
     FOREIGN KEY (applicant_id) REFERENCES TB24_210(applicant_id)
 );
 
--- IPC_CPC 테이블
-CREATE TABLE TB24_310 (
+-- 기업 IPC_CPC 테이블
+CREATE TABLE TB24_310_company (
     ipc_seq INT AUTO_INCREMENT PRIMARY KEY,
     ipr_seq INT NOT NULL, -- TB24_company_patent 또는 TB24_university_patent의 ipr_seq 참조
     ipc_cpc VARCHAR(10),  -- IPC_CPC 구분
     ipc_cpc_code VARCHAR(20),  -- IPC_CPC 코드(ipcNumber)
-    ipr_type ENUM('company_patent', 'university_patent') NOT NULL, -- 참조 타입 구분
     FOREIGN KEY (ipr_seq) REFERENCES TB24_company_patent(ipr_seq) ON DELETE CASCADE,
+    CHECK (ipc_cpc IN ('IPC', 'CPC'))
+);
+
+-- 대학 IPC_CPC 테이블
+CREATE TABLE TB24_310_university (
+    ipc_seq INT AUTO_INCREMENT PRIMARY KEY,
+    ipr_seq INT NOT NULL, -- TB24_company_patent 또는 TB24_university_patent의 ipr_seq 참조
+    ipc_cpc VARCHAR(10),  -- IPC_CPC 구분
+    ipc_cpc_code VARCHAR(20),  -- IPC_CPC 코드(ipcNumber)
     FOREIGN KEY (ipr_seq) REFERENCES TB24_university_patent(ipr_seq) ON DELETE CASCADE,
     CHECK (ipc_cpc IN ('IPC', 'CPC'))
 );
 
--- 우선권 테이블
-CREATE TABLE TB24_320 (
+-- 기업 우선권 테이블
+CREATE TABLE TB24_320_company (
     priority_seq INT AUTO_INCREMENT PRIMARY KEY,
-    applicant_id INT NOT NULL,         -- TB24_university_applicant 또는 TB24_company_applicant의 applicant_id 참조
     ipr_seq INT NOT NULL,              -- TB24_design 또는 TB24_trademark의 ipr_seq 참조
     ipr_type ENUM('design', 'trademark') NOT NULL, -- 참조 타입 구분
     priority_no VARCHAR(50) UNIQUE,    -- 우선권주장번호
     priority_date DATE,                -- 우선권주장일자
-    FOREIGN KEY (applicant_id) REFERENCES TB24_200(applicant_id) ON DELETE CASCADE,
-    FOREIGN KEY (applicant_id) REFERENCES TB24_210(applicant_id) ON DELETE CASCADE,
+    FOREIGN KEY (ipr_seq) REFERENCES TB24_company_trademark(ipr_seq) ON DELETE CASCADE,
+    FOREIGN KEY (ipr_seq) REFERENCES TB24_company_design(ipr_seq) ON DELETE CASCADE,
+    CHECK (ipr_type IN ('design', 'trademark'))
+);
+
+-- 대학 우선권 테이블
+CREATE TABLE TB24_320_university (
+    priority_seq INT AUTO_INCREMENT PRIMARY KEY,
+    ipr_seq INT NOT NULL,              -- TB24_design 또는 TB24_trademark의 ipr_seq 참조
+    ipr_type ENUM('design', 'trademark') NOT NULL, -- 참조 타입 구분
+    priority_no VARCHAR(50) UNIQUE,    -- 우선권주장번호
+    priority_date DATE,                -- 우선권주장일자
+		FOREIGN KEY (ipr_seq) REFERENCES TB24_university_trademark(ipr_seq) ON DELETE CASCADE,
+    FOREIGN KEY (ipr_seq) REFERENCES TB24_university_design(ipr_seq) ON DELETE CASCADE,
     CHECK (ipr_type IN ('design', 'trademark'))
 );
