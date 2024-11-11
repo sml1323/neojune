@@ -1,3 +1,4 @@
+-- Active: 1726995339920@@127.0.0.1@3306@kipris
 -- 기업정보
 CREATE TABLE TB24_100 (
     company_seq INT AUTO_INCREMENT PRIMARY KEY,
