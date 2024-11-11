@@ -66,8 +66,8 @@
     * `fetch_data_by_page(table_name, page, page_size, columns=None, filter_condition=None)`: 페이지 단위로 데이터 조회.
     * `upsert_data(table_name, data)`: 데이터 삽입 또는 업데이트 (upsert).
     * `fetch_data_from_db(table_name, columns=None, limit=None, filter_condition=None)`: 데이터베이스에서 데이터 조회.
-    * `get_limit_enterprise_no_id(limit)`: 제한된 수의 app_no와 applicant_id 조회.
-    * `get_all_enterprise_no_id(table='TB24_200')`: 모든 app_no와 applicant_id 조회.
+    * `get_limit_company_no_id(limit)`: 제한된 수의 app_no와 applicant_id 조회.
+    * `get_all_company_no_id(table='TB24_200')`: 모든 app_no와 applicant_id 조회.
     * `close_connection()`: 데이터베이스 연결 종료.
 
 

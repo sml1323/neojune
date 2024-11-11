@@ -3,7 +3,6 @@ from ..KiprisObject import KiprisObject
 class KiprisBaseProp(KiprisObject):
     def __init__(self):
         super().__init__()
-        self._ipr_seq = None
         self._applicant_id = None
         # 분리
         self._ipr_code = None
@@ -17,13 +16,6 @@ class KiprisBaseProp(KiprisObject):
         self._legal_status_desc = None
         self._image_path = None
     
-    @property
-    def ipr_seq(self):
-        return self._ipr_seq
-
-    @ipr_seq.setter
-    def ipr_seq(self, value):
-        self._ipr_seq = value
 
     @property
     def applicant_id(self):

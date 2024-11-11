@@ -81,11 +81,11 @@ class KiprisXmlToDictConverter:
         return res
 
 
-    def __get_applicant_id(self, element: etree.Element, data_key: str) -> str:
+    def __get_applicant_id(self, element: etree.Element, data_key: str) -> int|None:
         """applicant_id 처리 함수"""
         applicant_id_element = element.find(data_key)
         if applicant_id_element is not None:
-            return applicant_id_element.text
+            return int(applicant_id_element.text)
         else:
             return None
             
