@@ -176,11 +176,11 @@ class Mysql:
 
         return rows
 
-    def get_limit_enterprise_no_id(self, limit=1) -> list[list]:
+    def get_limit_company_no_id(self, limit=1) -> list[list]:
         sql = f'SELECT applicant_no, applicant_id FROM TB24_200 LIMIT {limit}'
         return self.get_cursor_fetchall(sql)
 
-    def get_all_enterprise_no_id(self, ) -> list[list]:
+    def get_all_company_no_id(self, ) -> list[list]:
         sql = f'SELECT applicant_no, applicant_id FROM TB24_200'
         return self.get_cursor_fetchall(sql)
 
