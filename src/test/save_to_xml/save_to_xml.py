@@ -5,7 +5,10 @@ from ...kipris.parsing.fetcher.KiprisPatentFetcher import KiprisPatentFetcher
 from ...kipris.parsing.fetcher.KiprisDesignFetcher import KiprisDesignFetcher
 from ...kipris.parsing.fetcher.KiprisTrademarkFetcher import KiprisTrademarkFetcher
 from ...util import util
+from ...util import monitoring
 mysql = Mysql()
+
+
 
 class Info():
     def __init__(self):
@@ -19,14 +22,19 @@ async def main(table_name="TB24_200", dir_path="enterprise"):
     async def get_info() -> Info:
         info = Info()
         if table_name == "TB24_200":
-            # applicant_numbers = mysql.get_all_enterprise_no_id()
+            enterprise_logger = monitoring.setup_logger("enterprise")
+            enterprise_logger.debug("TB24_200")
+            applicant_numbers = mysql.get_all_enterprise_no_id()
             # applicant_numbers = mysql.get_limit_enterprise_no_id(5)
             # p3: 120080091393,  p23: 120070509242
             # applicant_numbers = [[120070509242, 10],[120080091393, 20]]
-            applicant_numbers = [[120140558200, 1]]
+            # applicant_numbers = [[120140558200, 1]]
         else:
+            university_logger = monitoring.setup_logger("university")
+            university_logger.debug("TB24_210")
             # applicant_numbers = mysql.get_all_university_no_seq()
-            applicant_numbers = mysql.get_limit_university_no_seq(5)
+            # applicant_numbers = mysql.get_limit_university_no_seq(5)
+            applicant_numbers = [[220050095099, 1]]
 
         async def patent_action_api():
             patent_fetcher = KiprisPatentFetcher(applicant_numbers)
@@ -45,7 +53,7 @@ async def main(table_name="TB24_200", dir_path="enterprise"):
         info.trademark = await util.execute_with_time_async("trademark_action_api", trademark_action_api)
         return info
 
-    info:Info = await util.execute_with_time_async("전체 호출 완료: 3개 신청자 처리", get_info)
+    info:Info = await util.execute_with_time_async("`전체 호출 완료: 3개 신청자 처리", get_info)
     
     print("===========================================")
 
