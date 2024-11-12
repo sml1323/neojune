@@ -81,5 +81,17 @@ async def main(table_name="TB24_200", dir_path="company"):
 
     await util.execute_with_time_async("xml 저장 완료", save_xml, info)
 
+
+from ...kipris.parsing.fetcher.KiprisPatentChangeFetcher import KiprisPatentChangeFetcher
+
+
+async def daliy(table_name="TB24_200", dir_path="company"):
+
+    async def patent_change_api():
+        patent_fetcher = KiprisPatentChangeFetcher()
+        change_patent = await patent_fetcher.get_info()
+    await util.execute_with_time_async("patent_action_api", patent_change_api)
+
+
 if __name__ == '__main__':
     asyncio.run(main())

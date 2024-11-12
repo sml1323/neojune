@@ -2,6 +2,12 @@ from src.test import test
 
 
 # test.run()
+import asyncio
+
+from src.test.save_to_xml.save_to_xml import daliy
+asyncio.run(daliy())
+exit()
+
 
 ####### new api 실험
 import asyncio
