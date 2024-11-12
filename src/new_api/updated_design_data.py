@@ -55,7 +55,7 @@ async def get_design_info(service_key, application_number, session, semaphore) -
                 return {application_number: "No results found"}
         except ValueError:
             print("totalCount를 찾을 수 없습니다.")
-            return {application_number: "Parsing error"}
+            return {application_number: result}
     
     # 전체 페이지 순회
     page = 2

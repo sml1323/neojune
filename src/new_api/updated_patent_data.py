@@ -72,7 +72,6 @@ async def get_patent_info(service_key, application_number, session, semaphore) -
             fail_count += 1
             break
 
-    print(f"총 호출 횟수: {success_count + fail_count}, 성공 횟수: {success_count}, 실패 횟수: {fail_count}")
     if result:
         return {application_number: result}
     else:
