@@ -1,6 +1,6 @@
-from ...core.convert.KiprisMapper import KiprisMapper
+from ...core.convert.KiprisXmlMapper import KiprisXmlMapper
 
-class KiprisDesignMapper(KiprisMapper):
+class KiprisDesignXmlMapper(KiprisXmlMapper):
     def __init__(self):
         super().__init__()
         self.ipr_code = "applicationNumber" # 2글자
