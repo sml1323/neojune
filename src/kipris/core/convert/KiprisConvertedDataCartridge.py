@@ -6,7 +6,10 @@ class KiprisConvertedDataCartridge(KiprisBaseProp):
         
     @property
     def ipr_code(self):
-        return self._ipr_code[:2]
+        if isinstance(self._ipr_code, str):
+            return self._ipr_code[:2]
+        else:
+            return self._ipr_code
     
     @ipr_code.setter
     def ipr_code(self, value):
