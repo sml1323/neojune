@@ -2,73 +2,62 @@ import os, asyncio, aiohttp
 from dotenv import load_dotenv
 from datetime import datetime
 import time
-
 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-
-
+# 로그 설정
 load_dotenv()
 
-
-async def get_design_info(service_key, application_number, session, semaphore) -> dict:
-    url = "http://plus.kipris.or.kr/openapi/rest/designInfoSearchService/applicationNumberSearchInfo"
+async def get_patent_info(service_key, application_number, session, semaphore) -> dict:
+    url = "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/applicationNumberSearchInfo"
     result = []
     success_count = 0
     fail_count = 0
     docs_count = 500  # 페이지당 최대 결과 수
 
-    # 총 항목 수 확인을 위한 첫 요청
+    # 첫 요청으로 총 항목 수 확인
     request_params = {
         'accessKey': service_key,
         'applicationNumber': application_number,
-        'startNumber': 1,
-        'docsCount': docs_count,       
-        'etc': 'true',                
-        'part': 'true',               
-        'simi': 'true',               
-        'abandonment': 'true',        
-        'cancle': 'true',             
-        'destroy': 'true',            
-        'invalid': 'true',            
-        'notice': 'true',             
-        'open': 'true',               
-        'registration': 'true',       
-        'rejection': 'true',          
-        'sortSpec': 'AD',             
-        'descSort': 'true'            
+        'docsStart': 1,
+        'docsCount': docs_count,
+        'patent': 'true',
+        'utility': 'true',
+        'lastvalue': '',
     }
+
     async with session.get(url, params=request_params, timeout=10) as response:
         content = await response.text()
-        
         try:
-            # totalCount 문자열 검색
-            start = content.find("<totalCount>") + len("<totalCount>")
-            end = content.find("</totalCount>")
+            # 문자열 검색으로 totalCount 추출
+            start = content.find("<TotalSearchCount>") + len("<TotalSearchCount>")
+            end = content.find("</TotalSearchCount>")
             total_count = int(content[start:end].strip())
             max_pages = (total_count // docs_count) + (1 if total_count % docs_count else 0)
             print(f"총 검색 건수: {total_count}, 총 페이지 수: {max_pages}")
-            
             # totalCount가 0이 아닐 경우에만 결과를 추가
             if total_count > 0:
                 result.append(content)
             else:
                 print(f"{application_number}의 검색 결과가 없습니다.")
                 return {application_number: "No results found"}
+            success_count += 1
         except ValueError:
             print("totalCount를 찾을 수 없습니다.")
-            return {application_number: "Parsing error"}
-    
+            return {application_number: result}
+
     # 전체 페이지 순회
     page = 2
     while page <= max_pages:
-        request_params['startNumber'] = page
+        request_params['docsStart'] = page
         try:
             async with session.get(url, params=request_params, timeout=10) as response:
                 if response.status == 200:
                     content = await response.text()
                     print(f"{application_number} 페이지 {page} 호출 성공")
-                    result.append(content)  
+                    result.append(content)
                     success_count += 1
                     page += 1
+                    # 요청을 보낸 후 0.02초 지연
+                    await asyncio.sleep(0.02)
                 else:
                     print(f"{application_number} 페이지 {page} HTTP 오류: {response.status}")
                     fail_count += 1
@@ -87,15 +76,14 @@ async def get_design_info(service_key, application_number, session, semaphore) -
     if result:
         return {application_number: result}
     else:
-        return {application_number: "No results found"}   
+        return {application_number: "No results found"}
 
 async def main():
-    load_dotenv()
     service_key = os.getenv('SERVICE_KEY')
     limit = 200  # 테스트용 요청 개수
     
     test_apps = [{'2020040031672': 4719}, {'2020210000007': 1696}, {'1020220021103': 6841}]
-    # test_apps = [{'1020220175029': 1}, {'1020230022997': 302}, {'1020220163314': 321}, {'1020140035677': 275}] # 대학
+    test_apps = [{'1020220175029': 1}, {'1020230022997': 302}, {'1020220163314': 321}, {'1020140035677': 275}] # 대학
     start_time = time.time()
     
     # 결과 저장용 딕셔너리 초기화
@@ -108,7 +96,7 @@ async def main():
         for app in test_apps:
             for application_number, code in app.items():
                 await asyncio.sleep(0.02)
-                task = asyncio.create_task(get_design_info(service_key, application_number, session, semaphore))
+                task = asyncio.create_task(get_patent_info(service_key, application_number, session, semaphore))
                 tasks.append(task)
 
         # 모든 fetch 작업 완료 대기
