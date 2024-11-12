@@ -180,18 +180,28 @@ class Mysql:
         sql = f'SELECT applicant_no, applicant_id FROM TB24_200 LIMIT {limit}'
         return self.get_cursor_fetchall(sql)
 
-    def get_all_company_no_id(self, ) -> list[list]:
-        sql = f'SELECT applicant_no, applicant_id FROM TB24_200'
-        return self.get_cursor_fetchall(sql)
+    def get_all_company_no_id(self, is_dict = False) -> list[list]:
+        sql = f'SELECT applicant_no, applicant_id FROM TB24_200;'
+        result = self.get_cursor_fetchall(sql)
+        if is_dict : 
+            return {item[0]: item[1] for item in result}
+        else:
+            return result
+        
 
     def get_limit_university_no_seq(self, limit=1) -> list[list]:
         # applicant_no, university_seq
         sql = f'SELECT applicant_no, applicant_id FROM TB24_210 LIMIT {limit}'
         return self.get_cursor_fetchall(sql)
 
-    def get_all_university_no_seq(self, ) -> list[list]:
-        sql = f'SELECT applicant_no, applicant_id FROM TB24_210'
-        return self.get_cursor_fetchall(sql)
+    def get_all_university_no_seq(self, is_dict = False) -> list[list]:
+        sql = f'SELECT applicant_no, applicant_id FROM TB24_210;'
+        result = self.get_cursor_fetchall(sql)
+        if is_dict : 
+            return {item[0]: item[1] for item in result}
+        else:
+            return result
+    
 
 
     def close_connection(self):

@@ -15,15 +15,15 @@ from updated_trademark_data import get_trademark_info
 from save_to_xml import save_data_as_xml
 
 
-async def fetch_all_info(service_key,application_number, session, semaphore, pa_dict, de_dict, tr_dict, code):
+async def fetch_all_info(service_key,application_number, session, semaphore, pa_dict, de_dict, tr_dict, application_id):
     async with semaphore:
         result_patent = await get_patent_info(service_key, application_number, session, semaphore)
         result_design = await get_design_info(service_key, application_number, session, semaphore)
         result_trademark = await get_trademark_info(service_key, application_number, session, semaphore)
 
-        pa_dict[code] = result_patent
-        de_dict[code] = result_design
-        tr_dict[code] = result_trademark
+        pa_dict[application_id] = result_patent
+        de_dict[application_id] = result_design
+        tr_dict[application_id] = result_trademark
 
 
 async def main():
@@ -54,9 +54,9 @@ async def main():
         # 모든 앱의 정보를 비동기로 가져와 딕셔너리에 저장
         tasks = []
         for app in test_apps:
-            for application_number, code in app.items():
+            for application_number, application_id in app.items():
                 await asyncio.sleep(0.02)
-                task = fetch_all_info(service_key, application_number, session, semaphore, pa_dict, de_dict, tr_dict, code)
+                task = fetch_all_info(service_key, application_number, session, semaphore, pa_dict, de_dict, tr_dict, application_id)
                 tasks.append(task)
 
         await asyncio.gather(*tasks)
@@ -66,6 +66,12 @@ async def main():
     elapsed_time = end_time - start_time
     print(f"전체 호출 완료: {len(test_apps)}개 신청자 처리, 총 걸린 시간 : {elapsed_time:.2f}초")
     start = time.time()
+
+
+
+
+
+    
     # save_data_as_xml 호출 예시
     patent_count = save_data_as_xml(pa_dict, "patent_data", "patent", timestamp)
     design_count = save_data_as_xml(de_dict, "design_data", "design", timestamp)

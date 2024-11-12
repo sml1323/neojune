@@ -3,7 +3,6 @@ from lxml import etree
 from dotenv import load_dotenv
 import backoff
 
-from .KiprisParam import KiprisParam
 from ....util import monitoring
 
 load_dotenv()
@@ -14,7 +13,7 @@ logger_ori = monitoring.setup_logger_origin("origin text")
 
 
 class KiprisChangeInfoFetcher:
-    def __init__(self, url:str, param:KiprisParam):
+    def __init__(self, url:str, param = None):
         self.result = []
         self.url = url
         self.params = param

@@ -84,7 +84,7 @@ async def main():
     
     # 결과 저장용 딕셔너리 초기화
     de_dict = {}
-    semaphore = asyncio.Semaphore(42)
+    semaphore = asyncio.Semaphore(20)
 
     async with aiohttp.ClientSession() as session:
         # 모든 앱의 정보를 비동기로 가져와 딕셔너리에 저장

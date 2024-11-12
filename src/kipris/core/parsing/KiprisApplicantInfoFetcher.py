@@ -25,23 +25,25 @@ class KiprisApplicantInfoFetcher:
         self.session = None
         self.params = param
 
-    async def __open_session(self):
+
+    async def open_session(self):
         """ClientSession을 열어서 여러 요청에서 공유"""
         if self.session is None:
             self.session = aiohttp.ClientSession()
 
-    async def __close_session(self):
+    async def close_session(self):
         """ClientSession을 닫음"""
         if self.session:
             await self.session.close()
             self.session = None
-
-    def __backoff_hdlr(details):
+    
+    @staticmethod
+    def backoff_hdlr(details):
         exception = details.get('exception')
         print(f"Retrying after exception: {exception}... Attempt {details['tries']}")
 
-    @backoff.on_exception(backoff.constant, (asyncio.TimeoutError, Exception), max_tries=3, interval=10, on_backoff=__backoff_hdlr)
-    async def __fetch_content(self, page: int) -> str:
+    @backoff.on_exception(backoff.constant, (asyncio.TimeoutError, Exception), max_tries=3, interval=10, on_backoff=backoff_hdlr)
+    async def fetch_content(self, page: int) -> str:
         """API 호출 후 페이지 내용 반환"""
         self.params.docsStart = page
         async with KiprisFetcher.semaphore:
@@ -50,7 +52,7 @@ class KiprisApplicantInfoFetcher:
             async with self.session.get(self.url, params=self.params.get_dict(), timeout=10) as response:
                 return await response.text()
 
-    def __get_total_count(self, content: str) -> int:
+    def get_total_count(self, content: str) -> int:
         """lxml을 사용하여 XML 응답에서 totalCount 또는 TotalSearchCount 값을 추출"""
         root = etree.fromstring(content.encode("utf-8"))
 
@@ -62,7 +64,7 @@ class KiprisApplicantInfoFetcher:
         print("totalCount와 TotalSearchCount를 찾을 수 없습니다.")
         return 0
 
-    def __is_blocked_users(self, content: str=""):
+    def is_blocked_users(self, content: str=""):
         if content == "":
             return False
 
@@ -71,27 +73,27 @@ class KiprisApplicantInfoFetcher:
 
         return result_msg == "Blocked users."
         
-    def __throw_error_if_blocked_users(self, content: str=""):
-        if self.__is_blocked_users(content):
+    def throw_error_if_blocked_users(self, content: str=""):
+        if self.is_blocked_users(content):
             raise Exception("User is blocked.")
         
     
-    def __get_max_pages(self, total_count: int):
+    def get_max_pages(self, total_count: int):
         """총 페이지 수 계산"""
         return (total_count // self.params.docsCount) + (1 if total_count % self.params.docsCount else 0)
 
-    async def __handle_response(self, page: int) -> bool:
+    async def handle_response(self, page: int) -> bool:
         """응답 처리 및 성공 여부 반환"""
         try:
-            content = await self.__fetch_content(page)
-            self.__throw_error_if_blocked_users(content)
+            content = await self.fetch_content(page)
+            self.throw_error_if_blocked_users(content)
             logger_ori.info(content)
 
             if page == 1:  # 첫 페이지는 totalCount 추출
-                total_count = self.__get_total_count(content)
+                total_count = self.get_total_count(content)
                 if total_count == -1:
                     return False # totalCount 추출 실패시 함수 종료
-                self.max_pages = self.__get_max_pages(total_count)
+                self.max_pages = self.get_max_pages(total_count)
                 logger.info(f"총 검색 건수: {total_count}, 총 페이지 수: {self.max_pages}")
             self.result.append(content)
             self.success_count += 1
@@ -106,27 +108,27 @@ class KiprisApplicantInfoFetcher:
             self.fail_count += 1
             raise
 
-    async def __increment_page(self, page: int) -> int:
+    async def increment_page(self, page: int) -> int:
         """페이지 증가 및 지연 적용"""
         await asyncio.sleep(0.02)
         return page + self.params.docsCount
 
-    async def __fetch_initial(self):
+    async def fetch_initial(self):
         """첫 요청으로 totalCount 추출 및 첫 페이지 결과 저장"""
-        success = await self.__handle_response(1)
+        success = await self.handle_response(1)
         if not success:
             print("첫 페이지 요청 실패")
 
-    async def __fetch_pages(self):
+    async def fetch_pages(self):
         
         tasks = []
         # 페이지 번호 2부터 self.max_pages까지 반복
         page = 2
         while page <= self.max_pages:
             # _increment_page를 사용하여 페이지를 증가시키면서 지연을 적용
-            task = self.__handle_response(page)
+            task = self.handle_response(page)
             tasks.append(task)
-            page = await self.__increment_page(page)
+            page = await self.increment_page(page)
 
         # 모든 task를 asyncio.gather로 실행
         await asyncio.gather(*tasks)
@@ -138,14 +140,14 @@ class KiprisApplicantInfoFetcher:
     
     async def get_info(self, session: aiohttp.ClientSession = None) -> KiprisFetchData:
         if session is None:
-            await self.__open_session()
-            await self.__fetch_initial()
-            await self.__fetch_pages()
-            await self.__close_session()
+            await self.open_session()
+            await self.fetch_initial()
+            await self.fetch_pages()
+            await self.close_session()
         else:
             self.session = session
-            await self.__fetch_initial()
-            await self.__fetch_pages()
+            await self.fetch_initial()
+            await self.fetch_pages()
 
         
         return KiprisFetchData(self.params.app_no, self.params.applicant_id, self.result)

@@ -20,10 +20,8 @@ def __backoff_hdlr(details):
 
 @backoff.on_exception(backoff.constant, (asyncio.TimeoutError, Exception), max_tries=3, interval=10, on_backoff=__backoff_hdlr)
 async def fetch_content(url, params) -> str:
-    # await asyncio.sleep(0.5)
     
     while True:
-        # print(semaphore._value)
         if semaphore._value <= 10:
             logger.debug(f"재시도 : {params['applicantionNumber']}, semaphore : {semaphore._value} ")
             await asyncio.sleep(1)
@@ -32,9 +30,9 @@ async def fetch_content(url, params) -> str:
             
             async with aiohttp.ClientSession() as session:
                 logger.info(f"요청 성공 , semaphore : {semaphore._value}")
-                # print(f"성공 {params['applicationNumber']}")
                 async with  session.get( url, params= params, timeout=10) as response:
                     content = await response.read()
+                    
                     root = etree.fromstring(content)
                     applicant_number_b = root.find(".//ApplicantNumber")
                     if applicant_number_b is not None:
