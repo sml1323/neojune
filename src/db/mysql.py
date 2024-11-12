@@ -186,11 +186,11 @@ class Mysql:
 
     def get_limit_university_no_seq(self, limit=1) -> list[list]:
         # applicant_no, university_seq
-        sql = f'SELECT applicant_no, university_seq FROM TB24_210 LIMIT {limit}'
+        sql = f'SELECT applicant_no, applicant_id FROM TB24_210 LIMIT {limit}'
         return self.get_cursor_fetchall(sql)
 
     def get_all_university_no_seq(self, ) -> list[list]:
-        sql = f'SELECT applicant_no, university_seq FROM TB24_210'
+        sql = f'SELECT applicant_no, applicant_id FROM TB24_210'
         return self.get_cursor_fetchall(sql)
 
 
