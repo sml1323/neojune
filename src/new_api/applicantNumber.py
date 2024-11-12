@@ -25,12 +25,13 @@ async def fetch_content(url, params) -> str:
     while True:
         # print(semaphore._value)
         if semaphore._value <= 10:
+            logger.debug(f"재시도 : {params['applicantionNumber']}, semaphore : {semaphore._value} ")
             await asyncio.sleep(1)
         async with semaphore:
             await asyncio.sleep(0.5)
             
             async with aiohttp.ClientSession() as session:
-                logger.info("요청 성공")
+                logger.info(f"요청 성공 , semaphore : {semaphore._value}")
                 # print(f"성공 {params['applicationNumber']}")
                 async with  session.get( url, params= params, timeout=10) as response:
                     content = await response.read()
@@ -39,7 +40,9 @@ async def fetch_content(url, params) -> str:
                     if applicant_number_b is not None:
                         return  {params['applicationNumber'] : applicant_number_b.text}
                     else:
-                        print()
+                        print(params)
+                        print(etree.tostring(root, pretty_print=True, encoding='unicode'))
+                        return None
                     # print("응답후 ", semaphore._value,params['applicationNumber'] )           
     
 

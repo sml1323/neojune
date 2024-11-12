@@ -44,7 +44,7 @@ async def fetch_content(url) -> str:
             trans_list_string = root.find(".//transListString").text
             # 출원번호 리스트 생성
             trans_list = trans_list_string.split("|") if trans_list_string else []
-            return trans_list
+            return trans_list[:-1]
 
 # async def fetch_all_data() -> list:
 #     """모든 URL에 비동기로 요청을 보내고 출원번호를 리스트 형식으로 반환"""
