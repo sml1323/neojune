@@ -25,33 +25,30 @@ def main():
     
 
     def design_action():
-        design_mapping = KiprisDesignMapper()
         design_xml_filename = f'{base_path}/design.xml'  # XML 파일 경로
-        design_parser = KiprisDesignXmlToDictConverter(design_mapping, design_xml_filename)
+        design_parser = KiprisDesignXmlToDictConverter(design_xml_filename)
         design_results = design_parser.parse()
         print(len(design_results))
         print(design_results)
 
     def patent_action():
-        patent_mapping = KiprisPatentMapper()
         patent_xml_filename = f'{base_path}/patent.xml'  # XML 파일 경로
-        patent_parser = KiprisPatentXmlToDictConverter(patent_mapping, patent_xml_filename)
+        patent_parser = KiprisPatentXmlToDictConverter(patent_xml_filename)
         patent_results = patent_parser.parse()
         print(len(patent_results))
         print(patent_results)
 
     def trademark_action():
-        trademark_mapping = KiprisTrademarkMapper()
         trademark_xml_filename = f'{base_path}/trademark.xml'  # XML 파일 경로
-        trademark_parser = KiprisTrademarkXmlToDictConverter(trademark_mapping, trademark_xml_filename)
+        trademark_parser = KiprisTrademarkXmlToDictConverter(trademark_xml_filename)
         trademark_results = trademark_parser.parse()
         print(len(trademark_results))
         print(trademark_results)
 
 
     util.execute_with_time("#### design_parser", design_action)
-    # util.execute_with_time("#### patent_parser", patent_action)
-    # util.execute_with_time("#### trademark_parser", trademark_action)
+    util.execute_with_time("#### patent_parser", patent_action)
+    util.execute_with_time("#### trademark_parser", trademark_action)
 
 ## 출력
 '''
