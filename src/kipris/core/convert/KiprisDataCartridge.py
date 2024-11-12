@@ -1,6 +1,6 @@
 from .KiprisBaseProp import KiprisBaseProp
 
-class KiprisConvertedDataCartridge(KiprisBaseProp):
+class KiprisDataCartridge(KiprisBaseProp):
     def __init__(self):
         super().__init__()
         
