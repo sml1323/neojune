@@ -14,10 +14,6 @@ service_key = os.getenv('SERVICE_KEY')
 
 semaphore = asyncio.Semaphore(20)
 
-request_params = {
-    'accessKey' :  service_key,
-}
-
 def __backoff_hdlr(details):
     exception = details.get('exception')
     print(f"Retrying after exception: {exception}... Attempt {details['tries']}")
@@ -25,25 +21,46 @@ def __backoff_hdlr(details):
 @backoff.on_exception(backoff.constant, (asyncio.TimeoutError, Exception), max_tries=3, interval=10, on_backoff=__backoff_hdlr)
 async def fetch_content(url, params) -> str:
     # await asyncio.sleep(0.5)
-    async with semaphore:
-        # await asyncio.sleep(random.uniform(0.01, 0.06))
-        await asyncio.sleep(0.5)
-        
-        async with aiohttp.ClientSession() as session:
-            logger.info("요청 성공")
-            async with  session.get( url, params= params, timeout=10) as response:
-                content = await response.read()
-                root = etree.fromstring(content)
-                applicant_number = root.find(".//ApplicantNumber").text            
-                return {params['applicationNumber'] : applicant_number}
-        
+    
+    while True:
+        # print(semaphore._value)
+        if semaphore._value <= 10:
+            await asyncio.sleep(1)
+        async with semaphore:
+            await asyncio.sleep(0.5)
+            
+            async with aiohttp.ClientSession() as session:
+                logger.info("요청 성공")
+                # print(f"성공 {params['applicationNumber']}")
+                async with  session.get( url, params= params, timeout=10) as response:
+                    content = await response.read()
+                    root = etree.fromstring(content)
+                    applicant_number_b = root.find(".//ApplicantNumber")
+                    if applicant_number_b is not None:
+                        return  {params['applicationNumber'] : applicant_number_b.text}
+                    else:
+                        print()
+                    # print("응답후 ", semaphore._value,params['applicationNumber'] )           
+    
 
 async def get_applicantNumber(url, applicationNumber_list:list) -> list[dict]:
     
     tasks = []
     for applicationNumber in applicationNumber_list:
-        request_params['applicationNumber'] = applicationNumber
+        request_params = {
+            'accessKey' :  service_key,
+            'applicationNumber' : applicationNumber
+        }
         tasks.append(asyncio.create_task(fetch_content(url, request_params)))
     responses = await tqdm_asyncio.gather(*tasks)
     return responses
 
+
+
+# # 메인 함수
+# async def main():
+#     application_number_list = ['123456', '789101', '112233', '445566', '778899']  # 예시
+#     await get_applicantNumber("your_url", application_number_list)
+
+# # 실행
+# asyncio.run(main())
