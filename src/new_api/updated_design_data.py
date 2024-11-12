@@ -3,11 +3,6 @@ from dotenv import load_dotenv
 from datetime import datetime
 import time
 
-timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-
-
-load_dotenv()
-
 
 async def get_design_info(service_key, application_number, session, semaphore) -> dict:
     url = "http://plus.kipris.or.kr/openapi/rest/designInfoSearchService/applicationNumberSearchInfo"

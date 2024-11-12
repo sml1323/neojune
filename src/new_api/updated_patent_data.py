@@ -2,9 +2,6 @@ import os, asyncio, aiohttp
 from dotenv import load_dotenv
 from datetime import datetime
 import time
-timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-# 로그 설정
-load_dotenv()
 
 async def get_patent_info(service_key, application_number, session, semaphore) -> dict:
     url = "http://plus.kipris.or.kr/openapi/rest/patUtiModInfoSearchSevice/applicationNumberSearchInfo"
