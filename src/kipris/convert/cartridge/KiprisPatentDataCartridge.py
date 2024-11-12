@@ -1,7 +1,7 @@
-from ...core.convert.KiprisConvertedDataCartridge import KiprisConvertedDataCartridge
+from ...core.convert.KiprisDataCartridge import KiprisDataCartridge
 from ....util import util
 
-class PatentKiprisConvertedDataCartridge(KiprisConvertedDataCartridge):
+class KiprisPatentDataCartridge(KiprisDataCartridge):
     def __init__(self):
         super().__init__()
 

@@ -5,13 +5,13 @@ from typing import List, Dict
 from itertools import chain
 from ....util import util
 from .KiprisXmlMapper import KiprisXmlMapper
-from .KiprisConvertedDataCartridge import KiprisConvertedDataCartridge
+from .KiprisDataCartridge import KiprisDataCartridge
 
 
 class KiprisXmlToDictConverter:
     def __init__(
             self, mapper: KiprisXmlMapper=KiprisXmlMapper(), 
-            data_cartridge_class:type=KiprisConvertedDataCartridge, 
+            data_cartridge_class:type=KiprisDataCartridge, 
             xml_filename: str=""
     ):
         self.mapper = mapper  # 매핑 정보를 초기화
@@ -20,6 +20,7 @@ class KiprisXmlToDictConverter:
         self.xml_string = self.read_xml()  # XML 파일 읽기
         self.root = etree.fromstring(self.xml_string)
         self.item_name = ""
+        self.cartridge_itams:list[KiprisDataCartridge] = []
 
     def get_file_path(self, xml_filename: str) -> str:
         """주어진 XML 파일 이름을 기반으로 파일 경로를 생성하는 메서드."""
@@ -39,8 +40,10 @@ class KiprisXmlToDictConverter:
             print(f"Error: XML 파일을 읽는 중 오류 발생: {e}")
             return ""
 
-    def __get_match_dict_item(self, data:etree.Element, item:etree.Element) -> Dict:
-        res:KiprisConvertedDataCartridge = self.data_cartridge_class()
+
+    
+    def __get_match_cartridge_item(self, data:etree.Element, item:etree.Element) -> KiprisDataCartridge:
+        res:KiprisDataCartridge = self.data_cartridge_class()
         for key, value in self.mapper:
             if key == "applicant_id":
                 res[key] = self.__get_applicant_id(data, value)
@@ -51,9 +54,11 @@ class KiprisXmlToDictConverter:
 
                 if sub_element is not None:
                     res[key] = self.__get_element_value(sub_element)
+        return res
+        
 
-        return res.get_dict_with_properties()
-
+    def __get_match_dict_item(self, data:etree.Element, item:etree.Element) -> Dict:
+        return self.__get_match_cartridge_item(data, item).get_dict_with_properties()
 
     def __get_match_dict_items(self, data: etree.Element) -> list[Dict]:
         result = []# 기본값 설정
@@ -91,9 +96,7 @@ class KiprisXmlToDictConverter:
             
             
     # def __get_match_dict
-    def parse(self, xpath_query: str = "") -> List[Dict]:
-        if xpath_query == "":
-            xpath_query = f".//{self.item_name}" 
+    def parse(self) -> List[Dict]:
         """XML 문자열을 파싱하여 매핑된 정보를 반환하는 메서드."""
         if not self.xml_string:
             return []
