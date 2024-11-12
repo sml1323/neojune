@@ -1,7 +1,7 @@
 from ....kipris.core.convert.KiprisXmlDumpDataQueryBuilder import KiprisXmlDumpDataQueryBuilder
-from ....kipris.convert.mapper.KiprisDesignMapper import KiprisDesignMapper
-from ....kipris.convert.mapper.KiprisPatentMapper import KiprisPatentMapper
-from ....kipris.convert.mapper.KiprisTrademarkMapper import KiprisTrademarkMapper
+from ....kipris.convert.mapper.KiprisDesignXmlMapper import KiprisDesignXmlMapper
+from ....kipris.convert.mapper.KiprisPatentXmlMapper import KiprisPatentXmlMapper
+from ....kipris.convert.mapper.KiprisTrademarkXmlMapper import KiprisTrademarkXmlMapper
 
 from ....kipris.convert.converter.KiprisDesignXmlToDictConverter import KiprisDesignXmlToDictConverter
 from ....kipris.convert.converter.KiprisPatentXmlToDictConverter import KiprisPatentXmlToDictConverter

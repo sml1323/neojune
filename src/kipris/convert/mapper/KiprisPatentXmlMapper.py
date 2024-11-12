@@ -1,6 +1,6 @@
-from ...core.convert.KiprisMapper import KiprisMapper
+from ...core.convert.KiprisXmlMapper import KiprisXmlMapper
 
-class KiprisPatentMapper(KiprisMapper):
+class KiprisPatentXmlMapper(KiprisXmlMapper):
     def __init__(self):
         super().__init__()
         self.ipr_code = "ApplicationNumber"

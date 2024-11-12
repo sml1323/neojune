@@ -4,13 +4,13 @@ from lxml import etree
 from typing import List, Dict
 from itertools import chain
 from ....util import util
-from .KiprisMapper import KiprisMapper
+from .KiprisXmlMapper import KiprisXmlMapper
 from .KiprisConvertedDataCartridge import KiprisConvertedDataCartridge
 
 
 class KiprisXmlToDictConverter:
     def __init__(
-            self, mapper: KiprisMapper=KiprisMapper(), 
+            self, mapper: KiprisXmlMapper=KiprisXmlMapper(), 
             data_cartridge_class:type=KiprisConvertedDataCartridge, 
             xml_filename: str=""
     ):

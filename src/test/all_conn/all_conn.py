@@ -1,7 +1,7 @@
 import os
-from ...kipris.convert.mapper.KiprisDesignMapper import KiprisDesignMapper
-from ...kipris.convert.mapper.KiprisPatentMapper import KiprisPatentMapper
-from ...kipris.convert.mapper.KiprisTrademarkMapper import KiprisTrademarkMapper
+from ...kipris.convert.mapper.KiprisDesignXmlMapper import KiprisDesignXmlMapper
+from ...kipris.convert.mapper.KiprisPatentXmlMapper import KiprisPatentXmlMapper
+from ...kipris.convert.mapper.KiprisTrademarkXmlMapper import KiprisTrademarkXmlMapper
 
 from ...kipris.convert.converter.KiprisDesignXmlToDictConverter import KiprisDesignXmlToDictConverter
 from ...kipris.convert.converter.KiprisPatentXmlToDictConverter import KiprisPatentXmlToDictConverter
@@ -19,9 +19,9 @@ from ...util import util
 def main():
    
     # 매핑 사전 정의
-    design_mapping = KiprisDesignMapper()
-    patent_mapping = KiprisPatentMapper()
-    trademark_mapping = KiprisTrademarkMapper()
+    design_mapping = KiprisDesignXmlMapper()
+    patent_mapping = KiprisPatentXmlMapper()
+    trademark_mapping = KiprisTrademarkXmlMapper()
     util.add_sys_path()
     # XML 파일 이름 설정
     base_path = f"{os.path.dirname(os.path.abspath(__file__))}/xml"
