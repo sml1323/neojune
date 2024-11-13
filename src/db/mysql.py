@@ -24,7 +24,7 @@ class Mysql:
                 user=self.user,
                 passwd=self.password,
                 db=self.db_name,
-                port=self.db_port
+                port=self.db_port,
             )
 
     def _get_cursor(self):
@@ -208,3 +208,39 @@ class Mysql:
         """연결 닫기"""
         if self.connection and self.connection.open:
             self.connection.close()
+
+    def sanitize_sql(self, sql_content):
+        """
+        SQL 쿼리에 포함되는 텍스트 값을 안전하게 변환하는 함수.
+        작은따옴표, 줄바꿈 문자 등 특수문자를 이스케이프 처리.
+        """
+        if sql_content is None:
+            return 'NULL'
+        elif isinstance(sql_content, str):
+            # 작은따옴표와 백슬래시를 이스케이프
+            sql_content = sql_content.replace("\\", "\\\\")
+            sql_content = sql_content.replace("'", "\\'")
+            # 줄바꿈 및 탭 문자 제거 또는 변환
+            # sql_content = sql_content.replace("\n", " ").replace("\r", " ").replace("\t", " ")
+            return f"'{sql_content}'"
+        else:
+            return str(sql_content)
+
+    def execute_sql_file(self, file_path):
+        # MySQL 데이터베이스 연결
+        with self._get_cursor() as cursor:
+            # SQL 파일 읽기
+
+            with open(file_path, 'r') as file:
+                sql_script = file.read()
+                # sql_script = self.sanitize_sql(sql_script)
+                # SQL 스크립트 실행
+                # for statement in sql_script.split(';'):
+                if sql_script.strip():  # 빈 구문 무시
+                    # cursor.execute("SET GLOBAL max_allow/ed_packet = 67108864;") 
+                    cursor.execute(sql_script)
+                
+                # 커밋하여 변경 사항 저장
+                self.connection.commit()
+                print("SQL 파일이 성공적으로 실행되었습니다.")
+    
