@@ -11,7 +11,7 @@ class KiprisXmlDumpDataQueryBuilder():
         table_name:str="table_name", 
         xml_filename:str="xml_filename",
         xml_to_dict_converter_class:type[KiprisXmlToDictConverter] = KiprisXmlToDictConverter,
-        chunk_size: int = 5000
+        chunk_size: int = 1000
     ):
         self.data = []
         self.table_name = table_name
@@ -27,8 +27,48 @@ class KiprisXmlDumpDataQueryBuilder():
         return self.xml_to_dict_converter.mapper.get_dict_with_properties()
     
     def __get_insert_info(self):
-        columns = ", ".join(self.__get_mapper_dict())
+
+        columns = list(self.__get_mapper_dict().keys())
+        if self.service_type in ['design', 'trademark']:
+            columns.remove("priority_date")
+            columns.remove("priority_no")
+        columns = ", ".join(columns)
         return f"INSERT INTO kipris.{self.table_name} ({columns})"
+    
+    def __get_upsert_info(self):
+        
+        upsert_query = "ON DUPLICATE KEY UPDATE \n"
+
+        additional_update_clause = ""
+
+        if self.table_name in ["TB24_design", "TB2_patent"]:
+            additional_update_clause = """
+            reg_no = VALUES(reg_no),
+            reg_date = VALUES(reg_date),
+            open_no = VALUES(open_no),
+            open_date = VALUES(open_date),
+        """ 
+        
+        common_update_clause = """
+            legal_status_desc = VALUES(legal_status_desc),
+            pub_num = VALUES(pub_num),
+            pub_date = VALUES(pub_date);
+        """
+
+        return upsert_query + additional_update_clause + common_update_clause
+
+    def __get_upsert_sub_info(self):
+
+        if self.service_type in ['design', 'trademark']:
+            upsert_query = """
+                ON DUPLICATE KEY UPDATE
+                priority_date = VALUES(priority_date),
+                priority_no = VALUES(priority_no);
+            """
+
+            return upsert_query
+        
+        return ""
     
     def __get_sub_insert_info(self):
         columns = ", ".join(self.__get_mapper_dict())
@@ -38,6 +78,23 @@ class KiprisXmlDumpDataQueryBuilder():
 
     def append(self, data:KiprisDataCartridge):
         self.data.append(tuple(data.get_dict_with_properties().values()))
+
+    def value_fillter(self, value):
+        if isinstance(value, str) and len(value) == 8 and value.isdigit():
+            try:
+                value = datetime.strptime(value, '%Y%m%d').strftime("'%Y-%m-%d'")
+            except ValueError:
+                pass
+        # None 값 처리
+        elif value is None:
+            value = 'NULL'
+        # 문자열 값 처리 (이스케이프 처리)
+        elif isinstance(value, str):
+            value = f"'{value.replace("'", "''")}'"  # 작은따옴표 이스케이프
+        else:
+            value = str(value)
+
+        return value
 
     def get_chunked_sql_files(self):
         insert_info = f"{self.__get_insert_info()}\nVALUES\n"
@@ -64,26 +121,16 @@ class KiprisXmlDumpDataQueryBuilder():
 
                     if key == "abstract" and value is not None:
                         value = value.replace("\\", "")
+
+                    value = self.value_fillter(value)
                     
-                    if isinstance(value, str) and len(value) == 8 and value.isdigit():
-                        try:
-                            value = datetime.strptime(value, '%Y%m%d').strftime("'%Y-%m-%d'")
-                        except ValueError:
-                            pass
-                    # None 값 처리
-                    elif value is None:
-                        value = 'NULL'
-                    # 문자열 값 처리 (이스케이프 처리)
-                    elif isinstance(value, str):
-                        value = f"'{value.replace("'", "''")}'"  # 작은따옴표 이스케이프
-                    else:
-                        value = str(value)
                     values.append(value)
 
                 if title_is :
                     value_tuple = f"({', '.join(values)})"
                     if j == self.chunk_size - 1 or (i + j + 1) == len(self.xml_to_dict_list):
-                        chunk_data.append(f"{value_tuple};\n")
+                        chunk_data.append(f"{value_tuple}\n")
+                        chunk_data.append(self.__get_upsert_info())
                     else:
                         chunk_data.append(f"{value_tuple},\n")
             
@@ -115,27 +162,26 @@ class KiprisXmlDumpDataQueryBuilder():
                     if c in sub_xml_to_dict:
                         value = sub_xml_to_dict[c]
 
-                    if value is None:
-                        value = "NULL"
-                    elif isinstance(value, str):
-                        value = f"'{value.replace("'", "''")}'"  # 작은따옴표 이스케이프
-                    else:
-                        value = str(value)
+                    value = self.value_fillter(value)
+
                     if c == 'ipr_seq':
                         value = 'ipr_seq'
                     values.append(value)
 
-                value_tuple = f"({', '.join(values)})"
+                value_tuple = f"{', '.join(values)}"
                 chunk_data.append(value_tuple)
                 sql_table_message = f"\nFROM\nTB24_{self.org_type}_{self.service_type}"
                 chunk_data.append(sql_table_message)
-                # if j == self.chunk_size - 1 or (i + j + 1) == len(self.sub_dict_list):
-                sql_end_message = f"\nWHERE\nappl_no = {str(sub_xml_to_dict['appl_no'])} AND applicant_id = {sub_xml_to_dict['applicant_id']} AND serial_no = {sub_xml_to_dict['serial_no']};"
+
+                sql_end_message = f"""
+                WHERE
+                    appl_no = {str(sub_xml_to_dict['appl_no'])} 
+                    AND applicant_id = {sub_xml_to_dict['applicant_id']} 
+                    AND serial_no = {sub_xml_to_dict['serial_no']}
+                {self.__get_upsert_sub_info()}
+                """
                 
                 chunk_data.append(sql_end_message)
-                #     chunk_data.append(f"{value_tuple};\n")
-                # else:
-                #     chunk_data.append(f"{value_tuple},\n")
                 tmp_chunked_data.append("".join(chunk_data))
 
             chunked_data.append(tmp_chunked_data)

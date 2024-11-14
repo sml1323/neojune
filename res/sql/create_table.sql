@@ -1,4 +1,4 @@
--- Active: 1726995339920@@127.0.0.1@3306@kipris
+-- Active: 1731490907969@@localhost@3306@kipris
 -- 기업정보
 
 CREATE TABLE TB24_100 (
@@ -199,6 +199,10 @@ CREATE TABLE TB24_310_company (
     CHECK (ipc_cpc IN ('IPC', 'CPC'))
 );
 
+ALTER TABLE TB24_310_company
+ADD UNIQUE (ipr_seq, ipc_cpc_code);
+
+
 -- 대학 IPC_CPC 테이블
 CREATE TABLE TB24_310_university (
     ipc_seq INT AUTO_INCREMENT PRIMARY KEY,
@@ -208,6 +212,9 @@ CREATE TABLE TB24_310_university (
     FOREIGN KEY (ipr_seq) REFERENCES TB24_university_patent(ipr_seq) ON DELETE CASCADE,
     CHECK (ipc_cpc IN ('IPC', 'CPC'))
 );
+ALTER TABLE TB24_310_university
+ADD UNIQUE (ipr_seq, ipc_cpc_code);
+
 
 -- 기업 우선권 테이블
 CREATE TABLE TB24_320_company (
@@ -256,6 +263,4 @@ ADD UNIQUE INDEX index_appl_no_applicant_id (appl_no, applicant_id,serial_no);
 -- 대학 상표 테이블 인덱싱 추가(appl_no, applicant_id)
 ALTER TABLE TB24_university_trademark 
 ADD UNIQUE INDEX index_appl_no_applicant_id (appl_no, applicant_id,serial_no);
-
-
 

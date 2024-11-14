@@ -27,24 +27,26 @@ def main():
         xml_filename=design_xml_filename,
         xml_to_dict_converter_class=KiprisDesignXmlToDictConverter
     )
+
+    company_design.save_file("design", company_save_path)
+    company_design.subtable_save_file('priority_design', f"{company_save_path}/priority")
+    
     company_patent = KiprisXmlDumpDataQueryBuilder(
         table_name="TB24_company_patent", 
         xml_filename=patent_xml_filename,
         xml_to_dict_converter_class=KiprisPatentXmlToDictConverter
     )
+    company_patent.save_file("patent", company_save_path)
+    company_patent.subtable_save_file('ipc_cpc', f"{company_save_path}/ipc_cpc")
+
+
     company_trademark = KiprisXmlDumpDataQueryBuilder(
         table_name="TB24_company_trademark", 
         xml_filename=trademark_xml_filename,
         xml_to_dict_converter_class=KiprisTrademarkXmlToDictConverter
     )
-
-    company_design.save_file("design", company_save_path)
-    company_patent.save_file("patent", company_save_path)
     company_trademark.save_file("trademark", company_save_path)
-    
-    company_design.subtable_save_file("design", company_save_path+"/priority")
-    company_patent.subtable_save_file("patent", company_save_path+"/ipc_cpc")
-    company_trademark.subtable_save_file("trademark", company_save_path+'/priority')
+    company_trademark.subtable_save_file('priority_trademark', f"{company_save_path}/priority")
     
 
     ## 대학    
@@ -61,27 +63,23 @@ def main():
         xml_filename=design_xml_filename,
         xml_to_dict_converter_class=KiprisDesignXmlToDictConverter
     )
+
+    university_design.save_file("design", university_save_path)
+    university_design.subtable_save_file('priority_design', f"{university_save_path}/priority")
+    
     university_patent = KiprisXmlDumpDataQueryBuilder(
         table_name="TB24_university_patent", 
         xml_filename=patent_xml_filename,
         xml_to_dict_converter_class=KiprisPatentXmlToDictConverter
     )
+    university_patent.save_file("patent", university_save_path)
+    university_patent.subtable_save_file('ipc_cpc', f"{university_save_path}/ipc_cpc")
+
+
     university_trademark = KiprisXmlDumpDataQueryBuilder(
         table_name="TB24_university_trademark", 
         xml_filename=trademark_xml_filename,
         xml_to_dict_converter_class=KiprisTrademarkXmlToDictConverter
     )
-
-    
-    university_design.save_file("design", university_save_path)
-    university_patent.save_file("patent", university_save_path)
     university_trademark.save_file("trademark", university_save_path)
-
-        
-    university_design.subtable_save_file("design", university_save_path+"/priority")
-    university_patent.subtable_save_file("patent", university_save_path+"/ipc_cpc")
-    university_trademark.subtable_save_file("trademark", university_save_path+'/priority')
-
-
-    # print(sql)
-    pass
+    university_trademark.subtable_save_file('priority_trademark', f"{university_save_path}/priority")
