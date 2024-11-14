@@ -32,23 +32,9 @@ class KiprisXmlDumpDataQueryBuilder():
     
     def __get_sub_insert_info(self):
         columns = ", ".join(self.__get_mapper_dict())
-        if self.service_type == 'patent':
-            service_number = 10
-        else:
-            service_number = 20
-        if self.org_type == 'company':
-            org_number = 3
-        else:
-            org_number = 4
-        return f"INSERT INTO kipris.TB24_{org_number}{service_number}_{self.org_type} ({columns})\nSELECT"
-
-#     ipr_seq,
-#     'IPC',
-#     'H05K 1/18'
-# FROM
-#     TB24_company_patent
-# WHERE
-#     appl_no = '2020040031672' AND applicant_id = 4719 AND serial_no = 1;
+        service_number = 10 if self.service_type == 'patent' else 20
+        org_number = 3 if self.org_type == 'company' else 4
+        return f"INSERT INTO kipris.TB24_{org_number}{service_number}_{self.org_type} ({columns}) \nSELECT"
 
     def append(self, data:KiprisDataCartridge):
         self.data.append(tuple(data.get_dict_with_properties().values()))
@@ -114,10 +100,13 @@ class KiprisXmlDumpDataQueryBuilder():
         colums = self.__get_mapper_dict()
         insert_info = f"{self.__get_sub_insert_info()}\n"
         chunked_data = []
-        print(self.sub_dict_list)
+        # print(self.sub_dict_list)
         for i in range(0, len(self.sub_dict_list), self.chunk_size):
+            
+            tmp_chunked_data = []
+
             for j, sub_xml_to_dict in enumerate(self.sub_dict_list[i:i + self.chunk_size]):
-                print(sub_xml_to_dict)
+                # print(sub_xml_to_dict)
                 chunk_data = [insert_info]
                 values = []
 
@@ -140,7 +129,6 @@ class KiprisXmlDumpDataQueryBuilder():
                 chunk_data.append(value_tuple)
                 sql_table_message = f"\nFROM\nTB24_{self.org_type}_{self.service_type}"
                 chunk_data.append(sql_table_message)
-                
                 # if j == self.chunk_size - 1 or (i + j + 1) == len(self.sub_dict_list):
                 sql_end_message = f"\nWHERE\nappl_no = {str(sub_xml_to_dict['appl_no'])} AND applicant_id = {sub_xml_to_dict['applicant_id']} AND serial_no = {sub_xml_to_dict['serial_no']};"
                 
@@ -148,8 +136,9 @@ class KiprisXmlDumpDataQueryBuilder():
                 #     chunk_data.append(f"{value_tuple};\n")
                 # else:
                 #     chunk_data.append(f"{value_tuple},\n")
-            
-            chunked_data.append("".join(chunk_data))
+                tmp_chunked_data.append("".join(chunk_data))
+
+            chunked_data.append(tmp_chunked_data)
         
         return chunked_data
 
@@ -173,82 +162,5 @@ class KiprisXmlDumpDataQueryBuilder():
         for idx, sql_content in enumerate(chunked_sql_files, start=1):
             filepath = os.path.join(directory, f"{filename}_{idx}.sql")
             with open(filepath, 'w', encoding='utf-8') as file:
-                file.write(sql_content)
+                file.write("\n".join(sql_content))
             print(f"Saved {filepath}")
-        pass
-    # def get_chunked_sql_files(self):
-    #     insert_info = f"{self.__get_insert_info()}\nVALUES\n"
-    #     chunked_data = []
-        
-    #     for i in range(0, len(self.xml_to_dict_list), self.chunk_size):
-    #         chunk_data = [insert_info]
-            
-    #         for j, xml_to_dict in enumerate(self.xml_to_dict_list[i:i + self.chunk_size]):
-    #             values = []
-    #             for value in xml_to_dict.values():
-    #                 if isinstance(value, str) and len(value) == 8 and value.isdigit():
-    #                     try:
-    #                         value = datetime.strptime(value, '%Y%m%d').strftime("'%Y-%m-%d'")
-    #                     except ValueError:
-    #                         pass
-    #                 elif value is None:
-    #                     value = 'NULL'
-    #                 elif isinstance(value, str):
-    #                     value = f'"{value}"'
-    #                 else:
-    #                     value = str(value)
-    #                 values.append(value)
-                
-    #             value_tuple = f"({', '.join(values)})"
-    #             if j == self.chunk_size - 1 or (i + j + 1) == len(self.xml_to_dict_list):
-    #                 chunk_data.append(f"{value_tuple};\n")
-    #             else:
-    #                 chunk_data.append(f"{value_tuple},\n")
-            
-    #         chunked_data.append("".join(chunk_data))
-        
-    #     return chunked_data
-
-
-    # def get_sql_file(self):
-    #     self.data.append(f'{self.__get_insert_info()}\n')
-    #     self.data.append("VALUES\n")
-        
-    #     for i, xml_to_dict in enumerate(self.xml_to_dict_list):
-    #         values = []
-            
-    #         for value in xml_to_dict.values():
-    #             if isinstance(value, str) and len(value) == 8 and value.isdigit():
-    #                 try:
-    #                     value = datetime.strptime(value, '%Y%m%d').strftime("'%Y-%m-%d'")
-    #                 except ValueError:
-    #                     pass
-    #             elif value is None:
-    #                 value = 'NULL'
-    #             elif isinstance(value, str):
-    #                 value = f"'{value}'"
-    #             else:
-    #                 value = str(value)  # 문자열이 아닌 값을 문자열로 변환
-                
-    #             values.append(value)
-            
-    #         value_tuple = f"({', '.join(values)})"  # 모든 값이 문자열로 변환됨
-    #         if i == len(self.xml_to_dict_list) - 1:
-    #             self.data.append(f"{value_tuple};\n")
-    #         else:
-    #             self.data.append(f"{value_tuple},\n")
-                
-    #     return "".join(self.data)
-    
-
-    # def save_file(self, filename: str, directory: str = "./"):
-    #     # 경로가 존재하지 않으면 생성
-    #     os.makedirs(directory, exist_ok=True)
-        
-    #     # 파일 전체 경로
-    #     filepath = os.path.join(directory, f"{filename}.sql")
-        
-    #     # SQL 내용 가져와서 저장
-    #     sql_content = self.get_sql_file()
-    #     with open(filepath, 'w', encoding='utf-8') as file:
-    #         file.write(sql_content)
