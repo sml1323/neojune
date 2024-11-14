@@ -42,6 +42,10 @@ def main():
     company_patent.save_file("patent", company_save_path)
     company_trademark.save_file("trademark", company_save_path)
     
+    company_design.subtable_save_file("design", company_save_path+"/priority")
+    company_patent.subtable_save_file("patent", company_save_path+"/ipc_cpc")
+    company_trademark.subtable_save_file("trademark", company_save_path+'/priority')
+    
 
     ## 대학    
     
@@ -72,6 +76,11 @@ def main():
     university_design.save_file("design", university_save_path)
     university_patent.save_file("patent", university_save_path)
     university_trademark.save_file("trademark", university_save_path)
+
+        
+    university_design.subtable_save_file("design", university_save_path+"/priority")
+    university_patent.subtable_save_file("patent", university_save_path+"/ipc_cpc")
+    university_trademark.subtable_save_file("trademark", university_save_path+'/priority')
 
 
     # print(sql)
