@@ -1,5 +1,5 @@
 from enum import Enum
 
-class KiprisXmlFileGeneratorEntityType(Enum):
+class KiprisEntityType(Enum):
     COMPANY = "company"
     UNIVERSITY = "university"

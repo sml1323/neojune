@@ -1,8 +1,7 @@
-from .enum import KiprisXmlFileGeneratorEntityType
+from ....enum.KiprisEntityType import KiprisEntityType
 from ...core.parsing.KiprisFetcher import KiprisFetcher
 from ...parsing.xml.KiprisXmlDataGenerator import KiprisXmlDataGenerator
 from ....util import util
-
 
 class KiprisXmlFileGenerator():
     def __init__(
@@ -11,7 +10,7 @@ class KiprisXmlFileGenerator():
         dir_path:str,
         fetcher_class:type[KiprisFetcher],
         applicant_numbers:list[list],
-        entity_type:type[KiprisXmlFileGeneratorEntityType]
+        entity_type:type[KiprisEntityType]
     ):
         self.fetcher:KiprisFetcher = fetcher_class(applicant_numbers)
         self.file_name = file_name
