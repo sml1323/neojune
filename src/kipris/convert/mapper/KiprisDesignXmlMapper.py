@@ -20,3 +20,5 @@ class KiprisDesignXmlMapper(KiprisXmlMapper):
         self.open_date = "openDate"
         self.reg_no = "registrationNumber"
         self.reg_date = "registrationDate"
+        self.priority_no ="priorityNumber"
+        self.priority_date = "priorityDate"

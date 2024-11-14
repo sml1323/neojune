@@ -13,10 +13,13 @@ class KiprisXmlDumpDataQueryBuilder():
     ):
         self.data = []
         self.table_name = table_name
+        self.service_type = table_name.split("_")[-1]
+        self.org_type = table_name.split("_")[1]
         self.xml_to_dict_converter:KiprisXmlToDictConverter = xml_to_dict_converter_class(xml_filename=xml_filename)
+        self.xml_to_dict_converter.service_type = self.service_type
         self.xml_to_dict_list = self.xml_to_dict_converter.parse()
         self.chunk_size = chunk_size
-
+        self.sub_dict_list = self.xml_to_dict_converter.sub_dict_list
 
     def __get_mapper_dict(self):
         return self.xml_to_dict_converter.mapper.get_dict_with_properties()
@@ -27,6 +30,7 @@ class KiprisXmlDumpDataQueryBuilder():
 
     def append(self, data:KiprisDataCartridge):
         self.data.append(tuple(data.get_dict_with_properties().values()))
+
     def get_chunked_sql_files(self):
         insert_info = f"{self.__get_insert_info()}\nVALUES\n"
         chunked_data = []
@@ -50,7 +54,6 @@ class KiprisXmlDumpDataQueryBuilder():
                         if value is None or value == "":
                             title_is = False
                             break
-
 
                     if key == "abstract" and value is not None:
                         value = value.replace("\\", "")
