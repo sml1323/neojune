@@ -101,49 +101,27 @@ class KiprisXmlDumpDataQueryBuilder():
         
         insert_info = f"{self.__get_sub_insert_info()}\nVALUES\n"
         chunked_data = []
+
         for i in range(0, len(self.sub_dict_list), self.chunk_size):
             chunk_data = [insert_info]
             
-            for j, xml_to_dict in enumerate(self.sub_dict_list[i:i + self.chunk_size]):
+            for j, sub_xml_to_dict in enumerate(self.sub_dict_list[i:i + self.chunk_size]):
                 values = []
-                title_is = True
-                for key, value in xml_to_dict.items():
-                    # 날짜 포맷 처리
-                    
-                    if key == "title" : 
-                        if value is None:
-                            title_is = False
-                            break
 
-                    if key == "appl_no":
-                        if value is None or value == "":
-                            title_is = False
-                            break
+                for c in self.columns:
+                    value = sub_xml_to_dict[c]
 
-                    if key == "abstract" and value is not None:
-                        value = value.replace("\\", "")
-                    
-                    if isinstance(value, str) and len(value) == 8 and value.isdigit():
-                        try:
-                            value = datetime.strptime(value, '%Y%m%d').strftime("'%Y-%m-%d'")
-                        except ValueError:
-                            pass
-                    # None 값 처리
-                    elif value is None:
-                        value = 'NULL'
-                    # 문자열 값 처리 (이스케이프 처리)
-                    elif isinstance(value, str):
-                        value = f"'{value.replace("'", "''")}'"  # 작은따옴표 이스케이프
-                    else:
-                        value = str(value)
+                    if value is None:
+                        value = "NULL"
+
                     values.append(value)
 
-                if title_is :
-                    value_tuple = f"({', '.join(values)})"
-                    if j == self.chunk_size - 1 or (i + j + 1) == len(self.xml_to_dict_list):
-                        chunk_data.append(f"{value_tuple};\n")
-                    else:
-                        chunk_data.append(f"{value_tuple},\n")
+                value_tuple = f"({', '.join(values)})"
+                
+                if j == self.chunk_size - 1 or (i + j + 1) == len(self.xml_to_dict_list):
+                    chunk_data.append(f"{value_tuple};\n")
+                else:
+                    chunk_data.append(f"{value_tuple},\n")
             
             chunked_data.append("".join(chunk_data))
         
