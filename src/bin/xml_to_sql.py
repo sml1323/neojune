@@ -27,7 +27,7 @@ UNIVERSITY_PATH = f"{BASIC_SAVE_PATH}/university"
 
 
 
-def company_design():
+def run_company_design():
     query_builder = KiprisXmlDumpDataQueryBuilder(
         table_name=TableName.COMPANY_PATENT.value, 
         xml_filename=f'{BASE_PATH}/{ApiType.DESIGN.value}.xml',  # XML 파일 경로
@@ -35,7 +35,7 @@ def company_design():
     )
     query_builder.save_file(ApiType.DESIGN.value, COMPANY_PATH)
 
-def company_patent():
+def run_company_patent():
     query_builder = KiprisXmlDumpDataQueryBuilder(
         table_name=TableName.COMPANY_DESIGN.value, 
         xml_filename=f'{BASE_PATH}/{ApiType.PATENT.value}.xml',  # XML 파일 경로
@@ -43,7 +43,7 @@ def company_patent():
     )
     query_builder.save_file(ApiType.PATENT.value, COMPANY_PATH)
 
-def company_trademark():
+def run_company_trademark():
     query_builder = KiprisXmlDumpDataQueryBuilder(
         table_name=TableName.COMPANY_TRADEMARK.value, 
         xml_filename=f'{BASE_PATH}/{ApiType.TRADEMARK.value}.xml',  # XML 파일 경로
@@ -52,7 +52,7 @@ def company_trademark():
     query_builder.save_file(ApiType.TRADEMARK.value, COMPANY_PATH)
 
 
-def university_design():
+def run_university_design():
     query_builder = KiprisXmlDumpDataQueryBuilder(
         table_name=TableName.UNIVERSITY_PATENT.value, 
         xml_filename=f'{BASE_PATH}/{ApiType.DESIGN.value}.xml',  # XML 파일 경로
@@ -60,7 +60,7 @@ def university_design():
     )
     query_builder.save_file(ApiType.DESIGN.value, UNIVERSITY_PATH)
 
-def university_patent():
+def run_university_patent():
     query_builder = KiprisXmlDumpDataQueryBuilder(
         table_name=TableName.UNIVERSITY_DESIGN.value, 
         xml_filename=f'{BASE_PATH}/{ApiType.PATENT.value}.xml',  # XML 파일 경로
@@ -68,7 +68,7 @@ def university_patent():
     )
     query_builder.save_file(ApiType.PATENT.value, UNIVERSITY_PATH)
 
-def university_trademark():
+def run_university_trademark():
     query_builder = KiprisXmlDumpDataQueryBuilder(
         table_name=TableName.UNIVERSITY_TRADEMARK.value, 
         xml_filename=f'{BASE_PATH}/{ApiType.TRADEMARK.value}.xml',  # XML 파일 경로
@@ -79,10 +79,10 @@ def university_trademark():
 
 
 def main():
-    company_design()
-    company_patent()
-    company_trademark()
-    university_design()
-    university_patent()
-    university_trademark()
+    run_company_design()
+    run_company_patent()
+    run_company_trademark()
+    run_university_design()
+    run_university_patent()
+    run_university_trademark()
     pass

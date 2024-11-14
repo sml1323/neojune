@@ -29,7 +29,7 @@ UNIVERSITY_APPLICANT_NUMBERS = [[120010134557, 1]]
 # UNIVERSITY_APPLICANT_NUMBERS = mysql.get_all_university_no_id()
 
 
-async def company_patent():
+async def run_company_patent():
     monitering(TableName.TB24_200, KiprisXmlFileGeneratorEntityType.COMPANY, ApiType.PATENT)
     await KiprisPatentXmlFileGenerator(
         ApiType.PATENT.value,
@@ -38,7 +38,7 @@ async def company_patent():
         KiprisXmlFileGeneratorEntityType.COMPANY
     ).save()
 
-async def company_design():
+async def run_company_design():
     monitering(TableName.TB24_200, KiprisXmlFileGeneratorEntityType.COMPANY, ApiType.DESIGN)
     await KiprisDesignXmlFileGenerator(
         ApiType.DESIGN.value,
@@ -47,7 +47,7 @@ async def company_design():
         KiprisXmlFileGeneratorEntityType.COMPANY
     ).save()
 
-async def company_trademark():
+async def run_company_trademark():
     monitering(TableName.TB24_200, KiprisXmlFileGeneratorEntityType.COMPANY, ApiType.TRADEMARK)
     await KiprisTrademarkXmlFileGenerator(
         ApiType.TRADEMARK.value,
@@ -57,7 +57,7 @@ async def company_trademark():
     ).save()
 
 
-async def university_patent():
+async def run_university_patent():
     monitering(TableName.TB24_210, KiprisXmlFileGeneratorEntityType.UNIVERSITY, ApiType.PATENT)
     await KiprisPatentXmlFileGenerator(
         ApiType.PATENT.value,
@@ -66,7 +66,7 @@ async def university_patent():
         KiprisXmlFileGeneratorEntityType.UNIVERSITY
     ).save()
 
-async def university_design():
+async def run_university_design():
     monitering(TableName.TB24_210, KiprisXmlFileGeneratorEntityType.UNIVERSITY, ApiType.DESIGN)
     await KiprisDesignXmlFileGenerator(
         ApiType.DESIGN.value,
@@ -75,7 +75,7 @@ async def university_design():
         KiprisXmlFileGeneratorEntityType.UNIVERSITY
     ).save()
 
-async def university_trademark():
+async def run_university_trademark():
     monitering(TableName.TB24_210, KiprisXmlFileGeneratorEntityType.UNIVERSITY, ApiType.TRADEMARK)
     await KiprisTrademarkXmlFileGenerator(
         ApiType.TRADEMARK.value,
@@ -86,12 +86,12 @@ async def university_trademark():
 
 
 async def main():
-    await company_patent()
-    await company_design()
-    await company_trademark()
-    await university_patent()
-    await university_design()
-    await university_trademark()
+    await run_company_patent()
+    await run_company_design()
+    await run_company_trademark()
+    await run_university_patent()
+    await run_university_design()
+    await run_university_trademark()
 
 
 
