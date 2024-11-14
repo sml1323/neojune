@@ -1,20 +1,14 @@
-from enum import Enum
 from ..enum.KiprisEntityType import KiprisEntityType
 from ..enum.ApiType import ApiType
+from ..enum.TableName import TableName
 from ..kipris.core.convert.KiprisXmlDumpDataQueryBuilder import KiprisXmlDumpDataQueryBuilder
 from ..kipris.convert.converter.KiprisDesignXmlToDictConverter import KiprisDesignXmlToDictConverter
 from ..kipris.convert.converter.KiprisPatentXmlToDictConverter import KiprisPatentXmlToDictConverter
 from ..kipris.convert.converter.KiprisTrademarkXmlToDictConverter import KiprisTrademarkXmlToDictConverter
 
 from ..util import util
+from ..util import monitoring
 
-class TableName(Enum):
-    COMPANY_PATENT = "TB24_company_patent"
-    COMPANY_DESIGN = "TB24_company_design"
-    COMPANY_TRADEMARK = "TB24_company_trademark"
-    UNIVERSITY_PATENT = "TB24_university_patent"
-    UNIVERSITY_DESIGN = "TB24_university_design"
-    UNIVERSITY_TRADEMARK = "TB24_university_trademark"
 
 
 XML_DIR = "20241114"
@@ -30,7 +24,7 @@ UNIVERSITY_SQL_PATH = f"{BASIC_SQL_PATH}/university"
 
 def run_company_design():
     query_builder = KiprisXmlDumpDataQueryBuilder(
-        table_name=TableName.COMPANY_PATENT.value, 
+        table_name=TableName.TB24_COMPANY_PATENT.value, 
         xml_filename=f'{COMPANY_XML_PATH}/{ApiType.DESIGN.value}.xml',  # XML 파일 경로
         xml_to_dict_converter_class=KiprisDesignXmlToDictConverter
     )
@@ -38,7 +32,7 @@ def run_company_design():
 
 def run_company_patent():
     query_builder = KiprisXmlDumpDataQueryBuilder(
-        table_name=TableName.COMPANY_DESIGN.value, 
+        table_name=TableName.TB24_COMPANY_DESIGN.value, 
         xml_filename=f'{COMPANY_XML_PATH}/{ApiType.PATENT.value}.xml',  # XML 파일 경로
         xml_to_dict_converter_class=KiprisPatentXmlToDictConverter
     )
@@ -46,7 +40,7 @@ def run_company_patent():
 
 def run_company_trademark():
     query_builder = KiprisXmlDumpDataQueryBuilder(
-        table_name=TableName.COMPANY_TRADEMARK.value, 
+        table_name=TableName.TB24_COMPANY_TRADEMARK.value, 
         xml_filename=f'{COMPANY_XML_PATH}/{ApiType.TRADEMARK.value}.xml',  # XML 파일 경로
         xml_to_dict_converter_class=KiprisTrademarkXmlToDictConverter
     )
@@ -55,7 +49,7 @@ def run_company_trademark():
 
 def run_university_design():
     query_builder = KiprisXmlDumpDataQueryBuilder(
-        table_name=TableName.UNIVERSITY_PATENT.value, 
+        table_name=TableName.TB24_UNIVERSITY_PATENT.value, 
         xml_filename=f'{UNIVERSITY_XML_PATH}/{ApiType.DESIGN.value}.xml',  # XML 파일 경로
         xml_to_dict_converter_class=KiprisDesignXmlToDictConverter
     )
@@ -63,7 +57,7 @@ def run_university_design():
 
 def run_university_patent():
     query_builder = KiprisXmlDumpDataQueryBuilder(
-        table_name=TableName.UNIVERSITY_DESIGN.value, 
+        table_name=TableName.TB24_UNIVERSITY_DESIGN.value, 
         xml_filename=f'{UNIVERSITY_XML_PATH}/{ApiType.PATENT.value}.xml',  # XML 파일 경로
         xml_to_dict_converter_class=KiprisPatentXmlToDictConverter
     )
@@ -71,7 +65,7 @@ def run_university_patent():
 
 def run_university_trademark():
     query_builder = KiprisXmlDumpDataQueryBuilder(
-        table_name=TableName.UNIVERSITY_TRADEMARK.value, 
+        table_name=TableName.TB24_UNIVERSITY_TRADEMARK.value, 
         xml_filename=f'{UNIVERSITY_XML_PATH}/{ApiType.TRADEMARK.value}.xml',  # XML 파일 경로
         xml_to_dict_converter_class=KiprisTrademarkXmlToDictConverter
     )

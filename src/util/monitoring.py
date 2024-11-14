@@ -1,6 +1,8 @@
 import os, logging
 from ..util import util # 와.. 사람 잡네 이거.. 같은 디렉토리인데 왜 .. 임? 와..... 진짜 너무하다..
-
+from ..enum.KiprisEntityType import KiprisEntityType
+from ..enum.ApiType import ApiType
+from ..enum.TableName import TableName
 
 def __setup_logger_core(name, file_handler):
     dir_path = f'{util.add_sys_path()}/res/log/'
@@ -23,3 +25,7 @@ def setup_logger(name):
 
 def setup_logger_origin(name):
     return __setup_logger_core(name, "origin.log")
+
+def setup_bin_logger(table_name:TableName, entity_type:KiprisEntityType, api_type:ApiType):
+    logger = setup_logger(f'{entity_type.value}: {api_type.value}')
+    logger.debug(table_name.value)

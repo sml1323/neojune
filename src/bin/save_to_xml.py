@@ -1,5 +1,7 @@
 import asyncio
-from enum import Enum
+from ..enum.KiprisEntityType import KiprisEntityType
+from ..enum.ApiType import ApiType
+from ..enum.TableName import TableName
 from ..db.mysql import Mysql
 from ..kipris.process.xml_file_generator.KiprisPatentXmlFileGenerator import KiprisPatentXmlFileGenerator
 from ..kipris.process.xml_file_generator.KiprisDesignXmlFileGenerator import KiprisDesignXmlFileGenerator
@@ -7,18 +9,6 @@ from ..kipris.process.xml_file_generator.KiprisTrademarkXmlFileGenerator import 
 from ..enum.KiprisEntityType import KiprisEntityType
 from ..util import monitoring
 
-class TableName(Enum):
-    TB24_200 = "TB24_200"
-    TB24_210 = "TB24_210"
-
-class ApiType(Enum):
-    PATENT = "patent"
-    DESIGN = "design"
-    TRADEMARK = "trademark"
-
-def monitering(table_name:TableName, entity_type:KiprisEntityType, api_type:ApiType):
-    logger = monitoring.setup_logger(f'{entity_type.value}: {api_type.value}')
-    logger.debug(table_name.value)
 
 mysql = Mysql()
 COMPANY_DIR_PATH = f"xml/{KiprisEntityType.COMPANY.value}"
@@ -30,7 +20,7 @@ UNIVERSITY_APPLICANT_NUMBERS = [[120010134557, 1]]
 
 
 async def run_company_patent():
-    monitering(TableName.TB24_200, KiprisEntityType.COMPANY, ApiType.PATENT)
+    monitoring.setup_bin_logger(TableName.TB24_200, KiprisEntityType.COMPANY, ApiType.PATENT)
     await KiprisPatentXmlFileGenerator(
         ApiType.PATENT.value,
         COMPANY_DIR_PATH,
@@ -39,7 +29,7 @@ async def run_company_patent():
     ).save()
 
 async def run_company_design():
-    monitering(TableName.TB24_200, KiprisEntityType.COMPANY, ApiType.DESIGN)
+    monitoring.setup_bin_logger(TableName.TB24_200, KiprisEntityType.COMPANY, ApiType.DESIGN)
     await KiprisDesignXmlFileGenerator(
         ApiType.DESIGN.value,
         COMPANY_DIR_PATH,
@@ -48,7 +38,7 @@ async def run_company_design():
     ).save()
 
 async def run_company_trademark():
-    monitering(TableName.TB24_200, KiprisEntityType.COMPANY, ApiType.TRADEMARK)
+    monitoring.setup_bin_logger(TableName.TB24_200, KiprisEntityType.COMPANY, ApiType.TRADEMARK)
     await KiprisTrademarkXmlFileGenerator(
         ApiType.TRADEMARK.value,
         COMPANY_DIR_PATH,
@@ -58,7 +48,7 @@ async def run_company_trademark():
 
 
 async def run_university_patent():
-    monitering(TableName.TB24_210, KiprisEntityType.UNIVERSITY, ApiType.PATENT)
+    monitoring.setup_bin_logger(TableName.TB24_210, KiprisEntityType.UNIVERSITY, ApiType.PATENT)
     await KiprisPatentXmlFileGenerator(
         ApiType.PATENT.value,
         UNIVERSITY_DIR_PATH,
@@ -67,7 +57,7 @@ async def run_university_patent():
     ).save()
 
 async def run_university_design():
-    monitering(TableName.TB24_210, KiprisEntityType.UNIVERSITY, ApiType.DESIGN)
+    monitoring.setup_bin_logger(TableName.TB24_210, KiprisEntityType.UNIVERSITY, ApiType.DESIGN)
     await KiprisDesignXmlFileGenerator(
         ApiType.DESIGN.value,
         UNIVERSITY_DIR_PATH,
@@ -76,7 +66,7 @@ async def run_university_design():
     ).save()
 
 async def run_university_trademark():
-    monitering(TableName.TB24_210, KiprisEntityType.UNIVERSITY, ApiType.TRADEMARK)
+    monitoring.setup_bin_logger(TableName.TB24_210, KiprisEntityType.UNIVERSITY, ApiType.TRADEMARK)
     await KiprisTrademarkXmlFileGenerator(
         ApiType.TRADEMARK.value,
         UNIVERSITY_DIR_PATH,
