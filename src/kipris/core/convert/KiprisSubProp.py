@@ -3,6 +3,7 @@ from ..KiprisObject import KiprisObject
 class KiprisSubProp(KiprisObject):
     def __init__(self):
         super().__init__()
+        self.ipr_seq = None
         self._applicant_id = None
         self._serial_no = None
         self._appl_no = None

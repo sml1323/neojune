@@ -31,12 +31,24 @@ class KiprisXmlDumpDataQueryBuilder():
         return f"INSERT INTO kipris.{self.table_name} ({columns})"
     
     def __get_sub_insert_info(self):
-        self.columns = ", ".join(self.__get_mapper_dict())
+        columns = ", ".join(self.__get_mapper_dict())
         if self.service_type == 'patent':
-            service_number = 300
+            service_number = 10
         else:
-            service_number = 301
-        return f"INSERT INTO kipris.TB24_{service_number}_{self.org_type} ({self.columns})"
+            service_number = 20
+        if self.org_type == 'company':
+            org_number = 3
+        else:
+            org_number = 4
+        return f"INSERT INTO kipris.TB24_{org_number}{service_number}_{self.org_type} ({columns})\nSELECT"
+
+#     ipr_seq,
+#     'IPC',
+#     'H05K 1/18'
+# FROM
+#     TB24_company_patent
+# WHERE
+#     appl_no = '2020040031672' AND applicant_id = 4719 AND serial_no = 1;
 
     def append(self, data:KiprisDataCartridge):
         self.data.append(tuple(data.get_dict_with_properties().values()))
@@ -98,30 +110,33 @@ class KiprisXmlDumpDataQueryBuilder():
             self.xml_to_dict_converter.mapper = KiprisPriorityXmlMapper()
         else:
             self.xml_to_dict_converter.mapper = KiprisIpcXmlMapper()
-        
+        colums = self.__get_mapper_dict()
         insert_info = f"{self.__get_sub_insert_info()}\nVALUES\n"
         chunked_data = []
-
+        
         for i in range(0, len(self.sub_dict_list), self.chunk_size):
             chunk_data = [insert_info]
             
             for j, sub_xml_to_dict in enumerate(self.sub_dict_list[i:i + self.chunk_size]):
                 values = []
 
-                for c in self.columns:
-                    value = sub_xml_to_dict[c]
-
+                for c in colums:
+                    value = None
+                    if c in sub_xml_to_dict:
+                        value = sub_xml_to_dict[c]
                     if value is None:
-                        value = "NULL"
-
+                            value = "NULL"
+                    elif isinstance(value, str):
+                        value = f"'{value.replace("'", "''")}'"  # 작은따옴표 이스케이프
+                    else:
+                        value = str(value)
                     values.append(value)
-
                 value_tuple = f"({', '.join(values)})"
                 
-                if j == self.chunk_size - 1 or (i + j + 1) == len(self.xml_to_dict_list):
+                if j == self.chunk_size - 1 or (i + j + 1) == len(self.sub_dict_list):
                     chunk_data.append(f"{value_tuple};\n")
-                else:
-                    chunk_data.append(f"{value_tuple},\n")
+                # else:
+                #     chunk_data.append(f"{value_tuple},\n")
             
             chunked_data.append("".join(chunk_data))
         
