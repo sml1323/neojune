@@ -7,7 +7,6 @@ from ....util import util
 from .KiprisXmlMapper import KiprisXmlMapper
 from .KiprisDataCartridge import KiprisDataCartridge
 
-
 class KiprisXmlToDictConverter:
     def __init__(
             self, mapper: KiprisXmlMapper=KiprisXmlMapper(), 
