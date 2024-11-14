@@ -11,13 +11,19 @@ from ..util import monitoring
 
 
 mysql = Mysql()
+
+# 회사 데이터 저장 경로
 COMPANY_DIR_PATH = f"xml/{KiprisEntityType.COMPANY.value}"
+# 대학 데이터 저장 경로
 UNIVERSITY_DIR_PATH = f"xml/{KiprisEntityType.UNIVERSITY.value}"
-COMPANY_APPLICANT_NUMBERS = [[120140558200, 1]]
-UNIVERSITY_APPLICANT_NUMBERS = [[120010134557, 1]]
+
+# 실제 데이터를 가져오려면 아래 주석을 해제하고 위의 테스트 데이터를 주석 처리합니다.
 # COMPANY_APPLICANT_NUMBERS = mysql.get_all_company_no_id()
 # UNIVERSITY_APPLICANT_NUMBERS = mysql.get_all_university_no_id()
 
+# 테스트 데이터
+COMPANY_APPLICANT_NUMBERS = [[120140558200, 1]]
+UNIVERSITY_APPLICANT_NUMBERS = [[120010134557, 1]]
 
 async def run_company_patent():
     monitoring.setup_bin_logger(TableName.TB24_200, KiprisEntityType.COMPANY, ApiType.PATENT)

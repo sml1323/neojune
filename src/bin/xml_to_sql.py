@@ -11,14 +11,28 @@ from ..util import monitoring
 
 
 
-XML_DIR = "20241114"
-XML_BASE_PATH = f"res/output/{XML_DIR}/xml"
-COMPANY_XML_PATH = f"{XML_BASE_PATH}/{KiprisEntityType.COMPANY.value}"
-UNIVERSITY_XML_PATH = f"{XML_BASE_PATH}/university"
+# XML 파일들이 위치한 디렉토리
+XML_DIR = "20241114" 
 
-BASIC_SQL_PATH = f"./res/output/{util.get_timestamp()}/sql"
-COMPANY_SQL_PATH = f"{BASIC_SQL_PATH}/{KiprisEntityType.UNIVERSITY.value}"
-UNIVERSITY_SQL_PATH = f"{BASIC_SQL_PATH}/university"
+# XML 파일들의 기본 경로
+XML_BASE_PATH = f"res/output/{XML_DIR}/xml" 
+
+# 회사 관련 XML 파일 경로
+COMPANY_XML_PATH = f"{XML_BASE_PATH}/{KiprisEntityType.COMPANY.value}" 
+
+# 대학 관련 XML 파일 경로
+UNIVERSITY_XML_PATH = f"{XML_BASE_PATH}/university" 
+
+
+# SQL 파일들이 저장될 기본 경로 (타임스탬프 포함)
+BASIC_SQL_PATH = f"./res/output/{util.get_timestamp()}/sql" 
+
+# 회사 관련 SQL 파일 경로 (주의: KiprisEntityType.UNIVERSITY 사용)
+COMPANY_SQL_PATH = f"{BASIC_SQL_PATH}/{KiprisEntityType.UNIVERSITY.value}" 
+
+# 대학 관련 SQL 파일 경로
+UNIVERSITY_SQL_PATH = f"{BASIC_SQL_PATH}/university" 
+
 
 ### company ###
 
