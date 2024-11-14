@@ -39,32 +39,41 @@ UNIVERSITY_SQL_PATH = f"{BASIC_SQL_PATH}/university"
 def run_company_design():
     monitoring.setup_bin_logger(TableName.TB24_COMPANY_PATENT, KiprisEntityType.COMPANY, ApiType.DESIGN)
 
-    query_builder = KiprisXmlDumpDataQueryBuilder(
-        table_name=TableName.TB24_COMPANY_PATENT.value, 
-        xml_filename=f'{COMPANY_XML_PATH}/{ApiType.DESIGN.value}.xml',  # XML 파일 경로
-        xml_to_dict_converter_class=KiprisDesignXmlToDictConverter
-    )
-    query_builder.save_file(ApiType.DESIGN.value, COMPANY_SQL_PATH)
+    def action():
+        query_builder = KiprisXmlDumpDataQueryBuilder(
+            table_name=TableName.TB24_COMPANY_PATENT.value, 
+            xml_filename=f'{COMPANY_XML_PATH}/{ApiType.DESIGN.value}.xml',  # XML 파일 경로
+            xml_to_dict_converter_class=KiprisDesignXmlToDictConverter
+        )
+        query_builder.save_file(ApiType.DESIGN.value, COMPANY_SQL_PATH)
+
+    util.execute_with_time(f"{TableName.TB24_COMPANY_PATENT}: {ApiType.DESIGN.value}", action)
 
 def run_company_patent():
     monitoring.setup_bin_logger(TableName.TB24_COMPANY_DESIGN, KiprisEntityType.COMPANY, ApiType.PATENT)
 
-    query_builder = KiprisXmlDumpDataQueryBuilder(
-        table_name=TableName.TB24_COMPANY_DESIGN.value, 
-        xml_filename=f'{COMPANY_XML_PATH}/{ApiType.PATENT.value}.xml',  # XML 파일 경로
-        xml_to_dict_converter_class=KiprisPatentXmlToDictConverter
-    )
-    query_builder.save_file(ApiType.PATENT.value, COMPANY_SQL_PATH)
+    def action():
+        query_builder = KiprisXmlDumpDataQueryBuilder(
+            table_name=TableName.TB24_COMPANY_DESIGN.value, 
+            xml_filename=f'{COMPANY_XML_PATH}/{ApiType.PATENT.value}.xml',  # XML 파일 경로
+            xml_to_dict_converter_class=KiprisPatentXmlToDictConverter
+        )
+        query_builder.save_file(ApiType.PATENT.value, COMPANY_SQL_PATH)
+
+    util.execute_with_time(f"{TableName.TB24_COMPANY_DESIGN}: {ApiType.PATENT.value}", action)
 
 def run_company_trademark():
     monitoring.setup_bin_logger(TableName.TB24_COMPANY_TRADEMARK, KiprisEntityType.COMPANY, ApiType.TRADEMARK)
 
-    query_builder = KiprisXmlDumpDataQueryBuilder(
-        table_name=TableName.TB24_COMPANY_TRADEMARK.value, 
-        xml_filename=f'{COMPANY_XML_PATH}/{ApiType.TRADEMARK.value}.xml',  # XML 파일 경로
-        xml_to_dict_converter_class=KiprisTrademarkXmlToDictConverter
-    )
-    query_builder.save_file(ApiType.TRADEMARK.value, COMPANY_SQL_PATH)
+    def action():
+        query_builder = KiprisXmlDumpDataQueryBuilder(
+            table_name=TableName.TB24_COMPANY_TRADEMARK.value, 
+            xml_filename=f'{COMPANY_XML_PATH}/{ApiType.TRADEMARK.value}.xml',  # XML 파일 경로
+            xml_to_dict_converter_class=KiprisTrademarkXmlToDictConverter
+        )
+        query_builder.save_file(ApiType.TRADEMARK.value, COMPANY_SQL_PATH)
+
+    util.execute_with_time(f"{TableName.TB24_COMPANY_TRADEMARK}: {ApiType.TRADEMARK.value}", action)
 
 
 ### university ###
@@ -72,31 +81,41 @@ def run_company_trademark():
 def run_university_design():
     monitoring.setup_bin_logger(TableName.TB24_UNIVERSITY_DESIGN, KiprisEntityType.UNIVERSITY, ApiType.DESIGN)
 
-    query_builder = KiprisXmlDumpDataQueryBuilder(
-        table_name=TableName.TB24_UNIVERSITY_DESIGN.value, 
-        xml_filename=f'{UNIVERSITY_XML_PATH}/{ApiType.DESIGN.value}.xml',  # XML 파일 경로
-        xml_to_dict_converter_class=KiprisDesignXmlToDictConverter
-    )
-    query_builder.save_file(ApiType.DESIGN.value, UNIVERSITY_SQL_PATH)
+    def action():
+        query_builder = KiprisXmlDumpDataQueryBuilder(
+            table_name=TableName.TB24_UNIVERSITY_DESIGN.value, 
+            xml_filename=f'{UNIVERSITY_XML_PATH}/{ApiType.DESIGN.value}.xml',  # XML 파일 경로
+            xml_to_dict_converter_class=KiprisDesignXmlToDictConverter
+        )
+        query_builder.save_file(ApiType.DESIGN.value, UNIVERSITY_SQL_PATH)
+
+    util.execute_with_time(f"{TableName.TB24_UNIVERSITY_DESIGN}: {ApiType.DESIGN.value}", action)
 
 def run_university_patent():
     monitoring.setup_bin_logger(TableName.TB24_UNIVERSITY_PATENT, KiprisEntityType.UNIVERSITY, ApiType.PATENT)
 
-    query_builder = KiprisXmlDumpDataQueryBuilder(
-        table_name=TableName.TB24_UNIVERSITY_PATENT.value, 
-        xml_filename=f'{UNIVERSITY_XML_PATH}/{ApiType.PATENT.value}.xml',  # XML 파일 경로
-        xml_to_dict_converter_class=KiprisPatentXmlToDictConverter
-    )
-    query_builder.save_file(ApiType.PATENT.value, UNIVERSITY_SQL_PATH)
+    def action():
+        query_builder = KiprisXmlDumpDataQueryBuilder(
+            table_name=TableName.TB24_UNIVERSITY_PATENT.value, 
+            xml_filename=f'{UNIVERSITY_XML_PATH}/{ApiType.PATENT.value}.xml',  # XML 파일 경로
+            xml_to_dict_converter_class=KiprisPatentXmlToDictConverter
+        )
+        query_builder.save_file(ApiType.PATENT.value, UNIVERSITY_SQL_PATH)
+
+    util.execute_with_time(f"{TableName.TB24_UNIVERSITY_PATENT}: {ApiType.PATENT.value}", action)
 
 def run_university_trademark():
     monitoring.setup_bin_logger(TableName.TB24_UNIVERSITY_TRADEMARK, KiprisEntityType.UNIVERSITY, ApiType.TRADEMARK)
-    query_builder = KiprisXmlDumpDataQueryBuilder(
-        table_name=TableName.TB24_UNIVERSITY_TRADEMARK.value, 
-        xml_filename=f'{UNIVERSITY_XML_PATH}/{ApiType.TRADEMARK.value}.xml',  # XML 파일 경로
-        xml_to_dict_converter_class=KiprisTrademarkXmlToDictConverter
-    )
-    query_builder.save_file(ApiType.TRADEMARK.value, UNIVERSITY_SQL_PATH)
+
+    def action():
+        query_builder = KiprisXmlDumpDataQueryBuilder(
+            table_name=TableName.TB24_UNIVERSITY_TRADEMARK.value, 
+            xml_filename=f'{UNIVERSITY_XML_PATH}/{ApiType.TRADEMARK.value}.xml',  # XML 파일 경로
+            xml_to_dict_converter_class=KiprisTrademarkXmlToDictConverter
+        )
+        query_builder.save_file(ApiType.TRADEMARK.value, UNIVERSITY_SQL_PATH)
+
+    util.execute_with_time(f"{TableName.TB24_UNIVERSITY_TRADEMARK}: {ApiType.TRADEMARK.value}", action)
 
 
 
