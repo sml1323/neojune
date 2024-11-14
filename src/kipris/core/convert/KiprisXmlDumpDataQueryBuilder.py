@@ -110,31 +110,42 @@ class KiprisXmlDumpDataQueryBuilder():
             self.xml_to_dict_converter.mapper = KiprisPriorityXmlMapper()
         else:
             self.xml_to_dict_converter.mapper = KiprisIpcXmlMapper()
+
         colums = self.__get_mapper_dict()
-        insert_info = f"{self.__get_sub_insert_info()}\nVALUES\n"
+        insert_info = f"{self.__get_sub_insert_info()}\n"
         chunked_data = []
-        
+        print(self.sub_dict_list)
         for i in range(0, len(self.sub_dict_list), self.chunk_size):
-            chunk_data = [insert_info]
-            
             for j, sub_xml_to_dict in enumerate(self.sub_dict_list[i:i + self.chunk_size]):
+                print(sub_xml_to_dict)
+                chunk_data = [insert_info]
                 values = []
 
                 for c in colums:
                     value = None
                     if c in sub_xml_to_dict:
                         value = sub_xml_to_dict[c]
+
                     if value is None:
-                            value = "NULL"
+                        value = "NULL"
                     elif isinstance(value, str):
                         value = f"'{value.replace("'", "''")}'"  # 작은따옴표 이스케이프
                     else:
                         value = str(value)
+                    if c == 'ipr_seq':
+                        value = 'ipr_seq'
                     values.append(value)
+
                 value_tuple = f"({', '.join(values)})"
+                chunk_data.append(value_tuple)
+                sql_table_message = f"\nFROM\nTB24_{self.org_type}_{self.service_type}"
+                chunk_data.append(sql_table_message)
                 
-                if j == self.chunk_size - 1 or (i + j + 1) == len(self.sub_dict_list):
-                    chunk_data.append(f"{value_tuple};\n")
+                # if j == self.chunk_size - 1 or (i + j + 1) == len(self.sub_dict_list):
+                sql_end_message = f"\nWHERE\nappl_no = {str(sub_xml_to_dict['appl_no'])} AND applicant_id = {sub_xml_to_dict['applicant_id']} AND serial_no = {sub_xml_to_dict['serial_no']};"
+                
+                chunk_data.append(sql_end_message)
+                #     chunk_data.append(f"{value_tuple};\n")
                 # else:
                 #     chunk_data.append(f"{value_tuple},\n")
             
