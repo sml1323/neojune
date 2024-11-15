@@ -1,79 +1,13 @@
-FROM namugach/ubuntu-basic:24.04-kor
-WORKDIR /root
+FROM python:3.12
 
-RUN apt-get update
+WORKDIR /app
 
-# Nginx, MySQL 서버, 및 MySQL 개발 라이브러리 설치
-RUN apt-get install -y nginx mysql-server pkg-config libmysqlclient-dev
+COPY . .
 
-# 데이터 분석 및 데이터베이스 연결을 위한 Python 라이브러리 설치
-RUN pip install pandas mysqlclient numpy openpyxl requests xmltodict python-dotenv
+# 필요한 패키지 설치
+RUN apt-get update && \
+    apt-get install -y pkg-config libmariadb-dev libmariadb-dev-compat libdbus-1-dev cmake libcairo2-dev libgirepository1.0-dev && \
+    rm -rf /var/lib/apt/lists/*  # 캐시 제거로 이미지 크기 줄이기
 
-#### 여기부터 SSH 
-RUN mkdir /var/run/sshd
-
-# root password 변경, $PASSWORD를 변경한다.
-RUN echo 'root:$PASSWORD' |  chpasswd
-
-# ssh 설정 변경
-# root 계정으로의 로그인을 허용한다.
-RUN sed -ri 's/^#?PermitRootLogin\s+.*/PermitRootLogin yes/' /etc/ssh/sshd_config
-RUN sed -ri 's/^#Port 22/Port 22/' /etc/ssh/sshd_config
-RUN sed -ri 's/^#ListenAddress 0.0.0.0/ListenAddress 0.0.0.0/' /etc/ssh/sshd_config
-
-# SSH 키 생성
-RUN ssh-keygen -t rsa -f /root/.ssh/id_rsa -q -N ""
-
-# SSH 설정
-RUN mkdir -p /root/.ssh && \
-    cp /root/.ssh/id_rsa.pub /root/.ssh/authorized_keys && \
-    chmod 600 /root/.ssh/authorized_keys && \
-    chmod 700 /root/.ssh
-
-# ssh 최초 접속시 yes 생략
-RUN echo "Host server*\n \
- StrictHostKeyChecking no\n \
- UserKnownHostsFile=/dev/null" >> /root/.ssh/config
-
-# MySQL 초기화 설정
-RUN chown -R mysql:mysql /var/run/mysqld
-RUN chmod 755 /var/run/mysqld
-
-# MySQL 포트 설정 변경
-RUN sed -ri 's/^#.+port.+= 3306/port = 3306/' /etc/mysql/mysql.conf.d/mysqld.cnf
-
-# MySQL 바인딩 주소 변경
-RUN sed -ri 's/^bind-address.+= 127.0.0.1/bind-address = 0.0.0.0/' /etc/mysql/mysql.conf.d/mysqld.cnf
-
-# SQL 파일 복사
-COPY res/sql/neojune_2024-10-25_133204.sql /root/neojune_2024-10-25_133204.sql
-
-# MySQL 서비스 시작 및 데이터베이스 설정
-RUN service mysql start && \
-    # 데이터베이스 생성 및 사용자 권한 설정
-    mysql -e "CREATE DATABASE IF NOT EXISTS neojune; \
-    CREATE USER 'ubuntu'@'%' IDENTIFIED BY '1234'; \
-    GRANT ALL PRIVILEGES ON *.* TO 'ubuntu'@'%' WITH GRANT OPTION; \
-    FLUSH PRIVILEGES;" && \
-    # SQL 파일 실행
-    mysql -u root neojune < /root/neojune_2024-10-25_133204.sql && \
-    # SQL 파일 삭제
-    rm /root/neojune_2024-10-25_133204.sql
-
-RUN echo "[mysqld]\n \
-    character-set-server=utf8\n \
-    collation-server=utf8_general_ci\n \
-    \n \
-    [client]\n \
-    default-character-set=utf8\n \
-    \n \
-    [mysql]\n \
-    default-character-set=utf8" >> /etc/mysql/mysql.conf.d/mysqld.cnf
-    
-
-
-# nginx, SSH, MySQL 동시에 실행하기 위한 커맨드
-CMD [ \
-  "/bin/bash", "-c", \
-  "service nginx start && service mysql start && /usr/sbin/sshd -D" \
-]
+# Python 라이브러리 설치
+RUN pip install -r /app/requirements.txt

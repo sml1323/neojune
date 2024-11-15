@@ -7,10 +7,12 @@ class KiprisXml:
         self.root = ET.Element("root")
 
     def __get_file_path(self, file_name, dir_path):
+        base_path = "/app/res/output" 
         if dir_path == "":
-            return f"res/output/{util.get_timestamp()}/{file_name}.xml"
+            return f"{base_path}/{util.get_timestamp()}/{file_name}.xml"
         else:
-            return f"res/output/{util.get_timestamp()}/{dir_path}/{file_name}.xml"
+            return f"{base_path}/{util.get_timestamp()}/{dir_path}/{file_name}.xml"
+
     
     def xml_to_string(self, xml:ET.Element) -> str:
         return ET.tostring(xml, encoding='utf-8').decode('utf-8')
