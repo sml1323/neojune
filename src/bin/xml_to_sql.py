@@ -21,17 +21,17 @@ XML_BASE_PATH = f"res/output/{XML_DIR}/xml"
 COMPANY_XML_PATH = f"{XML_BASE_PATH}/{KiprisEntityType.COMPANY.value}" 
 
 # 대학 관련 XML 파일 경로
-UNIVERSITY_XML_PATH = f"{XML_BASE_PATH}/university" 
+UNIVERSITY_XML_PATH = f"{XML_BASE_PATH}/{KiprisEntityType.UNIVERSITY.value}" 
 
 
 # SQL 파일들이 저장될 기본 경로 (타임스탬프 포함)
 BASIC_SQL_PATH = f"./res/output/{util.get_timestamp()}/sql" 
 
 # 회사 관련 SQL 파일 경로 (주의: KiprisEntityType.UNIVERSITY 사용)
-COMPANY_SQL_PATH = f"{BASIC_SQL_PATH}/{KiprisEntityType.UNIVERSITY.value}" 
+COMPANY_SQL_PATH = f"{BASIC_SQL_PATH}/{KiprisEntityType.COMPANY.value}" 
 
 # 대학 관련 SQL 파일 경로
-UNIVERSITY_SQL_PATH = f"{BASIC_SQL_PATH}/university" 
+UNIVERSITY_SQL_PATH = f"{BASIC_SQL_PATH}/{KiprisEntityType.UNIVERSITY.value}" 
 
 
 ### company ###
