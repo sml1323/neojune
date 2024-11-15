@@ -235,12 +235,43 @@ class Mysql:
                 sql_script = file.read()
                 # sql_script = self.sanitize_sql(sql_script)
                 # SQL 스크립트 실행
-                # for statement in sql_script.split(';'):
-                if sql_script.strip():  # 빈 구문 무시
-                    # cursor.execute("SET GLOBAL max_allow/ed_packet = 67108864;") 
+                # for statement in sql_script:
+                    # print(statement)
+                try:
+                    sql_script = sql_script.strip()
+                    sql_script = sql_script.replace("\\","")
                     cursor.execute(sql_script)
-                
-                # 커밋하여 변경 사항 저장
-                self.connection.commit()
-                print("SQL 파일이 성공적으로 실행되었습니다.")
-    
+                    self.connection.commit()   
+                    print("SQL 파일이 성공적으로 실행되었습니다.")  
+                except Exception as e:
+                    print(e)
+
+
+    def execute_sql_sub_file(self, file_path):
+        # MySQL 데이터베이스 연결
+        with self._get_cursor() as cursor:
+            # SQL 파일 읽기
+
+            with open(file_path, 'r') as file:
+                sql_script = file.read()
+                sql_script = self.sanitize_sql(sql_script)
+                # SQL 스크립트 실행
+                for statement in sql_script.split(';\n'):
+                    # print(statement)
+                    try:
+                        statement = statement.strip()
+                        if statement:  # 빈 구문 무시
+                            # cursor.execute("SET GLOBAL max_allow/ed_packet = 67108864;") 
+                            if statement[0] == "'":
+                                statement = statement.replace("\\","")[1:]
+                            cursor.execute(statement+";")
+                            self.connection.commit()    
+                            print("SQL 파일이 성공적으로 실행되었습니다.")  
+                    except Exception as e:
+                        # print(statement.replace("\\","")[1:] + ";")
+                        # print(statement)
+                        print(e)
+                        break
+    def upsert_sql(self, query):
+        with self._get_cursor() as cursor:
+            cursor.excute(query)
