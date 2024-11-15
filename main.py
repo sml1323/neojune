@@ -1,6 +1,7 @@
 import argparse
 import asyncio
 from src.bin import save_to_xml, xml_to_sql
+from src.util import util
 
 # 각 모듈의 작업 함수 딕셔너리
 module_tasks = {
@@ -46,8 +47,12 @@ async def main():
                 async_jobs.append(module_tasks[module][task]())
             else:
                 print(f"Warning: Task '{task}' not found in module '{module}'")
-        if async_jobs:
-            await asyncio.gather(*async_jobs)
+        
+        async def inner():
+            for job in async_jobs:
+                await job
+    
+        await util.send_slack_message("neojune", inner)
 
     elif module == 'xml_to_sql':  # 동기 작업 처리
         for task in tasks:
