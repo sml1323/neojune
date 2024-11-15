@@ -12,6 +12,7 @@ class KiprisParam(KiprisObject):
         self.__applicant_id = applicant_id
         self.accessKey = service_key
         self.docsCount = 500
+        self.descSort = 'true'
 
     @property
     def app_no(self):

@@ -1,5 +1,6 @@
--- Active: 1726995339920@@127.0.0.1@3306@kipris
+-- Active: 1731490907969@@localhost@3306@kipris
 -- 기업정보
+
 CREATE TABLE TB24_100 (
     company_seq INT AUTO_INCREMENT PRIMARY KEY,
     biz_no VARCHAR(12) NULL, 
@@ -41,11 +42,11 @@ CREATE TABLE TB24_company_patent (
     ipr_seq INT AUTO_INCREMENT PRIMARY KEY,
     applicant_id INT NULL, -- TB24_200의 applicant_id 참조
     ipr_code VARCHAR(2),
-    title VARCHAR(255),
+    title VARCHAR(255) NOT NULL,
     serial_no VARCHAR(50),
-    applicant VARCHAR(100),
+    applicant VARCHAR(300),
     main_ipc VARCHAR(15),
-    appl_no VARCHAR(50) UNIQUE,
+    appl_no VARCHAR(50),
     appl_date DATE,
     open_no VARCHAR(50),
     open_date DATE,
@@ -70,10 +71,10 @@ CREATE TABLE TB24_company_design (
     ipr_code VARCHAR(2),
     title VARCHAR(255) NOT NULL,
     serial_no VARCHAR(50),
-    applicant VARCHAR(100),
+    applicant VARCHAR(300),
     inventor VARCHAR(100),
     agent VARCHAR(100),
-    appl_no VARCHAR(50) UNIQUE,
+    appl_no VARCHAR(50),
     appl_date DATE,
     open_no VARCHAR(50),
     open_date DATE,
@@ -97,9 +98,9 @@ CREATE TABLE TB24_company_trademark (
     ipr_code VARCHAR(2),
     title VARCHAR(255) NOT NULL,
     serial_no VARCHAR(50),
-    applicant VARCHAR(100) ,
+    applicant VARCHAR(300) ,
     agent VARCHAR(100),
-    appl_no VARCHAR(50) UNIQUE,
+    appl_no VARCHAR(50),
     appl_date DATE,
     pub_num VARCHAR(50),
     pub_date DATE,
@@ -119,9 +120,9 @@ CREATE TABLE TB24_university_patent (
     ipr_code VARCHAR(2),
     title VARCHAR(255) NOT NULL,
     serial_no VARCHAR(50),
-    applicant VARCHAR(100),
+    applicant VARCHAR(300),
     main_ipc VARCHAR(15),
-    appl_no VARCHAR(50) UNIQUE,
+    appl_no VARCHAR(50),
     appl_date DATE,
     open_no VARCHAR(50),
     open_date DATE,
@@ -146,10 +147,10 @@ CREATE TABLE TB24_university_design (
     ipr_code VARCHAR(2),
     title VARCHAR(255) NOT NULL,
     serial_no VARCHAR(50),
-    applicant VARCHAR(100),
+    applicant VARCHAR(300),
     inventor VARCHAR(100),
     agent VARCHAR(100),
-    appl_no VARCHAR(50) UNIQUE,
+    appl_no VARCHAR(50),
     appl_date DATE,
     open_no VARCHAR(50),
     open_date DATE,
@@ -173,9 +174,9 @@ CREATE TABLE TB24_university_trademark (
     ipr_code VARCHAR(2),
     title VARCHAR(255) NOT NULL,
     serial_no VARCHAR(50),
-    applicant VARCHAR(100),
+    applicant VARCHAR(300),
     agent VARCHAR(100),
-    appl_no VARCHAR(50) UNIQUE,
+    appl_no VARCHAR(50),
     appl_date DATE,
     pub_num VARCHAR(50),
     pub_date DATE,
@@ -198,6 +199,10 @@ CREATE TABLE TB24_310_company (
     CHECK (ipc_cpc IN ('IPC', 'CPC'))
 );
 
+ALTER TABLE TB24_310_company
+ADD UNIQUE (ipr_seq, ipc_cpc_code);
+
+
 -- 대학 IPC_CPC 테이블
 CREATE TABLE TB24_310_university (
     ipc_seq INT AUTO_INCREMENT PRIMARY KEY,
@@ -207,6 +212,9 @@ CREATE TABLE TB24_310_university (
     FOREIGN KEY (ipr_seq) REFERENCES TB24_university_patent(ipr_seq) ON DELETE CASCADE,
     CHECK (ipc_cpc IN ('IPC', 'CPC'))
 );
+ALTER TABLE TB24_310_university
+ADD UNIQUE (ipr_seq, ipc_cpc_code);
+
 
 -- 기업 우선권 테이블
 CREATE TABLE TB24_320_company (
@@ -231,3 +239,28 @@ CREATE TABLE TB24_320_university (
     FOREIGN KEY (ipr_seq) REFERENCES TB24_university_design(ipr_seq) ON DELETE CASCADE,
     CHECK (ipr_type IN ('design', 'trademark'))
 );
+
+-- 기업 특실 테이블 인덱싱 추가(appl_no, applicant_id)
+ALTER TABLE TB24_company_patent
+ADD UNIQUE INDEX index_appl_no_applicant_id (appl_no, applicant_id,serial_no);
+
+-- 기업 디자인 테이블 인덱싱 추가(appl_no, applicant_id)
+ALTER TABLE TB24_company_design 
+ADD UNIQUE INDEX index_appl_no_applicant_id (appl_no, applicant_id,serial_no);
+
+-- 기업 상표 테이블 인덱싱 추가(appl_no, applicant_id)
+ALTER TABLE TB24_company_trademark 
+ADD UNIQUE INDEX index_appl_no_applicant_id (appl_no, applicant_id,serial_no);
+
+-- 대학 특실 테이블 인덱싱 추가(appl_no, applicant_id)
+ALTER TABLE TB24_university_patent
+ADD UNIQUE INDEX index_appl_no_applicant_id (appl_no, applicant_id,serial_no);
+
+-- 대학 디자인 테이블 인덱싱 추가(appl_no, applicant_id)
+ALTER TABLE TB24_university_design
+ADD UNIQUE INDEX index_appl_no_applicant_id (appl_no, applicant_id,serial_no);
+
+-- 대학 상표 테이블 인덱싱 추가(appl_no, applicant_id)
+ALTER TABLE TB24_university_trademark 
+ADD UNIQUE INDEX index_appl_no_applicant_id (appl_no, applicant_id,serial_no);
+

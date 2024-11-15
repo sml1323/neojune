@@ -8,7 +8,7 @@ class KiprisPatentDataCartridge(KiprisDataCartridge):
 
     @property
     def main_ipc(self):
-        return util.split(self._main_ipc)[0]
+        return util.split(self._main_ipc)
     
     @main_ipc.setter
     def main_ipc(self, value):
