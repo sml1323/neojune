@@ -12,7 +12,8 @@ from ..util import monitoring
 
 
 # XML 파일들이 위치한 디렉토리
-XML_DIR = "20241114" 
+# XML_DIR = "20241114" 
+XML_DIR = util.get_timestamp() 
 
 # XML 파일들의 기본 경로
 XML_BASE_PATH = f"res/output/{XML_DIR}/xml" 
