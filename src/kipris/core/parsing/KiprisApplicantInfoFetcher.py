@@ -121,7 +121,7 @@ class KiprisApplicantInfoFetcher:
         
         tasks = []
         # 페이지 번호 2부터 self.max_pages까지 반복
-        page = 2
+        page = 1+ self.params.docsCount
         while page <= self.max_pages:
             # _increment_page를 사용하여 페이지를 증가시키면서 지연을 적용
             task = self.__handle_response(page)

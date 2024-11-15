@@ -7,7 +7,6 @@ from ....util import util
 from .KiprisXmlMapper import KiprisXmlMapper
 from .KiprisDataCartridge import KiprisDataCartridge
 
-
 class KiprisXmlToDictConverter:
     def __init__(
             self, mapper: KiprisXmlMapper=KiprisXmlMapper(), 
@@ -21,6 +20,8 @@ class KiprisXmlToDictConverter:
         self.root = etree.fromstring(self.xml_string)
         self.item_name = ""
         self.cartridge_itams:list[KiprisDataCartridge] = []
+        self.sub_dict_list = []
+        self.service_type = None
 
     def get_file_path(self, xml_filename: str) -> str:
         """주어진 XML 파일 이름을 기반으로 파일 경로를 생성하는 메서드."""
@@ -59,6 +60,43 @@ class KiprisXmlToDictConverter:
 
     def __get_match_dict_item(self, data:etree.Element, item:etree.Element) -> Dict:
         return self.__get_match_cartridge_item(data, item).get_dict_with_properties()
+    
+    def __get_match_sub_dict_item(self, item : dict):
+
+        if self.service_type in ['design', 'trademark']:
+            sub_dict = {
+                "applicant_id" : item['applicant_id'],
+                "appl_no" : item['appl_no'],
+                "serial_no" : item['serial_no'],
+                "ipr_type" : self.service_type
+            }
+
+            if item['priority_date'] is not None:
+                sub_dict['priority_date'] = item['priority_date']
+            
+            if item['priority_no'] is not None:
+                sub_dict['priority_no'] = item['priority_no']
+
+            priority_no = item.pop('priority_no') 
+            priority_date = item.pop('priority_date') 
+
+            if priority_no or priority_date:
+                self.sub_dict_list.append(sub_dict.copy())
+            
+        else:
+            sub_dict = {
+                "applicant_id" : item['applicant_id'],
+                "appl_no" : item['appl_no'],
+                "serial_no" : item['serial_no'],
+                "ipc_cpc" : "IPC"
+            }
+            for ipc_code in item['main_ipc'] :
+                sub_dict.update({"ipc_cpc_code":ipc_code})
+                self.sub_dict_list.append(sub_dict.copy())
+            
+            item['main_ipc']  = item['main_ipc'][0]
+
+
 
     def __get_match_dict_items(self, data: etree.Element) -> list[Dict]:
         result = []# 기본값 설정
@@ -67,6 +105,8 @@ class KiprisXmlToDictConverter:
         
         for item in items:
             i = self.__get_match_dict_item(data, item)
+            self.__get_match_sub_dict_item(i)
+            
             result.append(i)
 
         # data.xpath(item)
@@ -112,3 +152,4 @@ class KiprisXmlToDictConverter:
         except etree.XMLSyntaxError as e:
             print(f"Error: XML 구문 오류: {e}")
             return []
+    

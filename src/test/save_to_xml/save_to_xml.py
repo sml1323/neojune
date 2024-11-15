@@ -24,21 +24,21 @@ async def main(table_name="TB24_200", dir_path="xml/company"):
         if table_name == "TB24_200":
             company_logger = monitoring.setup_logger("company")
             company_logger.debug("TB24_200")
-            # applicant_numbers = mysql.get_all_company_no_id()
+            applicant_numbers = mysql.get_all_company_no_id()
             # applicant_numbers = mysql.get_limit_company_no_id(5)
             # p3: 120080091393,  p23: 120070509242
             # applicant_numbers = [[120070509242, 10],[120080091393, 20]]
-            applicant_numbers = [[120140558200, 1]]
+            # applicant_numbers = [[120140558200, 1]]
         else:
             university_logger = monitoring.setup_logger("university")
             university_logger.debug("TB24_210")
-            # applicant_numbers = mysql.get_all_university_no_seq()
+            applicant_numbers = mysql.get_all_university_no_seq()
             # applicant_numbers = mysql.get_limit_university_no_seq(5)
-            applicant_numbers = [[220050095099, 1]]
+            # applicant_numbers = [[220050095099, 1]]
 
         async def patent_action_api():
             patent_fetcher = KiprisPatentFetcher(applicant_numbers)
-            return await patent_fetcher.get_infos("patent 처리 시간")
+            return await patent_fetcher.get_infos("patent")
     
         async def design_action_api():
             design_fetcher = KiprisDesignFetcher(applicant_numbers)

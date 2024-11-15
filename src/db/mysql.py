@@ -1,7 +1,7 @@
 import os
 from typing import List, Dict, Optional, Tuple
 from dotenv import load_dotenv
-import MySQLdb, json
+import MySQLdb, json, sqlparse
 
 load_dotenv()
 
@@ -24,7 +24,7 @@ class Mysql:
                 user=self.user,
                 passwd=self.password,
                 db=self.db_name,
-                port=self.db_port
+                port=self.db_port,
             )
 
     def _get_cursor(self):
@@ -180,20 +180,103 @@ class Mysql:
         sql = f'SELECT applicant_no, applicant_id FROM TB24_200 LIMIT {limit}'
         return self.get_cursor_fetchall(sql)
 
-    def get_all_company_no_id(self, ) -> list[list]:
-        sql = f'SELECT applicant_no, applicant_id FROM TB24_200'
-        return self.get_cursor_fetchall(sql)
+    def get_all_company_no_id(self, is_dict = False) -> list[list]:
+        sql = f'SELECT applicant_no, applicant_id FROM TB24_200;'
+        result = self.get_cursor_fetchall(sql)
+        if is_dict : 
+            return {item[0]: item[1] for item in result}
+        else:
+            return result
+        
 
     def get_limit_university_no_id(self, limit=1) -> list[list]:
         sql = f'SELECT applicant_no, applicant_id FROM TB24_210 LIMIT {limit}'
         return self.get_cursor_fetchall(sql)
 
-    def get_all_university_no_id(self, ) -> list[list]:
+    def get_all_university_no_id(self) -> list[list]:
         sql = f'SELECT applicant_no, applicant_id FROM TB24_210'
         return self.get_cursor_fetchall(sql)
+    def get_limit_university_no_seq(self, limit=1) -> list[list]:
+        # applicant_no, university_seq
+        sql = f'SELECT applicant_no, applicant_id FROM TB24_210 LIMIT {limit}'
+        return self.get_cursor_fetchall(sql)
+
+    def get_all_university_no_seq(self, is_dict = False) -> list[list]:
+        sql = f'SELECT applicant_no, applicant_id FROM TB24_210;'
+        result = self.get_cursor_fetchall(sql)
+        if is_dict : 
+            return {item[0]: item[1] for item in result}
+        else:
+            return result
+    
 
 
     def close_connection(self):
         """연결 닫기"""
         if self.connection and self.connection.open:
             self.connection.close()
+
+    def sanitize_sql(self, sql_content):
+        """
+        SQL 쿼리에 포함되는 텍스트 값을 안전하게 변환하는 함수.
+        작은따옴표, 줄바꿈 문자 등 특수문자를 이스케이프 처리.
+        """
+        if sql_content is None:
+            return 'NULL'
+        elif isinstance(sql_content, str):
+            # 작은따옴표와 백슬래시를 이스케이프
+            sql_content = sql_content.replace("\\", "\\\\")
+            sql_content = sql_content.replace("'", "\\'")
+            # 줄바꿈 및 탭 문자 제거 또는 변환
+            # sql_content = sql_content.replace("\n", " ").replace("\r", " ").replace("\t", " ")
+            return f"'{sql_content}'"
+        else:
+            return str(sql_content)
+
+    # def execute_sql_file(self, file_path):
+    #     # MySQL 데이터베이스 연결
+    #     with self._get_cursor() as cursor:
+    #         # SQL 파일 읽기
+
+    #         with open(file_path, 'r') as file:
+    #             sql_script = file.read()
+    #             # sql_script = self.sanitize_sql(sql_script)
+    #             # SQL 스크립트 실행
+    #             # for statement in sql_script:
+    #                 # print(statement)
+    #             try:
+    #                 sql_script = sql_script.strip()
+    #                 sql_script = sql_script.replace("\\","")
+    #                 cursor.execute(sql_script)
+    #                 self.connection.commit()   
+    #                 print("SQL 파일이 성공적으로 실행되었습니다.")  
+    #             except Exception as e:
+    #                 print(e)
+
+    
+
+    def execute_sql_file(self, file_path):
+
+        # MySQL 데이터베이스 연결
+        with self._get_cursor() as cursor:
+            try:
+                # SQL 파일 읽기
+                with open(file_path, 'r') as file:
+                    sql_script = file.read()
+                    # 불필요한 역슬래시 제거
+                    # sql_script = sql_script.replace("\\", "")
+                    
+                    # SQL 파일을 구문 분석하여 각 쿼리를 분리
+                    
+                    statements = sqlparse.split(sql_script)
+
+                    # 각 SQL 문장 실행
+                    for statement in statements:
+                        if statement.strip():  # 빈 문장 무시
+                            cursor.execute(statement)
+                    
+                self.connection.commit()   
+                print("SQL 파일이 성공적으로 실행되었습니다.")  
+
+            except Exception as e:
+                print("오류 발생:", e)

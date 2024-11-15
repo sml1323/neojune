@@ -15,3 +15,5 @@ class KiprisTrademarkXmlMapper(KiprisXmlMapper):
         self.image_path = "ThumbnailPath"
 
         self.agent = "AgentName"
+        self.priority_no ="PriorityClaimNumber"
+        self.priority_date = "PriorityClaimDate"
