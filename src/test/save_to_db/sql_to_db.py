@@ -27,6 +27,14 @@ def main():
 
     mysql = Mysql()
 
+
+    # 본보기
+    # execute_sql_files_in_directory(company_path, "patent", mysql)
+    # execute_sql_files_in_directory(company_path + "/ipc_cpc", "ipc_cpc", mysql)
+    # 이렇게 한쌍으로 모두 적용
+
+
+
     # 각 디렉토리와 접두사(prefix)에 대해 SQL 파일들을 실행
     # execute_sql_files_in_directory(company_path, "design", mysql)
     # execute_sql_files_in_directory(company_path, "patent", mysql)
