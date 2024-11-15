@@ -1,7 +1,7 @@
 import os
 from typing import List, Dict, Optional, Tuple
 from dotenv import load_dotenv
-import MySQLdb, json
+import MySQLdb, json, sqlparse
 
 load_dotenv()
 
@@ -226,52 +226,50 @@ class Mysql:
         else:
             return str(sql_content)
 
+    # def execute_sql_file(self, file_path):
+    #     # MySQL 데이터베이스 연결
+    #     with self._get_cursor() as cursor:
+    #         # SQL 파일 읽기
+
+    #         with open(file_path, 'r') as file:
+    #             sql_script = file.read()
+    #             # sql_script = self.sanitize_sql(sql_script)
+    #             # SQL 스크립트 실행
+    #             # for statement in sql_script:
+    #                 # print(statement)
+    #             try:
+    #                 sql_script = sql_script.strip()
+    #                 sql_script = sql_script.replace("\\","")
+    #                 cursor.execute(sql_script)
+    #                 self.connection.commit()   
+    #                 print("SQL 파일이 성공적으로 실행되었습니다.")  
+    #             except Exception as e:
+    #                 print(e)
+
+    
+
     def execute_sql_file(self, file_path):
+
         # MySQL 데이터베이스 연결
         with self._get_cursor() as cursor:
-            # SQL 파일 읽기
+            try:
+                # SQL 파일 읽기
+                with open(file_path, 'r') as file:
+                    sql_script = file.read()
+                    # 불필요한 역슬래시 제거
+                    # sql_script = sql_script.replace("\\", "")
+                    
+                    # SQL 파일을 구문 분석하여 각 쿼리를 분리
+                    
+                    statements = sqlparse.split(sql_script)
 
-            with open(file_path, 'r') as file:
-                sql_script = file.read()
-                # sql_script = self.sanitize_sql(sql_script)
-                # SQL 스크립트 실행
-                # for statement in sql_script:
-                    # print(statement)
-                try:
-                    sql_script = sql_script.strip()
-                    sql_script = sql_script.replace("\\","")
-                    cursor.execute(sql_script)
-                    self.connection.commit()   
-                    print("SQL 파일이 성공적으로 실행되었습니다.")  
-                except Exception as e:
-                    print(e)
+                    # 각 SQL 문장 실행
+                    for statement in statements:
+                        if statement.strip():  # 빈 문장 무시
+                            cursor.execute(statement)
+                    
+                self.connection.commit()   
+                print("SQL 파일이 성공적으로 실행되었습니다.")  
 
-
-    def execute_sql_sub_file(self, file_path):
-        # MySQL 데이터베이스 연결
-        with self._get_cursor() as cursor:
-            # SQL 파일 읽기
-
-            with open(file_path, 'r') as file:
-                sql_script = file.read()
-                sql_script = self.sanitize_sql(sql_script)
-                # SQL 스크립트 실행
-                for statement in sql_script.split(';\n'):
-                    # print(statement)
-                    try:
-                        statement = statement.strip()
-                        if statement:  # 빈 구문 무시
-                            # cursor.execute("SET GLOBAL max_allow/ed_packet = 67108864;") 
-                            if statement[0] == "'":
-                                statement = statement.replace("\\","")[1:]
-                            cursor.execute(statement+";")
-                            self.connection.commit()    
-                            print("SQL 파일이 성공적으로 실행되었습니다.")  
-                    except Exception as e:
-                        # print(statement.replace("\\","")[1:] + ";")
-                        # print(statement)
-                        print(e)
-                        break
-    def upsert_sql(self, query):
-        with self._get_cursor() as cursor:
-            cursor.excute(query)
+            except Exception as e:
+                print("오류 발생:", e)
