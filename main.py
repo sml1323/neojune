@@ -3,10 +3,6 @@ import asyncio
 from src.bin import save_to_xml, xml_to_sql
 from src.util import util
 
-from src.test import test
-test.run()
-exit(0)
-
 
 # 각 모듈의 작업 함수 딕셔너리
 module_tasks = {
@@ -19,11 +15,11 @@ module_tasks = {
         'university_trademark': save_to_xml.run_university_trademark,
     },
     'xml_to_sql': {
-        'company_design': xml_to_sql.run_company_design,
         'company_patent': xml_to_sql.run_company_patent,
+        'company_design': xml_to_sql.run_company_design,
         'company_trademark': xml_to_sql.run_company_trademark,
-        'university_design': xml_to_sql.run_university_design,
         'university_patent': xml_to_sql.run_university_patent,
+        'university_design': xml_to_sql.run_university_design,
         'university_trademark': xml_to_sql.run_university_trademark,
     }
 }
@@ -68,5 +64,5 @@ async def main():
             else:
                 print(f"Warning: Task '{task}' not found in module '{module}'")
 
-# if __name__ == '__main__':
-#     asyncio.run(main())
+if __name__ == '__main__':
+    asyncio.run(main())
