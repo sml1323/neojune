@@ -52,7 +52,9 @@ async def main():
             for job in async_jobs:
                 await job
     
-        await util.send_slack_message("neojune", inner)
+        # await util.send_slack_message("neojune", inner)
+        await inner()
+        
 
     elif module == 'xml_to_sql':  # 동기 작업 처리
         for task in tasks:
