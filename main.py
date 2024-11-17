@@ -3,6 +3,10 @@ import asyncio
 from src.bin import save_to_xml, xml_to_sql
 from src.util import util
 
+from src.test import test
+test.run()
+exit(0)
+
 # 각 모듈의 작업 함수 딕셔너리
 module_tasks = {
     'save_to_xml': {

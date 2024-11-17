@@ -280,3 +280,19 @@ class Mysql:
 
             except Exception as e:
                 print("오류 발생:", e)
+
+                
+    def get_sub_table(self, table_name) -> list[dict]:
+
+        sql = f'SELECT ipr_seq, appl_no, applicant_id, serial_no FROM {table_name} ;'
+        result = self.get_cursor_fetchall(sql)
+
+        result_dict = {}
+
+        for data in result :
+            key = data[1]+ str(data[2]) + data[3]
+            value = data[0]
+            result_dict[key] = value
+            
+
+        return result_dict 
