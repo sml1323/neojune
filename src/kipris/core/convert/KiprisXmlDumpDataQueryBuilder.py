@@ -12,7 +12,7 @@ class KiprisXmlDumpDataQueryBuilder():
         table_name:str="table_name", 
         xml_filename:str="xml_filename",
         xml_to_dict_converter_class:type[KiprisXmlToDictConverter] = KiprisXmlToDictConverter,
-        chunk_size: int = 5000
+        chunk_size: int = 1000
     ):
         self.data = []
         self.table_name = table_name
