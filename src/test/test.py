@@ -32,9 +32,9 @@ def run():
 
     ### main table 저장 
     # util.execute_with_time("dict_to_sql", dict_to_sql.main)
-    # util.execute_with_time("sql_to_db", sql_to_db.main)
+    util.execute_with_time("sql_to_db", sql_to_db.main)
 
     ### sub table 저장 
-    # util.execute_with_time("dict_to_sql", dict_to_sql_sub.main)
+    util.execute_with_time("dict_to_sql", dict_to_sql_sub.main)
     util.execute_with_time("sql_to_db", sql_to_db.main, False)
     pass
