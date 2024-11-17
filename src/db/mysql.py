@@ -189,13 +189,6 @@ class Mysql:
             return result
         
 
-    def get_limit_university_no_id(self, limit=1) -> list[list]:
-        sql = f'SELECT applicant_no, applicant_id FROM TB24_210 LIMIT {limit}'
-        return self.get_cursor_fetchall(sql)
-
-    def get_all_university_no_id(self) -> list[list]:
-        sql = f'SELECT applicant_no, applicant_id FROM TB24_210'
-        return self.get_cursor_fetchall(sql)
     def get_limit_university_no_seq(self, limit=1) -> list[list]:
         # applicant_no, university_seq
         sql = f'SELECT applicant_no, applicant_id FROM TB24_210 LIMIT {limit}'
@@ -233,30 +226,7 @@ class Mysql:
         else:
             return str(sql_content)
 
-    # def execute_sql_file(self, file_path):
-    #     # MySQL 데이터베이스 연결
-    #     with self._get_cursor() as cursor:
-    #         # SQL 파일 읽기
-
-    #         with open(file_path, 'r') as file:
-    #             sql_script = file.read()
-    #             # sql_script = self.sanitize_sql(sql_script)
-    #             # SQL 스크립트 실행
-    #             # for statement in sql_script:
-    #                 # print(statement)
-    #             try:
-    #                 sql_script = sql_script.strip()
-    #                 sql_script = sql_script.replace("\\","")
-    #                 cursor.execute(sql_script)
-    #                 self.connection.commit()   
-    #                 print("SQL 파일이 성공적으로 실행되었습니다.")  
-    #             except Exception as e:
-    #                 print(e)
-
-    
-
     def execute_sql_file(self, file_path):
-
         # MySQL 데이터베이스 연결
         with self._get_cursor() as cursor:
             try:
@@ -280,3 +250,19 @@ class Mysql:
 
             except Exception as e:
                 print("오류 발생:", e)
+
+                
+    def get_sub_table(self, table_name) -> list[dict]:
+
+        sql = f'SELECT ipr_seq, appl_no, applicant_id, serial_no FROM {table_name} ;'
+        result = self.get_cursor_fetchall(sql)
+
+        result_dict = {}
+
+        for data in result :
+            key = data[1]+ str(data[2]) + data[3]
+            value = data[0]
+            result_dict[key] = value
+            
+
+        return result_dict 

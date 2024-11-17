@@ -11,6 +11,7 @@ from .blocked_users import blocked_users
 from src.util import util
 from src.test.save_to_xml import save_to_xml
 from src.test.kipris.convert import dict_to_sql
+from src.test.kipris.convert import dict_to_sql_sub
 from src.test.save_to_db import sql_to_db
 
 
@@ -23,10 +24,17 @@ def run():
     # uploader.main()
     # all_conn.main()
     # blocked_users.main()
-    # util.send_slack_message("neojune", save_to_xml.main)
+    # util.send_slack_message("neojune", save_to_xml.main) 
     # util.send_slack_message("neojune", save_to_xml.main, "TB24_210", "xml/university")
     # asyncio.run(save_to_xml.main())
     # asyncio.run(save_to_xml.main("TB24_210", "xml/university"))
-    dict_to_sql.main()
-    sql_to_db.main()
+
+
+    ### main table 저장 
+    # util.execute_with_time("dict_to_sql", dict_to_sql.main)
+    util.execute_with_time("sql_to_db", sql_to_db.main)
+
+    ### sub table 저장 
+    util.execute_with_time("dict_to_sql", dict_to_sql_sub.main)
+    util.execute_with_time("sql_to_db", sql_to_db.main, False)
     pass

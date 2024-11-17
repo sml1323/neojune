@@ -20,8 +20,9 @@ def execute_sql_files_in_directory(directory: str, prefix: str, mysql):
         mysql.execute_sql_file(sql_file_path)
         print(f"Executed {sql_file_path}")
 
-def main():
+def main(is_main = True):
     base_path = f"res/output/{util.get_timestamp()}/sql"
+    # base_path = f"res/output/20241114/sql"
     company_path = f"{base_path}/company"
     university_path = f"{base_path}/university"
 
@@ -36,16 +37,17 @@ def main():
 
 
     # 각 디렉토리와 접두사(prefix)에 대해 SQL 파일들을 실행
-    # execute_sql_files_in_directory(company_path, "design", mysql)
-    # execute_sql_files_in_directory(company_path, "patent", mysql)
-    execute_sql_files_in_directory(company_path, "trademark", mysql)
-    # execute_sql_files_in_directory(university_path, "design", mysql)
-    # execute_sql_files_in_directory(university_path, "patent", mysql)
-    # execute_sql_files_in_directory(university_path, "trademark", mysql)
-
-    execute_sql_files_in_directory(company_path  + "/priority" , "priority_design", mysql)
-    # execute_sql_files_in_directory(company_path + "/ipc_cpc", "ipc_cpc", mysql)
-    # execute_sql_files_in_directory(company_path + "/priority", "priority_trademark", mysql)
-    # execute_sql_files_in_directory(university_path + "/priority", "priority_design", mysql)
-    # execute_sql_files_in_directory(university_path + "/ipc_cpc", "ipc_cpc", mysql)
-    # execute_sql_files_in_directory(university_path + "/priority", "priority_trademark", mysql)
+    if is_main:
+        execute_sql_files_in_directory(company_path, "design", mysql)
+        execute_sql_files_in_directory(company_path, "patent", mysql)
+        execute_sql_files_in_directory(company_path, "trademark", mysql)
+        execute_sql_files_in_directory(university_path, "design", mysql)
+        execute_sql_files_in_directory(university_path, "patent", mysql)
+        execute_sql_files_in_directory(university_path, "trademark", mysql)
+    else:
+        execute_sql_files_in_directory(company_path  + "/priority" , "priority_design", mysql)
+        execute_sql_files_in_directory(company_path + "/ipc_cpc", "ipc_cpc", mysql)
+        execute_sql_files_in_directory(company_path + "/priority", "priority_trademark", mysql)
+        execute_sql_files_in_directory(university_path + "/priority", "priority_design", mysql)
+        execute_sql_files_in_directory(university_path + "/ipc_cpc", "ipc_cpc", mysql)
+        execute_sql_files_in_directory(university_path + "/priority", "priority_trademark", mysql)
