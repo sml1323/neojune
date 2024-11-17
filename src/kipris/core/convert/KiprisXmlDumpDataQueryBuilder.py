@@ -214,5 +214,5 @@ class KiprisXmlDumpDataQueryBuilder():
         for idx, sql_content in enumerate(chunked_sql_files, start=1):
             filepath = os.path.join(directory, f"{filename}_{idx}.sql")
             with open(filepath, 'w', encoding='utf-8') as file:
-                file.write(sql_content)
+                file.write("\n".join(sql_content))
             print(f"Saved {filepath}")
