@@ -7,11 +7,6 @@ from src.test import test
 test.run()
 exit(0)
 
-####
-from src.test import test
-test.run()
-exit(0)
-
 
 # 각 모듈의 작업 함수 딕셔너리
 module_tasks = {

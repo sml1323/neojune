@@ -79,7 +79,7 @@ class KiprisXmlDumpDataQueryBuilder():
     def __get_sub_insert_info(self):
         columns = ", ".join(self.__get_mapper_dict())
         service_number = 10 if self.service_type == 'patent' else 20
-        return f"INSERT INTO kipris.TB24_3{service_number}_{self.org_type} ({columns}) \nSELECT"
+        return f"INSERT INTO kipris.TB24_3{service_number}_{self.org_type} ({columns}) \n VALUES"
 
     def append(self, data:KiprisDataCartridge):
         self.data.append(tuple(data.get_dict_with_properties().values()))
@@ -183,8 +183,7 @@ class KiprisXmlDumpDataQueryBuilder():
                     values.append(value)
 
                 value_tuple = f"({', '.join(values)})"
-                if j == self.chunk_size - 1 or (i + j + 1) == len(self.xml_to_dict_list):
-                        print("inin")
+                if j == self.chunk_size - 1 or (i + j + 1) == len(self.xml_to_dict_list) or sub_xml_to_dict == self.sub_dict_list[-1]:
                         chunk_data.append(f"{value_tuple}\n")
                         chunk_data.append(self.__get_upsert_sub_info())
                 else:
@@ -214,5 +213,5 @@ class KiprisXmlDumpDataQueryBuilder():
         for idx, sql_content in enumerate(chunked_sql_files, start=1):
             filepath = os.path.join(directory, f"{filename}_{idx}.sql")
             with open(filepath, 'w', encoding='utf-8') as file:
-                file.write("\n".join(sql_content))
+                file.write(sql_content)
             print(f"Saved {filepath}")
