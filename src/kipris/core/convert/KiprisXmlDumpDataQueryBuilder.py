@@ -181,7 +181,6 @@ class KiprisXmlDumpDataQueryBuilder():
                         if value is None:
                             break
                     values.append(value)
-
                 value_tuple = f"({', '.join(values)})"
                 if j == self.chunk_size - 1 or (i + j + 1) == len(self.xml_to_dict_list):
                         print("inin")
