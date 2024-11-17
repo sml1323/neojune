@@ -32,7 +32,7 @@ async def main(table_name="TB24_200", dir_path="xml/company"):
         else:
             university_logger = monitoring.setup_logger("university")
             university_logger.debug("TB24_210")
-            applicant_numbers = mysql.get_all_university_no_seq()
+            applicant_numbers = mysql.get_all_university_no_id()
             # applicant_numbers = mysql.get_limit_university_no_seq(5)
             # applicant_numbers = [[220050095099, 1]]
 

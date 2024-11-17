@@ -189,12 +189,12 @@ class Mysql:
             return result
         
 
-    def get_limit_university_no_seq(self, limit=1) -> list[list]:
+    def get_limit_university_no_id(self, limit=1) -> list[list]:
         # applicant_no, university_seq
         sql = f'SELECT applicant_no, applicant_id FROM TB24_210 LIMIT {limit}'
         return self.get_cursor_fetchall(sql)
 
-    def get_all_university_no_seq(self, is_dict = False) -> list[list]:
+    def get_all_university_no_id(self, is_dict = False) -> list[list]:
         sql = f'SELECT applicant_no, applicant_id FROM TB24_210;'
         result = self.get_cursor_fetchall(sql)
         if is_dict : 
