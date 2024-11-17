@@ -55,13 +55,13 @@ def run_company_patent():
 
     def action():
         query_builder = KiprisXmlDumpDataQueryBuilder(
-            table_name=TableName.TB24_COMPANY_DESIGN.value, 
+            table_name=TableName.TB24_UNIVERSITY_PATENT.value, 
             xml_filename=f'{COMPANY_XML_PATH}/{ApiType.PATENT.value}.xml',  # XML 파일 경로
             xml_to_dict_converter_class=KiprisPatentXmlToDictConverter
         )
         query_builder.save_file(ApiType.PATENT.value, COMPANY_SQL_PATH)
 
-    util.execute_with_time(f"{TableName.TB24_COMPANY_DESIGN}: {ApiType.PATENT.value}", action)
+    util.execute_with_time(f"{TableName.TB24_UNIVERSITY_PATENT}: {ApiType.PATENT.value}", action)
 
 def run_company_trademark():
     monitoring.setup_bin_logger(TableName.TB24_COMPANY_TRADEMARK, KiprisEntityType.COMPANY, ApiType.TRADEMARK)

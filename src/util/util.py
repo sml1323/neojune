@@ -99,7 +99,7 @@ def get_file(file_path):
     with open(file_path, "r") as file:
         return file.read()
     
-def send_slack_message(name, callback:callable, *callback_args):
+async def send_slack_message(name, callback:callable, *callback_args):
     def inner(message):
         webhook_url = 'https://hooks.slack.com/services/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'
         headers = {'Content-Type': 'application/json'}
@@ -116,6 +116,6 @@ def send_slack_message(name, callback:callable, *callback_args):
         # partial로 인자를 고정시킨 함수 생성
         inner( f"<!here> 사용 시작 : {name}")
         async_callback = partial(callback, *callback_args)
-        asyncio.run(async_callback())
+        await async_callback()
     finally:
         inner( f"<!here> 사용 완료 : {name}")
