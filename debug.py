@@ -1,6 +1,6 @@
 import asyncio
 from src.test import test
-from src.bin import save_to_xml, xml_to_sql, sql_to_db, dict_to_sql_sub
+from src.bin import save_to_xml, xml_to_sql, dict_to_sql_sub, sql_to_db
 
 
 
@@ -21,13 +21,6 @@ from src.bin import save_to_xml, xml_to_sql, sql_to_db, dict_to_sql_sub
 # xml_to_sql.run_university_trademark()
 
 
-# sql_to_db.run_company_design()
-# sql_to_db.run_company_patent()
-# sql_to_db.run_company_trademark()
-# sql_to_db.run_university_design()
-# sql_to_db.run_university_patent()
-# sql_to_db.run_university_trademark()
-
 
 # dict_to_sql_sub.run_company_design()
 # dict_to_sql_sub.run_company_patent()
@@ -35,3 +28,10 @@ from src.bin import save_to_xml, xml_to_sql, sql_to_db, dict_to_sql_sub
 # dict_to_sql_sub.run_university_design()
 # dict_to_sql_sub.run_university_patent()
 # dict_to_sql_sub.run_university_trademark()
+
+sql_to_db.run_company_design()
+sql_to_db.run_company_patent()
+sql_to_db.run_company_trademark()
+sql_to_db.run_university_design()
+sql_to_db.run_university_patent()
+sql_to_db.run_university_trademark()

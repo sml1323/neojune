@@ -119,3 +119,23 @@ async def send_slack_message(name, callback:callable, *callback_args):
         await async_callback()
     finally:
         inner( f"<!here> 사용 완료 : {name}")
+
+
+def execute_sql_files_in_directory(directory: str, prefix: str, mysql):
+    """
+    지정된 디렉토리에서 특정 접두사(prefix)를 가진 SQL 파일들을 순서대로 실행합니다.
+    """
+    # 디렉토리에서 해당 prefix로 시작하는 파일만 필터링하고 정렬
+    sql_files = []
+
+    for f in os.listdir(directory):
+        # 파일 이름이 특정 prefix로 시작하고 .sql로 끝나면 추가
+        if f.startswith(prefix) and f.endswith(".sql"):
+            sql_files.append(f)
+
+    # 각 파일을 SQL로 실행
+    for sql_file in sql_files:
+        sql_file_path = os.path.join(directory, sql_file)
+        print(sql_file_path)
+        mysql.execute_sql_file(sql_file_path)
+        print(f"Executed {sql_file_path}")
