@@ -1,4 +1,4 @@
--- Active: 1731490907969@@localhost@3306@kipris
+-- Active: 1731326975902@@kt2.elementsoft.biz@13306@kipris
 -- 기업정보
 
 CREATE TABLE TB24_100 (
@@ -228,6 +228,9 @@ CREATE TABLE TB24_320_company (
     CHECK (ipr_type IN ('design', 'trademark'))
 );
 
+ALTER TABLE TB24_320_company
+ADD UNIQUE (ipr_seq, ipr_type, priority_no);
+
 -- 대학 우선권 테이블
 CREATE TABLE TB24_320_university (
     priority_seq INT AUTO_INCREMENT PRIMARY KEY,
@@ -239,6 +242,9 @@ CREATE TABLE TB24_320_university (
     FOREIGN KEY (ipr_seq) REFERENCES TB24_university_design(ipr_seq) ON DELETE CASCADE,
     CHECK (ipr_type IN ('design', 'trademark'))
 );
+
+ALTER TABLE TB24_320_university
+ADD UNIQUE (ipr_seq, ipr_type, priority_no);
 
 -- 기업 특실 테이블 인덱싱 추가(appl_no, applicant_id)
 ALTER TABLE TB24_company_patent
