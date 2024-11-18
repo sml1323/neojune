@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<response>
+	<header>
+		<resultCode></resultCode>
+		<resultMsg></resultMsg>
+	</header>
+	<body>
+		<items>
+			<totalCount>3</totalCount>
+			<DesignInfo>
+				<number>1</number>
+				<applicationNumber>3020140043603</applicationNumber>
+				<applicationDate>20140905</applicationDate>
+				<appReferenceNumber></appReferenceNumber>
+				<publicationNumber></publicationNumber>
+				<publicationDate>20150114</publicationDate>
+				<registrationDate>20150106</registrationDate>
+				<registrationNumber>3007793720000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber></regReferenceNumber>
+				<priorityNumber></priorityNumber>
+				<priorityDate></priorityDate>
+				<internationalRegisterNumber></internationalRegisterNumber>
+				<internationalRegisterDate></internationalRegisterDate>
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>(주)마린바이오프로세스|동명대학교산학협력단</applicantName>
+				<agentName>정남진</agentName>
+				<fullText>Y</fullText>
+				<inventorName>박진한|이배진</inventorName>
+				<articleName>포장용 라벨</articleName>
+				<openNumber></openNumber>
+				<openDate></openDate>
+				<designMainClassification>F420A</designMainClassification>
+				<dsShpClssCd>F420A</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb053fb9cc4c9d4d38e3410d8eb4ac8fc6db6ba437d14d5ed739d1d94396eef3e1ead9dd5760f13c31484fcb7b85e3e13ff</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa54f2e8013196102b3be252a385966e4a26960d102f144f00ff6693752aeee6db97368a8ba631eedba743e848d29ba8844</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>2</number>
+				<applicationNumber>3020150067263</applicationNumber>
+				<applicationDate>20151230</applicationDate>
+				<appReferenceNumber></appReferenceNumber>
+				<publicationNumber></publicationNumber>
+				<publicationDate>20160422</publicationDate>
+				<registrationDate>20160418</registrationDate>
+				<registrationNumber>3008507320000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber></regReferenceNumber>
+				<priorityNumber></priorityNumber>
+				<priorityDate></priorityDate>
+				<internationalRegisterNumber></internationalRegisterNumber>
+				<internationalRegisterDate></internationalRegisterDate>
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>(주)마린바이오프로세스</applicantName>
+				<agentName>정남진</agentName>
+				<fullText>Y</fullText>
+				<inventorName>이배진</inventorName>
+				<articleName>포장용 라벨</articleName>
+				<openNumber></openNumber>
+				<openDate></openDate>
+				<designMainClassification>F420B</designMainClassification>
+				<dsShpClssCd>F420B</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0df4981315be9f7f805ee9a9d21b5b657c90fdeed83a60b95ca39438eed7b33ed5296ad78ec972999d564826a5ada67d2</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa562dc423e3230242faff5c9500db4430d84b48130cdcced618f45664d1171fe5e53567fabda99561d97c3e021d3f00690</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>3</number>
+				<applicationNumber>3020150067271</applicationNumber>
+				<applicationDate>20151230</applicationDate>
+				<appReferenceNumber></appReferenceNumber>
+				<publicationNumber></publicationNumber>
+				<publicationDate>20160422</publicationDate>
+				<registrationDate>20160418</registrationDate>
+				<registrationNumber>3008507330000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber></regReferenceNumber>
+				<priorityNumber></priorityNumber>
+				<priorityDate></priorityDate>
+				<internationalRegisterNumber></internationalRegisterNumber>
+				<internationalRegisterDate></internationalRegisterDate>
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>(주)마린바이오프로세스</applicantName>
+				<agentName>정남진</agentName>
+				<fullText>Y</fullText>
+				<inventorName>이배진</inventorName>
+				<articleName>포장용 라벨</articleName>
+				<openNumber></openNumber>
+				<openDate></openDate>
+				<designMainClassification>F420B</designMainClassification>
+				<dsShpClssCd>F420B</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0df4981315be9f7f805ee9a9d21b5b657c90fdeed83a60b95ca39438eed7b33edfd33d9ab78371ba8cbc996d4a210eb4a</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa562dc423e3230242faff5c9500db4430d84b48130cdcced618f45664d1171fe5edfe093a10549aa744c6a7960d8525a51</imagePathLarge>
+			</DesignInfo>
+		</items>
+	</body>
+</response>

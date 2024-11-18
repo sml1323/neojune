@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<response>
+	<header>
+		<resultCode></resultCode>
+		<resultMsg></resultMsg>
+	</header>
+	<body>
+		<items>
+			<totalCount>1</totalCount>
+			<DesignInfo>
+				<number>1</number>
+				<applicationNumber>3020210059920</applicationNumber>
+				<applicationDate>20211213</applicationDate>
+				<appReferenceNumber></appReferenceNumber>
+				<publicationNumber></publicationNumber>
+				<publicationDate>20230612</publicationDate>
+				<registrationDate>20230607</registrationDate>
+				<registrationNumber>3012195630000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber></regReferenceNumber>
+				<priorityNumber></priorityNumber>
+				<priorityDate></priorityDate>
+				<internationalRegisterNumber></internationalRegisterNumber>
+				<internationalRegisterDate></internationalRegisterDate>
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>주식회사 윈텍오토메이션</applicantName>
+				<agentName>특허법인 인터브레인</agentName>
+				<fullText>Y</fullText>
+				<inventorName>송일재|이태준|조윤명</inventorName>
+				<articleName>화면디자인이 표시된 디스플레이 패널</articleName>
+				<openNumber></openNumber>
+				<openDate></openDate>
+				<designMainClassification></designMainClassification>
+				<dsShpClssCd></dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0b228270ca6f54a89237e3c7cd281933b6456251defe132cd7b6cbf6073e0396f7eeb25c0b252168c2399965a1ad4dfa8</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa5283d825549883ef39ae91b7fadf0bab87c8f24aeb5ff5961abb528feae2cfb62b06683a30e3d16f52ec6f32b68a145cc</imagePathLarge>
+			</DesignInfo>
+		</items>
+	</body>
+</response>

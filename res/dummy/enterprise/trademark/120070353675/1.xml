@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<response>
+	<header>
+		<resultCode></resultCode>
+		<resultMsg></resultMsg>
+	</header>
+	<body>
+		<items>
+			<TotalSearchCount>23</TotalSearchCount>
+			<TradeMarkInfo>
+				<SerialNumber>1</SerialNumber>
+				<ApplicationNumber>4020150074346</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20151008</ApplicationDate>
+				<PublicNumber>4020160031504</PublicNumber>
+				<PublicDate>20160324</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4011912190000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20160719</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>포기</ApplicationStatus>
+				<GoodClassificationCode>31</GoodClassificationCode>
+				<ViennaCode>020116|020123|020133|260418</ViennaCode>
+				<ApplicantName>(주)마린바이오프로세스</ApplicantName>
+				<AgentName>정인규</AgentName>
+				<RegistrationRightholderName>(주)마린바이오프로세스 MARINE BIOPROCESS CO, LTD</RegistrationRightholderName>
+				<Title>40 Maheune Master Health with Maheune</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a9134459b0ed09a289f73720f19f59c19681d0f0788e5d568a29a93ccab5b348381f51</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e298cd4f29188d8481681e209741e4c16b19e2be2ba5f761175424c09bc259f4c45</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>2</SerialNumber>
+				<ApplicationNumber>4020150074342</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20151008</ApplicationDate>
+				<PublicNumber>4020160031503</PublicNumber>
+				<PublicDate>20160324</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4011912180000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20160719</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>포기</ApplicationStatus>
+				<GoodClassificationCode>29</GoodClassificationCode>
+				<ViennaCode>020116|020123|020133|260418</ViennaCode>
+				<ApplicantName>(주)마린바이오프로세스</ApplicantName>
+				<AgentName>정인규</AgentName>
+				<RegistrationRightholderName>(주)마린바이오프로세스 MARINE BIOPROCESS CO, LTD</RegistrationRightholderName>
+				<Title>40 Maheune Master Health with Maheune</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a9134459b0ed09a289f73720f19f59c19681d0f0788e5d568a29a9d26219b7c14fef3d</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e298cd4f29188d8481681e209741e4c16b19e2be2ba5f761175785b2cb53f687397</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>3</SerialNumber>
+				<ApplicationNumber>4020230146794</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20230814</ApplicationDate>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>출원</ApplicationStatus>
+				<GoodClassificationCode>30</GoodClassificationCode>
+				<ViennaCode>020901|260218</ViennaCode>
+				<ApplicantName>(주)마린바이오프로세스</ApplicantName>
+				<AgentName>곽철근</AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title>LACTO GABA SALT</Title>
+				<FulltextExistFlag>N</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913440be47db3b03c4b7399cf8cbc9e8195efd4f67227fae4b67d0f641bafa019dc8028ffdbec7c9ccf47</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2991ba5d9d09407d4bc1f2dc2ef835975fa87834da9ba67a63111f53eec5bba001764d72c837e85878</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>4</SerialNumber>
+				<ApplicationNumber>4020220047430</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20220315</ApplicationDate>
+				<PublicNumber>4020230112203</PublicNumber>
+				<PublicDate>20230622</PublicDate>
+				<RegistrationPublicNumber>4020230150515</RegistrationPublicNumber>
+				<RegistrationPublicDate>20231101</RegistrationPublicDate>
+				<RegistrationNumber>4021031550000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20231026</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>05</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>(주)마린바이오프로세스</ApplicantName>
+				<AgentName>특허법인 플러스</AgentName>
+				<RegistrationRightholderName>(주)마린바이오프로세스 MARINE BIOPROCESS CO, LTD</RegistrationRightholderName>
+				<Title>가바라겐 GABALAGEN</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913442817c88e040e84f7498bbea5fc79f9bd0453c022b1ea51a111f1ade6ace16e2c90d9779ff622f442</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2942dee2feafab2a095a7420319d90097754c50e9c9c7447bce6371334ca3f067d946922811e815181</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>5</SerialNumber>
+				<ApplicationNumber>4020210249496</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20211208</ApplicationDate>
+				<PublicNumber>4020230106081</PublicNumber>
+				<PublicDate>20230613</PublicDate>
+				<RegistrationPublicNumber>4020230150325</RegistrationPublicNumber>
+				<RegistrationPublicDate>20231101</RegistrationPublicDate>
+				<RegistrationNumber>4021031310000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20231026</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>29</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>(주)마린바이오프로세스</ApplicantName>
+				<AgentName>특허법인 플러스</AgentName>
+				<RegistrationRightholderName>(주)마린바이오프로세스 MARINE BIOPROCESS CO, LTD</RegistrationRightholderName>
+				<Title>가바라겐 GABALAGEN</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ae7b1568aff8c7673ad6d1f8b8edd7b623bbb18f95412426985824faba5717bffd02eb6083528da3</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2940f80548c1358af3a5151721ed3799bac127fc8e834453d1b5a14ed8417a439f4dc71ad2e15c502c</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>6</SerialNumber>
+				<ApplicationNumber>4020210249499</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20211208</ApplicationDate>
+				<PublicNumber>4020230106082</PublicNumber>
+				<PublicDate>20230613</PublicDate>
+				<RegistrationPublicNumber>4020230150326</RegistrationPublicNumber>
+				<RegistrationPublicDate>20231101</RegistrationPublicDate>
+				<RegistrationNumber>4021031430000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20231026</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>30</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>(주)마린바이오프로세스</ApplicantName>
+				<AgentName>특허법인 플러스</AgentName>
+				<RegistrationRightholderName>(주)마린바이오프로세스 MARINE BIOPROCESS CO, LTD</RegistrationRightholderName>
+				<Title>가바라겐 GABALAGEN</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ae7b1568aff8c7673ad6d1f8b8edd7b623bbb18f9541242623be34a16759ca8da759479f137cc044</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2940f80548c1358af3a5151721ed3799bac127fc8e834453d1a0139233a8490aab35cabe8b716caa6f</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>7</SerialNumber>
+				<ApplicationNumber>4020210249497</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20211208</ApplicationDate>
+				<PublicNumber>4020230076974</PublicNumber>
+				<PublicDate>20230502</PublicDate>
+				<RegistrationPublicNumber>4020230124775</RegistrationPublicNumber>
+				<RegistrationPublicDate>20230908</RegistrationPublicDate>
+				<RegistrationNumber>4020782120000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20230905</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>03</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>(주)마린바이오프로세스</ApplicantName>
+				<AgentName>특허법인 플러스</AgentName>
+				<RegistrationRightholderName>(주)마린바이오프로세스 MARINE BIOPROCESS CO, LTD</RegistrationRightholderName>
+				<Title>가바라겐 GABALAGEN</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ae7b1568aff8c7673ad6d1f8b8edd7b623bbb18f954124263d0a7b614bf2543c864fb8080d814b4b</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2940f80548c1358af3a5151721ed3799bac127fc8e834453d1aa75e4febd5dd1c75029986e8c1477f2</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>8</SerialNumber>
+				<ApplicationNumber>4020210249500</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20211208</ApplicationDate>
+				<PublicNumber>4020230076975</PublicNumber>
+				<PublicDate>20230502</PublicDate>
+				<RegistrationPublicNumber>4020230124776</RegistrationPublicNumber>
+				<RegistrationPublicDate>20230908</RegistrationPublicDate>
+				<RegistrationNumber>4020782060000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20230905</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>32</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>(주)마린바이오프로세스</ApplicantName>
+				<AgentName>특허법인 플러스</AgentName>
+				<RegistrationRightholderName>(주)마린바이오프로세스 MARINE BIOPROCESS CO, LTD</RegistrationRightholderName>
+				<Title>가바라겐 GABALAGEN</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344ae7b1568aff8c7673ad6d1f8b8edd7b60350b5f177387a60e347507beb8dec09daa00a44551c26d9</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2940f80548c1358af3a5151721ed3799ba71703ba2d2e395e059f7273f29f2bed2a869c83865343f72</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>9</SerialNumber>
+				<ApplicationNumber>4020120047815</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20120726</ApplicationDate>
+				<PublicNumber>4020130070298</PublicNumber>
+				<PublicDate>20130718</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4010100070000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20131129</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>29</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>(주)마린바이오프로세스</ApplicantName>
+				<AgentName></AgentName>
+				<RegistrationRightholderName>(주)마린바이오프로세스 MARINE BIOPROCESS CO, LTD</RegistrationRightholderName>
+				<Title>프롬씨 Blue bodyguard Natural source from sea</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344bb3a21d1402d2ea4468c2aee7269b3091b4b71401c47181fc240b0cd6b309a8f</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3cbcae00bd7eb6ab6170b51833368e026d4a0d8daf8a735c890f2944a1f642d15</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>10</SerialNumber>
+				<ApplicationNumber>4020120047837</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20120726</ApplicationDate>
+				<PublicNumber>4020130070591</PublicNumber>
+				<PublicDate>20130719</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4010100060000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20131129</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>29</GoodClassificationCode>
+				<ViennaCode>261113|270508|270918</ViennaCode>
+				<ApplicantName>(주)마린바이오프로세스</ApplicantName>
+				<AgentName></AgentName>
+				<RegistrationRightholderName>(주)마린바이오프로세스 MARINE BIOPROCESS CO, LTD</RegistrationRightholderName>
+				<Title>Blue bodyguard From sea Natural source from sea</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344bb3a21d1402d2ea4468c2aee7269b309bd53f1a0b311dac43a1413ee168b9976</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3cbcae00bd7eb6ab6170b51833368e02648fcfba3085e8fd86ea14f189ed121f4</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>11</SerialNumber>
+				<ApplicationNumber>4020160092627</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20161101</ApplicationDate>
+				<PublicNumber>4020170015622</PublicNumber>
+				<PublicDate>20170213</PublicDate>
+				<RegistrationPublicNumber>4020170047418</RegistrationPublicNumber>
+				<RegistrationPublicDate>20170519</RegistrationPublicDate>
+				<RegistrationNumber>4012525350000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20170515</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>포기</ApplicationStatus>
+				<GoodClassificationCode>30</GoodClassificationCode>
+				<ViennaCode>011315|260106|260118</ViennaCode>
+				<ApplicantName>(주)마린바이오프로세스</ApplicantName>
+				<AgentName>정인규</AgentName>
+				<RegistrationRightholderName>(주)마린바이오프로세스 MARINE BIOPROCESS CO, LTD</RegistrationRightholderName>
+				<Title>the 바름</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a9134423c9c66155bdee31a2a1787b2d7182ad86afd2a235c2289f9e7f1ae7cbb893f7b83c8f2dd589df1e</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29d6c998e272153d946de7e2de6a53ff870263ee7a955f7b719d4948269c3a8a705da932bcf69e5c16</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>12</SerialNumber>
+				<ApplicationNumber>4020100047299</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20100908</ApplicationDate>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>거절</ApplicationStatus>
+				<GoodClassificationCode>29</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>(주)마린바이오프로세스</ApplicantName>
+				<AgentName></AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title>My healthy GABA life MARINE GABA</Title>
+				<FulltextExistFlag>N</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344cf8870737f2162b32da06491486bf491674f8b96f9172869a42f788d8ee53cdc</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3e1ea140b20ab05b316080f3cbcf7cc12bf31ceee28d3ceffe1084bb19d01bdd4</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>13</SerialNumber>
+				<ApplicationNumber>4020100031825</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20100617</ApplicationDate>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>거절</ApplicationStatus>
+				<GoodClassificationCode>29</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>(주)마린바이오프로세스</ApplicantName>
+				<AgentName></AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title>The Birth of a dream GABAX</Title>
+				<FulltextExistFlag>N</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344cf8870737f2162b3c2ad98b1359df2d2707b63b7668517f2d07bfc51e45015db</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3e1ea140b20ab05b3f9488fd1e007c87c070400cc4f863b13dbf98595edd9945e</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>14</SerialNumber>
+				<ApplicationNumber>4020140078013</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20141119</ApplicationDate>
+				<PublicNumber>4020150054237</PublicNumber>
+				<PublicDate>20150602</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>포기</ApplicationStatus>
+				<GoodClassificationCode>32</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>(주)마린바이오프로세스</ApplicantName>
+				<AgentName>김종대</AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title>간큰남자</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344d701f7321e3ef6f1ca1a515d29b008c3593efc6ab79f3671235b6b798be01087</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29d1c341920cf3d7b375fb786f28d4cd171177df6159417e40880d546266f857c7</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>15</SerialNumber>
+				<ApplicationNumber>4020130070715</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20131025</ApplicationDate>
+				<PublicNumber>4020140063036</PublicNumber>
+				<PublicDate>20140711</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4010704130000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20141118</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>29|32</GoodClassificationCode>
+				<ViennaCode>011515|270510</ViennaCode>
+				<ApplicantName>(주)마린바이오프로세스</ApplicantName>
+				<AgentName>김성현</AgentName>
+				<RegistrationRightholderName>(주)마린바이오프로세스 MARINE BIOPROCESS CO, LTD</RegistrationRightholderName>
+				<Title>Blue Bodyguard from sea Natural Source From sea</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913440188dd3bba0303bc94aee530ee8277716ce113f065264049bbe16e125aa61f9d</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2924c343926e950a78140799ca7fd9abcc08cf9e73bda57aa2919e80e732432f87</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>16</SerialNumber>
+				<ApplicationNumber>4020130053151</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20130807</ApplicationDate>
+				<PublicNumber>4020140025512</PublicNumber>
+				<PublicDate>20140320</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>포기</ApplicationStatus>
+				<GoodClassificationCode>29|32</GoodClassificationCode>
+				<ViennaCode>261301|270510|270512</ViennaCode>
+				<ApplicantName>(주)마린바이오프로세스</ApplicantName>
+				<AgentName>김성현</AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title>간편안 인생 안</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913440188dd3bba0303bc5bfe986f8587a60fac4dff4bcf2bd01a7fa374063468550b</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2924c343926e950a787c2b81f53f0d30a6605eaefce104448ac2cb1334455f8ddb</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>17</SerialNumber>
+				<ApplicationNumber>4020130053149</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20130807</ApplicationDate>
+				<PublicNumber>4020140025511</PublicNumber>
+				<PublicDate>20140320</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>포기</ApplicationStatus>
+				<GoodClassificationCode>29|32</GoodClassificationCode>
+				<ViennaCode>261301|270510|270512</ViennaCode>
+				<ApplicantName>(주)마린바이오프로세스</ApplicantName>
+				<AgentName>김성현</AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title>속편안 인생 안</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913440188dd3bba0303bc5bfe986f8587a60f9ee5c86cddfa196e86929af67afb5a58</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2924c343926e950a787c2b81f53f0d30a6dfe3c9b24c56cba5cca447a609790891</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>18</SerialNumber>
+				<ApplicationNumber>4020120047865</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20120726</ApplicationDate>
+				<PublicNumber>4020130054997</PublicNumber>
+				<PublicDate>20130603</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>포기</ApplicationStatus>
+				<GoodClassificationCode>32</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>(주)마린바이오프로세스</ApplicantName>
+				<AgentName></AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title>간큰여자</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344bb3a21d1402d2ea4468c2aee7269b3093c44c016920e2bfaa35dd0c0ca1077d9</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3cbcae00bd7eb6ab6170b51833368e0260bfb76d0d7a3d401efb733914fefcad8</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>19</SerialNumber>
+				<ApplicationNumber>4020140059883</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20140905</ApplicationDate>
+				<PublicNumber>4020150023090</PublicNumber>
+				<PublicDate>20150309</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber>4011094300000</RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate>20150602</RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>등록</ApplicationStatus>
+				<GoodClassificationCode>30</GoodClassificationCode>
+				<ViennaCode>241507|270914</ViennaCode>
+				<ApplicantName>동명대학교산학협력단|(주)마린바이오프로세스</ApplicantName>
+				<AgentName>정남진</AgentName>
+				<RegistrationRightholderName>동명대학교산학협력단|(주)마린바이오프로세스</RegistrationRightholderName>
+				<Title>DE:Na SALT</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344d701f7321e3ef6f1bd0d94a9edd7132c2e8e3d899288a28fe8c21fe3e673d56d</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e29d1c341920cf3d7b3cf4a74fe943399f6210d7bca17cfca23a826ad9e598d8faa</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>20</SerialNumber>
+				<ApplicationNumber>4020180173154</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20181210</ApplicationDate>
+				<PublicNumber>4020190053377</PublicNumber>
+				<PublicDate>20190516</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>포기</ApplicationStatus>
+				<GoodClassificationCode>30</GoodClassificationCode>
+				<ViennaCode>020901|261111|261122|270511</ViennaCode>
+				<ApplicantName>(주)마린바이오프로세스</ApplicantName>
+				<AgentName>정인규</AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title>GABA SALT</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913445013eac76f09a84619585f8aa8604c9b61a6a930ae504cbe904bc0791f24e89f9bf3ba83652e234c</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e293228145e2e03ea1416b39d0d3691739dd11d5549c7e0db9324321d097915db7e839d838c67859ae8</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>21</SerialNumber>
+				<ApplicationNumber>4020130070713</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20131025</ApplicationDate>
+				<PublicNumber>4020140097200</PublicNumber>
+				<PublicDate>20141017</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>포기</ApplicationStatus>
+				<GoodClassificationCode>29</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>(주)마린바이오프로세스</ApplicantName>
+				<AgentName>김성현</AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title>프롬씨 Joint플러스</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a913440188dd3bba0303bc94aee530ee8277716ce113f06526404911dc6513464c7063</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4ea4b5e22ef00dd3e2924c343926e950a78140799ca7fd9abcc08cf9e73bda57aa24c46044af62b2e51</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>22</SerialNumber>
+				<ApplicationNumber>4020120047862</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20120726</ApplicationDate>
+				<PublicNumber>4020130055648</PublicNumber>
+				<PublicDate>20130604</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>포기</ApplicationStatus>
+				<GoodClassificationCode>32</GoodClassificationCode>
+				<ViennaCode></ViennaCode>
+				<ApplicantName>(주)마린바이오프로세스</ApplicantName>
+				<AgentName></AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title>간큰남자</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344bb3a21d1402d2ea4468c2aee7269b3093c44c016920e2bfa4e50b3b5be72ef39</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3cbcae00bd7eb6ab6170b51833368e0260bfb76d0d7a3d40184db20be7c04517e</ThumbnailPath>
+			</TradeMarkInfo>
+			<TradeMarkInfo>
+				<SerialNumber>23</SerialNumber>
+				<ApplicationNumber>4020110061032</ApplicationNumber>
+				<AppReferenceNumber> </AppReferenceNumber>
+				<ApplicationDate>20111104</ApplicationDate>
+				<PublicNumber>4020120056153</PublicNumber>
+				<PublicDate>20120827</PublicDate>
+				<RegistrationPublicNumber></RegistrationPublicNumber>
+				<RegistrationPublicDate></RegistrationPublicDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegReferenceNumber> </RegReferenceNumber>
+				<RegistrationDate></RegistrationDate>
+				<PriorityClaimNumber></PriorityClaimNumber>
+				<PriorityClaimDate></PriorityClaimDate>
+				<InternationalRegisterNumber> </InternationalRegisterNumber>
+				<InternationalRegisterDate> </InternationalRegisterDate>
+				<ApplicationStatus>포기</ApplicationStatus>
+				<GoodClassificationCode>31</GoodClassificationCode>
+				<ViennaCode>030106|030124|270303</ViennaCode>
+				<ApplicantName>(주)마린바이오프로세스</ApplicantName>
+				<AgentName></AgentName>
+				<RegistrationRightholderName></RegistrationRightholderName>
+				<Title>왈츠 추는 냥이 dancing with the cats</Title>
+				<FulltextExistFlag>Y</FulltextExistFlag>
+				<ImagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e251697a9d72a91344c277180fa3e708dac2815749409ac632ae309b76b928201f565f602b81c89c27</ImagePath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998fe897a23675ce4c3d181b4c11d96fd3ecf507446ad26088408cd44e4e0aa98cc2de9c0a5b93f461a</ThumbnailPath>
+			</TradeMarkInfo>
+		</items>
+	</body>
+</response>

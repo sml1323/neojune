@@ -1,0 +1,8 @@
+.vscode
+.env
+__pycache__
+*.xlsx
+res/output
+res/log/*
+combined_file.md
+temp

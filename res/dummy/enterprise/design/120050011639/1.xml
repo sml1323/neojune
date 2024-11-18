@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<response>
+	<header>
+		<resultCode></resultCode>
+		<resultMsg></resultMsg>
+	</header>
+	<body>
+		<items>
+			<totalCount>4</totalCount>
+			<DesignInfo>
+				<number>1</number>
+				<applicationNumber>3020100000947</applicationNumber>
+				<applicationDate>20100111</applicationDate>
+				<appReferenceNumber></appReferenceNumber>
+				<publicationNumber></publicationNumber>
+				<publicationDate>20110616</publicationDate>
+				<registrationDate>20110607</registrationDate>
+				<registrationNumber>3006018650000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber></regReferenceNumber>
+				<priorityNumber></priorityNumber>
+				<priorityDate></priorityDate>
+				<internationalRegisterNumber></internationalRegisterNumber>
+				<internationalRegisterDate></internationalRegisterDate>
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>아쿠아셀 주식회사</applicantName>
+				<agentName>김덕태</agentName>
+				<fullText>Y</fullText>
+				<inventorName>김경희|최대용</inventorName>
+				<articleName>전해살균수 생성기</articleName>
+				<openNumber></openNumber>
+				<openDate></openDate>
+				<designMainClassification>K640</designMainClassification>
+				<dsShpClssCd>K640</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb09f9f95d98678f58488450a0541b95b345da61cb8433a7a551017f600a9071e40ad6526a63ba932aacc73a1a9530b2f25</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a4389985e80c60c4d1f1776e22dd2cab4bc545a7e061173df7019952c4151b48392c1542254a342a0330c0a876c688f8f604c786f78ba933dc26df3</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>2</number>
+				<applicationNumber>3020100001581</applicationNumber>
+				<applicationDate>20100114</applicationDate>
+				<appReferenceNumber></appReferenceNumber>
+				<publicationNumber></publicationNumber>
+				<publicationDate>20110318</publicationDate>
+				<registrationDate>20110308</registrationDate>
+				<registrationNumber>3005922310000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber></regReferenceNumber>
+				<priorityNumber></priorityNumber>
+				<priorityDate></priorityDate>
+				<internationalRegisterNumber></internationalRegisterNumber>
+				<internationalRegisterDate></internationalRegisterDate>
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>아쿠아셀 주식회사</applicantName>
+				<agentName>김덕태</agentName>
+				<fullText>Y</fullText>
+				<inventorName>김경희|최대용</inventorName>
+				<articleName>손 세정기</articleName>
+				<openNumber></openNumber>
+				<openDate></openDate>
+				<designMainClassification>C427</designMainClassification>
+				<dsShpClssCd>C427</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb06744c4ac7c1193b983c1d501581cfd4dea0d78033d8185e7873c99beb911416f0591dc7894af093489c2ad04aec200f8</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a4389985e80c60c4d1f17767f6a3e841f0e31a7814b324328ab5be518df9e6ed01207fc0de30093531bbf517d5e01d5facb64d4ad9095c4cac2e8d9</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>3</number>
+				<applicationNumber>3020130007995</applicationNumber>
+				<applicationDate>20130215</applicationDate>
+				<appReferenceNumber></appReferenceNumber>
+				<publicationNumber></publicationNumber>
+				<publicationDate>20140107</publicationDate>
+				<registrationDate>20131230</registrationDate>
+				<registrationNumber>3007236540000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber></regReferenceNumber>
+				<priorityNumber></priorityNumber>
+				<priorityDate></priorityDate>
+				<internationalRegisterNumber></internationalRegisterNumber>
+				<internationalRegisterDate></internationalRegisterDate>
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>아쿠아셀 주식회사</applicantName>
+				<agentName>정남진</agentName>
+				<fullText>Y</fullText>
+				<inventorName>김경희</inventorName>
+				<articleName>교반기용 허브</articleName>
+				<openNumber></openNumber>
+				<openDate></openDate>
+				<designMainClassification>K629</designMainClassification>
+				<dsShpClssCd>K629</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0a8c2a7559a72615d53958bc6bdf022e93d209926f6ddcb9cfb02dff4a13e6d087814df78aefe0ea9688498c2817d7adf</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa5a5cb09671a005e62aca0aaf2c4054a4958836bedcbbb6afd38f6e24adb1e61757ad92ff4c10b944c8890b66d6966023c</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>4</number>
+				<applicationNumber>3020060042204</applicationNumber>
+				<applicationDate>20061020</applicationDate>
+				<appReferenceNumber></appReferenceNumber>
+				<publicationNumber></publicationNumber>
+				<publicationDate>20070712</publicationDate>
+				<registrationDate>20070705</registrationDate>
+				<registrationNumber>3004558050000</registrationNumber>
+				<designNumber>M01</designNumber>
+				<regReferenceNumber></regReferenceNumber>
+				<priorityNumber></priorityNumber>
+				<priorityDate></priorityDate>
+				<internationalRegisterNumber></internationalRegisterNumber>
+				<internationalRegisterDate></internationalRegisterDate>
+				<applicationStatus>소멸</applicationStatus>
+				<applicantName>아쿠아셀 주식회사</applicantName>
+				<agentName>김덕태</agentName>
+				<fullText>Y</fullText>
+				<inventorName>김경희</inventorName>
+				<articleName>골프 퍼팅 연습용 표적구</articleName>
+				<openNumber></openNumber>
+				<openDate></openDate>
+				<designMainClassification>E3351</designMainClassification>
+				<dsShpClssCd>E3351</dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e23e18cb3e5c813974af14fca22beb19cb0ae5f6d3fa9c5d3376bed75bda119d177bab3fb491b00583d2ffddd887504900</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=75a63eed5a438998f9dc3380f5cb642c7fe8cc667cb7fa0314d16d6b525738a2df8c98713dd00f5aa3244a723be968d4dee54770495644ab</imagePathLarge>
+			</DesignInfo>
+		</items>
+	</body>
+</response>

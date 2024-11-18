@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<response>
+	<header>
+		<resultCode></resultCode>
+		<resultMsg></resultMsg>
+	</header>
+	<body>
+		<items>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 이노디스</Applicant>
+				<ApplicationDate>20131014</ApplicationDate>
+				<ApplicationNumber>1020130121923</ApplicationNumber>
+				<Abstract>본 발명은 한 쌍의 벨로우즈를 구비하여 교호로 약액을 펌핑하여 이송하되, 정확한 동작으로 정량의 유체가 이송되도록 하며, 이송량을 산출하여 고장 여부 및 이물질에 의한 관체의 막힘 등을 판단할 수 있는 것으로, 내부를 구획하여 제1, 2공기실을 마련하고, 이들 공기실 사이에 공간이 마련되며, 아울러 공간의 상부에 기계실이 형성된 케이싱; 상기 제1, 2공기실 각각에 설치되며, 공기실에 주입된 공기압에 의해 수축하고, 공급되는 약액에 의해 팽창하는 제1, 2벨로우즈; 상기 제1, 2벨로우즈 각각에 연통하며, 약액 유입 경로와 배출 경로를 구비하여 약액의 이송을 안내하는 제 1, 2 이동 안내 블록; 상기 제1, 2 이동 안내 블록에 설치되며, 교호로 유입 경로와 배출 경로를 폐쇄 또는 개방하는 체크 밸브; 상기 기계실에 장착되고, 제1공기실과 제2공기실 각각에 공기를 주입하는 제1, 2피스톤 밸브; 를 포함하며, 약액을 유입시키는 약액 인입관의 선단 및 후단 각각에 상기 제1, 2이동 안내블록의 유입 경로와 연결되는 유입 밸브를 구비하고, 상기 제1, 2이동 안내 블록의 각 배출 경로와 연결되는 배출 밸브를 구비하되, 이 배출 밸브는 배출 연결관의 선, 후단에 위치하는 관체; 상기 제1, 2이동 안내 블록의 각 유입 경로와 배출 경로 각각에 유량 센서를 구비하고, 이 유량 센서에 입력된 측정값과 마이...(이하생략)</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00aa94054e7c59d7d6437c2f07eee2b0b26127d92f60dec26cf4978fef11cd6ad3befd0e5a2bc67179b86834a1d37726a5572cac7e8f2a3dab</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf20c1610a27d97b1ca762dc7ffed21a832f8f9ea2d352c0da2dca67f49e5c083d153c7d7c6238625bcb141b0e2f427b9c38c0ab647045b581</ThumbnailPath>
+				<SerialNumber>1</SerialNumber>
+				<InventionName>벨로우즈 펌프</InventionName>
+				<InternationalpatentclassificationNumber>F04B 43/08|F04B 9/135|F04B 45/02|F04B 53/16</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20141230</PublicDate>
+				<RegistrationDate>20141222</RegistrationDate>
+				<RegistrationNumber>1014769820000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 이노디스</Applicant>
+				<ApplicationDate>20180621</ApplicationDate>
+				<ApplicationNumber>1020180071221</ApplicationNumber>
+				<Abstract>본 발명은 유체의 관로 사이에 설치되는 밸브에 적용되어 밸브의 유체 흐름을 제어할 수 있도록 하는 밸브용 다이어프램 및 그 제조방법에 관한 것이다.  이와 같은 목적을 해결하기 위해 본 발명은; 바디(11)에 유체의 유입구(12) 및 유입된 유체가 배출되는 배출구(13)가 형성된 상태에서 상기 유입구(12)와 배출구(13) 사이로 유체통로(14)가 형성되는 바디 부재(10); 상기 유체통로(14)의 통과 유량을 제어하는 피스톤 부재(20);로 구성된 밸브(2)에 적용되는 밸브용 다이어프램으로서, 상기 피스톤 부재(20)에 연결되어 유체통로(14)를 개폐하는 작동을 하는 개폐부(110)와; 상기 개폐부(110)의 상부 둘레로 판 형태로 확장 형성되면서 바디 부재(10)에 고정되어 상기 개폐부(110)를 지지하는 판부(120); 및, 상기 판부(120)의 둘레 하단으로 돌출형성되는데, 상기 피스톤 부재(20)에 눌리면서 바디 부재(10)의 내측에 끼워져 압입되어 1차 밀폐 구조를 제공하는 단턱(131)과, 상기 단턱(131)에 인접한 내측 둘레 하단면에 홈으로 형성되면서 바디 부재(10)의 내측에 끼움결합되어 2차 밀폐 구조를 제공하는 엣지홈(132)을 포함한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0003d0ff92d1931320d9cce723a4568e0538c35e22eb1f8a4d57ce2be2eb2c1d57ff55242153e8d9a10eb67a18f0bfca6c4d2d6719b314170b</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfa0cc23a11c034d6605a6f18fbcda8bbb33d5bf306f2f6fb1f5b72659f30269377ee757a101ac30f9f55c289c37f772631720cb37e24ea079</ThumbnailPath>
+				<SerialNumber>2</SerialNumber>
+				<InventionName>밸브용 다이어프램 및 그 제조방법</InventionName>
+				<InternationalpatentclassificationNumber>F16K 7/12|F16K 27/02|B29C 43/00|B29C 43/02|B29C 43/52|B29K 27/18</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20191217</PublicDate>
+				<RegistrationDate>20191211</RegistrationDate>
+				<RegistrationNumber>1020566210000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 이노디스</Applicant>
+				<ApplicationDate>20120330</ApplicationDate>
+				<ApplicationNumber>1020120033075</ApplicationNumber>
+				<Abstract>유량감지부가 합체된 유체밸브가 개시되어 있다.  개시된 유량감지부가 합체된 유체밸브는 일단부에 유입구가 형성되고, 타단부에 유출구가 형성되며, 내부에는 상기 유입구와 유출구를 연결하는 유체통로가 형성되고, 상기 유체통로 상에는 밸브시이트가 형성되며, 상기 밸브시이트의 상측에는 개구형의 설치홀이 형성된 밸브바디; 상기 설치홀에 조립된 채 상기 유체통로의 통과유량을 제어하는 유량제어부재; 상기 밸브바디의 유입구 측에 결합되며, 내부에 상기 유입구와 연통되는 연통유로가 마련된 플로우바디; 상기 플로우바디의 연통유로 내에 설치되어 연통유로를 통과하는 유체의 양에 따라 회전속도가 가변되는 임펠러를 포함하는 회전부재; 상기 임펠러의 회전수를 계수하는 회전수감지센서; 상기 회전수감지센서에서 계수된 회전부재의 회전수를 유량값으로 환산하는 환산부; 및 상기 환산부에서 환산된 환산값을 출력하는 디스플레이부를 포함하되,  상기 회전부재는,  상기 플로우바디의 연통유로 내에 고정 설치되며, 중심부에 임펠러 지지부가 구비되고, 상기 임펠러 지지부의 주변에는 유체통과홀이 방사상으로 형성된 좌측 휠; 상기 플로우바디의 연통유로 내에 상기 좌측 휠과 소정간격으로 이격된 채 대칭되게 설치되며, 중심부에 임펠러 지지부가 구비되고, 상기 임펠러 지지부의 주변에는 유체통과홀이 방사상으로 형성된 우측 휠; 상기 좌측 휠과 우측 휠 사이...(이하생략)</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf7269501cfa4115534bc6b3490e11d9bb5817440d289133813c8cc239a9002b002e1f645c476f80b40d72ebecb7e23f1ac34eeaac42c4e2e0846</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf5b216374d4800414883e3d3cadd9551f4d0fcf6020c3971c574a9ae6b62ea7daf51790bbf993b865ade0a5ce7484fad0355b772bba9e6d67</ThumbnailPath>
+				<SerialNumber>3</SerialNumber>
+				<InventionName>유량감지부가 합체된 유체밸브</InventionName>
+				<InternationalpatentclassificationNumber>F16K 1/52|F16K 7/12|F16K 27/02|F16K 31/08|F16K 31/60|F16K 37/00</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20121218</PublicDate>
+				<RegistrationDate>20121212</RegistrationDate>
+				<RegistrationNumber>1012134350000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 이노디스</Applicant>
+				<ApplicationDate>20130514</ApplicationDate>
+				<ApplicationNumber>1020130054335</ApplicationNumber>
+				<Abstract>본 발명은 원판에서 재단된 PTFE 부재를 융착하여 반도체 장비에 적용되는 제품을 제작하는 것으로,  PTFE 부재의 양측 혹은 일측 단부에 접합면을 가공하는 가공 단계; 상기 접합면이 가공된 2개 또는 그 이상의 PTFE 부재를 서로 맞대어 융착을 준비하는 단계; 상기 히팅부에 열풍을 공급하여 서로 맞대어진 PTFE 부재의 접합면을 가열하되, 6 ∼ 8시간 동안 열풍을 공급하여 가열실의 내부 온도가 330 ∼ 380℃에 도달하도록 하는 가열 단계; 가열실의 내부 온도를 10 ∼ 30시간을 유지시켜 PTFE 부재(P)가 팽창하도록 하고, 팽창에 따른 체적 증가를 억제하여 융착이 이루어지도록 하는 융착 단계;로 이루어진 융착 방법과 이 방법으로 제작된 제품을 기술적인 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00de370f69016b8f9e23d49eeb201b03956c6f6ee6daee894bf9e0d873db80ce902fe5f2b94f231487d7910d4092373d3d2cb96d37318f4684</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf38b861cb397304850c99928c9ae926aacb42d4e50af94cbb9f9564926a37bd9bf18574865744d5430a3b40ea0f9b740a64166c6ff0cd15d0</ThumbnailPath>
+				<SerialNumber>4</SerialNumber>
+				<InventionName>폴리테트라플루오로에틸렌 융착 방법과 이 방법에 의해 제작된 제품</InventionName>
+				<InternationalpatentclassificationNumber>B29C 65/10|B29C 65/00|B29K 27/18</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20131224</PublicDate>
+				<RegistrationDate>20131216</RegistrationDate>
+				<RegistrationNumber>1013439880000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 이노디스</Applicant>
+				<ApplicationDate>20130514</ApplicationDate>
+				<ApplicationNumber>1020130054330</ApplicationNumber>
+				<Abstract>본 발명은 열풍으로 가열하여 PTFE를 융착하는 융착 장치에 관한 것으로,  작업 테이블의 상면에 안착되며, 바닥에 열풍이 공급되도록 유입관이 갖추어진 하부 히팅박스; 상기 하부 히팅박스에 설치되는 하부 베이스판; 상기 하부 베이스판의 상면에 안착되며, 양측벽으로 구성되어 이들 측벽 안쪽에 서로 맞대어져 융착이 이루어지도록 하는 PTFE 부재가 놓이도록 하는 지그; 상기 하부 베이스판의 길이 방향 양측 가장 자리를 관통하여 세워지고, 그 안쪽으로 상기 지그가 위치하도록 하는 지지 볼트; 상기 지그의 상부에 덮어지도록 하되, 양측 가장 자리에 볼트 조립공이 천공되어 지지 볼트에 끼워져 조립되는 상부 베이스판; 및 상기 상부 베이스판 위에 씌워지고, 상기 하부 히팅박스와 연결 고정되어 내부에 가열실이 마련되도록 하는 상부 히팅 박스; 그리고 히터 펌프의 열풍을 송풍기로 하부 히터박스에 공급하여 PTFE 부재를 가열하는 열풍기;로 구성된 것으로  상기 상,하부 히팅박스에서 열풍기에 의해 가열된 PTFE 부재는 팽창이 이루어지고, 팽창에 따른 체적 증가를 상, 하부 베이스판과 지그로 억제하여 융착이 이루어지도록 하는 기술적인 특징을 갖는다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0096e40b9ce7af7a421f500fdd2a55964d04682ca919b8ad16d9f87a64de9ce3f5c1852bbe826250182b3d15d4a370d7a4226fd6e8f649e350</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf905630c15e7e0899ccd41a006c01eab88e148d2e56d80ebe5b9ea4ef56939cdee967f28fefe8756cb76c8499a0f49bf59e0f89a7a314144a</ThumbnailPath>
+				<SerialNumber>5</SerialNumber>
+				<InventionName>폴리테트라플루오로에틸렌 가공물의 융착 장치</InventionName>
+				<InternationalpatentclassificationNumber>B29C 65/10|B29C 65/78|C08L 27/18|B29K 27/18</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20131231</PublicDate>
+				<RegistrationDate>20131216</RegistrationDate>
+				<RegistrationNumber>1013439840000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 이노디스</Applicant>
+				<ApplicationDate>20210811</ApplicationDate>
+				<ApplicationNumber>1020210106176</ApplicationNumber>
+				<Abstract>본 발명은 벨로우즈 펌프에 관한 것이다. 본 발명의 일 실시예에 따른 벨로우즈 펌프는 반도체 공정에 사용되는 벨로우즈 펌프에 있어서, 내부에 약액을 펌핑하여 공급하는 한 쌍의 펌핑실이 형성되고, 상기 펌핑실에 유입된 약액을 압축하여 공급하는 한 쌍의 벨로우즈가 구비되는 메인 바디; 상기 메인 바디의 양측에 각각 나사 결합으로 조립되어 상기 펌핑실의 개방된 부분을 막아 밀폐시키는 커버; 및 상기 커버가 조립된 상기 메인 바디의 일측면에 결합되고, 상기 메인 바디의 내부로 압축 공기의 공급을 제어하는 컨트롤 바디를 포함하고, 상기 커버에서 상기 메인 바디에 조립되는 압입리브는은 압입되어 결합되는데, 압입된 상기 전단 원주면이 외측으로 돌출된 면가공부는 상기 메인 바디의 일측면에 대응되도록 면가공되고, 상기 컨트롤 바디의 적어도 일부분이 상기 면가공부에 밀착되게 접촉될 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9366ec45828b6ee5bba82bcef21830784e0631f94badb63962f4f52b1965a053bb581b835270fc3b0c8858fc394675436b1341dd1d33b73299</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf8aadde06030388be6ef08e133e644a65af6e887c5cdea0fd4e9c9d7fc528da78345d8b2de961bd8ed38bad7c4580dca2dbbc0e0ce9421700</ThumbnailPath>
+				<SerialNumber>6</SerialNumber>
+				<InventionName>벨로우즈 펌프</InventionName>
+				<InternationalpatentclassificationNumber>F04B 43/10|F04B 43/08|F04B 53/16|F04B 53/22</InternationalpatentclassificationNumber>
+				<OpeningDate>20230220</OpeningDate>
+				<OpeningNumber>1020230024077</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20230424</PublicDate>
+				<RegistrationDate>20230418</RegistrationDate>
+				<RegistrationNumber>1025244850000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 이노디스|김덕현</Applicant>
+				<ApplicationDate>20170426</ApplicationDate>
+				<ApplicationNumber>1020170053300</ApplicationNumber>
+				<Abstract>본 발명은 간단한 구성에 의해 간단하게 교체 및 조립할 수 있도록 구비됨에 따라 마모된 구성을 부분적으로 교체하여 작업상의 편리함을 제공할 수 있는 패널 사이드 지지용 롤러조립체에 관한 것이다.  본 발명에 따르면, 패널부재(P)의 양측을 지지하도록 칼럼축(13) 상에 회전 가능하게 설치된 롤러조립체에 있어서; 상기 칼럼축(13) 상에 결합되는 단관체 형태의 내륜체(21)와; 상기 내륜체(21)의 외주상에 구름운동되도록 결합되는 볼 또는 롤러형태로 된 복수개의 전동체(22) 및 상기 전동체(22)를 일정하게 배열하도록 된 리테이너(23)와; 상기 내륜체(21)에 대응된 단관체 형태로 구비되어 상기 전동체(22)와 리테이너(23)가 내경측에 결합되되, 하단의 외주측에 돌출되는 단부림(29)과, 상기 단부림(29)으로부터 상단측으로 연장되는 걸림돌기(30)와, 상기 단부림(29)에 대향된 상부 일측에 외주 둘레로 체결홈(31)이 형성된 외륜체(24)와; 상기 외륜체(24)의 외주상에 착탈 가능하게 끼움결합되어 상기 패널부재(P)에 접촉되도록 구비되되, 상기 외륜체(24)에 대응된 단관체 형태로 구비되어 상기 걸림돌기(30)에 대응된 걸림홈(32)이 내주상에 형성된 리페어커버(25)와; 상기 리페어커버(25)의 상단을 지지하도록 상기 체결홈(31) 상에 착탈 가능하게 결합되는 스냅링(26)을 포함하는 패...(이하생략)</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e0087c11b556d12a375747c240891dd708abaa6e0d0fffcd337b3163a1524b9100082f4801e95f79fab4ebc04f824d802179c73231d6edce16b</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf43a91dde73d2c0209849a7175e4528d8db38edc5c456141250bb0adfad542b53ca09e435d9fc038d077f76f7855d03809e2bd366b10cb8a2</ThumbnailPath>
+				<SerialNumber>7</SerialNumber>
+				<InventionName>패널 사이드 지지용 롤러조립체</InventionName>
+				<InternationalpatentclassificationNumber>B65G 39/02|B65G 49/06|H01L 21/677</InternationalpatentclassificationNumber>
+				<OpeningDate>20181105</OpeningDate>
+				<OpeningNumber>1020180119760</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate></PublicDate>
+				<RegistrationDate></RegistrationDate>
+				<RegistrationNumber></RegistrationNumber>
+				<RegistrationStatus>거절</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 이노디스</Applicant>
+				<ApplicationDate>20170224</ApplicationDate>
+				<ApplicationNumber>1020170024709</ApplicationNumber>
+				<Abstract>반도체 제조에 사용되는 벨로우즈 펌프로써, 좌측 및 우측 각각에 약액을 펌핑하여 공급하는 좌측 및 우측 펌핑실이 마련되고, 이 펌핑실과 직교로 배치되어 약액의 공급 및 배출을 유도하는 전방 및 후방 공급실이 마련된 메인 보디; 상기 좌측 및 우측 펌핑실에 설치되어 수축/팽창하며 압축판이 각 펌핑실에 유입된 약액을 압축하여 공급하는 좌측 및 우측 벨로우즈; 상기 메인 보디 중앙을 관통하고 양측 가장자리가 좌측 및 우측 펌핑실까지 연장되며, 양측 가장 자리 각각에 상기 좌측 및 우측 벨로우즈의 각각에 구비된 압축판과 연결되는 이동축; 상기 좌측 및 우측 펌핑실의 개방면을 막아 밀폐시키며, 내측면에 안내부가 마련된 좌측 및 우측 커버; 상기 좌측 및 우측 커버의 안내부 각각에 끼워져 이동하는 몸체를 구비하고, 이 각각의 몸체에 끼워맞춤 방식으로 결합되는 헤드부가 갖추어진 구성으로 이루어지며, 상기 헤드부에 나사봉이 구비되어 상기 압축판에 나사 결합되는 좌측 및 우측 피스톤 하우징; 상기 몸체에 끼워지고, 공기가 주입되면 헤드부를 밀어 벨로우즈가 수축/팽창되도록 하는 좌측 및 우측 피스톤; 상기 전방 및 후방 공급실 각각에 설치되며, 각각은 상, 하부로 배치되어 약액의 이동 경로를 막거나 개방하는 체크 밸브;가 구비되는 것으로 달성된다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00b2cc286c188cdd99497b583e68b6a1d25e49c44f234b06b4cbd300f8327ae99f1a0c1510b9ef22f8237d1e46c673c3c1a673694169edb652</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfa099e4928d116aaa893552eff97d5ddce524435932070564e3b96fb558d4022c5430e4431bc88af0278d8dcb127b5a86d15c8d45c2362365</ThumbnailPath>
+				<SerialNumber>8</SerialNumber>
+				<InventionName>벨로우즈 펌프</InventionName>
+				<InternationalpatentclassificationNumber>F04B 43/08|F04B 53/10|F04B 53/14</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20170508</PublicDate>
+				<RegistrationDate>20170428</RegistrationDate>
+				<RegistrationNumber>1017336340000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 이노디스</Applicant>
+				<ApplicationDate>20181214</ApplicationDate>
+				<ApplicationNumber>1020180161676</ApplicationNumber>
+				<Abstract>본 발명은 유체를 이송하는 튜브 등의 관을 간편하게 연결하면서 관을 고정하는 너트의 조임 정도를 예측하여 관 연결의 하중을 적절히 하여 파손을 방지하게 하는 관 피팅 장치에 관한 것이다.  이와 같은 목적을 해결하기 위해 본 발명은; 유체 유동을 위한 관(10)을 연결되게 하는 니플(120)이 내측에 마련되고, 너트 부재(200)가 체결되는 수나사(112)가 외측에 형성된 몸체 부재(100)와; 상기 수나사(112)에 나사체결되는 암나사(240)가 내측에 마련되며, 상기 암나사(240)를 이용한 나사체결과정에서 상기 니플(120)에 연결된 관(10)을 압박하여 고정시키는 너트 부재(200)와; 상기 몸체 부재(100)와 너트 부재(200) 사이에 구비되는데, 상기 몸체 부재(100)에 고정된 상태에서 걸림부(320)를 이용해 상기 너트 부재(200)의 일측에 걸리면서 결속시켜 너트 부재(200)가 풀리지 않게 1차로 강제 고정하는 조인트 부재(300)를 포함하여 구성된다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e003f5b64a11a399b964daf25c6ed1f6cd891be55f470e9a6c6121a9a9c2c934f89198029991795da66677da06b8c796218a4caaf0b6abe590f</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf74ce25b368ca829b9037ff8c16b1767e1385b6786c14d65486215258b6b486f48b0f0de1d6062547b3ec3471a4ae637af69652ec28dc5401</ThumbnailPath>
+				<SerialNumber>9</SerialNumber>
+				<InventionName>관 피팅 장치</InventionName>
+				<InternationalpatentclassificationNumber>F16L 33/24|F16L 33/32|F16L 55/00</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20190426</PublicDate>
+				<RegistrationDate>20190422</RegistrationDate>
+				<RegistrationNumber>1019730100000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 이노디스</Applicant>
+				<ApplicationDate>20160602</ApplicationDate>
+				<ApplicationNumber>1020160068614</ApplicationNumber>
+				<Abstract>본 발명은 2개의 파이프를 연결하는 피팅 장치로써,  중심부의 양측면에 관체를 구비하고, 이 중심부의 외측에 돌출부를 구비하되, 돌출부 양측면 각각에 기밀 유지홈이 형성되며, 상기 중심부의 중앙에는 형합 관부가 구비되고, 이 형합 관부와 관체의 내측면 사이에 유지부가 마련된 본체; 일측에 튜브가 끼워져 연결된 상태에서 그 대향측이 상기 관체의 안쪽으로 각각 끼워지며, 관체에 끼워지는 방향으로 끼움부와 수납부 그리고 외측 끼움관이 구비되어, 끼움부는 형합 관부 안쪽으로 끼워지고 수납부에는 형합 관부가 끼워지며 외측 끼움관은 유지부에 끼워지는 것으로 조립되는 페롤; 내측면의 암나사부가 상기 관체의 외면에 형성된 수나사부에 나사 결합되고, 나사 결합이 완료되면 선단의 돌부는 기밀 유지홈에 끼워지고, 머리부의 내측면은튜브를 가압하여 이탈을 방지하는 너트부;로 구성된 기술적인 특징을 갖는 것으로 달성된다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e00f0f50d97a5bc9ac1f8f796f431aff4f54dc055d979400e69d4d86333e63f896b57afd9bb57d9472507b8c41e6f51e3dfd77c414ec84c67ea</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf84bc1bd6f6313c51d73304d2ea11236554f2263a5eaab6a419e7fd8fc1140a00714257d268e9178a7a4efa54b357d5217c8d8bb6aa0b82b5</ThumbnailPath>
+				<SerialNumber>10</SerialNumber>
+				<InventionName>피팅 장치</InventionName>
+				<InternationalpatentclassificationNumber>F16L 19/02|F16L 19/06</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20170228</PublicDate>
+				<RegistrationDate>20170222</RegistrationDate>
+				<RegistrationNumber>1017109460000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 이노디스</Applicant>
+				<ApplicationDate>20120618</ApplicationDate>
+				<ApplicationNumber>1020120064864</ApplicationNumber>
+				<Abstract>기판 이송장치용 이송롤러가 개시되어 있다.  개시된 기판 이송장치용 이송롤러는, 기판 이송장치의 회전축 상에 결속되는 금속재의 결속파트와, 상기 클램핑부의 가장자리에 인서트 사출되어 유리기판 이송시 유리기판을 지지하는 비금속재의 지지파트로 이루어진 기판 이송장치용 이송롤러로서,  상기 결속파트는, 상기 회전축의 외주를 감싸게 설치되며, 길이방향의 양 말단부에 서로 이격된 채 마주하는 플랜지부가 형성된 조임링; 상기 플랜지부 사이를 조임하기 위한 조임볼트 및 조임너트; 및 상기 조임링의 외주면 일단부에 일체로 형성되는 도넛형태의 롤러심재;로 이루어지며,  상기 지지파트는, 상기 롤러심재의 외주면에 인서트 사출되어 상기 유리기판을 롤링되게 지지하는 원판형의 지지롤러인 것을 특징으로 한다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=452306798ef1fd03bf8e5ba4e1dbf7267f9832606442453e49d2fab9ebbb605c6da4db60945016d47dc316c7327976bc564a3027e1ae26c4a134a0b9c290575e2465716b4152ee73</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf6f6ea1b31489a20092bdfbc18a05dae931b5d2cda988c87102acfb7a64ff1cef7ad0f571a69451a78f6fb805c3bc01375a80b95a01918e52</ThumbnailPath>
+				<SerialNumber>11</SerialNumber>
+				<InventionName>기판 이송장치용 이송롤러</InventionName>
+				<InternationalpatentclassificationNumber>B65G 49/06|H01L 21/677|B65G 39/10|B65G 13/00</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20130124</PublicDate>
+				<RegistrationDate>20130118</RegistrationDate>
+				<RegistrationNumber>1012261010000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 이노디스</Applicant>
+				<ApplicationDate>20141104</ApplicationDate>
+				<ApplicationNumber>1020140152019</ApplicationNumber>
+				<Abstract>본 발명은 반도체, 약품 운송, 가스 및 식료품 등의 이송에 사용되는 다층 튜브로써, PFA 수지로 성형된 심지 부재의 외측면에 스프라이트 형태의 도전성 기능을 갖는 적어도 2개 이상의 외피 부재가 적층된 것으로,  상기 외피 부재는 PFA 수지에 카본 또는 CNT 중에서 선택된 어느 하나의 대전 방지제가 혼합된 기술적인 특징을 갖는다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=2ba38663aa11ff0f6ca91af6061a2e009abf453187879191f7b80da54eb63ffeb611dabc80d5a11d25f9eec03bb277a7c04cf4e863efba15cb3d1b4e89767a46c7299218048d3256</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cffa8aaf82f0a2cbd319524f9fc16c86c549f611dc8d5b2ad19489cffa4a57a1f9b1af2f0528c6829aacc9b3197fefd9e90e0f363a00851120</ThumbnailPath>
+				<SerialNumber>12</SerialNumber>
+				<InventionName>피에프에이수지를 이용한 다층 튜브</InventionName>
+				<InternationalpatentclassificationNumber>B32B 1/08|B32B 27/18|B32B 27/30</InternationalpatentclassificationNumber>
+				<OpeningDate></OpeningDate>
+				<OpeningNumber></OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20150729</PublicDate>
+				<RegistrationDate>20150722</RegistrationDate>
+				<RegistrationNumber>1015399390000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 이노디스</Applicant>
+				<ApplicationDate>20210827</ApplicationDate>
+				<ApplicationNumber>1020210114166</ApplicationNumber>
+				<Abstract>본 발명은 벨로우즈 펌프에 관한 것이다. 본 발명의 일 실시예에 따른 벨로우즈 펌프는 반도체 공정에 사용되는 벨로우즈 펌프에 있어서, 내부에 약액을 펌핑하여 공급하는 한 쌍의 펌핑실이 형성되고, 상기 펌핑실에 유입된 약액을 압축하여 공급하는 한 쌍의 벨로우즈가 구비되는 메인 바디; 상기 메인 바디의 양측에 각각 나사 결합으로 조립되어 상기 펌핑실의 개방된 부분을 막아 밀폐시키는 커버; 및 상기 커버가 조립된 상기 메인 바디의 일측면에 결합되고, 상기 메인 바디의 내부로 압축 공기의 공급을 제어하는 컨트롤 바디를 포함하고, 상기 커버에서 상기 메인 바디에 조립되는 압입리브는은 압입되어 결합되는데, 압입된 상기 전단 원주면이 외측으로 돌출된 면가공부는 상기 메인 바디의 일측면에 대응되도록 면가공되고, 상기 컨트롤 바디의 적어도 일부분이 상기 면가공부에 밀착되게 접촉될 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9377c32c9825f1526984c603e3d5b6278af19a515474aafb3dc42bfb8aac0f40172fa20ab3a0b444534e301f2473527e8a64f3d3c44bf6c8fb</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cfc7cb9c00fa78a9e426cf45ab786c046b6cc4594d0221ba796773e02380e0655420743847fa2baf4c729657f5efd819b93297095d1525c98e</ThumbnailPath>
+				<SerialNumber>13</SerialNumber>
+				<InventionName>벨로우즈 펌프</InventionName>
+				<InternationalpatentclassificationNumber>F04B 43/107|F04B 43/00|F04B 53/14|F04B 53/16</InternationalpatentclassificationNumber>
+				<OpeningDate>20230307</OpeningDate>
+				<OpeningNumber>1020230031679</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20230531</PublicDate>
+				<RegistrationDate>20230524</RegistrationDate>
+				<RegistrationNumber>1025379420000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<PatentUtilityInfo>
+				<Applicant>주식회사 이노디스</Applicant>
+				<ApplicationDate>20201020</ApplicationDate>
+				<ApplicationNumber>1020200136091</ApplicationNumber>
+				<Abstract>본 발명은 튜브 피팅장치에 관한 것이다. 본 발명은 연결되어 유체가 이송되는 니플이 하나 또는 그 이상으로 돌출형성되고, 상기 니플의 외측에 너트의 체결을 위한 수나사가 형성되는 몸체; 상기 몸체의 수나사에 암나사를 이용해 나선회전으로 체결되는 작용으로 상기 니플을 조이면서 상기 튜브의 외주 면을 압박 고정하는 너트; 및 상기 니플에 상기 튜브가 연결되도록 그 사이에 압입되고, 상기 니플에 형성된 끼움홈의 크기에 대응하여 돌출된 끼움돌기가 억지 끼움되는 커넥팅관을 포함하고, 상기 튜브의 일면과 접촉하는 상기 커넥팅관의 외주 면에는 상기 튜브가 압입에 의해 돌출되는 부분이 수용되어 상기 튜브의 탈락을 방지하는 탈락 방지홈이 형성될 수 있다.</Abstract>
+				<DrawingPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=6c650beb4cee9ce4122b704b88878c9324996b95f6ebeac54b12b0fd0566e72a6b0ece45f07af17b9ba068accde65d9fbd3709efe2ada2934f709f3f8369db827dfc8b625ef24790</DrawingPath>
+				<ThumbnailPath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e22d01c5c32ba711cf88b786120dc50ad2d657e9279ea613bf48414b81ad9320108a481dcb87dc4b2527bddad6afa67d988a391bbb51ed2bfac5c8fbd51682bd64</ThumbnailPath>
+				<SerialNumber>14</SerialNumber>
+				<InventionName>튜브 피팅장치</InventionName>
+				<InternationalpatentclassificationNumber>F16L 19/02|F16L 19/06</InternationalpatentclassificationNumber>
+				<OpeningDate>20210531</OpeningDate>
+				<OpeningNumber>1020210062554</OpeningNumber>
+				<PublicNumber></PublicNumber>
+				<PublicDate>20220829</PublicDate>
+				<RegistrationDate>20220823</RegistrationDate>
+				<RegistrationNumber>1024369690000</RegistrationNumber>
+				<RegistrationStatus>등록</RegistrationStatus>
+			</PatentUtilityInfo>
+			<TotalSearchCount>14</TotalSearchCount>
+			<SearchStartNumber>1</SearchStartNumber>
+		</items>
+	</body>
+</response>

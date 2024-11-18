@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<response>
+	<header>
+		<resultCode></resultCode>
+		<resultMsg></resultMsg>
+	</header>
+	<body>
+		<items>
+			<totalCount>5</totalCount>
+			<DesignInfo>
+				<number>1</number>
+				<applicationNumber>3020210059920</applicationNumber>
+				<applicationDate>20211213</applicationDate>
+				<appReferenceNumber></appReferenceNumber>
+				<publicationNumber></publicationNumber>
+				<publicationDate>20230612</publicationDate>
+				<registrationDate>20230607</registrationDate>
+				<registrationNumber>3012195630000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber></regReferenceNumber>
+				<priorityNumber></priorityNumber>
+				<priorityDate></priorityDate>
+				<internationalRegisterNumber></internationalRegisterNumber>
+				<internationalRegisterDate></internationalRegisterDate>
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>주식회사 윈텍오토메이션</applicantName>
+				<agentName>특허법인 인터브레인</agentName>
+				<fullText>Y</fullText>
+				<inventorName>송일재|이태준|조윤명</inventorName>
+				<articleName>화면디자인이 표시된 디스플레이 패널</articleName>
+				<openNumber></openNumber>
+				<openDate></openDate>
+				<designMainClassification></designMainClassification>
+				<dsShpClssCd></dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0b228270ca6f54a89237e3c7cd281933b6456251defe132cd7b6cbf6073e0396f7eeb25c0b252168c2399965a1ad4dfa8</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa5283d825549883ef39ae91b7fadf0bab87c8f24aeb5ff5961abb528feae2cfb62b06683a30e3d16f52ec6f32b68a145cc</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>2</number>
+				<applicationNumber>3020220051904</applicationNumber>
+				<applicationDate>20221209</applicationDate>
+				<appReferenceNumber></appReferenceNumber>
+				<publicationNumber></publicationNumber>
+				<publicationDate>20230803</publicationDate>
+				<registrationDate>20230731</registrationDate>
+				<registrationNumber>3012264760000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber></regReferenceNumber>
+				<priorityNumber></priorityNumber>
+				<priorityDate></priorityDate>
+				<internationalRegisterNumber></internationalRegisterNumber>
+				<internationalRegisterDate></internationalRegisterDate>
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>주식회사 윈텍오토메이션</applicantName>
+				<agentName>이재량</agentName>
+				<fullText>Y</fullText>
+				<inventorName>최태옥|양준석|김승완</inventorName>
+				<articleName>프레스 핸들러</articleName>
+				<openNumber></openNumber>
+				<openDate></openDate>
+				<designMainClassification></designMainClassification>
+				<dsShpClssCd></dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb045c8f8c2dcacb71bc9e43f0a066611f0fc05c744392f810bacd717ef1b36c93315889231bf8b4a868b1781b3352ad9b1</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa5b43f01d87b311dc784d1ded95caff2d7e33b42d707d468e67d137df89dd5c860d35a4956852dc21b64945237e11eec55</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>3</number>
+				<applicationNumber>3020210054745</applicationNumber>
+				<applicationDate>20211117</applicationDate>
+				<appReferenceNumber></appReferenceNumber>
+				<publicationNumber></publicationNumber>
+				<publicationDate>20220923</publicationDate>
+				<registrationDate>20220920</registrationDate>
+				<registrationNumber>3011832620000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber></regReferenceNumber>
+				<priorityNumber></priorityNumber>
+				<priorityDate></priorityDate>
+				<internationalRegisterNumber></internationalRegisterNumber>
+				<internationalRegisterDate></internationalRegisterDate>
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>주식회사 윈텍오토메이션</applicantName>
+				<agentName>김재왕</agentName>
+				<fullText>Y</fullText>
+				<inventorName>송일재</inventorName>
+				<articleName>호닝 형상 검사기</articleName>
+				<openNumber></openNumber>
+				<openDate></openDate>
+				<designMainClassification></designMainClassification>
+				<dsShpClssCd></dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb07c98fc3a69987cc23f80faa97d271692d4749e9d6ebd5fdc66315f8b85f7b5cb56e4db1104f207c86ed2c9ef88be3777</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa5bf110e92623c6e361cdad5bf50928ae8f8c4c04a239bee4736822e77ecf435be08b8e43370574545e2247fb2295fb51e</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>4</number>
+				<applicationNumber>3020210041302</applicationNumber>
+				<applicationDate>20210831</applicationDate>
+				<appReferenceNumber></appReferenceNumber>
+				<publicationNumber></publicationNumber>
+				<publicationDate>20220624</publicationDate>
+				<registrationDate>20220621</registrationDate>
+				<registrationNumber>3011697610000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber></regReferenceNumber>
+				<priorityNumber></priorityNumber>
+				<priorityDate></priorityDate>
+				<internationalRegisterNumber></internationalRegisterNumber>
+				<internationalRegisterDate></internationalRegisterDate>
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>주식회사 윈텍오토메이션</applicantName>
+				<agentName>김재왕</agentName>
+				<fullText>Y</fullText>
+				<inventorName>송일재</inventorName>
+				<articleName>초경인서트 검사장비</articleName>
+				<openNumber></openNumber>
+				<openDate></openDate>
+				<designMainClassification></designMainClassification>
+				<dsShpClssCd></dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0d5c72ec1b0528279bda2bcf043415de02e5402cc07ae58ca3a04a51f52565b2b1e8c40aee4353d760f537b7c09870e52</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa57dce36269f375502080e4dd4010374b59401e8d0205d90f06497e6e14f21c508d7a8a71eaab7a2acdc6103bb10d4d339</imagePathLarge>
+			</DesignInfo>
+			<DesignInfo>
+				<number>5</number>
+				<applicationNumber>3020210063000</applicationNumber>
+				<applicationDate>20211229</applicationDate>
+				<appReferenceNumber></appReferenceNumber>
+				<publicationNumber></publicationNumber>
+				<publicationDate>20220408</publicationDate>
+				<registrationDate>20220405</registrationDate>
+				<registrationNumber>3011587600000</registrationNumber>
+				<designNumber>M001</designNumber>
+				<regReferenceNumber></regReferenceNumber>
+				<priorityNumber></priorityNumber>
+				<priorityDate></priorityDate>
+				<internationalRegisterNumber></internationalRegisterNumber>
+				<internationalRegisterDate></internationalRegisterDate>
+				<applicationStatus>등록</applicationStatus>
+				<applicantName>주식회사 윈텍오토메이션</applicantName>
+				<agentName>김재왕</agentName>
+				<fullText>Y</fullText>
+				<inventorName>송일재</inventorName>
+				<articleName>인덱스 플레이트</articleName>
+				<openNumber></openNumber>
+				<openDate></openDate>
+				<designMainClassification></designMainClassification>
+				<dsShpClssCd></dsShpClssCd>
+				<imagePath>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ed43a0609e94d6e29e0b68f68d514bb0c33183a58de44e3bedc88fe26d5803a17db721243dd3dab905e4af6f146c9d4a1c59fbb5705d9b32888d15687a3da3ef</imagePath>
+				<imagePathLarge>http://plus.kipris.or.kr/kiprisplusws/fileToss.jsp?arg=ad7a17eeeef6e4eab4c2ec2fa0b46aa50f8552267216fa4e5a3633576a9ca15c8ddb58512878b5060bd3b6c230a0dcbdc743472fbec22c72220aa470b2e9cab1</imagePathLarge>
+			</DesignInfo>
+		</items>
+	</body>
+</response>

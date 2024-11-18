@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회사 상세 정보</title>
+    <style>
+        /* 기본 스타일 */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            background-color: #f7f9fc;
+            color: #333;
+        }
+        h1 {
+            color: #444;
+            text-align: center;
+            font-size: 2.5rem;
+            margin-top: 40px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* 버튼 스타일 */
+        .back-btn {
+            background-color: #6c5ce7;
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            display: inline-block;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            margin-bottom: 30px;
+        }
+        .back-btn:hover {
+            background-color: #5a4ccc;
+            transform: translateY(-2px);
+        }
+
+        /* 차트 영역 스타일 */
+        .chart-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 40px;
+            margin-top: 50px;
+        }
+        .chart-box {
+            width: 32%;
+            background-color: #fff;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .chart-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+        #companyChart, #lineChart, #barChart {
+            width: 100%;
+            height: 350px;
+        }
+
+        /* 테이블 스타일 */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+            color: #444;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        /* 회사 기본 정보 영역 */
+        .company-info, .company-stats {
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .company-info h2, .company-stats h2 {
+            color: #444;
+            font-size: 1.6rem;
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+    </style>
+    <!-- Google Fonts 링크 추가 -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Chart.js 라이브러리 추가 -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <a href="/" class="back-btn">돌아가기</a>
+    <h1>회사 상세 정보</h1>
+    
+    <div class="container">
+        <!-- 차트들 -->
+        <div class="chart-container">
+            <!-- 도넛 차트 -->
+            <div class="chart-box">
+                <canvas id="companyChart"></canvas>
+            </div>
+
+            <!-- 라인 차트 -->
+            <div class="chart-box">
+                <canvas id="lineChart"></canvas>
+            </div>
+
+            <!-- 바 차트 -->
+            <div class="chart-box">
+                <canvas id="barChart"></canvas>
+            </div>
+        </div>
+
+        <!-- 회사 기본 정보 -->
+        <div class="company-info">
+            <h2>회사 기본 정보</h2>
+            <table>
+                <tr>
+                    <th>회사명</th>
+                    <td id="companyName">(주)준소프트웨어</td>
+                </tr>
+                <tr>
+                    <th>사업자 등록번호</th>
+                    <td id="bizNo">220-88-87953</td>
+                </tr>
+                <tr>
+                    <th>법인등록번호</th>
+                    <td id="corpNo">110111-5518240</td>
+                </tr>
+                <tr>
+                    <th>업종</th>
+                    <td id="bizType">소프트웨어 개발</td>
+                </tr>
+            </table>
+        </div>
+        
+        <!-- 회사 통계 정보 -->
+        <div class="company-stats">
+            <h2>회사 통계</h2>
+            <table>
+                <tr>
+                    <th>특허 개수</th>
+                    <td id="cntPatent">25</td>
+                </tr>
+                <tr>
+                    <th>상표 개수</th>
+                    <td id="cntTrademark">10</td>
+                </tr>
+                <tr>
+                    <th>디자인 개수</th>
+                    <td id="cntDesign">7</td>
+                </tr>
+                <tr>
+                    <th>등록된 특허</th>
+                    <td id="registeredPatents">18</td>
+                </tr>
+                <tr>
+                    <th>발행된 특허</th>
+                    <td id="publishedPatents">7</td>
+                </tr>
+                <tr>
+                    <th>등록된 상표</th>
+                    <td id="registeredTrademarks">5</td>
+                </tr>
+                <tr>
+                    <th>발행된 상표</th>
+                    <td id="publishedTrademarks">5</td>
+                </tr>
+                <tr>
+                    <th>등록된 디자인</th>
+                    <td id="registeredDesigns">3</td>
+                </tr>
+                <tr>
+                    <th>발행된 디자인</th>
+                    <td id="publishedDesigns">4</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+    <script>
+        // 회사 상세 정보를 API에서 가져와서 페이지에 표시
+        function getCompanyIdFromPath() {
+            const path = window.location.pathname;
+            const segments = path.split('/');  // '/' 기준으로 분리
+            return segments[segments.length - 1];  // 마지막 세그먼트가 companyId
+        }
+
+        const companyId = getCompanyIdFromPath();  // 예시로 회사 ID를 1로 설정 (동적으로 가져올 수 있음)
+
+        fetch(`/api/company/${companyId}`)
+            .then(response => response.json())
+            .then(data => {
+                const company = data.company;
+
+                // 회사 기본 정보 표시
+                document.getElementById('companyName').innerText = company.company_name;
+                document.getElementById('bizNo').innerText = company.biz_no;
+                document.getElementById('corpNo').innerText = company.corp_no;
+                document.getElementById('bizType').innerText = company.biz_type;
+
+                // 회사 통계 정보 표시
+                document.getElementById('cntPatent').innerText = company.cnt_patent;
+                document.getElementById('cntTrademark').innerText = company.cnt_trademark;
+                document.getElementById('cntDesign').innerText = company.cnt_design;
+                document.getElementById('registeredPatents').innerText = company.registered_patents;
+                document.getElementById('publishedPatents').innerText = company.published_patents;
+                document.getElementById('registeredTrademarks').innerText = company.registered_trademarks;
+                document.getElementById('publishedTrademarks').innerText = company.published_trademarks;
+                document.getElementById('registeredDesigns').innerText = company.registered_designs;
+                document.getElementById('publishedDesigns').innerText = company.published_designs;
+
+                // 차트 데이터 준비
+                const chartData = {
+                    labels: ['특허', '상표', '디자인'],
+                    datasets: [{
+                        label: '등록된 개수',
+                        data: [
+                            company.registered_patents,
+                            company.registered_trademarks,
+                            company.registered_designs
+                        ],
+                        backgroundColor: ['#ff6f61', '#ffcc5c', '#6b5b95'],
+                        hoverBackgroundColor: ['#ff4d3d', '#ffb84d', '#5c4b8e']
+                    }]
+                };
+
+                // 도넛 차트 그리기
+                const ctx = document.getElementById('companyChart').getContext('2d');
+                new Chart(ctx, {
+                    type: 'doughnut',
+                    data: chartData
+                });
+
+                // 라인 차트 데이터 예시
+                const lineChartData = {
+                    labels: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
+                    datasets: [{
+                        label: '특허 등록 추이',
+                        data: [3, 4, 3, 5, 6, 7, 8, 7, 6, 5, 7, 9],  // 예시 데이터
+                        borderColor: '#ff6f61',
+                        fill: false
+                    }, {
+                        label: '상표 등록 추이',
+                        data: [2, 3, 4, 4, 5, 6, 5, 4, 6, 6, 5, 7],  // 예시 데이터
+                        borderColor: '#ffcc5c',
+                        fill: false
+                    }, {
+                        label: '디자인 등록 추이',
+                        data: [1, 2, 1, 2, 3, 3, 4, 4, 5, 5, 4, 3],  // 예시 데이터
+                        borderColor: '#6b5b95',
+                        fill: false
+                    }]
+                };
+
+                const lineCtx = document.getElementById('lineChart').getContext('2d');
+                new Chart(lineCtx, {
+                    type: 'line',
+                    data: lineChartData
+                });
+
+                // 바 차트 데이터 준비
+                const barChartData = {
+                    labels: ['특허', '상표', '디자인'],
+                    datasets: [{
+                        label: '등록된 개수',
+                        data: [
+                            company.registered_patents,
+                            company.registered_trademarks,
+                            company.registered_designs
+                        ],
+                        backgroundColor: ['#ff6f61', '#ffcc5c', '#6b5b95']
+                    }]
+                };
+
+                const barCtx = document.getElementById('barChart').getContext('2d');
+                new Chart(barCtx, {
+                    type: 'bar',
+                    data: barChartData
+                });
+            })
+            .catch(error => {
+                console.error('Error fetching company data:', error);
+            });
+    </script>
+</body>
+</html>
