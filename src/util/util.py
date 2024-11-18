@@ -6,6 +6,7 @@ import asyncio
 import yappi
 import requests
 import json
+from ..db.mysql import Mysql
 
 def get_timestamp():
     return datetime.now().strftime("%Y%m%d")
@@ -121,7 +122,7 @@ async def send_slack_message(name, callback:callable, *callback_args):
         inner( f"<!here> 사용 완료 : {name}")
 
 
-def execute_sql_files_in_directory(directory: str, prefix: str, mysql):
+def execute_sql_files_in_directory(directory: str, prefix: str, mysql:Mysql):
     """
     지정된 디렉토리에서 특정 접두사(prefix)를 가진 SQL 파일들을 순서대로 실행합니다.
     """
