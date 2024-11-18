@@ -4,6 +4,7 @@ from .KiprisApplicantInfoFetcher import KiprisApplicantInfoFetcher
 from .KiprisParam import KiprisParam
 from tqdm import tqdm
 from ....util.util import yappi_profiler
+from ....test.prometheus.prometheus import PrometheusDashboard
 
 semaphore = asyncio.Semaphore(20)
 
@@ -14,10 +15,13 @@ class KiprisFetcher:
 
     async def __task(self, param: KiprisParam, session: aiohttp.ClientSession):
         info = KiprisApplicantInfoFetcher(self.url, param)
+        self.prometheus.api_counter_plus()
         result = await info.get_info(session)  # session 전달
+        self.prometheus.api_response_time()
         return result
     
-    async def get_infos(self, file_name: str = "default.prof") -> list:
+    async def get_infos(self, file_name: str = "default.prof", org_type:str = 'comp') -> list:
+        self.prometheus = PrometheusDashboard(org_type=org_type, service_type=file_name)
         # 여기서 yappi_profiler를 동적으로 적용하여 호출
         base_path = "res/log"
         profiled_get_infos = yappi_profiler(f'{base_path}/{file_name}')(self.__get_infos)

@@ -23,6 +23,7 @@ async def main(table_name="TB24_200", dir_path="xml/company"):
         info = Info()
         if table_name == "TB24_200":
             company_logger = monitoring.setup_logger("company")
+            org_type = "comp"
             company_logger.debug("TB24_200")
             applicant_numbers = mysql.get_all_company_no_id()
             # applicant_numbers = mysql.get_limit_company_no_id(5)
@@ -31,6 +32,7 @@ async def main(table_name="TB24_200", dir_path="xml/company"):
             # applicant_numbers = [[120140558200, 1]]
         else:
             university_logger = monitoring.setup_logger("university")
+            org_type = "univ"
             university_logger.debug("TB24_210")
             applicant_numbers = mysql.get_all_university_no_id()
             # applicant_numbers = mysql.get_limit_university_no_seq(5)
@@ -38,15 +40,15 @@ async def main(table_name="TB24_200", dir_path="xml/company"):
 
         async def patent_action_api():
             patent_fetcher = KiprisPatentFetcher(applicant_numbers)
-            return await patent_fetcher.get_infos("patent")
+            return await patent_fetcher.get_infos("patent", org_type)
     
         async def design_action_api():
             design_fetcher = KiprisDesignFetcher(applicant_numbers)
-            return await design_fetcher.get_infos("design")
+            return await design_fetcher.get_infos("design", org_type)
     
         async def trademark_action_api():
             trademark_fetcher = KiprisTrademarkFetcher(applicant_numbers)
-            return await trademark_fetcher.get_infos("trademark")
+            return await trademark_fetcher.get_infos("trademark", org_type)
         
         info.patent = await util.execute_with_time_async("patent_action_api", patent_action_api)
         info.design = await util.execute_with_time_async("design_action_api", design_action_api)
