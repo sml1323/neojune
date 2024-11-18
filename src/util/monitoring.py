@@ -6,7 +6,7 @@ from ..enum.TableName import TableName
 
 def __setup_logger_core(name, file_handler):
     # service
-    dir_path = '/app/res/output/log/'
+    dir_path = '/app/res/output/log'
 
     # dev
     # dir_path = f'{util.add_sys_path()}/res/log/'
@@ -18,7 +18,7 @@ def __setup_logger_core(name, file_handler):
         formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
         # 파일 핸들러
         os.makedirs(os.path.dirname(dir_path), exist_ok=True)
-        fh = logging.FileHandler(f'res/log/{file_handler}')
+        fh = logging.FileHandler(f'{dir_path}/{file_handler}')
         fh.setLevel(logging.DEBUG)  # INFO 레벨로 변경
         fh.setFormatter(formatter)
         logger.addHandler(fh)

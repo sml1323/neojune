@@ -4,7 +4,9 @@ from ...util import util
 
 # base 부터 먼저 실행 후 나머지 실행
 
-base_path = f"res/output/{util.get_timestamp()}/sql"
+# base_path = f"res/output/{util.get_timestamp()}/sql" -- dev
+# service
+base_path = f"/app/res/output/{util.get_timestamp()}/sql"
 company_path = f"{base_path}/company"
 university_path = f"{base_path}/university"
 
