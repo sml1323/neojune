@@ -5,7 +5,11 @@ from ..enum.ApiType import ApiType
 from ..enum.TableName import TableName
 
 def __setup_logger_core(name, file_handler):
-    dir_path = f'{util.add_sys_path()}/res/log/'
+    # service
+    dir_path = '/app/res/output/log/'
+
+    # dev
+    # dir_path = f'{util.add_sys_path()}/res/log/'
     os.makedirs(os.path.dirname(dir_path), exist_ok=True)
     pass
     logger = logging.getLogger(name)
@@ -21,7 +25,7 @@ def __setup_logger_core(name, file_handler):
     return logger
 
 def setup_logger(name):
-    return __setup_logger_core(name, "api.log")
+    return __setup_logger_core(name, f"{util.get_timestamp()}_api.log")
 
 def setup_logger_origin(name):
     return __setup_logger_core(name, "origin.log")

@@ -16,8 +16,11 @@ from ..util import monitoring
 XML_DIR = util.get_timestamp() 
 
 # XML 파일들의 기본 경로
-XML_BASE_PATH = f"res/output/{XML_DIR}/xml" 
+# service
+XML_BASE_PATH = f"/app/res/output/{util.get_timestamp()}/xml"
 
+# dev
+#XML_BASE_PATH = f"res/output/{XML_DIR}/xml" 
 # 회사 관련 XML 파일 경로
 COMPANY_XML_PATH = f"{XML_BASE_PATH}/{KiprisEntityType.COMPANY.value}" 
 
@@ -26,8 +29,11 @@ UNIVERSITY_XML_PATH = f"{XML_BASE_PATH}/{KiprisEntityType.UNIVERSITY.value}"
 
 
 # SQL 파일들이 저장될 기본 경로 (타임스탬프 포함)
-BASIC_SQL_PATH = f"./res/output/{util.get_timestamp()}/sql" 
+# service
+BASIC_SQL_PATH = f"/app/res/output/{util.get_timestamp()}/sql"
 
+# dev
+#BASIC_SQL_PATH = f"./res/output/{util.get_timestamp()}/sql" 
 # 회사 관련 SQL 파일 경로 (주의: KiprisEntityType.UNIVERSITY 사용)
 COMPANY_SQL_PATH = f"{BASIC_SQL_PATH}/{KiprisEntityType.COMPANY.value}" 
 

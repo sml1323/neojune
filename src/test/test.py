@@ -35,4 +35,6 @@ def run():
     util.execute_with_time("sql_to_db", sql_to_db.main, False)
     # dict_to_sql.main()
     # sql_to_db.main()
+    asyncio.run(save_to_xml.main("TB24_210", "xml/university"))
+    dict_to_sql.main()
     pass
