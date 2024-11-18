@@ -6,7 +6,7 @@ from ..enum.TableName import TableName
 
 def __setup_logger_core(name, file_handler):
     # service
-    dir_path = '/app/res/output/log'
+    dir_path = f'/app/res/output/{util.get_timestamp()}/log'
 
     # dev
     # dir_path = f'{util.add_sys_path()}/res/log/'
