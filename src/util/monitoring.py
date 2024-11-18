@@ -1,15 +1,12 @@
 import os, logging
 from ..util import util # 와.. 사람 잡네 이거.. 같은 디렉토리인데 왜 .. 임? 와..... 진짜 너무하다..
+from ..enum.Config import Config
 from ..enum.KiprisEntityType import KiprisEntityType
 from ..enum.ApiType import ApiType
 from ..enum.TableName import TableName
 
 def __setup_logger_core(name, file_handler):
-    # service
-    dir_path = f'/app/res/output/{util.get_timestamp()}/log'
-
-    # dev
-    # dir_path = f'{util.add_sys_path()}/res/log/'
+    dir_path = f'{Config.OUTPUT_PATH.value}/{util.get_timestamp()}/log'
     os.makedirs(dir_path, exist_ok=True)
     pass
     logger = logging.getLogger(name)

@@ -6,28 +6,28 @@ from src.bin.sql_to_db import base, ipc_cpc, priority
 
 # test.run()
 
-# asyncio.run(save_to_xml.run_company_design())
-# asyncio.run(save_to_xml.run_company_patent())
-# asyncio.run(save_to_xml.run_company_trademark())
-# asyncio.run(save_to_xml.run_university_design())
-# asyncio.run(save_to_xml.run_university_patent())
-# asyncio.run(save_to_xml.run_university_trademark())
+asyncio.run(save_to_xml.run_company_design())
+asyncio.run(save_to_xml.run_company_patent())
+asyncio.run(save_to_xml.run_company_trademark())
+asyncio.run(save_to_xml.run_university_design())
+asyncio.run(save_to_xml.run_university_patent())
+asyncio.run(save_to_xml.run_university_trademark())
 
-# xml_to_sql.run_company_design()
-# xml_to_sql.run_company_patent()
-# xml_to_sql.run_company_trademark()
-# xml_to_sql.run_university_design()
-# xml_to_sql.run_university_patent()
-# xml_to_sql.run_university_trademark()
+xml_to_sql.run_company_design()
+xml_to_sql.run_company_patent()
+xml_to_sql.run_company_trademark()
+xml_to_sql.run_university_design()
+xml_to_sql.run_university_patent()
+xml_to_sql.run_university_trademark()
 
 
 
-# dict_to_sql_sub.run_company_design()
-# dict_to_sql_sub.run_company_patent()
-# dict_to_sql_sub.run_company_trademark()
-# dict_to_sql_sub.run_university_design()
-# dict_to_sql_sub.run_university_patent()
-# dict_to_sql_sub.run_university_trademark()
+dict_to_sql_sub.run_company_design()
+dict_to_sql_sub.run_company_patent()
+dict_to_sql_sub.run_company_trademark()
+dict_to_sql_sub.run_university_design()
+dict_to_sql_sub.run_university_patent()
+dict_to_sql_sub.run_university_trademark()
 
 # base.run_company_design()
 # base.run_company_patent()
@@ -37,9 +37,9 @@ from src.bin.sql_to_db import base, ipc_cpc, priority
 # base.run_university_trademark()
 
 
-priority.run_company_design()
-ipc_cpc.run_company_patent()
-priority.run_company_trademark() # err
-priority.run_university_design()
-ipc_cpc.run_university_patent()
-priority.run_university_trademark()
+# priority.run_company_design()
+# ipc_cpc.run_company_patent()
+# priority.run_company_trademark() # err
+# priority.run_university_design()
+# ipc_cpc.run_university_patent()
+# priority.run_university_trademark()

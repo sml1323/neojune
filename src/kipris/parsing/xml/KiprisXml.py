@@ -1,16 +1,14 @@
 import os
 import lxml.etree as ET
 from ....util import util
+from ....enum.Config import Config
 
 class KiprisXml:
     def __init__(self):
         self.root = ET.Element("root")
 
     def __get_file_path(self, file_name, dir_path):
-        # service
-        base_path = "/app/res/output" 
-        # dev
-        # base_path = "res/output" 
+        base_path = Config.OUTPUT_PATH.value
         if dir_path == "":
             return f"{base_path}/{util.get_timestamp()}/{file_name}.xml"
         else:

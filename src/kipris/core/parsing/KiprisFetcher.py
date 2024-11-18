@@ -3,7 +3,8 @@ from .KiprisFetchData import KiprisFetchData
 from .KiprisApplicantInfoFetcher import KiprisApplicantInfoFetcher
 from .KiprisParam import KiprisParam
 from tqdm import tqdm
-from ....util.util import yappi_profiler
+from ....enum.Config import Config
+from ....util import util
 from ....test.prometheus.prometheus import PrometheusDashboard
 
 semaphore = asyncio.Semaphore(20)
@@ -23,8 +24,8 @@ class KiprisFetcher:
     async def get_infos(self, file_name: str = "default.prof", org_type:str = 'comp') -> list:
         # self.prometheus = PrometheusDashboard(org_type=org_type, service_type=file_name)
         # 여기서 yappi_profiler를 동적으로 적용하여 호출
-        base_path = "res/log"
-        profiled_get_infos = yappi_profiler(f'{base_path}/{file_name}')(self.__get_infos)
+        base_path = f"{Config.OUTPUT_PATH.value}/{util.get_timestamp()}/log"
+        profiled_get_infos = util.yappi_profiler(f'{base_path}/{file_name}')(self.__get_infos)
         return await profiled_get_infos()
 
     # async def _get_infos(self) -> list:
