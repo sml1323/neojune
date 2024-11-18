@@ -46,7 +46,7 @@ RUN sed -ri 's/^#.+port.+= 3306/port = 3306/' /etc/mysql/mysql.conf.d/mysqld.cnf
 RUN sed -ri 's/^bind-address.+= 127.0.0.1/bind-address = 0.0.0.0/' /etc/mysql/mysql.conf.d/mysqld.cnf
 
 # SQL 파일 복사
-COPY res/sql/neojune_2024-10-25_133204.sql /root/neojune_2024-10-25_133204.sql
+COPY ../../res/sql/neojune_2024-10-25_133204.sql /root/neojune_2024-10-25_133204.sql
 
 # MySQL 서비스 시작 및 데이터베이스 설정
 RUN service mysql start && \
