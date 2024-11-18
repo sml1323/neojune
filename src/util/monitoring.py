@@ -10,7 +10,7 @@ def __setup_logger_core(name, file_handler):
 
     # dev
     # dir_path = f'{util.add_sys_path()}/res/log/'
-    os.makedirs(os.path.dirname(dir_path), exist_ok=True)
+    os.makedirs(dir_path, exist_ok=True)
     pass
     logger = logging.getLogger(name)
     if not logger.hasHandlers():
