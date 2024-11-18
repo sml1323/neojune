@@ -9,7 +9,7 @@ host_output_path = "/home/ubuntu/app/res/output"
 def create_task(task_id, command, dag):
     return DockerOperator(
         task_id=task_id,
-        image='before_final:1',
+        image='neojune_kipris_service:1.0',
         api_version='auto',
         auto_remove=True,
         command=command,
@@ -26,7 +26,7 @@ def create_task(task_id, command, dag):
     )
 
 with DAG(
-    'neojune_short',
+    'neojune_short_code',
     default_args={'retries': 1},
     description='A DAG with DockerOperator tasks for XML and SQL processing',
     schedule_interval=None,

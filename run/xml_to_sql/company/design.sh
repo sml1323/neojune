@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python main.py --run xml_to_sql company_design
+python main.py xml_to_sql company_design

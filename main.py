@@ -1,6 +1,7 @@
-import argparse
+import sys
 import asyncio
-from src.bin import save_to_xml, xml_to_sql
+from src.bin import save_to_xml, xml_to_sql, dict_to_sql_sub
+from src.bin.sql_to_db import base, ipc_cpc, priority
 from src.util import util
 
 
@@ -21,48 +22,70 @@ module_tasks = {
         'university_patent': xml_to_sql.run_university_patent,
         'university_design': xml_to_sql.run_university_design,
         'university_trademark': xml_to_sql.run_university_trademark,
+    },
+    'dict_to_sql_sub': {
+        'company_patent': dict_to_sql_sub.run_company_patent,
+        'company_design': dict_to_sql_sub.run_company_patent,
+        'company_trademark': dict_to_sql_sub.run_company_patent,
+        'university_patent': dict_to_sql_sub.run_company_patent,
+        'university_design': dict_to_sql_sub.run_company_patent,
+        'university_trademark': dict_to_sql_sub.run_company_patent,
+    },
+    'sql_to_db': {
+        'base': {
+            'company_patent': base.run_company_design,
+            'company_design': base.run_company_patent,
+            'company_trademark': base.run_company_trademark,
+            'university_patent': base.run_university_design,
+            'university_design': base.run_university_patent,
+            'university_trademark': base.run_university_trademark,
+        },
+        'ipc_cpc': {
+            'company_patent': ipc_cpc.run_company_patent,
+            'university_patent': ipc_cpc.run_university_patent,
+        },
+        'priority': {
+            'company_design': priority.run_company_design,
+            'company_trademark': priority.run_company_trademark,
+            'university_design': priority.run_university_design,
+            'university_trademark': priority.run_university_trademark,
+        },
     }
 }
 
-async def main():
-    parser = argparse.ArgumentParser(description="Run specific module tasks")
-    parser.add_argument('--run', nargs='+', help="Specify module and tasks, e.g., 'save_to_xml company_patent'")
-    args = parser.parse_args()
-
-    if not args.run or len(args.run) < 2:
-        print("Usage: python script_name.py --run <module> <task1> <task2> ...")
+# 재귀적으로 딕셔너리 탐색
+async def execute_task(task_tree, keys):
+    if not keys:  # keys가 비어 있으면
+        if callable(task_tree):  # 현재 값이 함수면 실행
+            # 함수가 비동기 함수라면 await
+            if asyncio.iscoroutinefunction(task_tree):
+                await task_tree()
+            else:
+                task_tree()
+        else:
+            print("Error: Task is not executable.")
         return
 
-    module = args.run[0]
-    tasks = args.run[1:]
+    key = keys.pop(0)  # 키를 하나 꺼내고
+    if key in task_tree:  # 해당 키가 트리에 있으면
+        await execute_task(task_tree[key], keys)
+    else:
+        print(f"Error: Key '{key}' not found.")
+
+async def main():
+    args = sys.argv[1:]  # 실행 시 전달된 인자 목록
+    if not args:
+        print("Usage: python main.py <key1> <key2> ...")
+        return
+
+    module = args[0]  # 첫 번째 값은 모듈 이름
+    tasks = args[1:]  # 나머지 값들은 태스크 이름들
 
     if module not in module_tasks:
-        print(f"Error: Unknown module '{module}'")
+        print(f"Error: Module '{module}' not found.")
         return
 
-    # 작업 분류 및 실행
-    if module == 'save_to_xml':  # 비동기 작업 처리
-        async_jobs = []
-        for task in tasks:
-            if task in module_tasks[module]:
-                async_jobs.append(module_tasks[module][task]())
-            else:
-                print(f"Warning: Task '{task}' not found in module '{module}'")
-        
-        async def inner():
-            for job in async_jobs:
-                await job
-    
-        # await util.send_slack_message("neojune", inner)
-        await inner()
-        
+    await execute_task(module_tasks[module], tasks)
 
-    elif module == 'xml_to_sql':  # 동기 작업 처리
-        for task in tasks:
-            if task in module_tasks[module]:
-                module_tasks[module][task]()
-            else:
-                print(f"Warning: Task '{task}' not found in module '{module}'")
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     asyncio.run(main())
