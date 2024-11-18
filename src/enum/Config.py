@@ -1,8 +1,7 @@
+import os
 from enum import Enum
-
+from dotenv import load_dotenv
+load_dotenv()
 class Config(Enum):
     # dev
-    OUTPUT_PATH = "res/output"
-    
-    # public
-    # OUTPUT_PATH = "/app/res/output"
+    OUTPUT_PATH = os.getenv('OUTPUT_PATH')
