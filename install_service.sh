@@ -1,3 +1,3 @@
 #!/bin/bash
-docker build -f ./src/dockerfile/Dockerfile_service -t neojune_kipris_service:1.3 .
+docker build -f ./src/dockerfile/Dockerfile_service -t neojune_kipris_service:2.0 .
 

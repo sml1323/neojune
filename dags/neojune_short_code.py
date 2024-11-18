@@ -9,7 +9,7 @@ host_output_path = "/home/ubuntu/app/res/output"
 def create_task(task_id, command, dag):
     return DockerOperator(
         task_id=task_id,
-        image='neojune_kipris_service:1.0',
+        image='before_final:2',
         api_version='auto',
         auto_remove=True,
         command=command,
@@ -26,7 +26,7 @@ def create_task(task_id, command, dag):
     )
 
 with DAG(
-    'neojune_short_code',
+    'neojune_short',
     default_args={'retries': 1},
     description='A DAG with DockerOperator tasks for XML and SQL processing',
     schedule_interval=None,
@@ -34,7 +34,6 @@ with DAG(
     catchup=False,
 ) as dag:
 
-    # 태스크 파라미터 정의
     tasks_config = [
         ('run_xml_company_design', 'python main.py --run save_to_xml company_design'),
         ('run_xml_company_patent', 'python main.py --run save_to_xml company_patent'),
@@ -50,7 +49,6 @@ with DAG(
         ('run_sql_univ_trademark', 'python main.py --run xml_to_sql university_trademark')
     ]
 
-    # 태스크 생성 및 순서 정의
     previous_task = None
     for task_id, command in tasks_config:
         task = create_task(task_id=task_id, command=command, dag=dag)
