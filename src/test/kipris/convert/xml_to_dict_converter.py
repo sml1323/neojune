@@ -9,7 +9,7 @@ from ....kipris.convert.converter.KiprisPatentXmlToDictConverter import KiprisPa
 from ....kipris.convert.converter.KiprisTrademarkXmlToDictConverter import KiprisTrademarkXmlToDictConverter
 
 from ....util import util
-
+from ....enum.Config import Config
 
 def main():
     # 매핑 사전 정의

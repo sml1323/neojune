@@ -9,11 +9,6 @@ def display_university_data():
     # session_state 초기화 (없으면 1로 설정)
     if "page" not in st.session_state:
         st.session_state.page = 1  # 기본 페이지는 1
-
-    # 페이지 이동 시 첫 페이지로 리셋
-    if 'page' in st.session_state and st.session_state.page != 1:
-        st.session_state.page = 1  # 첫 페이지로 리셋
-        st.rerun()  # 페이지 갱신
         
     # 페이지네이션 변수 설정
     page_size = 50  # 페이지당 데이터 크기
@@ -33,6 +28,11 @@ def display_university_data():
 
     # 페이지 슬라이더 범위 동적 설정
     page = st.sidebar.slider("Page", 1, total_pages, st.session_state.page)
+
+    # 페이지 번호가 변경되면 session_state.page 갱신
+    if page != st.session_state.page:
+        st.session_state.page = page
+        st.rerun()  # 페이지 갱신
 
     # 대학교 데이터 페이징 처리
     university_query = f"SELECT biz_no, corp_no, applicant FROM TB24_110 LIMIT {page_size} OFFSET {(page - 1) * page_size}" 
@@ -99,8 +99,6 @@ def display_university_data():
                 # 페이지 번호 클릭 후 새로고침 (데이터 갱신)
                 st.rerun()  # 페이지 갱신
 
-    # 다운로드 버튼
-    # st.download_button(paged_data, "university_data.csv", "대학교 데이터 다운로드")
     st.download_button(
             label="📥 대학교 데이터 다운로드", 
             data=convert_df_to_excel(paged_data_reset), 

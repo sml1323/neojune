@@ -4,7 +4,9 @@ from datetime import datetime, timedelta
 from db_connection import fetch_data
 
 def display_report():
-    st.subheader("기업 Report 요약(한 달)")
+    st.subheader("기업 Report 요약")
+    st.markdown("한달 전 데이터 대비")
+    st.markdown("<br>", unsafe_allow_html=True) 
 
     # 오늘 날짜, 한달 전 날짜, 하루 전 날짜 계산
     today = datetime.today().strftime('%Y-%m-%d')
@@ -33,7 +35,13 @@ def display_report():
         SELECT 
             COUNT(DISTINCT applicant) AS total_applicants,
             COUNT(DISTINCT CASE WHEN pub_date >= '{one_month_ago}' THEN applicant ELSE NULL END) AS recent_applicants
-        FROM TB24_company_patent
+        FROM (
+            SELECT applicant, pub_date FROM TB24_company_patent
+            UNION ALL
+            SELECT applicant, pub_date FROM TB24_company_design
+            UNION ALL
+            SELECT applicant, pub_date FROM TB24_company_trademark
+        ) AS all_applicants
     """
     
     total_data = fetch_data(total_patents_query)
@@ -112,27 +120,8 @@ def display_report():
     
     st.markdown("<br>", unsafe_allow_html=True) 
 
-    # 기업 등록 추세 (특허, 디자인, 상표)
+    # 기업 등록 추세 
     st.subheader("기업 등록 추세")
-    # 한 달 전 추세
-    date_query_month = f"""
-        SELECT pub_date, 
-            SUM(CASE WHEN ipr_code IN ('10', '20') THEN 1 ELSE 0 END) as patent_count,  -- 특허
-            SUM(CASE WHEN ipr_code = '30' THEN 1 ELSE 0 END) as design_count,           -- 디자인
-            SUM(CASE WHEN ipr_code = '40' THEN 1 ELSE 0 END) as trademark_count         -- 상표
-        FROM (
-            SELECT pub_date, ipr_code FROM TB24_company_patent
-            UNION ALL
-            SELECT pub_date, ipr_code FROM TB24_company_design
-            UNION ALL
-            SELECT pub_date, ipr_code FROM TB24_company_trademark
-        ) AS company_data
-        WHERE pub_date >= '{one_month_ago}'  -- 최근 한 달 데이터만
-        GROUP BY pub_date
-        ORDER BY pub_date
-    """
-    date_data_month = fetch_data(date_query_month)
-
     # 하루 전 추세
     date_query_day = f"""
         SELECT pub_date, 
@@ -152,29 +141,30 @@ def display_report():
     """
     date_data_day = fetch_data(date_query_day)
 
-    # 기업 등록 추세 라인 차트 생성 (한 달 간)
-    line_chart_month = px.line()
-    line_chart_month.add_scatter(x=date_data_month['pub_date'], y=date_data_month['patent_count'], mode='lines', name='한 달 전 특허/실용신안')
-    line_chart_month.add_scatter(x=date_data_month['pub_date'], y=date_data_month['design_count'], mode='lines', name='한 달 전 디자인')
-    line_chart_month.add_scatter(x=date_data_month['pub_date'], y=date_data_month['trademark_count'], mode='lines', name='한 달 전 상표')
-
-    line_chart_month.update_layout(
-        xaxis_title="등록일", 
-        yaxis_title="등록 건수", 
-        legend_title="등록 종류", 
-        title="기업 등록 추세 (한 달 간)", 
-        title_x=0.4  # 제목 가운데 정렬
-    )
-    # 각 트레이스의 레이블 변경
-    line_chart_month.update_traces(name='특허/실용신안 수', selector=dict(name='patent_count'))
-    line_chart_month.update_traces(name='디자인 수', selector=dict(name='design_count'))
-    line_chart_month.update_traces(name='상표 수', selector=dict(name='trademark_count'))
+    # 한달 전 추세
+    date_query_month = f"""
+        SELECT pub_date, 
+            SUM(CASE WHEN ipr_code IN ('10', '20') THEN 1 ELSE 0 END) as patent_count,  -- 특허
+            SUM(CASE WHEN ipr_code = '30' THEN 1 ELSE 0 END) as design_count,           -- 디자인
+            SUM(CASE WHEN ipr_code = '40' THEN 1 ELSE 0 END) as trademark_count         -- 상표
+        FROM (
+            SELECT pub_date, ipr_code FROM TB24_company_patent
+            UNION ALL
+            SELECT pub_date, ipr_code FROM TB24_company_design
+            UNION ALL
+            SELECT pub_date, ipr_code FROM TB24_company_trademark
+        ) AS company_data
+        WHERE pub_date >= '{one_month_ago}'  -- 최근 한 달 데이터만
+        GROUP BY pub_date
+        ORDER BY pub_date
+    """
+    date_data_month = fetch_data(date_query_month)
 
     # 기업 등록 추세 라인 차트 생성 (1일 간)
     line_chart_day = px.line()
-    line_chart_day.add_scatter(x=date_data_day['pub_date'], y=date_data_day['patent_count'], mode='lines', name='하루 전 특허/실용신안', line=dict(dash='dash'))
-    line_chart_day.add_scatter(x=date_data_day['pub_date'], y=date_data_day['design_count'], mode='lines', name='하루 전 디자인', line=dict(dash='dash'))
-    line_chart_day.add_scatter(x=date_data_day['pub_date'], y=date_data_day['trademark_count'], mode='lines', name='하루 전 상표', line=dict(dash='dash'))
+    line_chart_day.add_scatter(x=date_data_day['pub_date'], y=date_data_day['patent_count'], mode='lines', name='특허/실용신안')
+    line_chart_day.add_scatter(x=date_data_day['pub_date'], y=date_data_day['design_count'], mode='lines', name='디자인')
+    line_chart_day.add_scatter(x=date_data_day['pub_date'], y=date_data_day['trademark_count'], mode='lines', name='상표')
 
     line_chart_day.update_layout(xaxis_title="등록일", yaxis_title="등록 건수", legend_title="등록 종류", title="기업 등록 추세 (1일 간)", title_x=0.4)
 
@@ -182,15 +172,30 @@ def display_report():
     line_chart_day.update_traces(name='디자인 수', selector=dict(name='design_count'))
     line_chart_day.update_traces(name='상표 수', selector=dict(name='trademark_count'))
 
+    # 기업 등록 추세 라인 차트 생성 (한달 간)
+    line_chart_month = px.line()
+    line_chart_month.add_scatter(x=date_data_month['pub_date'], y=date_data_month['patent_count'], mode='lines', name='특허/실용신안')
+    line_chart_month.add_scatter(x=date_data_month['pub_date'], y=date_data_month['design_count'], mode='lines', name='디자인')
+    line_chart_month.add_scatter(x=date_data_month['pub_date'], y=date_data_month['trademark_count'], mode='lines', name='상표')
+
+    line_chart_month.update_layout(xaxis_title="등록일", yaxis_title="등록 건수", legend_title="등록 종류", title="기업 등록 추세 (한달 간)", title_x=0.4)
+
+    # 각 트레이스의 레이블 변경
+    line_chart_month.update_traces(name='특허/실용신안 수', selector=dict(name='patent_count'))
+    line_chart_month.update_traces(name='디자인 수', selector=dict(name='design_count'))
+    line_chart_month.update_traces(name='상표 수', selector=dict(name='trademark_count'))
+
     st.plotly_chart(line_chart_day, use_container_width=True)
     st.plotly_chart(line_chart_month, use_container_width=True)
 
     st.markdown("<br><hr><br>", unsafe_allow_html=True)
 
     # 대학교 Report 요약
-    st.subheader("대학교 Report 요약(한 달)")
+    st.subheader("대학교 Report 요약")
+    st.markdown("한달 전 데이터 대비")
+    st.markdown("<br>", unsafe_allow_html=True) 
 
-    # 대학교 특허, 디자인, 상표 통계 요약 (한 달 전과 비교)
+    # 대학교 특허, 디자인, 상표 통계 요약 (한달 전과 비교)
     university_patents_query = f"""
         SELECT 
             COUNT(*) AS total_patents,
@@ -212,7 +217,13 @@ def display_report():
         SELECT 
             COUNT(DISTINCT applicant) AS total_applicants,
             COUNT(DISTINCT CASE WHEN pub_date >= '{one_month_ago}' THEN applicant ELSE NULL END) AS recent_applicants
-        FROM TB24_university_patent
+        FROM (
+            SELECT applicant, pub_date FROM TB24_university_patent
+            UNION ALL
+            SELECT applicant, pub_date FROM TB24_university_design
+            UNION ALL
+            SELECT applicant, pub_date FROM TB24_university_trademark
+        ) AS all_applicants
     """
 
     university_data = fetch_data(university_patents_query)
@@ -233,6 +244,54 @@ def display_report():
     university_change_trademarks = university_recent_trademarks - (university_total_trademarks - university_recent_trademarks)
     university_change_applicants = university_recent_applicants - (university_total_applicants - university_recent_applicants)
 
+    # 하루 전 데이터 가져오기
+    yesterday_university_patents_query = f"""
+        SELECT 
+            COUNT(*) AS yesterday_patents
+        FROM TB24_university_patent
+        WHERE pub_date >= '{one_day_ago}' AND pub_date < '{today}'
+    """
+    
+    yesterday_university_designs_query = f"""
+        SELECT 
+            COUNT(*) AS yesterday_designs
+        FROM TB24_university_design
+        WHERE pub_date >= '{one_day_ago}' AND pub_date < '{today}'
+    """
+    
+    yesterday_university_trademarks_query = f"""
+        SELECT 
+            COUNT(*) AS yesterday_trademarks
+        FROM TB24_university_trademark
+        WHERE pub_date >= '{one_day_ago}' AND pub_date < '{today}'
+    """
+    
+    yesterday_university_applicants_query = f"""
+        SELECT 
+            COUNT(DISTINCT applicant) AS yesterday_applicants
+        FROM TB24_university_patent
+        WHERE pub_date >= '{one_day_ago}' AND pub_date < '{today}'
+    """
+
+    # 하루 전 데이터 가져오기
+    yesterday_university_patents_data = fetch_data(yesterday_university_patents_query)
+    yesterday_university_patents = yesterday_university_patents_data.iloc[0, 0]
+
+    yesterday_university_designs_data = fetch_data(yesterday_university_designs_query)
+    yesterday_university_designs = yesterday_university_designs_data.iloc[0, 0]
+
+    yesterday_university_trademarks_data = fetch_data(yesterday_university_trademarks_query)
+    yesterday_university_trademarks = yesterday_university_trademarks_data.iloc[0, 0]
+
+    yesterday_university_applicants_data = fetch_data(yesterday_university_applicants_query)
+    yesterday_university_applicants = yesterday_university_applicants_data.iloc[0, 0]
+
+    # 하루 전 대비 증감 계산
+    change_university_patents_yesterday = university_recent_patents - yesterday_university_patents
+    change_university_designs_yesterday = university_recent_designs - yesterday_university_designs
+    change_university_trademarks_yesterday = university_recent_trademarks - yesterday_university_trademarks
+    change_university_applicants_yesterday = university_recent_applicants - yesterday_university_applicants
+
     # 대학교 요약 카드 표시
     col1, col2, col3, col4 = st.columns(4)
 
@@ -243,27 +302,9 @@ def display_report():
 
     st.markdown("<br>", unsafe_allow_html=True)
 
-    # 대학교 등록 추세 (특허, 디자인, 상표)
+    # 대학교 등록 추세
     st.subheader("대학교 등록 추세")
-    university_date_query = f"""
-        SELECT pub_date, 
-            SUM(CASE WHEN ipr_code IN ('10', '20') THEN 1 ELSE 0 END) as patent_count,  -- 특허
-            SUM(CASE WHEN ipr_code = '30' THEN 1 ELSE 0 END) as design_count,           -- 디자인
-            SUM(CASE WHEN ipr_code = '40' THEN 1 ELSE 0 END) as trademark_count         -- 상표
-        FROM (
-            SELECT pub_date, ipr_code FROM TB24_university_patent
-            UNION ALL
-            SELECT pub_date, ipr_code FROM TB24_university_design
-            UNION ALL
-            SELECT pub_date, ipr_code FROM TB24_university_trademark
-        ) AS university_data
-        WHERE pub_date >= '{one_month_ago}'  -- 최근 한 달 데이터만
-        GROUP BY pub_date
-        ORDER BY pub_date
-    """
-    university_date_data = fetch_data(university_date_query)
-
-    # 하루 전 데이터 가져오기
+    # 하루 전 추세
     university_date_query_day = f"""
         SELECT pub_date, 
             SUM(CASE WHEN ipr_code IN ('10', '20') THEN 1 ELSE 0 END) as patent_count,  -- 특허
@@ -282,23 +323,50 @@ def display_report():
     """
     university_date_data_day = fetch_data(university_date_query_day)
 
-    # 대학교 등록 추세 라인 차트 생성 (한 달 간)
-    university_line_chart_month = px.line(university_date_data, x='pub_date', y=['patent_count', 'design_count', 'trademark_count'], 
-                                        title="대학교 등록 추세 (한 달 간)")
+    # 한달 전 추세
+    university_date_query_month = f"""
+        SELECT pub_date, 
+            SUM(CASE WHEN ipr_code IN ('10', '20') THEN 1 ELSE 0 END) as patent_count,  -- 특허
+            SUM(CASE WHEN ipr_code = '30' THEN 1 ELSE 0 END) as design_count,           -- 디자인
+            SUM(CASE WHEN ipr_code = '40' THEN 1 ELSE 0 END) as trademark_count         -- 상표
+        FROM (
+            SELECT pub_date, ipr_code FROM TB24_university_patent
+            UNION ALL
+            SELECT pub_date, ipr_code FROM TB24_university_design
+            UNION ALL
+            SELECT pub_date, ipr_code FROM TB24_university_trademark
+        ) AS university_data
+        WHERE pub_date >= '{one_month_ago}'  -- 최근 한 달 데이터만
+        GROUP BY pub_date
+        ORDER BY pub_date
+    """
+    university_date_data_month = fetch_data(university_date_query_month)
 
-    university_line_chart_month.update_layout(xaxis_title="등록일", yaxis_title="등록 건수", legend_title="등록 종류", title_x=0.4)
-    university_line_chart_month.update_traces(name='특허/실용신안 수', selector=dict(name='patent_count'))
-    university_line_chart_month.update_traces(name='디자인 수', selector=dict(name='design_count'))
-    university_line_chart_month.update_traces(name='상표 수', selector=dict(name='trademark_count'))
+    # 대학교 등록 추세 라인 차트 생성 (1일 간)
+    university_line_chart_day = px.line()
+    university_line_chart_day.add_scatter(x=university_date_data_day['pub_date'], y=university_date_data_day['patent_count'], mode='lines', name='특허/실용신안')
+    university_line_chart_day.add_scatter(x=university_date_data_day['pub_date'], y=university_date_data_day['design_count'], mode='lines', name='디자인')
+    university_line_chart_day.add_scatter(x=university_date_data_day['pub_date'], y=university_date_data_day['trademark_count'], mode='lines', name='상표')
 
-    # 하루 전 추세 라인 차트 생성 (1일 간)
-    university_line_chart_day = px.line(university_date_data_day, x='pub_date', y=['patent_count', 'design_count', 'trademark_count'], 
-                                        title="대학교 등록 추세 (1일 간)", line_shape='linear')
-    
-    university_line_chart_day.update_layout(xaxis_title="등록일", yaxis_title="등록 건수", legend_title="등록 종류", title_x=0.4)
+    university_line_chart_day.update_layout(xaxis_title="등록일", yaxis_title="등록 건수", legend_title="등록 종류", title="대학교 등록 추세 (1일 간)", title_x=0.4)
+
+    # 각 트레이스의 레이블 변경
     university_line_chart_day.update_traces(name='특허/실용신안 수', selector=dict(name='patent_count'))
     university_line_chart_day.update_traces(name='디자인 수', selector=dict(name='design_count'))
     university_line_chart_day.update_traces(name='상표 수', selector=dict(name='trademark_count'))
+
+    # 대학교 등록 추세 라인 차트 생성 (한달 간)
+    university_line_chart_month = px.line()
+    university_line_chart_month.add_scatter(x=university_date_data_month['pub_date'], y=university_date_data_month['patent_count'], mode='lines', name='특허/실용신안')
+    university_line_chart_month.add_scatter(x=university_date_data_month['pub_date'], y=university_date_data_month['design_count'], mode='lines', name='디자인')
+    university_line_chart_month.add_scatter(x=university_date_data_month['pub_date'], y=university_date_data_month['trademark_count'], mode='lines', name='상표')
+
+    university_line_chart_month.update_layout(xaxis_title="등록일", yaxis_title="등록 건수", legend_title="등록 종류", title="대학교 등록 추세 (한달 간)", title_x=0.4)
+
+    # 각 트레이스의 레이블 변경
+    university_line_chart_month.update_traces(name='특허/실용신안 수', selector=dict(name='patent_count'))
+    university_line_chart_month.update_traces(name='디자인 수', selector=dict(name='design_count'))
+    university_line_chart_month.update_traces(name='상표 수', selector=dict(name='trademark_count'))
 
     st.plotly_chart(university_line_chart_day, use_container_width=True)
     st.plotly_chart(university_line_chart_month, use_container_width=True)
