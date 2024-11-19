@@ -6,7 +6,7 @@ from tqdm import tqdm
 from ....util.util import yappi_profiler
 from ....test.prometheus.prometheus import PrometheusDashboard
 
-semaphore = asyncio.Semaphore(20)
+semaphore = asyncio.Semaphore(40)
 
 class KiprisFetcher:
     def __init__(self, url:str='', params:list[KiprisParam]=[KiprisParam()]):
@@ -15,9 +15,8 @@ class KiprisFetcher:
 
     async def __task(self, param: KiprisParam, session: aiohttp.ClientSession):
         info = KiprisApplicantInfoFetcher(self.url, param)
-        self.prometheus.api_counter_plus()
-        result = await info.get_info(session)  # session 전달
-        self.prometheus.api_response_time()
+        result = await info.get_info(session, self.prometheus)  # session 전달
+        self.prometheus.api_total_time()
         return result
     
     async def get_infos(self, file_name: str = "default.prof", org_type:str = 'comp') -> list:

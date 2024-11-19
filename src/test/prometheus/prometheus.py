@@ -44,7 +44,7 @@ class PrometheusDashboard:
         self.job_duration.set(endtime - self.starttime)
         self.__push_to_gateway()
 
-    def api_response_time(self) -> None:
+    def api_total_time(self) -> None:
         """
         전체 작업의 소요 시간을 기록하고, 메트릭을 Push Gateway에 전송합니다.
         """
