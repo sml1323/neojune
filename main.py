@@ -25,11 +25,11 @@ module_tasks = {
     },
     'dict_to_sql_sub': {
         'company_patent': dict_to_sql_sub.run_company_patent,
-        'company_design': dict_to_sql_sub.run_company_patent,
-        'company_trademark': dict_to_sql_sub.run_company_patent,
+        'company_design': dict_to_sql_sub.run_company_design,
+        'company_trademark': dict_to_sql_sub.run_company_trademark,
         'university_patent': dict_to_sql_sub.run_company_patent,
-        'university_design': dict_to_sql_sub.run_company_patent,
-        'university_trademark': dict_to_sql_sub.run_company_patent,
+        'university_design': dict_to_sql_sub.run_company_design,
+        'university_trademark': dict_to_sql_sub.run_company_trademark,
     },
     'sql_to_db': {
         'base': {
