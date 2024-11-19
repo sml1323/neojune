@@ -370,25 +370,3 @@ def display_report():
 
     st.plotly_chart(university_line_chart_day, use_container_width=True)
     st.plotly_chart(university_line_chart_month, use_container_width=True)
-
-
-    # # 대학교 등록 추세 라인 차트 생성 (1일 간)
-    # university_line_chart_day = px.line(university_date_data_day, x='pub_date', y=['patent_count', 'design_count', 'trademark_count'], 
-    #                                     title="대학교 등록 추세 (1일 간)", line_shape='linear')
-    
-    # university_line_chart_day.update_layout(xaxis_title="등록일", yaxis_title="등록 건수", legend_title="등록 종류", title_x=0.4)
-    # university_line_chart_day.update_traces(name='특허/실용신안 수', selector=dict(name='patent_count'))
-    # university_line_chart_day.update_traces(name='디자인 수', selector=dict(name='design_count'))
-    # university_line_chart_day.update_traces(name='상표 수', selector=dict(name='trademark_count'))
-
-    # # 대학교 등록 추세 라인 차트 생성 (한 달 간)
-    # university_line_chart_month = px.line(university_date_data, x='pub_date', y=['patent_count', 'design_count', 'trademark_count'], 
-    #                                     title="대학교 등록 추세 (한달 간)")
-
-    # university_line_chart_month.update_layout(xaxis_title="등록일", yaxis_title="등록 건수", legend_title="등록 종류", title_x=0.4)
-    # university_line_chart_month.update_traces(name='특허/실용신안 수', selector=dict(name='patent_count'))
-    # university_line_chart_month.update_traces(name='디자인 수', selector=dict(name='design_count'))
-    # university_line_chart_month.update_traces(name='상표 수', selector=dict(name='trademark_count'))
-
-    # st.plotly_chart(university_line_chart_day, use_container_width=True)
-    # st.plotly_chart(university_line_chart_month, use_container_width=True)
