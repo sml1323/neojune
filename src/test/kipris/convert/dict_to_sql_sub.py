@@ -5,14 +5,15 @@ from ....kipris.convert.converter.KiprisPatentXmlToDictConverter import KiprisPa
 from ....kipris.convert.converter.KiprisTrademarkXmlToDictConverter import KiprisTrademarkXmlToDictConverter
 
 from ....util import util
+from ....enum.Config import Config
 
 
 
 def main():
 
     ### 기본 경로 
-    base_path = f"res/output/{util.get_timestamp()}/xml"
-    basic_save_path = f"./res/output/{util.get_timestamp()}/sql"
+    base_path = f"{Config.OUTPUT_PATH.value}/{util.get_timestamp()}/xml"
+    basic_save_path = f"{Config.OUTPUT_PATH.value}/{util.get_timestamp()}/sql"
 
     # base_path = f"res/output/20241114/xml"
     # basic_save_path = f"./res/output/20241114/sql"
