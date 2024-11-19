@@ -1,13 +1,16 @@
 FROM namugach/ubuntu-basic:24.04-kor
 WORKDIR /root
 
+# 파일 복사
+COPY . /root/temp
+
 RUN apt-get update
 
 # Nginx, MySQL 서버, 및 MySQL 개발 라이브러리 설치
 RUN apt-get install -y nginx mysql-server pkg-config libmysqlclient-dev
 
-# 데이터 분석 및 데이터베이스 연결을 위한 Python 라이브러리 설치
-RUN pip install pandas mysqlclient numpy openpyxl requests xmltodict python-dotenv
+# Python 라이브러리 설치
+RUN pip install -r /root/temp/src/install/dev/requirements.txt
 
 #### 여기부터 SSH 
 RUN mkdir /var/run/sshd
@@ -45,9 +48,6 @@ RUN sed -ri 's/^#.+port.+= 3306/port = 3306/' /etc/mysql/mysql.conf.d/mysqld.cnf
 # MySQL 바인딩 주소 변경
 RUN sed -ri 's/^bind-address.+= 127.0.0.1/bind-address = 0.0.0.0/' /etc/mysql/mysql.conf.d/mysqld.cnf
 
-# SQL 파일 복사
-COPY ../../res/sql/neojune_2024-10-25_133204.sql /root/neojune_2024-10-25_133204.sql
-
 # MySQL 서비스 시작 및 데이터베이스 설정
 RUN service mysql start && \
     # 데이터베이스 생성 및 사용자 권한 설정
@@ -56,9 +56,14 @@ RUN service mysql start && \
     GRANT ALL PRIVILEGES ON *.* TO 'ubuntu'@'%' WITH GRANT OPTION; \
     FLUSH PRIVILEGES;" && \
     # SQL 파일 실행
-    mysql -u root neojune < /root/neojune_2024-10-25_133204.sql && \
+    mysql -u root neojune < /root/temp/res/sql/create_table.sql && \
+    mysql -u root neojune < /root/temp/res/sql/data/kipris_tb24_100_2024-11-11_211316.sql && \
+    mysql -u root neojune < /root/temp/res/sql/data/kipris_tb24_200_2024-11-11_211323.sql && \
+    mysql -u root neojune < /root/temp/res/sql/data/kipris_tb24_110_2024-11-11_211054.sql && \
+    mysql -u root neojune < /root/temp/res/sql/data/kipris_tb24_210_2024-11-11_211329.sql && \
     # SQL 파일 삭제
-    rm /root/neojune_2024-10-25_133204.sql
+    rm -rf /root/temp
+
 
 RUN echo "[mysqld]\n \
     character-set-server=utf8\n \
