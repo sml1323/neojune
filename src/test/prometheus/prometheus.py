@@ -26,7 +26,7 @@ class PrometheusDashboard:
         self.base_txt = f'{self.org_type}_{self.service_type}'
         self.api_counter = Counter(f'{self.base_txt}_api_requests_total', 'API 호출 카운터', registry=self.registry)
         self.job_duration = Gauge(f'{self.base_txt}_duration', '호출 건당 작업 소요 시간', registry=self.registry)
-        self.total_time = Gauge(f'{self.base_txt}_tital_time', '총 작업 소요시간', registry=self.registry)
+        self.total_time = Gauge(f'{self.base_txt}_total_time', '총 작업 소요시간', registry=self.registry)
 
     def api_counter_plus(self) -> None:
         """
