@@ -21,9 +21,9 @@ UNIVERSITY_DIR_PATH = f"xml/{KiprisEntityType.UNIVERSITY.value}"
 # COMPANY_APPLICANT_NUMBERS = mysql.get_all_company_no_id()
 # UNIVERSITY_APPLICANT_NUMBERS = mysql.get_all_university_no_id()
 
-# 테스트 데이터
-COMPANY_APPLICANT_NUMBERS = mysql.get_limit_company_no_id(limit=100) 
-UNIVERSITY_APPLICANT_NUMBERS = mysql.get_limit_company_no_id(limit=100) 
+# # 테스트 데이터
+COMPANY_APPLICANT_NUMBERS = mysql.get_limit_company_no_id(limit=10) 
+UNIVERSITY_APPLICANT_NUMBERS = mysql.get_limit_company_no_id(limit=10) 
 
 async def run_company_patent():
     monitoring.setup_bin_logger(TableName.TB24_200, KiprisEntityType.COMPANY, ApiType.PATENT)

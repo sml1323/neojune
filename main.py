@@ -33,11 +33,11 @@ module_tasks = {
     },
     'sql_to_db': {
         'base': {
-            'company_patent': base.run_company_design,
-            'company_design': base.run_company_patent,
+            'company_patent': base.run_company_patent,
+            'company_design': base.run_company_design,
             'company_trademark': base.run_company_trademark,
-            'university_patent': base.run_university_design,
-            'university_design': base.run_university_patent,
+            'university_patent': base.run_university_patent,
+            'university_design': base.run_university_design,
             'university_trademark': base.run_university_trademark,
         },
         'ipc_cpc': {
