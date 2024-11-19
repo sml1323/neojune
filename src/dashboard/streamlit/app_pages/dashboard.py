@@ -87,39 +87,35 @@ def display_dashboard_summary():
     st.markdown("<br>", unsafe_allow_html=True) 
 
     # 기업 및 대학별 일일 업데이트 데이터
-    st.subheader("🔍 **기업 및 대학별 일일 Update**")
+    st.subheader("**Daily Update**")
 
     # 기업 일일 업데이트
     daily_company_query = """
         SELECT applicant, service_type, COUNT(*) as daily_count, legal_status_desc, update_date
         FROM daily_update_company
-        WHERE update_date = CURDATE()
         GROUP BY applicant, service_type, legal_status_desc, update_date;  
     """
     daily_company_data = fetch_data(daily_company_query)
-    if not daily_company_data.empty:
-        st.subheader("기업 일일 등록 업데이트")
-        st.dataframe(daily_company_data, use_container_width=True)
 
     # 대학 일일 업데이트
     daily_university_query = """
         SELECT applicant, service_type, COUNT(*) as daily_count, legal_status_desc, update_date
         FROM daily_update_university
-        WHERE update_date = CURDATE()
         GROUP BY applicant, service_type, legal_status_desc, update_date;
     """
     daily_university_data = fetch_data(daily_university_query)
-    if not daily_university_data.empty:
-        st.subheader("대학 일일 등록 업데이트")
-        st.dataframe(daily_university_data, use_container_width=True)
 
     # 기업별 일일 업데이트 데이터 표시
     st.markdown("📍 **기업별 Daily Update 산업재산권**")
-    st.dataframe(daily_company_data.rename(columns={'applicant': '기업명', 'service_type': '등록 종류', 'legal_status_desc': '법적 상태', 'daily_count': '등록 건수', 'update_date': '변경일'}), use_container_width=True)
+    daily_company_data_reset = daily_company_data.reset_index(drop=True)
+    daily_company_data_reset.index += 1
+    st.dataframe(daily_company_data_reset.rename(columns={'applicant': '기업명', 'service_type': '등록 종류', 'legal_status_desc': '법적 상태', 'daily_count': '등록 건수', 'update_date': '변경일'}), use_container_width=True)
 
     # 대학별 일일 업데이트 데이터 표시
     st.markdown("📍 **대학별 Daily Update 산업재산권**")
-    st.dataframe(daily_university_data.rename(columns={'applicant': '대학명', 'service_type': '등록 종류', 'legal_status_desc': '법적 상태', 'daily_count': '등록 건수', 'update_date': '변경일'}), use_container_width=True)
+    daily_university_data_reset = daily_university_data.reset_index(drop=True)
+    daily_university_data_reset.index += 1
+    st.dataframe(daily_university_data_reset.rename(columns={'applicant': '대학명', 'service_type': '등록 종류', 'legal_status_desc': '법적 상태', 'daily_count': '등록 건수', 'update_date': '변경일'}), use_container_width=True)
 
     st.markdown("<br>", unsafe_allow_html=True) 
 
