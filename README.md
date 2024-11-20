@@ -1,68 +1,264 @@
-## Ubuntu 24.04 기반 LEMP 스택 데이터 분석 환경 (SSH 포함)
+## KIPRIS 데이터 수집 및 분석 시스템
 
 ### 개요
 
-이 Docker 이미지는 Ubuntu 24.04 (한국어 지원)를 기반으로 Nginx 웹 서버, MySQL 데이터베이스, Python 데이터 분석 라이브러리, SSH 서버를 포함하는 데이터 분석 환경을 제공합니다. 한국어 로케일과 글꼴을 지원하며, SSH를 통해 안전하게 컨테이너에 접속하여 데이터 분석 작업을 수행하고 관리할 수 있습니다. 
+이 프로젝트는 한국 특허정보검색시스템 (KIPRIS) Open API를 통해 특허, 상표, 디자인 데이터를 수집하고 분석하는 시스템입니다. 수집된 데이터는 MySQL 데이터베이스에 저장되며, Streamlit 기반의 대시보드를 통해 시각화 및 분석 결과를 확인할 수 있습니다. Airflow를 사용하여 데이터 수집 및 처리 과정을 자동화하고 스케줄링합니다. 또한, Prometheus와 Grafana를 통해 시스템 성능 및 API 호출 상태를 모니터링하여 안정적인 시스템 운영을 지원합니다.
 
 ### 주요 기능
 
-* **웹 서버:** Nginx
-* **데이터베이스:** MySQL 8
-* **데이터 분석:** Pandas, NumPy, Openpyxl
-* **KIPRIS API 연동:** requests, xmltodict, python-dotenv
-* **운영 체제:** Ubuntu 24.04 (한국어 지원)
-* **원격 접속:** SSH 서버 (root 계정 접속, SSH 키 기반 인증 지원)
+* **데이터 수집:** KIPRIS Open API를 통해 특허, 상표, 디자인 데이터를 XML 형식으로 수집합니다.
+* **데이터 변환:** 수집된 XML 데이터를 파싱하고, 데이터베이스에 저장하기 위한 SQL 쿼리로 변환합니다.
+* **데이터베이스 저장:** 변환된 데이터를 MySQL 데이터베이스에 저장합니다.
+* **데이터 분석 및 시각화:** Pandas, Plotly 등을 사용하여 데이터를 분석하고 Streamlit 대시보드를 통해 시각화합니다.
+* **자동화 및 스케줄링:** Airflow를 사용하여 데이터 수집 및 처리 과정을 자동화하고 스케줄링합니다.
+* **모니터링:** Prometheus 및 Grafana를 통해 시스템 성능 및 API 호출 상태를 모니터링합니다.
 
-### 설치 방법
+### 시스템 아키텍처
 
-1. **Docker 이미지 빌드:**
-
-```bash
-chmod +x install.sh
-./install.sh
+```
++-----------------+     +-----------------+     +-----------------+     +-----------------+     +-----------------+
+| KIPRIS Open API |---->| Data Fetcher    |---->| XML Parser      |---->| SQL Converter   |---->| MySQL Database  |
++-----------------+     +-----------------+     +-----------------+     +-----------------+     +-----------------+
+                                                                        ^
+                                                                        |
+                                                                        +------+---------------------+
+                                                                        ^      |    Data Analyzer    |
+                                                                        |      +---------------------+
+                                                                        |                 |
+                                                                        |                 V
+                                    +-------------------+---------------+      +---------------------+
+                                    | Prometheus        |  Metrics      |      | Streamlit Dashboard |
+                                    +-------------------+---------------+      +---------------------+
+                                                |                                         ^
+                                                V                                         |
+                                    +-------------------+---------------+      +----------------------+
+                                    | Grafana           |  Dashboard    |      | flask Dashboard      |
+                                    +-------------------+---------------+      +----------------------+
 ```
 
-2. **Docker 컨테이너 실행:** `install.sh` 스크립트 실행 시 자동으로 컨테이너가 실행됩니다.
+### 설치 및 실행 방법
+
+
+- **Docker 컨테이너 실행 (개발 환경):**
 
 ```bash
-docker container run -itd -p 80:8080 -v ./:/root/work --name neojune ubuntu-neojune:24.04-kor-nmp
+./install_dev.sh
 ```
 
-- `-p 80:8080`: 호스트 시스템의 80번 포트를 컨테이너의 8080번 포트로 연결 (웹 서버 접속)
-- `-v ./:/root/work`: 현재 디렉토리를 컨테이너의 `/root/work` 디렉토리에 마운트 (호스트와 컨테이너 간 파일 공유)
-- `--name neojune`: 컨테이너 이름을 `neojune`으로 설정
-
-3. **MySQL 데이터베이스 초기화:** `install.sh` 스크립트 실행 시 자동으로 SQL 파일을 이용하여 데이터베이스를 초기화합니다.
+- **Docker 컨테이너 실행 (운영 환경):**
 
 ```bash
-docker container exec -i test mysql -u root neojune < res/sql/neojune_2024-10-25_133204.sql
+./install_public.sh
+```
+- **Airflow 초기화 및 실행:**
+```bash
+./run/airflow/init.sh # airflow 초기화
+./run/airflow/server.sh # airflow 실행
+```
+- **데이터 수집 및 처리 (Airflow DAG 실행):**
+
+```bash
+airflow dags trigger all_task-1.0 # 전체 태스크 실행
+airflow dags trigger except-task # xml 제외 전체 태스크 실행
 ```
 
-- `docker container exec`: 실행 중인 컨테이너 내부에서 명령어 실행
-- `mysql -u root neojune < res/sql/neojune_2024-10-25_133204.sql`: `neojune` 데이터베이스에 SQL 파일 (res/sql/neojune_2024-10-25_133204.sql)을 import
+- **Streamlit 대시보드 실행:**
 
-### 사용 방법
+```bash
+./run/dashboard/all.sh
+```
 
-* **웹 서버 접속:** 브라우저에서 `http://localhost`로 접속합니다. 
-* **MySQL 접속:**
-- 호스트 시스템에서 MySQL 클라이언트를 사용하여 `localhost:3306`에 접속합니다.
-- 사용자 이름: `ubuntu`, 비밀번호: `1234`
-* **SSH 접속:** 터미널에서 `ssh root@localhost` 명령어를 사용하여 SSH로 접속합니다.
-- 비밀번호: Dockerfile에서 설정한 `$PASSWORD` (Dockerfile 내 `echo 'root:$PASSWORD' | chpasswd` 부분에서 `$PASSWORD`를 원하는 비밀번호로 변경해야 합니다.)
-* **데이터 분석:** 컨테이너 내부에서 Python 스크립트를 실행하여 데이터 분석 작업을 수행할 수 있습니다. `/root/work` 디렉토리에 Python 스크립트를 저장하면 호스트 시스템에서 해당 스크립트에 접근하고 수정할 수 있습니다.
+- **시스템 모니터링:** Prometheus 및 Grafana를 사용하여 시스템 및 API 호출 상태를 모니터링합니다. (자세한 설정 방법은 Prometheus 및 Grafana 문서 참조)
 
-### 환경 설정
 
-* **root 비밀번호:** Dockerfile에서 `$PASSWORD`를 원하는 비밀번호로 변경합니다.
-* **MySQL 데이터베이스:**  `neojune` 데이터베이스가 기본적으로 생성됩니다. 필요에 따라 추가 데이터베이스를 생성할 수 있습니다.
-* **MySQL 사용자:**  `ubuntu` 사용자가 모든 권한을 가지고 생성됩니다. 필요에 따라 사용자를 추가하거나 권한을 수정할 수 있습니다.
+### 디렉토리 구조
 
-### 추가 정보
+```
+├── src
+│   ├── airflow
+│   │   └── dag
+│   │       ├── all_task.py  # Airflow DAG 정의 파일
+│   │       └── all_task_except_xml.py  # XML 수집 제외 Airflow DAG 정의 파일
+│   ├── bin
+│   │   ├── save_to_xml.py      # XML 데이터 수집 모듈
+│   │   ├── xml_to_sql.py      # XML to SQL 변환 모듈
+│   │   └── sql_to_db          # SQL to Database 적재 모듈
+│   │       ├── base.py
+│   │       ├── ipc_cpc.py
+│   │       └── priority.py
+│   ├── dashboard
+│   │   ├── flask
+│   │   │   └── app.py         # Flask 웹 애플리케이션
+│   │   └── streamlit
+│   │       ├── app_pages     # Streamlit 페이지 모듈
+│   │       │   ├── company_analyze.py
+│   │       │   ├── company_data.py
+│   │       │   ├── dashboard.py
+│   │       │   ├── legal_status.py
+│   │       │   └── report.py # report
+│   │       ├── db_connection.py # db 연결 정보
+│   │       └── main.py        # Streamlit 메인 애플리케이션
+│   ├── db
+│   │   └── mysql.py           # MySQL 데이터베이스 연동 모듈
+│   ├── enum
+│   │   ├── ApiType.py
+│   │   ├── Config.py
+│   │   ├── KiprisEntityType.py
+│   │   └── TableName.py
+│   ├── kipris
+│   │   ├── core
+│   │   │   ├── KiprisObject.py
+│   │   │   ├── parsing
+│   │   │   │   ├── KiprisApplicantInfoFetcher.py
+│   │   │   │   ├── KiprisFetchData.py
+│   │   │   │   └── KiprisParam.py
+│   │   │   ├── prosess
+│   │   │   │   └── KiprisXmlFileGenerator.py
+│   │   │   └── upload
+│   │   │       └── KiprisDataBatchUploader.py
+│   │   ├── parsing
+│   │   │   ├── fetcher
+│   │   │   │   ├── KiprisDesignFetcher.py
+│   │   │   │   ├── KiprisPatentFetcher.py
+│   │   │   │   └── KiprisTrademarkFetcher.py
+│   │   │   ├── xml
+│   │   │   │   ├── KiprisXml.py
+│   │   │   │   ├── KiprisXmlData.py
+│   │   │   │   └── KiprisXmlDataGenerator.py
+│   │   │   └── params # pram이 아니라 params 폴더명 오타
+│   │   │       ├── KiprisDesignPram.py
+│   │   │       ├── KiprisPatentParam.py
+│   │       │       └── KiprisTrademarkParam.py
+│   │   ├── convert
+│   │   │   ├── cartridge
+│   │   │   │   ├── KiprisDesignDataCartridge.py
+│   │   │   │   ├── KiprisPatentDataCartridge.py
+│   │   │   │   └── KiprisTrademarkDataCartridge.py
+│   │   │   ├── converter
+│   │   │   │   ├── KiprisDesignXmlToDictConverter.py
+│   │   │   │   ├── KiprisPatentXmlToDictConverter.py
+│   │   │   │   └── KiprisTrademarkXmlToDictConverter.py
+│   │   │   └── mapper
+│   │   │       ├── KiprisDesignXmlMapper.py
+│   │   │       ├── KiprisIpcXmlMapper.py
+│   │   │       ├── KiprisPatentXmlMapper.py
+│   │   │       └── KiprisTrademarkXmlMapper.py
+│   │   └── upload
+│   │       └── uploader
+│   │           ├── KiprisTB24DesignDataUploader.py
+│   │           ├── KiprisTB24PatentDataUploader.py
+│   │           └── KiprisTB24TrademarkDataUploader.py
 
-* **SSH 키 기반 인증:**  Dockerfile에서 생성된 SSH 키를 사용하여 비밀번호 없이 SSH 접속을 설정할 수 있습니다.
-* **Nginx 설정:** `/etc/nginx` 디렉토리에서 Nginx 설정 파일을 수정할 수 있습니다.
-* **MySQL 설정:** `/etc/mysql/mysql.conf.d/mysqld.cnf` 파일에서 MySQL 설정을 변경할 수 있습니다.
+│   └── util
+│       ├── monitoring.py
+│       └── util.py
+├── main.py                   # 메인 실행 파일
+├── debug.py                  # 디버깅용 스크립트
+├── install_dev.sh             # 개발 환경 설치 스크립트
+├── install_public.sh        # 운영 환경 설치 스크립트
+├── run
+│   ├── airflow
+│   │   ├── init.sh           # Airflow 초기화 스크립트
+│   │   ├── server.sh         # Airflow 서버 실행 스크립트
+│   │   └── stop.sh           # Airflow 서버 중지 스크립트
+│   ├── all_stop_server.sh # airflow, flask, streamlit 서버 중지
+│   ├── dashboard
+│   │   ├── all.sh            # 모든 대시보드 실행
+│   │   ├── flask.sh          # Flask 대시보드 실행
+│   │   ├── stop.sh           # 대시보드 중지 스크립트
+│   │   └── streamlit.sh     # Streamlit 대시보드 실행
+│   ├── save_to_xml           # XML 데이터 수집 스크립트
+│   │   ├── company
+│   │   │   ├── design.sh
+│   │   │   ├── patent.sh
+│   │   │   └── trademark.sh
+│   │   └── university
+│   │       ├── design.sh
+│   │       ├── patent.sh
+│   │       └── trademark.sh
+│   ├── sql_to_db           # SQL to DB 스크립트
+│   │   ├── base
+│   │   │   ├── company
+│   │   │   │   ├── design.sh
+│   │   │   │   ├── patent.sh
+│   │   │   │   └── trademark.sh
+│   │   │   └── university
+│   │   │       ├── design.sh
+│   │   │       ├── patent.sh
+│   │   │       └── trademark.sh
+│   │   ├── ipc_cpc
+│   │   │   ├── company
+│   │   │   │   └── patent.sh
+│   │   │   └── university
+│   │   │       └── patent.sh
+│   │   └── priority
+│   │       ├── company
+│   │       │   ├── design.sh
+│   │       │   └── trademark.sh
+│   │       └── university
+│   │           ├── design.sh
+│   │           └── trademark.sh
+
+│   ├── test.sh                # 테스트 스크립트
+│   └── xml_to_sql           # XML to SQL 스크립트
+│       ├── company
+│       │   ├── design.sh
+│       │   ├── patent.sh
+│       │   └── trademark.sh
+│       └── university
+│           ├── design.sh
+│           ├── patent.sh
+│           └── trademark.sh
+├── test                      # 테스트 디렉토리
+│   ├── all_conn
+│   │   └── all_conn.py
+│   ├── blocked_users
+│   │   └── blocked_users.py
+│   ├── count.py
+│   ├── kipris
+│   │   ├── convert
+│   │   │   ├── dict_to_sql.py
+│   │   │   └── dict_to_sql_sub.py
+│   │   ├── parsing
+│   │   │   ├── applicant_info_fetcher.py
+│   │   │   ├── fetcher.py
+│   │   │   ├── fetcher_data.py
+│   │   │   └── param.py
+│   │   └── upload
+│   │       └── uploader.py
+│   ├── prometheus
+│   │   └── prometheus.py
+│   ├── save_to_db
+│   │   └── sql_to_db.py
+│   └── save_to_xml          
+│       ├── api_modules
+│       │    ├── biz_api.py  
+│       │    ├── design_api.py  
+│       │    ├── patent_api.py  
+│       │    └── trademark_api.py  
+│       └── save_to_xml.py
+
+└── README.md
+
+```
+
+### 주요 모듈 설명
+
+* **`src/kipris`:** KIPRIS Open API 연동 및 데이터 처리 관련 모듈들을 포함합니다.
+    * **`core`:** 핵심 기능 구현 (파라미터 처리, 데이터 변환 등)
+    * **`parsing`:** API 데이터 파싱 및 XML 생성
+    * **`convert`:** XML 데이터를 SQL 쿼리로 변환
+    * **`upload`:** 데이터베이스 업로드 기능
+* **`src/bin`:**  데이터 수집, 변환, 적재를 위한 실행 스크립트들을 포함합니다.
+* **`src/dashboard`:**  데이터 시각화 및 분석 대시보드 관련 모듈들을 포함합니다.
+* **`src/db`:** 데이터베이스 연동 모듈
+* **`src/enum`:**  Enum 클래스 정의
+* **`src/test`:** 테스트 코드
+* **`src/util`:**  유틸리티 함수 모듈 (로깅, 시간 측정 등)
+
+
 
 ### 라이선스
 
-MIT License 
+MIT License
+
