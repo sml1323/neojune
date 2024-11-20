@@ -7,7 +7,7 @@ from ....enum.Config import Config
 from ....util import util
 from ....test.prometheus.prometheus import PrometheusDashboard
 
-semaphore = asyncio.Semaphore(20)
+semaphore = asyncio.Semaphore(40)
 
 class KiprisFetcher:
     def __init__(self, url:str='', params:list[KiprisParam]=[KiprisParam()]):
