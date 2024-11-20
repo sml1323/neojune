@@ -24,7 +24,6 @@ class KiprisApplicantInfoFetcher:
         self.fail_count = 0
         self.session = None
         self.params = param
-        self.semaphore = asyncio.Semaphore(20)
 
     async def __open_session(self):
         """ClientSession을 열어서 여러 요청에서 공유"""
@@ -45,7 +44,7 @@ class KiprisApplicantInfoFetcher:
     async def __fetch_content(self, page: int) -> str:
         """API 호출 후 페이지 내용 반환"""
         self.params.docsStart = page
-        async with self.semaphore:
+        async with KiprisFetcher.semaphore:
             logger.info("호출 성공") 
             await asyncio.sleep(random.uniform(0.01, 0.06))
             async with self.session.get(self.url, params=self.params.get_dict(), timeout=10) as response:
