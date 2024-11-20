@@ -1,4 +1,5 @@
 .vscode
+.cursorrules
 .env
 __pycache__
 *.xlsx
