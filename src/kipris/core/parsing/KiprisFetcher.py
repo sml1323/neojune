@@ -13,7 +13,6 @@ class KiprisFetcher:
     def __init__(self, url:str='', params:list[KiprisParam]=[KiprisParam()]):
         self.url = url
         self.params = params
-        self.semaphore = asyncio.Semaphore(20)
 
     async def __task(self, param: KiprisParam, session: aiohttp.ClientSession):
         info = KiprisApplicantInfoFetcher(self.url, param)
