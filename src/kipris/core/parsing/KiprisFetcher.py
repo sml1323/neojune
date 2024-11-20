@@ -7,7 +7,7 @@ from ....enum.Config import Config
 from ....util import util
 from ....test.prometheus.prometheus import PrometheusDashboard
 
-semaphore = asyncio.Semaphore(40)
+semaphore = asyncio.Semaphore(45)
 
 class KiprisFetcher:
     def __init__(self, url:str='', params:list[KiprisParam]=[KiprisParam()]):
@@ -16,13 +16,14 @@ class KiprisFetcher:
 
     async def __task(self, param: KiprisParam, session: aiohttp.ClientSession):
         info = KiprisApplicantInfoFetcher(self.url, param)
-        # self.prometheus.api_counter_plus()
-        result = await info.get_info(session)  # session 전달
-        # self.prometheus.api_response_time()
+        # self.prometheus.api_counter_plus() 
+        result = await info.get_info(session, self.prometheus)
+        # result = await info.get_info(session)  # session 전달
+        self.prometheus.api_total_time()
         return result
-    
+
     async def get_infos(self, file_name: str = "default.prof", org_type:str = 'comp') -> list:
-        # self.prometheus = PrometheusDashboard(org_type=org_type, service_type=file_name)
+        self.prometheus = PrometheusDashboard(org_type=org_type, service_type=file_name)
         # 여기서 yappi_profiler를 동적으로 적용하여 호출
         base_path = f"{Config.OUTPUT_PATH.value}/{util.get_timestamp()}/log"
         profiled_get_infos = util.yappi_profiler(f'{base_path}/{file_name}')(self.__get_infos)

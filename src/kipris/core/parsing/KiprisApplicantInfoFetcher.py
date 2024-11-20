@@ -8,6 +8,7 @@ from .KiprisFetchData import KiprisFetchData
 from .KiprisParam import KiprisParam
 from ...core.parsing import KiprisFetcher
 from ....util import monitoring
+from ....test.prometheus.prometheus import PrometheusDashboard
 
 load_dotenv()
 service_key = os.getenv('SERVICE_KEY')
@@ -46,9 +47,13 @@ class KiprisApplicantInfoFetcher:
         self.params.docsStart = page
         async with KiprisFetcher.semaphore:
             logger.info("호출 성공") 
-            await asyncio.sleep(random.uniform(0.01, 0.06))
+            await asyncio.sleep(random.uniform(0.01, 0.03))
+            # await asyncio.sleep(0.02)
+            self.prometheus.api_counter_plus()
             async with self.session.get(self.url, params=self.params.get_dict(), timeout=10) as response:
-                return await response.text()
+                result = await response.text()
+                self.prometheus.api_response_time()
+                return result
 
     def __get_total_count(self, content: str) -> int:
         """lxml을 사용하여 XML 응답에서 totalCount 또는 TotalSearchCount 값을 추출"""
@@ -92,7 +97,7 @@ class KiprisApplicantInfoFetcher:
                 if total_count == -1:
                     return False # totalCount 추출 실패시 함수 종료
                 self.max_pages = self.__get_max_pages(total_count)
-                logger.info(f"총 검색 건수: {total_count}, 총 페이지 수: {self.max_pages}")
+                # logger.info(f"총 검색 건수: {total_count}, 총 페이지 수: {self.max_pages}")
             self.result.append(content)
             self.success_count += 1
             logger.info(f"{self.params.app_no} 페이지 {page} 호출 성공")
@@ -108,7 +113,7 @@ class KiprisApplicantInfoFetcher:
 
     async def __increment_page(self, page: int) -> int:
         """페이지 증가 및 지연 적용"""
-        await asyncio.sleep(0.02)
+        # await asyncio.sleep(0.02)
         return page + self.params.docsCount
 
     async def __fetch_initial(self):
@@ -136,13 +141,14 @@ class KiprisApplicantInfoFetcher:
         logger.info(f"총 호출 횟수: {total_requests}, 성공: {self.success_count}, 실패: {self.fail_count}")
 
     
-    async def get_info(self, session: aiohttp.ClientSession = None) -> KiprisFetchData:
+    async def get_info(self, session: aiohttp.ClientSession = None, prometheus:PrometheusDashboard = None) -> KiprisFetchData:
+        self.prometheus:PrometheusDashboard = prometheus
         if session is None:
             await self.__open_session()
             await self.__fetch_initial()
             await self.__fetch_pages()
             await self.__close_session()
-        else:
+        elif session is not None and self.prometheus is not None:
             self.session = session
             await self.__fetch_initial()
             await self.__fetch_pages()

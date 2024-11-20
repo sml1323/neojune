@@ -18,10 +18,10 @@ class KiprisXmlFileGenerator():
         self.kipris_xml_dataGenerator = KiprisXmlDataGenerator()
         self.data_list = []
         self.entity_type = entity_type
-        
+        self.org_type = self.entity_type.value[:4]      
         
     async def __get_xml_data_action(self):
-        return await self.fetcher.get_infos(f"{self.file_name}")
+        return await self.fetcher.get_infos(f"{self.file_name}", self.org_type)
 
     async def __get_xml_data_list(self):
         return await util.execute_with_time_async(f"{self.entity_type.value} {self.file_name} action_api", self.__get_xml_data_action)
