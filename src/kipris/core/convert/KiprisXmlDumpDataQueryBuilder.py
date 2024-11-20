@@ -172,7 +172,6 @@ class KiprisXmlDumpDataQueryBuilder():
                     if c in sub_xml_to_dict:
                         value = sub_xml_to_dict[c]
 
-                    value = self.value_fillter(value)
 
                     if c == 'ipr_seq':
                         ipr_seq_key = str(sub_xml_to_dict['appl_no']) + str(sub_xml_to_dict['applicant_id']) + sub_xml_to_dict['serial_no']
@@ -180,14 +179,15 @@ class KiprisXmlDumpDataQueryBuilder():
 
                         if value is None:
                             break
+                    value = self.value_fillter(value)
                     values.append(value)
 
                 value_tuple = f"({', '.join(values)})"
-                if j == self.chunk_size - 1 or (i + j + 1) == len(self.xml_to_dict_list) or sub_xml_to_dict == self.sub_dict_list[-1]:
-                        chunk_data.append(f"{value_tuple}\n")
-                        chunk_data.append(self.__get_upsert_sub_info())
+                if j == len(self.sub_dict_list[i:i + self.chunk_size]) - 1:
+                    chunk_data.append(f"{value_tuple}\n")
                 else:
                     chunk_data.append(f"{value_tuple},\n")
+            chunk_data.append(self.__get_upsert_sub_info())
                     
             chunked_data.append("".join(chunk_data))
         return chunked_data
