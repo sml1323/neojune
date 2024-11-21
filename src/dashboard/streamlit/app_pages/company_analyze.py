@@ -22,7 +22,7 @@ def display_company_analyze():
         }}
     </style>
     <div class="iframe-container">
-        <iframe src="http://localhost:5000/" width="100%" height="1920px" frameborder="0"></iframe>
+        <iframe src="http://35.216.112.158:5001/" width="100%" height="1920px" frameborder="0"></iframe>
     </div>
     """
     st.markdown(iframe_code, unsafe_allow_html=True)
