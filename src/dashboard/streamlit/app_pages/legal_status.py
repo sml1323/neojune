@@ -147,38 +147,3 @@ def display_legal_status_data():
 
                     # 페이지 번호 클릭 후 새로고침 (데이터 갱신)
                     st.rerun()  # 페이지 갱신
-        
-        # 전체 데이터 다운로드 버튼
-        if st.download_button(
-            label="📥 법적 상태 데이터 다운로드", 
-            data=convert_df_to_excel(fetch_legal_status_data("""
-            SELECT applicant, appl_no, appl_date, ipr_code, legal_status_desc, pub_date
-            FROM (
-                SELECT applicant, appl_no, appl_date, ipr_code, legal_status_desc, pub_date
-                FROM TB24_company_patent
-                UNION ALL
-                SELECT applicant, appl_no, appl_date, ipr_code, legal_status_desc, pub_date
-                FROM TB24_company_design
-                UNION ALL
-                SELECT applicant, appl_no, appl_date, ipr_code, legal_status_desc, pub_date
-                FROM TB24_company_trademark
-            ) AS legal_status_data
-            ORDER BY pub_date DESC
-            """)), 
-            file_name=f"full_legal_status_data_{today}.xlsx", 
-            mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-        ):
-            st.success("전체 데이터 다운로드 시작!")
-
-    else:
-        st.write(f"**{selected_status}** 상태 변경된 데이터가 없습니다.")
-
-# 엑셀 파일로 변환하는 함수
-def convert_df_to_excel(df):
-    """DataFrame을 엑셀 형식으로 변환하여 반환하는 함수"""
-    output = BytesIO()
-    with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
-        df.to_excel(writer, index=False)
-        writer.close()
-    output.seek(0)
-    return output.read()
