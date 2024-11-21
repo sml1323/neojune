@@ -7,7 +7,7 @@ from ....enum.Config import Config
 from ....util import util
 from ....test.prometheus.prometheus import PrometheusDashboard
 import random
-semaphore = asyncio.Semaphore(42)
+semaphore = asyncio.Semaphore(21)
 
 class KiprisFetcher:
     def __init__(self, url:str='', params:list[KiprisParam]=[KiprisParam()]):
@@ -40,7 +40,6 @@ class KiprisFetcher:
         tasks = []
         async with aiohttp.ClientSession() as session: 
             for param in self.params:
-                await asyncio.sleep(random.uniform(0.02, 0.03))
                 task = asyncio.create_task(self.__task(param, session)) 
                 tasks.append(task)
             return await asyncio.gather(*tasks)
