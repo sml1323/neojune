@@ -51,16 +51,16 @@ RUN sed -ri 's/^bind-address.+= 127.0.0.1/bind-address = 0.0.0.0/' /etc/mysql/my
 # MySQL 서비스 시작 및 데이터베이스 설정
 RUN service mysql start && \
     # 데이터베이스 생성 및 사용자 권한 설정
-    mysql -e "CREATE DATABASE IF NOT EXISTS neojune; \
+    mysql -e "CREATE DATABASE IF NOT EXISTS kipris; \
     CREATE USER 'ubuntu'@'%' IDENTIFIED BY '1234'; \
     GRANT ALL PRIVILEGES ON *.* TO 'ubuntu'@'%' WITH GRANT OPTION; \
     FLUSH PRIVILEGES;" && \
     # SQL 파일 실행
-    mysql -u root neojune < /root/temp/res/sql/create_table.sql && \
-    mysql -u root neojune < /root/temp/res/sql/data/kipris_tb24_100_2024-11-11_211316.sql && \
-    mysql -u root neojune < /root/temp/res/sql/data/kipris_tb24_200_2024-11-11_211323.sql && \
-    mysql -u root neojune < /root/temp/res/sql/data/kipris_tb24_110_2024-11-11_211054.sql && \
-    mysql -u root neojune < /root/temp/res/sql/data/kipris_tb24_210_2024-11-11_211329.sql && \
+    mysql -u root kipris < /root/temp/res/sql/create_table.sql && \
+    mysql -u root kipris < /root/temp/res/sql/data/kipris_tb24_100_2024-11-11_211316.sql && \
+    mysql -u root kipris < /root/temp/res/sql/data/kipris_tb24_200_2024-11-11_211323.sql && \
+    mysql -u root kipris < /root/temp/res/sql/data/kipris_tb24_110_2024-11-11_211054.sql && \
+    mysql -u root kipris < /root/temp/res/sql/data/kipris_tb24_210_2024-11-11_211329.sql && \
     # SQL 파일 삭제
     rm -rf /root/temp
 
