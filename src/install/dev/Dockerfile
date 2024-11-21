@@ -80,7 +80,7 @@ RUN echo "[mysqld]\n \
 
 
 # .bashrc에 메시지 추가
-RUN echo "echo '=================================='" >> /root/.bashrc && \
+RUN echo "echo \n" >> /root/.bashrc && \
     echo "echo '=================================='" >> /root/.bashrc && \
     echo "echo 'id: admin'" >> /root/.bashrc && \
     echo "echo 'password: admin'" >> /root/.bashrc && \
