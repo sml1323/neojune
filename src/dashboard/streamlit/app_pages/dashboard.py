@@ -91,17 +91,17 @@ def display_dashboard_summary():
 
     # 기업 일일 업데이트
     daily_company_query = """
-        SELECT applicant, service_type, COUNT(*) as daily_count, legal_status_desc, update_date
+        SELECT applicant, service_type, legal_status_desc, update_date
         FROM daily_update_company
-        GROUP BY applicant, service_type, legal_status_desc, update_date;  
+        WHERE DATE(update_date) = CURRENT_DATE;  
     """
     daily_company_data = fetch_data(daily_company_query)
 
     # 대학 일일 업데이트
     daily_university_query = """
-        SELECT applicant, service_type, COUNT(*) as daily_count, legal_status_desc, update_date
+        SELECT applicant, service_type, legal_status_desc, update_date
         FROM daily_update_university
-        GROUP BY applicant, service_type, legal_status_desc, update_date;
+        WHERE DATE(update_date) = CURRENT_DATE;
     """
     daily_university_data = fetch_data(daily_university_query)
 
@@ -109,13 +109,13 @@ def display_dashboard_summary():
     st.markdown("📍 **기업별 Daily Update 산업재산권**")
     daily_company_data_reset = daily_company_data.reset_index(drop=True)
     daily_company_data_reset.index += 1
-    st.dataframe(daily_company_data_reset.rename(columns={'applicant': '기업명', 'service_type': '등록 종류', 'legal_status_desc': '법적 상태', 'daily_count': '등록 건수', 'update_date': '변경일'}), use_container_width=True)
+    st.dataframe(daily_company_data_reset.rename(columns={'applicant': '기업명', 'service_type': '등록 종류', 'legal_status_desc': '법적 상태', 'update_date': '변경일'}), use_container_width=True)
 
     # 대학별 일일 업데이트 데이터 표시
     st.markdown("📍 **대학별 Daily Update 산업재산권**")
     daily_university_data_reset = daily_university_data.reset_index(drop=True)
     daily_university_data_reset.index += 1
-    st.dataframe(daily_university_data_reset.rename(columns={'applicant': '대학명', 'service_type': '등록 종류', 'legal_status_desc': '법적 상태', 'daily_count': '등록 건수', 'update_date': '변경일'}), use_container_width=True)
+    st.dataframe(daily_university_data_reset.rename(columns={'applicant': '대학명', 'service_type': '등록 종류', 'legal_status_desc': '법적 상태', 'update_date': '변경일'}), use_container_width=True)
 
     st.markdown("<br>", unsafe_allow_html=True) 
 

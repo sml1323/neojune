@@ -2,7 +2,7 @@ import streamlit as st
 
 
 def display_company_analyze():
-    st.subheader("분석")
+    st.subheader("상위 10개 기업 분석")
     
     # Iframe을 통해 다른 웹페이지 삽입 (세로 100% 설정)
     iframe_code = """

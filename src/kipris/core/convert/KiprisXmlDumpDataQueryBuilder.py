@@ -177,7 +177,7 @@ class KiprisXmlDumpDataQueryBuilder():
                         ipr_seq_key = str(sub_xml_to_dict['appl_no']) + str(sub_xml_to_dict['applicant_id']) + sub_xml_to_dict['serial_no']
                         value = str(ipr_seq_dict.get(ipr_seq_key))
 
-                        if value is None:
+                        if value == 'None':
                             break
                     value = self.value_fillter(value)
                     values.append(value)

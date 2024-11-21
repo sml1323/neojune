@@ -6,8 +6,10 @@ from tqdm import tqdm
 from ....enum.Config import Config
 from ....util import util
 from ....test.prometheus.prometheus import PrometheusDashboard
+import random
 
 semaphore = asyncio.Semaphore(25)
+# semaphore = asyncio.Semaphore(21)
 
 class KiprisFetcher:
     def __init__(self, url:str='', params:list[KiprisParam]=[KiprisParam()]):
