@@ -2,17 +2,19 @@ FROM namugach/ubuntu-basic:24.04-kor
 WORKDIR /root
 
 # 파일 복사
-COPY . /root/temp
+COPY . /root/work
 
 RUN apt-get update
 
 # Nginx, MySQL 서버, 및 MySQL 개발 라이브러리 설치
 RUN apt-get install -y nginx mysql-server pkg-config libmysqlclient-dev
 
-# Python 라이브러리 설치
-RUN pip install -r /root/temp/src/install/dev/requirements.txt
+# # Python 라이브러리 설치
+RUN pip install -r /root/work/src/install/dev/requirements.txt
 
-#### 여기부터 SSH 
+RUN /root/work/src/install/dev/setup.sh
+
+# #### 여기부터 SSH 
 RUN mkdir /var/run/sshd
 
 # root password 변경, $PASSWORD를 변경한다.
@@ -56,13 +58,13 @@ RUN service mysql start && \
     GRANT ALL PRIVILEGES ON *.* TO 'ubuntu'@'%' WITH GRANT OPTION; \
     FLUSH PRIVILEGES;" && \
     # SQL 파일 실행
-    mysql -u root kipris < /root/temp/res/sql/create_table.sql && \
-    mysql -u root kipris < /root/temp/res/sql/data/kipris_tb24_100_2024-11-11_211316.sql && \
-    mysql -u root kipris < /root/temp/res/sql/data/kipris_tb24_200_2024-11-11_211323.sql && \
-    mysql -u root kipris < /root/temp/res/sql/data/kipris_tb24_110_2024-11-11_211054.sql && \
-    mysql -u root kipris < /root/temp/res/sql/data/kipris_tb24_210_2024-11-11_211329.sql && \
+    mysql -u root kipris < /root/work/res/sql/create_table.sql && \
+    mysql -u root kipris < /root/work/res/sql/data/kipris_tb24_100_2024-11-11_211316.sql && \
+    mysql -u root kipris < /root/work/res/sql/data/kipris_tb24_200_2024-11-11_211323.sql && \
+    mysql -u root kipris < /root/work/res/sql/data/kipris_tb24_110_2024-11-11_211054.sql && \
+    mysql -u root kipris < /root/work/res/sql/data/kipris_tb24_210_2024-11-11_211329.sql && \
     # SQL 파일 삭제
-    rm -rf /root/temp
+    rm -rf /root/work
 
 
 RUN echo "[mysqld]\n \
@@ -77,8 +79,25 @@ RUN echo "[mysqld]\n \
     
 
 
+# .bashrc에 메시지 추가
+RUN echo "echo '=================================='" >> /root/.bashrc && \
+    echo "echo '=================================='" >> /root/.bashrc && \
+    echo "echo 'id: admin'" >> /root/.bashrc && \
+    echo "echo 'password: admin'" >> /root/.bashrc && \
+    echo "echo '=================================='" >> /root/.bashrc && \
+    echo "echo 'airflow: http://localhost:8080'" >> /root/.bashrc && \
+    echo "echo 'grafana: http://localhost:3000'" >> /root/.bashrc && \
+    echo "echo 'prometheus: http://localhost:9090'" >> /root/.bashrc && \
+    echo "echo 'pushgateway: http://localhost:9091'" >> /root/.bashrc && \
+    echo "echo 'flask: http://localhost:5000'" >> /root/.bashrc && \
+    echo "echo 'streamlit: http://localhost:8501'" >> /root/.bashrc && \
+    echo "echo '=================================='" >> /root/.bashrc
+
 # nginx, SSH, MySQL 동시에 실행하기 위한 커맨드
 CMD [ \
   "/bin/bash", "-c", \
-  "service nginx start && service mysql start && /usr/sbin/sshd -D" \
+  "/root/work/run/dashboard/start.sh && \
+  service nginx start && \
+  service mysql start && \
+  /usr/sbin/sshd -D" \
 ]

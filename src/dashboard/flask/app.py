@@ -1,5 +1,5 @@
 # pip install Flask Flask-SQLAlchemy pymysql
-# Running on http://127.0.0.1:5001
+# Running on http://127.0.0.1:5000
 
 # 복잡한 통계 쿼리는 피할 것
 
@@ -210,4 +210,4 @@ def get_total_counts():
 
 # 애플리케이션 실행
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5001, debug=True)
+    app.run(debug=True)
