@@ -12,7 +12,7 @@ host_output_path = "/home/ubuntu/app/res/output"
 def create_task(task_id, module, task):
     return DockerOperator(
         task_id=task_id,
-        image='neojune_kipris_service:1.4',
+        image='neojune_kipris_service:randomsleep20',
         api_version='auto',
         auto_remove=True,
         command=f'python main.py {module} {task}',
@@ -30,10 +30,10 @@ def create_task(task_id, module, task):
     )
 
 with DAG(
-    'all_task-1.0',
+    'kipris_daily',
     default_args={'retries': 1},
     description='A DAG with DockerOperator tasks for XML, SQL, and DB processing',
-    schedule_interval='0 7 * * *',
+    # schedule_interval='0 2 * * *',
     start_date=datetime(2023, 1, 1, tzinfo=timezone('Asia/Seoul')),
     catchup=False,
 ) as dag:
@@ -83,14 +83,10 @@ with DAG(
                 prev_task >> task 
             prev_task = task
 
-    # dict_to_sql_sub 처리 태스크 그룹 (순차 실행)
     with TaskGroup(group_id='dict_to_sql_sub_processing') as dict_group:
         prev_task = None
         for entity in entities:
-            task = create_task(f'run_dict_{entity}', 'dict_to_sql_sub', entity)
-            if prev_task:
-                prev_task >> task  
-            prev_task = task
+            create_task(f'run_dict_{entity}', 'dict_to_sql_sub', entity)
 
     # 태스크 그룹 간 연결
     xml_group >> sql_group >> base_group >> dict_group >> ipc_cpc_group >> priority_group
