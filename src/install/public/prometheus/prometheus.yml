@@ -1,0 +1,9 @@
+global:
+  scrape_interval: 15s  # 메트릭을 15초마다 가져옵니다.
+
+
+
+scrape_configs:
+  - job_name: 'pushgateway'
+    static_configs:
+      - targets: ['server2:9091']
