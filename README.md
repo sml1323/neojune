@@ -4,6 +4,8 @@
 
 이 프로젝트는 한국 특허정보검색시스템 (KIPRIS) Open API를 통해 특허, 상표, 디자인 데이터를 수집하고 분석하는 시스템입니다. 수집된 데이터는 MySQL 데이터베이스에 저장되며, Streamlit 기반의 대시보드를 통해 시각화 및 분석 결과를 확인할 수 있습니다. Airflow를 사용하여 데이터 수집 및 처리 과정을 자동화하고 스케줄링합니다. 또한, Prometheus와 Grafana를 통해 시스템 성능 및 API 호출 상태를 모니터링하여 안정적인 시스템 운영을 지원합니다.
 
+---
+
 ### 주요 기능
 
 * **데이터 수집:** KIPRIS Open API를 통해 특허, 상표, 디자인 데이터를 XML 형식으로 수집합니다.
@@ -12,6 +14,8 @@
 * **데이터 분석 및 시각화:** Pandas, Plotly 등을 사용하여 데이터를 분석하고 Streamlit 대시보드를 통해 시각화합니다.
 * **자동화 및 스케줄링:** Airflow를 사용하여 데이터 수집 및 처리 과정을 자동화하고 스케줄링합니다.
 * **모니터링:** Prometheus 및 Grafana를 통해 시스템 성능 및 API 호출 상태를 모니터링합니다.
+
+---
 
 ### 시스템 아키텍처
 
@@ -36,6 +40,59 @@
                                     +-------------------+---------------+      +----------------------+
 ```
 
+---
+
+### 기술 스택
+
+* Python
+* MySQL
+* Docker
+* Airflow
+* Prometheus
+* Grafana
+* Flask
+* Streamlit
+* KIPRIS Open API
+
+---
+
+
+### `.env` 파일 생성 및 설정
+
+1. **`.env` 파일 생성:** 프로젝트 루트 디렉토리에 `.env` 파일을 생성합니다. (`.env.example` 파일을 복사해서 사용하는 것이 좋습니다.)
+
+2. **환경 변수 설정:** `.env` 파일에 다음과 같은 형식으로 환경 변수를 설정합니다.
+
+   ```
+   변수이름=값
+   ```
+
+   예시:
+
+   ```
+   DB_HOST=kt2.elementsoft.biz
+   DB_USER=kipris
+   DB_PASSWORD=kipris1004
+   DB_NAME=kipris
+   DB_PORT=13306
+   SERVICE_KEY=YOUR_KIPRIS_SERVICE_KEY  # 실제 서비스 키로 변경
+   OUTPUT_PATH=res/output
+   PUSH_GATEWAY_ADDRESS=54.180.253.90:9091 # prometheus push gateway 주소
+   WORK_DIR=/root/work # airflow dags 파일 경로 설정
+   ```
+
+   * **`DB_HOST`, `DB_USER`, `DB_PASSWORD`, `DB_NAME`, `DB_PORT`**: MySQL 데이터베이스 연결 정보입니다. 실제 사용하는 데이터베이스 정보로 변경해야 합니다.
+   * **`SERVICE_KEY`**: KIPRIS Open API에 접근하기 위한 서비스 키입니다.  KIPRIS에서 발급받은 서비스 키로 변경해야 합니다.
+   * **`OUTPUT_PATH`**:  데이터 수집 결과물 (XML, SQL 파일)이 저장될 경로입니다. 필요에 따라 수정할 수 있습니다.  
+   * **`PUSH_GATEWAY_ADDRESS`**: Prometheus Pushgateway의 주소입니다.  Prometheus 설정에 따라 변경해야 합니다.  
+        **실행하는 서버의 주소를 입력 해야합니다** **`매우 중요!`**
+   * **`WORK_DIR`**: Airflow DAGs 파일이 위치한 작업 디렉토리 경로입니다. Docker 컨테이너 내부의 경로를 설정해야 합니다.
+
+3. **`.gitignore`에 `.env` 추가:** `.env` 파일에는 중요한 정보 (데이터베이스 비밀번호, API 키 등)가 포함될 수 있으므로,  `.gitignore` 파일에 `.env`를 추가하여 Git 저장소에 포함되지 않도록 해야 합니다.
+
+---
+
+
 ### 설치 및 실행 방법
 
 
@@ -50,197 +107,231 @@
 ```bash
 ./install_public.sh
 ```
-- **Airflow 초기화 및 실행:**
-```bash
-./run/airflow/init.sh # airflow 초기화
-./run/airflow/server.sh # airflow 실행
+
+---
+
+#### 실행 스크립트
+
+* **`run/dashboard/start.sh`**: Airflow, Grafana, Prometheus, Pushgateway, Flask, Streamlit 대시보드를 모두 실행합니다.
+* **`run/dashboard/start_view.sh`**: Flask, Streamlit 대시보드만 실행합니다.
+* **`run/dashboard/stop.sh`**:  실행 중인 모든 대시보드 및 관련 서비스를 중지합니다.
+* **`run/dashboard/stop_view.sh`**: 실행 중인 Flask, Streamlit 대시보드만 중지합니다.
+* **`run/dashboard/*/{start|stop}.sh`**: 각 대시보드 서비스를 개별적으로 실행하거나 중지하는 스크립트입니다. (예: `run/dashboard/airflow/start.sh`)
+* **`run/all_stop_server.sh`**: airflow, flask, streamlit 서버를 중지합니다.
+
+---
+
+#### 대시보드 사용
+
+* **Streamlit 대시보드:** `http://localhost:8501`
+* **Flask 대시보드:** `http://localhost:5000`
+* **Grafana:** `http://localhost:3000`
+* **Prometheus:** `http://localhost:9090`
+* **Pushgateway:** `http://localhost:9091`
+* **Airflow:** `http://localhost:8080`
+
+---
+
+### 주요 디렉토리 및 파일 설명
+
+* `src/bin`: 데이터 수집, 처리, 변환, 적재 관련 스크립트
+* `src/db`: 데이터베이스 연결 및 관리 모듈
+* `src/enum`:  프로젝트에서 사용되는 열거형 (Enum) 정의
+* `src/kipris`: KIPRIS Open API 연동 및 데이터 처리 모듈
+* `src/test`: 테스트 코드 및 예제
+* `src/util`: 유틸리티 함수 및 모듈
+* `src/dashboard/flask`:  Flask 기반 대시보드 애플리케이션
+* `src/dashboard/streamlit`:  Streamlit 기반 대시보드 애플리케이션
+* `.env`: 환경 변수 설정 파일 (예시: `.env.example`)
+
+---
+
+### 디렉토리 구조 및 실행 파일 설명
+
 ```
-- **데이터 수집 및 처리 (Airflow DAG 실행):**
-
-```bash
-airflow dags trigger all_task-1.0 # 전체 태스크 실행
-airflow dags trigger except-task # xml 제외 전체 태스크 실행
-```
-
-- **Streamlit 대시보드 실행:**
-
-```bash
-./run/dashboard/all.sh
-```
-
-- **시스템 모니터링:** Prometheus 및 Grafana를 사용하여 시스템 및 API 호출 상태를 모니터링합니다. (자세한 설정 방법은 Prometheus 및 Grafana 문서 참조)
-
-
-### 디렉토리 구조
-
-```
-├── src
-│   ├── airflow
-│   │   └── dag
-│   │       ├── all_task.py  # Airflow DAG 정의 파일
-│   │       └── all_task_except_xml.py  # XML 수집 제외 Airflow DAG 정의 파일
-│   ├── bin
-│   │   ├── save_to_xml.py      # XML 데이터 수집 모듈
-│   │   ├── xml_to_sql.py      # XML to SQL 변환 모듈
-│   │   └── sql_to_db          # SQL to Database 적재 모듈
-│   │       ├── base.py
-│   │       ├── ipc_cpc.py
-│   │       └── priority.py
-│   ├── dashboard
-│   │   ├── flask
-│   │   │   └── app.py         # Flask 웹 애플리케이션
-│   │   └── streamlit
-│   │       ├── app_pages     # Streamlit 페이지 모듈
-│   │       │   ├── company_analyze.py
-│   │       │   ├── company_data.py
-│   │       │   ├── dashboard.py
-│   │       │   ├── legal_status.py
-│   │       │   └── report.py # report
-│   │       ├── db_connection.py # db 연결 정보
-│   │       └── main.py        # Streamlit 메인 애플리케이션
-│   ├── db
-│   │   └── mysql.py           # MySQL 데이터베이스 연동 모듈
-│   ├── enum
-│   │   ├── ApiType.py
-│   │   ├── Config.py
-│   │   ├── KiprisEntityType.py
-│   │   └── TableName.py
-│   ├── kipris
-│   │   ├── core
-│   │   │   ├── KiprisObject.py
-│   │   │   ├── parsing
-│   │   │   │   ├── KiprisApplicantInfoFetcher.py
-│   │   │   │   ├── KiprisFetchData.py
-│   │   │   │   └── KiprisParam.py
-│   │   │   ├── prosess
-│   │   │   │   └── KiprisXmlFileGenerator.py
-│   │   │   └── upload
-│   │   │       └── KiprisDataBatchUploader.py
-│   │   ├── parsing
-│   │   │   ├── fetcher
-│   │   │   │   ├── KiprisDesignFetcher.py
-│   │   │   │   ├── KiprisPatentFetcher.py
-│   │   │   │   └── KiprisTrademarkFetcher.py
-│   │   │   ├── xml
-│   │   │   │   ├── KiprisXml.py
-│   │   │   │   ├── KiprisXmlData.py
-│   │   │   │   └── KiprisXmlDataGenerator.py
-│   │   │   └── params # pram이 아니라 params 폴더명 오타
-│   │   │       ├── KiprisDesignPram.py
-│   │   │       ├── KiprisPatentParam.py
-│   │       │       └── KiprisTrademarkParam.py
-│   │   ├── convert
-│   │   │   ├── cartridge
-│   │   │   │   ├── KiprisDesignDataCartridge.py
-│   │   │   │   ├── KiprisPatentDataCartridge.py
-│   │   │   │   └── KiprisTrademarkDataCartridge.py
-│   │   │   ├── converter
-│   │   │   │   ├── KiprisDesignXmlToDictConverter.py
-│   │   │   │   ├── KiprisPatentXmlToDictConverter.py
-│   │   │   │   └── KiprisTrademarkXmlToDictConverter.py
-│   │   │   └── mapper
-│   │   │       ├── KiprisDesignXmlMapper.py
-│   │   │       ├── KiprisIpcXmlMapper.py
-│   │   │       ├── KiprisPatentXmlMapper.py
-│   │   │       └── KiprisTrademarkXmlMapper.py
-│   │   └── upload
-│   │       └── uploader
-│   │           ├── KiprisTB24DesignDataUploader.py
-│   │           ├── KiprisTB24PatentDataUploader.py
-│   │           └── KiprisTB24TrademarkDataUploader.py
-
-│   └── util
-│       ├── monitoring.py
-│       └── util.py
-├── main.py                   # 메인 실행 파일
-├── debug.py                  # 디버깅용 스크립트
-├── install_dev.sh             # 개발 환경 설치 스크립트
-├── install_public.sh        # 운영 환경 설치 스크립트
-├── run
-│   ├── airflow
-│   │   ├── init.sh           # Airflow 초기화 스크립트
-│   │   ├── server.sh         # Airflow 서버 실행 스크립트
-│   │   └── stop.sh           # Airflow 서버 중지 스크립트
-│   ├── all_stop_server.sh # airflow, flask, streamlit 서버 중지
-│   ├── dashboard
-│   │   ├── all.sh            # 모든 대시보드 실행
-│   │   ├── flask.sh          # Flask 대시보드 실행
-│   │   ├── stop.sh           # 대시보드 중지 스크립트
-│   │   └── streamlit.sh     # Streamlit 대시보드 실행
-│   ├── save_to_xml           # XML 데이터 수집 스크립트
+.
+├── debug.py
+├── debug.sh                      # 디버깅용 스크립트 실행
+├── Dockerfile
+├── install_dev.sh                # 개발 환경용 Docker 이미지 빌드 및 컨테이너 실행
+├── install_public.sh             # 운영 환경 설치 스크립트 (Airflow, Prometheus 설정 및 Docker 이미지 빌드)
+├── main.py
+├── main.sh                       # main.py 실행 스크립트
+├── README.md
+├── res
+│   ├── output
+│   │   └── ...
+│   └── url
+│       ├── list_design.json
+│       ├── list_patent.json
+│       ├── list_trademark.json
+│       ├── list_univ_design.json
+│       ├── list_univ_patent.json
+│       └── list_univ_trademark.json
+├── run                           # 실행 스크립트 모음
+│   ├── all_stop_server.sh        # Airflow, Flask, Streamlit 서버 중지
+│   ├── dashboard                 # 대시보드 관련 스크립트
+│   │   ├── airflow
+│   │   │   ├── start.sh        # Airflow 웹서버 및 스케줄러 실행
+│   │   │   └── stop.sh         # Airflow 웹서버 및 스케줄러 중지
+│   │   ├── flask               # Flask 관련 스크립트
+│   │   │   ├── app.py
+│   │   │   ├── start.sh        # Flask 애플리케이션 실행
+│   │   │   ├── stop.sh         # Flask 애플리케이션 중지
+│   │   │   └── templates       # Flask 템플릿 파일
+│   │   │       ├── company.html
+│   │   │       ├── index.html
+│   │   │       └── index_uni.html
+│   │   ├── grafana
+│   │   │   ├── start.sh        # Grafana 서버 실행
+│   │   │   └── stop.sh         # Grafana 서버 중지
+│   │   ├── prometheus
+│   │   │   ├── start.sh        # Prometheus 서버 실행
+│   │   │   └── stop.sh         # Prometheus 서버 중지
+│   │   ├── pushgateway
+│   │   │   ├── start.sh        # Pushgateway 실행
+│   │   │   └── stop.sh         # Pushgateway 중지
+│   │   ├── start.sh            # 모든 대시보드 서비스 실행
+│   │   ├── start_view.sh       # Flask 및 Streamlit 대시보드만 실행
+│   │   ├── stop.sh             # 모든 대시보드 서비스 중지
+│   │   └── stop_view.sh        # Flask 및 Streamlit 대시보드만 중지
+│   ├── save_to_xml             # XML 저장 스크립트
 │   │   ├── company
-│   │   │   ├── design.sh
-│   │   │   ├── patent.sh
-│   │   │   └── trademark.sh
+│   │   │   ├── design.sh      # 기업 디자인 데이터를 XML로 저장
+│   │   │   ├── patent.sh      # 기업 특허 데이터를 XML로 저장
+│   │   │   └── trademark.sh   # 기업 상표 데이터를 XML로 저장
 │   │   └── university
-│   │       ├── design.sh
-│   │       ├── patent.sh
-│   │       └── trademark.sh
-│   ├── sql_to_db           # SQL to DB 스크립트
+│   │       ├── design.sh      # 대학 디자인 데이터를 XML로 저장
+│   │       ├── patent.sh      # 대학 특허 데이터를 XML로 저장
+│   │       └── trademark.sh   # 대학 상표 데이터를 XML로 저장
+│   ├── sql_to_db              # 데이터베이스 적재 스크립트
 │   │   ├── base
 │   │   │   ├── company
-│   │   │   │   ├── design.sh
-│   │   │   │   ├── patent.sh
-│   │   │   │   └── trademark.sh
+│   │   │   │   ├── design.sh    # 기업 디자인 데이터를 DB에 적재
+│   │   │   │   ├── patent.sh    # 기업 특허 데이터를 DB에 적재
+│   │   │   │   └── trademark.sh # 기업 상표 데이터를 DB에 적재
 │   │   │   └── university
-│   │   │       ├── design.sh
-│   │   │       ├── patent.sh
-│   │   │       └── trademark.sh
+│   │   │       ├── design.sh    # 대학 디자인 데이터를 DB에 적재
+│   │   │       ├── patent.sh    # 대학 특허 데이터를 DB에 적재
+│   │   │       └── trademark.sh # 대학 상표 데이터를 DB에 적재
 │   │   ├── ipc_cpc
 │   │   │   ├── company
-│   │   │   │   └── patent.sh
+│   │   │   │   └── patent.sh  # 기업 특허 IPC/CPC 데이터를 DB에 적재
 │   │   │   └── university
-│   │   │       └── patent.sh
+│   │   │       └── patent.sh  # 대학 특허 IPC/CPC 데이터를 DB에 적재
 │   │   └── priority
 │   │       ├── company
-│   │       │   ├── design.sh
-│   │       │   └── trademark.sh
+│   │       │   ├── design.sh  # 기업 디자인 우선권 데이터를 DB에 적재
+│   │       │   └── trademark.sh # 기업 상표 우선권 데이터를 DB에 적재
 │   │       └── university
-│   │           ├── design.sh
-│   │           └── trademark.sh
+│   │           ├── design.sh  # 대학 디자인 우선권 데이터를 DB에 적재
+│   │           └── trademark.sh # 대학 상표 우선권 데이터를 DB에 적재
+│   └── test.sh                  # 테스트 스크립트 실행
+└── src                           # 소스 코드 디렉토리
+    ├── bin                       # 실행 가능한 스크립트
+    │   ├── dict_to_sql_sub.py
+    │   ├── save_to_xml.py
+    │   ├── sql_to_db
+    │   │   ├── base.py
+    │   │   ├── ipc_cpc.py
+    │   │   └── priority.py
+    │   └── xml_to_sql.py
+    ├── dashboard
+    │   ├── flask
+    │   │   ├── app.py
+    │   │   └── ...
+    │   └── streamlit
+    │       ├── app_pages
+    │       │   ├── company_analyze.py
+    │       │   ├── company_data.py
+    │       │   ├── dashboard.py
+    │       │   ├── legal_status.py
+    │       │   ├── report.py
+    │       │   ├── university_analyze.py
+    │       │   └── university_data.py
+    │       ├── db_connection.py
+    │       └── main.py
+    │
+    ├── db
+    │   └── mysql.py
+    ├── enum
+    │   ├── ApiType.py
+    │   ├── Config.py
+    │   ├── KiprisEntityType.py
+    │   └── TableName.py
+    ├── install
+    │   ├── dev
+    │   │   ├── Dockerfile
+    │   │   ├── setup.sh
+    │   │   └── setup
+    │   │       ├── airflow
+    │   │       │   └── ...
+    │   │       ├── grafana
+    │   │       │   └── ...
+    │   │       └── prometheus
+    │   │           └── ...
+    │   └── public
+    │       ├── airflow
+    │       │   └── ...
+    │       └── prometheus
+    │           └── ...
+    ├── kipris
+    │   ├── convert
+    │   │   ├── cartridge
+    │   │   │   └── ...
+    │   │   ├── converter
+    │   │   │   └── ...
+    │   │   └── mapper
+    │   │       └── ...
+    │   ├── core
+    │   │   ├── KiprisObject.py
+    │   │   ├── KiprisParam.py
+    │   │   ├── convert
+    │   │   │   └── ...
+    │   │   ├── parsing
+    │   │   │   └── ...
+    │   │   ├── prosess
+    │   │   │   └── ...
+    │   │   └── upload
+    │   │       └── ...
 
-│   ├── test.sh                # 테스트 스크립트
-│   └── xml_to_sql           # XML to SQL 스크립트
-│       ├── company
-│       │   ├── design.sh
-│       │   ├── patent.sh
-│       │   └── trademark.sh
-│       └── university
-│           ├── design.sh
-│           ├── patent.sh
-│           └── trademark.sh
-├── test                      # 테스트 디렉토리
-│   ├── all_conn
-│   │   └── all_conn.py
-│   ├── blocked_users
-│   │   └── blocked_users.py
-│   ├── count.py
-│   ├── kipris
-│   │   ├── convert
-│   │   │   ├── dict_to_sql.py
-│   │   │   └── dict_to_sql_sub.py
-│   │   ├── parsing
-│   │   │   ├── applicant_info_fetcher.py
-│   │   │   ├── fetcher.py
-│   │   │   ├── fetcher_data.py
-│   │   │   └── param.py
-│   │   └── upload
-│   │       └── uploader.py
-│   ├── prometheus
-│   │   └── prometheus.py
-│   ├── save_to_db
-│   │   └── sql_to_db.py
-│   └── save_to_xml          
-│       ├── api_modules
-│       │    ├── biz_api.py  
-│       │    ├── design_api.py  
-│       │    ├── patent_api.py  
-│       │    └── trademark_api.py  
-│       └── save_to_xml.py
+    │   ├── parsing
+    │   │   ├── KiprisParam.py
+    │   │   ├── fetcher
+    │   │   │   └── ...
+    │   │   ├── params
+    │   │   │   └── ...
+    │   │   └── xml
+    │   │       └── ...
+    │   ├── prosess
+    │   │   └── xml_file_generator
+    │   │       └── ...
+    │   └── upload
+    │       └── uploader
+    │           └── ...
 
-└── README.md
+    ├── test
+    │   ├── all_conn
+    │   │   └── ...
+    │   ├── blocked_users
+    │   │   └── ...
+    │   ├── kipris
+    │   │   └── ...
+    │   ├── prometheus
+    │   │   └── ...
+    │   ├── save_to_db
+    │   │   └── ...
+    │   ├── save_to_xml
+    │   │   └── ...
+    │   └── test.py
+    └── util
+        ├── monitoring.py
+        └── util.py
+
 
 ```
+
+---
 
 ### 주요 모듈 설명
 
@@ -256,7 +347,7 @@ airflow dags trigger except-task # xml 제외 전체 태스크 실행
 * **`src/test`:** 테스트 코드
 * **`src/util`:**  유틸리티 함수 모듈 (로깅, 시간 측정 등)
 
-
+---
 
 ### 라이선스
 
