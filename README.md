@@ -95,7 +95,7 @@
    DB_PORT=13306
    SERVICE_KEY=YOUR_KIPRIS_SERVICE_KEY  # 실제 서비스 키로 변경
    OUTPUT_PATH=app/res/output
-   PUSH_GATEWAY_ADDRESS=54.180.253.90:9091 # prometheus push gateway 주소
+   PUSH_GATEWAY_ADDRESS=ip:9091 # prometheus push gateway 주소
    ```
 
    * **`DB_HOST`, `DB_USER`, `DB_PASSWORD`, `DB_NAME`, `DB_PORT`**: MySQL 데이터베이스 연결 정보입니다. 실제 사용하는 데이터베이스 정보로 변경해야 합니다.
