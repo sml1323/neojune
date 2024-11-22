@@ -3,7 +3,7 @@
 
 ### 개요
 
-[![img](https://img.youtube.com/vi/933Y9pH6Qt4/0.jpg)](https://www.youtube.com/live/933Y9pH6Qt4)
+[![img](https://img.youtube.com/vi/plHdLeNoUWU/hqdefault.jpg)](https://www.youtube.com/watch?v=plHdLeNoUWU)
 
 이 프로젝트는 한국 특허정보검색시스템 (KIPRIS) Open API를 통해 특허, 상표, 디자인 데이터를 수집하고 분석하는 시스템입니다. 수집된 데이터는 MySQL 데이터베이스에 저장되며, Streamlit 기반의 대시보드를 통해 시각화 및 분석 결과를 확인할 수 있습니다. Airflow를 사용하여 데이터 수집 및 처리 과정을 자동화하고 스케줄링합니다. 또한, Prometheus와 Grafana를 통해 시스템 성능 및 API 호출 상태를 모니터링하여 안정적인 시스템 운영을 지원합니다.
 
@@ -11,7 +11,7 @@
 
 ### 시연 영상
 
-[전체](https://www.youtube.com/watch?v=933Y9pH6Qt4)
+[전체](https://www.youtube.com/watch?v=plHdLeNoUWU)
 
 [편집](https://www.youtube.com/watch?v=wJPAfTqncVA)
 
