@@ -117,6 +117,12 @@ host_output_path = "/home/ubuntu/app/res/output"
 - Log 파일
 ---
 
+**Airflow DAG 확인**
+
+- `src/install/airflow/dags/kipris_daily.py` 에서 스케쥴링, 이미지 이름 등 확인하고 수정
+- 8081 포트(해당 서버 public ip)로 접속하여 kipris_daily DAG를 확인
+- {public ip}:8081
+
 #### 실행 스크립트
 
 * **`run/dashboard/start.sh`**: Airflow, Grafana, Prometheus, Pushgateway, Flask, Streamlit 대시보드를 모두 실행합니다.
