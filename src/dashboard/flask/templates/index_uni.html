@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>상위 10개 대학 통계</title>
+    <style>
+        /* 기본 스타일 */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f7f9fc;
+            color: #333;
+            margin: 0;
+            padding: 0 10%;
+            box-sizing: border-box;  /* 전체 박스를 패딩과 보더를 포함한 크기로 계산 */
+        }
+    
+        h1, h2 {
+            text-align: center;
+            color: #444;
+            margin-bottom: 30px;
+        }
+    
+        /* 차트 영역 스타일 */
+        .chart-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+            margin: 0 auto;  /* 화면 중앙 정렬 */
+            padding: 0 20px; /* 양 옆에 패딩 추가 */
+            max-width: 1200px; /* 화면 너비 제한 */
+        }
+    
+        .chart-container canvas {
+            width: 48%;  /* 각 차트의 너비 조정 */
+            height: 300px; /* 차트 높이를 고정 */
+        }
+    
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #ffffff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            display: none;
+            margin-top: 40px;
+            padding: 0 20px;  /* 테이블 양옆 패딩 */
+        }
+    
+        /* 나머지 테이블 스타일 유지 */
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #e9ecef;
+        }
+        th {
+            background-color: #6c5ce7;
+            color: white;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+            cursor: pointer;
+        }
+        .details-btn {
+            padding: 8px 15px;
+            background-color: #6c5ce7;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .details-btn:hover {
+            background-color: #5a4ccc;
+        }
+    
+        .loading-bar {
+            width: 100%;
+            height: 5px;
+            background-color: #e0e0e0;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+        .loading-bar-fill {
+            height: 100%;
+            width: 0;
+            background-color: #6c5ce7;
+            animation: loadingAnimation 1.5s infinite;
+        }
+    
+        @keyframes loadingAnimation {
+            0% { width: 0; }
+            50% { width: 50%; }
+            100% { width: 100%; }
+        }
+    </style>    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>상위 10개 대학 통계</h1>
+    
+    <!-- 로딩 바 -->
+    <div class="loading-bar" id="loadingBar">
+        <div class="loading-bar-fill"></div>
+    </div>
+
+    <!-- 차트 영역 -->
+    <div class="chart-container">
+        <!-- 라인 차트 -->
+        <div>
+            <h2>연도별 특허, 상표, 디자인 통계</h2>
+            <canvas id="statisticsChart"></canvas>
+        </div>
+
+        <!-- 파이 차트 -->
+        <div>
+            <h2>디자인, 특허, 상표 개수 비율</h2>
+            <canvas id="statisticsPieChart"></canvas>
+        </div>
+    </div>
+
+    <!-- 대학 목록 테이블 -->
+    <table id="university">
+        <thead>
+            <tr>
+                <th>대학명</th>
+                <th>사업자 등록번호</th>
+                <th>법인등록번호</th>
+                <th>특허 개수</th>
+                <th>상표 개수</th>
+                <th>디자인 개수</th>
+                <th>상세보기</th>
+            </tr>
+        </thead>
+        <tbody id="universityBody">
+            <!-- 데이터가 여기에 동적으로 삽입됩니다 -->
+        </tbody>
+    </table>
+
+    <script>
+        const loadingBar = document.getElementById('loadingBar');
+        const university = document.getElementById('university');
+        const tableBody = document.getElementById('universityBody');
+
+        // API 요청 및 결과 처리
+        function fetchuniversityData() {
+            loadingBar.style.display = 'block';
+            fetch('/api/university/top10')
+                .then(response => response.json())
+                .then(data => {
+                    const companies = data.top_companies;
+                    
+                    companies.forEach(university => {
+                        const row = document.createElement('tr');
+                        
+                        row.innerHTML = `
+                            <td>${university.university_name}</td>
+                            <td>${university.biz_no}</td>
+                            <td>${university.corp_no}</td>
+                            <td>${university.cnt_patent}</td>
+                            <td>${university.cnt_trademark}</td>
+                            <td>${university.cnt_design}</td>
+                            <td><button class="details-btn" onclick="location.href='/university/${university.university_seq}'">상세보기</button></td>
+                        `;
+                        
+                        tableBody.appendChild(row);
+                    });
+
+                    loadingBar.style.display = 'none';
+                    university.style.display = 'table';
+                })
+                .catch(error => {
+                    console.error('Error fetching data:', error);
+                    loadingBar.style.display = 'none';
+                });
+        }
+
+        // 차트 데이터 요청 및 처리
+        async function fetchStatistics() {
+            try {
+                const response = await fetch('/api/statistics_uni');
+                const data = await response.json();
+                renderChart(data);
+            } catch (error) {
+                console.error('Error fetching statistics:', error);
+            }
+        }
+
+        // Chart.js로 그래프 그리기
+        function renderChart(data) {
+            const ctx = document.getElementById('statisticsChart').getContext('2d');
+
+            const years = data.patent_statistics.map(item => item.year);
+            const patentCounts = data.patent_statistics.map(item => item.count);
+            const trademarkCounts = data.trademark_statistics.map(item => item.count);
+            const designCounts = data.design_statistics.map(item => item.count);
+
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: years,
+                    datasets: [
+                        {
+                            label: 'Patents',
+                            data: patentCounts,
+                            borderColor: 'rgba(75, 192, 192, 1)',
+                            backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                            fill: true,
+                        },
+                        {
+                            label: 'Trademarks',
+                            data: trademarkCounts,
+                            borderColor: 'rgba(255, 99, 132, 1)',
+                            backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                            fill: true,
+                        },
+                        {
+                            label: 'Designs',
+                            data: designCounts,
+                            borderColor: 'rgba(54, 162, 235, 1)',
+                            backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                            fill: true,
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Yearly university Statistics'
+                        }
+                    },
+                    scales: {
+                        x: {
+                            title: {
+                                display: true,
+                                text: 'Year'
+                            }
+                        },
+                        y: {
+                            title: {
+                                display: true,
+                                text: 'Count'
+                            },
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        }
+
+
+       // 파이 차트 데이터 요청 및 처리
+       async function fetchTotalCounts() {
+            try {
+                const response = await fetch('/api/statistics/count_uni');
+                const data = await response.json();
+                renderPieChart(data);
+            } catch (error) {
+                console.error('Error fetching total counts:', error);
+            }
+        }
+
+        // Chart.js로 파이 차트 그리기
+        function renderPieChart(data) {
+            const ctx = document.getElementById('statisticsPieChart').getContext('2d');
+
+            new Chart(ctx, {
+                type: 'pie',
+                data: {
+                    labels: ['디자인', '특허', '상표'],
+                    datasets: [{
+                        label: 'Total Counts',
+                        data: [data.design_count, data.patent_count, data.trademark_count],
+                        backgroundColor: ['rgba(54, 162, 235, 0.2)', 'rgba(75, 192, 192, 0.2)', 'rgba(255, 99, 132, 0.2)'],
+                        borderColor: ['rgba(54, 162, 235, 1)', 'rgba(75, 192, 192, 1)', 'rgba(255, 99, 132, 1)'],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: '디자인, 특허, 상표 개수 비율'
+                        }
+                    }
+                }
+            });
+        }
+
+        // 함수 호출
+        fetchuniversityData();
+        fetchStatistics();
+        fetchTotalCounts();        
+    </script>
+</body>
+</html>

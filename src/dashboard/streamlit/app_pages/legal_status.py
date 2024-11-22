@@ -38,21 +38,20 @@ def display_legal_status_data():
 
     # 법적 상태 검색 쿼리
     legal_status_query = f"""
-    SELECT applicant, appl_no, appl_date, ipr_code, legal_status_desc, pub_date
+    SELECT applicant, appl_no, appl_date, ipr_code, legal_status_desc
     FROM (
-        SELECT applicant, appl_no, appl_date, ipr_code, legal_status_desc, pub_date
+        SELECT applicant, appl_no, appl_date, ipr_code, legal_status_desc
         FROM TB24_company_patent
         WHERE legal_status_desc = '{selected_status}'
         UNION ALL
-        SELECT applicant, appl_no, appl_date, ipr_code, legal_status_desc, pub_date
+        SELECT applicant, appl_no, appl_date, ipr_code, legal_status_desc
         FROM TB24_company_design
         WHERE legal_status_desc = '{selected_status}'
         UNION ALL
-        SELECT applicant, appl_no, appl_date, ipr_code, legal_status_desc, pub_date
+        SELECT applicant, appl_no, appl_date, ipr_code, legal_status_desc
         FROM TB24_company_trademark
         WHERE legal_status_desc = '{selected_status}'
     ) AS legal_status_data
-    ORDER BY pub_date DESC
     LIMIT {page_size} OFFSET {offset} 
     """
 
@@ -63,15 +62,15 @@ def display_legal_status_data():
     total_query = f"""
     SELECT COUNT(*) 
     FROM (
-        SELECT applicant, appl_no, appl_date, ipr_code, legal_status_desc, pub_date
+        SELECT applicant, appl_no, appl_date, ipr_code, legal_status_desc
         FROM TB24_company_patent
         WHERE legal_status_desc = '{selected_status}'
         UNION ALL
-        SELECT applicant, appl_no, appl_date, ipr_code, legal_status_desc, pub_date
+        SELECT applicant, appl_no, appl_date, ipr_code, legal_status_desc
         FROM TB24_company_design
         WHERE legal_status_desc = '{selected_status}'
         UNION ALL
-        SELECT applicant, appl_no, appl_date, ipr_code, legal_status_desc, pub_date
+        SELECT applicant, appl_no, appl_date, ipr_code, legal_status_desc
         FROM TB24_company_trademark
         WHERE legal_status_desc = '{selected_status}'
     ) AS legal_status_data
@@ -90,7 +89,7 @@ def display_legal_status_data():
         
         st.dataframe(legal_status_data_reset.rename(columns={'applicant': '출원인', 'appl_no': '출원번호', 
                                                             'appl_date': '출원일', 'ipr_code': '산업재산권 코드', 
-                                                            'legal_status_desc': '법적 상태', 'pub_date': '변경일'}), 
+                                                            'legal_status_desc': '법적 상태'}), 
                      use_container_width=True)
         
         # 페이지 슬라이더 범위 동적 설정

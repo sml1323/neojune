@@ -1,0 +1,39 @@
+# version: "3"
+services:
+# 프로메테우스
+  prometheus:
+    image: prom/prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+    restart: always
+
+# 프로메테우스 푸시 게이트웨이
+  pushgateway:
+    image: prom/pushgateway
+    container_name: pushgateway
+    ports:
+      - "9091:9091"
+    restart: always
+
+# 그라파나
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin  # 기본 관리자 비밀번호 설정
+    depends_on:
+      - prometheus
+    restart: always
+    volumes:
+      - grafana-data:/var/lib/grafana  # Grafana 데이터를 볼륨으로 매핑
+      - ./dashboard.json:/etc/grafana/provisioning/dashboards/dashboard.json  # 대시보드 설정 파일 (선택사항)
+
+# 볼륨 정의
+volumes:
+  grafana-data: {}  # Grafana 데이터를 위한 Docker 볼륨

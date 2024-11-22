@@ -18,12 +18,10 @@ COMPANY_DIR_PATH = f"xml/{KiprisEntityType.COMPANY.value}"
 UNIVERSITY_DIR_PATH = f"xml/{KiprisEntityType.UNIVERSITY.value}"
 
 # 실제 데이터를 가져오려면 아래 주석을 해제하고 위의 테스트 데이터를 주석 처리합니다.
-# COMPANY_APPLICANT_NUMBERS = mysql.get_all_company_no_id()
-# UNIVERSITY_APPLICANT_NUMBERS = mysql.get_all_university_no_id()
+COMPANY_APPLICANT_NUMBERS = mysql.get_all_company_no_id()
+UNIVERSITY_APPLICANT_NUMBERS = mysql.get_all_university_no_id()
 
 # # 테스트 데이터
-COMPANY_APPLICANT_NUMBERS = mysql.get_limit_company_no_id(limit=50) 
-UNIVERSITY_APPLICANT_NUMBERS = mysql.get_limit_university_no_id(limit=50)
 # COMPANY_APPLICANT_NUMBERS = mysql.get_limit_company_no_id(limit=500) 
 # UNIVERSITY_APPLICANT_NUMBERS = mysql.get_limit_university_no_id(limit=500)
 
