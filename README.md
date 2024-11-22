@@ -1,7 +1,7 @@
-## KIPRIS 데이터 수집 및 분석 시스템
+# KIPRIS 데이터 수집 및 분석 시스템
 
 
-### 개요
+## 개요
 
 [![img](https://img.youtube.com/vi/plHdLeNoUWU/hqdefault.jpg)](https://www.youtube.com/watch?v=plHdLeNoUWU)
 
@@ -9,7 +9,7 @@
 
 ---
 
-### 시연 영상
+## 시연 영상
 
 [전체](https://www.youtube.com/watch?v=plHdLeNoUWU)
 
@@ -20,7 +20,7 @@
 
 
 
-### 주요 기능
+## 주요 기능
 
 * **데이터 수집:** KIPRIS Open API를 통해 특허, 상표, 디자인 데이터를 XML 형식으로 수집합니다.
 * **데이터 변환:** 수집된 XML 데이터를 파싱하고, 데이터베이스에 저장하기 위한 SQL 쿼리로 변환합니다.
@@ -31,7 +31,7 @@
 
 ---
 
-### 시스템 아키텍처
+## 시스템 아키텍처
 
 ```
 +-----------------+     +-----------------+     +-----------------+     +-----------------+     +-----------------+
@@ -56,7 +56,7 @@
 
 ---
 
-### 기술 스택
+## 기술 스택
 
 * Python
 * MySQL
@@ -71,7 +71,7 @@
 ---
 
 
-### `.env` 파일 생성 및 설정
+## `.env` 파일 생성 및 설정
 
 1. **`.env` 파일 생성:** 프로젝트 루트 디렉토리에 `.env` 파일을 생성합니다. (`.env.example` 파일을 복사해서 사용하는 것이 좋습니다.)
 
@@ -105,39 +105,50 @@
 ---
 
 
-### 설치 및 실행 방법
+## 설치 및 실행 방법
 
 
-- **Docker 컨테이너 실행 (개발 환경):**
-
-```bash
+### 개발
+```sh
 ./install_dev.sh
 ```
+도커 이미지 하나에 모든 프로그램을 설치한 버전입니다.  
+모든 테스트 환경을 설치 자동으로 설치 하고  
+별도의 설정 없이 개발 환경을 구축 할 때 쓰이는 모델입니다.
 
-- **Docker 컨테이너 실행 (운영 환경):**
+### 운영
 
-```bash
+```sh
 ./install_public.sh
 ```
-- `src/install/public/airflow/dags/kipris_daily.py` 에서
-```
+도커 이미지를 다운로드 하여 컨테이너를 사용하고  
+클러스터링을 하여 부하 분산을 하여  
+실제 서비스를 운영할 때 쓰이기 적합한 모델입니다.
+
+#### 설정
+- src/install/public/airflow/dags/kipris_daily.py
+```python
 # 호스트에 XML 파일이 저장될 경로
 host_output_path = "/home/ubuntu/app/res/output"
 ```
 디렉토리를 만들어 주고 경로를 수정해야 합니다.  
-이 폴더는 DockerOperator 이미지 경로에 마운트되며, 날짜별로 다음 파일이 생성  
+이 폴더는 DockerOperator 이미지 경로에 마운트되며,  
+날짜별로 다음 파일이 생성 합니다.  
+
 - XML파일
 - SQL 파일
 - Log 파일
----
 
-**Airflow DAG 확인**
+
+#### Airflow DAG 확인
 
 - `src/install/airflow/dags/kipris_daily.py` 에서 스케쥴링, 이미지 이름 등 확인하고 수정
 - 8081 포트(해당 서버 public ip)로 접속하여 kipris_daily DAG를 확인
 - {public ip}:8081
 
-#### 실행 스크립트
+---
+
+## 실행 스크립트
 
 * **`run/dashboard/start.sh`**: Airflow, Grafana, Prometheus, Pushgateway, Flask, Streamlit 대시보드를 모두 실행합니다.
 * **`run/dashboard/start_view.sh`**: Flask, Streamlit 대시보드만 실행합니다.
@@ -148,7 +159,7 @@ host_output_path = "/home/ubuntu/app/res/output"
 
 ---
 
-#### 대시보드 사용
+## 대시보드 사용
 
 * **Streamlit 대시보드:** `http://localhost:8501`
 * **Flask 대시보드:** `http://localhost:5000`
@@ -159,7 +170,7 @@ host_output_path = "/home/ubuntu/app/res/output"
 
 ---
 
-### 주요 디렉토리 및 파일 설명
+## 주요 디렉토리 및 파일 설명
 
 * `src/bin`: 데이터 수집, 처리, 변환, 적재 관련 스크립트
 * `src/db`: 데이터베이스 연결 및 관리 모듈
@@ -173,7 +184,7 @@ host_output_path = "/home/ubuntu/app/res/output"
 
 ---
 
-### 디렉토리 구조 및 실행 파일 설명
+## 디렉토리 구조 및 실행 파일 설명
 
 ```
 .
@@ -360,7 +371,7 @@ host_output_path = "/home/ubuntu/app/res/output"
 
 ---
 
-### 주요 모듈 설명
+## 주요 모듈 설명
 
 * **`src/kipris`:** KIPRIS Open API 연동 및 데이터 처리 관련 모듈들을 포함합니다.
     * **`core`:** 핵심 기능 구현 (파라미터 처리, 데이터 변환 등)
@@ -377,16 +388,16 @@ host_output_path = "/home/ubuntu/app/res/output"
 ---
 
 
-### 라이선스 및 사용 정책
+## 라이선스 및 사용 정책
 
 이 프로젝트는 **팀 포트폴리오** 용도로 제작되었습니다.  
 저작권은 프로젝트에 참여한 팀원 전원에게 귀속되며, 아래와 같은 조건에 따라 사용이 제한됩니다.
 
-#### 허용되는 활동  
+## 허용되는 활동  
 - 학습 및 연구 목적으로의 사용  
 - 비상업적인 용도로의 활용  
 
-#### 금지되는 활동  
+## 금지되는 활동  
 - 팀원을 제외한 소스 코드 배포  
 - 팀원을 제외한 상업적 이용  
 - 팀원을 제외한 무단 수정 및 재배포  
