@@ -15,17 +15,17 @@ def sum_total_count(xml_file, ):
 total_sum = 0 
 print("company")
 for data in ['design', 'patent', 'trademark']:
-    xml_file_path = f"/root/neojune/res/output/20241113/xml/company/{data}.xml" # 파일 경로를 여기에 입력하세요
+    xml_file_path = f"/home/ubuntu/app/res/output/20241121/xml/company/{data}.xml" # 파일 경로를 여기에 입력하세요
     total_count_sum = sum_total_count(xml_file_path)
     total_sum += total_count_sum
     print(f"{data} Total count sum:", total_count_sum)
 
 print(total_sum)
 print('--------------')
-
+total_sum = 0 
 print("university")
 for data in ['design', 'patent', 'trademark']:
-    xml_file_path = f"/root/neojune/res/output/20241113/xml/university/{data}.xml" # 파일 경로를 여기에 입력하세요
+    xml_file_path = f"/home/ubuntu/app/res/output/20241121/xml/university/{data}.xml" # 파일 경로를 여기에 입력하세요
     total_count_sum = sum_total_count(xml_file_path)
     total_sum += total_count_sum
     print(f"{data} Total count sum:", total_count_sum)

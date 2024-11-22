@@ -6,8 +6,10 @@ from tqdm import tqdm
 from ....enum.Config import Config
 from ....util import util
 from ....test.prometheus.prometheus import PrometheusDashboard
+import random
 
-semaphore = asyncio.Semaphore(45)
+semaphore = asyncio.Semaphore(25)
+# semaphore = asyncio.Semaphore(21)
 
 class KiprisFetcher:
     def __init__(self, url:str='', params:list[KiprisParam]=[KiprisParam()]):
@@ -26,18 +28,7 @@ class KiprisFetcher:
         return result
 
     async def get_infos(self, file_name: str = "default.prof", org_type: str = 'comp') -> list:
-        try:
-            # PrometheusDashboard 객체 생성
-            self.prometheus = PrometheusDashboard(org_type=org_type, service_type=file_name)
-
-            # 연결 여부 확인
-            if not hasattr(self.prometheus, 'is_connected') or not self.prometheus.is_connected():
-                print("Prometheus 연결 확인 실패, 연결하지 않고 실행합니다.")
-                self.prometheus = None  # Prometheus 사용하지 않도록 처리
-
-        except Exception as e:
-            print(f"Prometheus 초기화 중 오류 발생: {e}")
-            self.prometheus = None  # Prometheus 사용하지 않도록 처리
+        self.prometheus = PrometheusDashboard(org_type=org_type, service_type=file_name)
 
         # 프로파일링 적용
         base_path = f"{Config.OUTPUT_PATH.value}/{util.get_timestamp()}/log"

@@ -1,46 +1,46 @@
 from airflow import DAG
-from airflow.providers.docker.operators.docker import DockerOperator
+from airflow.operators.python import PythonOperator
 from airflow.utils.task_group import TaskGroup
-from docker.types import Mount
 from datetime import datetime
-from pendulum import timezone  # pendulum의 timezone을 import
+from pendulum import timezone
+import os
+import subprocess
 
-# 호스트에 XML 파일이 저장될 경로
-host_output_path = "/home/ubuntu/app/res/output"
+# 처리 엔티티 목록
+entities = [
+    "company_design", "company_patent", "company_trademark",
+    "university_design", "university_patent", "university_trademark"
+]
+
+# 작업 디렉토리 설정
+WORK_DIR = os.getenv('WORK_DIR', '/root/work')  # 기본값은 '/root/work'
+MAIN_PY_PATH = os.path.join(WORK_DIR, 'main.py')  # main.py의 경로
+
 
 # 공통 태스크 생성 함수
-def create_task(task_id, module, task):
-    return DockerOperator(
+def execute_task(module, task_name):
+    command = f'python {MAIN_PY_PATH} {module} {task_name}'
+    subprocess.run(command, shell=True, check=True, cwd=WORK_DIR)
+
+
+# PythonOperator 생성 함수
+def create_task(task_id, module, task_name):
+    return PythonOperator(
         task_id=task_id,
-        image='neojune_kipris_service:1.4',
-        api_version='auto',
-        auto_remove=True,
-        command=f'python main.py {module} {task}',
-        mount_tmp_dir=False,
-        do_xcom_push=False, 
-        docker_url='unix://var/run/docker.sock',
-        network_mode='bridge',
-        mounts=[
-            Mount(
-                source=host_output_path,
-                target="/app/res/output",
-                type="bind"
-            )
-        ],
+        python_callable=execute_task,
+        op_args=[module, task_name],  # 'task' 대신 'task_name'으로 변경
     )
 
+
+# DAG 정의
 with DAG(
-    'all_task-1.0',
+    'all_task_dev-1.0',
     default_args={'retries': 1},
-    description='A DAG with DockerOperator tasks for XML, SQL, and DB processing',
+    description='A DAG with PythonOperator tasks for XML, SQL, and DB processing',
     schedule_interval='0 7 * * *',
     start_date=datetime(2023, 1, 1, tzinfo=timezone('Asia/Seoul')),
     catchup=False,
 ) as dag:
-
-    # 처리 엔티티 목록
-    entities = ["company_design", "company_patent", "company_trademark",
-                "university_design", "university_patent", "university_trademark"]
 
     # XML 처리 태스크 그룹
     with TaskGroup(group_id='xml_processing') as xml_group:
@@ -48,7 +48,7 @@ with DAG(
         for entity in entities:
             task = create_task(f'run_xml_{entity}', 'save_to_xml', entity)
             if prev_task:
-                prev_task >> task  
+                prev_task >> task
             prev_task = task
 
     # SQL 처리 태스크 그룹 (병렬 실행)
@@ -62,7 +62,7 @@ with DAG(
         for entity in entities:
             task = create_task(f'run_base_{entity}', 'sql_to_db', f'base {entity}')
             if prev_task:
-                prev_task >> task 
+                prev_task >> task
             prev_task = task
 
     # IPC/CPC 작업 그룹
@@ -71,7 +71,7 @@ with DAG(
         for entity in ["company_patent", "university_patent"]:
             task = create_task(f'run_ipc_cpc_{entity}', 'sql_to_db', f'ipc_cpc {entity}')
             if prev_task:
-                prev_task >> task  
+                prev_task >> task
             prev_task = task
 
     # Priority 작업 그룹
@@ -80,7 +80,7 @@ with DAG(
         for entity in ["company_design", "company_trademark", "university_design", "university_trademark"]:
             task = create_task(f'run_priority_{entity}', 'sql_to_db', f'priority {entity}')
             if prev_task:
-                prev_task >> task 
+                prev_task >> task
             prev_task = task
 
     # dict_to_sql_sub 처리 태스크 그룹 (순차 실행)
@@ -89,7 +89,7 @@ with DAG(
         for entity in entities:
             task = create_task(f'run_dict_{entity}', 'dict_to_sql_sub', entity)
             if prev_task:
-                prev_task >> task  
+                prev_task >> task
             prev_task = task
 
     # 태스크 그룹 간 연결

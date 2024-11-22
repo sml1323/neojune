@@ -1,4 +1,4 @@
--- Active: 1731326975902@@kt2.elementsoft.biz@13306@kipris
+-- Active: 1732169686429@@kt2.elementsoft.biz@13306@kipris
 -- 기업정보
 
 CREATE TABLE TB24_100 (
@@ -219,14 +219,13 @@ ADD UNIQUE (ipr_seq, ipc_cpc_code);
 -- 기업 우선권 테이블
 CREATE TABLE TB24_320_company (
     priority_seq INT AUTO_INCREMENT PRIMARY KEY,
-    ipr_seq INT NOT NULL,              -- TB24_design 또는 TB24_trademark의 ipr_seq 참조
-    ipr_type ENUM('design', 'trademark') NOT NULL, -- 참조 타입 구분
-    priority_no VARCHAR(50) UNIQUE,    -- 우선권주장번호
-    priority_date DATE,                -- 우선권주장일자
-    FOREIGN KEY (ipr_seq) REFERENCES TB24_company_trademark(ipr_seq) ON DELETE CASCADE,
-    FOREIGN KEY (ipr_seq) REFERENCES TB24_company_design(ipr_seq) ON DELETE CASCADE,
+    ipr_seq INT NOT NULL,
+    ipr_type ENUM('design', 'trademark') NOT NULL,
+    priority_no VARCHAR(50) UNIQUE,
+    priority_date DATE,
     CHECK (ipr_type IN ('design', 'trademark'))
 );
+
 
 ALTER TABLE TB24_320_company
 ADD UNIQUE (ipr_seq, ipr_type, priority_no);
@@ -238,9 +237,7 @@ CREATE TABLE TB24_320_university (
     ipr_type ENUM('design', 'trademark') NOT NULL, -- 참조 타입 구분
     priority_no VARCHAR(50) UNIQUE,    -- 우선권주장번호
     priority_date DATE,                -- 우선권주장일자
-		FOREIGN KEY (ipr_seq) REFERENCES TB24_university_trademark(ipr_seq) ON DELETE CASCADE,
-    FOREIGN KEY (ipr_seq) REFERENCES TB24_university_design(ipr_seq) ON DELETE CASCADE,
-    CHECK (ipr_type IN ('design', 'trademark'))
+	CHECK (ipr_type IN ('design', 'trademark'))
 );
 
 ALTER TABLE TB24_320_university

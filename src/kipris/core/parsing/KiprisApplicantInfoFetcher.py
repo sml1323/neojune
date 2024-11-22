@@ -46,7 +46,7 @@ class KiprisApplicantInfoFetcher:
         """API 호출 후 페이지 내용 반환"""
         self.params.docsStart = page
         async with KiprisFetcher.semaphore:
-            logger.info("호출 성공") 
+            logger.info("호출 요청") 
             await asyncio.sleep(random.uniform(0.01, 0.03))
             # await asyncio.sleep(0.02)
             self.prometheus.api_counter_plus()
@@ -113,7 +113,7 @@ class KiprisApplicantInfoFetcher:
 
     async def __increment_page(self, page: int) -> int:
         """페이지 증가 및 지연 적용"""
-        # await asyncio.sleep(0.02)
+        await asyncio.sleep(0.02)
         return page + self.params.docsCount
 
     async def __fetch_initial(self):

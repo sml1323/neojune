@@ -22,8 +22,8 @@ COMPANY_APPLICANT_NUMBERS = mysql.get_all_company_no_id()
 UNIVERSITY_APPLICANT_NUMBERS = mysql.get_all_university_no_id()
 
 # # 테스트 데이터
-# COMPANY_APPLICANT_NUMBERS = mysql.get_limit_company_no_id(limit=50) 
-# UNIVERSITY_APPLICANT_NUMBERS = mysql.get_limit_university_no_id(limit=50)
+# COMPANY_APPLICANT_NUMBERS = mysql.get_limit_company_no_id(limit=500) 
+# UNIVERSITY_APPLICANT_NUMBERS = mysql.get_limit_university_no_id(limit=500)
 
 async def run_company_patent():
     monitoring.setup_bin_logger(TableName.TB24_200, KiprisEntityType.COMPANY, ApiType.PATENT)
