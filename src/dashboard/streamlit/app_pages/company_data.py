@@ -112,7 +112,6 @@ def display_company_data():
                 st.rerun()  # 페이지 갱신
 
     # 다운로드 버튼
-    # download_button(paged_data, "company_data.csv", "기업 데이터 다운로드")
     st.download_button(
             label="📥 기업 데이터 다운로드", 
             data=convert_df_to_excel(paged_data_reset), 

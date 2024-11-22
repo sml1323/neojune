@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 from db_connection import fetch_data
-from app_pages import dashboard, company_data, university_data, legal_status, report
+from app_pages import dashboard, company_data, company_analyze, university_data, legal_status, report
 
 # Streamlit 설정
 st.set_page_config(page_title="산업재산권 Dashboard", layout="wide")
@@ -33,8 +33,8 @@ def get_paged_data(data, page_size=30):
 with st.sidebar:
     page = option_menu(
             "",  # 메뉴 제목(생략)
-            ["Dashboard", "기업", "대학교", "법적 상태", "Report"],  
-            icons=['house', 'bi bi-building', 'bi bi-mortarboard', 'bi bi-book', 'bi bi-bar-chart-line'],  # 아이콘 추가
+            ["Dashboard", "법적 상태", "기업 분석", "Report", "기업", "대학교"],  
+            icons=['house', 'bi bi-book', 'bi bi-pie-chart', 'bi bi-bar-chart-line', 'bi bi-building', 'bi bi-mortarboard'],  # 아이콘 추가
             menu_icon="app-indicator",  # 사이드바 상단 아이콘
             default_index=0,  # 기본 선택값
             styles={
@@ -54,6 +54,8 @@ if page == "Dashboard":
     dashboard.display_dashboard_summary()
 elif page == "기업":
     company_data.display_company_data()
+elif page == "기업 분석":
+    company_analyze.display_company_analyze()
 elif page == "대학교":
     university_data.display_university_data()
 elif page == "법적 상태":  

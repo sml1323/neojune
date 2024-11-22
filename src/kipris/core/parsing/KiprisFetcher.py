@@ -7,34 +7,34 @@ from ....enum.Config import Config
 from ....util import util
 from ....test.prometheus.prometheus import PrometheusDashboard
 import random
-semaphore = asyncio.Semaphore(21)
+
+semaphore = asyncio.Semaphore(25)
+# semaphore = asyncio.Semaphore(21)
 
 class KiprisFetcher:
     def __init__(self, url:str='', params:list[KiprisParam]=[KiprisParam()]):
         self.url = url
         self.params = params
+        self.prometheus:PrometheusDashboard = None
 
     async def __task(self, param: KiprisParam, session: aiohttp.ClientSession):
+        # Prometheus 없이도 실행 가능하도록 처리
         info = KiprisApplicantInfoFetcher(self.url, param)
-        # self.prometheus.api_counter_plus() 
         result = await info.get_info(session, self.prometheus)
-        # result = await info.get_info(session)  # session 전달
-        self.prometheus.api_total_time()
+
+        if self.prometheus:  # Prometheus가 연결되었을 때만 시간 기록
+            self.prometheus.api_total_time()
+
         return result
 
-    async def get_infos(self, file_name: str = "default.prof", org_type:str = 'comp') -> list:
+    async def get_infos(self, file_name: str = "default.prof", org_type: str = 'comp') -> list:
         self.prometheus = PrometheusDashboard(org_type=org_type, service_type=file_name)
-        # 여기서 yappi_profiler를 동적으로 적용하여 호출
+
+        # 프로파일링 적용
         base_path = f"{Config.OUTPUT_PATH.value}/{util.get_timestamp()}/log"
         profiled_get_infos = util.yappi_profiler(f'{base_path}/{file_name}')(self.__get_infos)
         return await profiled_get_infos()
 
-    # async def _get_infos(self) -> list:
-    #     tasks = []
-    #     for param in tqdm(self.params):
-    #         task = self.__task(param)
-    #         tasks.append(task)
-    #     return await asyncio.gather(*tasks)
 
     async def __get_infos(self) -> list:
         tasks = []
