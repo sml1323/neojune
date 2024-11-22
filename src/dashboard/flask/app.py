@@ -26,12 +26,17 @@ db = SQLAlchemy(app)
 def mainPage():
     return render_template("index.html")
 
+@app.route("/university")
+def mainPage_uni():
+    return render_template("index_uni.html")
 
 @app.route("/company/<company_id>")
 def companyPage(company_id):
-
     return render_template("company.html")
 
+@app.route("/university/<university_id>")
+def universityPage(university_id):
+    return render_template("university.html")
 
 @app.route('/api/company/<int:company_id>', methods=['GET'])
 def get_company_details(company_id):
@@ -93,7 +98,65 @@ def get_company_details(company_id):
         return jsonify({"company": company_data}), 200
     else:
         return jsonify({"message": "Company not found"}), 404
-    
+
+@app.route('/api/university/<int:university_id>', methods=['GET'])
+def get_university_details(university_id):
+    # 회사 상세 정보 쿼리
+    sql = text("""
+        SELECT 
+            univ.uni_seq as university_seq,
+            univ.biz_no as biz_no,
+            univ.corp_no as corp_no,
+            univ.applicant as university_name,
+            -- 특허 통계
+            (SELECT COUNT(*) FROM tb24_university_patent cpr WHERE cpr.applicant_id = applicant.applicant_id) AS cnt_patent,
+            -- 상표 통계 (등록 날짜 대신 pub_date 사용)
+            (SELECT COUNT(*) FROM tb24_university_trademark trademark WHERE applicant.applicant_id = trademark.applicant_id) AS cnt_trademark,
+            -- 디자인 통계
+            (SELECT COUNT(*) FROM tb24_university_design design WHERE applicant.applicant_id = design.applicant_id) AS cnt_design,
+            -- 등록된 특허
+            (SELECT COUNT(*) FROM tb24_university_patent cpr WHERE cpr.applicant_id = applicant.applicant_id AND cpr.reg_date IS NOT NULL) AS registered_patents,
+            -- 공개된 특허
+            (SELECT COUNT(*) FROM tb24_university_patent cpr WHERE cpr.applicant_id = applicant.applicant_id AND cpr.pub_date IS NOT NULL) AS published_patents,
+            -- 등록된 상표 (등록 날짜 대신 pub_date 사용)
+            (SELECT COUNT(*) FROM tb24_university_trademark trademark WHERE applicant.applicant_id = trademark.applicant_id AND trademark.pub_date IS NOT NULL) AS registered_trademarks,
+            -- 공개된 상표
+            (SELECT COUNT(*) FROM tb24_university_trademark trademark WHERE applicant.applicant_id = trademark.applicant_id AND trademark.pub_date IS NOT NULL) AS published_trademarks,
+            -- 등록된 디자인
+            (SELECT COUNT(*) FROM tb24_university_design design WHERE applicant.applicant_id = design.applicant_id AND design.reg_date IS NOT NULL) AS registered_designs,
+            -- 공개된 디자인
+            (SELECT COUNT(*) FROM tb24_university_design design WHERE applicant.applicant_id = design.applicant_id AND design.pub_date IS NOT NULL) AS published_designs
+        FROM 
+            tb24_110 AS univ
+        JOIN 
+            tb24_210 AS applicant
+            ON univ.uni_seq = applicant.app_seq
+        WHERE univ.uni_seq =  :university_id;
+    """)
+
+    result = db.session.execute(sql, {'university_id': university_id})
+
+    university = result.fetchone()
+
+    if university:
+        university_data = {
+            "university_seq": university.university_seq,
+            "biz_no": university.biz_no,
+            "corp_no": university.corp_no,
+            "university_name": university.university_name,
+            "cnt_patent": university.cnt_patent,
+            "cnt_trademark": university.cnt_trademark,
+            "cnt_design": university.cnt_design,
+            "registered_patents": university.registered_patents,
+            "published_patents": university.published_patents,
+            "registered_trademarks": university.registered_trademarks,
+            "published_trademarks": university.published_trademarks,
+            "registered_designs": university.registered_designs,
+            "published_designs": university.published_designs
+        }
+        return jsonify({"university": university_data}), 200
+    else:
+        return jsonify({"message": "university not found"}), 404
 
 @app.route('/api/company/top10', methods=['GET'])
 def get_top10_companies():
@@ -144,6 +207,53 @@ def get_top10_companies():
 
     return jsonify({"top_companies": top_companies_data})
 
+@app.route('/api/university/top10', methods=['GET'])
+def get_top10_university():
+    sql = text("""
+    SELECT t1.* 
+    FROM (
+        SELECT 
+            univ.uni_seq as uni_seq,
+            univ.biz_no as biz_no,
+            univ.corp_no as corp_no,
+            univ.applicant as applicant,
+            (SELECT COUNT(*) 
+             FROM tb24_university_patent cpr 
+             WHERE cpr.applicant_id = applicant.applicant_id) AS cnt_patent,
+            (SELECT COUNT(*) 
+             FROM tb24_university_trademark trademark 
+             WHERE applicant.applicant_id = trademark.applicant_id) AS cnt_trademark,
+            (SELECT COUNT(*) 
+             FROM tb24_university_design design 
+             WHERE applicant.applicant_id = design.applicant_id) AS cnt_design
+        FROM 
+            tb24_110 AS univ
+        JOIN 
+            tb24_210 AS applicant
+            ON univ.uni_seq = applicant.app_seq
+    ) t1
+    ORDER BY t1.cnt_patent + t1.cnt_trademark + t1.cnt_design DESC
+    LIMIT 10;
+    """)
+    
+    result = db.session.execute(sql)
+    
+    # 상위 10개 회사에 대한 통계 데이터
+    top_companies_data = [
+        {
+            "university_seq": row[0],
+            "biz_no": row[1],
+            "corp_no": row[2],
+            "university_name": row[3],
+            "cnt_patent": row[4],
+            "cnt_trademark": row[5],
+            "cnt_design": row[6],
+        }
+        for row in result
+    ]
+
+    return jsonify({"top_companies": top_companies_data})
+
 # 연도별 통계 API
 @app.route('/api/statistics', methods=['GET'])
 def get_patent_statistics():
@@ -187,6 +297,48 @@ def get_patent_statistics():
         "design_statistics": design_data,
     })
 
+@app.route('/api/statistics_uni', methods=['GET'])
+def get_patent_statistics_uni():
+    sql = text("""
+        SELECT YEAR(tcd.reg_date) AS year, COUNT(*) AS count
+        FROM tb24_university_patent tcd
+        WHERE tcd.reg_date IS NOT NULL
+        GROUP BY year
+        HAVING year > 2010
+        ORDER BY year;
+    """)
+    result = db.session.execute(sql)
+    patent_data = [{"year": row.year, "count": row.count} for row in result]
+
+    sql = text("""
+        SELECT YEAR(tcd.pub_date) AS year, COUNT(*) AS count
+        FROM tb24_university_trademark tcd
+        WHERE tcd.pub_date IS NOT NULL
+        AND tcd.legal_status_desc = '등록'
+        GROUP BY year
+        HAVING year > 2010
+        ORDER BY year;
+    """)
+    result = db.session.execute(sql)
+    trademark_data = [{"year": row.year, "count": row.count} for row in result]
+
+    sql = text("""
+        SELECT YEAR(tcd.reg_date) AS year, COUNT(*) AS count
+        FROM tb24_university_design tcd
+        WHERE tcd.reg_date IS NOT NULL
+        GROUP BY year
+        HAVING year > 2010
+        ORDER BY year;
+    """)
+    result = db.session.execute(sql)
+    design_data = [{"year": row.year, "count": row.count} for row in result]
+
+    return jsonify({
+        "patent_statistics": patent_data,
+        "trademark_statistics": trademark_data,
+        "design_statistics": design_data,
+    })
+
 @app.route('/api/statistics/count', methods=['GET'])
 def get_total_counts():
     # 디자인 개수
@@ -199,6 +351,27 @@ def get_total_counts():
     
     # 상표 개수
     trademark_count_query = text("SELECT COUNT(*) AS count FROM tb24_company_trademark tcd;")
+    trademark_count_result = db.session.execute(trademark_count_query).scalar()
+
+    # 결과를 JSON 형식으로 반환
+    return jsonify({
+        "design_count": design_count_result,
+        "patent_count": patent_count_result,
+        "trademark_count": trademark_count_result
+    })
+
+@app.route('/api/statistics/count_uni', methods=['GET'])
+def get_total_counts_uni():
+    # 디자인 개수
+    design_count_query = text("SELECT COUNT(*) AS count FROM tb24_university_design tcd;")
+    design_count_result = db.session.execute(design_count_query).scalar()
+    
+    # 특허 개수
+    patent_count_query = text("SELECT COUNT(*) AS count FROM tb24_university_patent tcd;")
+    patent_count_result = db.session.execute(patent_count_query).scalar()
+    
+    # 상표 개수
+    trademark_count_query = text("SELECT COUNT(*) AS count FROM tb24_university_trademark tcd;")
     trademark_count_result = db.session.execute(trademark_count_query).scalar()
 
     # 결과를 JSON 형식으로 반환
