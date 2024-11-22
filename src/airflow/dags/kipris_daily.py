@@ -12,7 +12,7 @@ host_output_path = "/home/ubuntu/app/res/output"
 def create_task(task_id, module, task):
     return DockerOperator(
         task_id=task_id,
-        image='neojune_kipris_service:tasksleep36',
+        image='neojune_kipris_service_final:1.0',
         api_version='auto',
         auto_remove=True,
         command=f'python main.py {module} {task}',
@@ -30,11 +30,11 @@ def create_task(task_id, module, task):
     )
 
 with DAG(
-    'kipris_daily_tasksleep',
+    'kipris_daily',
     default_args={'retries': 1},
     description='A DAG with DockerOperator tasks for XML, SQL, and DB processing',
-    # schedule_interval='0 12 * * *',
     start_date=datetime(2023, 1, 1, tzinfo=timezone('Asia/Seoul')),
+    schedule_interval='0 2 * * *',
     catchup=False,
 ) as dag:
 

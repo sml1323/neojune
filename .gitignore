@@ -6,3 +6,4 @@ res/output
 res/log/*
 combined_file.md
 temp
+src/airflow/logs
