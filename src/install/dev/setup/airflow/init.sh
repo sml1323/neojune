@@ -9,13 +9,13 @@ airflow users create \
     --role Admin \
     --email admin@example.com
 
-ln -s /root/work/src/airflow /root/airflow/dags
+ln -s /root/work/src/install/dev/setup/airflow/dags /root/airflow/dags
 
 # Airflow 설정 파일 경로
 AIRFLOW_CFG="/root/airflow/airflow.cfg"
 
 # 수정할 dags_folder 경로
-DAGS_FOLDER="/root/work/src/airflow"
+DAGS_FOLDER="/root/work/src/install/dev/setup/airflow/dags"
 
 # dags_folder 설정을 수정
 sed -i "s|^dags_folder =.*|dags_folder = $DAGS_FOLDER|" $AIRFLOW_CFG
