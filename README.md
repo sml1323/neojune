@@ -71,40 +71,6 @@
 ---
 
 
-## `.env` 파일 생성 및 설정
-
-1. **`.env` 파일 생성:** 프로젝트 루트 디렉토리에 `.env` 파일을 생성합니다. (`.env.example` 파일을 복사해서 사용하는 것이 좋습니다.)
-
-2. **환경 변수 설정:** `.env` 파일에 다음과 같은 형식으로 환경 변수를 설정합니다.
-
-   ```
-   변수이름=값
-   ```
-
-   예시:
-
-   ```
-   DB_HOST=kt2.elementsoft.biz
-   DB_USER=kipris
-   DB_PASSWORD=비번
-   DB_NAME=kipris
-   DB_PORT=13306
-   SERVICE_KEY=YOUR_KIPRIS_SERVICE_KEY  # 실제 서비스 키로 변경
-   OUTPUT_PATH=app/res/output
-   PUSH_GATEWAY_ADDRESS=ip:9091 # prometheus push gateway 주소
-   ```
-
-   * **`DB_HOST`, `DB_USER`, `DB_PASSWORD`, `DB_NAME`, `DB_PORT`**: MySQL 데이터베이스 연결 정보입니다. 실제 사용하는 데이터베이스 정보로 변경해야 합니다.
-   * **`SERVICE_KEY`**: KIPRIS Open API에 접근하기 위한 서비스 키입니다.  KIPRIS에서 발급받은 서비스 키로 변경해야 합니다.
-   * **`OUTPUT_PATH`**:  데이터 수집 결과물 (XML, SQL 파일) 도커 오퍼레이터 안에서 저장될 경로입니다. 로컬 저장장소와 연결됩니다.
-   * **`PUSH_GATEWAY_ADDRESS`**: Prometheus Pushgateway의 주소입니다.  Prometheus 설정에 따라 변경해야 합니다.  
-        **실행하는 서버의 주소를 입력 해야합니다** **`매우 중요!`**
-
-3. **`.gitignore`에 `.env` 추가:** `.env` 파일에는 중요한 정보 (데이터베이스 비밀번호, API 키 등)가 포함될 수 있으므로,  `.gitignore` 파일에 `.env`를 추가하여 Git 저장소에 포함되지 않도록 해야 합니다.
-
----
-
-
 ## 설치 및 실행 방법
 
 
@@ -147,6 +113,43 @@ host_output_path = "/home/ubuntu/app/res/output"
 - {public ip}:8081
 
 ---
+
+
+## `.env` 파일 생성 및 설정
+
+1. **`.env` 파일 생성:** 프로젝트 루트 디렉토리에 `.env` 파일을 생성합니다. (`.env.example` 파일을 복사해서 사용하는 것이 좋습니다.)
+
+2. **환경 변수 설정:** `.env` 파일에 다음과 같은 형식으로 환경 변수를 설정합니다.
+
+   ```
+   변수이름=값
+   ```
+
+   예시:
+
+   ```
+   DB_HOST=kt2.elementsoft.biz
+   DB_USER=kipris
+   DB_PASSWORD=비번
+   DB_NAME=kipris
+   DB_PORT=13306
+   SERVICE_KEY=YOUR_KIPRIS_SERVICE_KEY  # 실제 서비스 키로 변경
+   OUTPUT_PATH=app/res/output
+   PUSH_GATEWAY_ADDRESS=ip주소:9091 # prometheus push gateway 주소
+   ```
+
+   * **`DB_HOST`, `DB_USER`, `DB_PASSWORD`, `DB_NAME`, `DB_PORT`**: MySQL 데이터베이스 연결 정보입니다. 실제 사용하는 데이터베이스 정보로 변경해야 합니다.
+   * **`SERVICE_KEY`**: KIPRIS Open API에 접근하기 위한 서비스 키입니다.  KIPRIS에서 발급받은 서비스 키로 변경해야 합니다.
+   * **`OUTPUT_PATH`**:  데이터 수집 결과물 (XML, SQL 파일) 도커 오퍼레이터 안에서 저장될 경로입니다. 로컬 저장장소와 연결됩니다.
+   * **`PUSH_GATEWAY_ADDRESS`**: Prometheus Pushgateway의 주소입니다.  Prometheus 설정에 따라 변경해야 합니다.  
+        **실행하는 서버의 주소를 입력 해야합니다** **`매우 중요!`**
+
+3. **`.gitignore`에 `.env` 추가:** `.env` 파일에는 중요한 정보 (데이터베이스 비밀번호, API 키 등)가 포함될 수 있으므로,  `.gitignore` 파일에 `.env`를 추가하여 Git 저장소에 포함되지 않도록 해야 합니다.
+
+---
+
+---
+
 
 ## 실행 스크립트
 
