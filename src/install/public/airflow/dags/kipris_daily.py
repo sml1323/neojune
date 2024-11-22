@@ -5,14 +5,14 @@ from docker.types import Mount
 from datetime import datetime
 from pendulum import timezone  # pendulum의 timezone을 import
 
-# 호스트에 XML 파일이 저장될 경로
+# 호스트에 XML 파일이 저장될 경로 ## 수정필요!! ##
 host_output_path = "/home/ubuntu/app/res/output"
 
 # 공통 태스크 생성 함수
 def create_task(task_id, module, task):
     return DockerOperator(
         task_id=task_id,
-        image='neojune_kipris_service_final:1.0',
+        image='neojune_kipris_service:1.0',
         api_version='auto',
         auto_remove=True,
         command=f'python main.py {module} {task}',

@@ -76,17 +76,15 @@
    DB_NAME=kipris
    DB_PORT=13306
    SERVICE_KEY=YOUR_KIPRIS_SERVICE_KEY  # 실제 서비스 키로 변경
-   OUTPUT_PATH=res/output
+   OUTPUT_PATH=app/res/output
    PUSH_GATEWAY_ADDRESS=54.180.253.90:9091 # prometheus push gateway 주소
-   WORK_DIR=/root/work # airflow dags 파일 경로 설정
    ```
 
    * **`DB_HOST`, `DB_USER`, `DB_PASSWORD`, `DB_NAME`, `DB_PORT`**: MySQL 데이터베이스 연결 정보입니다. 실제 사용하는 데이터베이스 정보로 변경해야 합니다.
    * **`SERVICE_KEY`**: KIPRIS Open API에 접근하기 위한 서비스 키입니다.  KIPRIS에서 발급받은 서비스 키로 변경해야 합니다.
-   * **`OUTPUT_PATH`**:  데이터 수집 결과물 (XML, SQL 파일)이 저장될 경로입니다. 필요에 따라 수정할 수 있습니다.  
+   * **`OUTPUT_PATH`**:  데이터 수집 결과물 (XML, SQL 파일) 도커 오퍼레이터 안에서 저장될 경로입니다. 로컬 저장장소와 연결됩니다.
    * **`PUSH_GATEWAY_ADDRESS`**: Prometheus Pushgateway의 주소입니다.  Prometheus 설정에 따라 변경해야 합니다.  
         **실행하는 서버의 주소를 입력 해야합니다** **`매우 중요!`**
-   * **`WORK_DIR`**: Airflow DAGs 파일이 위치한 작업 디렉토리 경로입니다. Docker 컨테이너 내부의 경로를 설정해야 합니다.
 
 3. **`.gitignore`에 `.env` 추가:** `.env` 파일에는 중요한 정보 (데이터베이스 비밀번호, API 키 등)가 포함될 수 있으므로,  `.gitignore` 파일에 `.env`를 추가하여 Git 저장소에 포함되지 않도록 해야 합니다.
 
@@ -107,7 +105,16 @@
 ```bash
 ./install_public.sh
 ```
-
+- `src/install/public/airflow/dags/kipris_daily.py` 에서
+```
+# 호스트에 XML 파일이 저장될 경로
+host_output_path = "/home/ubuntu/app/res/output"
+```
+디렉토리를 만들어 주고 경로를 수정해야 합니다.  
+이 폴더는 DockerOperator 이미지 경로에 마운트되며, 날짜별로 다음 파일이 생성  
+- XML파일
+- SQL 파일
+- Log 파일
 ---
 
 #### 실행 스크립트

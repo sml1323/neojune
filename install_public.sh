@@ -27,4 +27,4 @@ docker compose up -d
 # 7. Docker 이미지 빌드
 cd /home/ubuntu/work/neojune
 echo "Building Docker image for neojune_kipris_service..."
-docker build -f ./src/install/public/Dockerfile -t neojune_kipris_service:1 .
+docker build -f ./src/install/public/Dockerfile -t neojune_kipris_service:1.0 .
