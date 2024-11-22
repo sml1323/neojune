@@ -6,6 +6,7 @@ set -e  # 스크립트 실행 중 오류 발생 시 중단
 cd src/install/public/airflow
 
 # 2. .env 파일 생성
+mv .env_default .env
 echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_GID=0" > .env
 
 # 3. Airflow 초기화 실행
