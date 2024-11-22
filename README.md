@@ -72,7 +72,7 @@
    ```
    DB_HOST=kt2.elementsoft.biz
    DB_USER=kipris
-   DB_PASSWORD=kipris1004
+   DB_PASSWORD=비번
    DB_NAME=kipris
    DB_PORT=13306
    SERVICE_KEY=YOUR_KIPRIS_SERVICE_KEY  # 실제 서비스 키로 변경
