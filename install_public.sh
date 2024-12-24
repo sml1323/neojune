@@ -6,7 +6,6 @@ set -e  # 스크립트 실행 중 오류 발생 시 중단
 cd src/install/public/airflow
 
 # 2. .env 파일 생성
-mv .env_default .env
 echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_GID=0" > .env
 
 # 3. Airflow 초기화 실행
@@ -24,7 +23,3 @@ cd ../prometheus
 echo "Starting Prometheus services..."
 docker compose up -d
 
-# 7. Docker 이미지 빌드
-cd /home/ubuntu/work/neojune
-echo "Building Docker image for neojune_kipris_service..."
-docker build -f ./src/install/public/Dockerfile -t neojune_kipris_service:1.0 .
