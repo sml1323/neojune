@@ -47,8 +47,7 @@ class KiprisApplicantInfoFetcher:
         self.params.docsStart = page
         async with KiprisFetcher.semaphore:
             logger.info("호출 요청") 
-            await asyncio.sleep(random.uniform(0.01, 0.03))
-            # await asyncio.sleep(0.02)
+            await asyncio.sleep(0.02)
             self.prometheus.api_counter_plus()
             async with self.session.get(self.url, params=self.params.get_dict(), timeout=10) as response:
                 result = await response.text()
