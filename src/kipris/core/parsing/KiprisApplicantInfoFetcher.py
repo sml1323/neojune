@@ -46,13 +46,13 @@ class KiprisApplicantInfoFetcher:
         """API 호출 후 페이지 내용 반환"""
         self.params.docsStart = page
         async with KiprisFetcher.semaphore:
-            logger.info("호출 요청") 
-            await asyncio.sleep(0.02)
-            self.prometheus.api_counter_plus()
-            async with self.session.get(self.url, params=self.params.get_dict(), timeout=10) as response:
-                result = await response.text()
-                self.prometheus.api_response_time()
-                return result
+            async with KiprisFetcher.rate_limiter:
+                logger.info("호출 요청") 
+                self.prometheus.api_counter_plus()
+                async with self.session.get(self.url, params=self.params.get_dict(), timeout=10) as response:
+                    result = await response.text()
+                    self.prometheus.api_response_time()
+                    return result
 
     def __get_total_count(self, content: str) -> int:
         """lxml을 사용하여 XML 응답에서 totalCount 또는 TotalSearchCount 값을 추출"""
