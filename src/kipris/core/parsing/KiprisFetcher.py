@@ -11,9 +11,8 @@ from aiolimiter import AsyncLimiter
 
 
 
-semaphore = asyncio.Semaphore(45)
-
-rate_limiter = AsyncLimiter(max_rate=40, time_period=1)
+semaphore = asyncio.Semaphore(20)
+rate_limiter = AsyncLimiter(max_rate=20, time_period=1)
 
 class KiprisFetcher:
     def __init__(self, url:str='', params:list[KiprisParam]=[KiprisParam()]):
